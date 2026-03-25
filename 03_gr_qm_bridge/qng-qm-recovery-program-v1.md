@@ -70,12 +70,13 @@ Current live position:
 - QM-R3 first operator-algebra proxy is now `proxy-supported`
 - first propagator proxy family is now `proxy-supported`
 - first propagator composition proxy is now `proxy-supported`
+- first semigroup closure proxy is now `proxy-supported` (3-step overlap 0.9988, per-step decay ratio 0.9994)
 - QM-R4 first mode/spectrum step is now `proxy-supported`
 
 That means:
 
 - the rebuilt QM lane is no longer only correlator-like
-- it is now best described as a local generator-plus-density-source-plus-operator-algebra-plus-propagator-plus-composition recovery lane
+- it is now best described as a local generator-plus-density-source-plus-operator-algebra-plus-propagator-plus-composition-plus-semigroup-closure recovery lane
 - but it still has not earned an exact QM theorem
 
 ## Immediate test

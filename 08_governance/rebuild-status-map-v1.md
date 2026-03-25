@@ -42,6 +42,7 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - QM operator-algebra proxy step: `proxy-supported`
 - QM propagator proxy step: `proxy-supported`
 - QM propagator composition proxy step: `proxy-supported`
+- QM semigroup closure proxy step: `proxy-supported`
 - QM mode/spectrum step: `proxy-supported`
 - back-reaction proxy closure: `proxy-supported`
 - back-reaction proxy closure v2: `proxy-supported`
