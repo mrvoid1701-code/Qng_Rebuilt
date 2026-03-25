@@ -167,6 +167,7 @@ The strongest recovery path is:
 - Einstein equations: w_eff=-0.69 (hist) vs -1.03 (nohist), corr(E_tt,E_xx)=-0.975 — vacuum energy / Λ proxy, Δw=+0.34 quantum correction
 - covariance: w_eff stable at -0.669 ± 7.2% across K=5 topologies; corr always < -0.85; tier-1 signals universal, tier-2 topology-dependent
 - chi identification: chi=m/c FALSIFIED (corr 0.19, sign-unstable); chi∝L_eff SUPPORTED (corr 0.55–0.82, universally positive)
+- tau identification: universal scalar tau FALSIFIED (config cv=0.169, per-node cv=11–17%); tau_eff=L_eff/C_eff SUPPORTED (history amplifies 2.6–4.6x, corr(tau,mem)=0.68–0.83 universally)
 
 ## Current weakest recovery path
 

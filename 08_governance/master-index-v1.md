@@ -90,6 +90,7 @@ Core files:
 - [qng-einstein-equations-proxy-v1.md](../../03_gr_qm_bridge/qng-einstein-equations-proxy-v1.md)
 - [qng-covariance-stability-v1.md](../../08_governance/qng-covariance-stability-v1.md)
 - [qng-chi-identification-v1.md](../../08_governance/qng-chi-identification-v1.md)
+- [qng-tau-identification-v1.md](../../08_governance/qng-tau-identification-v1.md)
 - [bridge-consistency-registry-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/bridge-consistency-registry-v1.md)
 - [qng-source-response-consistency-v2.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-source-response-consistency-v2.md)
 
@@ -158,6 +159,7 @@ Core files:
 - [qng-einstein-equations-proxy-reference-v1/report.json](../../07_validation/audits/qng-einstein-equations-proxy-reference-v1/report.json)
 - [qng-covariance-stability-reference-v1/report.json](../../07_validation/audits/qng-covariance-stability-reference-v1/report.json)
 - [qng-chi-identification-reference-v1/report.json](../../07_validation/audits/qng-chi-identification-reference-v1/report.json)
+- [qng-tau-identification-reference-v1/report.json](../../07_validation/audits/qng-tau-identification-reference-v1/report.json)
 
 ## Practical reading shortcuts
 

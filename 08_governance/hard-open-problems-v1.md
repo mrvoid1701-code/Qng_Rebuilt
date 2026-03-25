@@ -170,6 +170,19 @@ Open question:
 
 Until then, `tau` should remain layer-tagged and provisional.
 
+Current rebuild update (QNG-CPU-038):
+
+- universal scalar `tau` is FALSIFIED at proxy level:
+  config timescales tau_p=2.857, tau_m=3.333, tau_d=4.000, cv=0.169 (not equal)
+  per-node cv=11–17% — tau is NOT constant across nodes
+- per-node `tau_eff = L_eff / C_eff` is SUPPORTED:
+  history amplifies mean(tau) by 2.6x–4.6x on all 5 seeds
+  corr(tau_eff, mem) ∈ [0.68, 0.83] on all 5 seeds
+  mean(tau_hist) stable across seeds: range [0.099, 0.117], cv ≈ 7.3%
+- Physical reidentification: tau is a per-node history-driven relaxation timescale
+- Dynamical law for tau_eff, large-N limit behavior, and phenomenological delay
+  connection remain open
+
 ## Problem 10: proxy-to-data step
 
 The rebuilt workspace now has multiple phenomenology proxies.
