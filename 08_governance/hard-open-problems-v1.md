@@ -70,6 +70,7 @@ Current rebuild update:
 - the first operator-algebra proxy is now proxy-supported
 - the first propagator proxy family is now proxy-supported
 - the first propagator composition proxy is now proxy-supported
+- the first semigroup closure proxy is now proxy-supported (3-step overlap 0.9988, per-step decay ratio 0.9994)
 - the first mode/spectrum step is now proxy-supported
 - the continuity-style balance remains weak
 
