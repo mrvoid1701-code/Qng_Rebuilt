@@ -52,6 +52,7 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - back-reaction self-consistency fixed point (single-iteration contraction): `proxy-supported`
 - Lorentzian signature proxy (memory-driven h_tt/h_xx anti-correlation): `proxy-supported`
 - light cone proxy (per-node c_eff from null condition): `proxy-supported`
+- Einstein equations proxy (equation of state w_eff ≈ -0.69, Δw from memory): `proxy-supported`
 - source-response consistency step: `proxy-supported`
 - source-response consistency v2 step: `proxy-supported`
 - unified split-bridge architecture: `candidate`

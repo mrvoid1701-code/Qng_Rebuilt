@@ -164,6 +164,7 @@ The strongest recovery path is:
 - back-reaction self-consistency: gamma=0.0025, tensor signs preserved — fixed point proxy supported
 - Lorentzian signature: corr(h_tt,h_xx)=-0.972, h_xx>0 universal, memory amplifies 331x — linearized (-,+) signature proxy supported
 - light cone: c_eff in [0.991,1.002] per node, std_hist/std_nohist=9.7x — first effective speed of light from substrate
+- Einstein equations: w_eff=-0.69 (hist) vs -1.03 (nohist), corr(E_tt,E_xx)=-0.975 — vacuum energy / Λ proxy, Δw=+0.34 quantum correction
 
 ## Current weakest recovery path
 

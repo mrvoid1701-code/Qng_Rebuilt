@@ -130,7 +130,11 @@ This also blocks a serious stress-energy interpretation.
 Current rebuild update:
 
 - a first matter-like proxy object now exists
-- but final matter interpretation remains open
+- Einstein equations proxy now proxy-supported (QNG-CPU-035):
+  corr(E_tt,E_xx)=-0.975, w_eff=-0.69 (history) vs -1.03 (nohist), Δw=+0.34
+- effective equation of state is in dark energy range (w ≈ -1)
+- history sector introduces quantum correction to cosmological constant: Δw ≈ +0.34
+- exact matter sector identification and covariant T_μν remain open
 
 ## Problem 8: `chi = m/c`
 
