@@ -1,0 +1,151 @@
+# Master Index v1
+
+Type: `note`
+ID: `NOTE-GOV-002`
+Status: `draft`
+Author: `C.D Gabriel`
+
+## Objective
+
+Provide one canonical map of the rebuilt workspace so the theory can be read in the right order without mixing layers.
+
+## Fast read order
+
+1. [README.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/README.md)
+2. [reconstruction_sequence.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/00_meta/reconstruction_sequence.md)
+3. [rebuild-status-map-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/rebuild-status-map-v1.md)
+4. [hard-open-problems-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/hard-open-problems-v1.md)
+5. [recovery-comparison-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/recovery-comparison-v1.md)
+6. [next-attack-order-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/next-attack-order-v1.md)
+7. [core-freeze-candidate-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/core-freeze-candidate-v1.md)
+8. [core-manual-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/core-manual-v1.md)
+9. [paper-spine-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/paper-spine-v1.md)
+10. [paper-abstract-candidate-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/paper-abstract-candidate-v1.md)
+11. [paper-introduction-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/paper-introduction-v1.md)
+12. [paper-contribution-list-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/paper-contribution-list-v1.md)
+13. [figure-plan-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/figure-plan-v1.md)
+14. [paper-methods-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/paper-methods-v1.md)
+15. [paper-results-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/paper-results-v1.md)
+16. [paper-discussion-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/paper-discussion-v1.md)
+17. [paper-conclusion-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/paper-conclusion-v1.md)
+18. [paper-figures-draft-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/paper-figures-draft-v1.md)
+19. [paper-full-draft-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/paper-full-draft-v1.md)
+20. [paper-full-draft-v2.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/paper-full-draft-v2.md)
+21. [paper-figure-pack-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/10_exports/paper_figures/paper-figure-pack-v1.md)
+22. [experimental-lanes-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/experimental-lanes-v1.md)
+
+## GR pure
+
+Start here if the question is:
+
+- what counts as GR before QNG
+
+Core files:
+
+- [gr-backbone-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/01_gr_pure/gr-backbone-v1.md)
+- [gr-action.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/01_gr_pure/gr-action.md)
+- [gr-observables-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/01_gr_pure/gr-observables-v1.md)
+
+## QM pure
+
+Start here if the question is:
+
+- what counts as QM before QNG
+
+Core files:
+
+- [qm-backbone-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/02_qm_pure/qm-backbone-v1.md)
+- [qm-propagator.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/02_qm_pure/qm-propagator.md)
+- [qm-observables-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/02_qm_pure/qm-observables-v1.md)
+
+## Bridge
+
+Start here if the question is:
+
+- how rebuilt QNG talks to GR and QM
+
+Core files:
+
+- [bridge-backbone-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/bridge-backbone-v1.md)
+- [qng-gr-weakfield-proxy-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-gr-weakfield-proxy-v1.md)
+- [qng-gr-recovery-program-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-gr-recovery-program-v1.md)
+- [qng-gr-effective-source-matching-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-gr-effective-source-matching-v1.md)
+- [qng-qm-coherence-proxy-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-qm-coherence-proxy-v1.md)
+- [qng-qm-recovery-program-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-qm-recovery-program-v1.md)
+- [qng-qm-density-source-balance-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-qm-density-source-balance-v1.md)
+- [qng-qm-generator-assembly-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-qm-generator-assembly-v1.md)
+- [qng-qm-operator-assembly-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-qm-operator-assembly-v1.md)
+- [qng-qm-operator-algebra-proxy-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-qm-operator-algebra-proxy-v1.md)
+- [qng-qm-propagator-proxy-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-qm-propagator-proxy-v1.md)
+- [qng-qm-propagator-composition-proxy-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-qm-propagator-composition-proxy-v1.md)
+- [qng-backreaction-closure-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-backreaction-closure-v1.md)
+- [qng-backreaction-closure-v2.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-backreaction-closure-v2.md)
+- [bridge-consistency-registry-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/bridge-consistency-registry-v1.md)
+- [qng-source-response-consistency-v2.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-source-response-consistency-v2.md)
+
+## QNG pure
+
+Start here if the question is:
+
+- what the native rebuilt theory actually is
+
+Core files:
+
+- [qng-ontology-backbone-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/04_qng_pure/qng-ontology-backbone-v1.md)
+- [qng-native-update-law-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/04_qng_pure/qng-native-update-law-v1.md)
+- [qng-emergent-field-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/04_qng_pure/qng-emergent-field-v1.md)
+- [qng-matter-sector-proxy-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/04_qng_pure/qng-matter-sector-proxy-v1.md)
+- [qng-geometry-estimator-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/04_qng_pure/qng-geometry-estimator-v1.md)
+- [qng-lorentzian-signature-proxy-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/04_qng_pure/qng-lorentzian-signature-proxy-v1.md)
+- [qng-red-flags-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/04_qng_pure/qng-red-flags-v1.md)
+
+## Claims
+
+Start here if the question is:
+
+- what the current claim chains actually are
+
+Core files:
+
+- [QNG-C-CHAIN-001-memory-geometry-trajectory.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/06_claims/QNG-C-CHAIN-001-memory-geometry-trajectory.md)
+- [QNG-C-CHAIN-002-native-bridge-unification.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/06_claims/QNG-C-CHAIN-002-native-bridge-unification.md)
+
+## Phenomenology
+
+Start here if the question is:
+
+- how the rebuilt theory descends into application layers
+
+Core files:
+
+- [qng-trajectory-lag-proxy-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/05_phenomenology/trajectory/qng-trajectory-lag-proxy-v1.md)
+- [qng-lensing-proxy-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/05_phenomenology/lensing/qng-lensing-proxy-v1.md)
+- [qng-rotation-support-proxy-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/05_phenomenology/rotation/qng-rotation-support-proxy-v1.md)
+- [qng-timing-delay-proxy-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/05_phenomenology/timing/qng-timing-delay-proxy-v1.md)
+- [qng-expansion-proxy-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/05_phenomenology/cosmology/qng-expansion-proxy-v1.md)
+
+## Validation
+
+Start here if the question is:
+
+- what is actually supported by rebuilt tests
+
+Core files:
+
+- [validation_backbone.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/07_validation/validation_backbone.md)
+- [testing_sequence.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/07_validation/testing_sequence.md)
+- [qng-native-update-reference-v1/report.json](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/07_validation/audits/qng-native-update-reference-v1/report.json)
+- [qng-cpu-gpu-agreement-v1/report.json](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/07_validation/audits/qng-cpu-gpu-agreement-v1/report.json)
+- [qng-gr-effective-source-matching-reference-v1/report.json](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/07_validation/audits/qng-gr-effective-source-matching-reference-v1/report.json)
+- [qng-qm-propagator-composition-reference-v1/report.json](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/07_validation/audits/qng-qm-propagator-composition-reference-v1/report.json)
+
+## Practical reading shortcuts
+
+If the question is:
+
+- "what is the cleanest statement of QNG right now"
+  Read [qng-ontology-backbone-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/04_qng_pure/qng-ontology-backbone-v1.md), [qng-emergent-field-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/04_qng_pure/qng-emergent-field-v1.md), and [QNG-C-CHAIN-002-native-bridge-unification.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/06_claims/QNG-C-CHAIN-002-native-bridge-unification.md)
+- "what is already numerically supported"
+  Read [rebuild-status-map-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/rebuild-status-map-v1.md) and the audit reports under [07_validation](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/07_validation)
+- "where is the theory still weak"
+  Read [hard-open-problems-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/08_governance/hard-open-problems-v1.md)
