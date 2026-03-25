@@ -119,6 +119,12 @@ Current rebuild update:
   amplitude form, scale calibration, phase variable choice;
   root bottleneck identified as: current functional form J=C_i·C_j·sin(Δφ)
   is structurally wrong for QNG density flow
+- mismatch-gradient current J_mis=C_i·C_j·(mis_j-mis_i) tested (QNG-CPU-045):
+  FAIL (0/4 predictions); scale_ratio 6-12x (vs phi 100x) — scale problem SOLVED;
+  topology-selective channels: seed 42→mismatch (0.354), seed 137→phi (0.572),
+  seed 1729→mem (0.101); no universal single-channel winner;
+  key finding: QNG probability current is MULTI-CHANNEL (topology-dependent mix
+  of phi, mismatch, mem); joint multi-variable regression needed (QNG-CPU-046)
 
 ## Problem 5: back-reaction closure
 
