@@ -92,6 +92,7 @@ Core files:
 - [qng-chi-identification-v1.md](../../08_governance/qng-chi-identification-v1.md)
 - [qng-tau-identification-v1.md](../../08_governance/qng-tau-identification-v1.md)
 - [qng-sigma-identification-v1.md](../../08_governance/qng-sigma-identification-v1.md)
+- [qng-phi-identification-v1.md](../../08_governance/qng-phi-identification-v1.md)
 - [bridge-consistency-registry-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/bridge-consistency-registry-v1.md)
 - [qng-source-response-consistency-v2.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-source-response-consistency-v2.md)
 
@@ -162,6 +163,7 @@ Core files:
 - [qng-chi-identification-reference-v1/report.json](../../07_validation/audits/qng-chi-identification-reference-v1/report.json)
 - [qng-tau-identification-reference-v1/report.json](../../07_validation/audits/qng-tau-identification-reference-v1/report.json)
 - [qng-sigma-identification-reference-v1/report.json](../../07_validation/audits/qng-sigma-identification-reference-v1/report.json)
+- [qng-phi-identification-reference-v1/report.json](../../07_validation/audits/qng-phi-identification-reference-v1/report.json)
 
 ## Practical reading shortcuts
 

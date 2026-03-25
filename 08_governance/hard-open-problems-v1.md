@@ -20,6 +20,18 @@ Open question:
 
 This matters because everything downstream depends on whether the current native split is fundamental or only provisional.
 
+Current rebuild update (QNG-CPU-040):
+
+- `phi` is identified as a near-perfectly synchronized phase field (sync_order > 0.94 universally)
+- Without history: phi achieves near-perfect global sync (sync ≈ 0.999)
+- With history: history.phase feedback breaks perfect sync → anti-ordering (structured local diversity)
+- phi-L_eff coupling: weak and sign-unstable (Tier-2, |corr| < 0.46)
+- phi→C_eff coupling: indirect and topology-dependent (Tier-2, |corr| < 0.5 on 3/5 seeds)
+- phi is NOT a coherence proxy or load proxy — it is the native phase/oscillation mode
+- phi is primitive at proxy level: its role (U(1) phase oscillator with memory-driven desync)
+  is not reducible to C_eff or L_eff
+- Open: topological structure of phi (winding numbers?), phi→ψ=r*exp(i*phi) U(1) amplitude
+
 ## Problem 2: status of `Sigma`
 
 The rebuild has improved the old project by replacing the overloaded scalar with `(C_eff, L_eff)`.
