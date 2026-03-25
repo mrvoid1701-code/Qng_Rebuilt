@@ -34,6 +34,7 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - GR linearized assembly step: `proxy-supported`
 - GR linearized curvature step: `proxy-supported`
 - GR effective source matching step: `proxy-supported`
+- GR tensorial assembly step: `proxy-supported`
 - QM coherence proxy sector: `proxy-supported`
 - QM recovery program: `candidate`
 - QM density source balance step: `proxy-supported`

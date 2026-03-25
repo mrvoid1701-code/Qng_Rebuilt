@@ -49,6 +49,7 @@ Current rebuild update:
 - the first linearized assembly step is now proxy-supported
 - the first linearized curvature step is now proxy-supported
 - the first effective scalar source-matching step is now proxy-supported
+- the first tensorial assembly step is now proxy-supported (E_tt, E_xx with opposite-sign source alignment)
 
 ## Problem 4: exact QM recovery
 

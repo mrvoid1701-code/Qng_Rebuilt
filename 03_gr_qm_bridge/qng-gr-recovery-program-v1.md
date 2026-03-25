@@ -51,6 +51,7 @@ Current rebuild update:
 - a bridge-only source-response step is now proxy-supported
 - an upgraded two-channel source-response step is now proxy-supported
 - a first effective scalar source-matching step is now proxy-supported
+- a first tensorial assembly step is now proxy-supported (Stage GR-R4 entry)
 
 ### Stage GR-R4: continuum and covariance program
 
