@@ -133,7 +133,11 @@ Current rebuild update:
   established effective continuity law:
   ∂_t(C_eff²) + α_phi·div(J_phi) + α_mis·div(J_mis) + α_mem·div(J_mem) ≈ 0
   physical interpretation: mismatch-driven diffusion + chi-memory correction
-  open: dynamical law for couplings, large-N limit, non-linear extensions
+  open: dynamical law for couplings, non-linear extensions
+  QM→GR cross-sector bridge tested (QNG-CPU-049): PASS (3/4);
+  div_J_mis + div_J_mem couple directly to GR tensor: E_tt −17%, E_xx −8%;
+  6-channel bridge: E_μν ≈ a·κ+b·q_src+c·src+d·m_eff+e·div_J_mis+f·div_J_mem;
+  first direct cross-sector coupling confirmed; mismatch is QM→GR mediator
 - multi-channel large-N probe (QNG-CPU-047):
   PARTIAL (2/4); multi-channel beats single at ALL N and ALL seeds (15/15 Tier-1);
   R² decreases with N: 0.586→0.405→0.269 (N=8→16→32);

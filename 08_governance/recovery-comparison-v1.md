@@ -177,7 +177,8 @@ The strongest recovery path is:
 - mismatch-gradient current (QNG-CPU-045): FAIL (0/4 predictions); scale_ratio 6-12x (improved vs phi's 100x); topology-selective channel preference: seed 42→mismatch, seed 137→phi, seed 1729→mem; multi-channel current structure identified; joint regression needed
 - multi-channel current (QNG-CPU-046): PASS (4/4); R²_combined > best_single on 5/5 seeds; mean R²=0.405 (from 0.256); max R²=0.602; dominant channels: mismatch + mem (α 10-20x larger than α_phi); effective QNG continuity law established: ∂_t(C_eff²) + α_phi·div(J_phi) + α_mis·div(J_mis) + α_mem·div(J_mem) ≈ 0
 - multi-channel large-N probe (QNG-CPU-047): PARTIAL (2/4); multi-channel beats single-channel at ALL N (15/15 universal); R² decreases with N: 0.586 (N=8) → 0.405 (N=16) → 0.269 (N=32); phi absent at N=32; law is sparse-graph
-- degree-normalized current (QNG-CPU-048): FAIL (1/4); normalization makes R² negative (OLS ill-conditioned); N-weakening confirmed as structural, not degree-dilution; multi-channel law = sparse-graph/UV law; QM N-scaling investigation closed; GR pivot next
+- degree-normalized current (QNG-CPU-048): FAIL (1/4); normalization makes R² negative (OLS ill-conditioned); N-weakening confirmed as structural, not degree-dilution; multi-channel law = sparse-graph/UV law; QM N-scaling closed
+- GR multi-channel QM source injection (QNG-CPU-049): PASS (3/4); 6-channel fit E_μν ≈ a·κ+b·q_src+c·src+d·m_eff+e·div_J_mis+f·div_J_mem; E_xx −8.4% (0.300→0.274), E_tt −17.1% (0.333→0.276); div_J_mis dominant QM→GR coupler (coeff -0.516 in E_tt, +0.238 in E_xx); sign separation preserved; first cross-sector bridge confirmed
 
 ## Current weakest recovery path
 
