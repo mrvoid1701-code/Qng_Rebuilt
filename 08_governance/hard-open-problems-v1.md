@@ -134,6 +134,14 @@ Current rebuild update:
   ∂_t(C_eff²) + α_phi·div(J_phi) + α_mis·div(J_mis) + α_mem·div(J_mem) ≈ 0
   physical interpretation: mismatch-driven diffusion + chi-memory correction
   open: dynamical law for couplings, large-N limit, non-linear extensions
+- multi-channel large-N probe (QNG-CPU-047):
+  PARTIAL (2/4); multi-channel beats single at ALL N and ALL seeds (15/15 Tier-1);
+  R² decreases with N: 0.586→0.405→0.269 (N=8→16→32);
+  cause: denser graph (mean_deg 3.2→4.3→6.9) → more divergence cancellation;
+  phi channel absent at N=32 (|α_phi|<0.0004 universally — large-N Tier-1 result);
+  large-N limit: ∂_t(C_eff²) + α_mis·div(J_mis) + α_mem·div(J_mem) ≈ 0 (phi absent);
+  sparse-graph law: strongest at N=8 (R²=0.909 on seed 42);
+  open: degree-normalized current J̃ = (1/deg_i)·div(J) may restore N-stability
 
 ## Problem 5: back-reaction closure
 
