@@ -125,6 +125,15 @@ Current rebuild update:
   seed 1729→mem (0.101); no universal single-channel winner;
   key finding: QNG probability current is MULTI-CHANNEL (topology-dependent mix
   of phi, mismatch, mem); joint multi-variable regression needed (QNG-CPU-046)
+- multi-channel current joint regression tested (QNG-CPU-046):
+  PASS (4/4 predictions); R²_combined > best_single on 5/5 seeds universally;
+  mean R²=0.405 (from 0.256 best single), max R²=0.602 (seed 137);
+  dominant channels: mismatch + mem (|α| ~10-20x > α_phi);
+  phi contribution: weak, sign-unstable (Tier-2);
+  established effective continuity law:
+  ∂_t(C_eff²) + α_phi·div(J_phi) + α_mis·div(J_mis) + α_mem·div(J_mem) ≈ 0
+  physical interpretation: mismatch-driven diffusion + chi-memory correction
+  open: dynamical law for couplings, large-N limit, non-linear extensions
 
 ## Problem 5: back-reaction closure
 

@@ -175,6 +175,7 @@ The strongest recovery path is:
 - Madelung amplitude: marginally better (mean R² 0.203 vs 0.200); amplitude form NOT the bottleneck; bottleneck = phase gradient structure
 - history-phase current proxy (QNG-CPU-044): FAIL (1/4 predictions); corr(phi,h.phase)=0.84–0.97; phase variable choice NOT the bottleneck; three diagnoses ruled out (amplitude, scale, phase variable); root bottleneck = current functional form J=C_i·C_j·sin(Δφ)
 - mismatch-gradient current (QNG-CPU-045): FAIL (0/4 predictions); scale_ratio 6-12x (improved vs phi's 100x); topology-selective channel preference: seed 42→mismatch, seed 137→phi, seed 1729→mem; multi-channel current structure identified; joint regression needed
+- multi-channel current (QNG-CPU-046): PASS (4/4); R²_combined > best_single on 5/5 seeds; mean R²=0.405 (from 0.256); max R²=0.602; dominant channels: mismatch + mem (α 10-20x larger than α_phi); effective QNG continuity law established: ∂_t(C_eff²) + α_phi·div(J_phi) + α_mis·div(J_mis) + α_mem·div(J_mem) ≈ 0
 
 ## Current weakest recovery path
 

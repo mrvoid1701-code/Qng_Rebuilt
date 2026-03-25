@@ -63,6 +63,7 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - Madelung amplitude ψ_M=sqrt(C_eff)·exp(i·phi): `proxy-supported` — marginal improvement (mean R² 0.203 vs 0.200); amplitude form NOT bottleneck
 - history-phase current proxy ψ_hp=C_eff·exp(i·h.phase): `proxy-supported` (informative negative) — R²_hp < R²_std on 4/5 seeds; corr(phi,h.phase)=0.84–0.97; phase variable choice NOT bottleneck; current functional form identified as root issue
 - mismatch-gradient current J_mis=C_i·C_j·(mis_j-mis_i): `proxy-supported` (informative negative) — scale_ratio 6-12x (vs phi's 100x); topology-selective: seed 42 mis wins (0.354), seed 137 phi wins (0.572), seed 1729 mem wins (0.101); multi-channel structure identified
+- multi-channel current (phi+mismatch+mem joint regression): `proxy-supported` — PASS 4/4; R²_combined > best_single on 5/5 seeds; mean R²=0.405 (vs 0.256 best single); max R²=0.602 (seed 137); effective QNG continuity: ∂_t(C_eff²) + α_phi·J_phi + α_mis·J_mis + α_mem·J_mem ≈ 0 (mismatch-memory dominated)
 - source-response consistency step: `proxy-supported`
 - source-response consistency v2 step: `proxy-supported`
 - unified split-bridge architecture: `candidate`

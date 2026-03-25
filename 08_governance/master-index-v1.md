@@ -98,6 +98,7 @@ Core files:
 - [qng-qm-madelung-amplitude-v1.md](../../03_gr_qm_bridge/qng-qm-madelung-amplitude-v1.md)
 - [qng-qm-history-phase-current-v1.md](../../03_gr_qm_bridge/qng-qm-history-phase-current-v1.md)
 - [qng-qm-mismatch-current-v1.md](../../03_gr_qm_bridge/qng-qm-mismatch-current-v1.md)
+- [qng-qm-multichannel-current-v1.md](../../03_gr_qm_bridge/qng-qm-multichannel-current-v1.md)
 - [bridge-consistency-registry-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/bridge-consistency-registry-v1.md)
 - [qng-source-response-consistency-v2.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-source-response-consistency-v2.md)
 
@@ -174,6 +175,7 @@ Core files:
 - [qng-madelung-amplitude-reference-v1/report.json](../../07_validation/audits/qng-madelung-amplitude-reference-v1/report.json)
 - [qng-history-phase-current-reference-v1/report.json](../../07_validation/audits/qng-history-phase-current-reference-v1/report.json)
 - [qng-mismatch-current-reference-v1/report.json](../../07_validation/audits/qng-mismatch-current-reference-v1/report.json)
+- [qng-multichannel-current-reference-v1/report.json](../../07_validation/audits/qng-multichannel-current-reference-v1/report.json)
 
 ## Practical reading shortcuts
 
