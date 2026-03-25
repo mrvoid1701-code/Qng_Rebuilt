@@ -173,6 +173,7 @@ The strongest recovery path is:
 - complex amplitude proxy: ψ=C_eff*exp(i*phi) SUPPORTED; current direction corr>0 on 4/5 seeds; strong signal on seed 137 (corr=0.756); history amplifies |J| by 3–8x; scale balance weak (|J|>>|Δρ| by 100x — full continuity open)
 - calibrated continuity: α*>0 on 4/5 seeds; R²_calib=0.572 on seed 137; mean|α*|≈10⁻³ (effective coupling); cv=0.76 (moderate, Tier-2)
 - Madelung amplitude: marginally better (mean R² 0.203 vs 0.200); amplitude form NOT the bottleneck; bottleneck = phase gradient structure
+- history-phase current proxy (QNG-CPU-044): FAIL (1/4 predictions); corr(phi,h.phase)=0.84–0.97; phase variable choice NOT the bottleneck; three diagnoses ruled out (amplitude, scale, phase variable); root bottleneck = current functional form J=C_i·C_j·sin(Δφ)
 
 ## Current weakest recovery path
 

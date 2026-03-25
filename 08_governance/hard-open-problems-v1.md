@@ -113,6 +113,12 @@ Current rebuild update:
 - Madelung amplitude ψ_M = sqrt(C_eff)·exp(i·phi) is proxy-supported (QNG-CPU-043):
   marginal improvement over standard (mean R² 0.203 vs 0.200);
   amplitude choice NOT the bottleneck — bottleneck is phase gradient structure
+- history-phase current proxy ψ_hp = C_eff·exp(i·h.phase) tested (QNG-CPU-044):
+  FAIL (1/4 predictions); corr(phi,h.phase)=0.84–0.97 — they are not independent;
+  phase variable choice NOT the bottleneck; three diagnoses ruled out:
+  amplitude form, scale calibration, phase variable choice;
+  root bottleneck identified as: current functional form J=C_i·C_j·sin(Δφ)
+  is structurally wrong for QNG density flow
 
 ## Problem 5: back-reaction closure
 
