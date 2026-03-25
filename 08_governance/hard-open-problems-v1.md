@@ -106,6 +106,10 @@ Current rebuild update:
   ψ = C_eff * exp(i*phi); current direction correct on 4/5 seeds (corr>0);
   strong signal on seed 137 (corr=0.756); history amplifies |J| by 3–8x universally;
   scale balance weak: |J|>>|Δρ| by 100x — full continuity open
+- the first calibrated continuity balance is now proxy-supported (QNG-CPU-042):
+  α* > 0 on 4/5 seeds (correct sign: outflow→density decrease);
+  R²_calib = 0.572 on seed 137; mean|α*| ≈ 10⁻³ (effective coupling constant);
+  cv(|α*|) = 0.76 (moderate stability, Tier-2 topology-dependent)
 
 ## Problem 5: back-reaction closure
 
