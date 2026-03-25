@@ -32,6 +32,21 @@ But the final status of `Sigma` is still open:
 
 This is one of the most important unresolved structural questions.
 
+Current rebuild update (QNG-CPU-039):
+
+- `sigma = C_eff` is FALSIFIED: corr < 1.0 on all seeds; C_eff has independent inputs
+  (mismatch, phase) beyond sigma
+- `sigma ∝ C_eff` is SUPPORTED: corr(sigma, C_eff) ∈ [0.707, 0.954] universally
+- `sigma` also couples to `L_eff`: corr(sigma, L_eff) ∈ [0.438, 0.821] on all seeds
+- C_eff-vs-L_eff primacy is topology-dependent (Tier-2): C_eff wins on 3/5 seeds,
+  L_eff wins on 2/5 seeds
+- R²(sigma ~ C_eff + L_eff) > 0.71 universally — sigma substantially recoverable
+  from the full effective layer
+- Physical role: sigma is a self-regularizing coherence primitive coupled to the
+  FULL effective layer (not C_eff alone); it is NOT redundant
+- Open: dynamical law for sigma in terms of effective fields, large-N limit,
+  whether sigma is primitive or derivable from a deeper internal node variable
+
 ## Problem 3: exact GR recovery
 
 The current rebuild has only proxy-level GR support.

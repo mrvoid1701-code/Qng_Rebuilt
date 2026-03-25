@@ -168,6 +168,7 @@ The strongest recovery path is:
 - covariance: w_eff stable at -0.669 ± 7.2% across K=5 topologies; corr always < -0.85; tier-1 signals universal, tier-2 topology-dependent
 - chi identification: chi=m/c FALSIFIED (corr 0.19, sign-unstable); chi∝L_eff SUPPORTED (corr 0.55–0.82, universally positive)
 - tau identification: universal scalar tau FALSIFIED (config cv=0.169, per-node cv=11–17%); tau_eff=L_eff/C_eff SUPPORTED (history amplifies 2.6–4.6x, corr(tau,mem)=0.68–0.83 universally)
+- sigma identification: sigma=C_eff FALSIFIED; sigma∝C_eff SUPPORTED (corr 0.707–0.954 universally); sigma couples to BOTH C_eff and L_eff; C_eff-vs-L_eff primacy topology-dependent (tier-2); R²(C_eff+L_eff)>0.71 universally
 
 ## Current weakest recovery path
 

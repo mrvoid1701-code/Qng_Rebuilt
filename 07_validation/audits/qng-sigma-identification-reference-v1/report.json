@@ -1,0 +1,112 @@
+{
+  "test_id": "QNG-CPU-039",
+  "decision": "pass",
+  "verdict": "sigma = C_eff FALSIFIED; sigma \u221d C_eff SUPPORTED (universal); sigma couples to BOTH C_eff and L_eff; C_eff-vs-L_eff primacy is topology-dependent (tier-2); R\u00b2(C_eff+L_eff) > 0.71 universally",
+  "per_seed": [
+    {
+      "seed": 20260325,
+      "corr_sigma_ceff_hist": 0.953714,
+      "corr_sigma_leff_hist": 0.437878,
+      "corr_sigma_chi_hist": 0.0942,
+      "corr_sigma_phi_hist": -0.30393,
+      "corr_sigma_ceff_nohist": -0.168143,
+      "r2_c_eff_only": 0.909571,
+      "r2_c_and_l": 0.98646,
+      "ceff_primary_over_leff": true
+    },
+    {
+      "seed": 42,
+      "corr_sigma_ceff_hist": 0.869952,
+      "corr_sigma_leff_hist": 0.645474,
+      "corr_sigma_chi_hist": 0.067595,
+      "corr_sigma_phi_hist": -0.51033,
+      "corr_sigma_ceff_nohist": 0.538952,
+      "r2_c_eff_only": 0.756817,
+      "r2_c_and_l": 0.856238,
+      "ceff_primary_over_leff": true
+    },
+    {
+      "seed": 137,
+      "corr_sigma_ceff_hist": 0.904669,
+      "corr_sigma_leff_hist": 0.821393,
+      "corr_sigma_chi_hist": 0.535666,
+      "corr_sigma_phi_hist": -0.774256,
+      "corr_sigma_ceff_nohist": 0.003671,
+      "r2_c_eff_only": 0.818425,
+      "r2_c_and_l": 0.928395,
+      "ceff_primary_over_leff": true
+    },
+    {
+      "seed": 1729,
+      "corr_sigma_ceff_hist": 0.706736,
+      "corr_sigma_leff_hist": 0.730835,
+      "corr_sigma_chi_hist": 0.104254,
+      "corr_sigma_phi_hist": 0.353903,
+      "corr_sigma_ceff_nohist": 0.965654,
+      "r2_c_eff_only": 0.499476,
+      "r2_c_and_l": 0.713394,
+      "ceff_primary_over_leff": false
+    },
+    {
+      "seed": 2718,
+      "corr_sigma_ceff_hist": 0.944049,
+      "corr_sigma_leff_hist": 0.481419,
+      "corr_sigma_chi_hist": -0.123261,
+      "corr_sigma_phi_hist": 0.791408,
+      "corr_sigma_ceff_nohist": 0.847018,
+      "r2_c_eff_only": 0.891229,
+      "r2_c_and_l": 0.945237,
+      "ceff_primary_over_leff": true
+    }
+  ],
+  "corr_ceff_summary": {
+    "values": [
+      0.953714,
+      0.869952,
+      0.904669,
+      0.706736,
+      0.944049
+    ],
+    "min": 0.706736,
+    "mean": 0.875824,
+    "cv": 0.1144
+  },
+  "corr_leff_summary": {
+    "values": [
+      0.437878,
+      0.645474,
+      0.821393,
+      0.730835,
+      0.481419
+    ],
+    "max": 0.821393
+  },
+  "r2_summary": {
+    "r2_c_only": {
+      "values": [
+        0.909571,
+        0.756817,
+        0.818425,
+        0.499476,
+        0.891229
+      ],
+      "min": 0.499476
+    },
+    "r2_c_and_l": {
+      "values": [
+        0.98646,
+        0.856238,
+        0.928395,
+        0.713394,
+        0.945237
+      ],
+      "min": 0.713394
+    }
+  },
+  "checks": {
+    "p1_sigma_ne_ceff_pass": true,
+    "p2_corr_ceff_above_half_universal_pass": true,
+    "p3_leff_also_positive_universal_pass": true,
+    "p4_r2_c_and_l_above_0p7_universal_pass": true
+  }
+}
