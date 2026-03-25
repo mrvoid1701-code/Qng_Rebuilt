@@ -146,6 +146,16 @@ Open question:
 
 This is still one of the most fragile inheritances from the old project.
 
+Current rebuild update (QNG-CPU-037):
+
+- `chi = m/c` is FALSIFIED at proxy level:
+  corr(chi, m/c) = 0.19 on default seed; std across 5 seeds = 0.21;
+  sign changes on seeds 1729 and 2718
+- `chi ∝ L_eff` is SUPPORTED:
+  corr(chi, L_eff) ∈ [0.551, 0.822] on all 5 seeds, always > 0.5
+- Physical reidentification: chi is a coherence-memory field, not a mass proxy
+- The proportionality chi ∝ L_eff has no derived dynamical law yet — open
+
 ## Problem 9: `tau`
 
 The rebuild now separates:
@@ -201,4 +211,5 @@ The weakest rebuilt zone right now is:
 - exact recovery theorems
 - back-reaction closure
 - final matter interpretation
-- any claim that depends on a universal `tau` or on `chi = m/c`
+- any claim that depends on a universal `tau`
+- `chi = m/c` has been falsified — remove from downstream claims

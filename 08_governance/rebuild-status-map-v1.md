@@ -54,6 +54,7 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - light cone proxy (per-node c_eff from null condition): `proxy-supported`
 - Einstein equations proxy (equation of state w_eff ≈ -0.69, Δw from memory): `proxy-supported`
 - covariance stability (K=5 seeds, tier-1 signals universal, tier-2 topology-dependent): `proxy-supported`
+- chi identification: `chi = m/c` FALSIFIED; `chi ∝ L_eff` supported (corr 0.55–0.82 across 5 seeds)
 - source-response consistency step: `proxy-supported`
 - source-response consistency v2 step: `proxy-supported`
 - unified split-bridge architecture: `candidate`
