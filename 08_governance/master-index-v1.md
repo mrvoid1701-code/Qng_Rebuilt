@@ -95,6 +95,7 @@ Core files:
 - [qng-phi-identification-v1.md](../../08_governance/qng-phi-identification-v1.md)
 - [qng-qm-complex-amplitude-proxy-v1.md](../../03_gr_qm_bridge/qng-qm-complex-amplitude-proxy-v1.md)
 - [qng-qm-calibrated-continuity-v1.md](../../03_gr_qm_bridge/qng-qm-calibrated-continuity-v1.md)
+- [qng-qm-madelung-amplitude-v1.md](../../03_gr_qm_bridge/qng-qm-madelung-amplitude-v1.md)
 - [bridge-consistency-registry-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/bridge-consistency-registry-v1.md)
 - [qng-source-response-consistency-v2.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-source-response-consistency-v2.md)
 
@@ -168,6 +169,7 @@ Core files:
 - [qng-phi-identification-reference-v1/report.json](../../07_validation/audits/qng-phi-identification-reference-v1/report.json)
 - [qng-complex-amplitude-proxy-reference-v1/report.json](../../07_validation/audits/qng-complex-amplitude-proxy-reference-v1/report.json)
 - [qng-calibrated-continuity-reference-v1/report.json](../../07_validation/audits/qng-calibrated-continuity-reference-v1/report.json)
+- [qng-madelung-amplitude-reference-v1/report.json](../../07_validation/audits/qng-madelung-amplitude-reference-v1/report.json)
 
 ## Practical reading shortcuts
 

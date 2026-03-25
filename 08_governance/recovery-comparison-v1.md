@@ -172,6 +172,7 @@ The strongest recovery path is:
 - phi identification: phi is a near-perfectly synchronized phase field (sync>0.94 universally); history introduces phase diversity (anti-ordering); phi-L_eff weak and sign-unstable (tier-2); phi→C_eff indirect and topology-dependent (tier-2); phi is the native U(1) phase/oscillation mode
 - complex amplitude proxy: ψ=C_eff*exp(i*phi) SUPPORTED; current direction corr>0 on 4/5 seeds; strong signal on seed 137 (corr=0.756); history amplifies |J| by 3–8x; scale balance weak (|J|>>|Δρ| by 100x — full continuity open)
 - calibrated continuity: α*>0 on 4/5 seeds; R²_calib=0.572 on seed 137; mean|α*|≈10⁻³ (effective coupling); cv=0.76 (moderate, Tier-2)
+- Madelung amplitude: marginally better (mean R² 0.203 vs 0.200); amplitude form NOT the bottleneck; bottleneck = phase gradient structure
 
 ## Current weakest recovery path
 

@@ -110,6 +110,9 @@ Current rebuild update:
   α* > 0 on 4/5 seeds (correct sign: outflow→density decrease);
   R²_calib = 0.572 on seed 137; mean|α*| ≈ 10⁻³ (effective coupling constant);
   cv(|α*|) = 0.76 (moderate stability, Tier-2 topology-dependent)
+- Madelung amplitude ψ_M = sqrt(C_eff)·exp(i·phi) is proxy-supported (QNG-CPU-043):
+  marginal improvement over standard (mean R² 0.203 vs 0.200);
+  amplitude choice NOT the bottleneck — bottleneck is phase gradient structure
 
 ## Problem 5: back-reaction closure
 

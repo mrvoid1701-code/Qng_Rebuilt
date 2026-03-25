@@ -60,6 +60,7 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - phi identification: phi is a near-perfect synchronization field (sync>0.94 universally); history anti-ordering (increases phase diversity); phi-L_eff weak/sign-unstable (tier-2); phi is native U(1) phase mode
 - complex amplitude proxy ψ=C_eff*exp(i*phi): `proxy-supported` — current direction correct 4/5 seeds; history amplifies |J| 3–8x; scale balance open
 - calibrated continuity balance: `proxy-supported` — α*>0 on 4/5 seeds; R²=0.572 max; mean|α*|≈10⁻³ effective coupling; cv=0.76 (Tier-2)
+- Madelung amplitude ψ_M=sqrt(C_eff)·exp(i·phi): `proxy-supported` — marginal improvement (mean R² 0.203 vs 0.200); amplitude form NOT bottleneck
 - source-response consistency step: `proxy-supported`
 - source-response consistency v2 step: `proxy-supported`
 - unified split-bridge architecture: `candidate`
