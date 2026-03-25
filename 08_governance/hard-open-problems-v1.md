@@ -95,6 +95,7 @@ Current rebuild update:
 - an upgraded two-channel source-response step is now proxy-supported
 - a first GR-side scalar source composite now improves curvature fitting
 - a first three-channel tensorial closure v3 is now proxy-supported (P_delta coeff: e_xx=-1.48, e_tt=+0.88, separation=2.36; E_xx fit improved 0.432→0.314)
+- a first self-consistency fixed-point proxy is now supported: gamma=0.0025 (single-iteration contraction), tensor signs preserved under perturbation
 
 ## Problem 6: Lorentzian signature recovery
 
