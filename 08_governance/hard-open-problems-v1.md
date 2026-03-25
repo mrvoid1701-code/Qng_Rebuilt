@@ -114,6 +114,8 @@ Current rebuild update:
   corr(h_tt, h_xx) = -0.972, h_xx > 0 on 100% of nodes, memory amplifies signature 331x
 - h_tt < 0 predominantly, h_xx > 0 universally — linearized (-,+) signature confirmed
 - exact strong-field Lorentzian recovery remains open
+- light cone proxy is now proxy-supported (QNG-CPU-034):
+  c_eff in [0.991, 1.002], std_hist/std_nohist = 9.7x, mean shift = 0.0021
 
 ## Problem 7: matter sector identification
 

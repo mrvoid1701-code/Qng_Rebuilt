@@ -86,6 +86,7 @@ Core files:
 - [qng-gr-backreaction-closure-v3.md](../../03_gr_qm_bridge/qng-gr-backreaction-closure-v3.md)
 - [qng-gr-backreaction-selfconsistency-v1.md](../../03_gr_qm_bridge/qng-gr-backreaction-selfconsistency-v1.md)
 - [qng-lorentzian-signature-proxy-v1.md](../../04_lorentzian/qng-lorentzian-signature-proxy-v1.md)
+- [qng-light-cone-proxy-v1.md](../../04_lorentzian/qng-light-cone-proxy-v1.md)
 - [bridge-consistency-registry-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/bridge-consistency-registry-v1.md)
 - [qng-source-response-consistency-v2.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-source-response-consistency-v2.md)
 
@@ -150,6 +151,7 @@ Core files:
 - [qng-gr-backreaction-closure-v3-reference-v1/report.json](../../07_validation/audits/qng-gr-backreaction-closure-v3-reference-v1/report.json)
 - [qng-gr-backreaction-selfconsistency-reference-v1/report.json](../../07_validation/audits/qng-gr-backreaction-selfconsistency-reference-v1/report.json)
 - [qng-lorentzian-signature-proxy-reference-v1/report.json](../../07_validation/audits/qng-lorentzian-signature-proxy-reference-v1/report.json)
+- [qng-light-cone-proxy-reference-v1/report.json](../../07_validation/audits/qng-light-cone-proxy-reference-v1/report.json)
 
 ## Practical reading shortcuts
 
