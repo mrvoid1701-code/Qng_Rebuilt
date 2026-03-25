@@ -50,6 +50,7 @@ Current rebuild update:
 - the first linearized curvature step is now proxy-supported
 - the first effective scalar source-matching step is now proxy-supported
 - the first tensorial assembly step is now proxy-supported (E_tt, E_xx with opposite-sign source alignment)
+- the first tensorial source matching step is now proxy-supported (geometry channel sign separation: a_xx - a_tt = 11.2)
 
 ## Problem 4: exact QM recovery
 

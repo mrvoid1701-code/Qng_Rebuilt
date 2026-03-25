@@ -71,6 +71,7 @@ Core files:
 - [qng-gr-recovery-program-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-gr-recovery-program-v1.md)
 - [qng-gr-effective-source-matching-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-gr-effective-source-matching-v1.md)
 - [qng-gr-tensorial-assembly-proxy-v1.md](../../03_gr_qm_bridge/qng-gr-tensorial-assembly-proxy-v1.md)
+- [qng-gr-tensorial-source-matching-proxy-v1.md](../../03_gr_qm_bridge/qng-gr-tensorial-source-matching-proxy-v1.md)
 - [qng-qm-coherence-proxy-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-qm-coherence-proxy-v1.md)
 - [qng-qm-recovery-program-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-qm-recovery-program-v1.md)
 - [qng-qm-density-source-balance-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-qm-density-source-balance-v1.md)
@@ -142,6 +143,7 @@ Core files:
 - [qng-qm-propagator-composition-reference-v1/report.json](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/07_validation/audits/qng-qm-propagator-composition-reference-v1/report.json)
 - [qng-qm-semigroup-closure-reference-v1/report.json](../../07_validation/audits/qng-qm-semigroup-closure-reference-v1/report.json)
 - [qng-gr-tensorial-assembly-reference-v1/report.json](../../07_validation/audits/qng-gr-tensorial-assembly-reference-v1/report.json)
+- [qng-gr-tensorial-source-matching-reference-v1/report.json](../../07_validation/audits/qng-gr-tensorial-source-matching-reference-v1/report.json)
 
 ## Practical reading shortcuts
 

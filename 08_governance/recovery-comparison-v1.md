@@ -158,6 +158,8 @@ The strongest recovery path is:
 - GR linearized assembly
 - GR linearized curvature
 - GR effective source matching
+- GR tensorial assembly (E_tt, E_xx with opposite-sign source alignment)
+- GR tensorial source matching (geometry channel drives components in opposite directions)
 
 ## Current weakest recovery path
 
