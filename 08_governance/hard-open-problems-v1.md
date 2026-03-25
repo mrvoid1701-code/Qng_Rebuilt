@@ -170,6 +170,20 @@ Open question:
 
 This is where the rebuild will either become substantially stronger than the old repo or fall back into the same traps.
 
+## Covariance status (QNG-CPU-036)
+
+Tested across K=5 seeds (42, 137, 1729, 2718, 31415):
+
+Tier 1 — universal signals (topology-independent):
+- corr(E_tt, E_xx) in [-0.998, -0.856] — always < -0.5
+- w_eff in [-0.743, -0.623], mean=-0.669, std/mean=7.2% — stable
+- tensor separation |e_xx - e_tt| in [0.86, 2.98] — always > 0.5
+- history amplifies c_eff variation on all seeds
+
+Tier 2 — topology-dependent:
+- sign of individual P_delta coefficients (e_xx, e_tt) flips between topologies
+- history amplification magnitude varies (2.8x to 23.4x)
+
 ## Current strongest zone
 
 The strongest rebuilt zone right now is:
@@ -178,6 +192,7 @@ The strongest rebuilt zone right now is:
 - split effective layer
 - proxy bridge into GR and QM
 - GR weak-field to scalar-source recovery path
+- universal physical signals confirmed across K=5 graph topologies
 
 ## Current weakest zone
 
