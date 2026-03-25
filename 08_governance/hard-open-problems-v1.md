@@ -140,8 +140,12 @@ Current rebuild update:
   cause: denser graph (mean_deg 3.2→4.3→6.9) → more divergence cancellation;
   phi channel absent at N=32 (|α_phi|<0.0004 universally — large-N Tier-1 result);
   large-N limit: ∂_t(C_eff²) + α_mis·div(J_mis) + α_mem·div(J_mem) ≈ 0 (phi absent);
-  sparse-graph law: strongest at N=8 (R²=0.909 on seed 42);
-  open: degree-normalized current J̃ = (1/deg_i)·div(J) may restore N-stability
+  sparse-graph law: strongest at N=8 (R²=0.909 on seed 42)
+- degree-normalized current tested (QNG-CPU-048): FAIL (1/4);
+  normalization makes R² negative — OLS ill-conditioned after rescaling;
+  N-weakening is structural (not degree-dilution): CLOSED;
+  multi-channel continuity law is a sparse-graph/UV law;
+  large-N exact form requires mean-field or non-linear replacement (open)
 
 ## Problem 5: back-reaction closure
 

@@ -176,7 +176,8 @@ The strongest recovery path is:
 - history-phase current proxy (QNG-CPU-044): FAIL (1/4 predictions); corr(phi,h.phase)=0.84–0.97; phase variable choice NOT the bottleneck; three diagnoses ruled out (amplitude, scale, phase variable); root bottleneck = current functional form J=C_i·C_j·sin(Δφ)
 - mismatch-gradient current (QNG-CPU-045): FAIL (0/4 predictions); scale_ratio 6-12x (improved vs phi's 100x); topology-selective channel preference: seed 42→mismatch, seed 137→phi, seed 1729→mem; multi-channel current structure identified; joint regression needed
 - multi-channel current (QNG-CPU-046): PASS (4/4); R²_combined > best_single on 5/5 seeds; mean R²=0.405 (from 0.256); max R²=0.602; dominant channels: mismatch + mem (α 10-20x larger than α_phi); effective QNG continuity law established: ∂_t(C_eff²) + α_phi·div(J_phi) + α_mis·div(J_mis) + α_mem·div(J_mem) ≈ 0
-- multi-channel large-N probe (QNG-CPU-047): PARTIAL (2/4); multi-channel beats single-channel at ALL N (15/15 universal); R² decreases with N: 0.586 (N=8) → 0.405 (N=16) → 0.269 (N=32); phi absent at N=32; law is sparse-graph (degree-cancellation effect); open: degree-normalized current for N-stability
+- multi-channel large-N probe (QNG-CPU-047): PARTIAL (2/4); multi-channel beats single-channel at ALL N (15/15 universal); R² decreases with N: 0.586 (N=8) → 0.405 (N=16) → 0.269 (N=32); phi absent at N=32; law is sparse-graph
+- degree-normalized current (QNG-CPU-048): FAIL (1/4); normalization makes R² negative (OLS ill-conditioned); N-weakening confirmed as structural, not degree-dilution; multi-channel law = sparse-graph/UV law; QM N-scaling investigation closed; GR pivot next
 
 ## Current weakest recovery path
 

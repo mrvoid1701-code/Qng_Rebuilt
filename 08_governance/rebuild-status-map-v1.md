@@ -64,7 +64,8 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - history-phase current proxy ψ_hp=C_eff·exp(i·h.phase): `proxy-supported` (informative negative) — R²_hp < R²_std on 4/5 seeds; corr(phi,h.phase)=0.84–0.97; phase variable choice NOT bottleneck; current functional form identified as root issue
 - mismatch-gradient current J_mis=C_i·C_j·(mis_j-mis_i): `proxy-supported` (informative negative) — scale_ratio 6-12x (vs phi's 100x); topology-selective: seed 42 mis wins (0.354), seed 137 phi wins (0.572), seed 1729 mem wins (0.101); multi-channel structure identified
 - multi-channel current (phi+mismatch+mem joint regression): `proxy-supported` — PASS 4/4; R²_combined > best_single on 5/5 seeds; mean R²=0.405 (vs 0.256 best single); max R²=0.602 (seed 137); effective QNG continuity: ∂_t(C_eff²) + α_phi·J_phi + α_mis·J_mis + α_mem·J_mem ≈ 0 (mismatch-memory dominated)
-- multi-channel large-N probe (N=8,16,32): `proxy-supported` (partial 2/4) — multi-channel beats single universally (15/15); R² decreases with N (sparse-graph law); phi absent at N=32; large-N limit: mismatch+mem only; degree-normalized current open (CPU-048)
+- multi-channel large-N probe (N=8,16,32): `proxy-supported` (partial 2/4) — multi-channel beats single universally (15/15); R² decreases with N (sparse-graph law); phi absent at N=32; large-N limit: mismatch+mem only
+- degree-normalized current: `proxy-supported` (FAIL 1/4) — normalization makes R² negative; N-weakening is structural not degree-dilution; multi-channel law confirmed as sparse-graph/UV law; GR pivot follows
 - source-response consistency step: `proxy-supported`
 - source-response consistency v2 step: `proxy-supported`
 - unified split-bridge architecture: `candidate`

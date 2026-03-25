@@ -100,6 +100,7 @@ Core files:
 - [qng-qm-mismatch-current-v1.md](../../03_gr_qm_bridge/qng-qm-mismatch-current-v1.md)
 - [qng-qm-multichannel-current-v1.md](../../03_gr_qm_bridge/qng-qm-multichannel-current-v1.md)
 - [qng-qm-multichannel-large-n-v1.md](../../03_gr_qm_bridge/qng-qm-multichannel-large-n-v1.md)
+- [qng-qm-degree-normalized-current-v1.md](../../03_gr_qm_bridge/qng-qm-degree-normalized-current-v1.md)
 - [bridge-consistency-registry-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/bridge-consistency-registry-v1.md)
 - [qng-source-response-consistency-v2.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-source-response-consistency-v2.md)
 
@@ -178,6 +179,7 @@ Core files:
 - [qng-mismatch-current-reference-v1/report.json](../../07_validation/audits/qng-mismatch-current-reference-v1/report.json)
 - [qng-multichannel-current-reference-v1/report.json](../../07_validation/audits/qng-multichannel-current-reference-v1/report.json)
 - [qng-multichannel-large-n-reference-v1/report.json](../../07_validation/audits/qng-multichannel-large-n-reference-v1/report.json)
+- [qng-degree-normalized-current-reference-v1/report.json](../../07_validation/audits/qng-degree-normalized-current-reference-v1/report.json)
 
 ## Practical reading shortcuts
 
