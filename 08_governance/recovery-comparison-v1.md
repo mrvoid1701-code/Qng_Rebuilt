@@ -160,6 +160,7 @@ The strongest recovery path is:
 - GR effective source matching
 - GR tensorial assembly (E_tt, E_xx with opposite-sign source alignment)
 - GR tensorial source matching (geometry channel drives components in opposite directions)
+- back-reaction closure v3: propagator dressing channel closes QM→GR loop tensorially (e_xx=-1.48, e_tt=+0.88)
 
 ## Current weakest recovery path
 

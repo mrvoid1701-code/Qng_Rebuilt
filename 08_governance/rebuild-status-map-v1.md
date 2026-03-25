@@ -48,6 +48,7 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - QM mode/spectrum step: `proxy-supported`
 - back-reaction proxy closure: `proxy-supported`
 - back-reaction proxy closure v2: `proxy-supported`
+- back-reaction proxy closure v3 (three-channel tensorial): `proxy-supported`
 - source-response consistency step: `proxy-supported`
 - source-response consistency v2 step: `proxy-supported`
 - unified split-bridge architecture: `candidate`

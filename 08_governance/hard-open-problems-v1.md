@@ -93,7 +93,8 @@ Current rebuild update:
 - the first source-response consistency step is now proxy-supported
 - an upgraded two-channel closure v2 is now proxy-supported
 - an upgraded two-channel source-response step is now proxy-supported
-- a first GR-side scalar source composite now improves curvature fitting, but tensorial closure remains open
+- a first GR-side scalar source composite now improves curvature fitting
+- a first three-channel tensorial closure v3 is now proxy-supported (P_delta coeff: e_xx=-1.48, e_tt=+0.88, separation=2.36; E_xx fit improved 0.432→0.314)
 
 ## Problem 6: Lorentzian signature recovery
 

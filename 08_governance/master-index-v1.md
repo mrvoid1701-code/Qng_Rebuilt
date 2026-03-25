@@ -83,6 +83,7 @@ Core files:
 - [qng-qm-semigroup-closure-proxy-v1.md](../../03_gr_qm_bridge/qng-qm-semigroup-closure-proxy-v1.md)
 - [qng-backreaction-closure-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-backreaction-closure-v1.md)
 - [qng-backreaction-closure-v2.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-backreaction-closure-v2.md)
+- [qng-gr-backreaction-closure-v3.md](../../03_gr_qm_bridge/qng-gr-backreaction-closure-v3.md)
 - [bridge-consistency-registry-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/bridge-consistency-registry-v1.md)
 - [qng-source-response-consistency-v2.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-source-response-consistency-v2.md)
 
@@ -144,6 +145,7 @@ Core files:
 - [qng-qm-semigroup-closure-reference-v1/report.json](../../07_validation/audits/qng-qm-semigroup-closure-reference-v1/report.json)
 - [qng-gr-tensorial-assembly-reference-v1/report.json](../../07_validation/audits/qng-gr-tensorial-assembly-reference-v1/report.json)
 - [qng-gr-tensorial-source-matching-reference-v1/report.json](../../07_validation/audits/qng-gr-tensorial-source-matching-reference-v1/report.json)
+- [qng-gr-backreaction-closure-v3-reference-v1/report.json](../../07_validation/audits/qng-gr-backreaction-closure-v3-reference-v1/report.json)
 
 ## Practical reading shortcuts
 
