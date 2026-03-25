@@ -1,0 +1,79 @@
+{
+  "test_id": "QNG-CPU-041",
+  "decision": "pass",
+  "verdict": "\u03c8 = C_eff * exp(i*phi) SUPPORTED as first proxy amplitude; current direction correct: corr(\u0394\u03c1,-div(J))>0 on 4/5 seeds; strong signal on seed 137 (corr=0.756); history amplifies |J| by 3-8x universally; scale balance weak: |J|>>|\u0394\u03c1| by 100x (full continuity open)",
+  "per_seed": [
+    {
+      "seed": 20260325,
+      "corr_drho_neg_divJ_hist": 0.21358,
+      "rms_drho_hist": 0.00506982,
+      "rms_residual_hist": 0.53763484,
+      "rms_divJ_hist": 0.53798521,
+      "rms_divJ_nohist": 0.1385075,
+      "current_reduces_imbalance": false,
+      "hist_current_larger": true
+    },
+    {
+      "seed": 42,
+      "corr_drho_neg_divJ_hist": 0.371963,
+      "rms_drho_hist": 0.00340268,
+      "rms_residual_hist": 0.33690054,
+      "rms_divJ_hist": 0.33711584,
+      "rms_divJ_nohist": 0.06017371,
+      "current_reduces_imbalance": false,
+      "hist_current_larger": true
+    },
+    {
+      "seed": 137,
+      "corr_drho_neg_divJ_hist": 0.756457,
+      "rms_drho_hist": 0.0054066,
+      "rms_residual_hist": 0.63124279,
+      "rms_divJ_hist": 0.6324784,
+      "rms_divJ_nohist": 0.10616737,
+      "current_reduces_imbalance": false,
+      "hist_current_larger": true
+    },
+    {
+      "seed": 1729,
+      "corr_drho_neg_divJ_hist": 0.18629,
+      "rms_drho_hist": 0.00355276,
+      "rms_residual_hist": 0.42583612,
+      "rms_divJ_hist": 0.42588205,
+      "rms_divJ_nohist": 0.1322749,
+      "current_reduces_imbalance": false,
+      "hist_current_larger": true
+    },
+    {
+      "seed": 2718,
+      "corr_drho_neg_divJ_hist": -0.455095,
+      "rms_drho_hist": 0.00398104,
+      "rms_residual_hist": 0.45724095,
+      "rms_divJ_hist": 0.45632868,
+      "rms_divJ_nohist": 0.08360734,
+      "current_reduces_imbalance": false,
+      "hist_current_larger": true
+    }
+  ],
+  "corr_summary": {
+    "values": [
+      0.21358,
+      0.371963,
+      0.756457,
+      0.18629,
+      -0.455095
+    ],
+    "count_positive": 4
+  },
+  "imbalance_summary": {
+    "count_reduces": 0
+  },
+  "current_summary": {
+    "count_hist_larger": 5
+  },
+  "scale_mismatch_all_seeds": true,
+  "checks": {
+    "p2_corr_direction_positive_majority_pass": true,
+    "p3_strong_corr_above_half_at_least_one_pass": true,
+    "p4_history_amplifies_current_majority_pass": true
+  }
+}

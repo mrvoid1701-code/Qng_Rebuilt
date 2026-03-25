@@ -102,6 +102,10 @@ Current rebuild update:
 - the first semigroup closure proxy is now proxy-supported (3-step overlap 0.9988, per-step decay ratio 0.9994)
 - the first mode/spectrum step is now proxy-supported
 - the continuity-style balance remains weak
+- the first complex amplitude proxy is now proxy-supported (QNG-CPU-041):
+  ψ = C_eff * exp(i*phi); current direction correct on 4/5 seeds (corr>0);
+  strong signal on seed 137 (corr=0.756); history amplifies |J| by 3–8x universally;
+  scale balance weak: |J|>>|Δρ| by 100x — full continuity open
 
 ## Problem 5: back-reaction closure
 

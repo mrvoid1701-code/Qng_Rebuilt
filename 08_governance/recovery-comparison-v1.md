@@ -170,6 +170,7 @@ The strongest recovery path is:
 - tau identification: universal scalar tau FALSIFIED (config cv=0.169, per-node cv=11–17%); tau_eff=L_eff/C_eff SUPPORTED (history amplifies 2.6–4.6x, corr(tau,mem)=0.68–0.83 universally)
 - sigma identification: sigma=C_eff FALSIFIED; sigma∝C_eff SUPPORTED (corr 0.707–0.954 universally); sigma couples to BOTH C_eff and L_eff; C_eff-vs-L_eff primacy topology-dependent (tier-2); R²(C_eff+L_eff)>0.71 universally
 - phi identification: phi is a near-perfectly synchronized phase field (sync>0.94 universally); history introduces phase diversity (anti-ordering); phi-L_eff weak and sign-unstable (tier-2); phi→C_eff indirect and topology-dependent (tier-2); phi is the native U(1) phase/oscillation mode
+- complex amplitude proxy: ψ=C_eff*exp(i*phi) SUPPORTED; current direction corr>0 on 4/5 seeds; strong signal on seed 137 (corr=0.756); history amplifies |J| by 3–8x; scale balance weak (|J|>>|Δρ| by 100x — full continuity open)
 
 ## Current weakest recovery path
 

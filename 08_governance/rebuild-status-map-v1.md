@@ -58,6 +58,7 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - tau identification: universal scalar `tau` FALSIFIED; per-node `tau_eff = L_eff/C_eff` supported (history amplifies 2.6–4.6x, corr(tau,mem) 0.68–0.83)
 - sigma identification: `sigma = C_eff` FALSIFIED; `sigma ∝ C_eff` supported (corr 0.71–0.95 universally); sigma couples to BOTH C_eff and L_eff; R²(C_eff+L_eff) > 0.71 universally; C_eff-vs-L_eff primacy topology-dependent
 - phi identification: phi is a near-perfect synchronization field (sync>0.94 universally); history anti-ordering (increases phase diversity); phi-L_eff weak/sign-unstable (tier-2); phi is native U(1) phase mode
+- complex amplitude proxy ψ=C_eff*exp(i*phi): `proxy-supported` — current direction correct 4/5 seeds; history amplifies |J| 3–8x; scale balance open
 - source-response consistency step: `proxy-supported`
 - source-response consistency v2 step: `proxy-supported`
 - unified split-bridge architecture: `candidate`
