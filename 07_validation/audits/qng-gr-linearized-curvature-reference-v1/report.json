@@ -1,0 +1,23 @@
+{
+  "test_id": "QNG-CPU-019",
+  "decision": "pass",
+  "max_abs": {
+    "r_lin": 0.1726154604110609
+  },
+  "means": {
+    "r_lin_history_mean": 1.734723475976807e-18
+  },
+  "correlations": {
+    "corr_r_lin_kappa": 0.9040875647789655,
+    "corr_r_lin_grad_a": 0.5927456530507652
+  },
+  "differences": {
+    "r_lin_l1_history_vs_present_only": 1.1348509323173919
+  },
+  "checks": {
+    "bounded_pass": true,
+    "geometry_link_pass": true,
+    "accel_gradient_link_pass": true,
+    "history_imprint_pass": true
+  }
+}

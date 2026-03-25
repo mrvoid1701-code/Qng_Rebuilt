@@ -1,0 +1,32 @@
+{
+  "test_id": "QNG-CPU-011",
+  "decision": "pass",
+  "cosmology": {
+    "h_cos_history": 0.9871115155408419,
+    "h_cos_present_only": 0.7857723336669745,
+    "h_cos_memory_off": 0.9189985367501801,
+    "c_cos_history": 0.06422218586154871,
+    "c_cos_present_only": 0.0281457166947352
+  },
+  "means": {
+    "x_cos_history_mean": 0.9871115155408419
+  },
+  "max_abs": {
+    "x_cos": 1.0166888417701176
+  },
+  "correlations": {
+    "corr_x_cos_c_eff": 0.7057101526992324
+  },
+  "differences": {
+    "x_cos_l1_memory_on_vs_off": 1.0898076606505938,
+    "x_cos_l1_history_vs_present_only": 3.221426909981879,
+    "h_cos_abs_difference_history_vs_present_only": 0.20133918187386735
+  },
+  "checks": {
+    "bounded_pass": true,
+    "activation_positive_pass": true,
+    "coherence_sensitivity_pass": true,
+    "memory_switch_pass": true,
+    "history_imprint_pass": true
+  }
+}

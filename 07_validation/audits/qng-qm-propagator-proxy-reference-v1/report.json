@@ -1,0 +1,25 @@
+{
+  "test_id": "QNG-CPU-024",
+  "decision": "pass",
+  "norms": {
+    "p_diag_max_row_sum": 1.0029827867844625,
+    "p_mix_max_row_sum": 1.1032810654629088
+  },
+  "differences": {
+    "psi_diag_l1_vs_target": 1.7080227685684235e-15,
+    "psi_mix_l1_vs_diag": 1.4857946584700323,
+    "p_mix_phase_vs_frozen_l1": 0.27950311555139273,
+    "p_mix_history_vs_present_only_l1": 0.1548767569581933
+  },
+  "overlaps": {
+    "mix_target_overlap": 0.9998631562404262
+  },
+  "checks": {
+    "diag_exact_reconstruction_pass": true,
+    "mix_bounded_pass": true,
+    "mix_nontrivial_pass": true,
+    "phase_sensitivity_pass": true,
+    "history_imprint_pass": true,
+    "mix_alignment_pass": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "test_id": "QNG-CPU-015",
+  "decision": "pass",
+  "mins_maxs": {
+    "g_tt_max": -0.9969966743125441,
+    "g_xx_min": 1.0000000416912282,
+    "det_max": -0.9969967158785601,
+    "max_abs_h_tt": 0.034748630045248835,
+    "max_abs_h_xx": 0.05426811563823941
+  },
+  "means": {
+    "h_tt_history_mean": -0.00908675419448491,
+    "h_xx_history_mean": 0.013691994185376685
+  },
+  "differences": {
+    "a_metric_l1_vs_a_br": 0.0,
+    "h_tt_l1_history_vs_present_only": 0.16123335927532187,
+    "h_xx_l1_history_vs_present_only": 0.21717405082141572
+  },
+  "checks": {
+    "sign_pattern_pass": true,
+    "weakfield_smallness_pass": true,
+    "metric_accel_consistency_pass": true,
+    "history_imprint_pass": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "test_id": "QNG-CPU-016",
+  "decision": "fail",
+  "fit_history_source_free": {
+    "kappa": -0.00011481259986072985,
+    "raw_l2": 0.011110283342055362,
+    "residual_l2": 0.011109043912284367,
+    "improvement_ratio": 0.9998884430097023
+  },
+  "fit_present_only_source_free": {
+    "kappa": -0.0003621434057846531,
+    "raw_l2": 0.0019747628084375267,
+    "residual_l2": 0.0019677934900365584,
+    "improvement_ratio": 0.9964708073439551
+  },
+  "fit_history_with_source": {
+    "kappa": -1.8169172484330745e-05,
+    "sigma": 0.00955982125123826,
+    "raw_l2": 0.011110283342055362,
+    "residual_l2": 0.011087318280348596,
+    "improvement_ratio": 0.9979329904558025
+  },
+  "fit_present_only_with_source": {
+    "kappa": -0.0003675404808749371,
+    "sigma": -0.00021278972953721516,
+    "raw_l2": 0.0019747628084375267,
+    "residual_l2": 0.0019677563583952325,
+    "improvement_ratio": 0.9964520042547096
+  },
+  "means": {
+    "rho_t_mean": 0.9206104120130555,
+    "rho_tp1_mean": 0.9232026102960005,
+    "corr_im_abs_mean": 0.2023460897087953
+  },
+  "max_abs": {
+    "corr_im": 0.6440611584233821,
+    "residual": 0.005362044297540896
+  },
+  "differences": {
+    "corr_im_l1_phase_vs_frozen": 3.237537435340725,
+    "rho_l1_history_vs_present_only": 2.413215808056879
+  },
+  "checks": {
+    "density_bounds_pass": true,
+    "current_nontrivial_pass": true,
+    "continuity_improvement_pass": false,
+    "source_augmented_pass": false,
+    "phase_sensitivity_pass": true,
+    "history_imprint_pass": true
+  }
+}

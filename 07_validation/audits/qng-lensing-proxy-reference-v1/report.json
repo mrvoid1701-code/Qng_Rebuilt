@@ -1,0 +1,30 @@
+{
+  "test_id": "QNG-CPU-008",
+  "decision": "pass",
+  "max_abs": {
+    "phi_lens": 0.04510896447291024,
+    "alpha": 0.02070819443567201
+  },
+  "means": {
+    "phi_lens_history_mean": 0.011389374189930801,
+    "alpha_abs_history_mean": 0.0067643351598341075
+  },
+  "strength": {
+    "d_lens_history": 0.10822936255734572,
+    "d_lens_present_only": 0.005914705360574257
+  },
+  "correlations": {
+    "corr_alpha_grad_kappa": -0.9999968495188817
+  },
+  "differences": {
+    "d_lens_abs_difference": 0.10231465719677146,
+    "alpha_l1_history_vs_present_only": 0.11280123547330956
+  },
+  "checks": {
+    "weakfield_bounded_pass": true,
+    "deflection_nontrivial_pass": true,
+    "geometry_gradient_link_pass": true,
+    "history_imprint_pass": true,
+    "profile_history_pass": true
+  }
+}

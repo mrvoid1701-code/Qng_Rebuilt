@@ -1,0 +1,62 @@
+{
+  "test_id": "QNG-CPU-002",
+  "decision": "pass",
+  "config": {
+    "n_nodes": 16,
+    "steps": 24,
+    "seed": 20260325,
+    "sigma_self_gain": 0.08,
+    "sigma_rel_gain": 0.18,
+    "sigma_hist_gain": 0.12,
+    "chi_decay": 0.1,
+    "chi_rel_gain": 0.14,
+    "chi_hist_gain": 0.08,
+    "phi_rel_gain": 0.22,
+    "phi_hist_gain": 0.1,
+    "hist_m_rate": 0.3,
+    "hist_d_rate": 0.25,
+    "hist_p_rate": 0.35
+  },
+  "rollout_metrics": {
+    "sigma_min": 0.21329916786270842,
+    "sigma_max": 0.8617515658375637,
+    "max_abs_phi": 3.0330479989673087,
+    "max_hist_mem": 0.29456999286091945,
+    "max_hist_mismatch": 0.1410040256781756,
+    "mean_final_sigma": 0.8457577138588883,
+    "mean_final_abs_chi": 0.20333513074570647
+  },
+  "locality": {
+    "source_node": 3,
+    "changed_nodes": [
+      2,
+      3,
+      4,
+      8,
+      11
+    ],
+    "allowed_nodes": [
+      2,
+      3,
+      4,
+      8,
+      11
+    ],
+    "locality_pass": true
+  },
+  "memory": {
+    "sigma_l1": 5.673481074457251,
+    "chi_l1": 3.212578093988044,
+    "phi_l1": 2.8038752478920013,
+    "memory_sensitivity_pass": true,
+    "history_mean_final_sigma": 0.8457577138588883,
+    "present_only_mean_final_sigma": 0.4911651467053103
+  },
+  "checks": {
+    "sigma_bounds_pass": true,
+    "phi_bounds_pass": true,
+    "history_bounds_pass": true,
+    "locality_pass": true,
+    "memory_sensitivity_pass": true
+  }
+}

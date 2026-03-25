@@ -1,0 +1,24 @@
+{
+  "test_id": "QNG-CPUGPU-002",
+  "decision": "pass",
+  "tolerance": 1e-09,
+  "history_enabled": {
+    "use_history": true,
+    "sigma_max_abs_diff": 2.220446049250313e-16,
+    "chi_max_abs_diff": 1.1102230246251565e-16,
+    "phi_max_abs_diff": 8.881784197001252e-16,
+    "mem_max_abs_diff": 7.632783294297951e-17,
+    "mismatch_max_abs_diff": 1.5612511283791264e-16,
+    "phase_max_abs_diff": 1.3322676295501878e-15
+  },
+  "history_disabled": {
+    "use_history": false,
+    "sigma_max_abs_diff": 0.0,
+    "chi_max_abs_diff": 0.0,
+    "phi_max_abs_diff": 1.3322676295501878e-15,
+    "mem_max_abs_diff": 0.0,
+    "mismatch_max_abs_diff": 0.0,
+    "phase_max_abs_diff": 8.881784197001252e-16
+  },
+  "max_diff": 1.3322676295501878e-15
+}

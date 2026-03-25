@@ -1,0 +1,27 @@
+{
+  "test_id": "QNG-CPU-018",
+  "decision": "pass",
+  "energies": {
+    "state_energy": 14.729766592208888,
+    "state_spectral_energy": 14.729766592208893,
+    "generator_energy": 0.006528407954637069,
+    "generator_spectral_energy": 0.00652840795463706
+  },
+  "concentration": {
+    "state_top3_fraction": 0.9530917583160611,
+    "generator_top3_fraction": 0.46459255614637596
+  },
+  "differences": {
+    "state_spectrum_l1_phase_vs_frozen": 3.203450496995306,
+    "generator_spectrum_l1_phase_vs_frozen": 0.006491320172129819,
+    "state_spectrum_l1_history_vs_present_only": 2.413215808056877,
+    "generator_spectrum_l1_history_vs_present_only": 0.003267247791051367
+  },
+  "checks": {
+    "parseval_state_pass": true,
+    "parseval_generator_pass": true,
+    "generator_spectrum_nontrivial_pass": true,
+    "phase_sensitivity_pass": true,
+    "history_imprint_pass": true
+  }
+}

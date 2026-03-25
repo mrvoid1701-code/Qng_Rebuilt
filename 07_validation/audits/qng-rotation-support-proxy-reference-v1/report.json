@@ -1,0 +1,33 @@
+{
+  "test_id": "QNG-CPU-009",
+  "decision": "pass",
+  "strength": {
+    "s_rot_history": 0.04303862801388898,
+    "s_rot_present_only": 0.0007748896209055023,
+    "s_rot_memory_off": 0.0
+  },
+  "means": {
+    "delta_history_mean": 0.0026899142508680614,
+    "v_base_sq_history_mean": 0.013241966033984018,
+    "v_qng_sq_history_mean": 0.01593188028485208
+  },
+  "max_abs": {
+    "v_qng_sq": 0.06468764306196305,
+    "delta": 0.013137741128096722
+  },
+  "correlations": {
+    "corr_delta_modulation_source": 1.0,
+    "corr_delta_l_eff": 0.3035515846089423
+  },
+  "differences": {
+    "delta_l1_memory_on_vs_off": 0.04303862801388898,
+    "s_rot_abs_difference_history_vs_present_only": 0.04226373839298348
+  },
+  "checks": {
+    "positive_excess_pass": true,
+    "bounded_support_pass": true,
+    "memory_link_pass": true,
+    "memory_switch_pass": true,
+    "history_imprint_pass": true
+  }
+}

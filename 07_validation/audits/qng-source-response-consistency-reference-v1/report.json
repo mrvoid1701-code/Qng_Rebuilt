@@ -1,0 +1,33 @@
+{
+  "test_id": "QNG-CPU-020",
+  "decision": "pass",
+  "history_geometry_only": {
+    "a": 6.923544258566772,
+    "ratio": 0.7126219623332939
+  },
+  "history_with_source": {
+    "a": 11.347138976084924,
+    "b": -0.06242780070874749,
+    "ratio": 0.44926739673107696
+  },
+  "present_only_geometry_only": {
+    "a": 9.139923034371533,
+    "ratio": 0.6534711549302686
+  },
+  "present_only_with_source": {
+    "a": 12.436414972061197,
+    "b": -0.003274317217999988,
+    "ratio": 0.4760355520242773
+  },
+  "differences": {
+    "ratio_improvement_history": 0.26335456560221693,
+    "ratio_improvement_present_only": 0.17743560290599136,
+    "r_lin_l1_history_vs_present_only": 1.1348509323173919
+  },
+  "checks": {
+    "baseline_meaningful_pass": true,
+    "source_augmented_improvement_pass": true,
+    "source_coefficient_pass": true,
+    "history_imprint_pass": true
+  }
+}

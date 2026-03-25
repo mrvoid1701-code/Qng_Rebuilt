@@ -1,0 +1,25 @@
+{
+  "test_id": "QNG-CPU-014",
+  "decision": "pass",
+  "mins_maxs": {
+    "g_tt_max": -1.0115374829591417,
+    "g_xx_min": 1.0000000416912282,
+    "det_max": -1.0280278508604868,
+    "t_sig_max_abs": 1.1571668494633158
+  },
+  "means": {
+    "t_sig_history_mean": 1.0568183980581052,
+    "q_ctr_history_mean": -1.6653345369377348e-16
+  },
+  "differences": {
+    "t_sig_l1_phase_vs_frozen": 0.673365052835879,
+    "t_sig_l1_history_vs_present_only": 0.6860720460636462
+  },
+  "checks": {
+    "sign_pattern_pass": true,
+    "det_negative_pass": true,
+    "bounded_temporal_modulation_pass": true,
+    "phase_sensitivity_pass": true,
+    "history_imprint_pass": true
+  }
+}

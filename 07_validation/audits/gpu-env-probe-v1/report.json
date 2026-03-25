@@ -1,0 +1,11 @@
+{
+  "nvidia_smi": {
+    "found": true,
+    "path": "C:\\Windows\\system32\\nvidia-smi.EXE",
+    "exit_code": 0,
+    "stdout": "GPU 0: NVIDIA GeForce RTX 3060 (UUID: GPU-70fba0fa-47ae-7c98-48c8-a130c4bba4a4)",
+    "stderr": ""
+  },
+  "cupy_installed": true,
+  "torch_installed": false
+}

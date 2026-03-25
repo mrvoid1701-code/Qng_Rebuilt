@@ -1,0 +1,26 @@
+{
+  "test_id": "QNG-CPU-006",
+  "decision": "pass",
+  "means": {
+    "corr_mag_history_mean": 0.9231850346169143,
+    "corr_re_history_mean": 0.8875076994223341,
+    "corr_im_abs_history_mean": 0.19099493945169926,
+    "corr_re_present_only_mean": 0.7659035883459908
+  },
+  "max_abs": {
+    "corr_re": 0.9320022120269569,
+    "corr_im": 0.6071363111591732
+  },
+  "differences": {
+    "corr_re_l1_phase_vs_frozen": 0.5708373631132837,
+    "corr_re_l1_history_vs_present_only": 2.1234415044353883,
+    "corr_im_l1_history_vs_present_only": 2.1114708927950696
+  },
+  "checks": {
+    "corr_mag_bounds_pass": true,
+    "corr_parts_bounds_pass": true,
+    "transport_nontrivial_pass": true,
+    "phase_sensitivity_pass": true,
+    "history_imprint_pass": true
+  }
+}

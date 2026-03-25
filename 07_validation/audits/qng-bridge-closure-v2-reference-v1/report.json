@@ -1,0 +1,37 @@
+{
+  "test_id": "QNG-CPU-025",
+  "decision": "pass",
+  "max_abs": {
+    "psi_br2": 0.017392131302637625,
+    "a_br2": 0.008664315466916152
+  },
+  "fits_history": {
+    "v1_ratio": 0.44926739673107696,
+    "v2_ratio": 0.37631811419830885,
+    "a": 11.087805543700746,
+    "b": -0.0054214466054695876,
+    "c": -21.74649152639396
+  },
+  "fits_present_only": {
+    "v1_ratio": 0.4760355520242773,
+    "v2_ratio": 0.45105280655556534,
+    "a": 10.95909757980911,
+    "b": 0.004391508420701048,
+    "c": -11.873165985307905
+  },
+  "differences": {
+    "psi_br2_l1_vs_br1": 0.000739076258019158,
+    "psi_br2_l1_phase_vs_frozen": 0.017227424913700957,
+    "psi_br2_l1_history_vs_present_only": 0.08032684047715044,
+    "fit_ratio_improvement_history": 0.07294928253276811,
+    "fit_ratio_improvement_present_only": 0.02498274546871193
+  },
+  "checks": {
+    "bounded_pass": true,
+    "closure_upgrade_nontrivial_pass": true,
+    "phase_sensitivity_pass": true,
+    "history_imprint_pass": true,
+    "fit_upgrade_pass": true,
+    "second_source_nonzero_pass": true
+  }
+}

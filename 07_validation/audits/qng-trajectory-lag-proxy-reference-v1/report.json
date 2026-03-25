@@ -1,0 +1,22 @@
+{
+  "test_id": "QNG-CPU-007",
+  "decision": "pass",
+  "trajectory": {
+    "a_trj_history": 0.00017289064504512715,
+    "a_trj_present_only": 4.187195638966692e-06,
+    "a_trj_reversed": -0.00017289064504512715,
+    "s_trj_history": 0.0029994062714187595,
+    "s_trj_present_only": 5.157859608376185e-05
+  },
+  "differences": {
+    "s_trj_abs_difference": 0.0029478276753349976,
+    "r_edge_l1_history_vs_present_only": 0.002994064659958947
+  },
+  "checks": {
+    "lag_strength_nontrivial_pass": true,
+    "history_imprint_pass": true,
+    "direction_reversal_pass": true,
+    "bounded_inputs_pass": true,
+    "edge_pattern_history_pass": true
+  }
+}

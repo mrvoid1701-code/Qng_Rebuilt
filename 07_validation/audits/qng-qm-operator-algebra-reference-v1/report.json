@@ -1,0 +1,29 @@
+{
+  "test_id": "QNG-CPU-022",
+  "decision": "pass",
+  "commutators": {
+    "gn_l1": 0.0,
+    "gt_l1": 0.25522093929103645,
+    "nt_l1": 0.14426196404886155,
+    "jacobi_l1": 1.770910060202674e-17
+  },
+  "actions": {
+    "gt_on_psi_l1": 0.18744606255653748,
+    "nt_on_psi_l1": 0.08534510406454221,
+    "psi_hist_norm_l1": 15.351440967700968,
+    "psi_nohist_norm_l1": 14.037977207515938,
+    "psi_frozen_norm_l1": 15.351440967700968
+  },
+  "differences": {
+    "commutator_phase_l1": 0.2545478459175753,
+    "commutator_history_l1": 0.32813601523898916
+  },
+  "checks": {
+    "diagonal_commuting_pass": true,
+    "transport_commutators_nontrivial_pass": true,
+    "jacobi_pass": true,
+    "commutator_action_nontrivial_pass": true,
+    "phase_sensitivity_pass": true,
+    "history_imprint_pass": true
+  }
+}

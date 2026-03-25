@@ -1,0 +1,30 @@
+{
+  "test_id": "QNG-CPU-010",
+  "decision": "pass",
+  "timing": {
+    "d_time_history": 0.007174838350970351,
+    "d_time_present_only": 7.489283486236742e-05,
+    "d_time_memory_off": 0.0,
+    "w_time_history": 0.004496393540327151,
+    "w_time_present_only": 7.423587443994588e-05
+  },
+  "means": {
+    "t_edge_history_mean": 0.00044842739693564694,
+    "psi_edge_history_mean": 0.004543377097242458
+  },
+  "max_abs": {
+    "t_edge": 0.001146899877645037
+  },
+  "differences": {
+    "t_edge_l1_history_vs_present_only": 0.00710169452842337,
+    "t_edge_l1_memory_on_vs_off": 0.007174838350970351,
+    "d_time_abs_difference_history_vs_present_only": 0.0070999455161079835
+  },
+  "checks": {
+    "bounded_pass": true,
+    "delay_nontrivial_pass": true,
+    "memory_switch_pass": true,
+    "history_imprint_pass": true,
+    "distortion_nontrivial_pass": true
+  }
+}

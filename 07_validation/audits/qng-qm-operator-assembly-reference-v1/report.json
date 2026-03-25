@@ -1,0 +1,28 @@
+{
+  "test_id": "QNG-CPU-021",
+  "decision": "pass",
+  "norms": {
+    "g_eff_max_row_sum": 0.03705516015663165,
+    "t_eff_max_row_sum": 1.0,
+    "n_eff_max_row_sum": 0.9325288701391107
+  },
+  "linearity": {
+    "g_eff_linearity_l1": 5.856207373931136e-17,
+    "t_eff_linearity_l1": 2.6221206569178025e-15,
+    "n_eff_linearity_l1": 1.590774970055685e-15
+  },
+  "signals": {
+    "g_eff_on_psi_l1": 0.24481402664787763,
+    "commutator_gt_l1": 0.25522093929103645,
+    "g_eff_phase_vs_frozen_l1": 0.2536646012503958,
+    "g_eff_history_vs_present_only_l1": 0.14065907932470012
+  },
+  "checks": {
+    "bounded_pass": true,
+    "linearity_pass": true,
+    "generator_action_nontrivial_pass": true,
+    "commutator_nontrivial_pass": true,
+    "phase_sensitivity_pass": true,
+    "history_imprint_pass": true
+  }
+}
