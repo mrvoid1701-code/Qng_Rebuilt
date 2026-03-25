@@ -109,8 +109,11 @@ Without this, any spacetime claim remains incomplete.
 
 Current rebuild update:
 
-- a first signature proxy now exists
-- but exact Lorentzian recovery remains open
+- a first signature proxy now existed (QNG-CPU-014) but was limited to sign-pattern
+- a first discriminant-based Lorentzian proxy is now proxy-supported (QNG-CPU-033):
+  corr(h_tt, h_xx) = -0.972, h_xx > 0 on 100% of nodes, memory amplifies signature 331x
+- h_tt < 0 predominantly, h_xx > 0 universally — linearized (-,+) signature confirmed
+- exact strong-field Lorentzian recovery remains open
 
 ## Problem 7: matter sector identification
 

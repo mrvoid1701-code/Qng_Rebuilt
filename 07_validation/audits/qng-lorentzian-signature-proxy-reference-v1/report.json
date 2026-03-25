@@ -1,25 +1,28 @@
 {
-  "test_id": "QNG-CPU-014",
+  "test_id": "QNG-CPU-033",
   "decision": "pass",
-  "mins_maxs": {
-    "g_tt_max": -1.0115374829591417,
-    "g_xx_min": 1.0000000416912282,
-    "det_max": -1.0280278508604868,
-    "t_sig_max_abs": 1.1571668494633158
+  "history": {
+    "mean_d_sig": -0.00031277776822295365,
+    "mean_h_tt": -0.009086754194484951,
+    "mean_h_xx": 0.013691994185376657,
+    "corr_h_tt_h_xx": -0.9719097730828727,
+    "frac_hxx_pos": 1.0,
+    "frac_htt_neg": 0.6875
   },
-  "means": {
-    "t_sig_history_mean": 1.0568183980581052,
-    "q_ctr_history_mean": -1.6653345369377348e-16
+  "no_history": {
+    "mean_d_sig": -9.44572497739473e-07,
+    "mean_h_tt": -0.00033711794806782824,
+    "mean_h_xx": 0.0005057278235879314,
+    "corr_h_tt_h_xx": -0.8291464359158015,
+    "frac_hxx_pos": 1.0,
+    "frac_htt_neg": 0.5625
   },
-  "differences": {
-    "t_sig_l1_phase_vs_frozen": 0.673365052835879,
-    "t_sig_l1_history_vs_present_only": 0.6860720460636462
-  },
+  "amplification_factor": 331.1315637195509,
   "checks": {
-    "sign_pattern_pass": true,
-    "det_negative_pass": true,
-    "bounded_temporal_modulation_pass": true,
-    "phase_sensitivity_pass": true,
-    "history_imprint_pass": true
+    "discriminant_negative_pass": true,
+    "anticorrelation_pass": true,
+    "spacelike_robustness_pass": true,
+    "history_amplifies_discriminant_pass": true,
+    "history_sharpens_corr_pass": true
   }
 }

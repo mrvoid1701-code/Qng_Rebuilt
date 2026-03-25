@@ -162,6 +162,7 @@ The strongest recovery path is:
 - GR tensorial source matching (geometry channel drives components in opposite directions)
 - back-reaction closure v3: propagator dressing channel closes QM→GR loop tensorially (e_xx=-1.48, e_tt=+0.88)
 - back-reaction self-consistency: gamma=0.0025, tensor signs preserved — fixed point proxy supported
+- Lorentzian signature: corr(h_tt,h_xx)=-0.972, h_xx>0 universal, memory amplifies 331x — linearized (-,+) signature proxy supported
 
 ## Current weakest recovery path
 
