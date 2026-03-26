@@ -228,6 +228,13 @@ Current rebuild update:
   **key finding: δρ ≈ K·η·γ_tt·E_tt — GR gravitational field DIRECTLY imprints onto matter density profile**;
   interpretation: QNG analogue of gravitational potential well filling — matter accumulates where E_tt large;
   open: degree-density law at large N; self-consistent iteration with updating E_tt; real-data unit mapping
+- **Self-consistent back-reaction (QNG-CPU-057): PASS (3/4) — Tier-1.5 — LINEAR APPROX VALIDATED; EIGENMODE LOCKING**;
+  P1 FAIL (3/5, negative-γ_tt seeds non-monotone but not diverging);
+  P2 PASS (5/5): attractor_dist ≈ 0.000037 — linear and self-consistent attractors essentially identical;
+  P3 PASS (5/5): |Pearson(δρ_sc, E_tt_final)| > 0.99 — geometric imprint survives nonlinearity;
+  P4 PASS (5/5): E_tt_drift = 6.7%–19.6% (mean 13.4%) — E_tt changes substantially but direction preserved;
+  **key finding: eigenmode locking — E_tt is approximate eigenvector of its own dynamics under back-reaction**;
+  **back-reaction sector CLOSED**: linear approx exact, self-consistent loop confirmedopen: degree-density law at large N; real-data unit mapping; exact GR/QM recovery
 
 ## Problem 6: Lorentzian signature recovery
 

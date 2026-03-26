@@ -109,6 +109,7 @@ Core files:
 - [qng-gr-backreaction-large-n-v1.md](../../03_gr_qm_bridge/qng-gr-backreaction-large-n-v1.md)
 - [qng-gr-backreaction-fixedpoint-v1.md](../../03_gr_qm_bridge/qng-gr-backreaction-fixedpoint-v1.md)
 - [qng-gr-attractor-geometry-v1.md](../../03_gr_qm_bridge/qng-gr-attractor-geometry-v1.md)
+- [qng-gr-selfconsistent-backreaction-v1.md](../../03_gr_qm_bridge/qng-gr-selfconsistent-backreaction-v1.md)
 - [bridge-consistency-registry-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/bridge-consistency-registry-v1.md)
 - [qng-source-response-consistency-v2.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-source-response-consistency-v2.md)
 
@@ -196,6 +197,7 @@ Core files:
 - [qng-gr-backreaction-large-n-reference-v1/report.json](../../07_validation/audits/qng-gr-backreaction-large-n-reference-v1/report.json)
 - [qng-gr-backreaction-fixedpoint-reference-v1/report.json](../../07_validation/audits/qng-gr-backreaction-fixedpoint-reference-v1/report.json)
 - [qng-gr-attractor-geometry-reference-v1/report.json](../../07_validation/audits/qng-gr-attractor-geometry-reference-v1/report.json)
+- [qng-gr-selfconsistent-backreaction-reference-v1/report.json](../../07_validation/audits/qng-gr-selfconsistent-backreaction-reference-v1/report.json)
 
 ## Practical reading shortcuts
 
