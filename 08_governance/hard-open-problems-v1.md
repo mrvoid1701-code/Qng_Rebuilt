@@ -196,6 +196,14 @@ Current rebuild update:
 - a first GR-side scalar source composite now improves curvature fitting
 - a first three-channel tensorial closure v3 is now proxy-supported (P_delta coeff: e_xx=-1.48, e_tt=+0.88, separation=2.36; E_xx fit improved 0.432→0.314)
 - a first self-consistency fixed-point proxy is now supported: gamma=0.0025 (single-iteration contraction), tensor signs preserved under perturbation
+- **QM↔GR back-reaction loop closed (QNG-CPU-053): PASS (4/4) — Tier-1**;
+  GR→QM direction confirmed: E_tt_i → ∂_t(C_eff²)_i with γ_tt > 0 on ALL 5/5 seeds;
+  complete back-reaction equation: ∂_t(ρ) ≈ -(α_phi·dJ_phi + α_mis·dJ_mis + α_mem·dJ_mem) + γ_tt·E_tt;
+  γ_tt ≈ +0.003–0.008 (universal positive); mean R²_3ch=0.405 → R²_5ch=0.461 (+5.5%);
+  seed 1729: strongest GR→QM coupling (+12.4% R² improvement);
+  **self-regulating mechanism**: div_J_mis→↓E_tt→↓∂_t(ρ) (damping loop);
+  **Problem 5 partially resolved at proxy level**;
+  open: fixed-point equation; N-scaling of γ_tt; second-order GR correction
 
 ## Problem 6: Lorentzian signature recovery
 

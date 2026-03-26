@@ -70,6 +70,7 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - QM→GR coupling covariance (multi-seed): `proxy-supported` — PASS 3/4; **Tier-1**; 5/5 seeds improve (universal); e_mis dominant on 4/5 seeds; sign(e_mis)=−1 on 4/5 seeds; ⟨e_mis⟩=−0.175; coupling ~3–10% of geometry; seed 2718 sign-flip anomaly identified
 - QM→GR coupling large-N probe: `proxy-supported` — **PASS 4/4; Tier-1-large-N**; sparse-graph law in GR sector: |e_mis| 1.037→0.259→0.159 (N=8→16→32); 5/5 improve at N=32; sign normalizes at N=32; unified sparse-graph law confirmed (same attenuation in QM+GR)
 - QM→GR coupling continuum limit (N=64): `proxy-supported` — **PASS 4/4; SATURATION CLASS**; |e_mis| 0.159→0.134 (N=32→64, decay ×0.84/doubling); seed 2718 fully normalized; non-monotone Δratio (−0.018→−0.030); best estimate |e_mis(∞)| ≈ 0.08–0.12 (non-zero)
+- QM↔GR back-reaction loop: `proxy-supported` — **PASS 4/4; Tier-1; LOOP CLOSES**; GR→QM: E_tt→∂_t(ρ) with γ_tt>0 on 5/5 seeds; mean R²: 0.405→0.461; full equation: ∂_t(ρ)≈-(α_phi·dJ_phi+α_mis·dJ_mis+α_mem·dJ_mem)+γ_tt·E_tt; self-regulating damping loop confirmed
 - source-response consistency step: `proxy-supported`
 - source-response consistency v2 step: `proxy-supported`
 - unified split-bridge architecture: `candidate`
