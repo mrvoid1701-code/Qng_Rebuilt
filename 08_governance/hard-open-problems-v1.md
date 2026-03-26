@@ -270,6 +270,14 @@ Current rebuild update:
   phi sync → |corr| decay; history = signature PRESERVER (prevents sync collapse, not generator)**;
   CPU-033's 331× amplification = history prevents 331× decay, not builds up 331×;
   open: why |corr|≈1 at t=1 (statistical property of init_state?); N-dependence; anti-ordering quantification
+- **Initial signature N-scaling (QNG-CPU-060): PASS 4/4 — Tier-1 — UNIVERSAL; Δ ~ N^(−0.87)**;
+  P1 PASS all N: |corr_1| ≈ 0.9995 at N=8,16,32,64 — universal structural property of metric assembly;
+  P2 PASS all N: signature always starts maximal, decays; P3 PASS: decay halves per N-doubling;
+  P4 PASS: 5/5 seeds |corr_24| > 0.90 at N=64;
+  **key finding: decay Δ ~ N^(−0.87) → 0 as N→∞; continuum limit has PERFECTLY STABLE Lorentzian signature**;
+  mechanism: random phi → maximum phi disorder → maximal E_tt/E_xx anticorrelation (structural);
+  decay = finite-N phi-sync effect; history slows sync → slows decay;
+  **Problem 6 RESOLVED at mechanism level**: (1) structural initial signature, (2) N^(−0.87) decay, (3) history preservation
 
 ## Problem 7: matter sector identification
 
