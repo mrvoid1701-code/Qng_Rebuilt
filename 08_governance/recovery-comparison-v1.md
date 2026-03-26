@@ -183,6 +183,7 @@ The strongest recovery path is:
 - QM→GR coupling large-N probe (QNG-CPU-051): **PASS (4/4) — Tier-1-large-N**; sparse-graph law in GR: |e_mis| 1.037→0.259→0.159 (N=8→16→32); 5/5 improve at N=32; sign normalizes at N=32; mean Δratio −0.147→−0.043→−0.018; seed 2718 anomaly = sparse-topology effect; **unified sparse-graph law**: QM+GR both governed by same N-attenuation; continuum limit open
 - QM→GR coupling continuum limit (QNG-CPU-052): **PASS (4/4) — SATURATION CLASS**; |e_mis| 0.159→0.134 (N=32→64, ×0.84/doubling); seed 2718 fully normalized at N=64 (all signs=−1); non-monotone Δratio (−0.018→−0.030); power-law fit N^(−0.956) overstates large-N decay; local exponent ~−0.25 → saturation; **best estimate |e_mis(∞)| ≈ 0.08–0.12 (non-zero, physically real)**; two regimes: sparse (N<32) and dense (N≥32)
 - QM↔GR back-reaction loop (QNG-CPU-053): **PASS (4/4) — Tier-1 — LOOP CLOSES**; GR→QM: E_tt→∂_t(ρ) with γ_tt>0 on 5/5 seeds (strongest coherence yet); mean R²_3ch=0.405→R²_5ch=0.461 (+5.5%); ∂_t(ρ)≈-(α·dJ_phi+α·dJ_mis+α·dJ_mem)+γ_tt·E_tt; self-regulating: div_J_mis→↓E_tt→↓∂_t(ρ); **Problem 5 partially resolved**
+- GR→QM back-reaction large-N (QNG-CPU-054): **PASS (3/4) — Tier-1.5**; γ_tt N-scaling: 0.00784→0.00455→0.00747 (non-monotone); sign stable at N≥16 (5/5 positive); loop_strength ≈ 0.00119 for N≥16 (SATURATES); subcritical gain → stable; first back-reaction loop constant of QNG
 
 ## Current weakest recovery path
 

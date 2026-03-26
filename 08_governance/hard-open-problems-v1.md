@@ -204,6 +204,13 @@ Current rebuild update:
   **self-regulating mechanism**: div_J_mis→↓E_tt→↓∂_t(ρ) (damping loop);
   **Problem 5 partially resolved at proxy level**;
   open: fixed-point equation; N-scaling of γ_tt; second-order GR correction
+- **GR→QM back-reaction large-N probe (QNG-CPU-054): PASS (3/4) — Tier-1.5**;
+  γ_tt persists at N=32 on 5/5 seeds (P1 PASS); γ_tt(32)<γ_tt(8) on 4/5 (sparse-graph law);
+  P3 FAIL: sign unstable at N=8 (2 seeds negative); dense regime (N≥16) fully positive;
+  **loop_strength = mean|γ_tt|×mean|e_mis| ≈ 0.00119 for N≥16 (saturates!)**;
+  loop is subcritical (gain < 1) → self-stabilizing; finite loop constant confirmed;
+  non-monotone γ_tt: 0.00784→0.00455→0.00747 (N=8→16→32), same pattern as CPU-052;
+  open: fixed-point equation; continuum loop constant
 
 ## Problem 6: Lorentzian signature recovery
 
