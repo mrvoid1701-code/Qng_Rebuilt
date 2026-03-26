@@ -255,6 +255,13 @@ Current rebuild update:
 - exact strong-field Lorentzian recovery remains open
 - light cone proxy is now proxy-supported (QNG-CPU-034):
   c_eff in [0.991, 1.002], std_hist/std_nohist = 9.7x, mean shift = 0.0021
+- **Back-reaction metric signature correction (QNG-CPU-058): PARTIAL (2/4) — NULL RESULT**;
+  P1/P2 PASS vacuously (mean E_tt = 0 identically by construction); P3/P4 FAIL;
+  **key finding: Lorentzian signature is phi-driven, not ρ-driven**;
+  GR back-reaction modifies matter density (ρ) but NOT metric signature (phi is held fixed);
+  Δcorr signal: sign(Δcorr) ≈ sign(γ_tt) — positive γ_tt slightly REDUCES anti-correlation;
+  matter sector and geometry sector quasi-independent at FP iteration timescale;
+  open: phi dynamics under rollout; signature buildup over time steps; phi-metric coupling
 
 ## Problem 7: matter sector identification
 
