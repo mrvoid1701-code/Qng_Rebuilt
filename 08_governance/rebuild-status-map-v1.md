@@ -79,6 +79,7 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - Lorentzian signature buildup (phi dynamics): `proxy-supported` — **PASS 1/4; anti-hypothesis confirmed**; |corr|≈0.999 at t=1, decays to ~0.96 by t=24; Pearson(kur,|corr|)=−0.73; phi sync DESTROYS signature; history PRESERVES it; initial condition imprint mechanism confirmed; P2 5/5 (history>no-history always)
 - initial Lorentzian signature N-scaling: `proxy-supported` — **PASS 4/4; Tier-1**; |corr_1|≈0.9995 at N=8,16,32,64 (universal); decay Δ ~ N^(−0.87); continuum limit → decay=0 → perfectly stable signature; **Problem 6 RESOLVED at mechanism level**
 - history signature preservation N-scaling: `proxy-supported` — **PASS 3/4; Tier-1.5**; Δ_hist ~ N^(−0.889) confirmed; no-history decay non-monotone (peaks N=32); N=32 transition cross-sector (GR coupling + signature); history benefit peaks at N=32; continuum stability guaranteed only with history
+- N=32 transition mechanism: `proxy-supported` — **PASS 3/4; Tier-1.5**; P1 FAIL (v_sync monotone, peaks N=64); sync-speed-peak hypothesis falsified; P2 PASS (k̄ monotone); P3 PASS (clustering non-monotone, minimum at N=32: 0.3225→0.2538→0.2030→0.2051); P4 PASS (r=0.662); multi-cause transition confirmed; mechanism open
 - source-response consistency step: `proxy-supported`
 - source-response consistency v2 step: `proxy-supported`
 - unified split-bridge architecture: `candidate`

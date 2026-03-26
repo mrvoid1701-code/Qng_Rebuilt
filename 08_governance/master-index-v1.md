@@ -114,6 +114,7 @@ Core files:
 - [qng-gr-lorentzian-buildup-v1.md](../../03_gr_qm_bridge/qng-gr-lorentzian-buildup-v1.md)
 - [qng-gr-initial-signature-scaling-v1.md](../../03_gr_qm_bridge/qng-gr-initial-signature-scaling-v1.md)
 - [qng-gr-history-signature-preservation-v1.md](../../03_gr_qm_bridge/qng-gr-history-signature-preservation-v1.md)
+- [qng-gr-n32-transition-mechanism-v1.md](../../03_gr_qm_bridge/qng-gr-n32-transition-mechanism-v1.md)
 - [bridge-consistency-registry-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/bridge-consistency-registry-v1.md)
 - [qng-source-response-consistency-v2.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-source-response-consistency-v2.md)
 
@@ -206,6 +207,7 @@ Core files:
 - [qng-gr-lorentzian-buildup-reference-v1/report.json](../../07_validation/audits/qng-gr-lorentzian-buildup-reference-v1/report.json)
 - [qng-gr-initial-signature-scaling-reference-v1/report.json](../../07_validation/audits/qng-gr-initial-signature-scaling-reference-v1/report.json)
 - [qng-gr-history-signature-preservation-reference-v1/report.json](../../07_validation/audits/qng-gr-history-signature-preservation-reference-v1/report.json)
+- [qng-gr-n32-transition-mechanism-reference-v1/report.json](../../07_validation/audits/qng-gr-n32-transition-mechanism-reference-v1/report.json)
 
 ## Practical reading shortcuts
 

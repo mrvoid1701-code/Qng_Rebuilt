@@ -284,6 +284,15 @@ Current rebuild update:
   **key findings: Δ_hist ~ N^(−0.889) confirmed (R²=0.991); no-history collapse peaks at N=32 (same sparse/dense transition as GR coupling);
   history benefit peaks at N=32 (most protective where most needed); continuum stability guaranteed only with history**;
   N=32 transition cross-sector: appears in GR coupling (CPU-051/052), signature decay (this test)
+- **N=32 transition mechanism (QNG-CPU-062): PASS 3/4 — Tier-1.5 — MECHANISM PARTIALLY IDENTIFIED**;
+  P1 FAIL (1/5 seeds peak at N=32): phi sync velocity does NOT peak at N=32 — increases monotonically
+  (mean v_sync: 0.047→0.054→0.068→0.076); simple sync-speed-peak hypothesis FALSIFIED;
+  P2 PASS: k̄ increases monotonically (3.20→4.33→6.92→13.03 — ER calibration confirmed);
+  P3 PASS: clustering non-monotone: 0.3225→0.2538→0.2030→0.2051 (minimum at N=32, uptick at N=64);
+  P4 PASS: Pearson(v_sync, Δ_nohist) = 0.662 — sync speed correlates with decay but doesn't explain non-monotone peak;
+  **key finding: N=32 transition is multi-cause; clustering minimum at N=32 (most locally sparse topology)
+  co-occurs with sync-speed crossing into "fast" regime; single mechanism insufficient;
+  open: why clustering minimum + degree-transition → non-monotone no-history decay; N=32 protective failure mechanism**
 
 ## Problem 7: matter sector identification
 
