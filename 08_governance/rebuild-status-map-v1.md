@@ -76,6 +76,7 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - back-reaction attractor geometry: `proxy-supported` — **PASS 3/4; Tier-1.5**; |Pearson(δρ,E_tt)|>0.99 on 5/5 seeds (PERFECT); sign law holds 5/5; std_ratio≈1.3–1.5 (highly structured); δρ≈K·η·γ_tt·E_tt; GR gravitational imprint on matter density confirmed; P1 weak (degree-density at N=12 not established)
 - self-consistent back-reaction: `proxy-supported` — **PASS 3/4; Tier-1.5**; attractor_dist≈0.000037 (linear approx exact); |Pearson(δρ_sc,E_tt_final)|>0.99 5/5; E_tt_drift≈13% but direction preserved (eigenmode locking); **back-reaction sector CLOSED**
 - metric signature correction (back-reaction→signature): `null result` — **PARTIAL 2/4**; P1/P2 vacuous (mean E_tt=0 by construction); P3/P4 FAIL; **phi-geometry sector independent of ρ-matter sector**; GR loop only modifies matter, not spacetime signature; sign(Δcorr)=sign(γ_tt) pattern detected (tiny effect)
+- Lorentzian signature buildup (phi dynamics): `proxy-supported` — **PASS 1/4; anti-hypothesis confirmed**; |corr|≈0.999 at t=1, decays to ~0.96 by t=24; Pearson(kur,|corr|)=−0.73; phi sync DESTROYS signature; history PRESERVES it; initial condition imprint mechanism confirmed; P2 5/5 (history>no-history always)
 - source-response consistency step: `proxy-supported`
 - source-response consistency v2 step: `proxy-supported`
 - unified split-bridge architecture: `candidate`

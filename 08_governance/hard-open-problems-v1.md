@@ -262,6 +262,14 @@ Current rebuild update:
   Δcorr signal: sign(Δcorr) ≈ sign(γ_tt) — positive γ_tt slightly REDUCES anti-correlation;
   matter sector and geometry sector quasi-independent at FP iteration timescale;
   open: phi dynamics under rollout; signature buildup over time steps; phi-metric coupling
+- **Lorentzian signature buildup (QNG-CPU-059): PASS 1/4 — ANTI-HYPOTHESIS CONFIRMED**;
+  P1 FAIL 0/5: |corr| STARTS at 0.999 at step 1 and DECAYS — NOT built up dynamically;
+  P2 PASS 5/5: history consistently maintains stronger anti-correlation than no-history;
+  P3 FAIL 0/5: Pearson(kuramoto,|corr|) = −0.73 — phi sync DESTROYS signature (inverse!);
+  **key finding: signature is INITIAL-CONDITION IMPRINT, not emergent; phi disorder → high |corr|;
+  phi sync → |corr| decay; history = signature PRESERVER (prevents sync collapse, not generator)**;
+  CPU-033's 331× amplification = history prevents 331× decay, not builds up 331×;
+  open: why |corr|≈1 at t=1 (statistical property of init_state?); N-dependence; anti-ordering quantification
 
 ## Problem 7: matter sector identification
 
