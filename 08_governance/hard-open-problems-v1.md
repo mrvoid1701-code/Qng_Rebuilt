@@ -278,6 +278,12 @@ Current rebuild update:
   mechanism: random phi → maximum phi disorder → maximal E_tt/E_xx anticorrelation (structural);
   decay = finite-N phi-sync effect; history slows sync → slows decay;
   **Problem 6 RESOLVED at mechanism level**: (1) structural initial signature, (2) N^(−0.87) decay, (3) history preservation
+- **History signature preservation N-scaling (QNG-CPU-061): PASS 3/4 — Tier-1.5**;
+  P1 PASS all N: decay_nohist > decay_hist universally; P2 PASS all N: |c|₂₄_hist > |c|₂₄_nohist;
+  P3 FAIL: Δ_nohist NON-MONOTONE (peaks at N=32: 0.371 vs 0.225 at N=8); R²=0.398; P4 PASS (5/5 at N=32);
+  **key findings: Δ_hist ~ N^(−0.889) confirmed (R²=0.991); no-history collapse peaks at N=32 (same sparse/dense transition as GR coupling);
+  history benefit peaks at N=32 (most protective where most needed); continuum stability guaranteed only with history**;
+  N=32 transition cross-sector: appears in GR coupling (CPU-051/052), signature decay (this test)
 
 ## Problem 7: matter sector identification
 

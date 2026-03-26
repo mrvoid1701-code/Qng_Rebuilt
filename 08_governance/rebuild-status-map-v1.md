@@ -78,6 +78,7 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - metric signature correction (back-reaction→signature): `null result` — **PARTIAL 2/4**; P1/P2 vacuous (mean E_tt=0 by construction); P3/P4 FAIL; **phi-geometry sector independent of ρ-matter sector**; GR loop only modifies matter, not spacetime signature; sign(Δcorr)=sign(γ_tt) pattern detected (tiny effect)
 - Lorentzian signature buildup (phi dynamics): `proxy-supported` — **PASS 1/4; anti-hypothesis confirmed**; |corr|≈0.999 at t=1, decays to ~0.96 by t=24; Pearson(kur,|corr|)=−0.73; phi sync DESTROYS signature; history PRESERVES it; initial condition imprint mechanism confirmed; P2 5/5 (history>no-history always)
 - initial Lorentzian signature N-scaling: `proxy-supported` — **PASS 4/4; Tier-1**; |corr_1|≈0.9995 at N=8,16,32,64 (universal); decay Δ ~ N^(−0.87); continuum limit → decay=0 → perfectly stable signature; **Problem 6 RESOLVED at mechanism level**
+- history signature preservation N-scaling: `proxy-supported` — **PASS 3/4; Tier-1.5**; Δ_hist ~ N^(−0.889) confirmed; no-history decay non-monotone (peaks N=32); N=32 transition cross-sector (GR coupling + signature); history benefit peaks at N=32; continuum stability guaranteed only with history
 - source-response consistency step: `proxy-supported`
 - source-response consistency v2 step: `proxy-supported`
 - unified split-bridge architecture: `candidate`
