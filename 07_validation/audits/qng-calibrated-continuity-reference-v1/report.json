@@ -1,0 +1,98 @@
+{
+  "test_id": "QNG-CPU-042",
+  "decision": "pass",
+  "verdict": "calibrated continuity SUPPORTED; \u03b1*>0 on 4/5 seeds (correct sign: outflow\u2192density decrease); R\u00b2_calib > 0.05 on 3/5 seeds; max R\u00b2=0.572; mean|\u03b1*|=0.00110 (eff. coupling ~10\u207b\u00b3), cv=0.76 (moderate stability)",
+  "per_seed": [
+    {
+      "seed": 20260325,
+      "alpha_hist": 0.00069544,
+      "alpha_nohist": 0.00028717,
+      "r2_calib_hist": 0.045617,
+      "r2_calib_nohist": 0.109954,
+      "rms_drho_hist": 0.00506982,
+      "rms_divJ_hist": 0.53798521,
+      "rms_residual_calib_hist": 0.005056,
+      "alpha_negative_hist": false,
+      "hist_improves_r2": false
+    },
+    {
+      "seed": 42,
+      "alpha_hist": 0.00068939,
+      "alpha_nohist": -0.00019516,
+      "r2_calib_hist": 0.138356,
+      "r2_calib_nohist": 0.030946,
+      "rms_drho_hist": 0.00340268,
+      "rms_divJ_hist": 0.33711584,
+      "rms_residual_calib_hist": 0.00339474,
+      "alpha_negative_hist": false,
+      "hist_improves_r2": true
+    },
+    {
+      "seed": 137,
+      "alpha_hist": 0.00198822,
+      "alpha_nohist": 0.00019442,
+      "r2_calib_hist": 0.572227,
+      "r2_calib_nohist": 0.092043,
+      "rms_drho_hist": 0.0054066,
+      "rms_divJ_hist": 0.6324784,
+      "rms_residual_calib_hist": 0.00525833,
+      "alpha_negative_hist": false,
+      "hist_improves_r2": true
+    },
+    {
+      "seed": 1729,
+      "alpha_hist": 0.00014264,
+      "alpha_nohist": 0.00035965,
+      "r2_calib_hist": 0.034704,
+      "r2_calib_nohist": 0.079211,
+      "rms_drho_hist": 0.00355276,
+      "rms_divJ_hist": 0.42588205,
+      "rms_residual_calib_hist": 0.00355224,
+      "alpha_negative_hist": false,
+      "hist_improves_r2": false
+    },
+    {
+      "seed": 2718,
+      "alpha_hist": -0.00196308,
+      "alpha_nohist": 2.911e-05,
+      "r2_calib_hist": 0.207112,
+      "r2_calib_nohist": 0.000394,
+      "rms_drho_hist": 0.00398104,
+      "rms_divJ_hist": 0.45632868,
+      "rms_residual_calib_hist": 0.00387895,
+      "alpha_negative_hist": true,
+      "hist_improves_r2": true
+    }
+  ],
+  "alpha_summary": {
+    "values_hist": [
+      0.00069544,
+      0.00068939,
+      0.00198822,
+      0.00014264,
+      -0.00196308
+    ],
+    "abs_mean": 0.00109575,
+    "abs_cv": 0.7612,
+    "count_negative": 1
+  },
+  "r2_summary": {
+    "values_hist": [
+      0.045617,
+      0.138356,
+      0.572227,
+      0.034704,
+      0.207112
+    ],
+    "max": 0.572227,
+    "count_above_0p05": 3,
+    "count_above_0p5": 1
+  },
+  "hist_improves_count": 3,
+  "checks": {
+    "p1_alpha_positive_4of5_pass": true,
+    "p2_r2_above_0p05_majority_pass": true,
+    "p3_r2_above_0p5_at_least_one_pass": true,
+    "p4_alpha_cv_below_1p5_pass": true
+  }
+}

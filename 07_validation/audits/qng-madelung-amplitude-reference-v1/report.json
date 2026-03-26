@@ -1,0 +1,99 @@
+{
+  "test_id": "QNG-CPU-043",
+  "decision": "pass",
+  "verdict": "Madelung amplitude \u03c8_M=sqrt(C_eff)\u00b7exp(i\u00b7phi) SUPPORTED; \u03b1*_M>0 on 4/5 seeds; max R\u00b2_M=0.580; mean R\u00b2_M=0.203 vs mean R\u00b2_std=0.200; Madelung beats standard on 3/5 seeds; mean|\u03b1*_M|=0.00058, cv=0.77",
+  "per_seed": [
+    {
+      "seed": 20260325,
+      "alpha_madelung": 0.00035268,
+      "alpha_standard": 0.00069544,
+      "r2_madelung": 0.043312,
+      "r2_standard": 0.045617,
+      "r2_std_reference": 0.045617,
+      "madelung_beats_standard": false,
+      "alpha_m_positive": true,
+      "scale_ratio_madelung": 211.96
+    },
+    {
+      "seed": 42,
+      "alpha_madelung": 0.0003702,
+      "alpha_standard": 0.00068939,
+      "r2_madelung": 0.147319,
+      "r2_standard": 0.138356,
+      "r2_std_reference": 0.138356,
+      "madelung_beats_standard": true,
+      "alpha_m_positive": true,
+      "scale_ratio_madelung": 198.1
+    },
+    {
+      "seed": 137,
+      "alpha_madelung": 0.00104277,
+      "alpha_standard": 0.00198822,
+      "r2_madelung": 0.579998,
+      "r2_standard": 0.572227,
+      "r2_std_reference": 0.572227,
+      "madelung_beats_standard": true,
+      "alpha_m_positive": true,
+      "scale_ratio_madelung": 233.12
+    },
+    {
+      "seed": 1729,
+      "alpha_madelung": 7.12e-05,
+      "alpha_standard": 0.00014264,
+      "r2_madelung": 0.033877,
+      "r2_standard": 0.034704,
+      "r2_std_reference": 0.034704,
+      "madelung_beats_standard": false,
+      "alpha_m_positive": true,
+      "scale_ratio_madelung": 239.92
+    },
+    {
+      "seed": 2718,
+      "alpha_madelung": -0.00105554,
+      "alpha_standard": -0.00196308,
+      "r2_madelung": 0.208331,
+      "r2_standard": 0.207112,
+      "r2_std_reference": 0.207112,
+      "madelung_beats_standard": true,
+      "alpha_m_positive": false,
+      "scale_ratio_madelung": 223.52
+    }
+  ],
+  "alpha_madelung_summary": {
+    "values": [
+      0.00035268,
+      0.0003702,
+      0.00104277,
+      7.12e-05,
+      -0.00105554
+    ],
+    "abs_mean": 0.00057848,
+    "abs_cv": 0.7706,
+    "count_positive": 4
+  },
+  "r2_comparison": {
+    "madelung": [
+      0.043312,
+      0.147319,
+      0.579998,
+      0.033877,
+      0.208331
+    ],
+    "standard": [
+      0.045617,
+      0.138356,
+      0.572227,
+      0.034704,
+      0.207112
+    ],
+    "mean_madelung": 0.202567,
+    "mean_standard": 0.199603,
+    "count_madelung_beats": 3
+  },
+  "checks": {
+    "p1_alpha_m_positive_4of5_pass": true,
+    "p2_max_r2_m_above_half_pass": true,
+    "p3_mean_r2_m_beats_standard_pass": true,
+    "p4_cv_alpha_m_not_worse_pass": false
+  }
+}

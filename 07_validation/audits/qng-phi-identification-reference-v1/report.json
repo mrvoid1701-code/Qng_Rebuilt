@@ -1,0 +1,116 @@
+{
+  "test_id": "QNG-CPU-040",
+  "decision": "pass",
+  "verdict": "phi is a near-perfectly synchronized phase field (sync>0.94 universally); history introduces phase diversity (anti-ordering, var_hist>var_nohist); phi-L_eff coupling weak and sign-unstable (tier-2); phi->C_eff indirect and topology-dependent (tier-2)",
+  "per_seed": [
+    {
+      "seed": 20260325,
+      "corr_phi_leff": -0.308552,
+      "corr_phi_ceff": -0.262058,
+      "corr_phi_sigma": -0.30393,
+      "corr_phi_phase": 0.868227,
+      "corr_phase_ceff": -0.025709,
+      "var_phi_hist": 0.101845,
+      "var_phi_nohist": 0.02283,
+      "hist_reduces_variance": false,
+      "sync_order_hist": 0.954688,
+      "sync_order_nohist": 0.991939,
+      "sync_ratio": 0.9624
+    },
+    {
+      "seed": 42,
+      "corr_phi_leff": -0.461515,
+      "corr_phi_ceff": -0.345148,
+      "corr_phi_sigma": -0.51033,
+      "corr_phi_phase": 0.876547,
+      "corr_phase_ceff": -0.312634,
+      "var_phi_hist": 0.043449,
+      "var_phi_nohist": 0.005375,
+      "hist_reduces_variance": false,
+      "sync_order_hist": 0.986131,
+      "sync_order_nohist": 0.99855,
+      "sync_ratio": 0.9876
+    },
+    {
+      "seed": 137,
+      "corr_phi_leff": -0.460125,
+      "corr_phi_ceff": -0.787734,
+      "corr_phi_sigma": -0.774256,
+      "corr_phi_phase": 0.976381,
+      "corr_phase_ceff": -0.82491,
+      "var_phi_hist": 0.152934,
+      "var_phi_nohist": 0.006445,
+      "hist_reduces_variance": false,
+      "sync_order_hist": 0.941102,
+      "sync_order_nohist": 0.997346,
+      "sync_ratio": 0.9436
+    },
+    {
+      "seed": 1729,
+      "corr_phi_leff": 0.171462,
+      "corr_phi_ceff": 0.368703,
+      "corr_phi_sigma": 0.353903,
+      "corr_phi_phase": 0.851165,
+      "corr_phase_ceff": 0.034466,
+      "var_phi_hist": 0.177273,
+      "var_phi_nohist": 0.054012,
+      "hist_reduces_variance": false,
+      "sync_order_hist": 0.955369,
+      "sync_order_nohist": 0.987916,
+      "sync_ratio": 0.9671
+    },
+    {
+      "seed": 2718,
+      "corr_phi_leff": 0.310792,
+      "corr_phi_ceff": 0.737485,
+      "corr_phi_sigma": 0.791408,
+      "corr_phi_phase": 0.963889,
+      "corr_phase_ceff": 0.730857,
+      "var_phi_hist": 0.044992,
+      "var_phi_nohist": 0.003285,
+      "hist_reduces_variance": false,
+      "sync_order_hist": 0.981933,
+      "sync_order_nohist": 0.998755,
+      "sync_ratio": 0.9832
+    }
+  ],
+  "corr_leff_summary": {
+    "values": [
+      -0.308552,
+      -0.461515,
+      -0.460125,
+      0.171462,
+      0.310792
+    ],
+    "max_abs": 0.461515
+  },
+  "corr_ceff_summary": {
+    "values": [
+      -0.262058,
+      -0.345148,
+      -0.787734,
+      0.368703,
+      0.737485
+    ],
+    "count_below_half": 3
+  },
+  "sync_summary": {
+    "hist_values": [
+      0.954688,
+      0.986131,
+      0.941102,
+      0.955369,
+      0.981933
+    ],
+    "min_hist": 0.941102
+  },
+  "variance_summary": {
+    "reduces_count": 0
+  },
+  "checks": {
+    "p1_phi_leff_weak_below_half_pass": true,
+    "p2_phi_high_sync_above_0p9_universal_pass": true,
+    "p3_phi_ceff_indirect_topology_dep_pass": true,
+    "p4_history_antiordering_var_increases_pass": true
+  }
+}

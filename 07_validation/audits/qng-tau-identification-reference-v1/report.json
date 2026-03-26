@@ -1,0 +1,71 @@
+{
+  "test_id": "QNG-CPU-038",
+  "decision": "pass",
+  "verdict": "universal tau FALSIFIED; per-node history-driven tau SUPPORTED",
+  "config_timescales": {
+    "tau_p": 2.857142857142857,
+    "tau_m": 3.3333333333333335,
+    "tau_d": 4.0,
+    "cv": 0.16900132074789836
+  },
+  "per_seed": [
+    {
+      "seed": 20260325,
+      "mean_tau_hist": 0.10698647292230735,
+      "mean_tau_nohist": 0.03513220345010227,
+      "hist_nohist_ratio": 3.045253710723229,
+      "cv_tau_node": 0.1688308093593939,
+      "corr_tau_mem": 0.8328493392676338
+    },
+    {
+      "seed": 42,
+      "mean_tau_hist": 0.11720464856296732,
+      "mean_tau_nohist": 0.04437101808678408,
+      "hist_nohist_ratio": 2.641468544483922,
+      "cv_tau_node": 0.15041897281564848,
+      "corr_tau_mem": 0.6818836225631755
+    },
+    {
+      "seed": 137,
+      "mean_tau_hist": 0.09899361960546241,
+      "mean_tau_nohist": 0.023345127432386693,
+      "hist_nohist_ratio": 4.240440318527821,
+      "cv_tau_node": 0.15788402981586352,
+      "corr_tau_mem": 0.8303783893738796
+    },
+    {
+      "seed": 1729,
+      "mean_tau_hist": 0.09927817927097937,
+      "mean_tau_nohist": 0.021505728031030524,
+      "hist_nohist_ratio": 4.616359842723358,
+      "cv_tau_node": 0.11274337123870327,
+      "corr_tau_mem": 0.715131332673778
+    },
+    {
+      "seed": 2718,
+      "mean_tau_hist": 0.10156158378283131,
+      "mean_tau_nohist": 0.026014091442459152,
+      "hist_nohist_ratio": 3.904098823035064,
+      "cv_tau_node": 0.11617425883595853,
+      "corr_tau_mem": 0.7666642017680575
+    }
+  ],
+  "mean_tau_hist_summary": {
+    "values": [
+      0.10698647292230735,
+      0.11720464856296732,
+      0.09899361960546241,
+      0.09927817927097937,
+      0.10156158378283131
+    ],
+    "mean": 0.10480490082890954,
+    "cv": 0.07287695507901722
+  },
+  "checks": {
+    "universal_tau_falsified_config_pass": true,
+    "per_node_tau_not_constant_pass": true,
+    "corr_tau_mem_universal_pass": true,
+    "history_amplifies_tau_all_seeds_pass": true,
+    "mean_tau_stable_across_seeds_pass": true
+  }
+}

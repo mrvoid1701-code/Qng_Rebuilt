@@ -1,0 +1,22 @@
+{
+  "test_id": "QNG-CPU-032",
+  "decision": "pass",
+  "epsilon": 0.1,
+  "l1_delta_br": 2.09091405244566e-05,
+  "l1_psi_br3_base": 0.0827262720713177,
+  "gamma": 0.002527509097283023,
+  "l1_hist_imprint_perturbed": 0.08056683960633279,
+  "tensor_coefficients": {
+    "baseline_e_xx": -1.478736000412437,
+    "baseline_e_tt": 0.8794625318544936,
+    "perturbed_e_xx": -1.4785265848013391,
+    "perturbed_e_tt": 0.8790811239170677
+  },
+  "checks": {
+    "response_nontrivial_pass": true,
+    "contraction_pass": true,
+    "e_xx_sign_preserved_pass": true,
+    "e_tt_sign_preserved_pass": true,
+    "history_imprint_survives_pass": true
+  }
+}

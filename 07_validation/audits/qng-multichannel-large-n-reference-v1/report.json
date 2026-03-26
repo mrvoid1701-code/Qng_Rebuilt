@@ -1,0 +1,246 @@
+{
+  "test": "QNG-CPU-047",
+  "theory": "DER-BRIDGE-029",
+  "decision": "partial",
+  "n_pass": 2,
+  "p1_pass": true,
+  "p2_pass": false,
+  "p3_pass": true,
+  "p4_pass": false,
+  "p1_n32_beats": 5,
+  "p2_mean_n8": 0.5864078053860736,
+  "p2_mean_n32": 0.26878143996184767,
+  "n_p3": 4,
+  "n_p4": 2,
+  "n_values": [
+    8,
+    16,
+    32
+  ],
+  "summary_by_n": {
+    "8": {
+      "mean_r2_combined": 0.5864078053860736,
+      "max_r2_combined": 0.90895894423476,
+      "mean_r2_best_single": 0.41828987910748355,
+      "n_beats_best": 5,
+      "mean_degree": 3.2
+    },
+    "16": {
+      "mean_r2_combined": 0.4053357679971381,
+      "max_r2_combined": 0.6018868016363199,
+      "mean_r2_best_single": 0.25619799014711386,
+      "n_beats_best": 5,
+      "mean_degree": 4.325
+    },
+    "32": {
+      "mean_r2_combined": 0.26878143996184767,
+      "max_r2_combined": 0.4223700058272898,
+      "mean_r2_best_single": 0.1563476549121424,
+      "n_beats_best": 5,
+      "mean_degree": 6.925
+    }
+  },
+  "all_results": {
+    "8": [
+      {
+        "seed": 20260325,
+        "n_nodes": 8,
+        "mean_degree": 3.0,
+        "r2_combined": 0.8226338588526746,
+        "r2_best_single": 0.7405220736602898,
+        "gain": 0.08211178519238482,
+        "beats_best": true,
+        "alpha_phi": -0.00230323691872944,
+        "alpha_mis": 0.015596491154185573,
+        "alpha_mem": -0.007690009838853978,
+        "ratio_phi_mis": 0.14767660853712783
+      },
+      {
+        "seed": 42,
+        "n_nodes": 8,
+        "mean_degree": 3.25,
+        "r2_combined": 0.90895894423476,
+        "r2_best_single": 0.35326576291499934,
+        "gain": 0.5556931813197606,
+        "beats_best": true,
+        "alpha_phi": 0.0005975889397100379,
+        "alpha_mis": 0.02318930814636015,
+        "alpha_mem": -0.019240006508244544,
+        "ratio_phi_mis": 0.025770020215279122
+      },
+      {
+        "seed": 137,
+        "n_nodes": 8,
+        "mean_degree": 3.5,
+        "r2_combined": 0.38387633464411597,
+        "r2_best_single": 0.20856773381636995,
+        "gain": 0.17530860082774602,
+        "beats_best": true,
+        "alpha_phi": 0.0012015532136712573,
+        "alpha_mis": 0.017045641111341155,
+        "alpha_mem": -0.00701928326490579,
+        "ratio_phi_mis": 0.0704903503378242
+      },
+      {
+        "seed": 1729,
+        "n_nodes": 8,
+        "mean_degree": 2.25,
+        "r2_combined": 0.1342597932712406,
+        "r2_best_single": 0.11629238895486327,
+        "gain": 0.017967404316377333,
+        "beats_best": true,
+        "alpha_phi": 0.0011603466231401246,
+        "alpha_mis": -0.01204998166438984,
+        "alpha_mem": 0.002613657108360724,
+        "ratio_phi_mis": 0.0962944720961017
+      },
+      {
+        "seed": 2718,
+        "n_nodes": 8,
+        "mean_degree": 4.0,
+        "r2_combined": 0.6823100959275767,
+        "r2_best_single": 0.6728014361908954,
+        "gain": 0.009508659736681357,
+        "beats_best": true,
+        "alpha_phi": -0.0005501425211285073,
+        "alpha_mis": 0.0027179794431509284,
+        "alpha_mem": -0.0005472772963071078,
+        "ratio_phi_mis": 0.20240863944531243
+      }
+    ],
+    "16": [
+      {
+        "seed": 20260325,
+        "n_nodes": 16,
+        "mean_degree": 3.625,
+        "r2_combined": 0.1477236064313897,
+        "r2_best_single": 0.04561656793834579,
+        "gain": 0.10210703849304392,
+        "beats_best": true,
+        "alpha_phi": 0.0004786057762525352,
+        "alpha_mis": 0.01829894853417854,
+        "alpha_mem": -0.007193808059511256,
+        "ratio_phi_mis": 0.02615482388830164
+      },
+      {
+        "seed": 42,
+        "n_nodes": 16,
+        "mean_degree": 4.375,
+        "r2_combined": 0.5351531176251418,
+        "r2_best_single": 0.35383184798277767,
+        "gain": 0.18132126964236417,
+        "beats_best": true,
+        "alpha_phi": 0.0006266515841126385,
+        "alpha_mis": 0.00900271261382628,
+        "alpha_mem": -0.0011256656378751805,
+        "ratio_phi_mis": 0.06960697414135301
+      },
+      {
+        "seed": 137,
+        "n_nodes": 16,
+        "mean_degree": 4.625,
+        "r2_combined": 0.6018868016363199,
+        "r2_best_single": 0.572227477396306,
+        "gain": 0.02965932424001394,
+        "beats_best": true,
+        "alpha_phi": 0.0018535488315745625,
+        "alpha_mis": 0.009644567779790714,
+        "alpha_mem": -0.006041249255121948,
+        "ratio_phi_mis": 0.192185785189721
+      },
+      {
+        "seed": 1729,
+        "n_nodes": 16,
+        "mean_degree": 3.75,
+        "r2_combined": 0.2391878041297547,
+        "r2_best_single": 0.10106560612774051,
+        "gain": 0.1381221980020142,
+        "beats_best": true,
+        "alpha_phi": 0.00012464426978929524,
+        "alpha_mis": -0.010838957026460323,
+        "alpha_mem": 0.005666528097557855,
+        "ratio_phi_mis": 0.011499655316006017
+      },
+      {
+        "seed": 2718,
+        "n_nodes": 16,
+        "mean_degree": 5.25,
+        "r2_combined": 0.5027275101630844,
+        "r2_best_single": 0.20824845129039937,
+        "gain": 0.294479058872685,
+        "beats_best": true,
+        "alpha_phi": -0.001535840571069345,
+        "alpha_mis": 0.023586788365690625,
+        "alpha_mem": -0.008800079181623986,
+        "ratio_phi_mis": 0.06511444234194176
+      }
+    ],
+    "32": [
+      {
+        "seed": 20260325,
+        "n_nodes": 32,
+        "mean_degree": 6.875,
+        "r2_combined": 0.3185350479654414,
+        "r2_best_single": 0.23675062112968814,
+        "gain": 0.08178442683575327,
+        "beats_best": true,
+        "alpha_phi": -0.00018558156061561162,
+        "alpha_mis": 0.031007969184147513,
+        "alpha_mem": -0.007559037697835594,
+        "ratio_phi_mis": 0.005984963398070202
+      },
+      {
+        "seed": 42,
+        "n_nodes": 32,
+        "mean_degree": 6.75,
+        "r2_combined": 0.19911987072643833,
+        "r2_best_single": 0.12042946672959598,
+        "gain": 0.07869040399684235,
+        "beats_best": true,
+        "alpha_phi": -0.0003979076440122855,
+        "alpha_mis": 0.007275291030872282,
+        "alpha_mem": -0.004751013123096465,
+        "ratio_phi_mis": 0.05469302084600975
+      },
+      {
+        "seed": 137,
+        "n_nodes": 32,
+        "mean_degree": 7.625,
+        "r2_combined": 0.4223700058272898,
+        "r2_best_single": 0.3184022617752914,
+        "gain": 0.10396774405199838,
+        "beats_best": true,
+        "alpha_phi": -0.00022155095339838839,
+        "alpha_mis": 0.02236013618980407,
+        "alpha_mem": -0.008415799474530932,
+        "ratio_phi_mis": 0.009908300715065085
+      },
+      {
+        "seed": 1729,
+        "n_nodes": 32,
+        "mean_degree": 6.375,
+        "r2_combined": 0.3127321096422774,
+        "r2_best_single": 0.0609283488040715,
+        "gain": 0.2518037608382059,
+        "beats_best": true,
+        "alpha_phi": 0.0001630229949304767,
+        "alpha_mis": 0.013561673549761491,
+        "alpha_mem": -0.008068008433185956,
+        "ratio_phi_mis": 0.012020861166750602
+      },
+      {
+        "seed": 2718,
+        "n_nodes": 32,
+        "mean_degree": 7.0,
+        "r2_combined": 0.09115016564779144,
+        "r2_best_single": 0.04522757612206496,
+        "gain": 0.045922589525726476,
+        "beats_best": true,
+        "alpha_phi": 0.00018049034164276386,
+        "alpha_mis": 0.005400117494556904,
+        "alpha_mem": -0.003938932619045365,
+        "ratio_phi_mis": 0.03342341010629689
+      }
+    ]
+  }
+}

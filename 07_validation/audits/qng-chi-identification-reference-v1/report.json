@@ -1,0 +1,64 @@
+{
+  "test_id": "QNG-CPU-037",
+  "decision": "pass",
+  "verdict": "chi = m/c FALSIFIED at proxy level; chi \u221d L_eff SUPPORTED",
+  "per_seed": [
+    {
+      "seed": 20260325,
+      "corr_chi_mc": 0.1902036021185622,
+      "corr_chi_leff": 0.822380252340405,
+      "corr_chi_meff": 0.19133696170554193
+    },
+    {
+      "seed": 42,
+      "corr_chi_mc": 0.3934906292083556,
+      "corr_chi_leff": 0.7349537520046596,
+      "corr_chi_meff": 0.39247327801707815
+    },
+    {
+      "seed": 137,
+      "corr_chi_mc": 0.1259661330778665,
+      "corr_chi_leff": 0.7033283159609516,
+      "corr_chi_meff": 0.12589189054602118
+    },
+    {
+      "seed": 1729,
+      "corr_chi_mc": -0.11745028237010484,
+      "corr_chi_leff": 0.6533739956848649,
+      "corr_chi_meff": -0.11789045847455401
+    },
+    {
+      "seed": 2718,
+      "corr_chi_mc": -0.09963916215608208,
+      "corr_chi_leff": 0.5512310156336737,
+      "corr_chi_meff": -0.09979785857188235
+    }
+  ],
+  "corr_mc_summary": {
+    "values": [
+      0.1902036021185622,
+      0.3934906292083556,
+      0.1259661330778665,
+      -0.11745028237010484,
+      -0.09963916215608208
+    ],
+    "std": 0.21335244400886796
+  },
+  "corr_leff_summary": {
+    "values": [
+      0.822380252340405,
+      0.7349537520046596,
+      0.7033283159609516,
+      0.6533739956848649,
+      0.5512310156336737
+    ],
+    "min": 0.5512310156336737
+  },
+  "checks": {
+    "chi_mc_weak_default_pass": true,
+    "chi_mc_not_universal_pass": true,
+    "chi_leff_strong_default_pass": true,
+    "leff_dominates_mc_default_pass": true,
+    "chi_leff_universal_pass": true
+  }
+}

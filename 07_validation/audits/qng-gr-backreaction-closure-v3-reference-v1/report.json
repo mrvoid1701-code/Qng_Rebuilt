@@ -1,0 +1,27 @@
+{
+  "test_id": "QNG-CPU-031",
+  "decision": "pass",
+  "psi_br3": {
+    "max_abs": 0.01722599804485422,
+    "l1_vs_br2": 0.002471193874188653,
+    "l1_history_vs_nohist": 0.08056810762222148
+  },
+  "fit_ratios": {
+    "e_xx_3ch": 0.43222095058395577,
+    "e_xx_4ch": 0.3137697168795224,
+    "e_tt_4ch": 0.33193047393829195
+  },
+  "propagator_coefficients": {
+    "e_xx_p_delta": -1.478736000412437,
+    "e_tt_p_delta": 0.8794625318544936,
+    "abs_diff": 2.3581985322669308
+  },
+  "checks": {
+    "psi_br3_bounded_pass": true,
+    "psi_br3_nontrivial_pass": true,
+    "e_xx_prop_coeff_nonzero_pass": true,
+    "e_tt_e_xx_coeff_differ_pass": true,
+    "fit_4ch_improves_3ch_pass": true,
+    "history_imprint_pass": true
+  }
+}

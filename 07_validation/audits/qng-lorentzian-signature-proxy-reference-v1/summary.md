@@ -1,9 +1,12 @@
-# QNG Lorentzian Signature Proxy v1
+# QNG Lorentzian Signature Proxy
 
 - decision: `pass`
-- g_tt_max: `-1.011537`
-- g_xx_min: `1.000000`
-- det_max: `-1.028028`
-- t_sig_max_abs: `1.157167`
-- t_sig_l1(phase vs frozen): `0.673365`
-- t_sig_l1(history vs present-only): `0.686072`
+- mean_D_sig (history): `-3.127778e-04`
+- mean_D_sig (no-history): `-9.445725e-07`
+- amplification factor: `331.1x`
+- corr(h_tt, h_xx) history: `-0.971910`
+- corr(h_tt, h_xx) no-history: `-0.829146`
+- frac(h_xx > 0): `1.000`
+- frac(h_tt < 0): `0.688`
+- mean_h_tt (history): `-0.009087`
+- mean_h_xx (history): `0.013692`
