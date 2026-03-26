@@ -67,6 +67,7 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - multi-channel large-N probe (N=8,16,32): `proxy-supported` (partial 2/4) — multi-channel beats single universally (15/15); R² decreases with N (sparse-graph law); phi absent at N=32; large-N limit: mismatch+mem only
 - degree-normalized current: `proxy-supported` (FAIL 1/4) — normalization makes R² negative; N-weakening is structural not degree-dilution; multi-channel law confirmed as sparse-graph/UV law
 - GR multi-channel QM source injection: `proxy-supported` — PASS 3/4; div_J_mis + div_J_mem improve E_xx −8.4%, E_tt −17.1%, ratio_split 0.316→0.275; first QM→GR cross-sector coupling confirmed; 6-channel bridge established
+- QM→GR coupling covariance (multi-seed): `proxy-supported` — PASS 3/4; **Tier-1**; 5/5 seeds improve (universal); e_mis dominant on 4/5 seeds; sign(e_mis)=−1 on 4/5 seeds; ⟨e_mis⟩=−0.175; coupling ~3–10% of geometry; seed 2718 sign-flip anomaly identified
 - source-response consistency step: `proxy-supported`
 - source-response consistency v2 step: `proxy-supported`
 - unified split-bridge architecture: `candidate`

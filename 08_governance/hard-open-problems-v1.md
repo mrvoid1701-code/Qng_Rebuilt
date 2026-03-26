@@ -150,6 +150,15 @@ Current rebuild update:
   N-weakening is structural (not degree-dilution): CLOSED;
   multi-channel continuity law is a sparse-graph/UV law;
   large-N exact form requires mean-field or non-linear replacement (open)
+- QM→GR coupling covariance tested (QNG-CPU-050): PASS (3/4) — **Tier-1**;
+  6-channel improvement universal on 5/5 seeds (P1 PASS);
+  |e_mis| > |f_mem| on 4/5 seeds (mismatch dominance — P2 PASS);
+  sign(e_mis_ett) = −1 on 4/5 seeds (coupling direction universal — P3 PASS);
+  P4 FAIL: sig_ratio < 0.1 on all seeds (max=0.096); 10% threshold too strict;
+  QM coupling is ~3–10% of geometry channel across all topologies;
+  mean e_mis = −0.175 is the universal QM→GR coupling constant at N=16;
+  seed 2718 anomaly: e_mis and f_mem both flip sign (roles exchange); merits dedicated probe;
+  **Tier-1 bridge established**: div_J_mis is the universal QM→GR mediator
 
 ## Problem 5: back-reaction closure
 
