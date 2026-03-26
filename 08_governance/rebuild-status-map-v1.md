@@ -73,6 +73,7 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - QM↔GR back-reaction loop: `proxy-supported` — **PASS 4/4; Tier-1; LOOP CLOSES**; GR→QM: E_tt→∂_t(ρ) with γ_tt>0 on 5/5 seeds; mean R²: 0.405→0.461; full equation: ∂_t(ρ)≈-(α_phi·dJ_phi+α_mis·dJ_mis+α_mem·dJ_mem)+γ_tt·E_tt; self-regulating damping loop confirmed
 - GR→QM back-reaction large-N: `proxy-supported` — **PASS 3/4; Tier-1.5**; γ_tt persists at N=32 5/5; sparse-graph law confirmed; loop_strength≈0.00119 SATURATES at N≥16; subcritical gain (loop<1); finite continuum loop constant established
 - back-reaction fixed-point iteration: `proxy-supported` — **PARTIAL 2/4**; rollout IS the QM attractor (Δρ_0≈0.0001); GR+QM converges 5/5 (ratio 0.9534); FP shift ~0.001 correlated with γ_tt; two-level attractor hierarchy confirmed
+- back-reaction attractor geometry: `proxy-supported` — **PASS 3/4; Tier-1.5**; |Pearson(δρ,E_tt)|>0.99 on 5/5 seeds (PERFECT); sign law holds 5/5; std_ratio≈1.3–1.5 (highly structured); δρ≈K·η·γ_tt·E_tt; GR gravitational imprint on matter density confirmed; P1 weak (degree-density at N=12 not established)
 - source-response consistency step: `proxy-supported`
 - source-response consistency v2 step: `proxy-supported`
 - unified split-bridge architecture: `candidate`

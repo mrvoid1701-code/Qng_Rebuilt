@@ -219,6 +219,15 @@ Current rebuild update:
   **key finding: 24-step rollout IS the QM attractor; two-level hierarchy: QM + GR correction**;
   GR shift ~0.001 in ρ-space; seed 1729 a_mis sign inversion (topology-dependent);
   open: attractor geometry; FP shift vs observed ρ*; full self-consistent iteration
+- **Attractor geometry (QNG-CPU-056): PASS (3/4) — Tier-1.5 — GR GEOMETRIC IMPRINT CONFIRMED**;
+  P1 FAIL (2/5): Pearson(ρ*(QM), degree) not consistent at N=12 (mean +0.169); QM attractor driven
+  by mismatch/memory fields, not raw degree;
+  P2 PASS (5/5): |Pearson(δρ, E_tt)| > 0.99 on ALL seeds — GR correction IS E_tt spatially;
+  P3 PASS (5/5): sign(Pearson(δρ,E_tt))=sign(γ_tt) on all seeds; gravitational sign law holds;
+  P4 PASS (5/5): std_ratio ≈ 1.3–1.5 — GR correction strongly spatially oscillating (not uniform shift);
+  **key finding: δρ ≈ K·η·γ_tt·E_tt — GR gravitational field DIRECTLY imprints onto matter density profile**;
+  interpretation: QNG analogue of gravitational potential well filling — matter accumulates where E_tt large;
+  open: degree-density law at large N; self-consistent iteration with updating E_tt; real-data unit mapping
 
 ## Problem 6: Lorentzian signature recovery
 

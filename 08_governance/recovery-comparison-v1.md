@@ -185,6 +185,7 @@ The strongest recovery path is:
 - QM↔GR back-reaction loop (QNG-CPU-053): **PASS (4/4) — Tier-1 — LOOP CLOSES**; GR→QM: E_tt→∂_t(ρ) with γ_tt>0 on 5/5 seeds (strongest coherence yet); mean R²_3ch=0.405→R²_5ch=0.461 (+5.5%); ∂_t(ρ)≈-(α·dJ_phi+α·dJ_mis+α·dJ_mem)+γ_tt·E_tt; self-regulating: div_J_mis→↓E_tt→↓∂_t(ρ); **Problem 5 partially resolved**
 - GR→QM back-reaction large-N (QNG-CPU-054): **PASS (3/4) — Tier-1.5**; γ_tt N-scaling: 0.00784→0.00455→0.00747 (non-monotone); sign stable at N≥16 (5/5 positive); loop_strength ≈ 0.00119 for N≥16 (SATURATES); subcritical gain → stable; first back-reaction loop constant of QNG
 - back-reaction fixed-point iteration (QNG-CPU-055): **PARTIAL (2/4)**; P1 FAIL (rollout already IS QM fixed-point — Δρ_0≈0.0001); P2 PASS (QM+GR converges 5/5, mean ratio 0.9534); P3 PASS (FP shift >0.001 on 3/5 seeds, corr with γ_tt); P4 FAIL (both at equilibrium, speed undefined); **two-level attractor hierarchy confirmed**: QM attractor (24-step rollout) + GR correction (shift ~0.001 correlated with γ_tt)
+- back-reaction attractor geometry (QNG-CPU-056): **PASS (3/4) — Tier-1.5 — GR GEOMETRIC IMPRINT CONFIRMED**; P1 FAIL (2/5, degree-density not established at N=12); P2 PASS 5/5 (|Pearson(δρ,E_tt)|>0.99, near-perfect); P3 PASS 5/5 (sign law exact); P4 PASS 5/5 (std_ratio≈1.3–1.5); **δρ ≈ K·η·γ_tt·E_tt — GR tensor directly imprints on matter density; QNG analogue of gravitational potential well filling**
 
 ## Current weakest recovery path
 
