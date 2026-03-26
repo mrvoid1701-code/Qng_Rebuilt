@@ -211,6 +211,14 @@ Current rebuild update:
   loop is subcritical (gain < 1) → self-stabilizing; finite loop constant confirmed;
   non-monotone γ_tt: 0.00784→0.00455→0.00747 (N=8→16→32), same pattern as CPU-052;
   open: fixed-point equation; continuum loop constant
+- **Back-reaction fixed-point iteration (QNG-CPU-055): PARTIAL (2/4)**;
+  P1 FAIL: QM-only does NOT need to converge — rollout already IS the fixed-point iteration (Δρ_0=0.0001);
+  P2 PASS (5/5): QM+GR converges on all seeds (ratio 0.9534); GR refines beyond QM attractor;
+  P3 PASS (3/5): FP shift > 0.001 on seeds 42,137,2718; correlated with γ_tt amplitude;
+  P4 FAIL: both already at equilibrium — speed comparison undefined;
+  **key finding: 24-step rollout IS the QM attractor; two-level hierarchy: QM + GR correction**;
+  GR shift ~0.001 in ρ-space; seed 1729 a_mis sign inversion (topology-dependent);
+  open: attractor geometry; FP shift vs observed ρ*; full self-consistent iteration
 
 ## Problem 6: Lorentzian signature recovery
 
