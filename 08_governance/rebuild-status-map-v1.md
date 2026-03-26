@@ -69,6 +69,7 @@ Provide one compact status map for the rebuilt workspace so supported layers, ca
 - GR multi-channel QM source injection: `proxy-supported` — PASS 3/4; div_J_mis + div_J_mem improve E_xx −8.4%, E_tt −17.1%, ratio_split 0.316→0.275; first QM→GR cross-sector coupling confirmed; 6-channel bridge established
 - QM→GR coupling covariance (multi-seed): `proxy-supported` — PASS 3/4; **Tier-1**; 5/5 seeds improve (universal); e_mis dominant on 4/5 seeds; sign(e_mis)=−1 on 4/5 seeds; ⟨e_mis⟩=−0.175; coupling ~3–10% of geometry; seed 2718 sign-flip anomaly identified
 - QM→GR coupling large-N probe: `proxy-supported` — **PASS 4/4; Tier-1-large-N**; sparse-graph law in GR sector: |e_mis| 1.037→0.259→0.159 (N=8→16→32); 5/5 improve at N=32; sign normalizes at N=32; unified sparse-graph law confirmed (same attenuation in QM+GR)
+- QM→GR coupling continuum limit (N=64): `proxy-supported` — **PASS 4/4; SATURATION CLASS**; |e_mis| 0.159→0.134 (N=32→64, decay ×0.84/doubling); seed 2718 fully normalized; non-monotone Δratio (−0.018→−0.030); best estimate |e_mis(∞)| ≈ 0.08–0.12 (non-zero)
 - source-response consistency step: `proxy-supported`
 - source-response consistency v2 step: `proxy-supported`
 - unified split-bridge architecture: `candidate`

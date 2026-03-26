@@ -104,6 +104,7 @@ Core files:
 - [qng-gr-multichannel-source-injection-v1.md](../../03_gr_qm_bridge/qng-gr-multichannel-source-injection-v1.md)
 - [qng-gr-coupling-covariance-v1.md](../../03_gr_qm_bridge/qng-gr-coupling-covariance-v1.md)
 - [qng-gr-coupling-large-n-v1.md](../../03_gr_qm_bridge/qng-gr-coupling-large-n-v1.md)
+- [qng-gr-coupling-continuum-limit-v1.md](../../03_gr_qm_bridge/qng-gr-coupling-continuum-limit-v1.md)
 - [bridge-consistency-registry-v1.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/bridge-consistency-registry-v1.md)
 - [qng-source-response-consistency-v2.md](C:/Users/tigan/Desktop/QNG-Theory%20Release-01/Relearning%20qng/03_gr_qm_bridge/qng-source-response-consistency-v2.md)
 
@@ -186,6 +187,7 @@ Core files:
 - [qng-gr-multichannel-source-injection-reference-v1/report.json](../../07_validation/audits/qng-gr-multichannel-source-injection-reference-v1/report.json)
 - [qng-gr-coupling-covariance-reference-v1/report.json](../../07_validation/audits/qng-gr-coupling-covariance-reference-v1/report.json)
 - [qng-gr-coupling-large-n-reference-v1/report.json](../../07_validation/audits/qng-gr-coupling-large-n-reference-v1/report.json)
+- [qng-gr-coupling-continuum-limit-reference-v1/report.json](../../07_validation/audits/qng-gr-coupling-continuum-limit-reference-v1/report.json)
 
 ## Practical reading shortcuts
 

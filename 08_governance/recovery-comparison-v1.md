@@ -181,6 +181,7 @@ The strongest recovery path is:
 - GR multi-channel QM source injection (QNG-CPU-049): PASS (3/4); 6-channel fit E_μν ≈ a·κ+b·q_src+c·src+d·m_eff+e·div_J_mis+f·div_J_mem; E_xx −8.4% (0.300→0.274), E_tt −17.1% (0.333→0.276); div_J_mis dominant QM→GR coupler (coeff -0.516 in E_tt, +0.238 in E_xx); sign separation preserved; first cross-sector bridge confirmed
 - QM→GR coupling covariance (QNG-CPU-050): PASS (3/4) — **Tier-1**; 5/5 seeds improve; |e_mis|>|f_mem| on 4/5; sign(e_mis_ett)=−1 on 4/5; ⟨e_mis⟩=−0.175; P4 fails (sig_ratio ~3–10% < 10% threshold); seed 2718 sign-flip anomaly; **universal QM→GR mediator confirmed**: div_J_mis Tier-1
 - QM→GR coupling large-N probe (QNG-CPU-051): **PASS (4/4) — Tier-1-large-N**; sparse-graph law in GR: |e_mis| 1.037→0.259→0.159 (N=8→16→32); 5/5 improve at N=32; sign normalizes at N=32; mean Δratio −0.147→−0.043→−0.018; seed 2718 anomaly = sparse-topology effect; **unified sparse-graph law**: QM+GR both governed by same N-attenuation; continuum limit open
+- QM→GR coupling continuum limit (QNG-CPU-052): **PASS (4/4) — SATURATION CLASS**; |e_mis| 0.159→0.134 (N=32→64, ×0.84/doubling); seed 2718 fully normalized at N=64 (all signs=−1); non-monotone Δratio (−0.018→−0.030); power-law fit N^(−0.956) overstates large-N decay; local exponent ~−0.25 → saturation; **best estimate |e_mis(∞)| ≈ 0.08–0.12 (non-zero, physically real)**; two regimes: sparse (N<32) and dense (N≥32)
 
 ## Current weakest recovery path
 

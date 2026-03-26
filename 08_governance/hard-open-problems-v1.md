@@ -166,6 +166,15 @@ Current rebuild update:
   mean Δratio: −0.147 (N=8) → −0.043 (N=16) → −0.018 (N=32);
   **unified sparse-graph law**: same N-attenuation in QM continuity (CPU-047) and GR coupling;
   open: continuum limit — does |e_mis|→0 or →constant as N→∞?
+- QM→GR coupling continuum limit probe (QNG-CPU-052): **PASS (4/4) — SATURATION CLASS**;
+  N=64: mean|e_mis|=0.134 > sat threshold 0.120; decay ×0.84 per doubling (near-flat);
+  seed 2718 fully normalized at N=64 (all 5 signs = −1); anomaly was sparse-topology effect;
+  non-monotone Δratio: −0.147→−0.043→−0.018→−0.030 (improves at N=64 = new regime);
+  power-law fit: |e_mis| ≈ 5.43×N^(−0.956) but dominated by sparse regime;
+  local large-N exponent ~−0.25 → saturation more likely than vanishing;
+  **best estimate: |e_mis(N→∞)| ≈ 0.08–0.12 (non-zero, physically meaningful)**;
+  two regimes: sparse (N<32, steep decay) and dense (N≥32, saturation);
+  open: N=128 probe to confirm; renormalization of e_mis; back-reaction with saturated coupling
 
 ## Problem 5: back-reaction closure
 
