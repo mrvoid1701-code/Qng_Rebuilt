@@ -180,6 +180,7 @@ The strongest recovery path is:
 - degree-normalized current (QNG-CPU-048): FAIL (1/4); normalization makes R² negative (OLS ill-conditioned); N-weakening confirmed as structural, not degree-dilution; multi-channel law = sparse-graph/UV law; QM N-scaling closed
 - GR multi-channel QM source injection (QNG-CPU-049): PASS (3/4); 6-channel fit E_μν ≈ a·κ+b·q_src+c·src+d·m_eff+e·div_J_mis+f·div_J_mem; E_xx −8.4% (0.300→0.274), E_tt −17.1% (0.333→0.276); div_J_mis dominant QM→GR coupler (coeff -0.516 in E_tt, +0.238 in E_xx); sign separation preserved; first cross-sector bridge confirmed
 - QM→GR coupling covariance (QNG-CPU-050): PASS (3/4) — **Tier-1**; 5/5 seeds improve; |e_mis|>|f_mem| on 4/5; sign(e_mis_ett)=−1 on 4/5; ⟨e_mis⟩=−0.175; P4 fails (sig_ratio ~3–10% < 10% threshold); seed 2718 sign-flip anomaly; **universal QM→GR mediator confirmed**: div_J_mis Tier-1
+- QM→GR coupling large-N probe (QNG-CPU-051): **PASS (4/4) — Tier-1-large-N**; sparse-graph law in GR: |e_mis| 1.037→0.259→0.159 (N=8→16→32); 5/5 improve at N=32; sign normalizes at N=32; mean Δratio −0.147→−0.043→−0.018; seed 2718 anomaly = sparse-topology effect; **unified sparse-graph law**: QM+GR both governed by same N-attenuation; continuum limit open
 
 ## Current weakest recovery path
 

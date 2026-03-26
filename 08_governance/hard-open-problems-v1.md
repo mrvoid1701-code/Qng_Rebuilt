@@ -159,6 +159,13 @@ Current rebuild update:
   mean e_mis = −0.175 is the universal QM→GR coupling constant at N=16;
   seed 2718 anomaly: e_mis and f_mem both flip sign (roles exchange); merits dedicated probe;
   **Tier-1 bridge established**: div_J_mis is the universal QM→GR mediator
+- QM→GR coupling large-N probe (QNG-CPU-051): **PASS (4/4) — Tier-1-large-N**;
+  sparse-graph law in GR sector: |e_mis(N=8)|=1.037 → |e_mis(N=16)|=0.259 → |e_mis(N=32)|=0.159;
+  coupling weakens 6.5x from N=8→32; 5/5 seeds improve at N=32 (coupling never collapses);
+  sign normalizes at N=32 (seed 2718 anomaly = sparse-topology effect);
+  mean Δratio: −0.147 (N=8) → −0.043 (N=16) → −0.018 (N=32);
+  **unified sparse-graph law**: same N-attenuation in QM continuity (CPU-047) and GR coupling;
+  open: continuum limit — does |e_mis|→0 or →constant as N→∞?
 
 ## Problem 5: back-reaction closure
 
