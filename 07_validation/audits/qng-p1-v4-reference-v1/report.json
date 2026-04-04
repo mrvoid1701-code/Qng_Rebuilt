@@ -1,0 +1,43 @@
+{
+  "test_id": "QNG-CPU-033",
+  "decision": "pass",
+  "parameters": {
+    "n_nodes": 64,
+    "eq_steps": 3000,
+    "phi_steps": 500,
+    "alpha": 0.005,
+    "beta": 0.35,
+    "delta_a": 0.0,
+    "delta_b": 0.2,
+    "epsilon": 0.02,
+    "sigma_source": 0.05
+  },
+  "condition_a": {
+    "chi_mean": -0.0,
+    "chi_spatial_power": 12.69617,
+    "sigma_mean": 0.416512,
+    "sigma_spatial_power": 0.382603,
+    "phi_omega": 0.000118
+  },
+  "condition_b": {
+    "chi_mean": 3.339519,
+    "chi_spatial_power": 672.714052,
+    "sigma_mean": 0.416512,
+    "sigma_spatial_power": 0.382603,
+    "phi_omega": 0.066849
+  },
+  "comparisons": {
+    "omega_a": 0.000118,
+    "omega_b": 0.066849,
+    "predicted_omega_b": 0.06679,
+    "drift_ratio": 1.0009,
+    "sigma_power_null_diff": 0.0
+  },
+  "checks": {
+    "drift_detected_B_pass": true,
+    "drift_null_A_pass": true,
+    "drift_linear_scaling_pass": true,
+    "sigma_power_null_pass": true
+  },
+  "interpretation": "P1 confirmed in v4. Chi tension drives phase accumulation at rate epsilon*<chi> = 0.02*3.3395 = 0.0668 rad/step. Channel E is the QM-facing coupling linking the gravitational sector (sigma/chi) to the quantum-phase sector (phi)."
+}
