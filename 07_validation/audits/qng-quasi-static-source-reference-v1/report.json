@@ -1,0 +1,89 @@
+{
+  "test_id": "QNG-CPU-030",
+  "decision": "pass",
+  "parameters": {
+    "alpha": 0.005,
+    "beta": 0.35,
+    "delta": 0.2,
+    "chi_decay": 0.005,
+    "chi_rel": 0.35,
+    "n_nodes": 64,
+    "steps": 3000,
+    "sigma_source": 0.05
+  },
+  "profile_sample": {
+    "r0": {
+      "sigma": 0.05,
+      "chi": 22.893232
+    },
+    "r1": {
+      "sigma": 0.119903,
+      "chi": 14.823763
+    },
+    "r2": {
+      "sigma": 0.178947,
+      "chi": 12.521067
+    },
+    "r3": {
+      "sigma": 0.228817,
+      "chi": 10.576116
+    },
+    "r5": {
+      "sigma": 0.306518,
+      "chi": 7.545803
+    },
+    "r8": {
+      "sigma": 0.383384,
+      "chi": 4.548024
+    },
+    "r12": {
+      "sigma": 0.440592,
+      "chi": 2.316911
+    },
+    "r16": {
+      "sigma": 0.469661,
+      "chi": 1.183221
+    },
+    "r20": {
+      "sigma": 0.48436,
+      "chi": 0.609974
+    },
+    "r25": {
+      "sigma": 0.492769,
+      "chi": 0.282007
+    },
+    "r30": {
+      "sigma": 0.495712,
+      "chi": 0.167218
+    },
+    "r32": {
+      "sigma": 0.495946,
+      "chi": 0.158118
+    }
+  },
+  "screening": {
+    "lambda_pred": 5.9161,
+    "lambda_obs": 5.9302,
+    "ratio": 1.0024,
+    "relative_error": 0.0024,
+    "r2_fit": 1.0
+  },
+  "chi_profile": {
+    "mean_abs_chi_near_r0_3": 15.203544,
+    "mean_abs_chi_far_r10plus": 0.91083
+  },
+  "generation_order": {
+    "corr_deficit_chi_all_nodes": 0.9914
+  },
+  "G_QNG": {
+    "substrate_units": 0.175
+  },
+  "checks": {
+    "sigma_decays_from_source_pass": true,
+    "exponential_fit_quality_pass": true,
+    "screening_length_match_pass": true,
+    "chi_elevated_near_source_pass": true,
+    "generation_order_spatial_correlation_pass": true,
+    "G_QNG_formula_valid_pass": true
+  }
+}

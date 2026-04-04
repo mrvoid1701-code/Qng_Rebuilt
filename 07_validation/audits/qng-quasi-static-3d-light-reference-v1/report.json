@@ -1,0 +1,121 @@
+{
+  "test_id": "QNG-CPU-031",
+  "decision": "pass",
+  "geometry": {
+    "n_per_axis": 6,
+    "n_nodes": 216,
+    "z_3d": 6,
+    "z_1d": 2
+  },
+  "parameters": {
+    "alpha": 0.005,
+    "beta": 0.35,
+    "delta": 0.2,
+    "sigma_source": 0.05,
+    "steps": 2000
+  },
+  "screening": {
+    "lambda_pred_3d": 3.4157,
+    "lambda_pred_1d": 5.9161,
+    "lambda_obs_3d": 3.1105,
+    "ratio_obs_pred": 0.9107,
+    "relative_error": 0.0893,
+    "r2_fit": 0.8752
+  },
+  "G_QNG": {
+    "G_3d_substrate": 0.058333,
+    "G_1d_substrate": 0.175,
+    "ratio_obs": 0.333333,
+    "ratio_pred": 0.333333,
+    "relative_error": 0.0
+  },
+  "generation_order": {
+    "corr_deficit_chi": 0.9443
+  },
+  "poisson_residual": {
+    "mean_bulk_residual": 0.0,
+    "n_bulk_nodes": 189
+  },
+  "profile_sample": {
+    "r0.000": {
+      "sigma": 0.05,
+      "chi": 37.482804,
+      "delta_sigma": -0.45,
+      "n_nodes": 1
+    },
+    "r1.000": {
+      "sigma": 0.328338,
+      "chi": 6.694055,
+      "delta_sigma": -0.171662,
+      "n_nodes": 6
+    },
+    "r1.414": {
+      "sigma": 0.377883,
+      "chi": 4.76182,
+      "delta_sigma": -0.122117,
+      "n_nodes": 12
+    },
+    "r1.732": {
+      "sigma": 0.395585,
+      "chi": 4.071452,
+      "delta_sigma": -0.104415,
+      "n_nodes": 8
+    },
+    "r2.000": {
+      "sigma": 0.393784,
+      "chi": 4.141686,
+      "delta_sigma": -0.106216,
+      "n_nodes": 6
+    },
+    "r2.236": {
+      "sigma": 0.404492,
+      "chi": 3.724064,
+      "delta_sigma": -0.095508,
+      "n_nodes": 24
+    },
+    "r2.450": {
+      "sigma": 0.410303,
+      "chi": 3.497432,
+      "delta_sigma": -0.089697,
+      "n_nodes": 24
+    },
+    "r2.828": {
+      "sigma": 0.414434,
+      "chi": 3.336336,
+      "delta_sigma": -0.085566,
+      "n_nodes": 12
+    },
+    "r3.000": {
+      "sigma": 0.41605,
+      "chi": 3.273303,
+      "delta_sigma": -0.08395,
+      "n_nodes": 27
+    },
+    "r3.162": {
+      "sigma": 0.41206,
+      "chi": 3.428944,
+      "delta_sigma": -0.08794,
+      "n_nodes": 12
+    },
+    "r3.317": {
+      "sigma": 0.415272,
+      "chi": 3.303641,
+      "delta_sigma": -0.084728,
+      "n_nodes": 12
+    },
+    "r3.464": {
+      "sigma": 0.421082,
+      "chi": 3.077086,
+      "delta_sigma": -0.078918,
+      "n_nodes": 8
+    }
+  },
+  "checks": {
+    "sigma_decays_monotonically_pass": true,
+    "exponential_fit_quality_pass": true,
+    "screening_length_3d_match_pass": true,
+    "G_QNG_ratio_scaling_pass": true,
+    "generation_order_3d_correlation_pass": true,
+    "poisson_residual_bulk_pass": true
+  }
+}

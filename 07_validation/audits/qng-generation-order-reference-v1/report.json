@@ -1,0 +1,31 @@
+{
+  "test_id": "QNG-CPU-029",
+  "decision": "pass",
+  "v2_parity": {
+    "max_diff_sigma": 0.0,
+    "max_diff_chi": 0.0,
+    "max_diff_phi": 0.0,
+    "max_diff_total": 0.0
+  },
+  "generation_order": {
+    "mean_abs_chi_delta0": 0.20303618035795473,
+    "mean_abs_chi_deltaD": 0.5346911900263623,
+    "corr_deficit_chi": 0.7813969245886941
+  },
+  "matter_proxy": {
+    "mean_leff_delta0": 0.08437046636296638,
+    "mean_leff_deltaD": 0.2295939134599449,
+    "corr_delta_chi_deficit": 0.7855760658670051
+  },
+  "contractiveness": {
+    "alpha_plus_beta_plus_delta": 0.46
+  },
+  "checks": {
+    "v2_parity_pass": true,
+    "chi_signal_stronger_pass": true,
+    "generation_order_direction_pass": true,
+    "leff_increases_with_delta_pass": true,
+    "leff_deficit_correlation_pass": true,
+    "contractiveness_pass": true
+  }
+}

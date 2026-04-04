@@ -1,0 +1,49 @@
+{
+  "test_id": "QNG-CPU-032",
+  "decision": "pass",
+  "parameters": {
+    "n_nodes": 64,
+    "eq_steps": 3000,
+    "phi_steps": 200,
+    "alpha": 0.005,
+    "beta": 0.35,
+    "delta_a": 0.0,
+    "delta_b": 0.2,
+    "sigma_source": 0.05
+  },
+  "condition_a": {
+    "chi_mean": -0.0,
+    "chi_var": 0.389884,
+    "chi_spatial_power": 12.69617,
+    "sigma_mean": 0.416512,
+    "sigma_var": 0.011956,
+    "sigma_spatial_power": 0.382603,
+    "phi_spatial_power": 140.787633,
+    "phi_tau_dec": 20.0
+  },
+  "condition_b": {
+    "chi_mean": 3.339519,
+    "chi_var": 21.010955,
+    "chi_spatial_power": 672.714052,
+    "sigma_mean": 0.416512,
+    "sigma_var": 0.011956,
+    "sigma_spatial_power": 0.382603,
+    "phi_spatial_power": 140.787633,
+    "phi_tau_dec": 20.0
+  },
+  "comparisons": {
+    "chi_mean_diff": 3.339519,
+    "chi_power_ratio": 52.98559,
+    "sigma_power_null_diff": 0.0,
+    "phi_tau_rel_diff": 0.0,
+    "phi_power_rel_diff": 0.0
+  },
+  "checks": {
+    "chi_tension_confirmed_pass": true,
+    "chi_power_ratio_pass": true,
+    "sigma_power_null_pass": true,
+    "phi_decay_null_pass": true,
+    "phi_power_null_pass": true
+  },
+  "interpretation": "chi modulates amplitude sector only (sigma affected, phi unaffected in v3). Chi-to-phi channel is absent in v3. P1 as stated requires a direct chi\u2192phi coupling for the phase sector."
+}
