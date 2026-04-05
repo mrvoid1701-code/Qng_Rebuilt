@@ -1,0 +1,130 @@
+{
+  "test_id": "QNG-CPU-036",
+  "decision": "pass",
+  "parameters": {
+    "n_nodes": 128,
+    "eq_steps": 5000,
+    "beta": 0.35,
+    "z": 2,
+    "delta": 0.2,
+    "alpha_values": [
+      0.001,
+      0.002,
+      0.005,
+      0.01,
+      0.02
+    ],
+    "fit_r_range": [
+      3,
+      50
+    ]
+  },
+  "results": {
+    "0.001": {
+      "alpha": 0.001,
+      "lambda_pred": 13.2288,
+      "lambda_fit": 13.4535,
+      "lambda_ratio": 1.01699,
+      "a_fit": 0.441055,
+      "r2": 0.999779,
+      "invariant_fit": 0.425437,
+      "invariant_pred": 0.41833
+    },
+    "0.002": {
+      "alpha": 0.002,
+      "lambda_pred": 9.3541,
+      "lambda_fit": 9.4056,
+      "lambda_ratio": 1.005497,
+      "a_fit": 0.446041,
+      "r2": 0.999972,
+      "invariant_fit": 0.420629,
+      "invariant_pred": 0.41833
+    },
+    "0.005": {
+      "alpha": 0.005,
+      "lambda_pred": 5.9161,
+      "lambda_fit": 5.9256,
+      "lambda_ratio": 1.001605,
+      "a_fit": 0.449451,
+      "r2": 1.0,
+      "invariant_fit": 0.419001,
+      "invariant_pred": 0.41833
+    },
+    "0.01": {
+      "alpha": 0.01,
+      "lambda_pred": 4.1833,
+      "lambda_fit": 4.1934,
+      "lambda_ratio": 1.002404,
+      "a_fit": 0.449937,
+      "r2": 1.0,
+      "invariant_fit": 0.419336,
+      "invariant_pred": 0.41833
+    },
+    "0.02": {
+      "alpha": 0.02,
+      "lambda_pred": 2.958,
+      "lambda_fit": 2.972,
+      "lambda_ratio": 1.004725,
+      "a_fit": 0.449997,
+      "r2": 1.0,
+      "invariant_fit": 0.420307,
+      "invariant_pred": 0.41833
+    }
+  },
+  "comparisons": {
+    "invariant_pred": 0.41833,
+    "invariant_fits": {
+      "0.001": 0.425437,
+      "0.002": 0.420629,
+      "0.005": 0.419001,
+      "0.01": 0.419336,
+      "0.02": 0.420307
+    },
+    "invariant_max_min_ratio": 1.0154,
+    "loglog_slope": -0.5037,
+    "loglog_slope_expected": -0.5,
+    "lambda_fits": {
+      "0.001": 13.4535,
+      "0.002": 9.4056,
+      "0.005": 5.9256,
+      "0.01": 4.1934,
+      "0.02": 2.972
+    },
+    "lambda_preds": {
+      "0.001": 13.2288,
+      "0.002": 9.3541,
+      "0.005": 5.9161,
+      "0.01": 4.1833,
+      "0.02": 2.958
+    },
+    "r2_values": {
+      "0.001": 0.999779,
+      "0.002": 0.999972,
+      "0.005": 1.0,
+      "0.01": 1.0,
+      "0.02": 1.0
+    }
+  },
+  "checks": {
+    "invariant_constant_pass": true,
+    "loglog_slope_pass": true,
+    "each_lambda_within_15pct_pass": true,
+    "lambda_monotone_pass": true,
+    "r2_above_099_pass": true
+  },
+  "check3_per_alpha": {
+    "0.001": true,
+    "0.002": true,
+    "0.005": true,
+    "0.01": true,
+    "0.02": true
+  },
+  "check5_per_alpha": {
+    "0.001": true,
+    "0.002": true,
+    "0.005": true,
+    "0.01": true,
+    "0.02": true
+  },
+  "interpretation": "Confirmed: lambda_screen \u221d alpha^(-1/2). The cosmological identification alpha_phys ~ Lambda * l_Planck^2 is numerically grounded. Gap 5 of the Newtonian limit program is confirmed."
+}
