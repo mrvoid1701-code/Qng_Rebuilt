@@ -1,0 +1,128 @@
+{
+  "test_id": "QNG-CPU-044",
+  "decision": "pass",
+  "parameters": {
+    "L": 20,
+    "R": 5.0,
+    "phase1": 300,
+    "phase2_max": 4700,
+    "beta": 0.35,
+    "beta_phi": 0.02,
+    "gamma_phi": 0.1,
+    "collapse_threshold": 1.25
+  },
+  "t_lifetime_phase2_steps": "2400",
+  "R_t_at_phase2_T600": 5.09,
+  "history": [
+    {
+      "phase2_step": 200,
+      "z_ring": 19,
+      "R_t": 5.291,
+      "n_dep": 917,
+      "core_sigma": 0.26886,
+      "collapsed": false
+    },
+    {
+      "phase2_step": 400,
+      "z_ring": 19,
+      "R_t": 5.398,
+      "n_dep": 989,
+      "core_sigma": 0.26238,
+      "collapsed": false
+    },
+    {
+      "phase2_step": 600,
+      "z_ring": 19,
+      "R_t": 5.09,
+      "n_dep": 893,
+      "core_sigma": 0.26947,
+      "collapsed": false
+    },
+    {
+      "phase2_step": 800,
+      "z_ring": 19,
+      "R_t": 4.673,
+      "n_dep": 757,
+      "core_sigma": 0.28054,
+      "collapsed": false
+    },
+    {
+      "phase2_step": 1000,
+      "z_ring": 19,
+      "R_t": 4.332,
+      "n_dep": 653,
+      "core_sigma": 0.29316,
+      "collapsed": false
+    },
+    {
+      "phase2_step": 1200,
+      "z_ring": 19,
+      "R_t": 3.987,
+      "n_dep": 545,
+      "core_sigma": 0.30746,
+      "collapsed": false
+    },
+    {
+      "phase2_step": 1400,
+      "z_ring": 19,
+      "R_t": 3.675,
+      "n_dep": 465,
+      "core_sigma": 0.32418,
+      "collapsed": false
+    },
+    {
+      "phase2_step": 1600,
+      "z_ring": 19,
+      "R_t": 3.251,
+      "n_dep": 361,
+      "core_sigma": 0.34186,
+      "collapsed": false
+    },
+    {
+      "phase2_step": 1800,
+      "z_ring": 19,
+      "R_t": 2.89,
+      "n_dep": 273,
+      "core_sigma": 0.36109,
+      "collapsed": false
+    },
+    {
+      "phase2_step": 2000,
+      "z_ring": 19,
+      "R_t": 2.322,
+      "n_dep": 148,
+      "core_sigma": 0.38173,
+      "collapsed": false
+    },
+    {
+      "phase2_step": 2200,
+      "z_ring": 19,
+      "R_t": 1.358,
+      "n_dep": 26,
+      "core_sigma": 0.4017,
+      "collapsed": false
+    },
+    {
+      "phase2_step": 2400,
+      "z_ring": 19,
+      "R_t": 0.0,
+      "n_dep": 0,
+      "core_sigma": 0.41732,
+      "collapsed": true
+    },
+    {
+      "phase2_step": 2600,
+      "z_ring": 19,
+      "R_t": 0.0,
+      "n_dep": 0,
+      "core_sigma": 0.42952,
+      "collapsed": true
+    }
+  ],
+  "checks": {
+    "ring_alive_at_t700_pass": true,
+    "t_lifetime_measurable_pass": true,
+    "t_lifetime_gt_1000_pass": true,
+    "gradual_decay_pass": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "test_id": "QNG-CPU-045",
+  "decision": "fail",
+  "parameters": {
+    "L": 24,
+    "N": 13824,
+    "phase1": 300,
+    "phase2": 500,
+    "beta_phi": 0.02,
+    "gamma_phi": 0.1
+  },
+  "results": [
+    {
+      "R": 3.0,
+      "z0": 12,
+      "z1": 23,
+      "dz": 11.0,
+      "v_qng": 0.022,
+      "v_theory": 0.155338,
+      "k_v": 0.1416
+    },
+    {
+      "R": 4.0,
+      "z0": 12,
+      "z1": 23,
+      "dz": 11.0,
+      "v_qng": 0.022,
+      "v_theory": 0.12795,
+      "k_v": 0.1719
+    },
+    {
+      "R": 5.0,
+      "z0": 12,
+      "z1": 23,
+      "dz": 11.0,
+      "v_qng": 0.022,
+      "v_theory": 0.109463,
+      "k_v": 0.201
+    },
+    {
+      "R": 6.0,
+      "z0": 12,
+      "z1": 23,
+      "dz": 11.0,
+      "v_qng": 0.022,
+      "v_theory": 0.096055,
+      "k_v": 0.229
+    },
+    {
+      "R": 7.0,
+      "z0": 12,
+      "z1": 23,
+      "dz": 11.0,
+      "v_qng": 0.022,
+      "v_theory": 0.085838,
+      "k_v": 0.2563
+    }
+  ],
+  "ratio_v3_v7": 1.0,
+  "ratio_theory": 1.8097,
+  "checks": {
+    "dz_detectable_all_radii_pass": true,
+    "v_decreases_with_R_pass": false,
+    "ratio_v3_v7_gt_1p3_pass": false,
+    "v_R5_consistent_with_cpu043_pass": true,
+    "monotone_decrease_pass": true
+  }
+}

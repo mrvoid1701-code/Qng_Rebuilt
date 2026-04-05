@@ -39,8 +39,8 @@ QM-facing (QNG-CPU-019 to QNG-CPU-028):
 Newtonian limit + structural (QNG-CPU-029 to QNG-CPU-038):
 `qng_generation_order_reference`, `qng_quasi_static_source_reference`, `qng_quasi_static_3d_light_reference`, `qng_p1_spectrum_reference`, `qng_p1_v4_reference`, `qng_phi_dephasing_reference`, `qng_g_qng_consistency_reference`, `qng_alpha_screening_reference`, `qng_3d_isotropy_reference`, `qng_emergent_noise_reference`
 
-Matter sector (QNG-CPU-039 to QNG-CPU-043):
-`qng_perturbed_lattice_isotropy_reference` (QNG-CPU-039), `qng_sigma_stability_reference` (QNG-CPU-040), `qng_phi_vortex_reference` (QNG-CPU-041), `qng_sigma_depletion_vortex_reference` (QNG-CPU-042), `qng_vortex_ring_3d_reference` (QNG-CPU-043)
+Matter sector (QNG-CPU-039 to QNG-CPU-045):
+`qng_perturbed_lattice_isotropy_reference` (QNG-CPU-039), `qng_sigma_stability_reference` (QNG-CPU-040), `qng_phi_vortex_reference` (QNG-CPU-041), `qng_sigma_depletion_vortex_reference` (QNG-CPU-042), `qng_vortex_ring_3d_reference` (QNG-CPU-043), `qng_ring_lifetime_reference` (QNG-CPU-044), `qng_ring_self_velocity_reference` (QNG-CPU-045)
 
 ## Architecture: One-Way Build Order
 
@@ -92,7 +92,7 @@ Every test must declare: `test_id`, `category`, `hardware`, `inputs`, `outputs`,
 - **GPU lane** = scale and stress; must match CPU within declared tolerance
 - **CPU+GPU lane** = cross-hardware agreement tests
 
-Pre-registrations live in `07_validation/prereg/` (46 registered: GR-CPU-001, QM-CPU-001, QNG-CPU-001 through QNG-CPU-043, QNG-CPUGPU-001/002, QNG-GPU-001).
+Pre-registrations live in `07_validation/prereg/` (48 registered: GR-CPU-001, QM-CPU-001, QNG-CPU-001 through QNG-CPU-045, QNG-CPUGPU-001/002, QNG-GPU-001).
 
 ## Key Theory Objects (from `04_qng_pure/`)
 
@@ -144,7 +144,7 @@ Any file using unlabeled `chi` or `Sigma` must be flagged as containing unresolv
   - ρ₀ formal constraint derived: ρ₀ = m/∫M_eff dV (DER-QNG-021, Constraint rho0-C1)
   - Sigmoid form physically motivated via 5 necessary constraints and Fermi-Dirac analogy (DER-QNG-022)
   - Coefficients a_M, a_D, a_P remain free; connecting M_eff to Standard Model masses is open
-  - **Phi vortex program** (DER-QNG-025/026): sigma dissipative (040 PASS); phi vortex stable 2D (041 PASS); v5 Channel F sigma depletion at core confirmed (042 PASS, core/bulk ratio 2.2×, D_core=0.55); **3D vortex ring dynamically stable** (043 PASS — two-phase protocol, BETA_PHI=0.02, core=0.27, R_t=4.84, ring_self_velocity dz=9); π₂(S¹)=0 means no topological protection but ring persists 700 Channel F steps; next: a_M fixing (A_vortex_ring measurement), QNG-CPU-044 (ring lifetime), QNG-CPU-045 (ring self-velocity)
+  - **Phi vortex program** (DER-QNG-025/026): sigma dissipative (040 PASS); phi vortex stable 2D (041 PASS); v5 Channel F sigma depletion at core confirmed (042 PASS, core/bulk ratio 2.2×, D_core=0.55); **3D vortex ring dynamically stable** (043 PASS — two-phase protocol, BETA_PHI=0.02, core=0.27, R_t=4.84); **ring lifetime T_lifetime=2400 Phase-2 steps** (044 PASS — gradual linear decay, T_lifetime×alpha=12>>1); **ring self-velocity: 1/R Biot-Savart NOT confirmed** (045 FAIL — phi diffusion drift dominates Phase-1, all R give same velocity; genuine substrate finding: BETA_PHI=0.02 is viscous regime); a_M fixing: A_vortex_ring=0.225, Delta_V²=a_M×alpha×M_baryon (DER-QNG-027); k_v open; next: QNG-OBS-001 (rotation curve test on 175 galaxies)
 
 - **Native derivation program** — `qng-native-derivation-program-v1.md` — six phases; A–D complete, E (QM embedding) weak, F (phenomenological reduction) structural only
 
