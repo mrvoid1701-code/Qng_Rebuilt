@@ -1,0 +1,71 @@
+{
+  "test_id": "QNG-CPU-035",
+  "decision": "pass",
+  "parameters": {
+    "n_nodes": 64,
+    "eq_steps": 3000,
+    "z": 2,
+    "alpha": 0.005,
+    "delta": 0.2,
+    "beta_values": [
+      0.2,
+      0.35,
+      0.5
+    ],
+    "fit_r_range": [
+      2,
+      15
+    ]
+  },
+  "results": {
+    "0.2": {
+      "beta": 0.2,
+      "g_qng_formula": 0.1,
+      "lambda_pred": 4.4721,
+      "lambda_fit": 4.482,
+      "a_fit": 0.449933,
+      "r2": 1.0,
+      "identity_ratio": 1.00442,
+      "delta_c_at_source": -0.45
+    },
+    "0.35": {
+      "beta": 0.35,
+      "g_qng_formula": 0.175,
+      "lambda_pred": 5.9161,
+      "lambda_fit": 5.9302,
+      "a_fit": 0.449576,
+      "r2": 1.0,
+      "identity_ratio": 1.004778,
+      "delta_c_at_source": -0.45
+    },
+    "0.5": {
+      "beta": 0.5,
+      "g_qng_formula": 0.25,
+      "lambda_pred": 7.0711,
+      "lambda_fit": 7.1036,
+      "a_fit": 0.448965,
+      "r2": 0.999997,
+      "identity_ratio": 1.009233,
+      "delta_c_at_source": -0.45
+    }
+  },
+  "comparisons": {
+    "identity_ratios": [
+      1.00442,
+      1.004778,
+      1.009233
+    ],
+    "g_ratio_formula": 2.5,
+    "g_ratio_pred": 2.5,
+    "lambda2_ratio_fit": 2.512,
+    "lambda2_ratio_pred": 2.5
+  },
+  "checks": {
+    "identity_beta020_pass": true,
+    "identity_beta035_pass": true,
+    "identity_beta050_pass": true,
+    "g_qng_linear_beta_pass": true,
+    "lambda2_linear_beta_pass": true
+  },
+  "interpretation": "Identity N6.1 confirmed: G_QNG = alpha * lambda^2 holds across all beta values. G_QNG formula and screening length formula are jointly consistent."
+}
