@@ -1,0 +1,63 @@
+{
+  "test_id": "QNG-CPU-037",
+  "decision": "pass",
+  "parameters": {
+    "n": 20,
+    "n_nodes": 8000,
+    "eq_steps": 3000,
+    "alpha": 0.005,
+    "beta": 0.35,
+    "z": 6,
+    "delta": 0.2,
+    "sigma_ref": 0.5,
+    "sigma_source": 0.05
+  },
+  "predictions": {
+    "lambda_pred": 3.4157
+  },
+  "spherical_fit": {
+    "lambda_sphere": 3.7463,
+    "a_sphere": 0.142986,
+    "r2_sphere": 0.995747,
+    "sphere_ratio": 1.0968,
+    "n_bins": 12
+  },
+  "directional_fits": {
+    "100": {
+      "lambda": 3.5902,
+      "r2": 0.9947,
+      "ratio_vs_pred": 1.0511
+    },
+    "110": {
+      "lambda": 3.7702,
+      "r2": 0.9985,
+      "ratio_vs_pred": 1.1038
+    },
+    "111": {
+      "lambda": 3.8671,
+      "r2": 0.9993,
+      "ratio_vs_pred": 1.1322
+    }
+  },
+  "isotropy": {
+    "dir_lambdas": {
+      "100": 3.5902,
+      "110": 3.7702,
+      "111": 3.8671
+    },
+    "max_min_ratio": 1.0771
+  },
+  "checks": {
+    "yukawa_r2_sphere_pass": true,
+    "lambda_sphere_vs_pred_pass": true,
+    "isotropy_ratio_pass": true,
+    "each_direction_vs_pred_pass": true,
+    "delta_c_negative_pass": true
+  },
+  "check4_per_direction": {
+    "100": true,
+    "110": true,
+    "111": true
+  },
+  "interpretation": "PASS: 3D cubic QNG substrate produces isotropic screened Poisson profile. Assumption D2 numerically supported for z=6 cubic lattice. Gap 1 partially closed for cubic graph geometry."
+}
