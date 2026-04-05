@@ -1,0 +1,1391 @@
+{
+  "test_id": "QNG-OBS-001",
+  "decision": "fail",
+  "n_galaxies_fit": 171,
+  "n_skipped": 4,
+  "median_chi2_dof_baryon": 38.87,
+  "median_chi2_dof_qng": 17.1663,
+  "improvement_ratio": 2.2643,
+  "fraction_improved": 1.0,
+  "pearson_r_aM_Mproxy": -0.0326,
+  "fraction_positive_aM": 0.7251,
+  "mean_Mproxy_neg_aM": 50791.77,
+  "mean_Mproxy_pos_aM": 17090.96,
+  "checks": {
+    "chi2_dof_qng_lt_baryon_pass": true,
+    "fraction_improved_gt_0p60_pass": true,
+    "pearson_r_gt_0p40_pass": false,
+    "fraction_positive_aM_pass": true,
+    "check5_neg_more_baryon_rich_info": true
+  },
+  "per_galaxy": [
+    {
+      "galaxy": "CamB",
+      "a_M": -39.62,
+      "chi2_dof_baryon": 17.307,
+      "chi2_dof_qng": 11.7394,
+      "M_proxy": 318.1,
+      "n_points": 9
+    },
+    {
+      "galaxy": "D564-8",
+      "a_M": 120.89,
+      "chi2_dof_baryon": 15.7458,
+      "chi2_dof_qng": 11.3348,
+      "M_proxy": 123.62,
+      "n_points": 6
+    },
+    {
+      "galaxy": "D631-7",
+      "a_M": 136.45,
+      "chi2_dof_baryon": 48.28,
+      "chi2_dof_qng": 48.9928,
+      "M_proxy": 807.12,
+      "n_points": 16
+    },
+    {
+      "galaxy": "DDO064",
+      "a_M": 184.25,
+      "chi2_dof_baryon": 5.2475,
+      "chi2_dof_qng": 4.2892,
+      "M_proxy": 787.69,
+      "n_points": 14
+    },
+    {
+      "galaxy": "DDO154",
+      "a_M": 1383.13,
+      "chi2_dof_baryon": 2769.0058,
+      "chi2_dof_qng": 357.0615,
+      "M_proxy": 381.14,
+      "n_points": 12
+    },
+    {
+      "galaxy": "DDO161",
+      "a_M": 1743.04,
+      "chi2_dof_baryon": 190.2687,
+      "chi2_dof_qng": 73.9793,
+      "M_proxy": 1391.2,
+      "n_points": 31
+    },
+    {
+      "galaxy": "DDO168",
+      "a_M": 632.53,
+      "chi2_dof_baryon": 76.8161,
+      "chi2_dof_qng": 46.723,
+      "M_proxy": 815.36,
+      "n_points": 10
+    },
+    {
+      "galaxy": "DDO170",
+      "a_M": 2057.31,
+      "chi2_dof_baryon": 286.6236,
+      "chi2_dof_qng": 34.1148,
+      "M_proxy": 1075.83,
+      "n_points": 8
+    },
+    {
+      "galaxy": "ESO079-G014",
+      "a_M": 6221.61,
+      "chi2_dof_baryon": 85.821,
+      "chi2_dof_qng": 44.9299,
+      "M_proxy": 18996.78,
+      "n_points": 15
+    },
+    {
+      "galaxy": "ESO116-G012",
+      "a_M": 2183.39,
+      "chi2_dof_baryon": 116.161,
+      "chi2_dof_qng": 84.5715,
+      "M_proxy": 4896.08,
+      "n_points": 15
+    },
+    {
+      "galaxy": "ESO444-G084",
+      "a_M": 1010.09,
+      "chi2_dof_baryon": 121.3126,
+      "chi2_dof_qng": 80.7235,
+      "M_proxy": 554.41,
+      "n_points": 7
+    },
+    {
+      "galaxy": "ESO563-G021",
+      "a_M": -2038.49,
+      "chi2_dof_baryon": 56.8948,
+      "chi2_dof_qng": 56.9746,
+      "M_proxy": 80506.32,
+      "n_points": 30
+    },
+    {
+      "galaxy": "F561-1",
+      "a_M": -142.44,
+      "chi2_dof_baryon": 0.6904,
+      "chi2_dof_qng": 0.717,
+      "M_proxy": 3300.46,
+      "n_points": 6
+    },
+    {
+      "galaxy": "F563-1",
+      "a_M": 1936.69,
+      "chi2_dof_baryon": 12.6411,
+      "chi2_dof_qng": 9.9053,
+      "M_proxy": 1736.0,
+      "n_points": 17
+    },
+    {
+      "galaxy": "F563-V1",
+      "a_M": -4.49,
+      "chi2_dof_baryon": 0.1527,
+      "chi2_dof_qng": 0.1827,
+      "M_proxy": 951.12,
+      "n_points": 6
+    },
+    {
+      "galaxy": "F563-V2",
+      "a_M": 486.95,
+      "chi2_dof_baryon": 8.5991,
+      "chi2_dof_qng": 8.6716,
+      "M_proxy": 3172.99,
+      "n_points": 10
+    },
+    {
+      "galaxy": "F565-V2",
+      "a_M": 2341.27,
+      "chi2_dof_baryon": 18.2851,
+      "chi2_dof_qng": 9.4185,
+      "M_proxy": 1083.89,
+      "n_points": 7
+    },
+    {
+      "galaxy": "F567-2",
+      "a_M": 740.87,
+      "chi2_dof_baryon": 2.6335,
+      "chi2_dof_qng": 0.9614,
+      "M_proxy": 1678.91,
+      "n_points": 5
+    },
+    {
+      "galaxy": "F568-1",
+      "a_M": 1256.78,
+      "chi2_dof_baryon": 15.1412,
+      "chi2_dof_qng": 14.2593,
+      "M_proxy": 4743.71,
+      "n_points": 12
+    },
+    {
+      "galaxy": "F568-3",
+      "a_M": 462.72,
+      "chi2_dof_baryon": 9.5765,
+      "chi2_dof_qng": 8.683,
+      "M_proxy": 3924.45,
+      "n_points": 18
+    },
+    {
+      "galaxy": "F568-V1",
+      "a_M": 6222.57,
+      "chi2_dof_baryon": 16.2341,
+      "chi2_dof_qng": 4.4268,
+      "M_proxy": 2833.89,
+      "n_points": 15
+    },
+    {
+      "galaxy": "F571-8",
+      "a_M": -2061.29,
+      "chi2_dof_baryon": 125.6067,
+      "chi2_dof_qng": 114.9319,
+      "M_proxy": 13127.32,
+      "n_points": 13
+    },
+    {
+      "galaxy": "F571-V1",
+      "a_M": 3161.08,
+      "chi2_dof_baryon": 16.8678,
+      "chi2_dof_qng": 5.7476,
+      "M_proxy": 1892.33,
+      "n_points": 7
+    },
+    {
+      "galaxy": "F574-1",
+      "a_M": 1277.53,
+      "chi2_dof_baryon": 38.87,
+      "chi2_dof_qng": 31.5413,
+      "M_proxy": 3420.24,
+      "n_points": 14
+    },
+    {
+      "galaxy": "F574-2",
+      "a_M": -399.51,
+      "chi2_dof_baryon": 0.9987,
+      "chi2_dof_qng": 0.0405,
+      "M_proxy": 2112.69,
+      "n_points": 5
+    },
+    {
+      "galaxy": "F579-V1",
+      "a_M": 4016.96,
+      "chi2_dof_baryon": 8.7824,
+      "chi2_dof_qng": 3.1085,
+      "M_proxy": 6078.53,
+      "n_points": 14
+    },
+    {
+      "galaxy": "F583-1",
+      "a_M": 787.57,
+      "chi2_dof_baryon": 18.6157,
+      "chi2_dof_qng": 13.9807,
+      "M_proxy": 1863.76,
+      "n_points": 25
+    },
+    {
+      "galaxy": "F583-4",
+      "a_M": 538.98,
+      "chi2_dof_baryon": 11.7148,
+      "chi2_dof_qng": 8.9993,
+      "M_proxy": 1740.07,
+      "n_points": 12
+    },
+    {
+      "galaxy": "IC2574",
+      "a_M": 74.43,
+      "chi2_dof_baryon": 144.2018,
+      "chi2_dof_qng": 137.8689,
+      "M_proxy": 1312.77,
+      "n_points": 34
+    },
+    {
+      "galaxy": "IC4202",
+      "a_M": -13192.03,
+      "chi2_dof_baryon": 195.9179,
+      "chi2_dof_qng": 78.0472,
+      "M_proxy": 60096.59,
+      "n_points": 32
+    },
+    {
+      "galaxy": "KK98-251",
+      "a_M": 64.79,
+      "chi2_dof_baryon": 10.5325,
+      "chi2_dof_qng": 9.1435,
+      "M_proxy": 493.97,
+      "n_points": 15
+    },
+    {
+      "galaxy": "NGC0024",
+      "a_M": 2657.34,
+      "chi2_dof_baryon": 31.0993,
+      "chi2_dof_qng": 19.9986,
+      "M_proxy": 5177.13,
+      "n_points": 29
+    },
+    {
+      "galaxy": "NGC0055",
+      "a_M": 1177.06,
+      "chi2_dof_baryon": 44.144,
+      "chi2_dof_qng": 26.5763,
+      "M_proxy": 3433.63,
+      "n_points": 21
+    },
+    {
+      "galaxy": "NGC0100",
+      "a_M": 420.49,
+      "chi2_dof_baryon": 14.6942,
+      "chi2_dof_qng": 13.8377,
+      "M_proxy": 3177.09,
+      "n_points": 21
+    },
+    {
+      "galaxy": "NGC0247",
+      "a_M": 1698.22,
+      "chi2_dof_baryon": 109.1974,
+      "chi2_dof_qng": 34.9792,
+      "M_proxy": 4292.68,
+      "n_points": 26
+    },
+    {
+      "galaxy": "NGC0289",
+      "a_M": 13413.74,
+      "chi2_dof_baryon": 48.7329,
+      "chi2_dof_qng": 11.5319,
+      "M_proxy": 51329.53,
+      "n_points": 28
+    },
+    {
+      "galaxy": "NGC0300",
+      "a_M": 2873.74,
+      "chi2_dof_baryon": 57.8231,
+      "chi2_dof_qng": 26.5346,
+      "M_proxy": 2744.12,
+      "n_points": 25
+    },
+    {
+      "galaxy": "NGC0801",
+      "a_M": -4147.77,
+      "chi2_dof_baryon": 61.9468,
+      "chi2_dof_qng": 61.1684,
+      "M_proxy": 79322.68,
+      "n_points": 13
+    },
+    {
+      "galaxy": "NGC0891",
+      "a_M": -16791.44,
+      "chi2_dof_baryon": 305.2226,
+      "chi2_dof_qng": 187.7916,
+      "M_proxy": 130895.44,
+      "n_points": 18
+    },
+    {
+      "galaxy": "NGC1003",
+      "a_M": 6402.72,
+      "chi2_dof_baryon": 229.1664,
+      "chi2_dof_qng": 48.2764,
+      "M_proxy": 6673.72,
+      "n_points": 36
+    },
+    {
+      "galaxy": "NGC1090",
+      "a_M": 4162.52,
+      "chi2_dof_baryon": 78.1873,
+      "chi2_dof_qng": 57.8594,
+      "M_proxy": 29572.82,
+      "n_points": 24
+    },
+    {
+      "galaxy": "NGC1705",
+      "a_M": 3745.31,
+      "chi2_dof_baryon": 35.3096,
+      "chi2_dof_qng": 1.5513,
+      "M_proxy": 2207.39,
+      "n_points": 14
+    },
+    {
+      "galaxy": "NGC2366",
+      "a_M": 183.71,
+      "chi2_dof_baryon": 41.8268,
+      "chi2_dof_qng": 38.2537,
+      "M_proxy": 924.89,
+      "n_points": 26
+    },
+    {
+      "galaxy": "NGC2403",
+      "a_M": 5401.41,
+      "chi2_dof_baryon": 1384.9105,
+      "chi2_dof_qng": 577.394,
+      "M_proxy": 11448.14,
+      "n_points": 73
+    },
+    {
+      "galaxy": "NGC2683",
+      "a_M": 2401.89,
+      "chi2_dof_baryon": 10.8179,
+      "chi2_dof_qng": 11.1021,
+      "M_proxy": 57031.86,
+      "n_points": 11
+    },
+    {
+      "galaxy": "NGC2841",
+      "a_M": 46760.14,
+      "chi2_dof_baryon": 252.2957,
+      "chi2_dof_qng": 20.3465,
+      "M_proxy": 84060.13,
+      "n_points": 50
+    },
+    {
+      "galaxy": "NGC2903",
+      "a_M": -4069.92,
+      "chi2_dof_baryon": 358.6497,
+      "chi2_dof_qng": 343.81,
+      "M_proxy": 90574.6,
+      "n_points": 34
+    },
+    {
+      "galaxy": "NGC2915",
+      "a_M": 2296.46,
+      "chi2_dof_baryon": 23.852,
+      "chi2_dof_qng": 17.9738,
+      "M_proxy": 2447.78,
+      "n_points": 30
+    },
+    {
+      "galaxy": "NGC2955",
+      "a_M": -21332.36,
+      "chi2_dof_baryon": 72.8185,
+      "chi2_dof_qng": 27.3468,
+      "M_proxy": 105533.39,
+      "n_points": 24
+    },
+    {
+      "galaxy": "NGC2976",
+      "a_M": -143.19,
+      "chi2_dof_baryon": 1.2711,
+      "chi2_dof_qng": 0.5023,
+      "M_proxy": 7336.25,
+      "n_points": 27
+    },
+    {
+      "galaxy": "NGC2998",
+      "a_M": 14880.18,
+      "chi2_dof_baryon": 121.0787,
+      "chi2_dof_qng": 17.5204,
+      "M_proxy": 49381.28,
+      "n_points": 13
+    },
+    {
+      "galaxy": "NGC3109",
+      "a_M": 167.06,
+      "chi2_dof_baryon": 62.1285,
+      "chi2_dof_qng": 55.2006,
+      "M_proxy": 568.85,
+      "n_points": 25
+    },
+    {
+      "galaxy": "NGC3198",
+      "a_M": 5635.43,
+      "chi2_dof_baryon": 191.5743,
+      "chi2_dof_qng": 111.169,
+      "M_proxy": 20393.52,
+      "n_points": 43
+    },
+    {
+      "galaxy": "NGC3521",
+      "a_M": -19640.9,
+      "chi2_dof_baryon": 37.2716,
+      "chi2_dof_qng": 14.5998,
+      "M_proxy": 80115.33,
+      "n_points": 41
+    },
+    {
+      "galaxy": "NGC3726",
+      "a_M": -4373.67,
+      "chi2_dof_baryon": 22.7834,
+      "chi2_dof_qng": 17.1663,
+      "M_proxy": 33953.99,
+      "n_points": 12
+    },
+    {
+      "galaxy": "NGC3741",
+      "a_M": 645.48,
+      "chi2_dof_baryon": 50.5519,
+      "chi2_dof_qng": 27.4398,
+      "M_proxy": 215.53,
+      "n_points": 21
+    },
+    {
+      "galaxy": "NGC3769",
+      "a_M": 2762.71,
+      "chi2_dof_baryon": 17.7975,
+      "chi2_dof_qng": 15.5838,
+      "M_proxy": 19038.41,
+      "n_points": 12
+    },
+    {
+      "galaxy": "NGC3877",
+      "a_M": -7477.15,
+      "chi2_dof_baryon": 34.2714,
+      "chi2_dof_qng": 9.2383,
+      "M_proxy": 41560.83,
+      "n_points": 13
+    },
+    {
+      "galaxy": "NGC3893",
+      "a_M": -3198.41,
+      "chi2_dof_baryon": 19.6847,
+      "chi2_dof_qng": 20.2326,
+      "M_proxy": 45491.63,
+      "n_points": 10
+    },
+    {
+      "galaxy": "NGC3917",
+      "a_M": 1303.95,
+      "chi2_dof_baryon": 30.1402,
+      "chi2_dof_qng": 26.6782,
+      "M_proxy": 12397.51,
+      "n_points": 17
+    },
+    {
+      "galaxy": "NGC3949",
+      "a_M": -11872.99,
+      "chi2_dof_baryon": 36.7084,
+      "chi2_dof_qng": 3.7106,
+      "M_proxy": 40466.4,
+      "n_points": 7
+    },
+    {
+      "galaxy": "NGC3953",
+      "a_M": -8063.42,
+      "chi2_dof_baryon": 9.4889,
+      "chi2_dof_qng": 0.9004,
+      "M_proxy": 61604.32,
+      "n_points": 8
+    },
+    {
+      "galaxy": "NGC3972",
+      "a_M": 1725.12,
+      "chi2_dof_baryon": 15.0591,
+      "chi2_dof_qng": 11.8532,
+      "M_proxy": 11938.58,
+      "n_points": 10
+    },
+    {
+      "galaxy": "NGC3992",
+      "a_M": 21322.6,
+      "chi2_dof_baryon": 50.6105,
+      "chi2_dof_qng": 5.7102,
+      "M_proxy": 60874.45,
+      "n_points": 9
+    },
+    {
+      "galaxy": "NGC4010",
+      "a_M": 935.06,
+      "chi2_dof_baryon": 11.1099,
+      "chi2_dof_qng": 10.9557,
+      "M_proxy": 10958.09,
+      "n_points": 12
+    },
+    {
+      "galaxy": "NGC4013",
+      "a_M": 4249.3,
+      "chi2_dof_baryon": 47.6673,
+      "chi2_dof_qng": 43.3315,
+      "M_proxy": 51593.55,
+      "n_points": 36
+    },
+    {
+      "galaxy": "NGC4051",
+      "a_M": -8427.8,
+      "chi2_dof_baryon": 18.4595,
+      "chi2_dof_qng": 3.4452,
+      "M_proxy": 39117.91,
+      "n_points": 7
+    },
+    {
+      "galaxy": "NGC4068",
+      "a_M": 12.59,
+      "chi2_dof_baryon": 3.8761,
+      "chi2_dof_qng": 4.6124,
+      "M_proxy": 905.63,
+      "n_points": 6
+    },
+    {
+      "galaxy": "NGC4085",
+      "a_M": -7383.73,
+      "chi2_dof_baryon": 53.818,
+      "chi2_dof_qng": 3.8684,
+      "M_proxy": 24658.04,
+      "n_points": 7
+    },
+    {
+      "galaxy": "NGC4088",
+      "a_M": -15868.71,
+      "chi2_dof_baryon": 74.1859,
+      "chi2_dof_qng": 28.8666,
+      "M_proxy": 70766.6,
+      "n_points": 12
+    },
+    {
+      "galaxy": "NGC4100",
+      "a_M": 6791.88,
+      "chi2_dof_baryon": 18.2771,
+      "chi2_dof_qng": 7.3823,
+      "M_proxy": 43330.58,
+      "n_points": 24
+    },
+    {
+      "galaxy": "NGC4138",
+      "a_M": 2214.7,
+      "chi2_dof_baryon": 4.2414,
+      "chi2_dof_qng": 4.5633,
+      "M_proxy": 53079.29,
+      "n_points": 7
+    },
+    {
+      "galaxy": "NGC4157",
+      "a_M": -5206.26,
+      "chi2_dof_baryon": 24.9681,
+      "chi2_dof_qng": 22.7713,
+      "M_proxy": 64936.69,
+      "n_points": 17
+    },
+    {
+      "galaxy": "NGC4183",
+      "a_M": 4922.45,
+      "chi2_dof_baryon": 24.1664,
+      "chi2_dof_qng": 4.0835,
+      "M_proxy": 7716.04,
+      "n_points": 23
+    },
+    {
+      "galaxy": "NGC4214",
+      "a_M": 3053.14,
+      "chi2_dof_baryon": 14.9202,
+      "chi2_dof_qng": 3.3203,
+      "M_proxy": 3548.64,
+      "n_points": 14
+    },
+    {
+      "galaxy": "NGC4217",
+      "a_M": -19885.17,
+      "chi2_dof_baryon": 177.4262,
+      "chi2_dof_qng": 78.6601,
+      "M_proxy": 79779.74,
+      "n_points": 19
+    },
+    {
+      "galaxy": "NGC4389",
+      "a_M": -8579.81,
+      "chi2_dof_baryon": 203.5494,
+      "chi2_dof_qng": 22.5701,
+      "M_proxy": 23837.05,
+      "n_points": 6
+    },
+    {
+      "galaxy": "NGC4559",
+      "a_M": 2796.46,
+      "chi2_dof_baryon": 19.3421,
+      "chi2_dof_qng": 13.0525,
+      "M_proxy": 13829.53,
+      "n_points": 32
+    },
+    {
+      "galaxy": "NGC5005",
+      "a_M": -35204.8,
+      "chi2_dof_baryon": 18.365,
+      "chi2_dof_qng": 1.4453,
+      "M_proxy": 106548.87,
+      "n_points": 18
+    },
+    {
+      "galaxy": "NGC5033",
+      "a_M": 18226.72,
+      "chi2_dof_baryon": 270.3107,
+      "chi2_dof_qng": 56.8486,
+      "M_proxy": 93411.37,
+      "n_points": 22
+    },
+    {
+      "galaxy": "NGC5055",
+      "a_M": -15149.85,
+      "chi2_dof_baryon": 4459.1528,
+      "chi2_dof_qng": 3101.9885,
+      "M_proxy": 78843.46,
+      "n_points": 28
+    },
+    {
+      "galaxy": "NGC5371",
+      "a_M": -16139.21,
+      "chi2_dof_baryon": 154.5801,
+      "chi2_dof_qng": 52.9361,
+      "M_proxy": 90639.54,
+      "n_points": 19
+    },
+    {
+      "galaxy": "NGC5585",
+      "a_M": 41.07,
+      "chi2_dof_baryon": 112.974,
+      "chi2_dof_qng": 117.7541,
+      "M_proxy": 3628.07,
+      "n_points": 24
+    },
+    {
+      "galaxy": "NGC5907",
+      "a_M": 14466.61,
+      "chi2_dof_baryon": 194.902,
+      "chi2_dof_qng": 40.8057,
+      "M_proxy": 54487.12,
+      "n_points": 19
+    },
+    {
+      "galaxy": "NGC5985",
+      "a_M": 38287.67,
+      "chi2_dof_baryon": 188.4127,
+      "chi2_dof_qng": 4.3562,
+      "M_proxy": 52846.52,
+      "n_points": 33
+    },
+    {
+      "galaxy": "NGC6015",
+      "a_M": 2631.27,
+      "chi2_dof_baryon": 74.7543,
+      "chi2_dof_qng": 55.6713,
+      "M_proxy": 22513.47,
+      "n_points": 44
+    },
+    {
+      "galaxy": "NGC6195",
+      "a_M": -19970.15,
+      "chi2_dof_baryon": 71.752,
+      "chi2_dof_qng": 19.8107,
+      "M_proxy": 88925.69,
+      "n_points": 23
+    },
+    {
+      "galaxy": "NGC6503",
+      "a_M": 7039.53,
+      "chi2_dof_baryon": 543.7692,
+      "chi2_dof_qng": 102.4453,
+      "M_proxy": 20440.65,
+      "n_points": 31
+    },
+    {
+      "galaxy": "NGC6674",
+      "a_M": 32457.83,
+      "chi2_dof_baryon": 682.2407,
+      "chi2_dof_qng": 23.9196,
+      "M_proxy": 60705.45,
+      "n_points": 15
+    },
+    {
+      "galaxy": "NGC6946",
+      "a_M": -7591.94,
+      "chi2_dof_baryon": 105.5887,
+      "chi2_dof_qng": 34.9117,
+      "M_proxy": 54964.53,
+      "n_points": 58
+    },
+    {
+      "galaxy": "NGC7331",
+      "a_M": -9912.06,
+      "chi2_dof_baryon": 226.1826,
+      "chi2_dof_qng": 204.4393,
+      "M_proxy": 147952.94,
+      "n_points": 36
+    },
+    {
+      "galaxy": "NGC7793",
+      "a_M": -387.2,
+      "chi2_dof_baryon": 2.681,
+      "chi2_dof_qng": 2.2636,
+      "M_proxy": 9902.85,
+      "n_points": 46
+    },
+    {
+      "galaxy": "NGC7814",
+      "a_M": 16312.84,
+      "chi2_dof_baryon": 119.1088,
+      "chi2_dof_qng": 34.9004,
+      "M_proxy": 120752.62,
+      "n_points": 18
+    },
+    {
+      "galaxy": "PGC51017",
+      "a_M": -115.29,
+      "chi2_dof_baryon": 3.4682,
+      "chi2_dof_qng": 1.3532,
+      "M_proxy": 556.51,
+      "n_points": 6
+    },
+    {
+      "galaxy": "UGC00128",
+      "a_M": 11881.94,
+      "chi2_dof_baryon": 2460.6492,
+      "chi2_dof_qng": 46.2828,
+      "M_proxy": 4120.98,
+      "n_points": 22
+    },
+    {
+      "galaxy": "UGC00191",
+      "a_M": 2057.29,
+      "chi2_dof_baryon": 334.3597,
+      "chi2_dof_qng": 159.0786,
+      "M_proxy": 2465.51,
+      "n_points": 9
+    },
+    {
+      "galaxy": "UGC00731",
+      "a_M": 2316.51,
+      "chi2_dof_baryon": 86.0604,
+      "chi2_dof_qng": 22.6264,
+      "M_proxy": 1469.45,
+      "n_points": 12
+    },
+    {
+      "galaxy": "UGC00891",
+      "a_M": 2292.28,
+      "chi2_dof_baryon": 804.7561,
+      "chi2_dof_qng": 119.6301,
+      "M_proxy": 885.13,
+      "n_points": 5
+    },
+    {
+      "galaxy": "UGC01230",
+      "a_M": 1692.81,
+      "chi2_dof_baryon": 9.0574,
+      "chi2_dof_qng": 7.6666,
+      "M_proxy": 3724.44,
+      "n_points": 11
+    },
+    {
+      "galaxy": "UGC01281",
+      "a_M": -12.28,
+      "chi2_dof_baryon": 10.1785,
+      "chi2_dof_qng": 10.5441,
+      "M_proxy": 750.94,
+      "n_points": 25
+    },
+    {
+      "galaxy": "UGC02023",
+      "a_M": 21.69,
+      "chi2_dof_baryon": 0.7969,
+      "chi2_dof_qng": 0.9934,
+      "M_proxy": 1715.37,
+      "n_points": 5
+    },
+    {
+      "galaxy": "UGC02259",
+      "a_M": 4765.13,
+      "chi2_dof_baryon": 251.7894,
+      "chi2_dof_qng": 8.7672,
+      "M_proxy": 2145.35,
+      "n_points": 8
+    },
+    {
+      "galaxy": "UGC02455",
+      "a_M": -3151.69,
+      "chi2_dof_baryon": 270.1463,
+      "chi2_dof_qng": 61.7022,
+      "M_proxy": 6203.88,
+      "n_points": 8
+    },
+    {
+      "galaxy": "UGC02487",
+      "a_M": 68251.79,
+      "chi2_dof_baryon": 895.3766,
+      "chi2_dof_qng": 9.4634,
+      "M_proxy": 110397.65,
+      "n_points": 17
+    },
+    {
+      "galaxy": "UGC02885",
+      "a_M": 25243.52,
+      "chi2_dof_baryon": 34.5042,
+      "chi2_dof_qng": 15.6977,
+      "M_proxy": 79589.26,
+      "n_points": 19
+    },
+    {
+      "galaxy": "UGC02916",
+      "a_M": -14713.41,
+      "chi2_dof_baryon": 316.4139,
+      "chi2_dof_qng": 145.8915,
+      "M_proxy": 81968.52,
+      "n_points": 43
+    },
+    {
+      "galaxy": "UGC02953",
+      "a_M": 14359.93,
+      "chi2_dof_baryon": 421.8926,
+      "chi2_dof_qng": 284.4006,
+      "M_proxy": 113847.49,
+      "n_points": 115
+    },
+    {
+      "galaxy": "UGC03205",
+      "a_M": 15630.63,
+      "chi2_dof_baryon": 123.8694,
+      "chi2_dof_qng": 27.0321,
+      "M_proxy": 56454.95,
+      "n_points": 48
+    },
+    {
+      "galaxy": "UGC03546",
+      "a_M": 4252.37,
+      "chi2_dof_baryon": 84.9859,
+      "chi2_dof_qng": 55.1641,
+      "M_proxy": 158383.12,
+      "n_points": 30
+    },
+    {
+      "galaxy": "UGC03580",
+      "a_M": -161.03,
+      "chi2_dof_baryon": 298.9621,
+      "chi2_dof_qng": 305.3178,
+      "M_proxy": 15012.92,
+      "n_points": 47
+    },
+    {
+      "galaxy": "UGC04278",
+      "a_M": 349.73,
+      "chi2_dof_baryon": 18.4142,
+      "chi2_dof_qng": 16.7666,
+      "M_proxy": 2715.57,
+      "n_points": 25
+    },
+    {
+      "galaxy": "UGC04305",
+      "a_M": -64.82,
+      "chi2_dof_baryon": 2.8285,
+      "chi2_dof_qng": 2.3596,
+      "M_proxy": 1595.27,
+      "n_points": 22
+    },
+    {
+      "galaxy": "UGC04325",
+      "a_M": 3523.65,
+      "chi2_dof_baryon": 82.1999,
+      "chi2_dof_qng": 20.387,
+      "M_proxy": 3147.86,
+      "n_points": 8
+    },
+    {
+      "galaxy": "UGC04483",
+      "a_M": 124.78,
+      "chi2_dof_baryon": 14.1359,
+      "chi2_dof_qng": 8.9177,
+      "M_proxy": 204.9,
+      "n_points": 8
+    },
+    {
+      "galaxy": "UGC04499",
+      "a_M": 1586.72,
+      "chi2_dof_baryon": 41.5536,
+      "chi2_dof_qng": 19.8967,
+      "M_proxy": 2138.97,
+      "n_points": 9
+    },
+    {
+      "galaxy": "UGC05005",
+      "a_M": 529.3,
+      "chi2_dof_baryon": 6.1222,
+      "chi2_dof_qng": 6.0782,
+      "M_proxy": 2414.1,
+      "n_points": 11
+    },
+    {
+      "galaxy": "UGC05253",
+      "a_M": -5225.53,
+      "chi2_dof_baryon": 168.3643,
+      "chi2_dof_qng": 156.7719,
+      "M_proxy": 84446.68,
+      "n_points": 73
+    },
+    {
+      "galaxy": "UGC05414",
+      "a_M": 470.58,
+      "chi2_dof_baryon": 19.1884,
+      "chi2_dof_qng": 14.5433,
+      "M_proxy": 1722.65,
+      "n_points": 6
+    },
+    {
+      "galaxy": "UGC05716",
+      "a_M": 3015.47,
+      "chi2_dof_baryon": 1069.6861,
+      "chi2_dof_qng": 67.9499,
+      "M_proxy": 1134.87,
+      "n_points": 12
+    },
+    {
+      "galaxy": "UGC05721",
+      "a_M": 1772.69,
+      "chi2_dof_baryon": 32.891,
+      "chi2_dof_qng": 20.9816,
+      "M_proxy": 2123.9,
+      "n_points": 23
+    },
+    {
+      "galaxy": "UGC05750",
+      "a_M": 14.16,
+      "chi2_dof_baryon": 5.1126,
+      "chi2_dof_qng": 5.5974,
+      "M_proxy": 2253.71,
+      "n_points": 11
+    },
+    {
+      "galaxy": "UGC05764",
+      "a_M": 2010.46,
+      "chi2_dof_baryon": 950.6324,
+      "chi2_dof_qng": 72.3919,
+      "M_proxy": 558.41,
+      "n_points": 10
+    },
+    {
+      "galaxy": "UGC05829",
+      "a_M": 773.91,
+      "chi2_dof_baryon": 10.5038,
+      "chi2_dof_qng": 5.816,
+      "M_proxy": 1606.13,
+      "n_points": 11
+    },
+    {
+      "galaxy": "UGC05918",
+      "a_M": 698.64,
+      "chi2_dof_baryon": 12.1531,
+      "chi2_dof_qng": 4.0073,
+      "M_proxy": 532.2,
+      "n_points": 8
+    },
+    {
+      "galaxy": "UGC05986",
+      "a_M": 2460.75,
+      "chi2_dof_baryon": 112.0524,
+      "chi2_dof_qng": 79.1412,
+      "M_proxy": 5689.88,
+      "n_points": 15
+    },
+    {
+      "galaxy": "UGC05999",
+      "a_M": 3153.8,
+      "chi2_dof_baryon": 33.3349,
+      "chi2_dof_qng": 18.1566,
+      "M_proxy": 3326.55,
+      "n_points": 5
+    },
+    {
+      "galaxy": "UGC06399",
+      "a_M": 2166.85,
+      "chi2_dof_baryon": 25.035,
+      "chi2_dof_qng": 11.8097,
+      "M_proxy": 2448.46,
+      "n_points": 9
+    },
+    {
+      "galaxy": "UGC06446",
+      "a_M": 3552.42,
+      "chi2_dof_baryon": 39.6714,
+      "chi2_dof_qng": 6.862,
+      "M_proxy": 1805.58,
+      "n_points": 17
+    },
+    {
+      "galaxy": "UGC06614",
+      "a_M": -85.89,
+      "chi2_dof_baryon": 12.2379,
+      "chi2_dof_qng": 13.2572,
+      "M_proxy": 63195.89,
+      "n_points": 13
+    },
+    {
+      "galaxy": "UGC06628",
+      "a_M": -493.55,
+      "chi2_dof_baryon": 1.2312,
+      "chi2_dof_qng": 0.7026,
+      "M_proxy": 3169.96,
+      "n_points": 7
+    },
+    {
+      "galaxy": "UGC06667",
+      "a_M": 2909.65,
+      "chi2_dof_baryon": 88.6306,
+      "chi2_dof_qng": 33.3059,
+      "M_proxy": 1174.29,
+      "n_points": 9
+    },
+    {
+      "galaxy": "UGC06786",
+      "a_M": 21189.4,
+      "chi2_dof_baryon": 391.8995,
+      "chi2_dof_qng": 114.3281,
+      "M_proxy": 44354.71,
+      "n_points": 45
+    },
+    {
+      "galaxy": "UGC06787",
+      "a_M": 17912.88,
+      "chi2_dof_baryon": 423.2092,
+      "chi2_dof_qng": 188.6521,
+      "M_proxy": 105998.68,
+      "n_points": 71
+    },
+    {
+      "galaxy": "UGC06818",
+      "a_M": 161.62,
+      "chi2_dof_baryon": 9.1535,
+      "chi2_dof_qng": 10.2735,
+      "M_proxy": 1841.59,
+      "n_points": 8
+    },
+    {
+      "galaxy": "UGC06917",
+      "a_M": 3544.14,
+      "chi2_dof_baryon": 37.8976,
+      "chi2_dof_qng": 13.2865,
+      "M_proxy": 4981.5,
+      "n_points": 11
+    },
+    {
+      "galaxy": "UGC06923",
+      "a_M": 1091.35,
+      "chi2_dof_baryon": 7.8436,
+      "chi2_dof_qng": 6.3232,
+      "M_proxy": 3740.87,
+      "n_points": 6
+    },
+    {
+      "galaxy": "UGC06930",
+      "a_M": 4551.47,
+      "chi2_dof_baryon": 18.3594,
+      "chi2_dof_qng": 3.7528,
+      "M_proxy": 5711.13,
+      "n_points": 10
+    },
+    {
+      "galaxy": "UGC06973",
+      "a_M": -38882.61,
+      "chi2_dof_baryon": 792.8485,
+      "chi2_dof_qng": 336.3265,
+      "M_proxy": 127651.13,
+      "n_points": 9
+    },
+    {
+      "galaxy": "UGC06983",
+      "a_M": 5982.46,
+      "chi2_dof_baryon": 40.7394,
+      "chi2_dof_qng": 6.6797,
+      "M_proxy": 3990.45,
+      "n_points": 17
+    },
+    {
+      "galaxy": "UGC07089",
+      "a_M": 467.82,
+      "chi2_dof_baryon": 4.8195,
+      "chi2_dof_qng": 3.9051,
+      "M_proxy": 2928.76,
+      "n_points": 12
+    },
+    {
+      "galaxy": "UGC07125",
+      "a_M": 1111.63,
+      "chi2_dof_baryon": 27.485,
+      "chi2_dof_qng": 10.3715,
+      "M_proxy": 2503.21,
+      "n_points": 13
+    },
+    {
+      "galaxy": "UGC07151",
+      "a_M": 824.22,
+      "chi2_dof_baryon": 27.6845,
+      "chi2_dof_qng": 17.5953,
+      "M_proxy": 3089.56,
+      "n_points": 11
+    },
+    {
+      "galaxy": "UGC07261",
+      "a_M": 2197.37,
+      "chi2_dof_baryon": 10.5077,
+      "chi2_dof_qng": 1.7301,
+      "M_proxy": 2649.96,
+      "n_points": 7
+    },
+    {
+      "galaxy": "UGC07323",
+      "a_M": 430.73,
+      "chi2_dof_baryon": 5.89,
+      "chi2_dof_qng": 4.9462,
+      "M_proxy": 4557.75,
+      "n_points": 10
+    },
+    {
+      "galaxy": "UGC07399",
+      "a_M": 4569.09,
+      "chi2_dof_baryon": 123.6856,
+      "chi2_dof_qng": 36.0333,
+      "M_proxy": 1706.6,
+      "n_points": 10
+    },
+    {
+      "galaxy": "UGC07524",
+      "a_M": 1102.93,
+      "chi2_dof_baryon": 39.4814,
+      "chi2_dof_qng": 25.2964,
+      "M_proxy": 2688.21,
+      "n_points": 31
+    },
+    {
+      "galaxy": "UGC07559",
+      "a_M": 94.23,
+      "chi2_dof_baryon": 3.2118,
+      "chi2_dof_qng": 2.957,
+      "M_proxy": 509.92,
+      "n_points": 7
+    },
+    {
+      "galaxy": "UGC07577",
+      "a_M": -13.6,
+      "chi2_dof_baryon": 0.3479,
+      "chi2_dof_qng": 0.2966,
+      "M_proxy": 242.18,
+      "n_points": 9
+    },
+    {
+      "galaxy": "UGC07603",
+      "a_M": 1061.23,
+      "chi2_dof_baryon": 44.546,
+      "chi2_dof_qng": 28.1647,
+      "M_proxy": 1219.82,
+      "n_points": 12
+    },
+    {
+      "galaxy": "UGC07608",
+      "a_M": 821.29,
+      "chi2_dof_baryon": 10.4386,
+      "chi2_dof_qng": 7.8313,
+      "M_proxy": 846.16,
+      "n_points": 8
+    },
+    {
+      "galaxy": "UGC07690",
+      "a_M": 1096.28,
+      "chi2_dof_baryon": 6.9325,
+      "chi2_dof_qng": 2.0096,
+      "M_proxy": 2524.39,
+      "n_points": 7
+    },
+    {
+      "galaxy": "UGC07866",
+      "a_M": 208.35,
+      "chi2_dof_baryon": 2.4436,
+      "chi2_dof_qng": 1.1208,
+      "M_proxy": 472.96,
+      "n_points": 7
+    },
+    {
+      "galaxy": "UGC08286",
+      "a_M": 3088.19,
+      "chi2_dof_baryon": 179.3355,
+      "chi2_dof_qng": 59.7162,
+      "M_proxy": 1951.09,
+      "n_points": 17
+    },
+    {
+      "galaxy": "UGC08490",
+      "a_M": 3695.32,
+      "chi2_dof_baryon": 58.2076,
+      "chi2_dof_qng": 10.125,
+      "M_proxy": 2305.58,
+      "n_points": 30
+    },
+    {
+      "galaxy": "UGC08550",
+      "a_M": 1457.19,
+      "chi2_dof_baryon": 80.2289,
+      "chi2_dof_qng": 23.9694,
+      "M_proxy": 940.03,
+      "n_points": 11
+    },
+    {
+      "galaxy": "UGC08699",
+      "a_M": 3027.9,
+      "chi2_dof_baryon": 38.2995,
+      "chi2_dof_qng": 35.5827,
+      "M_proxy": 67089.29,
+      "n_points": 41
+    },
+    {
+      "galaxy": "UGC08837",
+      "a_M": -38.55,
+      "chi2_dof_baryon": 5.9303,
+      "chi2_dof_qng": 6.4385,
+      "M_proxy": 1192.86,
+      "n_points": 8
+    },
+    {
+      "galaxy": "UGC09037",
+      "a_M": -7732.29,
+      "chi2_dof_baryon": 62.6667,
+      "chi2_dof_qng": 30.4791,
+      "M_proxy": 25929.49,
+      "n_points": 22
+    },
+    {
+      "galaxy": "UGC09133",
+      "a_M": 22281.28,
+      "chi2_dof_baryon": 620.7663,
+      "chi2_dof_qng": 267.2512,
+      "M_proxy": 117913.28,
+      "n_points": 68
+    },
+    {
+      "galaxy": "UGC09992",
+      "a_M": 337.5,
+      "chi2_dof_baryon": 0.8857,
+      "chi2_dof_qng": 0.0067,
+      "M_proxy": 815.15,
+      "n_points": 5
+    },
+    {
+      "galaxy": "UGC10310",
+      "a_M": 1789.08,
+      "chi2_dof_baryon": 13.426,
+      "chi2_dof_qng": 3.894,
+      "M_proxy": 2391.12,
+      "n_points": 7
+    },
+    {
+      "galaxy": "UGC11455",
+      "a_M": -6303.77,
+      "chi2_dof_baryon": 52.1665,
+      "chi2_dof_qng": 30.8264,
+      "M_proxy": 107231.93,
+      "n_points": 36
+    },
+    {
+      "galaxy": "UGC11557",
+      "a_M": -627.59,
+      "chi2_dof_baryon": 16.0913,
+      "chi2_dof_qng": 7.7463,
+      "M_proxy": 9340.72,
+      "n_points": 12
+    },
+    {
+      "galaxy": "UGC11820",
+      "a_M": 3038.37,
+      "chi2_dof_baryon": 583.5904,
+      "chi2_dof_qng": 170.341,
+      "M_proxy": 1732.45,
+      "n_points": 10
+    },
+    {
+      "galaxy": "UGC11914",
+      "a_M": -6051.19,
+      "chi2_dof_baryon": 15.2311,
+      "chi2_dof_qng": 9.2024,
+      "M_proxy": 100582.95,
+      "n_points": 65
+    },
+    {
+      "galaxy": "UGC12506",
+      "a_M": 29059.69,
+      "chi2_dof_baryon": 23.7646,
+      "chi2_dof_qng": 0.9965,
+      "M_proxy": 33291.87,
+      "n_points": 31
+    },
+    {
+      "galaxy": "UGC12632",
+      "a_M": 2497.74,
+      "chi2_dof_baryon": 50.0475,
+      "chi2_dof_qng": 8.8456,
+      "M_proxy": 1701.08,
+      "n_points": 15
+    },
+    {
+      "galaxy": "UGC12732",
+      "a_M": 3407.16,
+      "chi2_dof_baryon": 69.3514,
+      "chi2_dof_qng": 21.1658,
+      "M_proxy": 2402.03,
+      "n_points": 16
+    },
+    {
+      "galaxy": "UGCA281",
+      "a_M": 133.57,
+      "chi2_dof_baryon": 11.3847,
+      "chi2_dof_qng": 6.6195,
+      "M_proxy": 397.17,
+      "n_points": 7
+    },
+    {
+      "galaxy": "UGCA442",
+      "a_M": 1116.13,
+      "chi2_dof_baryon": 233.4176,
+      "chi2_dof_qng": 136.4266,
+      "M_proxy": 679.28,
+      "n_points": 8
+    },
+    {
+      "galaxy": "UGCA444",
+      "a_M": 190.09,
+      "chi2_dof_baryon": 6.6824,
+      "chi2_dof_qng": 3.9274,
+      "M_proxy": 276.16,
+      "n_points": 36
+    }
+  ]
+}
