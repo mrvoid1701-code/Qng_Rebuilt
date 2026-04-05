@@ -89,7 +89,7 @@ For a regular graph with coordination number `z` and node spacing `Δu`, the dis
              = (Δu²/z) · [∇²_discrete σ](i)  +  O(Δu⁴)
 ```
 
-where `∇²_discrete` converges to the continuum Laplacian as `Δu → 0` on a sufficiently isotropic graph (Gap 1 of DER-QNG-011 — isotropy assumed under Assumption D2).
+where `∇²_discrete` converges to the continuum Laplacian as `Δu → 0` on a sufficiently isotropic graph (Gap 1 of DER-QNG-011 — isotropy assumed under Assumption D2; see `AX-QNG-004` in `qng-graph-isotropy-assumption-v1.md`).
 
 ### Step 2.5 — Continuum limit (ε₁ → 0)
 

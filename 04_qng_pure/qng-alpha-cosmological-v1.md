@@ -240,11 +240,21 @@ instead follows the standard `1/r` or `1/r * cosh(sqrt(Lambda)*r)`, the identifi
 | Observable cosmological consequence | Yukawa modification at R_Hubble scale |
 | Numerical test of alpha-dependence | QNG-CPU-036 |
 
-**Gap 5 is resolved at the theoretical level.** The long-range gravity problem is
-equivalent to the cosmological constant problem. The substrate relaxation rate `alpha`
-is the QNG representation of `Lambda`. With the physical value `alpha_phys`, the
-screening length is the Hubble radius and Newtonian gravity is recovered on all
-sub-cosmological scales.
+**Gap 5 is reframed — not resolved.** The long-range gravity problem is shown to be
+equivalent to the cosmological constant problem. The identification `alpha ~ Lambda`
+is a consistency condition imposed from outside (requiring `lambda_screen >= R_Hubble`),
+not a prediction derived from QNG substrate dynamics. The substrate relaxation rate
+`alpha` has no QNG-internal argument fixing its value; it is inferred by matching
+`lambda_screen` to the observed Hubble radius.
+
+What this achieves: the screening fine-tuning required for QNG gravity is the *same*
+fine-tuning as for the cosmological constant — not an additional independent problem.
+The fine-tuning count is reduced by one.
+
+What remains open: why `alpha` takes its physical value is not explained by QNG.
+The Gravity Probe A benchmark from `DER-QNG-011` §4 (70 ppm radial constraint) has
+no numerical support and depends entirely on the `alpha <-> Lambda` identification,
+which cannot be numerically tested at `alpha_phys ~ 10^{-124}`.
 
 ---
 

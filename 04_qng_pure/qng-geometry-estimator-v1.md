@@ -78,6 +78,30 @@ not yet:
 
 - final Lorentzian signature recovery
 
+## GRAV-C1 correction (added post DER-QNG-012)
+
+**Forward reference — read before using this estimator for gravitational physics.**
+
+`DER-QNG-012` §6.3 identifies a biharmonic obstruction: using `K_C(i) = -lap_C(i)` as
+the gravitational potential proxy leads to `∇²Ψ ∝ ∇²S_src` (biharmonic), not
+`∇²Ψ ∝ S_src` (Poisson). A uniform mass source would then produce zero potential — wrong.
+
+**Convention GRAV-C1** (canonical from DER-QNG-012 onwards):
+```
+Phi(x) ∝ delta_C(x) = C_eff(x) - C_ref
+```
+The Newtonian gravitational potential is proportional to the coherence *deviation*
+`delta_C`, **not** to the Laplacian of `C_eff`.
+
+The `g_ref` estimator defined in this document (`K_C = max(0, -lap_C)`) remains a
+valid local curvature proxy for geometric visualization purposes, but it is **not**
+the Newtonian potential. Any phenomenology or claim that requires a Newtonian
+potential must use `delta_C` directly via GRAV-C1.
+
+See `DER-QNG-012` §6.3 and `DER-QNG-018` §1 for full derivation.
+
+---
+
 ## Immediate interpretation
 
 In the rebuild, the first geometry claim becomes:

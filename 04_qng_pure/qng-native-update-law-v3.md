@@ -2,7 +2,7 @@
 
 Type: `derivation`
 ID: `DER-QNG-015`
-Status: `draft`
+Status: `locked`
 Author: `C.D Gabriel`
 
 ## Objective
