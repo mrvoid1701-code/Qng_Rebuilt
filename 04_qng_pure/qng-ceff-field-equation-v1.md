@@ -313,7 +313,29 @@ where `α_hist` is determined by the structure of `U_hist`. Its sign — whether
 | I3 | `F_matter` — precise form of matter source mapping `S_src → ρ_eff` | Blocks Step N5 (see DER-QNG-013) |
 | I4 | `ρ₀` — substrate has no intrinsic mass scale; requires CODATA constraint | Blocks Step N7 |
 | I5 | History correction sign `α_hist` — not computed yet | Subleading, non-blocking |
-| I6 | Validity of `Proj ≈ identity` in the weak-field regime | Implicit assumption in Step 2.3 |
+| I6 | Validity of `Proj ≈ identity` in the weak-field regime | Implicit assumption in Step 2.3; see bound below |
+
+**I6 bound (added post QNG-CPU-035 results):**
+
+`Proj` clips sigma to [0, 1]. It acts as identity when the pre-projection value lies strictly
+in the interior of [0, 1]. The approximation fails near the boundary (sigma ~= 0 or sigma ~= 1).
+
+From QNG-CPU-035 equilibrium profiles: the source node has delta_C ~= -0.45 with sigma_ref = 0.5,
+placing sigma_source ~= 0.05 near the lower boundary. At the source, `Proj` is active and
+the linearization is strained. However:
+
+- Nodes at r > 0 have |delta_C(r)| << 0.45 (exponential decay). For r >= 2, |delta_C| < 0.05,
+  keeping sigma well within [0.1, 0.9] — Proj is approximately identity to better than 5%.
+
+- The Poisson equation and screening length are properties of the far-field solution, not the
+  source region. The Green's function fit (r in [3, 50] in QNG-CPU-036) avoids the source region.
+
+**Conclusion:** Proj ~= identity holds for the far-field sigma profile on which the Poisson
+equation and G_QNG are derived. The source node (r=0) is in a non-linear regime, but this
+enters only through the source amplitude A in phi(r) ~ A*exp(-r/lambda)/r — it does not
+affect the screening length lambda or the functional form. The linearized derivation is valid
+in the weak-field region r >= few * Delta_u. The source amplitude A must be treated non-linearly
+for quantitative source matching (open — part of the matter sector, Issue I3).
 
 ---
 

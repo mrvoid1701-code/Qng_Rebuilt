@@ -63,6 +63,52 @@ So ∇²Φ_Newton > 0 at source ✓ — consistent with Newtonian sign conventio
 
 ---
 
+## Section 1a: GRAV-C2 Justification
+
+**Is a·a_sigma = 2π a physical constraint or a free normalization?**
+
+Let k = a·a_sigma be a free positive constant. The potential proxy is:
+```
+Phi_Newton = (k/2) * (1/D_diff0) * delta_C
+```
+and G_QNG is defined by the Poisson equation requirement:
+```
+G_QNG = (k / 2pi) * D_diff0
+```
+
+The source term S_src is derived from the C_eff field equation and does **not** depend on k
+(see Section 2 below). Therefore:
+```
+nabla^2 delta_C = S_src / D_diff0 = 4 * D_diff0^2 * rho_0 * M_eff
+
+nabla^2 Phi_Newton = (k / 2D_diff0) * nabla^2 delta_C
+                   = (k / 2D_diff0) * 4 * D_diff0^2 * rho_0 * M_eff
+                   = 2k * D_diff0 * rho_0 * M_eff
+
+4pi * G_QNG * rho_eff = 4pi * (k/2pi) * D_diff0 * rho_0 * M_eff
+                      = 2k * D_diff0 * rho_0 * M_eff   [checkmark]
+```
+
+**Conclusion:** k cancels exactly from the Poisson equation. The product a·a_sigma is a
+normalization convention for the ratio Phi_Newton / delta_C. All physical predictions
+(orbital periods, light deflection, gravitational redshift) depend on G_QNG * M_eff, and
+M_eff is fixed by baryon density matching — which absorbs any change in G_QNG caused by
+changing k.
+
+**Why k = 2pi is the natural choice:**
+
+With k = 2pi: G_QNG = D_diff0 = beta/z. This is the most compact substrate formula —
+Newton's constant equals the diffusion coefficient, with no extra numerical factors.
+Any other k gives G_QNG = (k/2pi) * (beta/z), introducing a pure numerical prefactor
+with no substrate interpretation.
+
+GRAV-C2 (a·a_sigma = 2pi) is therefore a **normalization convention**, not a derived
+physical result. It is analogous to the choice of whether to write the Poisson equation
+as nabla^2 Phi = 4piG*rho or nabla^2 Phi = G*rho (the latter absorbs the 4pi into G).
+Physical predictions are identical under any choice of k > 0.
+
+---
+
 ## Section 2: S_src Correction (DER-QNG-012 Inconsistency)
 
 **Bug in DER-QNG-012 §6.2:** The formula
