@@ -1,0 +1,36 @@
+{
+  "test_id": "QNG-CPU-038",
+  "decision": "pass",
+  "parameters": {
+    "n": 200,
+    "warmup_steps": 4000,
+    "collect_steps": 1000,
+    "alpha": 0.005,
+    "beta": 0.35,
+    "z": 2,
+    "sigma_ref": 0.5
+  },
+  "predictions": {
+    "eta_ring": 0.02436631,
+    "var_pred": 0.005,
+    "fdt_formula": "eta_ring = sqrt(2*alpha*sqrt(alpha*(alpha+2*beta)))",
+    "fdt_identity": "eta_ring^2 / (2*sqrt(alpha*(alpha+2*beta))) = alpha"
+  },
+  "measured_variances": {
+    "eta0": 0.0,
+    "eta_ring": 0.00479745,
+    "eta_2ring": 0.02045765
+  },
+  "ratios": {
+    "var_ring_ratio": 0.9595,
+    "var_2ring_ratio": 1.0229,
+    "fdt_algebraic_lhs": 0.005
+  },
+  "checks": {
+    "det_var_zero_pass": true,
+    "fdt_ring_variance_match_pass": true,
+    "eta_squared_scaling_pass": true,
+    "ring_fdt_identity_pass": true
+  },
+  "interpretation": "PASS: equilibrium sigma variance on 1D ring matches ring FDT prediction. eta = sqrt(2*alpha*sqrt(alpha*(alpha+2*beta))) is the derived noise amplitude. Noise is emergent from relaxation and relational coupling \u2014 not a free parameter."
+}
