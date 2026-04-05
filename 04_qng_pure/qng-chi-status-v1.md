@@ -5,6 +5,18 @@ ID: `NOTE-QNG-007`
 Status: `draft`
 Author: `C.D Gabriel`
 
+## Labeling requirement
+
+**Any file that uses `chi` or `χ` must specify which label applies:**
+
+- `chi_native` — native memory/load variable (substrate-level primitive candidate)
+- `chi_effective` — coarse-grained effective field
+- `chi_phenomenological` — observationally inferred proxy
+
+Use without a label = unresolved. Files using unlabeled `chi` must be flagged as containing unresolved symbol status.
+
+---
+
 ## Objective
 
 Fix the status of `chi` in the rebuilt theory.

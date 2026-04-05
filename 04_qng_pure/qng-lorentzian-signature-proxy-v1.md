@@ -86,3 +86,13 @@ This proxy still does not answer:
 - whether exact Lorentz symmetry emerges
 
 So this is a signature proxy, not a final Lorentzian recovery theorem.
+
+## Open structural gaps (reviewer annotation)
+
+The following structural gaps are explicitly unresolved and must be stated when citing this file in any paper or chain:
+
+**Gap 1 — Dimensional mismatch:** `g_sig(i) = diag(-T_sig(i), g_11(i))` is a 2×2 object. A physical Lorentzian metric requires a 4×4 object with one timelike and three spacelike directions. The step from 2×2 to 4×4 is not addressed here.
+
+**Gap 2 — Spatial isotropy not addressed:** In a 3+1D spacetime, the three spatial directions must be isotropic (at least in the weak-field, low-anisotropy regime). On a discrete node graph, isotropy is non-trivial and not guaranteed by construction. This proxy does not address spatial isotropy.
+
+**Gap 3 — Inherited proxy status:** The GR-facing ladder reads: `C_eff → geometry proxy → Lorentzian signature proxy → weak-field assembly → linearized curvature proxy`. The weak-field assembly and linearized curvature proxy are built *on top of* this signature proxy, not derived independently of it. The entire right half of the GR recovery ladder inherits the unresolved status of this proxy. The ladder is a proxy chain, not a derivation chain. No rung above this file should be cited as a derivational result without acknowledging this dependency.

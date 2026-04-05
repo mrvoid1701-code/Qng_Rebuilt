@@ -5,6 +5,18 @@ ID: `NOTE-QNG-006`
 Status: `draft`
 Author: `C.D Gabriel`
 
+## Labeling requirement
+
+**Any file that uses `Sigma` or `Σ` must specify which label applies:**
+
+- `Sigma_ontic` — native substrate variable (primitive candidate)
+- `Sigma_effective` — coarse-grained effective coherence field
+- `Sigma_phenomenological` — observationally inferred or fit proxy
+
+Use without a label = unresolved. Files using unlabeled `Sigma` must be flagged as containing unresolved symbol status.
+
+---
+
 ## Objective
 
 Fix the status of `Sigma` in the rebuilt theory.

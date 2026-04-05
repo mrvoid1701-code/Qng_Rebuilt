@@ -71,6 +71,8 @@ for the history-enabled case, corresponding to an improvement of
 
 `ratio_improvement_history = 0.26335456560221693`
 
+> **Fit ratio definition:** Each ratio measures the mean absolute residual of a linear regression predicting `R_lin` (the linearized curvature proxy) from a set of source-side channels, normalized so that the geometry-only baseline has ratio 1.0. **A lower ratio means a better fit** — the source channels explain more of the curvature structure. The geometry-only ratio `0.71` is the normalized residual using only the geometry-side baseline `K_C`. The source-augmented ratio `0.45` is the normalized residual when the bridge source channel `Q_src` is added alongside `K_C`. The improvement `0.26 = 0.71 − 0.45` measures how much more of the curvature structure is explained when the source channel is included. A positive improvement value confirms the source-augmented model is the better fit.
+
 This means the rebuilt bridge is not functioning only as a conceptual coexistence layer. The source-side sector already improves the response-side description in a controlled and numerically visible way. That is still not a final closure theorem, but it is stronger than a purely parallel proxy architecture.
 
 ### 6. Downstream phenomenology results
@@ -84,6 +86,8 @@ The rebuilt program now supports downstream phenomenology across five branches:
 - cosmology
 
 The key result here is architectural as much as phenomenological. These branches now descend from the same rebuilt core rather than being allowed to back-define the ontology. In manuscript terms, this means the phenomenology section can be presented as a derived consequence layer rather than as a substitute for foundational structure.
+
+> **Scope of the phenomenology layer:** These five proxy branches demonstrate that the rebuilt effective layer can generate objects with the correct functional form for each observable class (trajectory lags, lensing deflection, rotation support, timing delay, expansion rate). They are **structural demonstrations of descent from the core, not quantitative predictions for real astrophysical systems.** Effective quantitative predictions — including fits to observed rotation curves, lensing surveys, timing residuals, or cosmological data — require matter sector closure. Until `M_eff` has a grounded connection to physical mass-energy with dimensional analysis and a controlled limiting case recovering Newtonian gravity, the phenomenology layer remains formally disconnected from observational astrophysics.
 
 ### 7. Comparative recovery result
 

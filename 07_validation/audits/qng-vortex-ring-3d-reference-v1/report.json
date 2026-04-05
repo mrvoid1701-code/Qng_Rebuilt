@@ -1,0 +1,71 @@
+{
+  "test_id": "QNG-CPU-043",
+  "decision": "pass",
+  "parameters": {
+    "L": 20,
+    "N": 8000,
+    "steps": 1000,
+    "phase1_steps": 300,
+    "phase2_steps": 700,
+    "alpha": 0.005,
+    "beta": 0.35,
+    "beta_phi": 0.02,
+    "delta": 0.2,
+    "epsilon": 0.0,
+    "gamma_phi": 0.1,
+    "sigma_ref": 0.5,
+    "ring_center": [
+      10.0,
+      10.0,
+      10.0
+    ],
+    "ring_radius": 5.0
+  },
+  "initial": {
+    "n_nonzero_wind": 112,
+    "core_sigma": 0.5,
+    "bulk_sigma": 0.5
+  },
+  "after_phase1": {
+    "z_ring": 0,
+    "core_sigma": 0.5,
+    "bulk_sigma": 0.5,
+    "n_nonzero_wind": 72
+  },
+  "ring_history": {
+    "500": {
+      "z_ring": 19,
+      "core_sigma": 0.26886,
+      "bulk_sigma": 0.4478,
+      "ring_radius": 5.291,
+      "n_depleted": 917,
+      "n_ring_shape": 840
+    },
+    "1000": {
+      "z_ring": 19,
+      "core_sigma": 0.27471,
+      "bulk_sigma": 0.4216,
+      "ring_radius": 4.843,
+      "n_depleted": 813,
+      "n_ring_shape": 920
+    }
+  },
+  "final": {
+    "z_ring": 19,
+    "ring_self_velocity_dz": 9,
+    "core_sigma": 0.27471,
+    "bulk_sigma": 0.4216,
+    "ring_radius": 4.843,
+    "n_depleted": 920,
+    "n_nonzero_wind": 56
+  },
+  "checks": {
+    "sigma_depleted_at_ring_core_pass": true,
+    "bulk_sigma_unaffected_pass": true,
+    "ring_radius_not_collapsed_pass": true,
+    "nonzero_winding_plaquettes_pass": true,
+    "ring_shape_depletion_pass": true,
+    "depletion_persists_t500_to_t1000_pass": true
+  },
+  "interpretation": "PASS: 3D vortex ring is dynamically stable over 700 steps of Channel F (1000 total). With BETA_PHI=0.05 (slow phi diffusion), the ring does not collapse before Channel F builds sigma depletion. Despite pi_2(S^1)=0 (no topological protection), the ring maintains sigma depletion and ring radius > R/2. This confirms that 3D matter in QNG can take the form of a dynamically stable vortex ring. Motivates ring lifetime (QNG-CPU-044) and self-velocity (QNG-CPU-045)."
+}

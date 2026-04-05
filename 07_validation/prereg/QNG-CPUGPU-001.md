@@ -4,6 +4,7 @@ Type: `test`
 ID: `QNG-CPUGPU-001`
 Status: `draft`
 Author: `C.D Gabriel`
+test_class: `internal_consistency`
 
 ## Objective
 

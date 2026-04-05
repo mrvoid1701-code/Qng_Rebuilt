@@ -4,6 +4,7 @@ Type: `test`
 ID: `QNG-CPU-026`
 Status: `draft`
 Author: `C.D Gabriel`
+test_class: `structural_prediction`
 
 ## Objective
 

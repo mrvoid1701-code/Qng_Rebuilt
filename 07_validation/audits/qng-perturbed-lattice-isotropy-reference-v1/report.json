@@ -1,0 +1,55 @@
+{
+  "test_id": "QNG-CPU-039",
+  "decision": "pass",
+  "parameters": {
+    "n": 20,
+    "n_nodes": 8000,
+    "perturb": 0.3,
+    "eq_steps": 3000,
+    "alpha": 0.005,
+    "beta": 0.35,
+    "z": 6,
+    "delta": 0.2,
+    "sigma_ref": 0.5,
+    "sigma_source": 0.05
+  },
+  "predictions": {
+    "lambda_pred": 3.4157,
+    "smc_target_diagonal": 2.0
+  },
+  "second_moment_condition": {
+    "mean_per_node_frob_dev": 1.3482,
+    "max_per_node_frob_dev": 2.926,
+    "mean_diagonal_Txx": 2.0061,
+    "mean_diagonal_Tyy": 2.005,
+    "mean_diagonal_Tzz": 1.9889,
+    "mean_offdiag_Txy": -0.0066,
+    "mean_offdiag_Txz": 0.0037,
+    "mean_offdiag_Tyz": -0.0049,
+    "max_offdiag": 0.0066,
+    "target_diagonal": 2.0
+  },
+  "spherical_fit": {
+    "lambda_sphere": 3.2317,
+    "r2_sphere": 0.9977,
+    "sphere_ratio": 0.9461
+  },
+  "octant_isotropy": {
+    "octant_lambdas": [
+      3.4908,
+      3.818,
+      3.5532,
+      2.8149
+    ],
+    "oct_iso_ratio": 1.3564
+  },
+  "checks": {
+    "yukawa_r2_pass": true,
+    "lambda_sphere_vs_pred_pass": true,
+    "delta_c_negative_pass": true,
+    "octant_isotropy_pass": true,
+    "smc_offdiag_mean_pass": true,
+    "smc_diagonal_mean_pass": true
+  },
+  "interpretation": "PASS: D2 holds approximately on perturbed cubic lattice. SMC: mean off-diagonals \u2248 0 and mean diagonals \u2248 z/3 (statistical isotropy). Yukawa profile remains isotropic within tolerance. Gap 1 closed for statistically isotropic graphs (DER-QNG-024)."
+}

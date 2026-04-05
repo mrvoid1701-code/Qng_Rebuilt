@@ -4,6 +4,7 @@ Type: `test`
 ID: `QNG-CPU-002`
 Status: `draft`
 Author: `C.D Gabriel`
+test_class: `internal_consistency`
 
 ## Objective
 

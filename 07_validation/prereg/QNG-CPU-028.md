@@ -3,6 +3,7 @@
 Type: `prereg`
 Status: `locked`
 Author: `C.D Gabriel`
+test_class: `structural_prediction`
 
 ## Title
 

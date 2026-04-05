@@ -46,6 +46,8 @@ Define the local matter-like proxy:
 
 with fixed positive `alpha, gamma`.
 
+> **Annotation (reviewer flag):** `clip01` is a computational boundedness guard — it clamps the result to [0, 1] as a numerical convenience. It has no stated physical origin and is not a physically motivated regularization. Future versions must replace `clip01` with either: (a) a sigmoid function with a physically interpretable scale, or (b) a boundedness argument derived from the substrate dynamics. Until replaced, `M_eff` is dimensionless and does not carry mass units or mass scaling.
+
 ## Interpretation
 
 This proxy increases when:

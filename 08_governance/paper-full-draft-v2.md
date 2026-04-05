@@ -121,6 +121,8 @@ corresponding to an improvement of
 
 `0.26335456560221693`
 
+> **Fit ratio definition:** Each ratio measures the mean absolute residual of a linear regression predicting `R_lin` (the linearized curvature proxy) from a set of source-side channels, normalized so that the geometry-only baseline has ratio 1.0. **A lower ratio means a better fit.** The geometry-only ratio `0.71` is the normalized residual using only `K_C`. The source-augmented ratio `0.45` is the normalized residual when `Q_src` is added alongside `K_C`. The improvement `0.26 = 0.71 − 0.45` confirms the source-augmented model is the better fit.
+
 This shows that the bridge is no longer only conceptual coexistence between sectors.
 
 Downstream phenomenology is now supported across five branches:
@@ -132,6 +134,8 @@ Downstream phenomenology is now supported across five branches:
 - cosmology
 
 These branches are derived from the rebuilt core rather than allowed to define it.
+
+> **Scope of the phenomenology layer:** These five proxy branches demonstrate structural descent from the core — they show that the effective layer can generate objects with the correct functional form for each observable class. They are **not quantitative predictions for real astrophysical systems.** Effective quantitative predictions require matter sector closure: until `M_eff` has a grounded connection to physical mass-energy with dimensional analysis and a controlled Newtonian limit, the phenomenology layer is formally disconnected from observational astrophysics.
 
 Suggested figure insertions:
 

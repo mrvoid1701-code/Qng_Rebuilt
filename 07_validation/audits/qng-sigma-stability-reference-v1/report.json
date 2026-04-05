@@ -1,0 +1,42 @@
+{
+  "test_id": "QNG-CPU-040",
+  "decision": "pass",
+  "parameters": {
+    "n": 200,
+    "steps": 3000,
+    "alpha": 0.005,
+    "beta": 0.35,
+    "delta": 0.2,
+    "chi_decay": 0.005,
+    "sigma_ref": 0.5,
+    "sigma_0": 0.1,
+    "center_nodes": [
+      98,
+      99,
+      100
+    ]
+  },
+  "theoretical_prediction": {
+    "decay_timescale": 200.0,
+    "value_at_T3000": 1.2e-07
+  },
+  "with_chi": {
+    "alpha_fit_integral": 0.005013,
+    "ratio_vs_alpha": 1.0025,
+    "final_center_dc": 0.0,
+    "final_integral_dc": 3.5e-07
+  },
+  "without_chi": {
+    "alpha_fit_integral": 0.005013,
+    "final_center_dc": 0.0,
+    "ratio_chi_vs_nochi": 1.0
+  },
+  "note": "integral = sum|delta_C| decays as exp(-alpha*t) exactly on closed ring; beta term sums to zero",
+  "checks": {
+    "deficit_decays_to_zero_pass": true,
+    "decay_rate_matches_alpha_pass": true,
+    "total_integral_dissipates_pass": true,
+    "chi_does_not_affect_sigma_decay_pass": true
+  },
+  "interpretation": "PASS: sigma channel is purely dissipative. Localized coherence deficit decays at rate ~alpha with or without chi coupling. Chi does not feed back into sigma (v3 update law confirmed). Stable matter cannot arise from sigma dynamics alone -- requires topological protection via phi winding (DER-QNG-025). This motivates QNG-CPU-041: phi vortex stability test."
+}

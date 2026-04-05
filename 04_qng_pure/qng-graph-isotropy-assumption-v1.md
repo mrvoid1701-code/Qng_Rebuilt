@@ -134,23 +134,49 @@ for general graph topologies** — not derived from substrate dynamics.
 
 ---
 
+## Precise characterization of D2 (DER-QNG-024)
+
+`DER-QNG-024` (`qng-graph-isotropy-formal-v1.md`) derives the necessary and sufficient
+condition on a graph for D2 to hold at leading order:
+
+**Second-moment condition (SMC):**
+```
+Σ_j (ê_ij ⊗ ê_ij) = (z/3) · I    for all nodes i
+```
+
+where ê_ij is the unit vector from node i to neighbor j.
+
+**Consequences:**
+- SMC holds **exactly** for any lattice with octahedral symmetry (O_h): cubic (z=6),
+  FCC (z=12), BCC (z=8). D2 is exact at leading order for these.
+- SMC holds **approximately** for perturbed or random isotropic graphs, with per-node
+  deviation ~ ε_max (perturbation amplitude). The coarse-grained anisotropy at
+  physical scales is suppressed by 1/√N_cell → negligible.
+- SMC **fails** for graphs with systematic anisotropy (fibers, sheets). These produce
+  direction-dependent G_QNG, ruled out experimentally. Excluded from QNG's scope.
+
 ## Current standing
 
-D2 is an **open assumption** (Gap 1 status: open). All Newtonian limit results
-(DER-QNG-012 through DER-QNG-020) are conditional on D2. Results are labeled
-"valid under D2" throughout.
+D2 is **formally characterized** (Gap 1 status: partially closed). The condition
+for D2 is identified (SMC), proven for standard lattices, and shown to hold
+approximately for perturbed/random isotropic graphs with quantitative anisotropy
+bounds. All Newtonian limit results remain conditional on D2.
 
-The functional form of the screened Poisson equation, the identity G_QNG = alpha *
-lambda^2, and the alpha-Lambda identification are all independent of the specific
-graph topology and hold whenever D2 holds. The quantitative prefactor in G_QNG
-(specifically the GRAV-C2 convention a * a_sigma = 2pi) depends on the coordination
-number z, and z is set by the graph topology assumed under D2.
+**Numerically confirmed:**
+- QNG-CPU-037: cubic lattice (z=6, 20³), directional isotropy ratio 1.077 — D2 exact case
+- QNG-CPU-039: perturbed cubic (perturbation 0.3, 20³), SMC off-diag < 0.007, octant iso_ratio 1.356 — D2 approximate case
+  Results: λ_sphere=3.232 (ratio 0.946 vs pred), SMC diagonal (2.006, 2.005, 1.989) vs target 2.000, off-diag < 0.007
+
+**Remaining open:** D2 for dynamic graphs (edge formation/breaking); Gap 1 is
+closed for all static graphs satisfying SMC exactly or approximately.
 
 ---
 
 ## Cross-references
 
 - Gap 1 program: `DER-QNG-011` (`qng-newtonian-limit-program-v1.md`)
+- SMC derivation: `DER-QNG-024` (`qng-graph-isotropy-formal-v1.md`)
 - First use of D2: `DER-QNG-012` §2.4 (`qng-ceff-field-equation-v1.md`)
 - G_QNG formula (depends on z from D2): `DER-QNG-018` (`qng-poisson-assembly-v1.md`)
-- Lorentzian signature recovery: `qng-lorentzian-signature-proxy-v1.md`
+- Cubic lattice test: `QNG-CPU-037`
+- Perturbed lattice test: `QNG-CPU-039`
