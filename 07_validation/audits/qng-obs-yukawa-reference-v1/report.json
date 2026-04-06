@@ -1,0 +1,23 @@
+{
+  "test_id": "QNG-OBS-004",
+  "decision": "fail",
+  "best_lambda_kpc": 10000.0,
+  "best_A_kms2": 376.9844,
+  "chi2_baryon_total": 773974.24,
+  "chi2_yukawa_total": 745878.79,
+  "median_chi2_dof_baryon": 38.87,
+  "median_chi2_dof_yukawa": 38.1641,
+  "improvement_ratio": 1.0185,
+  "mond_ratio_reference": 1.702,
+  "fraction_improved": 0.6374,
+  "n_points": 3375,
+  "n_galaxies": 171,
+  "lambda_scan_n": 200,
+  "checks": {
+    "yukawa_lt_baryon_pass": true,
+    "ratio_gt_mond_pass": false,
+    "lambda_in_galactic_range_pass": false,
+    "A_opt_positive_pass": true,
+    "aic_yukawa_lt_mond_info": false
+  }
+}
