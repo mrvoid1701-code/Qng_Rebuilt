@@ -273,7 +273,7 @@ def main() -> int:
     print()
     print("Checks:")
     print(f"  Check 1 (rings detectable):              PASS")
-    print(f"  Check 2 (monotonic decay, ≤1 violation): violations={violations}  {'PASS' if check2 else 'FAIL'}")
+    print(f"  Check 2 (monotonic decay, <=1 violation): violations={violations}  {'PASS' if check2 else 'FAIL'}")
     print(f"  Check 3 (lambda_fit vs theory):          lambda_fit={lambda_fit}  {'PASS' if check3_pass else 'FAIL'}")
     print(f"  Check 4 (reproducibility d=12):          score={scores[-1]:.3f} vs cpu049={cpu049_score}  {'PASS' if check4 else 'FAIL'}")
     print(f"\nqng_ring_force_separation_reference: {'PASS' if decision else 'FAIL'}")
