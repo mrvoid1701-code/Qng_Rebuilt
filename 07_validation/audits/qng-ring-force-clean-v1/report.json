@@ -1,0 +1,49 @@
+{
+  "test_id": "QNG-CPU-053",
+  "decision": "fail",
+  "parameters": {
+    "L": 24,
+    "N": 13824,
+    "ring_r": 4.0,
+    "epsilon": 0.005,
+    "chirality": "opposite_W+W-",
+    "n_trials": 3,
+    "phase2_steps": 6000
+  },
+  "separation_results": {
+    "8": {
+      "d": 8,
+      "scores": [
+        0.24583333333333357,
+        0.24583333333333357,
+        0.24583333333333357
+      ],
+      "median_score": 0.246
+    },
+    "10": {
+      "d": 10,
+      "scores": [
+        -2.3583333333333334,
+        -2.3583333333333334,
+        -2.3583333333333334
+      ],
+      "median_score": -2.358
+    },
+    "12": {
+      "d": 12,
+      "scores": [
+        -0.5291666666666668,
+        -0.5291666666666668,
+        -0.5291666666666668
+      ],
+      "median_score": -0.529
+    }
+  },
+  "single_ring_drift_amplitude": 4.471,
+  "checks": {
+    "rings_survive_pass": true,
+    "median_d10_positive_pass": false,
+    "force_gt_drift_pass": false,
+    "monotonic_info": false
+  }
+}

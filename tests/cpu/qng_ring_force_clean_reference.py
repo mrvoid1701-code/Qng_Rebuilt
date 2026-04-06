@@ -215,7 +215,7 @@ def main() -> int:
     args = parser.parse_args()
     out_dir = Path(args.out_dir); out_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"L={L}  eps={EPSILON}  chirality=W+W-  trials={N_TRIALS}  Phase2={PHASE2_STEPS}")
+    print(f"L={L}  eps={EPSILON}  chirality=W+W-  trials={N_TRIALS}  Phase2={PHASE2_STEPS}", flush=True)
     print()
 
     all_results = {}
@@ -224,7 +224,7 @@ def main() -> int:
     for d, r1_z, r2_z in SEPARATIONS:
         scores = []
         trials = []
-        print(f"=== d={d} (r1_z={r1_z}, r2_z={r2_z}) ===")
+        print(f"=== d={d} (r1_z={r1_z}, r2_z={r2_z}) ===", flush=True)
         for trial in range(1, N_TRIALS + 1):
             label = f"d{d}_t{trial}"
             phi0 = init_phi_two_rings(r1_z, r2_z, RING_R)
@@ -232,11 +232,11 @@ def main() -> int:
             sc = attraction_score(res["trajectory"])
             scores.append(sc)
             trials.append(res)
-            print(f"  Trial {trial}: score={sc:.3f}  sep_final={res['sep_final']}")
+            print(f"  Trial {trial}: score={sc:.3f}  sep_final={res['sep_final']}", flush=True)
         med = _median(scores)
         all_results[d] = {"d": d, "scores": scores, "median_score": round(med, 3),
                           "trials": trials}
-        print(f"  Median score: {med:.3f}")
+        print(f"  Median score: {med:.3f}", flush=True)
         print()
 
     # --- Single-ring drift reference ---
