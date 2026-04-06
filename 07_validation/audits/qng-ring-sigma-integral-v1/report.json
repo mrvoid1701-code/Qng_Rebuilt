@@ -1,0 +1,175 @@
+{
+  "test_id": "QNG-CPU-051",
+  "decision": "fail",
+  "parameters": {
+    "L": 24,
+    "N": 13824,
+    "ring_z": 12,
+    "alpha": 0.005,
+    "beta": 0.35,
+    "gamma_phi": 0.1,
+    "A_VORTEX": 0.225
+  },
+  "ring_results": {
+    "2": {
+      "M_ring_mean": 36.739,
+      "M_ring_cv": 0.3194,
+      "sigma_core": 0.4648,
+      "sigma_bulk": 0.47,
+      "snapshots": [
+        {
+          "M_ring": 661.5052,
+          "M_ring_shell": 54.3826,
+          "sigma_core": 0.4057,
+          "sigma_bulk": 0.4311,
+          "n_core": 132,
+          "n_bulk": 527,
+          "t": 500
+        },
+        {
+          "M_ring": 505.812,
+          "M_ring_shell": 39.5219,
+          "sigma_core": 0.437,
+          "sigma_bulk": 0.4491,
+          "n_core": 132,
+          "n_bulk": 527,
+          "t": 1000
+        },
+        {
+          "M_ring": 383.7609,
+          "M_ring_shell": 29.9307,
+          "sigma_core": 0.4537,
+          "sigma_bulk": 0.4613,
+          "n_core": 132,
+          "n_bulk": 527,
+          "t": 1500
+        },
+        {
+          "M_ring": 296.7974,
+          "M_ring_shell": 23.1206,
+          "sigma_core": 0.4648,
+          "sigma_bulk": 0.47,
+          "n_core": 132,
+          "n_bulk": 527,
+          "t": 2000
+        }
+      ]
+    },
+    "4": {
+      "M_ring_mean": 132.7784,
+      "M_ring_cv": 0.3406,
+      "sigma_core": 0.4326,
+      "sigma_bulk": 0.4453,
+      "snapshots": [
+        {
+          "M_ring": 1108.1659,
+          "M_ring_shell": 191.607,
+          "sigma_core": 0.2876,
+          "sigma_bulk": 0.3672,
+          "n_core": 256,
+          "n_bulk": 936,
+          "t": 500
+        },
+        {
+          "M_ring": 926.6608,
+          "M_ring_shell": 158.3993,
+          "sigma_core": 0.3383,
+          "sigma_bulk": 0.3869,
+          "n_core": 256,
+          "n_bulk": 936,
+          "t": 1000
+        },
+        {
+          "M_ring": 684.4842,
+          "M_ring_shell": 106.3393,
+          "sigma_core": 0.3999,
+          "sigma_bulk": 0.4227,
+          "n_core": 256,
+          "n_bulk": 936,
+          "t": 1500
+        },
+        {
+          "M_ring": 515.0332,
+          "M_ring_shell": 74.7681,
+          "sigma_core": 0.4326,
+          "sigma_bulk": 0.4453,
+          "n_core": 256,
+          "n_bulk": 936,
+          "t": 2000
+        }
+      ]
+    },
+    "6": {
+      "M_ring_mean": 299.821,
+      "M_ring_cv": 0.0828,
+      "sigma_core": 0.3343,
+      "sigma_bulk": 0.3755,
+      "snapshots": [
+        {
+          "M_ring": 1517.7004,
+          "M_ring_shell": 328.7815,
+          "sigma_core": 0.2643,
+          "sigma_bulk": 0.3511,
+          "n_core": 392,
+          "n_bulk": 1412,
+          "t": 500
+        },
+        {
+          "M_ring": 1427.6575,
+          "M_ring_shell": 315.3799,
+          "sigma_core": 0.2808,
+          "sigma_bulk": 0.3557,
+          "n_core": 392,
+          "n_bulk": 1412,
+          "t": 1000
+        },
+        {
+          "M_ring": 1300.0087,
+          "M_ring_shell": 291.623,
+          "sigma_core": 0.3055,
+          "sigma_bulk": 0.3647,
+          "n_core": 392,
+          "n_bulk": 1412,
+          "t": 1500
+        },
+        {
+          "M_ring": 1166.7533,
+          "M_ring_shell": 263.4996,
+          "sigma_core": 0.3343,
+          "sigma_bulk": 0.3755,
+          "n_core": 392,
+          "n_bulk": 1412,
+          "t": 2000
+        }
+      ]
+    }
+  },
+  "M_ring_standard_R4": 132.7784,
+  "rho0_constraint": {
+    "formula": "rho_0 = m_particle / (a_M * M_ring_R4)",
+    "M_ring_R4": 132.7784,
+    "A_VORTEX": 0.225,
+    "f_empirical_km2_s2_per_lu": 43000.0,
+    "rho0_empirical": 191111.1,
+    "per_particle": {
+      "proton": {
+        "m_kg": 1.673e-27,
+        "rho0_over_aM_kg_per_lu": 1.2599940954251595e-29
+      },
+      "electron": {
+        "m_kg": 9.109e-31,
+        "rho0_over_aM_kg_per_lu": 6.860302579335192e-33
+      },
+      "planck": {
+        "m_kg": 2.176e-08,
+        "rho0_over_aM_kg_per_lu": 1.6388207720532857e-10
+      }
+    }
+  },
+  "checks": {
+    "M_ring_stable_pass": false,
+    "M_ring_positive_pass": true,
+    "M_ring_scales_pass": true,
+    "ratio_R4_R2": 3.614
+  }
+}

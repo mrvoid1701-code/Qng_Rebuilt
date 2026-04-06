@@ -43,7 +43,7 @@ Matter sector (QNG-CPU-039 to QNG-CPU-045):
 `qng_perturbed_lattice_isotropy_reference` (QNG-CPU-039), `qng_sigma_stability_reference` (QNG-CPU-040), `qng_phi_vortex_reference` (QNG-CPU-041), `qng_sigma_depletion_vortex_reference` (QNG-CPU-042), `qng_vortex_ring_3d_reference` (QNG-CPU-043), `qng_ring_lifetime_reference` (QNG-CPU-044), `qng_ring_self_velocity_reference` (QNG-CPU-045)
 
 Multi-ring / force lane (QNG-CPU-046 to QNG-CPU-048):
-`qng_multi_ring_reference` (QNG-CPU-046), `qng_ring_force_reference` (QNG-CPU-047), `qng_ring_force_linear_reference` (QNG-CPU-048), `qng_ring_chirality_reference` (QNG-CPU-049), `qng_ring_force_separation_reference` (QNG-CPU-050)
+`qng_multi_ring_reference` (QNG-CPU-046), `qng_ring_force_reference` (QNG-CPU-047), `qng_ring_force_linear_reference` (QNG-CPU-048), `qng_ring_chirality_reference` (QNG-CPU-049), `qng_ring_force_separation_reference` (QNG-CPU-050), `qng_ring_sigma_integral_reference` (QNG-CPU-051)
 
 Observational lane (QNG-OBS-001 through QNG-OBS-004):
 `qng_obs_rotation_reference` (OBS-001), `qng_obs_rotation_global_reference` (OBS-002), `qng_obs_mond_reference` (OBS-003), `qng_obs_yukawa_reference` (OBS-004) — data in `data/rotation/rotation_ds006_rotmod.csv`
@@ -98,7 +98,7 @@ Every test must declare: `test_id`, `category`, `hardware`, `inputs`, `outputs`,
 - **GPU lane** = scale and stress; must match CPU within declared tolerance
 - **CPU+GPU lane** = cross-hardware agreement tests
 
-Pre-registrations live in `07_validation/prereg/` (59 registered: GR-CPU-001, QM-CPU-001, QNG-CPU-001 through QNG-CPU-050, QNG-CPUGPU-001/002, QNG-GPU-001, QNG-OBS-001 through QNG-OBS-004).
+Pre-registrations live in `07_validation/prereg/` (60 registered: GR-CPU-001, QM-CPU-001, QNG-CPU-001 through QNG-CPU-051, QNG-CPUGPU-001/002, QNG-GPU-001, QNG-OBS-001 through QNG-OBS-004).
 
 ## Key Theory Objects (from `04_qng_pure/`)
 
@@ -158,7 +158,7 @@ Any file using unlabeled `chi` or `Sigma` must be flagged as containing unresolv
 **Gap status summary:**
 - Gap 1 (isotropy): **closed for all statistically isotropic graphs** — second-moment condition (SMC) identified as necessary and sufficient (DER-QNG-024); confirmed numerically for cubic (QNG-CPU-037) AND perturbed irregular graph (QNG-CPU-039); open only for graphs with systematic anisotropy (excluded by experiment)
 - Gap 3 (Newtonian potential): closed via GRAV-C1 (δ_C not ∇²C_eff)
-- Gap 4 (ρ₀): partially constrained — formal constraint derived, order-of-magnitude estimate schematic, particle-level M_eff open
+- Gap 4 (ρ₀): **substantially advanced** — DER-QNG-029 establishes 3-unknown unit system (a, τ, m_u); G matching gives C1; Planck-scale inconsistent with galactic Yukawa (λ_phys sub-Planck); empirical f≈43000 (km/s)²/lu from OBS-002; M_ring(R=4, T=1000)=158.4 lattice-units measured (CPU-051); **key finding: M_ring is NOT conserved — decays monotonically (T=500: 191.6 → T=2000: 74.8); sigma depletion is dynamical, not a static charge**; ρ₀ = m_particle / (a_M × 158.4) at T=1000 reference; minimum open set: (m_particle, a_M, a) — all three still require external physical input
 - Gap 5 (cosmological α): **reframed** — α ↔ Λ is an identification, not a derivation; status changed to open
 
 **Structural gaps added 2026-04-06 (Einstein/Newton review):**
