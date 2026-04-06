@@ -166,4 +166,27 @@ Any file using unlabeled `chi` or `Sigma` must be flagged as containing unresolv
 - **Action principle** (`NOTE-QNG-014`, `qng-action-principle-candidate-v1.md`): all 6 update channels derive from a single free-energy functional E[sigma,chi,phi] (gradient flow); substrate is NOT arbitrary phenomenology; but gradient flow is dissipative/irreversible — a Lorentz-covariant action requires the conservative limit H = T + E (open program)
 - **Wave equation** (`DER-QNG-028`, `qng-wave-equation-derivation-v1.md`): linearized v5 vacuum (D_i=0) gives ∂_t s = -αs + β∇²s (parabolic — chi slaved, no back-reaction, no wave equation); Channel G (k_back×chi_i term in sigma update) produces Klein-Gordon; v6 defined in DER-QNG-030; **QNG-CPU-052: FAIL** — wave propagates (Check 1 PASS, r=12.5 at T=50) and k_back-dependent propagation confirms KG mass effect (k_back=0.1 gives r=9.5 vs 12.5); but v_meas=0.17 ≠ v_pred=0.59; **finding: overdiffusive regime** — sigma diffusion τ_diff≈2 steps << chi buildup 1/chi_decay=200 steps; KG phase velocity (0.59) vs group velocity at dominant k (0.17) discrepancy; need w>>10, L>>50 for clean wave measurement; C3 constraint requires dedicated long-wavelength test
 
+## Visualization Scripts (`scripts/`)
+
+```bash
+# Static 3-panel view (sigma / chi / phi)
+py scripts/qng_visualize_ether_3d.py --mode ring        # single vortex ring
+py scripts/qng_visualize_ether_3d.py --mode two_rings   # W+W- two rings + chi field
+py scripts/qng_visualize_ether_3d.py --mode phi_slice   # phi winding slices
+py scripts/qng_visualize_ether_3d.py --mode ring --save out.png
+
+# Animated GIF (XZ slice: sigma + chi + phi over time)
+py scripts/qng_animate_ether.py --mode two_rings --save scripts/out.gif
+py scripts/qng_animate_ether.py --mode single    --phase2 2000 --every 50
+py scripts/qng_animate_ether.py --mode birth               # ring forming from Phase 1
+```
+
+Generated assets already in `scripts/`: `ether_ring_preview.png`, `ether_two_rings_v2.png`, `ether_two_rings_animation.gif`.
+
+## Key Simulation Notes
+
+- **Fully deterministic**: v5 has no stochastic Xi(t) term — identical initial conditions give identical results every run. "Independent trials" require either different ring positions or adding noise.
+- **Buffered output**: run with `py -u script.py` to see progress in real time on Windows.
+- **Runtime estimates**: L=24, 3000 Phase-2 steps ≈ 5-8 min per scenario on CPU.
+
 Avoid red flags documented in `04_qng_pure/qng-red-flags-v1.md` (legacy mistakes to not repeat).
