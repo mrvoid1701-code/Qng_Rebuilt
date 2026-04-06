@@ -98,7 +98,7 @@ Every test must declare: `test_id`, `category`, `hardware`, `inputs`, `outputs`,
 - **GPU lane** = scale and stress; must match CPU within declared tolerance
 - **CPU+GPU lane** = cross-hardware agreement tests
 
-Pre-registrations live in `07_validation/prereg/` (60 registered: GR-CPU-001, QM-CPU-001, QNG-CPU-001 through QNG-CPU-051, QNG-CPUGPU-001/002, QNG-GPU-001, QNG-OBS-001 through QNG-OBS-004).
+Pre-registrations live in `07_validation/prereg/` (61 registered: GR-CPU-001, QM-CPU-001, QNG-CPU-001 through QNG-CPU-052, QNG-CPUGPU-001/002, QNG-GPU-001, QNG-OBS-001 through QNG-OBS-004).
 
 ## Key Theory Objects (from `04_qng_pure/`)
 
@@ -164,6 +164,6 @@ Any file using unlabeled `chi` or `Sigma` must be flagged as containing unresolv
 **Structural gaps added 2026-04-06 (Einstein/Newton review):**
 - **Lorentz covariance** (`NOTE-QNG-013`, `qng-preferred-frame-analysis-v1.md`): synchronous update = preferred foliation; C_eff equation is parabolic (∂_t C_eff = α(...) + β∇²C_eff), NOT hyperbolic — Lorentz covariance is ASSUMED via Planck-scale argument, not derived; the conservative limit of the substrate (H = T + E) is the candidate for Lorentz-covariant dynamics; **this is the most important open structural gap**
 - **Action principle** (`NOTE-QNG-014`, `qng-action-principle-candidate-v1.md`): all 6 update channels derive from a single free-energy functional E[sigma,chi,phi] (gradient flow); substrate is NOT arbitrary phenomenology; but gradient flow is dissipative/irreversible — a Lorentz-covariant action requires the conservative limit H = T + E (open program)
-- **Wave equation** (`DER-QNG-028`, `qng-wave-equation-derivation-v1.md`): linearized v5 vacuum (D_i=0) gives ∂_t s = -αs + β∇²s (parabolic — chi slaved, no back-reaction, no wave equation); Channel G (k_back×chi_i term in sigma update) produces Klein-Gordon; v6 needed
+- **Wave equation** (`DER-QNG-028`, `qng-wave-equation-derivation-v1.md`): linearized v5 vacuum (D_i=0) gives ∂_t s = -αs + β∇²s (parabolic — chi slaved, no back-reaction, no wave equation); Channel G (k_back×chi_i term in sigma update) produces Klein-Gordon; v6 defined in DER-QNG-030; **QNG-CPU-052: FAIL** — wave propagates (Check 1 PASS, r=12.5 at T=50) and k_back-dependent propagation confirms KG mass effect (k_back=0.1 gives r=9.5 vs 12.5); but v_meas=0.17 ≠ v_pred=0.59; **finding: overdiffusive regime** — sigma diffusion τ_diff≈2 steps << chi buildup 1/chi_decay=200 steps; KG phase velocity (0.59) vs group velocity at dominant k (0.17) discrepancy; need w>>10, L>>50 for clean wave measurement; C3 constraint requires dedicated long-wavelength test
 
 Avoid red flags documented in `04_qng_pure/qng-red-flags-v1.md` (legacy mistakes to not repeat).

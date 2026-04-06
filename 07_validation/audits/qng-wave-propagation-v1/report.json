@@ -1,0 +1,252 @@
+{
+  "test_id": "QNG-CPU-052",
+  "decision": "fail",
+  "parameters": {
+    "L": 32,
+    "N": 32768,
+    "A_perturb": 0.05,
+    "w": 2.0,
+    "threshold": 0.005,
+    "beta": 0.35,
+    "alpha": 0.005,
+    "chi_rel": 0.35,
+    "delta": 0.2,
+    "chi_decay": 0.005,
+    "k_backs": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "max_steps": 80
+  },
+  "v_pred": 0.5916079783099616,
+  "results": {
+    "0.01": {
+      "v_measured": 0.1688,
+      "r_at_T50": 12.5,
+      "fit_n_pts": 16
+    },
+    "0.05": {
+      "v_measured": 0.1697,
+      "r_at_T50": 12.5,
+      "fit_n_pts": 16
+    },
+    "0.1": {
+      "v_measured": 0.1329,
+      "r_at_T50": 9.5,
+      "fit_n_pts": 16
+    }
+  },
+  "physical_units": {
+    "tau_over_a_s_per_m": 5.660440293529019e-10,
+    "a_proton_m": 6.1328984970287066e-55,
+    "a_in_l_planck": 0.0,
+    "tau_proton_s": 3.471490576870485e-64,
+    "lambda_phys_m": 0.0
+  },
+  "checks": {
+    "wave_propagates_pass": true,
+    "speed_correct_pass": false,
+    "speed_kback_indep_pass": true
+  },
+  "trajectories": {
+    "0.01": [
+      {
+        "t": 5,
+        "r_front": 4.5
+      },
+      {
+        "t": 10,
+        "r_front": 5.5
+      },
+      {
+        "t": 15,
+        "r_front": 6.5
+      },
+      {
+        "t": 20,
+        "r_front": 7.5
+      },
+      {
+        "t": 25,
+        "r_front": 8.5
+      },
+      {
+        "t": 30,
+        "r_front": 9.5
+      },
+      {
+        "t": 35,
+        "r_front": 10.5
+      },
+      {
+        "t": 40,
+        "r_front": 11.5
+      },
+      {
+        "t": 45,
+        "r_front": 12.5
+      },
+      {
+        "t": 50,
+        "r_front": 12.5
+      },
+      {
+        "t": 55,
+        "r_front": 13.5
+      },
+      {
+        "t": 60,
+        "r_front": 14.5
+      },
+      {
+        "t": 65,
+        "r_front": 15.5
+      },
+      {
+        "t": 70,
+        "r_front": 16.5
+      },
+      {
+        "t": 75,
+        "r_front": 16.5
+      },
+      {
+        "t": 80,
+        "r_front": 16.5
+      }
+    ],
+    "0.05": [
+      {
+        "t": 5,
+        "r_front": 4.5
+      },
+      {
+        "t": 10,
+        "r_front": 5.5
+      },
+      {
+        "t": 15,
+        "r_front": 6.5
+      },
+      {
+        "t": 20,
+        "r_front": 7.5
+      },
+      {
+        "t": 25,
+        "r_front": 8.5
+      },
+      {
+        "t": 30,
+        "r_front": 9.5
+      },
+      {
+        "t": 35,
+        "r_front": 9.5
+      },
+      {
+        "t": 40,
+        "r_front": 10.5
+      },
+      {
+        "t": 45,
+        "r_front": 11.5
+      },
+      {
+        "t": 50,
+        "r_front": 12.5
+      },
+      {
+        "t": 55,
+        "r_front": 13.5
+      },
+      {
+        "t": 60,
+        "r_front": 14.5
+      },
+      {
+        "t": 65,
+        "r_front": 15.5
+      },
+      {
+        "t": 70,
+        "r_front": 16.5
+      },
+      {
+        "t": 75,
+        "r_front": 16.5
+      },
+      {
+        "t": 80,
+        "r_front": 16.5
+      }
+    ],
+    "0.1": [
+      {
+        "t": 5,
+        "r_front": 4.5
+      },
+      {
+        "t": 10,
+        "r_front": 5.5
+      },
+      {
+        "t": 15,
+        "r_front": 6.5
+      },
+      {
+        "t": 20,
+        "r_front": 6.5
+      },
+      {
+        "t": 25,
+        "r_front": 7.5
+      },
+      {
+        "t": 30,
+        "r_front": 8.5
+      },
+      {
+        "t": 35,
+        "r_front": 9.5
+      },
+      {
+        "t": 40,
+        "r_front": 9.5
+      },
+      {
+        "t": 45,
+        "r_front": 10.5
+      },
+      {
+        "t": 50,
+        "r_front": 9.5
+      },
+      {
+        "t": 55,
+        "r_front": 10.5
+      },
+      {
+        "t": 60,
+        "r_front": 11.5
+      },
+      {
+        "t": 65,
+        "r_front": 12.5
+      },
+      {
+        "t": 70,
+        "r_front": 13.5
+      },
+      {
+        "t": 75,
+        "r_front": 14.5
+      },
+      {
+        "t": 80,
+        "r_front": 15.5
+      }
+    ]
+  }
+}
