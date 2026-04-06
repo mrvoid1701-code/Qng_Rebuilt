@@ -202,3 +202,13 @@ This gives the geometric factor; ρ₀ is then expressed as:
 ρ₀ = m_particle / (a_M × M_ring_integral)
 ```
 leaving only (m_particle, a_M) as free inputs — the minimal open set.
+
+---
+
+## Notation note (added 2026-04-06)
+
+The symbol "f" in §7 means f ≡ ρ₀ × A_VORTEX (the direct OBS-002 conversion factor).
+CLAUDE.md previously used "f" for ρ₀. Canonical convention per NOTE-QNG-015:
+- ρ₀ ≈ 43000 (km/s)²/lu  (substrate energy density, from OBS-002 via ρ₀ = f / A_VORTEX)
+- f  ≈  9700 (km/s)²/lu  (direct OBS-002 residual; f = ρ₀ × A_VORTEX)
+See `qng-f-naming-clarification-v1.md` (NOTE-QNG-015).

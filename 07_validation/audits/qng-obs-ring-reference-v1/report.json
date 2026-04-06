@@ -1,0 +1,24 @@
+{
+  "test_id": "QNG-OBS-005",
+  "decision": "fail",
+  "best_lambda_kpc": 50000.0,
+  "best_A_kms2": 2539.2585,
+  "median_chi2_dof_baryon": 38.87,
+  "median_chi2_dof_ring": 36.728,
+  "improvement_ratio": 1.0583,
+  "mond_ratio_reference": 1.702,
+  "fraction_improved": 0.6959,
+  "pearson_r_A_mass": 0.4351,
+  "n_galaxies": 171,
+  "n_points": 3375,
+  "lambda_scan_n": 120,
+  "softening_kpc": 0.05,
+  "n_gauss": 64,
+  "checks": {
+    "ring_lt_baryon_pass": true,
+    "ratio_gt_mond_pass": false,
+    "lambda_in_range_pass": false,
+    "A_opt_positive_pass": true,
+    "pearson_r_gt_040_info": true
+  }
+}
