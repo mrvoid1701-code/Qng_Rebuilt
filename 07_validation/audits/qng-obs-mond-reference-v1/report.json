@@ -1,0 +1,17 @@
+{
+  "test_id": "QNG-OBS-003",
+  "decision": "fail",
+  "a0_ms2": 1.2e-10,
+  "n_galaxies_fit": 171,
+  "median_chi2_dof_baryon": 38.87,
+  "median_chi2_dof_mond": 22.842,
+  "improvement_ratio": 1.7017,
+  "fraction_improved": 0.5731,
+  "reference_obs001_ratio": 2.264,
+  "mond_vs_qng_obs001": "qng_obs001_better",
+  "checks": {
+    "mond_lt_baryon_pass": true,
+    "improvement_ratio_ge_2x_pass": false,
+    "fraction_improved_gt_0p60_pass": false
+  }
+}
