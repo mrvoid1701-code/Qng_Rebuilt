@@ -1,0 +1,70 @@
+{
+  "test_id": "QNG-CPU-062",
+  "decision": "pass",
+  "k_back": 0.1,
+  "checks": {
+    "ring_alive_kgm_le_001": true
+  },
+  "results": [
+    {
+      "k_gm": 0.0,
+      "M_1000": 953.65,
+      "dsg_1000": 0.0,
+      "chi_rms_1000": 0.0,
+      "M_final": 804.7,
+      "dsg_final": 0.0,
+      "chi_rms_final": 0.0,
+      "ring_alive": true
+    },
+    {
+      "k_gm": 0.001,
+      "M_1000": 953.65,
+      "dsg_1000": -0.033705,
+      "chi_rms_1000": 0.2114,
+      "M_final": 804.7,
+      "dsg_final": 0.459161,
+      "chi_rms_final": 0.4217,
+      "ring_alive": true
+    },
+    {
+      "k_gm": 0.005,
+      "M_1000": 953.65,
+      "dsg_1000": -0.153796,
+      "chi_rms_1000": 0.7126,
+      "M_final": 804.7,
+      "dsg_final": 0.328259,
+      "chi_rms_final": 0.614,
+      "ring_alive": true
+    },
+    {
+      "k_gm": 0.01,
+      "M_1000": 953.65,
+      "dsg_1000": -0.225806,
+      "chi_rms_1000": 0.6745,
+      "M_final": 804.7,
+      "dsg_final": 0.258413,
+      "chi_rms_final": 0.6777,
+      "ring_alive": true
+    },
+    {
+      "k_gm": 0.05,
+      "M_1000": 953.65,
+      "dsg_1000": -0.369342,
+      "chi_rms_1000": 0.5645,
+      "M_final": 804.7,
+      "dsg_final": 0.07553,
+      "chi_rms_final": 0.7916,
+      "ring_alive": true
+    },
+    {
+      "k_gm": 0.1,
+      "M_1000": 953.65,
+      "dsg_1000": -0.419836,
+      "chi_rms_1000": 0.5329,
+      "M_final": 804.7,
+      "dsg_final": -0.012083,
+      "chi_rms_final": 0.845,
+      "ring_alive": true
+    }
+  ]
+}
