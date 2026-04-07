@@ -1,0 +1,71 @@
+{
+  "test_id": "QNG-CPU-060",
+  "decision": "fail",
+  "k_back": 0.1,
+  "k_gm": 0.001,
+  "E_vacuum": -40.00000000000201,
+  "ring_nodes_count": 668,
+  "checks": {
+    "ring_survives_sigma_m": true,
+    "ring_sources_sigma_g": false,
+    "chi_active": false
+  },
+  "trajectory": [
+    {
+      "t": 1,
+      "M_ring": 11.69,
+      "delta_sg_core": 0.0,
+      "chi_rms": 0.0,
+      "H_snapshot": 4.2
+    },
+    {
+      "t": 200,
+      "M_ring": 903.83,
+      "delta_sg_core": -0.000243,
+      "chi_rms": 0.0013,
+      "H_snapshot": 18.37
+    },
+    {
+      "t": 400,
+      "M_ring": 1050.68,
+      "delta_sg_core": 0.000467,
+      "chi_rms": 0.0014,
+      "H_snapshot": 20.31
+    },
+    {
+      "t": 600,
+      "M_ring": 1046.12,
+      "delta_sg_core": -0.001438,
+      "chi_rms": 0.0014,
+      "H_snapshot": 20.09
+    },
+    {
+      "t": 800,
+      "M_ring": 1004.86,
+      "delta_sg_core": 0.003686,
+      "chi_rms": 0.0017,
+      "H_snapshot": 19.37
+    },
+    {
+      "t": 1000,
+      "M_ring": 954.88,
+      "delta_sg_core": -0.010113,
+      "chi_rms": 0.0011,
+      "H_snapshot": 18.5
+    },
+    {
+      "t": 1200,
+      "M_ring": 901.06,
+      "delta_sg_core": 0.02719,
+      "chi_rms": 0.0071,
+      "H_snapshot": 17.92
+    },
+    {
+      "t": 1400,
+      "M_ring": 841.63,
+      "delta_sg_core": -0.073578,
+      "chi_rms": 0.0191,
+      "H_snapshot": 18.99
+    }
+  ]
+}
