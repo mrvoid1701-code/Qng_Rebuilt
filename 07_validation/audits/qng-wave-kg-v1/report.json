@@ -1,0 +1,53 @@
+{
+  "test_id": "QNG-CPU-054",
+  "decision": "pass",
+  "parameters": {
+    "L": 64,
+    "N": 262144,
+    "A_perturb": 0.15,
+    "w": 4.0,
+    "alpha": 0.005,
+    "beta": 0.35,
+    "delta": 0.0,
+    "chi_decay": 0.001,
+    "chi_rel": 0.35,
+    "max_steps": 200,
+    "t_start_fit": 30
+  },
+  "v_pred_kback_1": 0.2415,
+  "results": {
+    "k_back_0.10": {
+      "v_pred": 0.0764,
+      "v_measured": 0.0608,
+      "r_final": 9.0,
+      "fit_n_pts": 35,
+      "ballistic_ratio": 3.185
+    },
+    "k_back_0.50": {
+      "v_pred": 0.1708,
+      "v_measured": 0.1624,
+      "r_final": 10.0,
+      "fit_n_pts": 20,
+      "ballistic_ratio": 9.372
+    },
+    "k_back_1.00": {
+      "v_pred": 0.2415,
+      "v_measured": 0.2286,
+      "r_final": 11.0,
+      "fit_n_pts": 13,
+      "ballistic_ratio": 16.324
+    }
+  },
+  "physical_units_k1": {
+    "tau_over_a_s_per_m": 7.62508338892595e-10,
+    "a_m": 1.1128959050471273e-54,
+    "a_l_planck": 0.0,
+    "lambda_phys_m": 0.0
+  },
+  "checks": {
+    "wave_propagates_pass": true,
+    "speed_correct_pass": true,
+    "sqrt_scaling_pass": true,
+    "ballistic_info": true
+  }
+}
