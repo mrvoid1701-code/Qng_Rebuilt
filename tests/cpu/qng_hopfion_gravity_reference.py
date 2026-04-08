@@ -14,6 +14,14 @@ Is the Hopfion's gravitational signature qualitatively different from the ring?
 import json, math, time
 from pathlib import Path
 
+class _NpEncoder(json.JSONEncoder):
+    def default(self, obj):
+        import numpy as _np
+        if isinstance(obj, _np.integer): return int(obj)
+        if isinstance(obj, _np.floating): return float(obj)
+        if isinstance(obj, _np.ndarray): return obj.tolist()
+        return super().default(obj)
+
 try:
     import cupy as cp
     xp = cp
@@ -288,7 +296,7 @@ def main():
                       "bipolar_ring":c4_ring,"bipolar_hopfion":c4_hopf},
             "ring_Q0":results["ring_Q0"],"hopfion_Q1":results["hopfion_Q1"]}
     rp=out/"report.json"
-    with open(rp,"w") as f: json.dump(report,f,indent=2)
+    with open(rp,"w") as f: json.dump(report,f,indent=2,cls=_NpEncoder)
     print(f"\nReport: {rp}")
     return 0 if overall=="pass" else 1
 
