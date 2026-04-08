@@ -187,8 +187,8 @@ def main():
     n_base=math.log(spectrum_table[0.0].get(5.,1.)/max(spectrum_table[0.0].get(2.,1e-10),1e-10))/math.log(5./2.) if spectrum_table[0.0].get(2.,0)>0 else 0.
 
     print(f"Check 1 (all rings M>10):          {'PASS' if c1 else 'FAIL'}")
-    print(f"Check 2 (T_kin grows DELTA_m 0→0.2): T_base={T_base:.4f} T_top={T_top:.4f} "
-          f"ratio={c2_ratio:.1f} → {'PASS' if c2 else 'FAIL'}")
+    print(f"Check 2 (T_kin grows DELTA_m 0->0.2): T_base={T_base:.4f} T_top={T_top:.4f} "
+          f"ratio={c2_ratio:.1f} -> {'PASS' if c2 else 'FAIL'}")
     print(f"Check 3 (chi_rms < 1.0):           {'PASS' if c3 else 'FAIL'}")
     print(f"Check 4 (spectrum scaling, info):   n(DELTA_m=0)={n_base:.2f}  n(DELTA_m=0.2)={n_top:.2f}")
     print(f"  (n=1 = string tension, n=2 = kinetic)")
