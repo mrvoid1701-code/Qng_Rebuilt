@@ -177,8 +177,8 @@ def main():
         cn,cs,cb=chi_bipolar(chi_d)
         print(f"  chi bipolar: north={cn:.5f}  south={cs:.5f}  bulk_rms={cb:.5f}")
 
-        # Conservative run (from Phase 1 state)
-        sg_c,sm_c,chi_c,phi_c=[list(x) for x in [sg,sm,chi,phi]]
+        # Conservative run (from fully formed dissipative state — correct starting point)
+        sg_c,sm_c,chi_c,phi_c=[list(x) for x in [sg_d,sm_d,chi_d,phi_d]]
         traj_cons=[]
         for t in range(1,PHASE2_CONS+1):
             sg_c,sm_c,chi_c,phi_c=step_conservative(sg_c,sm_c,chi_c,phi_c)
