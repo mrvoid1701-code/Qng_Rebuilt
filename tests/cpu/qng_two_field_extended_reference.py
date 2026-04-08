@@ -54,7 +54,7 @@ def step_v7(sg,sm,chi,phi,cf,cg):
         s=sg[i]; m=sm[i]; c=chi[i]; p=phi[i]
         dsg=ALPHA*(SIGMA_REF-s)+BETA*(sg_b-s)
         if cg: dsg+=K_BACK*c
-        dsg+=K_GM*(SIGMA_REF-m)
+        dsg-=K_GM*(SIGMA_REF-m)
         nsg.append(clip01(s+dsg))
         dsm=ALPHA*(SIGMA_REF-m)+BETA*(sm_b-m)
         if cf: dsm-=GAMMA_PHI*disorder(phi,i)*m

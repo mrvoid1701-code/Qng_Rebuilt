@@ -6,7 +6,7 @@ QNG-CPU-060: Two-field substrate (v7) — sigma_g + sigma_m.
 Tests Path D resolution of Gap 7:
   sigma_g: gravitational sector, Channel G active (KG wave)
   sigma_m: matter sector, Channel F active (ring stability), no Channel G
-  Coupling: sigma_g += k_gm * (sigma_m_ref - sigma_m)
+  Coupling: sigma_g -= k_gm * (sigma_m_ref - sigma_m)  [depletion → attractive potential]
 
 Key question: does sigma_m ring survive when Channel G is active in sigma_g?
 In CPU-056, single-sigma ring was killed by Channel G. Here they are separated.
@@ -133,7 +133,7 @@ def update_step_v7(sigma_g: list[float], sigma_m: list[float],
         dsg = ALPHA * (SIGMA_REF - sg) + BETA * (sg_bar - sg)
         if channel_g:
             dsg += K_BACK * ci                          # Channel G
-        dsg += K_GM * (SIGMA_REF - sm)                 # matter sources gravity
+        dsg -= K_GM * (SIGMA_REF - sm)                 # matter sources gravity (sign: depletion → attractive)
         ns_g.append(clip01(sg + dsg))
 
         # --- sigma_m update: A + B + F (NO Channel G) ---
@@ -220,7 +220,7 @@ def compute_E_total(sigma_g: list[float], sigma_m: list[float],
         E += DELTA * ci * (sg - SIGMA_REF)
 
         # coupling term
-        E += K_GM / 2.0 * (SIGMA_REF - sm) * (SIGMA_REF - sg)
+        E -= K_GM / 2.0 * (SIGMA_REF - sm) * (SIGMA_REF - sg)
 
     return E
 

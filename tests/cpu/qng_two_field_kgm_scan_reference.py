@@ -40,7 +40,7 @@ def step_v7(sg,sm,chi,phi,k_gm):
         x,y,z=coord3(i);nbs=nb(x,y,z)
         sgb=sum(sg[j] for j in nbs)/6.;smb=sum(sm[j] for j in nbs)/6.
         s=sg[i];m=sm[i];c=chi[i];p=phi[i]
-        dsg=ALPHA*(SIGMA_REF-s)+BETA*(sgb-s)+K_BACK*c+k_gm*(SIGMA_REF-m)
+        dsg=ALPHA*(SIGMA_REF-s)+BETA*(sgb-s)+K_BACK*c-k_gm*(SIGMA_REF-m)
         nsg.append(clip01(s+dsg))
         dsm=ALPHA*(SIGMA_REF-m)+BETA*(smb-m)-GAMMA_PHI*dis(phi,i)*m
         nsm.append(clip01(m+dsm))

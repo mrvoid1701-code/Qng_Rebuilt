@@ -51,7 +51,7 @@ def step_v7(sg,sm,chi,phi,cf,cg):
         s=sg[i];m=sm[i];c=chi[i];p=phi[i]
         dsg=ALPHA*(SIGMA_REF-s)+BETA*(sgb-s)
         if cg: dsg+=K_BACK*c
-        dsg+=K_GM*(SIGMA_REF-m)
+        dsg-=K_GM*(SIGMA_REF-m)
         nsg.append(clip01(s+dsg))
         dsm=ALPHA*(SIGMA_REF-m)+BETA*(smb-m)
         if cf: dsm-=GAMMA_PHI*dis(phi,i)*m
@@ -77,7 +77,7 @@ def compute_E(sg,sm,chi,phi):
         E-=BETA_PHI/6.*sum(m*sm[j]*math.cos(adiff(p,phi[j])) for j in nbs)
         E+=GAMMA_PHI/2.*dis(phi,i)*m*m
         E+=CHI_DECAY/2.*c*c+CHI_REL/2.*c*(sgb-s)+DELTA*c*(s-SIGMA_REF)
-        E+=K_GM/2.*(SIGMA_REF-m)*(SIGMA_REF-s)
+        E-=K_GM/2.*(SIGMA_REF-m)*(SIGMA_REF-s)
     return E
 
 def E_vac():

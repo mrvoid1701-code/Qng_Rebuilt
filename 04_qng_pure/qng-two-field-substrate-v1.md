@@ -53,7 +53,7 @@ Each node carries five fields instead of three:
   sigma_g_i += alpha_g × (sigma_g_ref - sigma_g_i)        [Channel A: restoration]
              + beta_g × (sigma_g_bar - sigma_g_i)          [Channel B: diffusion]
              + k_back × chi_i                              [Channel G: KG wave]
-             + k_gm × (sigma_m_ref - sigma_m_i)           [coupling: matter sources gravity]
+             - k_gm × (sigma_m_ref - sigma_m_i)           [coupling: matter sources gravity — MINUS sign gives attractive potential]
 
   NO Channel F in sigma_g.
 
@@ -86,12 +86,15 @@ Each node carries five fields instead of three:
 
 The term k_gm × (sigma_m_ref - sigma_m_i) in the sigma_g update is the
 gravitational source:
-- At the ring core: sigma_m_i < sigma_m_ref (matter depleted) → source > 0 → sigma_g pulled down
+- At the ring core: sigma_m_i < sigma_m_ref (matter depleted) → (sigma_m_ref - sigma_m) > 0 → subtract → sigma_g pulled DOWN ✓
 - In vacuum: sigma_m_i = sigma_m_ref → source = 0 → no gravitational effect
 
+Sign convention: the MINUS sign ensures that matter depletion (positive rho) sources a negative
+gravitational potential (attractive), consistent with GRAV-C1 (Φ ∝ delta_sigma_g < 0 for matter).
+
 This is the QNG analog of the stress-energy tensor sourcing the metric:
-  ∇²sigma_g ~ k_gm × (sigma_m_ref - sigma_m)
-            ~ k_gm × rho_matter
+  -∇²delta_sigma_g ~ k_gm × (sigma_m_ref - sigma_m)
+                   ~ k_gm × rho_matter   (rho > 0 → delta_sigma_g < 0 → Φ < 0, attractive)
 
 For k_gm << alpha_g: the gravitational backreaction is weak (consistent with
 the hierarchy G_Newton << other forces).
@@ -127,7 +130,7 @@ This provides a NEW formula for m_u: it enters through k_gm, not directly.
 | D (chi cross) | sigma → chi coupling | sigma_g → chi coupling only |
 | F (phi depletion) | sigma -= gamma_phi×D×sigma | sigma_m -= gamma_phi×D×sigma_m ONLY |
 | G (back-reaction) | sigma += k_back×chi | sigma_g += k_back×chi ONLY |
-| coupling (new) | — | sigma_g += k_gm × (sigma_m_ref - sigma_m) |
+| coupling (new) | — | sigma_g -= k_gm × (sigma_m_ref - sigma_m) |
 
 ---
 
