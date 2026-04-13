@@ -1,0 +1,148 @@
+{
+  "test_id": "QNG-CPU-074",
+  "decision": "pass",
+  "params": {
+    "L": 20,
+    "PHASE1": 300,
+    "PHASE2": 1500,
+    "PHASE3": 1000,
+    "K_BACK": 0.1,
+    "CHI_DECAY": 0.02
+  },
+  "results": [
+    {
+      "R": 3,
+      "M_end_phase2": 331.81,
+      "phase2_track": [
+        {
+          "t_p2": 500,
+          "M": 674.56
+        },
+        {
+          "t_p2": 1000,
+          "M": 474.15
+        },
+        {
+          "t_p2": 1500,
+          "M": 331.81
+        }
+      ],
+      "phase3_track": [
+        {
+          "t_p3": 0,
+          "M": 331.81
+        },
+        {
+          "t_p3": 200,
+          "M": 331.81
+        },
+        {
+          "t_p3": 500,
+          "M": 331.81
+        },
+        {
+          "t_p3": 750,
+          "M": 331.81
+        },
+        {
+          "t_p3": 1000,
+          "M": 331.81
+        }
+      ],
+      "M_conservative": 331.81
+    },
+    {
+      "R": 4,
+      "M_end_phase2": 509.66,
+      "phase2_track": [
+        {
+          "t_p2": 500,
+          "M": 886.14
+        },
+        {
+          "t_p2": 1000,
+          "M": 728.92
+        },
+        {
+          "t_p2": 1500,
+          "M": 509.66
+        }
+      ],
+      "phase3_track": [
+        {
+          "t_p3": 0,
+          "M": 509.66
+        },
+        {
+          "t_p3": 200,
+          "M": 509.66
+        },
+        {
+          "t_p3": 500,
+          "M": 509.66
+        },
+        {
+          "t_p3": 750,
+          "M": 509.66
+        },
+        {
+          "t_p3": 1000,
+          "M": 509.66
+        }
+      ],
+      "M_conservative": 509.66
+    },
+    {
+      "R": 5,
+      "M_end_phase2": 810.14,
+      "phase2_track": [
+        {
+          "t_p2": 500,
+          "M": 1056.53
+        },
+        {
+          "t_p2": 1000,
+          "M": 954.88
+        },
+        {
+          "t_p2": 1500,
+          "M": 810.14
+        }
+      ],
+      "phase3_track": [
+        {
+          "t_p3": 0,
+          "M": 810.14
+        },
+        {
+          "t_p3": 200,
+          "M": 810.14
+        },
+        {
+          "t_p3": 500,
+          "M": 810.14
+        },
+        {
+          "t_p3": 750,
+          "M": 810.14
+        },
+        {
+          "t_p3": 1000,
+          "M": 810.14
+        }
+      ],
+      "M_conservative": 810.14
+    }
+  ],
+  "canonical_M_ring": {
+    "3": 331.81,
+    "4": 509.66,
+    "5": 810.14
+  },
+  "checks": {
+    "all_rings_survive_phase3": true,
+    "conservative_above_half_dissipative": true,
+    "M_monotone_in_R": true
+  },
+  "note": "M_conservative (Phase-3, T=1000) is the canonical value for mass identification per DER-QNG-036 \u00a76. The dissipative values are deprecated for this purpose."
+}

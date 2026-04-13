@@ -1,0 +1,133 @@
+{
+  "test_id": "QNG-CPU-075",
+  "decision": "pass",
+  "params": {
+    "L": 20,
+    "PHASE1": 300,
+    "PHASE2": 1500,
+    "A_M": 0.0013732,
+    "m_proton_MeV": 938.272
+  },
+  "anchors": {
+    "4": 728.92,
+    "5": 954.88
+  },
+  "results": [
+    {
+      "R": 3,
+      "M_canonical": 474.15,
+      "particle": "unknown/611 MeV",
+      "m_particle_MeV": 611.0,
+      "M_ring_predicted": 474.2,
+      "deviation_pct": -0.01,
+      "phase2_track": [
+        {
+          "t_p2": 500,
+          "M": 674.56
+        },
+        {
+          "t_p2": 1000,
+          "M": 474.15
+        },
+        {
+          "t_p2": 1500,
+          "M": 331.81
+        }
+      ]
+    },
+    {
+      "R": 4,
+      "M_canonical": 728.92,
+      "particle": "Nucleon N",
+      "m_particle_MeV": 938.272,
+      "M_ring_predicted": 728.2,
+      "deviation_pct": 0.1,
+      "phase2_track": [
+        {
+          "t_p2": 500,
+          "M": 886.14
+        },
+        {
+          "t_p2": 1000,
+          "M": 728.92
+        },
+        {
+          "t_p2": 1500,
+          "M": 509.66
+        }
+      ]
+    },
+    {
+      "R": 5,
+      "M_canonical": 954.88,
+      "particle": "Delta(1232)",
+      "m_particle_MeV": 1232.0,
+      "M_ring_predicted": 956.2,
+      "deviation_pct": -0.14,
+      "phase2_track": [
+        {
+          "t_p2": 500,
+          "M": 1056.53
+        },
+        {
+          "t_p2": 1000,
+          "M": 954.88
+        },
+        {
+          "t_p2": 1500,
+          "M": 810.14
+        }
+      ]
+    },
+    {
+      "R": 6,
+      "M_canonical": 1172.13,
+      "particle": "N*(1440) Roper",
+      "m_particle_MeV": 1440.0,
+      "M_ring_predicted": 1117.6,
+      "deviation_pct": 4.88,
+      "phase2_track": [
+        {
+          "t_p2": 500,
+          "M": 1230.97
+        },
+        {
+          "t_p2": 1000,
+          "M": 1172.13
+        },
+        {
+          "t_p2": 1500,
+          "M": 1082.35
+        }
+      ]
+    },
+    {
+      "R": 7,
+      "M_canonical": 1328.1,
+      "particle": "Delta*(1600)",
+      "m_particle_MeV": 1600.0,
+      "M_ring_predicted": 1241.8,
+      "deviation_pct": 6.95,
+      "phase2_track": [
+        {
+          "t_p2": 500,
+          "M": 1354.09
+        },
+        {
+          "t_p2": 1000,
+          "M": 1328.1
+        },
+        {
+          "t_p2": 1500,
+          "M": 1281.14
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "cpu074_anchors_reproduced": true,
+    "M_ring_monotone": true,
+    "roper_1440_predicted": true,
+    "delta_star_1600_predicted": false
+  }
+}

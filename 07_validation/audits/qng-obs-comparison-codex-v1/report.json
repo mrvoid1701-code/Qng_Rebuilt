@@ -1,0 +1,84 @@
+{
+  "author": "Codex",
+  "entries": [
+    {
+      "label": "QNG-OBS-001 Codex",
+      "path": "C:\\Users\\tigan\\Desktop\\QNG-Theory Release-01\\07_validation\\audits\\qng-obs-rotation-reference-codex-v1\\report.json",
+      "test_id": "QNG-OBS-001",
+      "decision": "fail",
+      "model_metric_key": "median_chi2_dof_qng",
+      "median_baryon": 38.87,
+      "median_model": 17.1663,
+      "improvement_ratio": 2.2643,
+      "fraction_improved": 1.0,
+      "author": "Codex",
+      "best_params": "-"
+    },
+    {
+      "label": "MOND OBS-003",
+      "path": "C:\\Users\\tigan\\Desktop\\QNG-Theory Release-01\\07_validation\\audits\\qng-obs-mond-reference-v1\\report.json",
+      "test_id": "QNG-OBS-003",
+      "decision": "fail",
+      "model_metric_key": "median_chi2_dof_mond",
+      "median_baryon": 38.87,
+      "median_model": 22.842,
+      "improvement_ratio": 1.7017,
+      "fraction_improved": 0.5731,
+      "author": "-",
+      "best_params": "-"
+    },
+    {
+      "label": "v7 Hopfion Codex",
+      "path": "C:\\Users\\tigan\\Desktop\\QNG-Theory Release-01\\07_validation\\audits\\qng-obs-v7-hopfion-codex-v1\\report.json",
+      "test_id": "QNG-OBS-V7-CODEX-003",
+      "decision": "pass",
+      "model_metric_key": "median_chi2_dof_v7_hopfion",
+      "median_baryon": 38.87,
+      "median_model": 36.696,
+      "improvement_ratio": 1.0592,
+      "fraction_improved": 0.7018,
+      "author": "Codex",
+      "best_params": "best_A_kms2=2577.8306, best_lam_grav_kpc=50000.0000, best_lam_hopf_kpc=0.1000, best_lam_ring_kpc=50000.0000"
+    },
+    {
+      "label": "Ring OBS-005",
+      "path": "C:\\Users\\tigan\\Desktop\\QNG-Theory Release-01\\07_validation\\audits\\qng-obs-ring-reference-v1\\report.json",
+      "test_id": "QNG-OBS-005",
+      "decision": "fail",
+      "model_metric_key": "median_chi2_dof_ring",
+      "median_baryon": 38.87,
+      "median_model": 36.728,
+      "improvement_ratio": 1.0583,
+      "fraction_improved": 0.6959,
+      "author": "-",
+      "best_params": "best_A_kms2=2539.2585, best_lambda_kpc=50000.0000"
+    },
+    {
+      "label": "v7 Ring Cascade Codex",
+      "path": "C:\\Users\\tigan\\Desktop\\QNG-Theory Release-01\\07_validation\\audits\\qng-obs-v7-ring-cascade-codex-v1\\report.json",
+      "test_id": "QNG-OBS-V7-CODEX-002",
+      "decision": "pass",
+      "model_metric_key": "median_chi2_dof_v7_cascade",
+      "median_baryon": 38.87,
+      "median_model": 36.728,
+      "improvement_ratio": 1.0583,
+      "fraction_improved": 0.6959,
+      "author": "Codex",
+      "best_params": "best_A_kms2=2539.2585, best_lam_grav_kpc=50000.0000, best_lam_ring_kpc=50000.0000"
+    },
+    {
+      "label": "v7 Double-Yukawa Codex",
+      "path": "C:\\Users\\tigan\\Desktop\\QNG-Theory Release-01\\07_validation\\audits\\qng-obs-v7-double-yukawa-codex-v1\\report.json",
+      "test_id": "QNG-OBS-V7-CODEX-001",
+      "decision": "pass",
+      "model_metric_key": "median_chi2_dof_v7",
+      "median_baryon": 38.87,
+      "median_model": 38.1631,
+      "improvement_ratio": 1.0185,
+      "fraction_improved": 0.6374,
+      "author": "Codex",
+      "best_params": "best_A_kms2=376.5219, best_lam_fast_kpc=300.0000, best_lam_slow_kpc=50000.0000"
+    }
+  ],
+  "missing": []
+}

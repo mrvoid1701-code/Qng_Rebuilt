@@ -1,0 +1,69 @@
+{
+  "test_id": "QNG-OBS-V7-CODEX-003",
+  "author": "Codex",
+  "decision": "pass",
+  "theory_variant": "v7 hopfion-inspired cascade proxy",
+  "n_galaxies": 171,
+  "n_points": 3375,
+  "median_chi2_dof_baryon": 38.87,
+  "median_chi2_dof_v7_hopfion": 36.696,
+  "improvement_ratio": 1.0592,
+  "fraction_improved": 0.7018,
+  "best_lam_ring_kpc": 50000.0,
+  "best_lam_hopf_kpc": 0.1,
+  "best_lam_grav_kpc": 50000.0,
+  "best_A_kms2": 2577.830641,
+  "hopfion_isotropic_weight": 0.838973,
+  "hopfion_mass_ratio_reference": 2.039514,
+  "checks": {
+    "hopfion_lt_baryon_pass": true,
+    "hopfion_beats_mond_pass": false,
+    "hopfion_beats_obs001_pass": false,
+    "hopfion_beats_obs005_pass": true,
+    "lam_grav_positive_pass": true,
+    "amplitude_positive_pass": true,
+    "majority_improved_pass": true
+  },
+  "reference_ratios": {
+    "obs001_ratio": 2.2643597809623675,
+    "obs005_ratio": 1.0583,
+    "mond_ratio": 1.702
+  },
+  "top5": [
+    {
+      "lam_ring": 50000.0,
+      "lam_hopf": 0.1,
+      "lam_grav": 50000.0,
+      "A": 2577.830641,
+      "chi2_total": 753376.966214
+    },
+    {
+      "lam_ring": 50000.0,
+      "lam_hopf": 0.1,
+      "lam_grav": 29580.887799,
+      "A": 2577.830571,
+      "chi2_total": 753376.967426
+    },
+    {
+      "lam_ring": 26766.431833,
+      "lam_hopf": 0.1,
+      "lam_grav": 50000.0,
+      "A": 2577.830554,
+      "chi2_total": 753376.967708
+    },
+    {
+      "lam_ring": 26766.431833,
+      "lam_hopf": 0.1,
+      "lam_grav": 29580.887799,
+      "A": 2577.830484,
+      "chi2_total": 753376.968921
+    },
+    {
+      "lam_ring": 50000.0,
+      "lam_hopf": 0.1,
+      "lam_grav": 17500.57846,
+      "A": 2577.83037,
+      "chi2_total": 753376.970889
+    }
+  ]
+}

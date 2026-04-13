@@ -1,0 +1,60 @@
+{
+  "test_id": "QNG-OBS-V7-CODEX-001",
+  "author": "Codex",
+  "decision": "pass",
+  "theory_variant": "v7 double-Yukawa observational proxy",
+  "n_galaxies": 171,
+  "n_points": 3375,
+  "median_chi2_dof_baryon": 38.87,
+  "median_chi2_dof_v7": 38.1631,
+  "improvement_ratio": 1.0185,
+  "fraction_improved": 0.6374,
+  "baryon_chi2_total": 773974.2391,
+  "best_lam_fast_kpc": 300.0,
+  "best_lam_slow_kpc": 50000.0,
+  "best_A_kms2": 376.521916,
+  "checks": {
+    "v7_lt_baryon_pass": true,
+    "v7_beats_mond_pass": false,
+    "v7_beats_obs001_pass": false,
+    "lambdas_ordered_pass": true,
+    "amplitude_positive_pass": true,
+    "majority_improved_pass": true
+  },
+  "reference_ratios": {
+    "obs001_ratio": 2.2643597809623675,
+    "mond_ratio": 1.702
+  },
+  "top5": [
+    {
+      "lam_fast": 300.0,
+      "lam_slow": 50000.0,
+      "A": 376.521916,
+      "chi2_total": 745950.273548
+    },
+    {
+      "lam_fast": 300.0,
+      "lam_slow": 37819.459987,
+      "A": 376.521903,
+      "chi2_total": 745950.275474
+    },
+    {
+      "lam_fast": 300.0,
+      "lam_slow": 28606.231075,
+      "A": 376.521882,
+      "chi2_total": 745950.278839
+    },
+    {
+      "lam_fast": 300.0,
+      "lam_slow": 21637.44423,
+      "A": 376.521843,
+      "chi2_total": 745950.284722
+    },
+    {
+      "lam_fast": 300.0,
+      "lam_slow": 16366.329126,
+      "A": 376.521777,
+      "chi2_total": 745950.295003
+    }
+  ]
+}
