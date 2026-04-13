@@ -1,0 +1,324 @@
+{
+  "test_id": "QNG-CPU-076",
+  "decision": "fail",
+  "reference_ratio": 0.7634,
+  "sm_target": 0.7616,
+  "part_a": {
+    "n_configs": 27,
+    "ratio_mean": 0.7682,
+    "ratio_std": 0.0244,
+    "ratio_cv": 0.0318,
+    "n_near_sm": 13,
+    "frac_near_sm": 0.481,
+    "check1_cv_lt_5pct": true,
+    "check3_nd_match_broad": false,
+    "configs": [
+      {
+        "cfg": 1,
+        "alpha": 0.003,
+        "beta": 0.25,
+        "gamma_phi": 0.07,
+        "M_R4": 843.76,
+        "M_R5": 1076.74,
+        "ratio": 0.7836,
+        "is_default": false
+      },
+      {
+        "cfg": 2,
+        "alpha": 0.003,
+        "beta": 0.25,
+        "gamma_phi": 0.1,
+        "M_R4": 1040.38,
+        "M_R5": 1307.38,
+        "ratio": 0.7958,
+        "is_default": false
+      },
+      {
+        "cfg": 3,
+        "alpha": 0.003,
+        "beta": 0.25,
+        "gamma_phi": 0.14,
+        "M_R4": 1252.8,
+        "M_R5": 1541.41,
+        "ratio": 0.8128,
+        "is_default": false
+      },
+      {
+        "cfg": 4,
+        "alpha": 0.003,
+        "beta": 0.35,
+        "gamma_phi": 0.07,
+        "M_R4": 875.55,
+        "M_R5": 1115.24,
+        "ratio": 0.7851,
+        "is_default": false
+      },
+      {
+        "cfg": 5,
+        "alpha": 0.003,
+        "beta": 0.35,
+        "gamma_phi": 0.1,
+        "M_R4": 1077.1,
+        "M_R5": 1354.07,
+        "ratio": 0.7955,
+        "is_default": false
+      },
+      {
+        "cfg": 6,
+        "alpha": 0.003,
+        "beta": 0.35,
+        "gamma_phi": 0.14,
+        "M_R4": 1289.76,
+        "M_R5": 1592.15,
+        "ratio": 0.8101,
+        "is_default": false
+      },
+      {
+        "cfg": 7,
+        "alpha": 0.003,
+        "beta": 0.45,
+        "gamma_phi": 0.07,
+        "M_R4": 900.9,
+        "M_R5": 1144.21,
+        "ratio": 0.7874,
+        "is_default": false
+      },
+      {
+        "cfg": 8,
+        "alpha": 0.003,
+        "beta": 0.45,
+        "gamma_phi": 0.1,
+        "M_R4": 1108.29,
+        "M_R5": 1390.62,
+        "ratio": 0.797,
+        "is_default": false
+      },
+      {
+        "cfg": 9,
+        "alpha": 0.003,
+        "beta": 0.45,
+        "gamma_phi": 0.14,
+        "M_R4": 1323.04,
+        "M_R5": 1633.34,
+        "ratio": 0.81,
+        "is_default": false
+      },
+      {
+        "cfg": 10,
+        "alpha": 0.005,
+        "beta": 0.25,
+        "gamma_phi": 0.07,
+        "M_R4": 559.67,
+        "M_R5": 740.15,
+        "ratio": 0.7562,
+        "is_default": false
+      },
+      {
+        "cfg": 11,
+        "alpha": 0.005,
+        "beta": 0.25,
+        "gamma_phi": 0.1,
+        "M_R4": 706.35,
+        "M_R5": 923.23,
+        "ratio": 0.7651,
+        "is_default": false
+      },
+      {
+        "cfg": 12,
+        "alpha": 0.005,
+        "beta": 0.25,
+        "gamma_phi": 0.14,
+        "M_R4": 871.96,
+        "M_R5": 1118.61,
+        "ratio": 0.7795,
+        "is_default": false
+      },
+      {
+        "cfg": 13,
+        "alpha": 0.005,
+        "beta": 0.35,
+        "gamma_phi": 0.07,
+        "M_R4": 578.38,
+        "M_R5": 764.72,
+        "ratio": 0.7563,
+        "is_default": false
+      },
+      {
+        "cfg": 14,
+        "alpha": 0.005,
+        "beta": 0.35,
+        "gamma_phi": 0.1,
+        "M_R4": 728.92,
+        "M_R5": 954.88,
+        "ratio": 0.7634,
+        "is_default": true
+      },
+      {
+        "cfg": 15,
+        "alpha": 0.005,
+        "beta": 0.35,
+        "gamma_phi": 0.14,
+        "M_R4": 895.48,
+        "M_R5": 1155.27,
+        "ratio": 0.7751,
+        "is_default": false
+      },
+      {
+        "cfg": 16,
+        "alpha": 0.005,
+        "beta": 0.45,
+        "gamma_phi": 0.07,
+        "M_R4": 593.74,
+        "M_R5": 783.58,
+        "ratio": 0.7577,
+        "is_default": false
+      },
+      {
+        "cfg": 17,
+        "alpha": 0.005,
+        "beta": 0.45,
+        "gamma_phi": 0.1,
+        "M_R4": 748.76,
+        "M_R5": 980.15,
+        "ratio": 0.7639,
+        "is_default": false
+      },
+      {
+        "cfg": 18,
+        "alpha": 0.005,
+        "beta": 0.45,
+        "gamma_phi": 0.14,
+        "M_R4": 917.6,
+        "M_R5": 1185.65,
+        "ratio": 0.7739,
+        "is_default": false
+      },
+      {
+        "cfg": 19,
+        "alpha": 0.008,
+        "beta": 0.25,
+        "gamma_phi": 0.07,
+        "M_R4": 372.61,
+        "M_R5": 506.2,
+        "ratio": 0.7361,
+        "is_default": false
+      },
+      {
+        "cfg": 20,
+        "alpha": 0.008,
+        "beta": 0.25,
+        "gamma_phi": 0.1,
+        "M_R4": 479.57,
+        "M_R5": 646.29,
+        "ratio": 0.742,
+        "is_default": false
+      },
+      {
+        "cfg": 21,
+        "alpha": 0.008,
+        "beta": 0.25,
+        "gamma_phi": 0.14,
+        "M_R4": 603.82,
+        "M_R5": 801.56,
+        "ratio": 0.7533,
+        "is_default": false
+      },
+      {
+        "cfg": 22,
+        "alpha": 0.008,
+        "beta": 0.35,
+        "gamma_phi": 0.07,
+        "M_R4": 382.87,
+        "M_R5": 520.88,
+        "ratio": 0.735,
+        "is_default": false
+      },
+      {
+        "cfg": 23,
+        "alpha": 0.008,
+        "beta": 0.35,
+        "gamma_phi": 0.1,
+        "M_R4": 492.59,
+        "M_R5": 666.31,
+        "ratio": 0.7393,
+        "is_default": false
+      },
+      {
+        "cfg": 24,
+        "alpha": 0.008,
+        "beta": 0.35,
+        "gamma_phi": 0.14,
+        "M_R4": 617.93,
+        "M_R5": 826.16,
+        "ratio": 0.748,
+        "is_default": false
+      },
+      {
+        "cfg": 25,
+        "alpha": 0.008,
+        "beta": 0.45,
+        "gamma_phi": 0.07,
+        "M_R4": 391.5,
+        "M_R5": 532.3,
+        "ratio": 0.7355,
+        "is_default": false
+      },
+      {
+        "cfg": 26,
+        "alpha": 0.008,
+        "beta": 0.45,
+        "gamma_phi": 0.1,
+        "M_R4": 504.29,
+        "M_R5": 682.47,
+        "ratio": 0.7389,
+        "is_default": false
+      },
+      {
+        "cfg": 27,
+        "alpha": 0.008,
+        "beta": 0.45,
+        "gamma_phi": 0.14,
+        "M_R4": 631.59,
+        "M_R5": 846.73,
+        "ratio": 0.7459,
+        "is_default": false
+      }
+    ]
+  },
+  "part_b": {
+    "skipped": false,
+    "tp2_results": [
+      {
+        "T_P2": 500,
+        "M_R4": 886.14,
+        "M_R5": 1056.53,
+        "ratio": 0.8387
+      },
+      {
+        "T_P2": 750,
+        "M_R4": 820.87,
+        "M_R5": 1016.51,
+        "ratio": 0.8075
+      },
+      {
+        "T_P2": 1000,
+        "M_R4": 728.92,
+        "M_R5": 954.88,
+        "ratio": 0.7634
+      },
+      {
+        "T_P2": 1250,
+        "M_R4": 619.04,
+        "M_R5": 886.75,
+        "ratio": 0.6981
+      },
+      {
+        "T_P2": 1500,
+        "M_R4": 509.66,
+        "M_R5": 810.14,
+        "ratio": 0.6291
+      }
+    ],
+    "check2_tp2_invariant": false
+  }
+}

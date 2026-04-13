@@ -1,7 +1,7 @@
 # QNG-CPU-076
 
 Type: `prereg`
-Status: `registered`
+Status: `fail`
 Author: `C.D Gabriel`
 Date: `2026-04-13`
 test_class: `mass_identification`

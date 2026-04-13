@@ -1,0 +1,133 @@
+QNG-CPU-076: M_ring ratio stability test
+L=20, PHASE1=300, PHASE2=1500
+Reference ratio (CPU-074/075): 0.7634
+SM target (m_N/m_d): 0.7616
+
+============================================================
+PART A: Parameter grid (27 configurations)
+============================================================
+  [  1/54] cfg= 1  alpha=0.003  beta=0.25  gamma=0.07  R=4  ...  M=843.76
+  [  2/54] cfg= 1  alpha=0.003  beta=0.25  gamma=0.07  R=5  ...  M=1076.74
+  >> ratio M(R=4)/M(R=5) = 0.7836
+  [  3/54] cfg= 2  alpha=0.003  beta=0.25  gamma=0.10  R=4  ...  M=1040.38
+  [  4/54] cfg= 2  alpha=0.003  beta=0.25  gamma=0.10  R=5  ...  M=1307.38
+  >> ratio M(R=4)/M(R=5) = 0.7958
+  [  5/54] cfg= 3  alpha=0.003  beta=0.25  gamma=0.14  R=4  ...  M=1252.80
+  [  6/54] cfg= 3  alpha=0.003  beta=0.25  gamma=0.14  R=5  ...  M=1541.41
+  >> ratio M(R=4)/M(R=5) = 0.8128
+  [  7/54] cfg= 4  alpha=0.003  beta=0.35  gamma=0.07  R=4  ...  M=875.55
+  [  8/54] cfg= 4  alpha=0.003  beta=0.35  gamma=0.07  R=5  ...  M=1115.24
+  >> ratio M(R=4)/M(R=5) = 0.7851
+  [  9/54] cfg= 5  alpha=0.003  beta=0.35  gamma=0.10  R=4  ...  M=1077.10
+  [ 10/54] cfg= 5  alpha=0.003  beta=0.35  gamma=0.10  R=5  ...  M=1354.07
+  >> ratio M(R=4)/M(R=5) = 0.7955
+  [ 11/54] cfg= 6  alpha=0.003  beta=0.35  gamma=0.14  R=4  ...  M=1289.76
+  [ 12/54] cfg= 6  alpha=0.003  beta=0.35  gamma=0.14  R=5  ...  M=1592.15
+  >> ratio M(R=4)/M(R=5) = 0.8101
+  [ 13/54] cfg= 7  alpha=0.003  beta=0.45  gamma=0.07  R=4  ...  M=900.90
+  [ 14/54] cfg= 7  alpha=0.003  beta=0.45  gamma=0.07  R=5  ...  M=1144.21
+  >> ratio M(R=4)/M(R=5) = 0.7874
+  [ 15/54] cfg= 8  alpha=0.003  beta=0.45  gamma=0.10  R=4  ...  M=1108.29
+  [ 16/54] cfg= 8  alpha=0.003  beta=0.45  gamma=0.10  R=5  ...  M=1390.62
+  >> ratio M(R=4)/M(R=5) = 0.7970
+  [ 17/54] cfg= 9  alpha=0.003  beta=0.45  gamma=0.14  R=4  ...  M=1323.04
+  [ 18/54] cfg= 9  alpha=0.003  beta=0.45  gamma=0.14  R=5  ...  M=1633.34
+  >> ratio M(R=4)/M(R=5) = 0.8100
+  [ 19/54] cfg=10  alpha=0.005  beta=0.25  gamma=0.07  R=4  ...  M=559.67
+  [ 20/54] cfg=10  alpha=0.005  beta=0.25  gamma=0.07  R=5  ...  M=740.15
+  >> ratio M(R=4)/M(R=5) = 0.7562
+  [ 21/54] cfg=11  alpha=0.005  beta=0.25  gamma=0.10  R=4  ...  M=706.35
+  [ 22/54] cfg=11  alpha=0.005  beta=0.25  gamma=0.10  R=5  ...  M=923.23
+  >> ratio M(R=4)/M(R=5) = 0.7651
+  [ 23/54] cfg=12  alpha=0.005  beta=0.25  gamma=0.14  R=4  ...  M=871.96
+  [ 24/54] cfg=12  alpha=0.005  beta=0.25  gamma=0.14  R=5  ...  M=1118.61
+  >> ratio M(R=4)/M(R=5) = 0.7795
+  [ 25/54] cfg=13  alpha=0.005  beta=0.35  gamma=0.07  R=4  ...  M=578.38
+  [ 26/54] cfg=13  alpha=0.005  beta=0.35  gamma=0.07  R=5  ...  M=764.72
+  >> ratio M(R=4)/M(R=5) = 0.7563
+  [ 27/54] cfg=14  alpha=0.005  beta=0.35  gamma=0.10  R=4  ...  M=728.92
+  [ 28/54] cfg=14  alpha=0.005  beta=0.35  gamma=0.10  R=5  ...  M=954.88
+  >> ratio M(R=4)/M(R=5) = 0.7634 <-- DEFAULT
+  [ 29/54] cfg=15  alpha=0.005  beta=0.35  gamma=0.14  R=4  ...  M=895.48
+  [ 30/54] cfg=15  alpha=0.005  beta=0.35  gamma=0.14  R=5  ...  M=1155.27
+  >> ratio M(R=4)/M(R=5) = 0.7751
+  [ 31/54] cfg=16  alpha=0.005  beta=0.45  gamma=0.07  R=4  ...  M=593.74
+  [ 32/54] cfg=16  alpha=0.005  beta=0.45  gamma=0.07  R=5  ...  M=783.58
+  >> ratio M(R=4)/M(R=5) = 0.7577
+  [ 33/54] cfg=17  alpha=0.005  beta=0.45  gamma=0.10  R=4  ...  M=748.76
+  [ 34/54] cfg=17  alpha=0.005  beta=0.45  gamma=0.10  R=5  ...  M=980.15
+  >> ratio M(R=4)/M(R=5) = 0.7639
+  [ 35/54] cfg=18  alpha=0.005  beta=0.45  gamma=0.14  R=4  ...  M=917.60
+  [ 36/54] cfg=18  alpha=0.005  beta=0.45  gamma=0.14  R=5  ...  M=1185.65
+  >> ratio M(R=4)/M(R=5) = 0.7739
+  [ 37/54] cfg=19  alpha=0.008  beta=0.25  gamma=0.07  R=4  ...  M=372.61
+  [ 38/54] cfg=19  alpha=0.008  beta=0.25  gamma=0.07  R=5  ...  M=506.20
+  >> ratio M(R=4)/M(R=5) = 0.7361
+  [ 39/54] cfg=20  alpha=0.008  beta=0.25  gamma=0.10  R=4  ...  M=479.57
+  [ 40/54] cfg=20  alpha=0.008  beta=0.25  gamma=0.10  R=5  ...  M=646.29
+  >> ratio M(R=4)/M(R=5) = 0.7420
+  [ 41/54] cfg=21  alpha=0.008  beta=0.25  gamma=0.14  R=4  ...  M=603.82
+  [ 42/54] cfg=21  alpha=0.008  beta=0.25  gamma=0.14  R=5  ...  M=801.56
+  >> ratio M(R=4)/M(R=5) = 0.7533
+  [ 43/54] cfg=22  alpha=0.008  beta=0.35  gamma=0.07  R=4  ...  M=382.87
+  [ 44/54] cfg=22  alpha=0.008  beta=0.35  gamma=0.07  R=5  ...  M=520.88
+  >> ratio M(R=4)/M(R=5) = 0.7350
+  [ 45/54] cfg=23  alpha=0.008  beta=0.35  gamma=0.10  R=4  ...  M=492.59
+  [ 46/54] cfg=23  alpha=0.008  beta=0.35  gamma=0.10  R=5  ...  M=666.31
+  >> ratio M(R=4)/M(R=5) = 0.7393
+  [ 47/54] cfg=24  alpha=0.008  beta=0.35  gamma=0.14  R=4  ...  M=617.93
+  [ 48/54] cfg=24  alpha=0.008  beta=0.35  gamma=0.14  R=5  ...  M=826.16
+  >> ratio M(R=4)/M(R=5) = 0.7480
+  [ 49/54] cfg=25  alpha=0.008  beta=0.45  gamma=0.07  R=4  ...  M=391.50
+  [ 50/54] cfg=25  alpha=0.008  beta=0.45  gamma=0.07  R=5  ...  M=532.30
+  >> ratio M(R=4)/M(R=5) = 0.7355
+  [ 51/54] cfg=26  alpha=0.008  beta=0.45  gamma=0.10  R=4  ...  M=504.29
+  [ 52/54] cfg=26  alpha=0.008  beta=0.45  gamma=0.10  R=5  ...  M=682.47
+  >> ratio M(R=4)/M(R=5) = 0.7389
+  [ 53/54] cfg=27  alpha=0.008  beta=0.45  gamma=0.14  R=4  ...  M=631.59
+  [ 54/54] cfg=27  alpha=0.008  beta=0.45  gamma=0.14  R=5  ...  M=846.73
+  >> ratio M(R=4)/M(R=5) = 0.7459
+
+Part A summary:
+  ratio mean = 0.7682
+  ratio std  = 0.0244
+  CV (std/mean) = 0.0318  [gate < 0.05]
+  configs with |ratio - 0.7616| < 0.020: 13/27  [gate >= 20]
+  Check 1 (topological stability CV<5%): PASS
+  Check 3 (N/d match broad): FAIL
+
+============================================================
+PART B: T_P2 sensitivity (default params)
+============================================================
+  [ 1/10] T_P2=500  R=4  ...  M=886.14
+  [ 2/10] T_P2=500  R=5  ...  M=1056.53
+  >> T_P2=500  ratio = 0.8387
+  [ 3/10] T_P2=750  R=4  ...  M=820.87
+  [ 4/10] T_P2=750  R=5  ...  M=1016.51
+  >> T_P2=750  ratio = 0.8075
+  [ 5/10] T_P2=1000  R=4  ...  M=728.92
+  [ 6/10] T_P2=1000  R=5  ...  M=954.88
+  >> T_P2=1000  ratio = 0.7634
+  [ 7/10] T_P2=1250  R=4  ...  M=619.04
+  [ 8/10] T_P2=1250  R=5  ...  M=886.75
+  >> T_P2=1250  ratio = 0.6981
+  [ 9/10] T_P2=1500  R=4  ...  M=509.66
+  [10/10] T_P2=1500  R=5  ...  M=810.14
+  >> T_P2=1500  ratio = 0.6291
+
+Part B summary:
+  T_P2 ratio range: max-min = 0.2096  [gate < 0.030]
+  All ratios in [0.74, 0.79]: False
+  Check 2 (T_P2-invariant): FAIL
+
+============================================================
+DECISION
+============================================================
+  Check 1 (CV < 5%):          PASS  (CV=0.0318)
+  Check 2 (T_P2 range <3%):   FAIL
+  Check 3 (N/d match >=20/27): FAIL  (13/27)
+
+  FAIL: mixed result — requires manual review
+  qng_mring_ratio_stability_reference: FAIL
+
+Artifacts: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-mring-ratio-stability-v1
