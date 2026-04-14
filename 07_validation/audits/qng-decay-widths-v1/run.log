@@ -1,0 +1,163 @@
+Decay width test (GPU)
+L=40, K_GM=0.01, GAMMA=0.005, PHASE2=30000
+Zero-param test: rate(R_i)/rate(R_j) vs Gamma(i)/Gamma(j) from PDG
+
+GPU: device 0, free mem = 11.79 GB
+
+Building geometry...
+Done.
+
+============================================================
+R=4  N(938)  ch_h=True
+============================================================
+  T=  1000  M=  62.4875  rate=-0.0624875  ** near-stable **
+  T=  2000  M=  54.9486  rate=0.0075389  * plateau *
+  T=  3000  M=  49.4997  rate=0.0054489  * plateau *
+  T=  4000  M=  45.4130  rate=0.0040867  * plateau *
+  T=  5000  M=  42.2658  rate=0.0031472  * plateau *
+  T=  6000  M=  39.7401  rate=0.0025256  * plateau *
+  T=  7000  M=  37.6198  rate=0.0021203  * plateau *
+  T=  8000  M=  35.8615  rate=0.0017583  ** near-stable **
+  T=  9000  M=  34.3641  rate=0.0014974  ** near-stable **
+  T= 10000  M=  33.0571  rate=0.0013071  ** near-stable **
+  T= 11000  M=  31.8966  rate=0.0011604  ** near-stable **
+  T= 12000  M=  30.8539  rate=0.0010427  ** near-stable **
+  T= 13000  M=  29.9019  rate=0.0009521  ** near-stable **
+  T= 14000  M=  29.0199  rate=0.0008819  ** near-stable **
+  T= 15000  M=  28.1922  rate=0.0008277  ** near-stable **
+  T= 16000  M=  27.4044  rate=0.0007877  ** near-stable **
+  T= 17000  M=  26.6445  rate=0.0007600  ** near-stable **
+  T= 18000  M=  25.9055  rate=0.0007390  ** near-stable **
+  T= 19000  M=  25.1833  rate=0.0007223  ** near-stable **
+  T= 20000  M=  24.4745  rate=0.0007088  ** near-stable **
+  T= 21000  M=  23.7775  rate=0.0006969  ** near-stable **
+  T= 22000  M=  23.0892  rate=0.0006884  ** near-stable **
+  T= 23000  M=  22.3965  rate=0.0006926  ** near-stable **
+  T= 24000  M=  21.6770  rate=0.0007196  ** near-stable **
+  T= 25000  M=  20.9175  rate=0.0007595  ** near-stable **
+  T= 26000  M=  20.1443  rate=0.0007732  ** near-stable **
+  T= 27000  M=  19.4149  rate=0.0007293  ** near-stable **
+  T= 28000  M=  18.7482  rate=0.0006667  ** near-stable **
+  T= 29000  M=  18.1243  rate=0.0006239  ** near-stable **
+  T= 30000  M=  17.5110  rate=0.0006134  ** near-stable **
+  >> N(938): plateau_rate=0.0008025  M_final=17.5110
+
+============================================================
+R=5  Delta(1232)  ch_h=False
+============================================================
+  T=  1000  M=  47.0836  rate=-0.0470836  ** near-stable **
+  T=  2000  M=  38.2154  rate=0.0088682  * plateau *
+  T=  3000  M=  33.7990  rate=0.0044164  * plateau *
+  T=  4000  M=  30.7141  rate=0.0030849  * plateau *
+  T=  5000  M=  28.2241  rate=0.0024900  * plateau *
+  T=  6000  M=  26.1756  rate=0.0020484  * plateau *
+  T=  7000  M=  24.1520  rate=0.0020236  * plateau *
+  T=  8000  M=  22.0328  rate=0.0021192  * plateau *
+  T=  9000  M=  19.8838  rate=0.0021490  * plateau *
+  T= 10000  M=  17.1538  rate=0.0027300  * plateau *
+  T= 11000  M=  14.1168  rate=0.0030370  * plateau *
+  T= 12000  M=  12.6502  rate=0.0014665  ** near-stable **
+  T= 13000  M=  11.6549  rate=0.0009954  ** near-stable **
+  T= 14000  M=  10.8574  rate=0.0007974  ** near-stable **
+  T= 15000  M=  10.1779  rate=0.0006795  ** near-stable **
+  T= 16000  M=   9.5804  rate=0.0005975  ** near-stable **
+  T= 17000  M=   9.0446  rate=0.0005358  ** near-stable **
+  T= 18000  M=   8.5575  rate=0.0004871  *** STABLE ***
+  T= 19000  M=   8.1103  rate=0.0004472  *** STABLE ***
+  T= 20000  M=   7.6968  rate=0.0004135  *** STABLE ***
+  T= 21000  M=   7.3123  rate=0.0003845  *** STABLE ***
+  T= 22000  M=   6.9534  rate=0.0003590  *** STABLE ***
+  T= 23000  M=   6.6171  rate=0.0003363  *** STABLE ***
+  T= 24000  M=   6.3012  rate=0.0003159  *** STABLE ***
+  T= 25000  M=   6.0038  rate=0.0002974  *** STABLE ***
+  T= 26000  M=   5.7234  rate=0.0002804  *** STABLE ***
+  T= 27000  M=   5.4586  rate=0.0002648  *** STABLE ***
+  T= 28000  M=   5.2081  rate=0.0002504  *** STABLE ***
+  T= 29000  M=   4.9710  rate=0.0002371  *** STABLE ***
+  T= 30000  M=   4.7463  rate=0.0002247  *** STABLE ***
+  >> Delta(1232): plateau_rate=0.0007208  M_final=4.7463
+
+============================================================
+R=6  N*(1520)  ch_h=False
+============================================================
+  T=  1000  M=  53.4665  rate=-0.0534665  ** near-stable **
+  T=  2000  M=  43.9794  rate=0.0094870  * plateau *
+  T=  3000  M=  39.5012  rate=0.0044782  * plateau *
+  T=  4000  M=  36.6332  rate=0.0028680  * plateau *
+  T=  5000  M=  34.4611  rate=0.0021722  * plateau *
+  T=  6000  M=  32.6076  rate=0.0018535  ** near-stable **
+  T=  7000  M=  30.9386  rate=0.0016690  ** near-stable **
+  T=  8000  M=  29.4509  rate=0.0014877  ** near-stable **
+  T=  9000  M=  28.0436  rate=0.0014072  ** near-stable **
+  T= 10000  M=  26.5898  rate=0.0014539  ** near-stable **
+  T= 11000  M=  25.1217  rate=0.0014681  ** near-stable **
+  T= 12000  M=  23.6322  rate=0.0014895  ** near-stable **
+  T= 13000  M=  22.0419  rate=0.0015903  ** near-stable **
+  T= 14000  M=  20.3316  rate=0.0017103  ** near-stable **
+  T= 15000  M=  18.2639  rate=0.0020677  * plateau *
+  T= 16000  M=  15.6878  rate=0.0025761  * plateau *
+  T= 17000  M=  13.4965  rate=0.0021913  * plateau *
+  T= 18000  M=  11.7165  rate=0.0017801  ** near-stable **
+  T= 19000  M=  10.7693  rate=0.0009472  ** near-stable **
+  T= 20000  M=  10.0442  rate=0.0007251  ** near-stable **
+  T= 21000  M=   9.4343  rate=0.0006099  ** near-stable **
+  T= 22000  M=   8.8992  rate=0.0005351  ** near-stable **
+  T= 23000  M=   8.4184  rate=0.0004808  *** STABLE ***
+  T= 24000  M=   7.9796  rate=0.0004388  *** STABLE ***
+  T= 25000  M=   7.5749  rate=0.0004047  *** STABLE ***
+  T= 26000  M=   7.1991  rate=0.0003758  *** STABLE ***
+  T= 27000  M=   6.8481  rate=0.0003509  *** STABLE ***
+  T= 28000  M=   6.5192  rate=0.0003289  *** STABLE ***
+  T= 29000  M=   6.2100  rate=0.0003092  *** STABLE ***
+  T= 30000  M=   5.9186  rate=0.0002914  *** STABLE ***
+  >> N*(1520): plateau_rate=0.0010536  M_final=5.9186
+
+============================================================
+R=7  Delta(1700)  ch_h=False
+============================================================
+  T=  1000  M=  59.1062  rate=-0.0591062  ** near-stable **
+  T=  2000  M=  49.0230  rate=0.0100832
+  T=  3000  M=  44.4734  rate=0.0045496  * plateau *
+  T=  4000  M=  41.6608  rate=0.0028126  * plateau *
+  T=  5000  M=  39.6390  rate=0.0020218  * plateau *
+  T=  6000  M=  37.9577  rate=0.0016813  ** near-stable **
+  T=  7000  M=  36.4281  rate=0.0015296  ** near-stable **
+  T=  8000  M=  35.0401  rate=0.0013879  ** near-stable **
+  T=  9000  M=  33.8456  rate=0.0011945  ** near-stable **
+  T= 10000  M=  32.7605  rate=0.0010852  ** near-stable **
+  T= 11000  M=  31.6828  rate=0.0010776  ** near-stable **
+  T= 12000  M=  30.5105  rate=0.0011724  ** near-stable **
+  T= 13000  M=  29.2929  rate=0.0012176  ** near-stable **
+  T= 14000  M=  28.1590  rate=0.0011339  ** near-stable **
+  T= 15000  M=  27.0806  rate=0.0010784  ** near-stable **
+  T= 16000  M=  25.8754  rate=0.0012052  ** near-stable **
+  T= 17000  M=  24.5389  rate=0.0013365  ** near-stable **
+  T= 18000  M=  23.2133  rate=0.0013255  ** near-stable **
+  T= 19000  M=  21.8310  rate=0.0013823  ** near-stable **
+  T= 20000  M=  20.2259  rate=0.0016051  ** near-stable **
+  T= 21000  M=  18.4342  rate=0.0017917  ** near-stable **
+  T= 22000  M=  16.2349  rate=0.0021993  * plateau *
+  T= 23000  M=  13.5424  rate=0.0026925  * plateau *
+  T= 24000  M=  11.5432  rate=0.0019991  ** near-stable **
+  T= 25000  M=  10.5391  rate=0.0010041  ** near-stable **
+  T= 26000  M=   9.8024  rate=0.0007367  ** near-stable **
+  T= 27000  M=   9.1944  rate=0.0006080  ** near-stable **
+  T= 28000  M=   8.6663  rate=0.0005282  ** near-stable **
+  T= 29000  M=   8.1943  rate=0.0004719  *** STABLE ***
+  T= 30000  M=   7.7650  rate=0.0004293  *** STABLE ***
+  >> Delta(1700): plateau_rate=0.0012419  M_final=7.7650
+
+============================================================
+DECAY WIDTH RATIO TEST
+============================================================
+Pair                   rate_ratio  Gamma_ratio     err% match?
+------------------------------------------------------------
+  Delta(1232)/N*(1520)       0.6842       1.0261    33.3%  CLOSE
+  Delta(1232)/Delta(1700)       0.5804       0.3933    47.6%  MISS
+  N*(1520)/Delta(1700)       0.8483       0.3833   121.3%  MISS
+Traceback (most recent call last):
+  File "C:\Users\tigan\Desktop\QNG-Theory Release-01\tests\gpu\qng_decay_widths_gpu.py", line 350, in <module>
+    raise SystemExit(main())
+  File "C:\Users\tigan\Desktop\QNG-Theory Release-01\tests\gpu\qng_decay_widths_gpu.py", line 274, in main
+    err_pct    = abs(sim_ratio - pdg_ratio) / pdg_ratio * 100
+ZeroDivisionError: float division by zero
