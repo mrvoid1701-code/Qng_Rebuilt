@@ -1,0 +1,64 @@
+L-scaling test: BETA_PHI=0.005, GAMMA_PHI=0.1
+PHASE1=300, PHASE2=3000
+Hypothesis A (artifact): stable R scales with L -> L=30 stable at R=12, not R=8
+Hypothesis B (physics):  stable R fixed at R=8 -> L=30 also stable at R=8
+
+=======================================================
+L=20  R=8  (N=8000 nodes)
+=======================================================
+  T= 200  M=  1322.5  rate=-6.61232  *** STABLE ***
+  T= 400  M=  1531.1  rate=-1.04313  *** STABLE ***
+  T= 600  M=  1555.5  rate=-0.12198  *** STABLE ***
+  T=1200  M=  1514.2  rate=0.07732
+  T=1800  M=  1478.9  rate=0.04876
+  T=2400  M=  1457.9  rate=0.02960
+  T=3000  M=  1444.3  rate=0.01980
+  >> peak=1555.5  final=1444.3  late_rate=0.02264  [SLOWING]
+
+=======================================================
+L=30  R=8  (N=27000 nodes)
+=======================================================
+  T= 200  M=  2359.7  rate=-11.79835  *** STABLE ***
+  T= 400  M=  2815.8  rate=-2.28072  *** STABLE ***
+  T= 600  M=  2882.6  rate=-0.33369  *** STABLE ***
+  T=1200  M=  2734.9  rate=0.28710
+  T=1800  M=  2589.1  rate=0.21828
+  T=2400  M=  2485.3  rate=0.15382
+  T=3000  M=  2408.8  rate=0.11644
+  >> peak=2882.6  final=2408.8  late_rate=0.12736  [DISSOLVING]
+
+=======================================================
+L=30  R=12  (N=27000 nodes)
+=======================================================
+  T= 200  M=  2748.4  rate=-13.74226  *** STABLE ***
+  T= 400  M=  3283.9  rate=-2.67737  *** STABLE ***
+  T= 600  M=  3380.3  rate=-0.48210  *** STABLE ***
+  T=1200  M=  3276.0  rate=0.22837
+  T=1800  M=  3159.9  rate=0.17464
+  T=2400  M=  3077.7  rate=0.11818
+  T=3000  M=  3023.5  rate=0.07890
+  >> peak=3380.3  final=3023.5  late_rate=0.09023  [DISSOLVING]
+
+=======================================================
+L=30  R=10  (N=27000 nodes)
+=======================================================
+  T= 200  M=  2605.2  rate=-13.02615  *** STABLE ***
+  T= 400  M=  3115.0  rate=-2.54863  *** STABLE ***
+  T= 600  M=  3199.8  rate=-0.42417  *** STABLE ***
+  T=1200  M=  3067.8  rate=0.26946
+  T=1800  M=  2936.3  rate=0.19168
+  T=2400  M=  2847.0  rate=0.13107
+  T=3000  M=  2783.5  rate=0.09522
+  >> peak=3199.8  final=2783.5  late_rate=0.10579  [DISSOLVING]
+
+=======================================================
+VERDICT
+=======================================================
+  L=20 R=8  (control):  SLOWING
+  L=30 R=8:             DISSOLVING
+  L=30 R=10:            DISSOLVING
+  L=30 R=12:            DISSOLVING
+
+  NEITHER stable on L=30: need larger L or different parameters
+
+Artifacts: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-ring-lscale-v1
