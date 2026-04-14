@@ -1,0 +1,206 @@
+v8 + v7 combined: Channel H + two-field + back-reaction (GPU)
+L=40, R=8, N=64000, ALPHA=0.005, GAMMA=0.005, PHASE2=60000
+Gate STABLE: rate < 0.0005 (positive)
+
+GPU: device 0, free mem = 11.79 GB
+
+Building geometry...
+Done.
+
+============================================================
+v8_ref  k_gm=0.0  bp_min=0.001  bp_ring=0.005  ch_h=True
+============================================================
+  T=  2000  M=    367.8  rate=-0.183900  ** near-stable **
+  T=  4000  M=    314.2  rate=0.026779
+  T=  6000  M=    282.6  rate=0.015817
+  T=  8000  M=    262.3  rate=0.010150
+  T= 10000  M=    249.3  rate=0.006513  * plateau *
+  T= 12000  M=    239.9  rate=0.004703  * plateau *
+  T= 14000  M=    232.6  rate=0.003640  * plateau *
+  T= 16000  M=    226.7  rate=0.002940  * plateau *
+  T= 18000  M=    221.8  rate=0.002455  * plateau *
+  T= 20000  M=    217.6  rate=0.002111  * plateau *
+  T= 22000  M=    213.9  rate=0.001862  ** near-stable **
+  T= 24000  M=    210.5  rate=0.001683  ** near-stable **
+  T= 26000  M=    207.4  rate=0.001560  ** near-stable **
+  T= 28000  M=    204.4  rate=0.001482  ** near-stable **
+  T= 30000  M=    201.5  rate=0.001440  ** near-stable **
+  T= 32000  M=    198.7  rate=0.001409  ** near-stable **
+  T= 34000  M=    196.0  rate=0.001369  ** near-stable **
+  T= 36000  M=    193.3  rate=0.001320  ** near-stable **
+  T= 38000  M=    190.8  rate=0.001250  ** near-stable **
+  T= 40000  M=    188.5  rate=0.001157  ** near-stable **
+  T= 42000  M=    186.4  rate=0.001074  ** near-stable **
+  T= 44000  M=    184.3  rate=0.001015  ** near-stable **
+  T= 46000  M=    182.4  rate=0.000976  ** near-stable **
+  T= 48000  M=    180.5  rate=0.000953  ** near-stable **
+  T= 50000  M=    178.6  rate=0.000942  ** near-stable **
+  T= 52000  M=    176.7  rate=0.000945  ** near-stable **
+  T= 54000  M=    174.8  rate=0.000962  ** near-stable **
+  T= 56000  M=    172.8  rate=0.000997  ** near-stable **
+  T= 58000  M=    170.7  rate=0.001046  ** near-stable **
+  T= 60000  M=    168.5  rate=0.001084  ** near-stable **
+  >> peak=367.8  final=168.5  late_rate=0.000999  [flat]  [NEAR-STAB]
+
+============================================================
+v7h_a  k_gm=0.01  bp_min=0.001  bp_ring=0.005  ch_h=True
+============================================================
+  *** STABLE GATE at T=20000 rate=0.000487 ***
+  T=  2000  M=     80.3  rate=-0.040143  ** near-stable **
+  T=  4000  M=     68.8  rate=0.005749  * plateau *
+  T=  6000  M=     61.7  rate=0.003537  * plateau *
+  T=  8000  M=     57.0  rate=0.002378  * plateau *
+  T= 10000  M=     53.9  rate=0.001538  ** near-stable **
+  T= 12000  M=     51.7  rate=0.001108  ** near-stable **
+  T= 14000  M=     50.0  rate=0.000856  ** near-stable **
+  T= 16000  M=     48.6  rate=0.000689  ** near-stable **
+  T= 18000  M=     47.4  rate=0.000572  ** near-stable **
+  T= 20000  M=     46.5  rate=0.000487  *** STABLE ***
+  T= 22000  M=     45.6  rate=0.000425  *** STABLE ***
+  T= 24000  M=     44.9  rate=0.000379  *** STABLE ***
+  T= 26000  M=     44.2  rate=0.000345  *** STABLE ***
+  T= 28000  M=     43.5  rate=0.000321  *** STABLE ***
+  T= 30000  M=     42.9  rate=0.000305  *** STABLE ***
+  T= 32000  M=     42.3  rate=0.000297  *** STABLE ***
+  T= 34000  M=     41.7  rate=0.000290  *** STABLE ***
+  T= 36000  M=     41.2  rate=0.000282  *** STABLE ***
+  T= 38000  M=     40.6  rate=0.000273  *** STABLE ***
+  T= 40000  M=     40.1  rate=0.000261  *** STABLE ***
+  T= 42000  M=     39.6  rate=0.000244  *** STABLE ***
+  T= 44000  M=     39.2  rate=0.000226  *** STABLE ***
+  T= 46000  M=     38.7  rate=0.000211  *** STABLE ***
+  T= 48000  M=     38.3  rate=0.000201  *** STABLE ***
+  T= 50000  M=     38.0  rate=0.000194  *** STABLE ***
+  T= 52000  M=     37.6  rate=0.000190  *** STABLE ***
+  T= 54000  M=     37.2  rate=0.000188  *** STABLE ***
+  T= 56000  M=     36.8  rate=0.000188  *** STABLE ***
+  T= 58000  M=     36.4  rate=0.000191  *** STABLE ***
+  T= 60000  M=     36.0  rate=0.000197  *** STABLE ***
+  >> peak=80.3  final=36.0  late_rate=0.000203  [dec]  [STABLE]  STABLE@T=20000
+
+============================================================
+v7h_b  k_gm=0.05  bp_min=0.001  bp_ring=0.005  ch_h=True
+============================================================
+  *** STABLE GATE at T=4000 rate=0.000430 ***
+  T=  2000  M=      5.8  rate=-0.002903  ** near-stable **
+  T=  4000  M=      5.0  rate=0.000430  *** STABLE ***
+  T=  6000  M=      4.4  rate=0.000285  *** STABLE ***
+  T=  8000  M=      4.0  rate=0.000199  *** STABLE ***
+  T= 10000  M=      3.7  rate=0.000127  *** STABLE ***
+  T= 12000  M=      3.5  rate=0.000090  *** STABLE ***
+  T= 14000  M=      3.4  rate=0.000068  *** STABLE ***
+  T= 16000  M=      3.3  rate=0.000054  *** STABLE ***
+  T= 18000  M=      3.2  rate=0.000043  *** STABLE ***
+  T= 20000  M=      3.1  rate=0.000035  *** STABLE ***
+  T= 22000  M=      3.1  rate=0.000029  *** STABLE ***
+  T= 24000  M=      3.0  rate=0.000026  *** STABLE ***
+  T= 26000  M=      3.0  rate=0.000023  *** STABLE ***
+  T= 28000  M=      3.0  rate=0.000021  *** STABLE ***
+  T= 30000  M=      2.9  rate=0.000020  *** STABLE ***
+  T= 32000  M=      2.9  rate=0.000019  *** STABLE ***
+  T= 34000  M=      2.8  rate=0.000019  *** STABLE ***
+  T= 36000  M=      2.8  rate=0.000019  *** STABLE ***
+  T= 38000  M=      2.8  rate=0.000019  *** STABLE ***
+  T= 40000  M=      2.7  rate=0.000019  *** STABLE ***
+  T= 42000  M=      2.7  rate=0.000018  *** STABLE ***
+  T= 44000  M=      2.6  rate=0.000017  *** STABLE ***
+  T= 46000  M=      2.6  rate=0.000016  *** STABLE ***
+  T= 48000  M=      2.6  rate=0.000014  *** STABLE ***
+  T= 50000  M=      2.6  rate=0.000013  *** STABLE ***
+  T= 52000  M=      2.5  rate=0.000012  *** STABLE ***
+  T= 54000  M=      2.5  rate=0.000012  *** STABLE ***
+  T= 56000  M=      2.5  rate=0.000012  *** STABLE ***
+  T= 58000  M=      2.5  rate=0.000011  *** STABLE ***
+  T= 60000  M=      2.4  rate=0.000011  *** STABLE ***
+  >> peak=5.8  final=2.4  late_rate=0.000014  [dec]  [STABLE]  STABLE@T=4000
+
+============================================================
+v7h_c  k_gm=0.1  bp_min=0.001  bp_ring=0.005  ch_h=True
+============================================================
+  *** STABLE GATE at T=4000 rate=0.000112 ***
+  T=  2000  M=      1.6  rate=-0.000783  ** near-stable **
+  T=  4000  M=      1.3  rate=0.000112  *** STABLE ***
+  T=  6000  M=      1.2  rate=0.000073  *** STABLE ***
+  T=  8000  M=      1.1  rate=0.000051  *** STABLE ***
+  T= 10000  M=      1.0  rate=0.000032  *** STABLE ***
+  T= 12000  M=      1.0  rate=0.000022  *** STABLE ***
+  T= 14000  M=      0.9  rate=0.000016  *** STABLE ***
+  T= 16000  M=      0.9  rate=0.000013  *** STABLE ***
+  T= 18000  M=      0.9  rate=0.000011  *** STABLE ***
+  T= 20000  M=      0.9  rate=0.000009  *** STABLE ***
+  T= 22000  M=      0.9  rate=0.000008  *** STABLE ***
+  T= 24000  M=      0.9  rate=0.000007  *** STABLE ***
+  T= 26000  M=      0.8  rate=0.000006  *** STABLE ***
+  T= 28000  M=      0.8  rate=0.000005  *** STABLE ***
+  T= 30000  M=      0.8  rate=0.000005  *** STABLE ***
+  T= 32000  M=      0.8  rate=0.000005  *** STABLE ***
+  T= 34000  M=      0.8  rate=0.000005  *** STABLE ***
+  T= 36000  M=      0.8  rate=0.000005  *** STABLE ***
+  T= 38000  M=      0.8  rate=0.000005  *** STABLE ***
+  T= 40000  M=      0.8  rate=0.000005  *** STABLE ***
+  T= 42000  M=      0.8  rate=0.000005  *** STABLE ***
+  T= 44000  M=      0.8  rate=0.000005  *** STABLE ***
+  T= 46000  M=      0.8  rate=0.000004  *** STABLE ***
+  T= 48000  M=      0.7  rate=0.000004  *** STABLE ***
+  T= 50000  M=      0.7  rate=0.000004  *** STABLE ***
+  T= 52000  M=      0.7  rate=0.000003  *** STABLE ***
+  T= 54000  M=      0.7  rate=0.000003  *** STABLE ***
+  T= 56000  M=      0.7  rate=0.000003  *** STABLE ***
+  T= 58000  M=      0.7  rate=0.000003  *** STABLE ***
+  T= 60000  M=      0.7  rate=0.000003  *** STABLE ***
+  >> peak=1.6  final=0.7  late_rate=0.000004  [dec]  [STABLE]  STABLE@T=4000
+
+============================================================
+v7_only  k_gm=0.1  bp_min=0.005  bp_ring=0.0  ch_h=False
+============================================================
+  *** STABLE GATE at T=4000 rate=0.000064 ***
+  T=  2000  M=      1.0  rate=-0.000506  ** near-stable **
+  T=  4000  M=      0.9  rate=0.000064  *** STABLE ***
+  T=  6000  M=      0.8  rate=0.000030  *** STABLE ***
+  T=  8000  M=      0.8  rate=0.000025  *** STABLE ***
+  T= 10000  M=      0.7  rate=0.000021  *** STABLE ***
+  T= 12000  M=      0.7  rate=0.000016  *** STABLE ***
+  T= 14000  M=      0.7  rate=0.000018  *** STABLE ***
+  T= 16000  M=      0.6  rate=0.000021  *** STABLE ***
+  T= 18000  M=      0.6  rate=0.000017  *** STABLE ***
+  T= 20000  M=      0.6  rate=0.000020  *** STABLE ***
+  T= 22000  M=      0.5  rate=0.000023  *** STABLE ***
+  T= 24000  M=      0.5  rate=0.000021  *** STABLE ***
+  T= 26000  M=      0.4  rate=0.000028  *** STABLE ***
+  T= 28000  M=      0.3  rate=0.000029  *** STABLE ***
+  T= 30000  M=      0.3  rate=0.000041  *** STABLE ***
+  T= 32000  M=      0.1  rate=0.000056  *** STABLE ***
+  T= 34000  M=      0.1  rate=0.000015  *** STABLE ***
+  T= 36000  M=      0.1  rate=0.000008  *** STABLE ***
+  T= 38000  M=      0.1  rate=0.000006  *** STABLE ***
+  T= 40000  M=      0.1  rate=0.000005  *** STABLE ***
+  T= 42000  M=      0.1  rate=0.000004  *** STABLE ***
+  T= 44000  M=      0.1  rate=0.000004  *** STABLE ***
+  T= 46000  M=      0.1  rate=0.000003  *** STABLE ***
+  T= 48000  M=      0.1  rate=0.000003  *** STABLE ***
+  T= 50000  M=      0.1  rate=0.000003  *** STABLE ***
+  T= 52000  M=      0.1  rate=0.000002  *** STABLE ***
+  T= 54000  M=      0.0  rate=0.000002  *** STABLE ***
+  T= 56000  M=      0.0  rate=0.000002  *** STABLE ***
+  T= 58000  M=      0.0  rate=0.000002  *** STABLE ***
+  T= 60000  M=      0.0  rate=0.000002  *** STABLE ***
+  >> peak=1.0  final=0.0  late_rate=0.000003  [dec]  [STABLE]  STABLE@T=4000
+
+============================================================
+SUMMARY
+============================================================
+label          k_gm  ch_h   M_final  late_rate trend status
+-----------------------------------------------------------------
+  v8_ref       0.000     Y     168.5   0.000999  flat   NEAR-STAB  stable:-
+  v7h_a        0.010     Y      36.0   0.000203   dec   STABLE  stable:T=20000
+  v7h_b        0.050     Y       2.4   0.000014   dec   STABLE  stable:T=4000
+  v7h_c        0.100     Y       0.7   0.000004   dec   STABLE  stable:T=4000
+  v7_only      0.100     N       0.0   0.000003   dec   STABLE  stable:T=4000
+
+*** STABLE RING CONFIRMED ***
+  v7h_a: k_gm=0.01  M_stable~36.0  first_stable@T=20000
+  v7h_b: k_gm=0.05  M_stable~2.4  first_stable@T=4000
+  v7h_c: k_gm=0.1  M_stable~0.7  first_stable@T=4000
+  v7_only: k_gm=0.1  M_stable~0.0  first_stable@T=4000
+
+Artifacts: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-v7-combined-v1

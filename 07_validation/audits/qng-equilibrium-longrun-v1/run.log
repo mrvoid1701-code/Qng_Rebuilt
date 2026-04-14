@@ -1,0 +1,119 @@
+Equilibrium long-run confirmation (GPU)
+ALPHA=0.005, GAMMA_PHI=0.01 (ratio=2)
+BETA_PHI=0.005, PHASE2=12000
+Gate: avg(rate[-5:]) < 0.003 -> STABLE
+
+GPU: device 0, free mem = 11.79 GB
+
+============================================================
+L=30  R=8  N=27000  [L30_R8  [candidate - extend from T=5000]]
+R/L=0.267  (box resonance at R/L=0.40 -> R=12)
+============================================================
+  Building neighbor arrays for N=27000...
+  Initializing phi ring (R=8)...
+  Phase 1 (300 steps)...
+  Phase 2 (12000 steps)...
+  T=   500  M=    485.0  rate=-0.97004  *** STABLE ***
+  T=  1000  M=    459.5  rate=0.05105
+  T=  1500  M=    421.2  rate=0.07659
+  T=  2000  M=    394.7  rate=0.05308
+  T=  2500  M=    378.0  rate=0.03332
+  T=  3000  M=    366.5  rate=0.02294
+  T=  3500  M=    357.9  rate=0.01728
+  T=  4000  M=    351.0  rate=0.01376
+  T=  4500  M=    345.3  rate=0.01141  ** plateau **
+  T=  5000  M=    340.4  rate=0.00983  ** plateau **
+  T=  5500  M=    336.0  rate=0.00878  ** plateau **
+  T=  6000  M=    331.9  rate=0.00812  ** plateau **
+  T=  6500  M=    328.0  rate=0.00780  ** plateau **
+  T=  7000  M=    324.2  rate=0.00775  ** plateau **
+  T=  7500  M=    320.2  rate=0.00790  ** plateau **
+  T=  8000  M=    316.2  rate=0.00805  ** plateau **
+  T=  8500  M=    312.2  rate=0.00801  ** plateau **
+  T=  9000  M=    308.3  rate=0.00769  ** plateau **
+  T=  9500  M=    304.8  rate=0.00715  ** plateau **
+  T= 10000  M=    301.4  rate=0.00663  ** plateau **
+  T= 10500  M=    298.3  rate=0.00629  ** plateau **
+  T= 11000  M=    295.2  rate=0.00611  ** plateau **
+  T= 11500  M=    292.2  rate=0.00606  ** plateau **
+  T= 12000  M=    289.2  rate=0.00612  ** plateau **
+  >> peak=485.0  final=289.2  late_rate=0.00624  [PLATEAU]
+
+============================================================
+L=40  R=8  N=64000  [L40_R8  [box test - R=8 on larger box]]
+R/L=0.200  (box resonance at R/L=0.40 -> R=16)
+============================================================
+  Building neighbor arrays for N=64000...
+  Initializing phi ring (R=8)...
+  Phase 1 (300 steps)...
+  Phase 2 (12000 steps)...
+  T=   500  M=    679.2  rate=-1.35840  *** STABLE ***
+  T=  1000  M=    623.6  rate=0.11116
+  T=  1500  M=    557.8  rate=0.13163
+  T=  2000  M=    513.3  rate=0.08899
+  T=  2500  M=    483.4  rate=0.05982
+  T=  3000  M=    462.9  rate=0.04107
+  T=  3500  M=    447.4  rate=0.03082
+  T=  4000  M=    435.2  rate=0.02454
+  T=  4500  M=    425.1  rate=0.02028
+  T=  5000  M=    416.4  rate=0.01728
+  T=  5500  M=    408.8  rate=0.01517
+  T=  6000  M=    402.0  rate=0.01369
+  T=  6500  M=    395.6  rate=0.01271
+  T=  7000  M=    389.6  rate=0.01212
+  T=  7500  M=    383.7  rate=0.01178  ** plateau **
+  T=  8000  M=    377.9  rate=0.01148  ** plateau **
+  T=  8500  M=    372.4  rate=0.01111  ** plateau **
+  T=  9000  M=    367.1  rate=0.01064  ** plateau **
+  T=  9500  M=    362.1  rate=0.00996  ** plateau **
+  T= 10000  M=    357.4  rate=0.00924  ** plateau **
+  T= 10500  M=    353.1  rate=0.00870  ** plateau **
+  T= 11000  M=    348.9  rate=0.00835  ** plateau **
+  T= 11500  M=    344.9  rate=0.00815  ** plateau **
+  T= 12000  M=    340.8  rate=0.00809  ** plateau **
+  >> peak=679.2  final=340.8  late_rate=0.00851  [PLATEAU]
+
+============================================================
+L=40  R=10  N=64000  [L40_R10 [intermediate R on large box]]
+R/L=0.250  (box resonance at R/L=0.40 -> R=16)
+============================================================
+  Building neighbor arrays for N=64000...
+  Initializing phi ring (R=10)...
+  Phase 1 (300 steps)...
+  Phase 2 (12000 steps)...
+  T=   500  M=    773.0  rate=-1.54596  *** STABLE ***
+  T=  1000  M=    715.1  rate=0.11567
+  T=  1500  M=    642.8  rate=0.14467
+  T=  2000  M=    596.7  rate=0.09231
+  T=  2500  M=    567.0  rate=0.05921
+  T=  3000  M=    546.5  rate=0.04102
+  T=  3500  M=    531.3  rate=0.03041
+  T=  4000  M=    519.5  rate=0.02369
+  T=  4500  M=    509.9  rate=0.01919
+  T=  5000  M=    501.9  rate=0.01605
+  T=  5500  M=    495.0  rate=0.01379
+  T=  6000  M=    488.9  rate=0.01211
+  T=  6500  M=    483.5  rate=0.01085  ** plateau **
+  T=  7000  M=    478.6  rate=0.00988  ** plateau **
+  T=  7500  M=    474.0  rate=0.00915  ** plateau **
+  T=  8000  M=    469.7  rate=0.00862  ** plateau **
+  T=  8500  M=    465.5  rate=0.00826  ** plateau **
+  T=  9000  M=    461.5  rate=0.00808  ** plateau **
+  T=  9500  M=    457.4  rate=0.00808  ** plateau **
+  T= 10000  M=    453.4  rate=0.00818  ** plateau **
+  T= 10500  M=    449.3  rate=0.00819  ** plateau **
+  T= 11000  M=    445.3  rate=0.00793  ** plateau **
+  T= 11500  M=    441.6  rate=0.00738  ** plateau **
+  T= 12000  M=    438.2  rate=0.00678  ** plateau **
+  >> peak=773.0  final=438.2  late_rate=0.00769  [PLATEAU]
+
+============================================================
+VERDICT
+============================================================
+  L=30 R=8 (R/L=0.267): final=289.2  rate=0.00624  [PLATEAU]
+  L=40 R=8 (R/L=0.2): final=340.8  rate=0.00851  [PLATEAU]
+  L=40 R=10 (R/L=0.25): final=438.2  rate=0.00769  [PLATEAU]
+
+  GENUINE STABILITY: R=8 stable on both L=30 and L=40 -> not box artifact
+
+Artifacts: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-equilibrium-longrun-v1

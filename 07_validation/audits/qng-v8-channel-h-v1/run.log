@@ -1,0 +1,178 @@
+v8 Channel H: depletion-weighted phi diffusion (GPU)
+L=40, R=8, N=64000, ALPHA=0.005, PHASE2=20000
+Channel H: bp_eff = bp_min + bp_ring * depletion(sigma_m)
+Gate STABLE: avg(rate[-8:]) < 0.0005
+Gate ->STABLE: avg < 0.002 AND decreasing
+
+GPU: device 0, free mem = 11.79 GB
+
+Building geometry...
+Done.
+
+============================================================
+v5_baseline  gamma=0.005  ratio=1.0  bp_min=0.005  bp_ring=0.0  ch_h=False
+============================================================
+  T=  1000  M=    323.2  rate=-0.323183  *** STABLE ***
+  T=  2000  M=    264.5  rate=0.058694
+  T=  3000  M=    237.9  rate=0.026554
+  T=  4000  M=    223.7  rate=0.014276
+  T=  5000  M=    214.1  rate=0.009598  * plateau *
+  T=  6000  M=    206.7  rate=0.007316  * plateau *
+  T=  7000  M=    200.5  rate=0.006240  * plateau *
+  T=  8000  M=    194.7  rate=0.005848  * plateau *
+  T=  9000  M=    189.1  rate=0.005526  * plateau *
+  T= 10000  M=    184.2  rate=0.004972  * plateau *
+  T= 11000  M=    179.8  rate=0.004346  * plateau *
+  T= 12000  M=    175.8  rate=0.004065  * plateau *
+  T= 13000  M=    171.7  rate=0.004065  * plateau *
+  T= 14000  M=    167.3  rate=0.004355  * plateau *
+  T= 15000  M=    162.7  rate=0.004676  * plateau *
+  T= 16000  M=    158.0  rate=0.004637  * plateau *
+  T= 17000  M=    153.8  rate=0.004266  * plateau *
+  T= 18000  M=    149.6  rate=0.004111  * plateau *
+  T= 19000  M=    145.3  rate=0.004349  * plateau *
+  T= 20000  M=    140.3  rate=0.004934  * plateau *
+  >> peak=323.2  final=140.3  late_rate=0.004424  trend=flat  [PLATEAU]
+
+============================================================
+v8a_strong  gamma=0.005  ratio=1.0  bp_min=0.0005  bp_ring=0.005  ch_h=True
+============================================================
+  T=  1000  M=    420.2  rate=-0.420247  *** STABLE ***
+  T=  2000  M=    396.0  rate=0.024227
+  T=  3000  M=    373.0  rate=0.023029
+  T=  4000  M=    353.4  rate=0.019571
+  T=  5000  M=    336.9  rate=0.016543
+  T=  6000  M=    322.9  rate=0.013947
+  T=  7000  M=    311.2  rate=0.011768
+  T=  8000  M=    301.1  rate=0.010067
+  T=  9000  M=    292.2  rate=0.008934  * plateau *
+  T= 10000  M=    284.2  rate=0.007931  * plateau *
+  T= 11000  M=    277.4  rate=0.006814  * plateau *
+  T= 12000  M=    271.6  rate=0.005825  * plateau *
+  T= 13000  M=    266.6  rate=0.005044  * plateau *
+  T= 14000  M=    262.1  rate=0.004432  * plateau *
+  T= 15000  M=    258.2  rate=0.003945  * plateau *
+  T= 16000  M=    254.6  rate=0.003549  * plateau *
+  T= 17000  M=    251.4  rate=0.003221  * plateau *
+  T= 18000  M=    248.5  rate=0.002944  * plateau *
+  T= 19000  M=    245.8  rate=0.002708  * plateau *
+  T= 20000  M=    243.2  rate=0.002504  * plateau *
+  >> peak=420.2  final=243.2  late_rate=0.003543  trend=dec  [PLATEAU->]
+
+============================================================
+v8b_moderate  gamma=0.005  ratio=1.0  bp_min=0.001  bp_ring=0.005  ch_h=True
+============================================================
+  T=  1000  M=    405.0  rate=-0.404958  *** STABLE ***
+  T=  2000  M=    367.8  rate=0.037158
+  T=  3000  M=    337.3  rate=0.030488
+  T=  4000  M=    314.2  rate=0.023070
+  T=  5000  M=    296.7  rate=0.017520
+  T=  6000  M=    282.6  rate=0.014113
+  T=  7000  M=    271.2  rate=0.011417
+  T=  8000  M=    262.3  rate=0.008883  * plateau *
+  T=  9000  M=    255.2  rate=0.007119  * plateau *
+  T= 10000  M=    249.3  rate=0.005908  * plateau *
+  T= 11000  M=    244.2  rate=0.005034  * plateau *
+  T= 12000  M=    239.9  rate=0.004372  * plateau *
+  T= 13000  M=    236.0  rate=0.003851  * plateau *
+  T= 14000  M=    232.6  rate=0.003430  * plateau *
+  T= 15000  M=    229.5  rate=0.003083  * plateau *
+  T= 16000  M=    226.7  rate=0.002796  * plateau *
+  T= 17000  M=    224.2  rate=0.002556  * plateau *
+  T= 18000  M=    221.8  rate=0.002354  * plateau *
+  T= 19000  M=    219.6  rate=0.002183  * plateau *
+  T= 20000  M=    217.6  rate=0.002038  * plateau *
+  >> peak=405.0  final=217.6  late_rate=0.002786  trend=dec  [PLATEAU->]
+
+============================================================
+v8c_full  gamma=0.005  ratio=1.0  bp_min=0.0  bp_ring=0.01  ch_h=True
+============================================================
+  T=  1000  M=    429.9  rate=-0.429940  *** STABLE ***
+  T=  2000  M=    414.5  rate=0.015450
+  T=  3000  M=    398.4  rate=0.016113
+  T=  4000  M=    384.1  rate=0.014262
+  T=  5000  M=    371.5  rate=0.012579
+  T=  6000  M=    360.5  rate=0.011072
+  T=  7000  M=    350.7  rate=0.009735  * plateau *
+  T=  8000  M=    342.2  rate=0.008560  * plateau *
+  T=  9000  M=    334.6  rate=0.007548  * plateau *
+  T= 10000  M=    327.9  rate=0.006731  * plateau *
+  T= 11000  M=    321.7  rate=0.006160  * plateau *
+  T= 12000  M=    316.0  rate=0.005712  * plateau *
+  T= 13000  M=    310.8  rate=0.005189  * plateau *
+  T= 14000  M=    306.2  rate=0.004622  * plateau *
+  T= 15000  M=    302.1  rate=0.004109  * plateau *
+  T= 16000  M=    298.4  rate=0.003678  * plateau *
+  T= 17000  M=    295.1  rate=0.003319  * plateau *
+  T= 18000  M=    292.1  rate=0.003019  * plateau *
+  T= 19000  M=    289.3  rate=0.002765  * plateau *
+  T= 20000  M=    286.8  rate=0.002548  * plateau *
+  >> peak=429.9  final=286.8  late_rate=0.003656  trend=dec  [PLATEAU->]
+
+============================================================
+v8d_weak  gamma=0.005  ratio=1.0  bp_min=0.002  bp_ring=0.005  ch_h=True
+============================================================
+  T=  1000  M=    377.9  rate=-0.377929  *** STABLE ***
+  T=  2000  M=    325.4  rate=0.052563
+  T=  3000  M=    291.6  rate=0.033724
+  T=  4000  M=    269.2  rate=0.022412
+  T=  5000  M=    254.2  rate=0.015000
+  T=  6000  M=    243.8  rate=0.010412
+  T=  7000  M=    235.9  rate=0.007903  * plateau *
+  T=  8000  M=    229.6  rate=0.006321  * plateau *
+  T=  9000  M=    224.4  rate=0.005226  * plateau *
+  T= 10000  M=    219.9  rate=0.004438  * plateau *
+  T= 11000  M=    216.1  rate=0.003862  * plateau *
+  T= 12000  M=    212.6  rate=0.003437  * plateau *
+  T= 13000  M=    209.5  rate=0.003122  * plateau *
+  T= 14000  M=    206.6  rate=0.002896  * plateau *
+  T= 15000  M=    203.9  rate=0.002744  * plateau *
+  T= 16000  M=    201.2  rate=0.002655  * plateau *
+  T= 17000  M=    198.6  rate=0.002603  * plateau *
+  T= 18000  M=    196.1  rate=0.002551  * plateau *
+  T= 19000  M=    193.6  rate=0.002483  * plateau *
+  T= 20000  M=    191.2  rate=0.002400  * plateau *
+  >> peak=377.9  final=191.2  late_rate=0.002682  trend=dec  [PLATEAU->]
+
+============================================================
+v8b_ratio2  gamma=0.01  ratio=2.0  bp_min=0.001  bp_ring=0.005  ch_h=True
+============================================================
+  T=  1000  M=    764.9  rate=-0.764937  *** STABLE ***
+  T=  2000  M=    689.6  rate=0.075287
+  T=  3000  M=    631.3  rate=0.058342
+  T=  4000  M=    589.0  rate=0.042312
+  T=  5000  M=    556.5  rate=0.032473
+  T=  6000  M=    531.5  rate=0.025036
+  T=  7000  M=    512.6  rate=0.018863
+  T=  8000  M=    497.8  rate=0.014878
+  T=  9000  M=    485.5  rate=0.012220
+  T= 10000  M=    475.2  rate=0.010326
+  T= 11000  M=    466.3  rate=0.008904  * plateau *
+  T= 12000  M=    458.5  rate=0.007795  * plateau *
+  T= 13000  M=    451.6  rate=0.006911  * plateau *
+  T= 14000  M=    445.4  rate=0.006197  * plateau *
+  T= 15000  M=    439.8  rate=0.005616  * plateau *
+  T= 16000  M=    434.6  rate=0.005138  * plateau *
+  T= 17000  M=    429.9  rate=0.004742  * plateau *
+  T= 18000  M=    425.5  rate=0.004413  * plateau *
+  T= 19000  M=    421.3  rate=0.004140  * plateau *
+  T= 20000  M=    417.4  rate=0.003915  * plateau *
+  >> peak=764.9  final=417.4  late_rate=0.005134  trend=dec  [PLATEAU->]
+
+============================================================
+SUMMARY
+============================================================
+label              ratio  bp_min  late_rate  trend status
+-----------------------------------------------------------------
+  v5_baseline       1.0   0.0050   0.004424   flat   PLATEAU
+  v8a_strong        1.0   0.0005   0.003543    dec   PLATEAU->
+  v8b_moderate      1.0   0.0010   0.002786    dec   PLATEAU->
+  v8c_full          1.0   0.0000   0.003656    dec   PLATEAU->
+  v8d_weak          1.0   0.0020   0.002682    dec   PLATEAU->
+  v8b_ratio2        2.0   0.0010   0.005134    dec   PLATEAU->
+
+Best: v8d_weak  rate=0.002682  [PLATEAU->]
+
+Channel H does not significantly improve stability. Need different approach.
+
+Artifacts: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-channel-h-v1

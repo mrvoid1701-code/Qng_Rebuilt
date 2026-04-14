@@ -1,0 +1,181 @@
+Equilibrium ratio=1 scan (GPU)
+L=40, R=8, N=64000, PHASE2=20000
+Gate STABLE: avg(rate[-8:]) < 0.002
+Gate PLATEAU->STABLE: avg < 0.010 AND still decreasing
+
+GPU: device 0, free mem = 11.79 GB
+
+Building geometry...
+Done.
+
+============================================================
+alpha=0.005  gamma=0.0025  ratio=0.50  [ratio=0.5 [below equilibrium]]
+Predicted sigma*~0.400
+============================================================
+  T=  1000  M=    164.6  rate=-0.164641  *** STABLE ***
+  T=  2000  M=    134.4  rate=0.030214
+  T=  3000  M=    120.7  rate=0.013702
+  T=  4000  M=    113.5  rate=0.007265  ** plateau **
+  T=  5000  M=    108.6  rate=0.004860  ** plateau **
+  T=  6000  M=    104.9  rate=0.003686  ** plateau **
+  T=  7000  M=    101.8  rate=0.003127  ** plateau **
+  T=  8000  M=     98.9  rate=0.002927  ** plateau **
+  T=  9000  M=     96.1  rate=0.002777  ** plateau **
+  T= 10000  M=     93.5  rate=0.002533  ** plateau **
+  T= 11000  M=     91.3  rate=0.002204  ** plateau **
+  T= 12000  M=     89.3  rate=0.002037  ** plateau **
+  T= 13000  M=     87.3  rate=0.002018  ** plateau **
+  T= 14000  M=     85.2  rate=0.002143  ** plateau **
+  T= 15000  M=     82.8  rate=0.002329  ** plateau **
+  T= 16000  M=     80.5  rate=0.002351  ** plateau **
+  T= 17000  M=     78.3  rate=0.002187  ** plateau **
+  T= 18000  M=     76.2  rate=0.002061  ** plateau **
+  T= 19000  M=     74.1  rate=0.002129  ** plateau **
+  T= 20000  M=     71.7  rate=0.002407  ** plateau **
+  >> peak=164.6  final=71.7  late_rate=0.002203  trend=flat  [PLATEAU]
+
+============================================================
+alpha=0.005  gamma=0.005  ratio=1.00  [ratio=1.0 [target]]
+Predicted sigma*~0.333
+============================================================
+  T=  1000  M=    323.2  rate=-0.323183  *** STABLE ***
+  T=  2000  M=    264.5  rate=0.058694
+  T=  3000  M=    237.9  rate=0.026554
+  T=  4000  M=    223.7  rate=0.014276
+  T=  5000  M=    214.1  rate=0.009598  ** plateau **
+  T=  6000  M=    206.7  rate=0.007316  ** plateau **
+  T=  7000  M=    200.5  rate=0.006240  ** plateau **
+  T=  8000  M=    194.7  rate=0.005848  ** plateau **
+  T=  9000  M=    189.1  rate=0.005526  ** plateau **
+  T= 10000  M=    184.2  rate=0.004972  ** plateau **
+  T= 11000  M=    179.8  rate=0.004346  ** plateau **
+  T= 12000  M=    175.8  rate=0.004065  ** plateau **
+  T= 13000  M=    171.7  rate=0.004065  ** plateau **
+  T= 14000  M=    167.3  rate=0.004355  ** plateau **
+  T= 15000  M=    162.7  rate=0.004676  ** plateau **
+  T= 16000  M=    158.0  rate=0.004637  ** plateau **
+  T= 17000  M=    153.8  rate=0.004266  ** plateau **
+  T= 18000  M=    149.6  rate=0.004111  ** plateau **
+  T= 19000  M=    145.3  rate=0.004349  ** plateau **
+  T= 20000  M=    140.3  rate=0.004934  ** plateau **
+  >> peak=323.2  final=140.3  late_rate=0.004424  trend=flat  [PLATEAU]
+
+============================================================
+alpha=0.005  gamma=0.0075  ratio=1.50  [ratio=1.5 [bracket]]
+Predicted sigma*~0.286
+============================================================
+  T=  1000  M=    476.1  rate=-0.476047  *** STABLE ***
+  T=  2000  M=    390.7  rate=0.085359
+  T=  3000  M=    351.9  rate=0.038775
+  T=  4000  M=    330.8  rate=0.021076
+  T=  5000  M=    316.6  rate=0.014236
+  T=  6000  M=    305.7  rate=0.010897
+  T=  7000  M=    296.4  rate=0.009338  ** plateau **
+  T=  8000  M=    287.6  rate=0.008751  ** plateau **
+  T=  9000  M=    279.4  rate=0.008229  ** plateau **
+  T= 10000  M=    272.1  rate=0.007325  ** plateau **
+  T= 11000  M=    265.6  rate=0.006448  ** plateau **
+  T= 12000  M=    259.5  rate=0.006090  ** plateau **
+  T= 13000  M=    253.4  rate=0.006144  ** plateau **
+  T= 14000  M=    246.8  rate=0.006621  ** plateau **
+  T= 15000  M=    239.8  rate=0.007012  ** plateau **
+  T= 16000  M=    232.9  rate=0.006826  ** plateau **
+  T= 17000  M=    226.6  rate=0.006283  ** plateau **
+  T= 18000  M=    220.5  rate=0.006180  ** plateau **
+  T= 19000  M=    213.8  rate=0.006681  ** plateau **
+  T= 20000  M=    206.3  rate=0.007517  ** plateau **
+  >> peak=476.1  final=206.3  late_rate=0.006658  trend=flat  [PLATEAU]
+
+============================================================
+alpha=0.005  gamma=0.01  ratio=2.00  [ratio=2.0 [control - previous PLATEAU]]
+Predicted sigma*~0.250
+============================================================
+  T=  1000  M=    623.6  rate=-0.623618  *** STABLE ***
+  T=  2000  M=    513.3  rate=0.110310
+  T=  3000  M=    462.9  rate=0.050442
+  T=  4000  M=    435.2  rate=0.027679
+  T=  5000  M=    416.4  rate=0.018780
+  T=  6000  M=    402.0  rate=0.014432
+  T=  7000  M=    389.6  rate=0.012416
+  T=  8000  M=    377.9  rate=0.011631
+  T=  9000  M=    367.1  rate=0.010877
+  T= 10000  M=    357.4  rate=0.009603  ** plateau **
+  T= 11000  M=    348.9  rate=0.008521  ** plateau **
+  T= 12000  M=    340.8  rate=0.008118  ** plateau **
+  T= 13000  M=    332.6  rate=0.008256  ** plateau **
+  T= 14000  M=    323.6  rate=0.008921  ** plateau **
+  T= 15000  M=    314.3  rate=0.009314  ** plateau **
+  T= 16000  M=    305.4  rate=0.008911  ** plateau **
+  T= 17000  M=    297.1  rate=0.008270  ** plateau **
+  T= 18000  M=    288.9  rate=0.008287  ** plateau **
+  T= 19000  M=    279.7  rate=0.009124  ** plateau **
+  T= 20000  M=    269.6  rate=0.010097
+  >> peak=623.6  final=269.6  late_rate=0.008897  trend=flat  [PLATEAU]
+
+============================================================
+alpha=0.002  gamma=0.002  ratio=1.00  [ratio=1.0 [slower alpha]]
+Predicted sigma*~0.333
+============================================================
+  T=  1000  M=    302.5  rate=-0.302498  *** STABLE ***
+  T=  2000  M=    277.3  rate=0.025223
+  T=  3000  M=    247.6  rate=0.029676
+  T=  4000  M=    230.2  rate=0.017388
+  T=  5000  M=    219.1  rate=0.011100
+  T=  6000  M=    211.1  rate=0.008044  ** plateau **
+  T=  7000  M=    204.5  rate=0.006570  ** plateau **
+  T=  8000  M=    198.5  rate=0.005976  ** plateau **
+  T=  9000  M=    192.9  rate=0.005650  ** plateau **
+  T= 10000  M=    187.7  rate=0.005187  ** plateau **
+  T= 11000  M=    183.1  rate=0.004549  ** plateau **
+  T= 12000  M=    179.0  rate=0.004148  ** plateau **
+  T= 13000  M=    174.9  rate=0.004042  ** plateau **
+  T= 14000  M=    170.7  rate=0.004221  ** plateau **
+  T= 15000  M=    166.2  rate=0.004576  ** plateau **
+  T= 16000  M=    161.5  rate=0.004687  ** plateau **
+  T= 17000  M=    157.0  rate=0.004426  ** plateau **
+  T= 18000  M=    152.9  rate=0.004158  ** plateau **
+  T= 19000  M=    148.7  rate=0.004216  ** plateau **
+  T= 20000  M=    144.0  rate=0.004682  ** plateau **
+  >> peak=302.5  final=144.0  late_rate=0.004376  trend=flat  [PLATEAU]
+
+============================================================
+alpha=0.01  gamma=0.01  ratio=1.00  [ratio=1.0 [faster alpha]]
+Predicted sigma*~0.333
+============================================================
+  T=  1000  M=    311.8  rate=-0.311793  *** STABLE ***
+  T=  2000  M=    258.5  rate=0.053317
+  T=  3000  M=    234.0  rate=0.024509
+  T=  4000  M=    220.4  rate=0.013525
+  T=  5000  M=    211.2  rate=0.009280  ** plateau **
+  T=  6000  M=    204.0  rate=0.007156  ** plateau **
+  T=  7000  M=    197.8  rate=0.006166  ** plateau **
+  T=  8000  M=    192.1  rate=0.005785  ** plateau **
+  T=  9000  M=    186.6  rate=0.005435  ** plateau **
+  T= 10000  M=    181.8  rate=0.004871  ** plateau **
+  T= 11000  M=    177.5  rate=0.004287  ** plateau **
+  T= 12000  M=    173.4  rate=0.004051  ** plateau **
+  T= 13000  M=    169.3  rate=0.004087  ** plateau **
+  T= 14000  M=    164.9  rate=0.004403  ** plateau **
+  T= 15000  M=    160.3  rate=0.004645  ** plateau **
+  T= 16000  M=    155.7  rate=0.004555  ** plateau **
+  T= 17000  M=    151.5  rate=0.004198  ** plateau **
+  T= 18000  M=    147.4  rate=0.004119  ** plateau **
+  T= 19000  M=    143.0  rate=0.004441  ** plateau **
+  T= 20000  M=    138.0  rate=0.004985  ** plateau **
+  >> peak=311.8  final=138.0  late_rate=0.004429  trend=flat  [PLATEAU]
+
+============================================================
+SUMMARY
+============================================================
+ ratio   alpha    gamma  sigma*   M_final  late_rate       trend status
+---------------------------------------------------------------------------
+   0.5   0.005   0.0025   0.400       71.7   0.002203         flat   PLATEAU
+   1.0   0.005   0.0050   0.333      140.3   0.004424         flat   PLATEAU
+   1.5   0.005   0.0075   0.286      206.3   0.006658         flat   PLATEAU
+   2.0   0.005   0.0100   0.250      269.6   0.008897         flat   PLATEAU
+   1.0   0.002   0.0020   0.333      144.0   0.004376         flat   PLATEAU
+   1.0   0.010   0.0100   0.333      138.0   0.004429         flat   PLATEAU
+
+No STABLE found. Lowest rate: ratio=0.50  rate=0.002203  [PLATEAU]
+
+Artifacts: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-equilibrium-ratio1-v1

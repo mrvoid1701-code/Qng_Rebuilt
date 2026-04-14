@@ -1,0 +1,117 @@
+Equilibrium stability scan
+L=30, R=8, BETA_PHI=0.005, PHASE2=5000
+Equilibrium condition: sigma* = 0.5 / (1 + gamma*D/alpha)
+Target gamma/alpha = 2-4 for sigma* ~ 0.1-0.2
+
+=======================================================
+alpha=0.005  gamma=0.01  ratio=2.0  [ratio=2   [current alpha, half gamma]]
+Predicted sigma*~0.250  (D~0.5)
+=======================================================
+  T=  500  M=   485.0  rate=-0.97004  *** STABLE ***
+  T= 1000  M=   459.5  rate=0.05105
+  T= 1500  M=   421.2  rate=0.07659
+  T= 2000  M=   394.7  rate=0.05308
+  T= 2500  M=   378.0  rate=0.03332
+  T= 3000  M=   366.5  rate=0.02294
+  T= 3500  M=   357.9  rate=0.01728
+  T= 4000  M=   351.0  rate=0.01376
+  T= 4500  M=   345.3  rate=0.01141  ** plateau **
+  T= 5000  M=   340.4  rate=0.00983  ** plateau **
+  >> peak=485.0  final=340.4  late_rate=0.01167  [PLATEAU]
+
+=======================================================
+alpha=0.005  gamma=0.02  ratio=4.0  [ratio=4   [current alpha, gamma/5]]
+Predicted sigma*~0.167  (D~0.5)
+=======================================================
+  T=  500  M=   897.1  rate=-1.79425  *** STABLE ***
+  T= 1000  M=   852.5  rate=0.08918
+  T= 1500  M=   785.9  rate=0.13332
+  T= 2000  M=   739.5  rate=0.09278
+  T= 2500  M=   709.6  rate=0.05969
+  T= 3000  M=   688.6  rate=0.04205
+  T= 3500  M=   672.5  rate=0.03214
+  T= 4000  M=   659.6  rate=0.02587
+  T= 4500  M=   648.8  rate=0.02166
+  T= 5000  M=   639.4  rate=0.01884
+  >> peak=897.1  final=639.4  late_rate=0.02212  [SLOWING]
+
+=======================================================
+alpha=0.002  gamma=0.008  ratio=4.0  [ratio=4   [slower dynamics]]
+Predicted sigma*~0.167  (D~0.5)
+=======================================================
+  T=  500  M=   681.7  rate=-1.36345  *** STABLE ***
+  T= 1000  M=   822.2  rate=-0.28099  *** STABLE ***
+  T= 1500  M=   818.5  rate=0.00740  ** plateau **
+  T= 2000  M=   784.3  rate=0.06849
+  T= 2500  M=   752.1  rate=0.06427
+  T= 3000  M=   726.9  rate=0.05046
+  T= 3500  M=   707.5  rate=0.03890
+  T= 4000  M=   692.2  rate=0.03059
+  T= 4500  M=   679.8  rate=0.02484
+  T= 5000  M=   669.3  rate=0.02091
+  >> peak=822.2  final=669.3  late_rate=0.02545  [SLOWING]
+
+=======================================================
+alpha=0.001  gamma=0.004  ratio=4.0  [ratio=4   [much slower dynamics]]
+Predicted sigma*~0.167  (D~0.5)
+=======================================================
+  T=  500  M=   444.4  rate=-0.88870  *** STABLE ***
+  T= 1000  M=   641.0  rate=-0.39335  *** STABLE ***
+  T= 1500  M=   721.0  rate=-0.15993  *** STABLE ***
+  T= 2000  M=   745.8  rate=-0.04956  *** STABLE ***
+  T= 2500  M=   747.0  rate=-0.00237  *** STABLE ***
+  T= 3000  M=   738.5  rate=0.01683
+  T= 3500  M=   726.7  rate=0.02361
+  T= 4000  M=   714.3  rate=0.02478
+  T= 4500  M=   702.5  rate=0.02359
+  T= 5000  M=   691.7  rate=0.02163
+  >> peak=747.0  final=691.7  late_rate=0.02333  [SLOWING]
+
+=======================================================
+alpha=0.001  gamma=0.002  ratio=2.0  [ratio=2   [slow + lower ratio]]
+Predicted sigma*~0.250  (D~0.5)
+=======================================================
+  T=  500  M=   227.4  rate=-0.45471  *** STABLE ***
+  T= 1000  M=   330.2  rate=-0.20571  *** STABLE ***
+  T= 1500  M=   373.0  rate=-0.08564  *** STABLE ***
+  T= 2000  M=   386.8  rate=-0.02758  *** STABLE ***
+  T= 2500  M=   387.9  rate=-0.00218  *** STABLE ***
+  T= 3000  M=   383.8  rate=0.00826  ** plateau **
+  T= 3500  M=   377.8  rate=0.01207
+  T= 4000  M=   371.3  rate=0.01285
+  T= 4500  M=   365.2  rate=0.01232
+  T= 5000  M=   359.5  rate=0.01134  ** plateau **
+  >> peak=387.9  final=359.5  late_rate=0.01217  [SLOWING]
+
+=======================================================
+alpha=0.005  gamma=0.1  ratio=20.0  [ratio=20  [CURRENT default — control]]
+Predicted sigma*~0.045  (D~0.5)
+=======================================================
+  T=  500  M=  2871.4  rate=-5.74286  *** STABLE ***
+  T= 1000  M=  2792.3  rate=0.15828
+  T= 1500  M=  2656.5  rate=0.27155
+  T= 2000  M=  2550.4  rate=0.21222
+  T= 2500  M=  2471.0  rate=0.15875
+  T= 3000  M=  2408.8  rate=0.12437
+  T= 3500  M=  2357.7  rate=0.10234
+  T= 4000  M=  2314.0  rate=0.08738
+  T= 4500  M=  2275.5  rate=0.07704
+  T= 5000  M=  2240.4  rate=0.07009
+  >> peak=2871.4  final=2240.4  late_rate=0.07817  [DISSOLVING]
+
+=======================================================
+SUMMARY
+=======================================================
+  alpha   gamma  ratio  sigma*   M_final     rate status
+-----------------------------------------------------------------
+  0.005   0.010      2   0.250      340.4   0.01167   PLATEAU
+  0.005   0.020      4   0.167      639.4   0.02212   SLOWING
+  0.002   0.008      4   0.167      669.3   0.02545   SLOWING
+  0.001   0.004      4   0.167      691.7   0.02333   SLOWING
+  0.001   0.002      2   0.250      359.5   0.01217   SLOWING
+  0.005   0.100     20   0.045     2240.4   0.07817   DISSOLVING
+
+*** STABLE RING FOUND ***
+  alpha=0.005  gamma=0.01  ratio=2.0  M_stable=340.4  rate=0.01167
+
+Artifacts: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-equilibrium-stability-v1
