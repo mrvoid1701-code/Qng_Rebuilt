@@ -1,0 +1,154 @@
+============================================================
+PART A: gamma_phi scan at R=4
+============================================================
+
+--- gamma_phi=0.01 ---
+  T= 200  M=  110.8  rate=-0.5539/step <STABLE?
+  T= 400  M=  138.7  rate=-0.1396/step <STABLE?
+  T= 600  M=  139.6  rate=-0.0043/step <STABLE?
+  T= 800  M=  131.7  rate=0.0392/step
+  T=1000  M=  120.5  rate=0.0560/step
+  T=1200  M=  107.2  rate=0.0665/step
+  T=1400  M=   91.4  rate=0.0790/step
+  T=1600  M=   75.1  rate=0.0817/step
+  T=1800  M=   59.6  rate=0.0772/step
+  T=2000  M=   47.8  rate=0.0592/step
+  T=2200  M=   39.4  rate=0.0422/step
+  T=2400  M=   33.1  rate=0.0314/step
+  T=2600  M=   28.2  rate=0.0247/step
+  T=2800  M=   24.1  rate=0.0201/step
+  T=3000  M=   20.8  rate=0.0167/step
+  T=3200  M=   18.0  rate=0.0141/step
+  T=3400  M=   15.6  rate=0.0120/step
+  T=3600  M=   13.6  rate=0.0103/step
+  T=3800  M=   11.8  rate=0.0088/step <STABLE?
+  T=4000  M=   10.3  rate=0.0076/step <STABLE?
+  >> Final M=10.3  avg late rate=0.0097/step  [PLATEAU CANDIDATE]
+
+--- gamma_phi=0.02 ---
+  T= 200  M=  210.8  rate=-1.0540/step <STABLE?
+  T= 400  M=  259.9  rate=-0.2457/step <STABLE?
+  T= 600  M=  259.7  rate=0.0013/step <STABLE?
+  T= 800  M=  244.0  rate=0.0783/step
+  T=1000  M=  222.4  rate=0.1082/step
+  T=1200  M=  197.0  rate=0.1266/step
+  T=1400  M=  167.0  rate=0.1501/step
+  T=1600  M=  136.6  rate=0.1522/step
+  T=1800  M=  109.5  rate=0.1356/step
+  T=2000  M=   89.5  rate=0.0999/step
+  T=2200  M=   74.8  rate=0.0734/step
+  T=2400  M=   63.5  rate=0.0566/step
+  T=2600  M=   54.4  rate=0.0456/step
+  T=2800  M=   46.8  rate=0.0377/step
+  T=3000  M=   40.5  rate=0.0317/step
+  T=3200  M=   35.1  rate=0.0270/step
+  T=3400  M=   30.5  rate=0.0231/step
+  T=3600  M=   26.5  rate=0.0198/step
+  T=3800  M=   23.1  rate=0.0171/step
+  T=4000  M=   20.1  rate=0.0148/step
+  >> Final M=20.1  avg late rate=0.0187/step  [PLATEAU CANDIDATE]
+
+--- gamma_phi=0.04 ---
+  T= 200  M=  385.1  rate=-1.9256/step <STABLE?
+  T= 400  M=  463.5  rate=-0.3920/step <STABLE?
+  T= 600  M=  458.1  rate=0.0272/step
+  T= 800  M=  427.7  rate=0.1520/step
+  T=1000  M=  388.1  rate=0.1978/step
+  T=1200  M=  341.7  rate=0.2318/step
+  T=1400  M=  288.6  rate=0.2659/step
+  T=1600  M=  236.6  rate=0.2599/step
+  T=1800  M=  194.8  rate=0.2087/step
+  T=2000  M=  163.6  rate=0.1563/step
+  T=2200  M=  139.3  rate=0.1215/step
+  T=2400  M=  119.6  rate=0.0982/step
+  T=2600  M=  103.3  rate=0.0816/step
+  T=2800  M=   89.5  rate=0.0690/step
+  T=3000  M=   77.7  rate=0.0589/step
+  T=3200  M=   67.6  rate=0.0506/step
+  T=3400  M=   58.9  rate=0.0436/step
+  T=3600  M=   51.4  rate=0.0377/step
+  T=3800  M=   44.8  rate=0.0327/step
+  T=4000  M=   39.1  rate=0.0284/step
+  >> Final M=39.1  avg late rate=0.0356/step  [PLATEAU CANDIDATE]
+
+--- gamma_phi=0.07 ---
+  T= 200  M=  599.4  rate=-2.9971/step <STABLE?
+  T= 400  M=  702.5  rate=-0.5154/step <STABLE?
+  T= 600  M=  687.0  rate=0.0773/step
+  T= 800  M=  638.5  rate=0.2428/step
+  T=1000  M=  578.4  rate=0.3004/step
+  T=1200  M=  507.8  rate=0.3531/step
+  T=1400  M=  430.5  rate=0.3861/step
+  T=1600  M=  361.1  rate=0.3471/step
+  T=1800  M=  306.5  rate=0.2731/step
+  T=2000  M=  263.1  rate=0.2169/step
+  T=2200  M=  227.5  rate=0.1781/step
+  T=2400  M=  197.5  rate=0.1499/step
+  T=2600  M=  171.9  rate=0.1280/step
+  T=2800  M=  149.9  rate=0.1102/step
+  T=3000  M=  130.8  rate=0.0954/step
+  T=3200  M=  114.3  rate=0.0828/step
+  T=3400  M=   99.9  rate=0.0720/step
+  T=3600  M=   87.3  rate=0.0627/step
+  T=3800  M=   76.4  rate=0.0546/step
+  T=4000  M=   66.9  rate=0.0477/step
+  >> Final M=66.9  avg late rate=0.0592/step  [SLOWING]
+
+--- gamma_phi=0.10 ---
+  T= 200  M=  774.5  rate=-3.8727/step <STABLE?
+  T= 400  M=  890.6  rate=-0.5805/step <STABLE?
+  T= 600  M=  865.7  rate=0.1247/step
+  T= 800  M=  803.9  rate=0.3088/step
+  T=1000  M=  728.9  rate=0.3750/step
+  T=1200  M=  642.1  rate=0.4341/step
+  T=1400  M=  551.0  rate=0.4554/step
+  T=1600  M=  472.4  rate=0.3934/step
+  T=1800  M=  408.4  rate=0.3199/step
+  T=2000  M=  355.2  rate=0.2656/step
+  T=2200  M=  310.1  rate=0.2256/step
+  T=2400  M=  271.2  rate=0.1944/step
+  T=2600  M=  237.5  rate=0.1689/step
+  T=2800  M=  208.0  rate=0.1473/step
+  T=3000  M=  182.3  rate=0.1287/step
+  T=3200  M=  159.7  rate=0.1126/step
+  T=3400  M=  140.0  rate=0.0986/step
+  T=3600  M=  122.7  rate=0.0863/step
+  T=3800  M=  107.6  rate=0.0756/step
+  T=4000  M=   94.4  rate=0.0663/step
+  >> Final M=94.4  avg late rate=0.0817/step  [SLOWING]
+
+============================================================
+PART B: radius scan at gamma_phi=0.1
+============================================================
+
+--- R=4 ---
+  T=3600  M=  122.7  rate=0.0863/step  rate/len=0.00343
+  T=3800  M=  107.6  rate=0.0756/step  rate/len=0.00301
+  T=4000  M=   94.4  rate=0.0663/step  rate/len=0.00264
+  >> avg late rate=0.0817/step  per circumference=0.00325
+
+--- R=5 ---
+  T=3600  M=  203.2  rate=0.1437/step  rate/len=0.00457
+  T=3800  M=  178.0  rate=0.1258/step  rate/len=0.00400
+  T=4000  M=  156.0  rate=0.1101/step  rate/len=0.00350
+  >> avg late rate=0.1360/step  per circumference=0.00433
+
+--- R=6 ---
+  T=3600  M=  445.6  rate=0.3751/step  rate/len=0.00995
+  T=3800  M=  384.4  rate=0.3058/step  rate/len=0.00811
+  T=4000  M=  333.6  rate=0.2542/step  rate/len=0.00674
+  >> avg late rate=0.3430/step  per circumference=0.00910
+
+--- R=8 ---
+  T=3600  M= 1350.0  rate=0.0464/step  rate/len=0.00092
+  T=3800  M= 1340.2  rate=0.0490/step  rate/len=0.00097
+  T=4000  M= 1329.7  rate=0.0523/step  rate/len=0.00104
+  >> avg late rate=0.0477/step  per circumference=0.00095
+
+--- R=10 ---
+  T=3600  M=  231.3  rate=0.1594/step  rate/len=0.00254
+  T=3800  M=  203.3  rate=0.1404/step  rate/len=0.00223
+  T=4000  M=  178.6  rate=0.1236/step  rate/len=0.00197
+  >> avg late rate=0.1511/step  per circumference=0.00241
+
+Artifacts: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-ring-stability-scan-v1

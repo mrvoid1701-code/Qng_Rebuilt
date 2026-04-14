@@ -1,0 +1,120 @@
+
+============================================================
+R=4  (5000 Phase-2 steps, GAMMA_PHI=0.1)
+============================================================
+
+  BETA_PHI=0.001
+    T= 200  M=  1075.0  rate=-5.37496 *** STABLE ***
+    T= 400  M=  1271.5  rate=-0.98242 *** STABLE ***
+    T= 600  M=  1307.9  rate=-0.18227 *** STABLE ***
+    T=1000  M=  1298.8  rate=0.04440
+    T=2000  M=  1244.3  rate=0.05315
+    T=3000  M=  1194.8  rate=0.04711
+    T=4000  M=  1151.0  rate=0.04183
+    T=5000  M=  1111.8  rate=0.03744
+  >> peak=1307.9  final=1111.8  late_rate=0.03875  [SLOWING]
+
+  BETA_PHI=0.003
+    T= 200  M=  1025.0  rate=-5.12505 *** STABLE ***
+    T= 400  M=  1201.5  rate=-0.88236 *** STABLE ***
+    T= 600  M=  1220.0  rate=-0.09254 *** STABLE ***
+    T=1000  M=  1178.6  rate=0.12115
+    T=2000  M=  1068.3  rate=0.09747
+    T=3000  M=   986.2  rate=0.07411
+    T=4000  M=   918.7  rate=0.06455
+    T=5000  M=   856.4  rate=0.06106
+  >> peak=1220.0  final=856.4  late_rate=0.06205  [SLOWING]
+
+  BETA_PHI=0.005
+    T= 200  M=   979.0  rate=-4.89506 *** STABLE ***
+    T= 400  M=  1140.1  rate=-0.80560 *** STABLE ***
+    T= 600  M=  1147.7  rate=-0.03774 *** STABLE ***
+    T=1000  M=  1090.6  rate=0.15729
+    T=2000  M=   957.9  rate=0.11481
+    T=3000  M=   852.8  rate=0.10122
+    T=4000  M=   753.4  rate=0.10160
+    T=5000  M=   642.0  rate=0.11934
+  >> peak=1147.7  final=642.0  late_rate=0.11318  [DISSOLVING]
+
+  BETA_PHI=0.010
+    T= 200  M=   886.0  rate=-4.42987 *** STABLE ***
+    T= 400  M=  1026.3  rate=-0.70166 *** STABLE ***
+    T= 600  M=  1021.8  rate=0.02240
+    T=1000  M=   945.0  rate=0.20435
+    T=2000  M=   745.5  rate=0.20125
+    T=3000  M=   515.4  rate=0.22414
+    T=4000  M=   358.1  rate=0.12713
+    T=5000  M=   256.1  rate=0.08808
+  >> peak=1026.3  final=256.1  late_rate=0.09816  [DISSOLVING]
+
+  BETA_PHI=0.020
+    T= 200  M=   774.5  rate=-3.87266 *** STABLE ***
+    T= 400  M=   890.6  rate=-0.58046 *** STABLE ***
+    T= 600  M=   865.7  rate=0.12466
+    T=1000  M=   728.9  rate=0.37502
+    T=2000  M=   355.2  rate=0.26559
+    T=3000  M=   182.3  rate=0.12873
+    T=4000  M=    94.4  rate=0.06627
+    T=5000  M=    49.0  rate=0.03429
+  >> peak=890.6  final=49.0  late_rate=0.04222  [SLOWING]
+
+============================================================
+R=8  (5000 Phase-2 steps, GAMMA_PHI=0.1)
+============================================================
+
+  BETA_PHI=0.001
+    T= 200  M=  1373.6  rate=-6.86819 *** STABLE ***
+    T= 400  M=  1598.1  rate=-1.12223 *** STABLE ***
+    T= 600  M=  1636.7  rate=-0.19317 *** STABLE ***
+    T=1000  M=  1635.8  rate=0.01933 ** plateau **
+    T=2000  M=  1609.8  rate=0.02568
+    T=3000  M=  1585.3  rate=0.02370
+    T=4000  M=  1562.6  rate=0.02196
+    T=5000  M=  1541.8  rate=0.02006
+  >> peak=1639.7  final=1541.8  late_rate=0.02069  [SLOWING]
+
+  BETA_PHI=0.003
+    T= 200  M=  1347.2  rate=-6.73616 *** STABLE ***
+    T= 400  M=  1563.0  rate=-1.07867 *** STABLE ***
+    T= 600  M=  1593.2  rate=-0.15094 *** STABLE ***
+    T=1000  M=  1575.8  rate=0.05943
+    T=2000  M=  1518.8  rate=0.05048
+    T=3000  M=  1481.3  rate=0.02962
+    T=4000  M=  1459.3  rate=0.01808 ** plateau **
+    T=5000  M=  1445.1  rate=0.01202 ** plateau **
+  >> peak=1593.2  final=1445.1  late_rate=0.01357  [PLATEAU]
+
+  BETA_PHI=0.005
+    T= 200  M=  1322.5  rate=-6.61232 *** STABLE ***
+    T= 400  M=  1531.1  rate=-1.04313 *** STABLE ***
+    T= 600  M=  1555.5  rate=-0.12198 *** STABLE ***
+    T=1000  M=  1529.6  rate=0.07815
+    T=2000  M=  1470.7  rate=0.04079
+    T=3000  M=  1444.3  rate=0.01980 ** plateau **
+    T=4000  M=  1430.0  rate=0.01147 ** plateau **
+    T=5000  M=  1421.1  rate=0.00766 ** plateau **
+  >> peak=1555.5  final=1421.1  late_rate=0.00857  [PLATEAU]
+
+  BETA_PHI=0.010
+    T= 200  M=  1268.6  rate=-6.34316 *** STABLE ***
+    T= 400  M=  1469.1  rate=-1.00241 *** STABLE ***
+    T= 600  M=  1490.9  rate=-0.10896 *** STABLE ***
+    T=1000  M=  1466.0  rate=0.06865
+    T=2000  M=  1429.1  rate=0.02309
+    T=3000  M=  1413.9  rate=0.01198 ** plateau **
+    T=4000  M=  1403.4  rate=0.01024 ** plateau **
+    T=5000  M=  1392.4  rate=0.01187 ** plateau **
+  >> peak=1490.9  final=1392.4  late_rate=0.01119  [PLATEAU]
+
+  BETA_PHI=0.020
+    T= 200  M=  1204.0  rate=-6.02010 *** STABLE ***
+    T= 400  M=  1409.1  rate=-1.02554 *** STABLE ***
+    T= 600  M=  1437.4  rate=-0.14156 *** STABLE ***
+    T=1000  M=  1427.0  rate=0.03632
+    T=2000  M=  1402.0  rate=0.02103
+    T=3000  M=  1375.5  rate=0.03293
+    T=4000  M=  1329.7  rate=0.05234
+    T=5000  M=  1256.6  rate=0.09348
+  >> peak=1437.4  final=1256.6  late_rate=0.07718  [SLOWING]
+
+Artifacts: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-beta-phi-stability-scan-v1
