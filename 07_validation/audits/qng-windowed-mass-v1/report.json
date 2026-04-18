@@ -1,0 +1,214 @@
+{
+  "params": {
+    "L_values": [
+      20,
+      30,
+      40,
+      50,
+      60,
+      80
+    ],
+    "RADII": [
+      4,
+      5
+    ],
+    "PHASE1": 300,
+    "PHASE2": 1500,
+    "GAMMA_PHI": 0.1,
+    "BETA_PHI": 0.02
+  },
+  "SM_ratio": 1.3130128956623681,
+  "results": [
+    {
+      "L": 20,
+      "R": 4,
+      "M_global": 509.66,
+      "dep_inner": 0.080887,
+      "dep_outer": 0.0,
+      "dep_excess": 0.080887,
+      "N_inner": 2103,
+      "M_windowed": 170.106,
+      "dis_bulk": 0.006529,
+      "dis_core": 0.00985
+    },
+    {
+      "L": 20,
+      "R": 5,
+      "M_global": 810.13,
+      "dep_inner": 0.126225,
+      "dep_outer": 0.0,
+      "dep_excess": 0.126225,
+      "N_inner": 2969,
+      "M_windowed": 374.761,
+      "dis_bulk": 0.015353,
+      "dis_core": 0.020168
+    },
+    {
+      "L": 30,
+      "R": 4,
+      "M_global": 967.61,
+      "dep_inner": 0.067843,
+      "dep_outer": 0.034849,
+      "dep_excess": 0.032994,
+      "N_inner": 2103,
+      "M_windowed": 69.387,
+      "dis_bulk": 0.003709,
+      "dis_core": 0.010518
+    },
+    {
+      "L": 30,
+      "R": 5,
+      "M_global": 1301.1,
+      "dep_inner": 0.093798,
+      "dep_outer": 0.046538,
+      "dep_excess": 0.04726,
+      "N_inner": 2969,
+      "M_windowed": 140.316,
+      "dis_bulk": 0.006354,
+      "dis_core": 0.019009
+    },
+    {
+      "L": 40,
+      "R": 4,
+      "M_global": 1503.42,
+      "dep_inner": 0.064496,
+      "dep_outer": 0.020592,
+      "dep_excess": 0.043904,
+      "N_inner": 2103,
+      "M_windowed": 92.33,
+      "dis_bulk": 0.002435,
+      "dis_core": 0.010683
+    },
+    {
+      "L": 40,
+      "R": 5,
+      "M_global": 1861.33,
+      "dep_inner": 0.087542,
+      "dep_outer": 0.025523,
+      "dep_excess": 0.062019,
+      "N_inner": 2969,
+      "M_windowed": 184.133,
+      "dis_bulk": 0.003586,
+      "dis_core": 0.019055
+    },
+    {
+      "L": 50,
+      "R": 4,
+      "M_global": 2129.3,
+      "dep_inner": 0.063594,
+      "dep_outer": 0.014059,
+      "dep_excess": 0.049535,
+      "N_inner": 2103,
+      "M_windowed": 104.171,
+      "dis_bulk": 0.001767,
+      "dis_core": 0.010713
+    },
+    {
+      "L": 50,
+      "R": 5,
+      "M_global": 2508.68,
+      "dep_inner": 0.086138,
+      "dep_outer": 0.016614,
+      "dep_excess": 0.069525,
+      "N_inner": 2969,
+      "M_windowed": 206.419,
+      "dis_bulk": 0.002375,
+      "dis_core": 0.019064
+    },
+    {
+      "L": 60,
+      "R": 4,
+      "M_global": 2851.36,
+      "dep_inner": 0.06333,
+      "dep_outer": 0.010684,
+      "dep_excess": 0.052646,
+      "N_inner": 2103,
+      "M_windowed": 110.714,
+      "dis_bulk": 0.00137,
+      "dis_core": 0.010713
+    },
+    {
+      "L": 60,
+      "R": 5,
+      "M_global": 3250.66,
+      "dep_inner": 0.085809,
+      "dep_outer": 0.01226,
+      "dep_excess": 0.073549,
+      "N_inner": 2969,
+      "M_windowed": 218.368,
+      "dis_bulk": 0.001732,
+      "dis_core": 0.019066
+    },
+    {
+      "L": 80,
+      "R": 4,
+      "M_global": 4593.33,
+      "dep_inner": 0.063252,
+      "dep_outer": 0.00731,
+      "dep_excess": 0.055942,
+      "N_inner": 2103,
+      "M_windowed": 117.647,
+      "dis_bulk": 0.000932,
+      "dis_core": 0.010713
+    },
+    {
+      "L": 80,
+      "R": 5,
+      "M_global": 5029.39,
+      "dep_inner": 0.085713,
+      "dep_outer": 0.008094,
+      "dep_excess": 0.077618,
+      "N_inner": 2969,
+      "M_windowed": 230.449,
+      "dis_bulk": 0.001093,
+      "dis_core": 0.019066
+    }
+  ],
+  "scan": [
+    {
+      "L": 20,
+      "M_win_R4": 170.106,
+      "M_win_R5": 374.761,
+      "ratio_win": 2.2031,
+      "M_global_R4": 509.66
+    },
+    {
+      "L": 30,
+      "M_win_R4": 69.387,
+      "M_win_R5": 140.316,
+      "ratio_win": 2.02222,
+      "M_global_R4": 967.61
+    },
+    {
+      "L": 40,
+      "M_win_R4": 92.33,
+      "M_win_R5": 184.133,
+      "ratio_win": 1.99429,
+      "M_global_R4": 1503.42
+    },
+    {
+      "L": 50,
+      "M_win_R4": 104.171,
+      "M_win_R5": 206.419,
+      "ratio_win": 1.98154,
+      "M_global_R4": 2129.3
+    },
+    {
+      "L": 60,
+      "M_win_R4": 110.714,
+      "M_win_R5": 218.368,
+      "ratio_win": 1.97236,
+      "M_global_R4": 2851.36
+    },
+    {
+      "L": 80,
+      "M_win_R4": 117.647,
+      "M_win_R5": 230.449,
+      "ratio_win": 1.95882,
+      "M_global_R4": 4593.33
+    }
+  ],
+  "converged": false,
+  "last3_spread": 0.02272,
+  "verdict": "NOT_CONVERGED"
+}

@@ -1,0 +1,69 @@
+Ring-to-ring transition test v2 (QNG-GPU-002 redesign)
+L=60, RA=5 (no Ch_H), RB=4 (Ch_H), k_gm=0.01
+Phase1=300, Phase2_form=1000, Phase2_trans=60000
+Ring A: (15,30,30)  Ring B: (45,30,30)
+Phi init: nearest-ring assignment (no superposition)
+
+GPU: device 0, free mem = 11.79 GB
+
+Building geometry...
+  Window A: 7153 nodes  Window B: 4169 nodes
+Done.
+
+Phase 1: 300 steps (phi imprinting)...
+Phase 1 done.
+
+Phase 2-form: 1000 steps (Channel F, no k_gm)...
+Canonical masses at T_form=1000:
+  Ring A (R=5): M=42.167  G_well=0.000000
+  Ring B (R=4): M=29.779  G_well=0.000000
+
+  Ring A: M=42.2  CPU-074 canonical=954.9  ratio=0.044
+  Ring B: M=29.8  CPU-074 canonical=728.9  ratio=0.041
+
+Phase 2-transition: 60000 steps (full v8)...
+  T=     0  M_A= 42.167 G_A=0.00000  M_B= 29.779 G_B=0.00000
+  T=  2000  M_A=  12.46 rate_A=0.014855 G_A=0.00270 Q_A=0.0882            M_B=  10.19 rate_B=0.009796 G_B=0.00338 Q_B=0.1020 plateau
+  T=  4000  M_A=  12.24 rate_A=0.000108 G_A=0.00266 Q_A=0.0874 STABLE     M_B=  10.08 rate_B=0.000053 G_B=0.00335 Q_B=0.1028 STABLE
+  T=  6000  M_A=  12.04 rate_A=0.000102 G_A=0.00262 Q_A=0.0870 STABLE     M_B=   9.74 rate_B=0.000171 G_B=0.00325 Q_B=0.0977 STABLE
+  T=  8000  M_A=  11.84 rate_A=0.000100 G_A=0.00258 Q_A=0.0867 STABLE     M_B=   9.37 rate_B=0.000184 G_B=0.00314 Q_B=0.0936 STABLE
+  T= 10000  M_A=  11.63 rate_A=0.000104 G_A=0.00254 Q_A=0.0866 STABLE     M_B=   9.02 rate_B=0.000176 G_B=0.00303 Q_B=0.0909 STABLE
+  T= 12000  M_A=  11.41 rate_A=0.000111 G_A=0.00250 Q_A=0.0863 STABLE     M_B=   8.68 rate_B=0.000172 G_B=0.00292 Q_B=0.0890 STABLE
+  T= 14000  M_A=  11.16 rate_A=0.000123 G_A=0.00245 Q_A=0.0858 STABLE     M_B=   8.30 rate_B=0.000189 G_B=0.00281 Q_B=0.0869 STABLE
+  T= 16000  M_A=  10.89 rate_A=0.000136 G_A=0.00240 Q_A=0.0850 STABLE     M_B=   7.88 rate_B=0.000209 G_B=0.00268 Q_B=0.0843 STABLE
+  T= 18000  M_A=  10.61 rate_A=0.000141 G_A=0.00234 Q_A=0.0840 STABLE     M_B=   7.47 rate_B=0.000203 G_B=0.00255 Q_B=0.0822 STABLE
+  T= 20000  M_A=  10.34 rate_A=0.000134 G_A=0.00229 Q_A=0.0835 STABLE     M_B=   7.08 rate_B=0.000195 G_B=0.00242 Q_B=0.0806 STABLE
+  T= 22000  M_A=  10.09 rate_A=0.000125 G_A=0.00224 Q_A=0.0833 STABLE     M_B=   6.65 rate_B=0.000217 G_B=0.00228 Q_B=0.0777 STABLE
+  T= 24000  M_A=   9.85 rate_A=0.000122 G_A=0.00219 Q_A=0.0832 STABLE     M_B=   6.11 rate_B=0.000267 G_B=0.00211 Q_B=0.0719 STABLE
+  T= 26000  M_A=   9.60 rate_A=0.000124 G_A=0.00214 Q_A=0.0831 STABLE     M_B=   5.51 rate_B=0.000302 G_B=0.00191 Q_B=0.0634 STABLE
+  T= 28000  M_A=   9.33 rate_A=0.000132 G_A=0.00208 Q_A=0.0828 STABLE     M_B=   4.79 rate_B=0.000363 G_B=0.00166 Q_B=0.0487 STABLE
+  T= 30000  M_A=   9.04 rate_A=0.000146 G_A=0.00202 Q_A=0.0819 STABLE     M_B=   4.00 rate_B=0.000391 G_B=0.00139 Q_B=0.0294 STABLE
+  T= 32000  M_A=   8.71 rate_A=0.000166 G_A=0.00195 Q_A=0.0804 STABLE     M_B=   3.48 rate_B=0.000260 G_B=0.00120 Q_B=0.0191 STABLE
+  T= 34000  M_A=   8.35 rate_A=0.000177 G_A=0.00188 Q_A=0.0785 STABLE     M_B=   3.16 rate_B=0.000162 G_B=0.00109 Q_B=0.0146 STABLE
+  T= 36000  M_A=   8.01 rate_A=0.000174 G_A=0.00180 Q_A=0.0769 STABLE     M_B=   2.92 rate_B=0.000117 G_B=0.00101 Q_B=0.0121 STABLE
+  T= 38000  M_A=   7.66 rate_A=0.000171 G_A=0.00173 Q_A=0.0754 STABLE     M_B=   2.74 rate_B=0.000093 G_B=0.00094 Q_B=0.0105 STABLE
+  T= 40000  M_A=   7.30 rate_A=0.000184 G_A=0.00165 Q_A=0.0732 STABLE     M_B=   2.59 rate_B=0.000077 G_B=0.00089 Q_B=0.0094 STABLE
+  T= 42000  M_A=   6.86 rate_A=0.000217 G_A=0.00156 Q_A=0.0689 STABLE     M_B=   2.45 rate_B=0.000066 G_B=0.00085 Q_B=0.0085 STABLE
+  T= 44000  M_A=   6.37 rate_A=0.000247 G_A=0.00144 Q_A=0.0626 STABLE     M_B=   2.34 rate_B=0.000057 G_B=0.00081 Q_B=0.0078 STABLE
+  T= 46000  M_A=   5.82 rate_A=0.000273 G_A=0.00132 Q_A=0.0537 STABLE     M_B=   2.24 rate_B=0.000051 G_B=0.00078 Q_B=0.0072 STABLE
+  T= 48000  M_A=   5.16 rate_A=0.000329 G_A=0.00117 Q_A=0.0391 STABLE     M_B=   2.15 rate_B=0.000045 G_B=0.00075 Q_B=0.0067 STABLE
+  T= 50000  M_A=   4.52 rate_A=0.000323 G_A=0.00102 Q_A=0.0237 STABLE     M_B=   2.06 rate_B=0.000041 G_B=0.00072 Q_B=0.0063 STABLE
+  T= 52000  M_A=   4.08 rate_A=0.000216 G_A=0.00091 Q_A=0.0160 STABLE     M_B=   1.99 rate_B=0.000037 G_B=0.00070 Q_B=0.0059 STABLE
+  T= 54000  M_A=   3.80 rate_A=0.000144 G_A=0.00084 Q_A=0.0125 STABLE     M_B=   1.92 rate_B=0.000034 G_B=0.00067 Q_B=0.0056 STABLE
+  T= 56000  M_A=   3.58 rate_A=0.000108 G_A=0.00079 Q_A=0.0105 STABLE     M_B=   1.86 rate_B=0.000032 G_B=0.00065 Q_B=0.0053 STABLE
+  T= 58000  M_A=   3.41 rate_A=0.000088 G_A=0.00075 Q_A=0.0092 STABLE     M_B=   1.80 rate_B=0.000029 G_B=0.00063 Q_B=0.0051 STABLE
+  T= 60000  M_A=   3.26 rate_A=0.000075 G_A=0.00072 Q_A=0.0082 STABLE     M_B=   1.74 rate_B=0.000027 G_B=0.00062 Q_B=0.0049 STABLE
+
+======================================================================
+TRANSITION ANALYSIS
+======================================================================
+Ring A (R=5, Delta): M_canonical=42.17  M_final=3.26  dissolved=92.3%  late_rate=0.0001261  G_final=0.00072
+Ring B (R=4, proton): M_canonical=29.78  M_final=1.75  dissolved=94.1%  late_rate=0.0000320  G_final=0.00062
+
+Gravitational well: G_A: 0.00266 -> 0.00076  G_B: 0.00333 -> 0.00063
+G_well tracks mass: A_corr=0.284x  B_corr=0.190x
+
+VERDICT: NO_TRANSITION
+  Both dissolved. phi interference dominates.
+
+Artifacts: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-ring-transition-v2

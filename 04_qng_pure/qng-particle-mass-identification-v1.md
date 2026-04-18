@@ -49,6 +49,126 @@ This derivation:
 Source: T_P2=1000 snapshot during Phase 2 (dissipative, Channel F active). The CPU-051
 dissipative value of 158.4 is deprecated (DER-QNG-036 §6 caveat).
 
+**CLOSED CAVEAT — IR problem fully investigated (2026-04-15), conclusion: GEOMETRIC RATIO:**
+GPU-009 through GPU-014 (six tests) systematically investigated the L-dependence of M_ring.
+
+Summary of findings:
+  GPU-009: v7 windowed mass — NOT_CONVERGED (ratio 2.20→1.96 from L=20 to L=80)
+  GPU-010: v8 Channel H Phase-2 only — NOT_CONVERGED (ratio 1.92→1.79)
+  GPU-011: v8 Channel H Phase-1+2, k_gm=0 — FAIL (ratio 1.40→1.06)
+  GPU-012: phi disorder profile, L=80 — dis(r) ~ r^(-2.37) [power law, massless phi]
+  GPU-013: xi scan vs GAMMA_PHI — xi=6.00 lu CONSTANT (slope=0.00), phi truly gapless
+  GPU-014: V(phi)=1-cos(phi) scan — ALL MU_PHI fail; at L->inf ratio->5/4=1.25, not SM
+
+ROOT CAUSE (confirmed): M_ring = N*sigma_ref - sum(sigma_m) is controlled by the
+GEOMETRIC VOLUME of the torus (proportional to R), not by particle physics. Even
+with phi fully confined (dis_bulk=0 at MU_PHI=0.003), sigma_m spreads via BETA=0.35
+diffusion, producing M(R) proportional to ring perimeter ∝ R. At L>>lambda_screen:
+  M(R=5)/M(R=4) -> 5/4 = 1.25  (geometric ratio), NOT SM=1.313.
+
+The 0.24% N/Delta agreement at L=20 is a FINITE-SIZE COINCIDENCE. The ratio passes
+through SM=1.313 during halo growth around L~20-25 and continues drifting.
+
+**STATUS CHANGE**: This document's mass identification claims are downgraded from
+CANDIDATE to STRUCTURAL HINT. The even/odd R pattern (isospin) remains valid —
+it is topological. The absolute mass values and the 0.24% ratio agreement are
+geometry-coincidences at L=20, not first-principles predictions.
+
+**What would make this a real prediction**: a definition of M_ring that is
+proportional to baryon mass rather than ring perimeter. Candidate: Hamiltonian
+energy H_v7 = T_g + E_v7 (energy, not depletion integral).
+
+**UPDATE 2026-04-18 — GPU-015 FAIL**: the Hamiltonian-energy candidate was
+tested (pre-registered in 07_validation/prereg/QNG-GPU-015.md, executed by
+tests/gpu/qng_hamiltonian_l_convergence_gpu.py, artifacts in
+07_validation/audits/qng-hamiltonian-l-convergence-v1/). All three pre-registered
+gates failed:
+
+- Gate 1 (E_ring_global last-3-L spread): 0.2182, threshold 0.03 — FAIL
+- Gate 2 (E_ring_windowed last-3-L spread): 0.2155, threshold 0.03 — FAIL
+- Gate 3 (SM ratio match at L=80): global deviation 14.2%, windowed 71.0%,
+  threshold 5% — FAIL (both)
+
+Ratio ladder for E_ring_global(R=5)/E_ring_global(R=4): 1.88 → 1.50 → 1.34 →
+1.19 → 1.13. Same pathology as M_ring: monotonic decrease toward bulk-geometric
+~1.0, passes through SM=1.313 between L=30 and L=40 but continues drifting.
+
+Windowed ratio stabilizes at ~2.25 (window-geometry artifact), not SM.
+
+Per-component analysis (Gate 4, informational) found that two sub-components of
+the Hamiltonian — e_B (sigma-gradient energy, (β/4)·Σ(∇sm)²) and e_chi_rel
+(chi·∇sm correlation, (χ_rel/2)·χ·(∇sm)) — approach SM=1.313 monotonically:
+e_B reaches 1.32 at L=80 (0.4% from SM) and e_chi_rel reaches 1.34 (2.2% from
+SM). Their L-convergence is not yet demonstrated (last-3-L spreads 0.71 and
+0.76), but the qualitative behaviour is consistent with localized mass carried
+by the sigma-gradient at the ring surface rather than by the depletion volume.
+
+**Conclusion**: the full Hamiltonian energy is NOT a valid mass observable in
+v5+Channel H. The Hamiltonian-energy rescue hypothesis is falsified. The
+sigma-gradient sub-component e_B is a candidate for a future pre-registration
+(extended L-scan; theoretical justification for picking a single Hamiltonian
+component required).
+
+DER-QNG-038 remains STRUCTURAL HINT. See
+`07_validation/audits/qng-hamiltonian-l-convergence-v1/interpretation.md` for
+details on remaining options (A: e_B-only scan, B: sigma_m confinement mechanism,
+C: abandon fixed-R baryon identification).
+
+**UPDATE 2026-04-18 — GPU-016 FAIL (Option A exhausted)**: the e_B
+sigma-gradient sub-component was tested in an extended L-scan as a candidate
+soliton rest-energy (Bogomolny / bag-model analog). Pre-registration
+`07_validation/prereg/QNG-GPU-016.md`; executable
+`tests/gpu/qng_e_b_l_scan_gpu.py`; artifacts
+`07_validation/audits/qng-e-b-l-scan-v1/`.
+
+Scan L ∈ {20, 40, 60, 80, 100, 120}, R ∈ {4, 5}, three e_B flavors (global,
+windowed sphere R+3, core tube radius 3 around ring curve). Result: **4 of 5
+pre-registered gates FAIL**, verdict **FAIL_GEOMETRIC**.
+
+Global e_B ratio ladder (R=5/R=4): 4.33 → 2.03 → 1.53 → 1.319 → 1.215 → 1.155.
+The L=80 value 1.319 (0.5% from SM=1.313) is confirmed as passage through SM
+on the way toward the geometric floor, NOT a plateau. Fit competition
+strongly prefers Model A (a + b/L) over Model B (a + b·log L) by ΔAIC = 12.5,
+with asymptote a = 0.356 (far below the 1.28 geometric-rejection threshold).
+Gate 5 fails: ratio(L=120) = 1.155 < 1.28, so geometric drift is confirmed
+independent of the fit.
+
+**Partial structural finding (Gate 2 PASS, NOT a rescue):** the windowed
+e_B (sphere of radius R+3) AND the core-tube e_B (radius 3 around the ring
+curve) are both L-convergent to <0.5% across L ∈ {80, 100, 120}:
+
+| | R=4 (L=120) | R=5 (L=120) | ratio |
+|---|---|---|---|
+| e_B_windowed | 0.0802 | 0.3577 | **4.459** (converged from L=60) |
+| e_B_core     | 0.0432 | 0.2095 | **4.844** (converged from L=80) |
+
+The sigma-gradient energy IS localized at the ring tube — but the converged
+R=5/R=4 ratio is 4.5–4.8, not SM 1.313 and not geometric 1.25. A power-law
+fit gives `ratio ≈ (R5/R4)^7`, an unusually strong R-dependence with no
+obvious topological interpretation. M_ring(R=5)/M_ring(R=4) ≈ 1.04 at L=120
+(nearly equal total depletion), so R=5 packs the same sigma deficit into
+sharper gradients — suggesting the ring cross-section is not scale-invariant
+in R.
+
+**Conclusion (all three mass-observable candidates exhausted):**
+
+1. M_ring: FAIL (GPU-009..014, geometric 5/4)
+2. Full Hamiltonian energy: FAIL (GPU-015, same IR pathology as M_ring)
+3. e_B sub-component (localized): FAIL (GPU-016, converges but to wrong
+   value)
+
+No dynamical QNG observable in v5+Channel H matches the SM baryon ratio.
+The R=4→N, R=5→Δ, R=6→N*, R=7→Δ assignment (DER-QNG-038 §2) remains a
+numerical coincidence at the T_P2=1000/L=20 protocol convention and is NOT
+supported by any convergent observable.
+
+Option A (e_B-only scan) is **falsified**. Remaining options: Option B
+(sigma_m confinement mechanism — requires new Channel H-analog for sigma_m,
+no theoretical motivation yet) or Option C (abandon fixed-R baryon
+identification and search for a different mass carrier: Hopfion Q=1,
+excited modes, composite rings). See
+`07_validation/audits/qng-e-b-l-scan-v1/interpretation.md`.
+
 **OPEN CAVEAT — T_P2 protocol dependence (flagged by Newton analyst review, 2026-04-13):**
 M_ring is still decaying at T_P2=1000 — it drops by ~30% in the next 500 steps (e.g.
 R=3: 474.15 at T=1000, 331.81 at T=1500). T_P2=1000 is a protocol convention, not a

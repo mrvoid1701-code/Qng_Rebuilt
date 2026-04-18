@@ -1,0 +1,98 @@
+QNG-GPU-019: Yukawa phi-mass coupling test (DER-QNG-041)
+g-scan (pre-committed): [0.009, 0.03, 0.08, 0.22, 0.6]
+v7 params: alpha=0.005, beta=0.35, gamma_phi=0.1, chi_decay=0.02
+PHASE1=300, PHASE2=1500
+
+GPU: free mem = 11.79 GB / 12.88 GB total
+
+Pre-building neighbor lists for L in [60, 80, 100]
+
+==============================================================================
+  SCAN POINT: g = 0.009
+==============================================================================
+
+--- Stage A (halo) @ g=0.009 ---
+    alpha_PL = 1.764  R2_PL = 0.9948
+    lambda_phi = 26.105  R2_YK = 0.9824
+    dAIC (Yukawa - PowerLaw) = 36.795  sm_core = 0.4353
+
+--- Stage C (force self-consistency) @ g=0.009 ---
+    g=0.009 d=  6: F_proxy=0.00009  sm_deficit=0.010
+    g=0.009 d=  8: F_proxy=0.02397  sm_deficit=1.342
+    g=0.009 d= 10: F_proxy=0.03281  sm_deficit=1.988
+    g=0.009 d= 12: F_proxy=0.05821  sm_deficit=2.329
+    g=0.009 d= 14: F_proxy=0.06345  sm_deficit=2.491
+    g=0.009 d= 16: F_proxy=0.06421  sm_deficit=2.581
+    g=0.009 d= 18: F_proxy=0.06457  sm_deficit=2.638
+    lambda_F = -1.733  consistency_err = 1.066
+
+--- Stage E (mass ratio L-convergence) @ g=0.009 ---
+    g=0.009 L= 60 R=4: M_ring = 1433.996
+    g=0.009 L= 60 R=5: M_ring = 1802.312
+    g=0.009 L= 80 R=4: M_ring = 2334.562
+    g=0.009 L= 80 R=5: M_ring = 2766.251
+    g=0.009 L=100 R=4: M_ring = 3377.889
+    g=0.009 L=100 R=5: M_ring = 3866.759
+    ratios = [1.2568454892468885, 1.184912058899421, 1.1447265245716016]  spread = 0.0946
+
+    Gate A: FAIL  alpha_PL=1.764  dAIC=36.795
+    Gate C: FAIL  err=1.066
+    Gate E: FAIL  spread=0.0946  ratio_L100=1.1447
+    Overall at g=0.009: FAIL
+
+==============================================================================
+  SCAN POINT: g = 0.03
+==============================================================================
+
+--- Stage A (halo) @ g=0.03 ---
+    alpha_PL = 1.655  R2_PL = 0.9943
+    lambda_phi = 30.370  R2_YK = 0.9846
+    dAIC (Yukawa - PowerLaw) = 29.777  sm_core = 0.4179
+
+--- Stage C (force self-consistency) @ g=0.03 ---
+    g=0.030 d=  6: F_proxy=0.00003  sm_deficit=0.009
+    g=0.030 d=  8: F_proxy=0.02323  sm_deficit=1.414
+    g=0.030 d= 10: F_proxy=0.03124  sm_deficit=1.971
+    g=0.030 d= 12: F_proxy=0.05449  sm_deficit=2.287
+    g=0.030 d= 14: F_proxy=0.06418  sm_deficit=2.448
+    g=0.030 d= 16: F_proxy=0.06771  sm_deficit=2.533
+    g=0.030 d= 18: F_proxy=0.06949  sm_deficit=2.590
+    lambda_F = -1.557  consistency_err = 1.051
+
+--- Stage E (mass ratio L-convergence) @ g=0.03 ---
+    g=0.030 L= 60 R=4: M_ring = 2671.037
+    g=0.030 L= 60 R=5: M_ring = 3087.009
+    g=0.030 L= 80 R=4: M_ring = 4483.087
+    g=0.030 L= 80 R=5: M_ring = 4984.256
+    g=0.030 L=100 R=4: M_ring = 6655.007
+    g=0.030 L=100 R=5: M_ring = 7234.819
+    ratios = [1.1557342335727885, 1.1117910513573304, 1.0871241506000133]  spread = 0.0617
+
+    Gate A: FAIL  alpha_PL=1.655  dAIC=29.777
+    Gate C: FAIL  err=1.051
+    Gate E: FAIL  spread=0.0617  ratio_L100=1.0871
+    Overall at g=0.03: FAIL
+
+==============================================================================
+  SCAN POINT: g = 0.08
+==============================================================================
+
+--- Stage A (halo) @ g=0.08 ---
+    alpha_PL = 1.633  R2_PL = 0.9935
+    lambda_phi = 31.372  R2_YK = 0.9846
+    dAIC (Yukawa - PowerLaw) = 25.935  sm_core = 0.4105
+
+--- Stage C (force self-consistency) @ g=0.08 ---
+    g=0.080 d=  6: F_proxy=0.00013  sm_deficit=0.023
+    g=0.080 d=  8: F_proxy=0.01535  sm_deficit=1.370
+    g=0.080 d= 10: F_proxy=0.03102  sm_deficit=1.895
+    g=0.080 d= 12: F_proxy=0.05267  sm_deficit=2.203
+    g=0.080 d= 14: F_proxy=0.06370  sm_deficit=2.388
+    g=0.080 d= 16: F_proxy=0.06804  sm_deficit=2.499
+    g=0.080 d= 18: F_proxy=0.07009  sm_deficit=2.570
+    lambda_F = -1.713  consistency_err = 1.055
+
+--- Stage E (mass ratio L-convergence) @ g=0.08 ---
+    g=0.080 L= 60 R=4: M_ring = 3380.752
+    g=0.080 L= 60 R=5: M_ring = 3832.693
+    g=0.080 L= 80 R=4: M_ring = 5681.653

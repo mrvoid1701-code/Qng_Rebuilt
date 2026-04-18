@@ -1,0 +1,71 @@
+{
+  "params": {
+    "L_values": [
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "RADII": [
+      4,
+      5
+    ],
+    "ALPHA": 0.005,
+    "BETA": 0.35,
+    "GAMMA_PHI": 0.1,
+    "BETA_PHI": 0.02,
+    "PHASE1": 300,
+    "PHASE2": 1500,
+    "PHASE3": 1000,
+    "lambda_screen": 8.367
+  },
+  "cpu074_ref": {
+    "4": 728.92,
+    "5": 954.88
+  },
+  "scan": [
+    {
+      "L": 20,
+      "M4": 509.664,
+      "M5": 810.132,
+      "ratio": 1.58954,
+      "M4_pct_vs_ref": -30.08,
+      "ratio_pct_vs_ref": 21.34
+    },
+    {
+      "L": 30,
+      "M4": 967.607,
+      "M5": 1301.101,
+      "ratio": 1.34466,
+      "M4_pct_vs_ref": 32.75,
+      "ratio_pct_vs_ref": 2.65
+    },
+    {
+      "L": 40,
+      "M4": 1503.416,
+      "M5": 1861.335,
+      "ratio": 1.23807,
+      "M4_pct_vs_ref": 106.25,
+      "ratio_pct_vs_ref": -5.49
+    },
+    {
+      "L": 50,
+      "M4": 2129.298,
+      "M5": 2508.684,
+      "ratio": 1.17817,
+      "M4_pct_vs_ref": 192.12,
+      "ratio_pct_vs_ref": -10.06
+    },
+    {
+      "L": 60,
+      "M4": 2851.356,
+      "M5": 3250.656,
+      "ratio": 1.14004,
+      "M4_pct_vs_ref": 291.18,
+      "ratio_pct_vs_ref": -12.97
+    }
+  ],
+  "convergence": "NOT_CONVERGED",
+  "convergence_detail": "Ratio still drifting: 1.2381 -> 1.1400. Need larger L."
+}

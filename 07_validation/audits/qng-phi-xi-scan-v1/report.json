@@ -1,0 +1,55 @@
+{
+  "params": {
+    "L": 60,
+    "R_RING": 5,
+    "LAMBDA_SCREEN": 8.366600265340756,
+    "BETA_PHI": 0.02,
+    "GAMMA_VALUES": [
+      0.03,
+      0.05,
+      0.1,
+      0.2
+    ]
+  },
+  "results": [
+    {
+      "gamma_phi": 0.03,
+      "xi": 5.998,
+      "r2_exp": 0.9855,
+      "alpha": 2.365,
+      "r2_pow": 0.999,
+      "better": "ambiguous",
+      "M_ring": 106893.3
+    },
+    {
+      "gamma_phi": 0.05,
+      "xi": 6.003,
+      "r2_exp": 0.9857,
+      "alpha": 2.367,
+      "r2_pow": 0.9991,
+      "better": "ambiguous",
+      "M_ring": 106236.5
+    },
+    {
+      "gamma_phi": 0.1,
+      "xi": 6.007,
+      "r2_exp": 0.9861,
+      "alpha": 2.371,
+      "r2_pow": 0.9993,
+      "better": "ambiguous",
+      "M_ring": 104749.3
+    },
+    {
+      "gamma_phi": 0.2,
+      "xi": 5.999,
+      "r2_exp": 0.9863,
+      "alpha": 2.379,
+      "r2_pow": 0.9994,
+      "better": "ambiguous",
+      "M_ring": 102151.0
+    }
+  ],
+  "xi_slope": 0.0001,
+  "verdict": "MASSLESS_PHI",
+  "detail": "xi approximately constant (slope=0.00) -> phi gapless, L=20 is coincidence"
+}

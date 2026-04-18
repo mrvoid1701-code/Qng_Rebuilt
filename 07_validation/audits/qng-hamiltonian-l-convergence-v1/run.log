@@ -1,0 +1,61 @@
+QNG-GPU-015: Hamiltonian energy L-convergence test
+v5 dynamics + Channel H in BOTH Phase 1 and Phase 2, K_GM=0.0
+bp_min=0.0005  bp_ring=0.06
+PHASE1=300  PHASE2=1500
+L values: [20, 30, 40, 60, 80]  Radii: [4, 5]
+SM ratio Delta/N = 1.3130
+
+GPU: device 0, free mem = 11.79 GB
+
+=== L=20 ===
+  vacuum E_total = -1.0000e+00
+  R=4: E_ring_global=-6.0821e+01  E_ring_windowed=-7.7059e+00  M_ring=605.67  dis_bulk=0.008564
+  R=5: E_ring_global=-1.1434e+02  E_ring_windowed=-3.0899e+01  M_ring=846.61  dis_bulk=0.015008
+=== L=30 ===
+  vacuum E_total = -3.3750e+00
+  R=4: E_ring_global=-1.0176e+02  E_ring_windowed=-1.0039e+01  M_ring=1249.57  dis_bulk=0.005218
+  R=5: E_ring_global=-1.5312e+02  E_ring_windowed=-2.6420e+01  M_ring=1542.21  dis_bulk=0.007492
+=== L=40 ===
+  vacuum E_total = -8.0000e+00
+  R=4: E_ring_global=-1.4551e+02  E_ring_windowed=-1.2552e+01  M_ring=1978.64  dis_bulk=0.003459
+  R=5: E_ring_global=-1.9568e+02  E_ring_windowed=-3.0882e+01  M_ring=2300.28  dis_bulk=0.004461
+=== L=60 ===
+  vacuum E_total = -2.7000e+01
+  R=4: E_ring_global=-2.6356e+02  E_ring_windowed=-1.5212e+01  M_ring=3810.84  dis_bulk=0.001964
+  R=5: E_ring_global=-3.1481e+02  E_ring_windowed=-3.5129e+01  M_ring=4173.95  dis_bulk=0.002276
+=== L=80 ===
+  vacuum E_total = -6.4000e+01
+  R=4: E_ring_global=-4.2417e+02  E_ring_windowed=-1.6427e+01  M_ring=6195.34  dis_bulk=0.001347
+  R=5: E_ring_global=-4.7783e+02  E_ring_windowed=-3.6874e+01  M_ring=6594.22  dis_bulk=0.001484
+
+==========================================================================================
+HAMILTONIAN ENERGY L-CONVERGENCE (E_ring_global, E_ring_windowed)
+==========================================================================================
+   L    E_glob(R4)    E_glob(R5)  ratio_g     E_win(R4)     E_win(R5)  ratio_w      M_R4      M_R5  ratio_M
+-----------------------------------------------------------------------------------------------------------
+  20   -6.0821e+01   -1.1434e+02   1.8800   -7.7059e+00   -3.0899e+01   4.0098     605.7     846.6   1.3978
+  30   -1.0176e+02   -1.5312e+02   1.5047   -1.0039e+01   -2.6420e+01   2.6317    1249.6    1542.2   1.2342
+  40   -1.4551e+02   -1.9568e+02   1.3447   -1.2552e+01   -3.0882e+01   2.4602    1978.6    2300.3   1.1626
+  60   -2.6356e+02   -3.1481e+02   1.1945   -1.5212e+01   -3.5129e+01   2.3093    3810.8    4174.0   1.0953
+  80   -4.2417e+02   -4.7783e+02   1.1265   -1.6427e+01   -3.6874e+01   2.2447    6195.3    6594.2   1.0644
+
+Gate 1 (E_global L-spread): 0.2182  (threshold < 0.03)
+Gate 2 (E_window L-spread): 0.2155  (threshold < 0.03)
+Gate 3 (SM match at L=80):
+         global:   ratio=1.1265  SM=1.3130  dev=14.20%  (gate <5%)
+         windowed: ratio=2.2447  SM=1.3130  dev=70.96%  (gate <5%)
+
+Gate 4 (per-component ratios, informational):
+      comp  L=20:r  L=30:r  L=40:r  L=60:r  L=80:r
+       e_A    2.073    1.655    1.463    1.265    1.171
+       e_B    4.328    2.650    2.030    1.526    1.319
+ e_chi_dec    2.085    1.664    1.472    1.271    1.176
+ e_chi_rel    4.540    2.762    2.102    1.564    1.342
+   e_delta   -2.078   -1.659   -1.467   -1.268   -1.173
+     e_phi   -1.153   -1.129   -1.100   -1.064   -1.045
+     e_dis    1.163    1.116    1.089    1.058    1.041
+
+VERDICT: FAIL
+  Energy observable does not converge (G1 or G2 failed). Channel H insufficient for energy localization. Report shows which component dominates divergence.
+
+Reports written to C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-hamiltonian-l-convergence-v1

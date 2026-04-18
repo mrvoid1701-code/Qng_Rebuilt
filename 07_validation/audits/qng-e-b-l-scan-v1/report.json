@@ -1,0 +1,304 @@
+{
+  "test_id": "QNG-GPU-016",
+  "status": "FAIL_GEOMETRIC",
+  "parameters": {
+    "ALPHA": 0.005,
+    "BETA": 0.35,
+    "DELTA_CHI": 0.2,
+    "CHI_DECAY": 0.02,
+    "CHI_REL": 0.35,
+    "GAMMA_PHI": 0.1,
+    "BETA_PHI_MIN": 0.0005,
+    "BETA_PHI_RING": 0.06,
+    "K_GM": 0.0,
+    "PHASE1": 300,
+    "PHASE2": 1500,
+    "W_WINDOW_OFFSET": 3.0,
+    "W_CORE": 3.0
+  },
+  "L_values": [
+    20,
+    40,
+    60,
+    80,
+    100,
+    120
+  ],
+  "RADII": [
+    4,
+    5
+  ],
+  "RATIO_SM": 1.3130128956623681,
+  "scan": [
+    {
+      "L": 20,
+      "eB_R4_global": 0.10847671030821995,
+      "eB_R5_global": 0.4694615392866575,
+      "ratio_global": 4.327763424542969,
+      "eB_R4_windowed": 0.03410762733983025,
+      "eB_R5_windowed": 0.23388482481205794,
+      "ratio_windowed": 6.85725871464919,
+      "eB_R4_core": 0.021095525143362243,
+      "eB_R5_core": 0.13163616070073555,
+      "ratio_core": 6.240003972698219
+    },
+    {
+      "L": 40,
+      "eB_R4_global": 0.5476387671047425,
+      "eB_R5_global": 1.1118565241701783,
+      "ratio_global": 2.030273587182922,
+      "eB_R4_windowed": 0.07144351130172474,
+      "eB_R5_windowed": 0.3490800050550074,
+      "ratio_windowed": 4.88609810316784,
+      "eB_R4_core": 0.03858548468628051,
+      "eB_R5_core": 0.20630953376426844,
+      "ratio_core": 5.346817214858624
+    },
+    {
+      "L": 60,
+      "eB_R4_global": 1.0858960915544658,
+      "eB_R5_global": 1.6568228398225857,
+      "ratio_global": 1.5257655430464212,
+      "eB_R4_windowed": 0.07802995549529566,
+      "eB_R5_windowed": 0.3572145940148374,
+      "ratio_windowed": 4.577916157293893,
+      "eB_R4_core": 0.041892830429927586,
+      "eB_R5_core": 0.20931914181326167,
+      "ratio_core": 4.996538540488
+    },
+    {
+      "L": 80,
+      "eB_R4_global": 1.7782495118487287,
+      "eB_R5_global": 2.3452575387205075,
+      "ratio_global": 1.318857406170351,
+      "eB_R4_windowed": 0.08012440871638228,
+      "eB_R5_windowed": 0.357648239222224,
+      "ratio_windowed": 4.463661510292044,
+      "eB_R4_core": 0.04319309259482433,
+      "eB_R5_core": 0.20946557154900022,
+      "ratio_core": 4.849515488828408
+    },
+    {
+      "L": 100,
+      "eB_R4_global": 2.6455642909153996,
+      "eB_R5_global": 3.2130297409352337,
+      "ratio_global": 1.2144969419070455,
+      "eB_R4_windowed": 0.08020691236563512,
+      "eB_R5_windowed": 0.35767151148684373,
+      "ratio_windowed": 4.459360184024352,
+      "eB_R4_core": 0.04324336802411387,
+      "eB_R5_core": 0.2094726426986832,
+      "ratio_core": 4.844040884647899
+    },
+    {
+      "L": 120,
+      "eB_R4_global": 3.695059135537009,
+      "eB_R5_global": 4.265932760869953,
+      "ratio_global": 1.1544964787823289,
+      "eB_R4_windowed": 0.08020789060341475,
+      "eB_R5_windowed": 0.35767262855285104,
+      "ratio_windowed": 4.459319723558764,
+      "eB_R4_core": 0.043243828905521475,
+      "eB_R5_core": 0.20947294090275725,
+      "ratio_core": 4.843996154004097
+    }
+  ],
+  "raw_results": [
+    {
+      "L": 20,
+      "R": 4,
+      "N": 8000,
+      "N_window": 1419,
+      "N_core": 660,
+      "e_B_global": 0.10847671030821995,
+      "e_B_windowed": 0.03410762733983025,
+      "e_B_core": 0.021095525143362243,
+      "e_chi_rel_global": 0.20310340143480535,
+      "M_ring_global": 605.6656689461602
+    },
+    {
+      "L": 20,
+      "R": 5,
+      "N": 8000,
+      "N_window": 2109,
+      "N_core": 868,
+      "e_B_global": 0.4694615392866575,
+      "e_B_windowed": 0.23388482481205794,
+      "e_B_core": 0.13163616070073555,
+      "e_chi_rel_global": 0.9220241197006241,
+      "M_ring_global": 846.6082812094774
+    },
+    {
+      "L": 40,
+      "R": 4,
+      "N": 64000,
+      "N_window": 1419,
+      "N_core": 660,
+      "e_B_global": 0.5476387671047425,
+      "e_B_windowed": 0.07144351130172474,
+      "e_B_core": 0.03858548468628051,
+      "e_chi_rel_global": 0.9821713449524193,
+      "M_ring_global": 1978.643829905668
+    },
+    {
+      "L": 40,
+      "R": 5,
+      "N": 64000,
+      "N_window": 2109,
+      "N_core": 868,
+      "e_B_global": 1.1118565241701783,
+      "e_B_windowed": 0.3490800050550074,
+      "e_B_core": 0.20630953376426844,
+      "e_chi_rel_global": 2.064726916775232,
+      "M_ring_global": 2300.283270678323
+    },
+    {
+      "L": 60,
+      "R": 4,
+      "N": 216000,
+      "N_window": 1419,
+      "N_core": 660,
+      "e_B_global": 1.0858960915544658,
+      "e_B_windowed": 0.07802995549529566,
+      "e_B_core": 0.041892830429927586,
+      "e_chi_rel_global": 1.9346592450431315,
+      "M_ring_global": 3810.8422766371077
+    },
+    {
+      "L": 60,
+      "R": 5,
+      "N": 216000,
+      "N_window": 2109,
+      "N_core": 868,
+      "e_B_global": 1.6568228398225857,
+      "e_B_windowed": 0.3572145940148374,
+      "e_B_core": 0.20931914181326167,
+      "e_chi_rel_global": 3.0253452742697853,
+      "M_ring_global": 4173.952452879894
+    },
+    {
+      "L": 80,
+      "R": 4,
+      "N": 512000,
+      "N_window": 1419,
+      "N_core": 660,
+      "e_B_global": 1.7782495118487287,
+      "e_B_windowed": 0.08012440871638228,
+      "e_B_core": 0.04319309259482433,
+      "e_chi_rel_global": 3.161732515295851,
+      "M_ring_global": 6195.336792257003
+    },
+    {
+      "L": 80,
+      "R": 5,
+      "N": 512000,
+      "N_window": 2109,
+      "N_core": 868,
+      "e_B_global": 2.3452575387205075,
+      "e_B_windowed": 0.357648239222224,
+      "e_B_core": 0.20946557154900022,
+      "e_chi_rel_global": 4.243764927208168,
+      "M_ring_global": 6594.217500385828
+    },
+    {
+      "L": 100,
+      "R": 4,
+      "N": 1000000,
+      "N_window": 1419,
+      "N_core": 660,
+      "e_B_global": 2.6455642909153996,
+      "e_B_windowed": 0.08020691236563512,
+      "e_B_core": 0.04324336802411387,
+      "e_chi_rel_global": 4.698977126239564,
+      "M_ring_global": 9149.411955188669
+    },
+    {
+      "L": 100,
+      "R": 5,
+      "N": 1000000,
+      "N_window": 2109,
+      "N_core": 868,
+      "e_B_global": 3.2130297409352337,
+      "e_B_windowed": 0.35767151148684373,
+      "e_B_core": 0.2094726426986832,
+      "e_chi_rel_global": 5.7806364727851225,
+      "M_ring_global": 9582.710461438925
+    },
+    {
+      "L": 120,
+      "R": 4,
+      "N": 1728000,
+      "N_window": 1419,
+      "N_core": 660,
+      "e_B_global": 3.695059135537009,
+      "e_B_windowed": 0.08020789060341475,
+      "e_B_core": 0.043243828905521475,
+      "e_chi_rel_global": 6.559329738439158,
+      "M_ring_global": 12679.772418671753
+    },
+    {
+      "L": 120,
+      "R": 5,
+      "N": 1728000,
+      "N_window": 2109,
+      "N_core": 868,
+      "e_B_global": 4.265932760869953,
+      "e_B_windowed": 0.35767262855285104,
+      "e_B_core": 0.20947294090275725,
+      "e_chi_rel_global": 7.645518055669934,
+      "M_ring_global": 13146.059441344347
+    }
+  ],
+  "fit_competition": {
+    "modelA": {
+      "a": 0.3555411009467778,
+      "b": 77.04821857919485,
+      "sse": 0.12301062394832914,
+      "aic": -19.323464138024626,
+      "form": "a + b/L"
+    },
+    "modelB": {
+      "a": 8.925396748828563,
+      "b": -1.7097554095166816,
+      "sse": 0.9915911926736373,
+      "aic": -6.801222980139288,
+      "form": "a + b*log(L)"
+    },
+    "delta_aic_B_minus_A": 12.522241157885338
+  },
+  "gates": {
+    "G1_eB_global_spread": {
+      "value": 0.16436092738802222,
+      "threshold": 0.05,
+      "pass": false
+    },
+    "G2_eB_windowed_spread": {
+      "value": 0.0043417867332804505,
+      "threshold": 0.05,
+      "pass": true
+    },
+    "G3_SM_match": {
+      "ratio_global_L120": 1.1544964787823289,
+      "ratio_windowed_L120": 4.459319723558764,
+      "ratio_core_L120": 4.843996154004097,
+      "dev_global": 0.12072723535595847,
+      "dev_windowed": 2.3962497537460945,
+      "threshold": 0.03,
+      "pass": false
+    },
+    "G4_fit_competition": {
+      "delta_aic_B_minus_A": 12.522241157885338,
+      "asymptote_A": 0.3555411009467778,
+      "threshold_delta_aic": 4,
+      "threshold_asymptote": 1.28,
+      "pass": false
+    },
+    "G5_geometric_rejection": {
+      "ratio_global_L120": 1.1544964787823289,
+      "threshold": 1.28,
+      "pass": false
+    }
+  },
+  "verdict": "FAIL_GEOMETRIC",
+  "interpretation": "e_B exhibits geometric drift (ratio < 1.28 or Model B preferred). Soliton rest-energy hypothesis falsified."
+}

@@ -1,0 +1,194 @@
+{
+  "params": {
+    "L_values": [
+      20,
+      30,
+      40,
+      60
+    ],
+    "RADII": [
+      4,
+      5
+    ],
+    "PHASE1": 300,
+    "PHASE2": 1500,
+    "GAMMA_PHI": 0.1,
+    "BETA_PHI": 0.02,
+    "LAMBDA_SCREEN": 8.366600265340756
+  },
+  "SM_ratio": 1.3130128956623681,
+  "rows": [
+    {
+      "mu_phi": 0.0001,
+      "xi_pred": 14.14,
+      "scan": [
+        {
+          "L": 20,
+          "M_R4": 394.97,
+          "M_R5": 668.02,
+          "ratio": 1.69132,
+          "xi_R5": null,
+          "dis_bulk_R4": 0.004616
+        },
+        {
+          "L": 30,
+          "M_R4": 748.35,
+          "M_R5": 1039.03,
+          "ratio": 1.38843,
+          "xi_R5": null,
+          "dis_bulk_R4": 0.002661
+        },
+        {
+          "L": 40,
+          "M_R4": 1161.37,
+          "M_R5": 1464.04,
+          "ratio": 1.26061,
+          "xi_R5": 5.703,
+          "dis_bulk_R4": 0.001755
+        },
+        {
+          "L": 60,
+          "M_R4": 2202.95,
+          "M_R5": 2524.69,
+          "ratio": 1.14605,
+          "xi_R5": 6.244,
+          "dis_bulk_R4": 0.000993
+        }
+      ],
+      "spread": 0.24238,
+      "ratio_last": 1.14605,
+      "converged": false,
+      "sm_ok": false,
+      "verdict": "FAIL"
+    },
+    {
+      "mu_phi": 0.0003,
+      "xi_pred": 8.16,
+      "scan": [
+        {
+          "L": 20,
+          "M_R4": 234.03,
+          "M_R5": 399.64,
+          "ratio": 1.70764,
+          "xi_R5": null,
+          "dis_bulk_R4": 0.002327
+        },
+        {
+          "L": 30,
+          "M_R4": 440.45,
+          "M_R5": 611.91,
+          "ratio": 1.38928,
+          "xi_R5": null,
+          "dis_bulk_R4": 0.001368
+        },
+        {
+          "L": 40,
+          "M_R4": 681.01,
+          "M_R5": 859.99,
+          "ratio": 1.26282,
+          "xi_R5": 5.924,
+          "dis_bulk_R4": 0.000906
+        },
+        {
+          "L": 60,
+          "M_R4": 1287.31,
+          "M_R5": 1482.2,
+          "ratio": 1.15139,
+          "xi_R5": 6.212,
+          "dis_bulk_R4": 0.000514
+        }
+      ],
+      "spread": 0.23789,
+      "ratio_last": 1.15139,
+      "converged": false,
+      "sm_ok": false,
+      "verdict": "FAIL"
+    },
+    {
+      "mu_phi": 0.001,
+      "xi_pred": 4.47,
+      "scan": [
+        {
+          "L": 20,
+          "M_R4": 35.11,
+          "M_R5": 59.28,
+          "ratio": 1.68841,
+          "xi_R5": null,
+          "dis_bulk_R4": 0.000198
+        },
+        {
+          "L": 30,
+          "M_R4": 63.11,
+          "M_R5": 88.6,
+          "ratio": 1.4039,
+          "xi_R5": null,
+          "dis_bulk_R4": 0.000119
+        },
+        {
+          "L": 40,
+          "M_R4": 95.37,
+          "M_R5": 122.36,
+          "ratio": 1.283,
+          "xi_R5": 6.003,
+          "dis_bulk_R4": 7.8e-05
+        },
+        {
+          "L": 60,
+          "M_R4": 176.5,
+          "M_R5": 206.49,
+          "ratio": 1.16992,
+          "xi_R5": 6.029,
+          "dis_bulk_R4": 4.4e-05
+        }
+      ],
+      "spread": 0.23398,
+      "ratio_last": 1.16992,
+      "converged": false,
+      "sm_ok": false,
+      "verdict": "FAIL"
+    },
+    {
+      "mu_phi": 0.003,
+      "xi_pred": 2.58,
+      "scan": [
+        {
+          "L": 20,
+          "M_R4": 0.73,
+          "M_R5": 1.28,
+          "ratio": 1.75342,
+          "xi_R5": null,
+          "dis_bulk_R4": 0.0
+        },
+        {
+          "L": 30,
+          "M_R4": 1.01,
+          "M_R5": 1.57,
+          "ratio": 1.55446,
+          "xi_R5": null,
+          "dis_bulk_R4": 0.0
+        },
+        {
+          "L": 40,
+          "M_R4": 1.35,
+          "M_R5": 1.92,
+          "ratio": 1.42222,
+          "xi_R5": 5.752,
+          "dis_bulk_R4": 0.0
+        },
+        {
+          "L": 60,
+          "M_R4": 2.21,
+          "M_R5": 2.82,
+          "ratio": 1.27602,
+          "xi_R5": 6.855,
+          "dis_bulk_R4": 0.0
+        }
+      ],
+      "spread": 0.27844,
+      "ratio_last": 1.27602,
+      "converged": false,
+      "sm_ok": true,
+      "verdict": "FAIL"
+    }
+  ]
+}

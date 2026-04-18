@@ -1,0 +1,52 @@
+QNG-GPU-019: Yukawa phi-mass coupling test (DER-QNG-041)
+g-scan (pre-committed): [0.009, 0.03, 0.08, 0.22, 0.6]
+v7 params: alpha=0.005, beta=0.35, gamma_phi=0.1, chi_decay=0.02
+PHASE1=300, PHASE2=1500
+
+GPU: free mem = 11.79 GB / 12.88 GB total
+
+Pre-building neighbor lists for L in [60, 80, 100]
+
+==============================================================================
+  SCAN POINT: g = 0.009
+==============================================================================
+
+--- Stage A (halo) @ g=0.009 ---
+    alpha_PL = 2.395  R2_PL = 0.9953
+    lambda_phi = 14.332  R2_YK = 0.9714
+    dAIC (Yukawa - PowerLaw) = 54.089  sm_core = 0.3623
+
+--- Stage C (force self-consistency) @ g=0.009 ---
+    g=0.009 d=  6: F_proxy=0.01858  sm_deficit=0.873
+    g=0.009 d=  8: F_proxy=0.05797  sm_deficit=1.603
+    g=0.009 d= 10: F_proxy=0.06271  sm_deficit=1.941
+    g=0.009 d= 12: F_proxy=0.05957  sm_deficit=2.104
+    g=0.009 d= 14: F_proxy=0.05850  sm_deficit=2.210
+    g=0.009 d= 16: F_proxy=0.05831  sm_deficit=2.286
+    g=0.009 d= 18: F_proxy=0.05848  sm_deficit=2.343
+    lambda_F = -4.173  consistency_err = 1.291
+
+--- Stage E (mass ratio L-convergence) @ g=0.009 ---
+    g=0.009 L= 60 R=4: M_ring = 3788.985
+    g=0.009 L= 60 R=5: M_ring = 4151.171
+    g=0.009 L= 80 R=4: M_ring = 6159.151
+    g=0.009 L= 80 R=5: M_ring = 6556.177
+    g=0.009 L=100 R=4: M_ring = 9095.113
+    g=0.009 L=100 R=5: M_ring = 9525.577
+    ratios = [1.0955890992037038, 1.0644612494141297, 1.0473291751284683]  spread = 0.0453
+
+    Gate A: FAIL  alpha_PL=2.395  dAIC=54.089
+    Gate C: FAIL  err=1.291
+    Gate E: FAIL  spread=0.0453  ratio_L100=1.0473
+    Overall at g=0.009: FAIL
+
+==============================================================================
+  SCAN POINT: g = 0.03
+==============================================================================
+
+--- Stage A (halo) @ g=0.03 ---
+    alpha_PL = 2.397  R2_PL = 0.9953
+    lambda_phi = 14.310  R2_YK = 0.9714
+    dAIC (Yukawa - PowerLaw) = 54.404  sm_core = 0.3619
+
+--- Stage C (force self-consistency) @ g=0.03 ---

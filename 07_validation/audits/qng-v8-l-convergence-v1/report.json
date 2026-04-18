@@ -1,0 +1,143 @@
+{
+  "params": {
+    "L_values": [
+      20,
+      30,
+      40,
+      60,
+      80
+    ],
+    "RADII": [
+      4,
+      5
+    ],
+    "PHASE1": 300,
+    "PHASE2": 1500,
+    "GAMMA_PHI": 0.1,
+    "BETA_PHI_MIN": 0.0005,
+    "BETA_PHI_RING": 0.06,
+    "K_GM": 0.0,
+    "channel_h_phase1": true
+  },
+  "SM_ratio": 1.3130128956623681,
+  "results": [
+    {
+      "L": 20,
+      "R": 4,
+      "M_global": 605.67,
+      "dis_bulk_p1": 0.038586,
+      "dis_bulk_p2": 0.008564
+    },
+    {
+      "L": 20,
+      "R": 5,
+      "M_global": 846.61,
+      "dis_bulk_p1": 0.042854,
+      "dis_bulk_p2": 0.015008
+    },
+    {
+      "L": 30,
+      "R": 4,
+      "M_global": 1249.57,
+      "dis_bulk_p1": 0.020357,
+      "dis_bulk_p2": 0.005218
+    },
+    {
+      "L": 30,
+      "R": 5,
+      "M_global": 1542.21,
+      "dis_bulk_p1": 0.022112,
+      "dis_bulk_p2": 0.007492
+    },
+    {
+      "L": 40,
+      "R": 4,
+      "M_global": 1978.64,
+      "dis_bulk_p1": 0.013489,
+      "dis_bulk_p2": 0.003459
+    },
+    {
+      "L": 40,
+      "R": 5,
+      "M_global": 2300.28,
+      "dis_bulk_p1": 0.014391,
+      "dis_bulk_p2": 0.004461
+    },
+    {
+      "L": 60,
+      "R": 4,
+      "M_global": 3810.84,
+      "dis_bulk_p1": 0.007945,
+      "dis_bulk_p2": 0.001964
+    },
+    {
+      "L": 60,
+      "R": 5,
+      "M_global": 4173.95,
+      "dis_bulk_p1": 0.008297,
+      "dis_bulk_p2": 0.002276
+    },
+    {
+      "L": 80,
+      "R": 4,
+      "M_global": 6195.34,
+      "dis_bulk_p1": 0.005611,
+      "dis_bulk_p2": 0.001347
+    },
+    {
+      "L": 80,
+      "R": 5,
+      "M_global": 6594.22,
+      "dis_bulk_p1": 0.005793,
+      "dis_bulk_p2": 0.001484
+    }
+  ],
+  "scan": [
+    {
+      "L": 20,
+      "M_R4": 605.67,
+      "M_R5": 846.61,
+      "ratio": 1.39781,
+      "dis_bulk_p1_R4": 0.038586,
+      "dis_bulk_p2_R4": 0.008564
+    },
+    {
+      "L": 30,
+      "M_R4": 1249.57,
+      "M_R5": 1542.21,
+      "ratio": 1.23419,
+      "dis_bulk_p1_R4": 0.020357,
+      "dis_bulk_p2_R4": 0.005218
+    },
+    {
+      "L": 40,
+      "M_R4": 1978.64,
+      "M_R5": 2300.28,
+      "ratio": 1.16256,
+      "dis_bulk_p1_R4": 0.013489,
+      "dis_bulk_p2_R4": 0.003459
+    },
+    {
+      "L": 60,
+      "M_R4": 3810.84,
+      "M_R5": 4173.95,
+      "ratio": 1.09528,
+      "dis_bulk_p1_R4": 0.007945,
+      "dis_bulk_p2_R4": 0.001964
+    },
+    {
+      "L": 80,
+      "M_R4": 6195.34,
+      "M_R5": 6594.22,
+      "ratio": 1.06438,
+      "dis_bulk_p1_R4": 0.005611,
+      "dis_bulk_p2_R4": 0.001347
+    }
+  ],
+  "converged": false,
+  "last3_spread": 0.09818,
+  "sm_match": false,
+  "dis_ok": true,
+  "verdict": "FAIL",
+  "detail": "M_ring ratio does not converge (spread=0.0982)"
+}

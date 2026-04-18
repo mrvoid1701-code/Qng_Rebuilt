@@ -1,0 +1,59 @@
+QNG-GPU-016: e_B extended L-scan
+v5 + Channel H (Phase 1 and 2), K_GM=0.0
+bp_min=0.0005  bp_ring=0.06
+PHASE1=300  PHASE2=1500
+L values: [20, 40, 60, 80, 100, 120]  Radii: [4, 5]
+SM ratio Delta/N = 1.3130
+
+GPU: device 0, free mem = 11.79 GB
+
+=== L=20 ===
+  R=4: e_B_glob=1.0848e-01  e_B_win=3.4108e-02  e_B_core=2.1096e-02  N_win=1419  N_core=660  M_ring=605.7
+  R=5: e_B_glob=4.6946e-01  e_B_win=2.3388e-01  e_B_core=1.3164e-01  N_win=2109  N_core=868  M_ring=846.6
+=== L=40 ===
+  R=4: e_B_glob=5.4764e-01  e_B_win=7.1444e-02  e_B_core=3.8585e-02  N_win=1419  N_core=660  M_ring=1978.6
+  R=5: e_B_glob=1.1119e+00  e_B_win=3.4908e-01  e_B_core=2.0631e-01  N_win=2109  N_core=868  M_ring=2300.3
+=== L=60 ===
+  R=4: e_B_glob=1.0859e+00  e_B_win=7.8030e-02  e_B_core=4.1893e-02  N_win=1419  N_core=660  M_ring=3810.8
+  R=5: e_B_glob=1.6568e+00  e_B_win=3.5721e-01  e_B_core=2.0932e-01  N_win=2109  N_core=868  M_ring=4174.0
+=== L=80 ===
+  R=4: e_B_glob=1.7782e+00  e_B_win=8.0124e-02  e_B_core=4.3193e-02  N_win=1419  N_core=660  M_ring=6195.3
+  R=5: e_B_glob=2.3453e+00  e_B_win=3.5765e-01  e_B_core=2.0947e-01  N_win=2109  N_core=868  M_ring=6594.2
+=== L=100 ===
+  R=4: e_B_glob=2.6456e+00  e_B_win=8.0207e-02  e_B_core=4.3243e-02  N_win=1419  N_core=660  M_ring=9149.4
+  R=5: e_B_glob=3.2130e+00  e_B_win=3.5767e-01  e_B_core=2.0947e-01  N_win=2109  N_core=868  M_ring=9582.7
+=== L=120 ===
+  R=4: e_B_glob=3.6951e+00  e_B_win=8.0208e-02  e_B_core=4.3244e-02  N_win=1419  N_core=660  M_ring=12679.8
+  R=5: e_B_glob=4.2659e+00  e_B_win=3.5767e-01  e_B_core=2.0947e-01  N_win=2109  N_core=868  M_ring=13146.1
+
+==============================================================================================================
+e_B RATIOS vs L
+==============================================================================================================
+   L     eB_g(R4)     eB_g(R5)     r_g     eB_w(R4)     eB_w(R5)     r_w     eB_c(R4)     eB_c(R5)     r_c
+----------------------------------------------------------------------------------------------------------
+  20   1.0848e-01   4.6946e-01  4.3278   3.4108e-02   2.3388e-01  6.8573   2.1096e-02   1.3164e-01  6.2400
+  40   5.4764e-01   1.1119e+00  2.0303   7.1444e-02   3.4908e-01  4.8861   3.8585e-02   2.0631e-01  5.3468
+  60   1.0859e+00   1.6568e+00  1.5258   7.8030e-02   3.5721e-01  4.5779   4.1893e-02   2.0932e-01  4.9965
+  80   1.7782e+00   2.3453e+00  1.3189   8.0124e-02   3.5765e-01  4.4637   4.3193e-02   2.0947e-01  4.8495
+ 100   2.6456e+00   3.2130e+00  1.2145   8.0207e-02   3.5767e-01  4.4594   4.3243e-02   2.0947e-01  4.8440
+ 120   3.6951e+00   4.2659e+00  1.1545   8.0208e-02   3.5767e-01  4.4593   4.3244e-02   2.0947e-01  4.8440
+
+Gate 1 (e_B global L-spread over L=80,100,120): 0.1644  (threshold < 0.05)  FAIL
+Gate 2 (e_B windowed L-spread):                 0.0043  (threshold < 0.05)  PASS
+Gate 3 (SM match at L=120):
+         global:   ratio=1.1545  SM=1.3130  dev=12.07%  (gate < 3%)
+         windowed: ratio=4.4593                     dev=239.62%  (gate < 3%)
+         core:     ratio=4.8440  (informational)
+         => FAIL
+Gate 4 (fit competition):
+         Model A (a + b/L):        a=0.3555  b=77.0482  AIC=-19.32
+         Model B (a + b*log(L)):   a=8.9254  b=-1.7098  AIC=-6.80
+         Delta-AIC (B-A) = 12.52  (A preferred if > 4)
+         asymptote `a` (Model A) = 0.3555  (threshold > 1.28)
+         => FAIL
+Gate 5 (geometric rejection, ratio(L=120) > 1.28): ratio_g=1.1545  FAIL
+
+VERDICT: FAIL_GEOMETRIC
+  e_B exhibits geometric drift (ratio < 1.28 or Model B preferred). Soliton rest-energy hypothesis falsified.
+
+Reports written to C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-e-b-l-scan-v1

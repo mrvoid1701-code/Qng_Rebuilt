@@ -1,0 +1,2742 @@
+{
+  "params": {
+    "L": 60,
+    "R": 5,
+    "center": [
+      30,
+      30,
+      30
+    ],
+    "PHASE1": 300,
+    "PHASE2_FORM": 1500,
+    "PHASE3_DECAY": 30000,
+    "K_BACK": 0.1,
+    "K_GM": 0.01,
+    "GAMMA_PHI": 0.1,
+    "CHI_DECAY": 0.02,
+    "V_SOUND_PRED": 0.07638
+  },
+  "canonical_mass": 224.771,
+  "final_mass": 0.0,
+  "dissolved_frac": 1.0,
+  "baseline_sg": {
+    "r0-8": 0.0,
+    "r8-12": 0.0,
+    "r12-16": 0.0,
+    "r16-20": 0.0,
+    "r20-24": 0.0,
+    "r24-28": 0.0
+  },
+  "baseline_sm": {
+    "r0-8": 0.10688123,
+    "r8-12": 0.0374546,
+    "r12-16": 0.01752187,
+    "r16-20": 0.01016343,
+    "r20-24": 0.00845986,
+    "r24-28": 0.01174189
+  },
+  "verdict": "WAVE_EMISSION",
+  "detail": "sigma_g perturbation propagates to outer shell: outer_change=4.52e-02, inner_change=3.92e-05 (115381.8% of inner)",
+  "track": [
+    {
+      "t": 500,
+      "M_ring": 52.335,
+      "dM_per_step": 0.3448726,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0454517,
+          "delta_sm": 0.0151018,
+          "phi_disorder": 0.0187132
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452492,
+          "delta_sm": -0.0477613,
+          "phi_disorder": 0.0029558
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.066718,
+          "phi_disorder": 0.0013287
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0741231,
+          "phi_disorder": 0.0007361
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0759779,
+          "phi_disorder": 0.0004655
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452526,
+          "delta_sm": -0.0727959,
+          "phi_disorder": 0.0005151
+        }
+      ]
+    },
+    {
+      "t": 1000,
+      "M_ring": 9.19,
+      "dM_per_step": 0.0862895,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452806,
+          "delta_sm": -0.0192739,
+          "phi_disorder": 0.0100871
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0580313,
+          "phi_disorder": 0.0026955
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.073031,
+          "phi_disorder": 0.0012698
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0795373,
+          "phi_disorder": 0.0007162
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0813546,
+          "phi_disorder": 0.0004582
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452497,
+          "delta_sm": -0.078792,
+          "phi_disorder": 0.0005583
+        }
+      ]
+    },
+    {
+      "t": 1500,
+      "M_ring": 0.381,
+      "dM_per_step": 0.0176182,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452497,
+          "delta_sm": -0.0351703,
+          "phi_disorder": 0.0075124
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0626821,
+          "phi_disorder": 0.0024713
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0748693,
+          "phi_disorder": 0.0012144
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0805339,
+          "phi_disorder": 0.0006967
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0822247,
+          "phi_disorder": 0.0004521
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.045249,
+          "delta_sm": -0.0800808,
+          "phi_disorder": 0.0005856
+        }
+      ]
+    },
+    {
+      "t": 2000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0007621,
+      "peak_shell": "r24-28",
+      "peak_r": 26.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0443295,
+          "phi_disorder": 0.0060761
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0656164,
+          "phi_disorder": 0.0022793
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0759823,
+          "phi_disorder": 0.0011622
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0810487,
+          "phi_disorder": 0.0006773
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0826244,
+          "phi_disorder": 0.0004471
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0807927,
+          "phi_disorder": 0.0005949
+        }
+      ]
+    },
+    {
+      "t": 2500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r24-28",
+      "peak_r": 26.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0506353,
+          "phi_disorder": 0.0051149
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0678321,
+          "phi_disorder": 0.0021153
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0768614,
+          "phi_disorder": 0.0011133
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.08146,
+          "phi_disorder": 0.0006579
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0829368,
+          "phi_disorder": 0.0004426
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0813622,
+          "phi_disorder": 0.0005931
+        }
+      ]
+    },
+    {
+      "t": 3000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.055337,
+          "phi_disorder": 0.0044147
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0696189,
+          "phi_disorder": 0.001974
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.07761,
+          "phi_disorder": 0.0010674
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0818252,
+          "phi_disorder": 0.0006385
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0832148,
+          "phi_disorder": 0.0004379
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0818567,
+          "phi_disorder": 0.0005846
+        }
+      ]
+    },
+    {
+      "t": 3500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0590135,
+          "phi_disorder": 0.003878
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0711123,
+          "phi_disorder": 0.0018506
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0782682,
+          "phi_disorder": 0.0010242
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.082161,
+          "phi_disorder": 0.0006191
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0834728,
+          "phi_disorder": 0.0004326
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0822986,
+          "phi_disorder": 0.0005722
+        }
+      ]
+    },
+    {
+      "t": 4000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0619843,
+          "phi_disorder": 0.0034522
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0723922,
+          "phi_disorder": 0.0017412
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0788593,
+          "phi_disorder": 0.0009834
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0824755,
+          "phi_disorder": 0.0005997
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0837173,
+          "phi_disorder": 0.0004266
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0827002,
+          "phi_disorder": 0.0005572
+        }
+      ]
+    },
+    {
+      "t": 4500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0644447,
+          "phi_disorder": 0.0031058
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0735102,
+          "phi_disorder": 0.0016431
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0793985,
+          "phi_disorder": 0.0009447
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0827738,
+          "phi_disorder": 0.0005804
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0839518,
+          "phi_disorder": 0.0004197
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0830694,
+          "phi_disorder": 0.0005409
+        }
+      ]
+    },
+    {
+      "t": 5000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0665225,
+          "phi_disorder": 0.0028183
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.074502,
+          "phi_disorder": 0.001554
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0798967,
+          "phi_disorder": 0.0009077
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0830592,
+          "phi_disorder": 0.0005612
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0841786,
+          "phi_disorder": 0.000412
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0834115,
+          "phi_disorder": 0.0005237
+        }
+      ]
+    },
+    {
+      "t": 5500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0683057,
+          "phi_disorder": 0.0025759
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0753931,
+          "phi_disorder": 0.0014724
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0803616,
+          "phi_disorder": 0.0008723
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0833336,
+          "phi_disorder": 0.0005423
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0843988,
+          "phi_disorder": 0.0004036
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0837307,
+          "phi_disorder": 0.0005063
+        }
+      ]
+    },
+    {
+      "t": 6000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0698568,
+          "phi_disorder": 0.0023686
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.076202,
+          "phi_disorder": 0.0013971
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0807985,
+          "phi_disorder": 0.0008381
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0835986,
+          "phi_disorder": 0.0005236
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0846131,
+          "phi_disorder": 0.0003945
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0840299,
+          "phi_disorder": 0.0004887
+        }
+      ]
+    },
+    {
+      "t": 6500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0712218,
+          "phi_disorder": 0.0021893
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0769427,
+          "phi_disorder": 0.0013273
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0812116,
+          "phi_disorder": 0.0008052
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0838549,
+          "phi_disorder": 0.0005052
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0848217,
+          "phi_disorder": 0.0003849
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0843115,
+          "phi_disorder": 0.0004714
+        }
+      ]
+    },
+    {
+      "t": 7000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0724352,
+          "phi_disorder": 0.0020325
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0776257,
+          "phi_disorder": 0.0012622
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0816039,
+          "phi_disorder": 0.0007734
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0841032,
+          "phi_disorder": 0.0004872
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0850249,
+          "phi_disorder": 0.0003748
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0845774,
+          "phi_disorder": 0.0004542
+        }
+      ]
+    },
+    {
+      "t": 7500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0735235,
+          "phi_disorder": 0.0018941
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0782594,
+          "phi_disorder": 0.0012012
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0819774,
+          "phi_disorder": 0.0007426
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0843436,
+          "phi_disorder": 0.0004696
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0852227,
+          "phi_disorder": 0.0003645
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.084829,
+          "phi_disorder": 0.0004375
+        }
+      ]
+    },
+    {
+      "t": 8000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.074507,
+          "phi_disorder": 0.001771
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0788501,
+          "phi_disorder": 0.001144
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0823338,
+          "phi_disorder": 0.0007129
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0845763,
+          "phi_disorder": 0.0004525
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0854149,
+          "phi_disorder": 0.000354
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0850677,
+          "phi_disorder": 0.0004211
+        }
+      ]
+    },
+    {
+      "t": 8500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0754021,
+          "phi_disorder": 0.0016606
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0794029,
+          "phi_disorder": 0.0010901
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0826745,
+          "phi_disorder": 0.0006842
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0848016,
+          "phi_disorder": 0.0004358
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0856017,
+          "phi_disorder": 0.0003433
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0852943,
+          "phi_disorder": 0.0004053
+        }
+      ]
+    },
+    {
+      "t": 9000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0762215,
+          "phi_disorder": 0.0015609
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0799221,
+          "phi_disorder": 0.0010392
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0830004,
+          "phi_disorder": 0.0006565
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0850195,
+          "phi_disorder": 0.0004195
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0857828,
+          "phi_disorder": 0.0003327
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0855099,
+          "phi_disorder": 0.0003899
+        }
+      ]
+    },
+    {
+      "t": 9500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0769757,
+          "phi_disorder": 0.0014704
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.080411,
+          "phi_disorder": 0.000991
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0833123,
+          "phi_disorder": 0.0006298
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.08523,
+          "phi_disorder": 0.0004038
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0859582,
+          "phi_disorder": 0.0003221
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0857152,
+          "phi_disorder": 0.000375
+        }
+      ]
+    },
+    {
+      "t": 10000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0776731,
+          "phi_disorder": 0.0013877
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0808725,
+          "phi_disorder": 0.0009455
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.083611,
+          "phi_disorder": 0.000604
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0854333,
+          "phi_disorder": 0.0003885
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0861281,
+          "phi_disorder": 0.0003116
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0859108,
+          "phi_disorder": 0.0003606
+        }
+      ]
+    },
+    {
+      "t": 10500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0783206,
+          "phi_disorder": 0.0013117
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0813089,
+          "phi_disorder": 0.0009023
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.083897,
+          "phi_disorder": 0.0005792
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0856294,
+          "phi_disorder": 0.0003738
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0862923,
+          "phi_disorder": 0.0003012
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0860974,
+          "phi_disorder": 0.0003467
+        }
+      ]
+    },
+    {
+      "t": 11000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.078924,
+          "phi_disorder": 0.0012417
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0817222,
+          "phi_disorder": 0.0008613
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.084171,
+          "phi_disorder": 0.0005554
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0858184,
+          "phi_disorder": 0.0003595
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0864509,
+          "phi_disorder": 0.000291
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0862755,
+          "phi_disorder": 0.0003333
+        }
+      ]
+    },
+    {
+      "t": 11500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.079488,
+          "phi_disorder": 0.0011769
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0821142,
+          "phi_disorder": 0.0008224
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0844335,
+          "phi_disorder": 0.0005324
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0860006,
+          "phi_disorder": 0.0003458
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0866039,
+          "phi_disorder": 0.000281
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0864456,
+          "phi_disorder": 0.0003205
+        }
+      ]
+    },
+    {
+      "t": 12000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0800168,
+          "phi_disorder": 0.0011166
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0824864,
+          "phi_disorder": 0.0007854
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0846849,
+          "phi_disorder": 0.0005104
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.086176,
+          "phi_disorder": 0.0003325
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0867516,
+          "phi_disorder": 0.0002713
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0866081,
+          "phi_disorder": 0.0003081
+        }
+      ]
+    },
+    {
+      "t": 12500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0805136,
+          "phi_disorder": 0.0010605
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0828402,
+          "phi_disorder": 0.0007502
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0849257,
+          "phi_disorder": 0.0004892
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0863449,
+          "phi_disorder": 0.0003197
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0868939,
+          "phi_disorder": 0.0002617
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0867634,
+          "phi_disorder": 0.0002961
+        }
+      ]
+    },
+    {
+      "t": 13000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0809816,
+          "phi_disorder": 0.001008
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0831767,
+          "phi_disorder": 0.0007167
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0851564,
+          "phi_disorder": 0.000469
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0865073,
+          "phi_disorder": 0.0003074
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.087031,
+          "phi_disorder": 0.0002525
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0869119,
+          "phi_disorder": 0.0002847
+        }
+      ]
+    },
+    {
+      "t": 13500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0814231,
+          "phi_disorder": 0.0009588
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.083497,
+          "phi_disorder": 0.0006848
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0853774,
+          "phi_disorder": 0.0004495
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0866636,
+          "phi_disorder": 0.0002956
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.087163,
+          "phi_disorder": 0.0002435
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0870539,
+          "phi_disorder": 0.0002737
+        }
+      ]
+    },
+    {
+      "t": 14000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0818403,
+          "phi_disorder": 0.0009125
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0838022,
+          "phi_disorder": 0.0006545
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.085589,
+          "phi_disorder": 0.0004308
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0868138,
+          "phi_disorder": 0.0002842
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0872902,
+          "phi_disorder": 0.0002347
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0871899,
+          "phi_disorder": 0.0002631
+        }
+      ]
+    },
+    {
+      "t": 14500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0822352,
+          "phi_disorder": 0.000869
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0840929,
+          "phi_disorder": 0.0006255
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0857917,
+          "phi_disorder": 0.0004129
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0869582,
+          "phi_disorder": 0.0002732
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0874125,
+          "phi_disorder": 0.0002263
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.08732,
+          "phi_disorder": 0.0002529
+        }
+      ]
+    },
+    {
+      "t": 15000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0826093,
+          "phi_disorder": 0.000828
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0843702,
+          "phi_disorder": 0.000598
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0859859,
+          "phi_disorder": 0.0003957
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0870969,
+          "phi_disorder": 0.0002626
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0875302,
+          "phi_disorder": 0.0002181
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0874446,
+          "phi_disorder": 0.0002431
+        }
+      ]
+    },
+    {
+      "t": 15500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0829643,
+          "phi_disorder": 0.0007892
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0846347,
+          "phi_disorder": 0.0005717
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0861718,
+          "phi_disorder": 0.0003793
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0872302,
+          "phi_disorder": 0.0002525
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0876434,
+          "phi_disorder": 0.0002101
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0875639,
+          "phi_disorder": 0.0002338
+        }
+      ]
+    },
+    {
+      "t": 16000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0833014,
+          "phi_disorder": 0.0007526
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.084887,
+          "phi_disorder": 0.0005466
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.08635,
+          "phi_disorder": 0.0003636
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0873583,
+          "phi_disorder": 0.0002427
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0877523,
+          "phi_disorder": 0.0002025
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0876782,
+          "phi_disorder": 0.0002248
+        }
+      ]
+    },
+    {
+      "t": 16500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0836217,
+          "phi_disorder": 0.0007179
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0851279,
+          "phi_disorder": 0.0005227
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0865206,
+          "phi_disorder": 0.0003485
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0874813,
+          "phi_disorder": 0.0002333
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.087857,
+          "phi_disorder": 0.0001951
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0877878,
+          "phi_disorder": 0.0002161
+        }
+      ]
+    },
+    {
+      "t": 17000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0839264,
+          "phi_disorder": 0.000685
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0853579,
+          "phi_disorder": 0.0004999
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.086684,
+          "phi_disorder": 0.000334
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0875995,
+          "phi_disorder": 0.0002243
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0879577,
+          "phi_disorder": 0.0001879
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0878928,
+          "phi_disorder": 0.0002078
+        }
+      ]
+    },
+    {
+      "t": 17500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0842163,
+          "phi_disorder": 0.0006538
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0855775,
+          "phi_disorder": 0.0004781
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0868405,
+          "phi_disorder": 0.0003202
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.087713,
+          "phi_disorder": 0.0002156
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0880545,
+          "phi_disorder": 0.000181
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0879935,
+          "phi_disorder": 0.0001998
+        }
+      ]
+    },
+    {
+      "t": 18000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0844924,
+          "phi_disorder": 0.0006242
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0857873,
+          "phi_disorder": 0.0004574
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0869905,
+          "phi_disorder": 0.0003069
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.087822,
+          "phi_disorder": 0.0002072
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0881476,
+          "phi_disorder": 0.0001743
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0880901,
+          "phi_disorder": 0.0001922
+        }
+      ]
+    },
+    {
+      "t": 18500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0847554,
+          "phi_disorder": 0.0005961
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0859877,
+          "phi_disorder": 0.0004375
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0871341,
+          "phi_disorder": 0.0002942
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0879267,
+          "phi_disorder": 0.0001992
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0882371,
+          "phi_disorder": 0.0001679
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0881827,
+          "phi_disorder": 0.0001848
+        }
+      ]
+    },
+    {
+      "t": 19000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0850061,
+          "phi_disorder": 0.0005693
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0861792,
+          "phi_disorder": 0.0004186
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0872717,
+          "phi_disorder": 0.0002821
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0880273,
+          "phi_disorder": 0.0001915
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0883231,
+          "phi_disorder": 0.0001617
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0882716,
+          "phi_disorder": 0.0001777
+        }
+      ]
+    },
+    {
+      "t": 19500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0852451,
+          "phi_disorder": 0.0005439
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0863622,
+          "phi_disorder": 0.0004005
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0874035,
+          "phi_disorder": 0.0002704
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0881238,
+          "phi_disorder": 0.0001841
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0884058,
+          "phi_disorder": 0.0001557
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0883568,
+          "phi_disorder": 0.000171
+        }
+      ]
+    },
+    {
+      "t": 20000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0854731,
+          "phi_disorder": 0.0005197
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0865372,
+          "phi_disorder": 0.0003833
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0875298,
+          "phi_disorder": 0.0002593
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0882165,
+          "phi_disorder": 0.000177
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0884853,
+          "phi_disorder": 0.00015
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0884387,
+          "phi_disorder": 0.0001644
+        }
+      ]
+    },
+    {
+      "t": 20500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0856906,
+          "phi_disorder": 0.0004966
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0867045,
+          "phi_disorder": 0.0003668
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0876508,
+          "phi_disorder": 0.0002486
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0883056,
+          "phi_disorder": 0.0001701
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0885618,
+          "phi_disorder": 0.0001444
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0885172,
+          "phi_disorder": 0.0001582
+        }
+      ]
+    },
+    {
+      "t": 21000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0858982,
+          "phi_disorder": 0.0004746
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0868644,
+          "phi_disorder": 0.000351
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0877667,
+          "phi_disorder": 0.0002384
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0883911,
+          "phi_disorder": 0.0001636
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0886353,
+          "phi_disorder": 0.0001391
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0885926,
+          "phi_disorder": 0.0001522
+        }
+      ]
+    },
+    {
+      "t": 21500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0860963,
+          "phi_disorder": 0.0004537
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0870173,
+          "phi_disorder": 0.000336
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0878777,
+          "phi_disorder": 0.0002286
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0884732,
+          "phi_disorder": 0.0001573
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0887059,
+          "phi_disorder": 0.0001339
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0886651,
+          "phi_disorder": 0.0001464
+        }
+      ]
+    },
+    {
+      "t": 22000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0862855,
+          "phi_disorder": 0.0004338
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0871635,
+          "phi_disorder": 0.0003216
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0879842,
+          "phi_disorder": 0.0002192
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0885521,
+          "phi_disorder": 0.0001512
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0887739,
+          "phi_disorder": 0.0001289
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0887346,
+          "phi_disorder": 0.0001408
+        }
+      ]
+    },
+    {
+      "t": 22500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0864662,
+          "phi_disorder": 0.0004148
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0873034,
+          "phi_disorder": 0.0003079
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0880861,
+          "phi_disorder": 0.0002102
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0886278,
+          "phi_disorder": 0.0001453
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0888392,
+          "phi_disorder": 0.0001241
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0888014,
+          "phi_disorder": 0.0001355
+        }
+      ]
+    },
+    {
+      "t": 23000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0866387,
+          "phi_disorder": 0.0003966
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0874372,
+          "phi_disorder": 0.0002948
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0881839,
+          "phi_disorder": 0.0002016
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0887005,
+          "phi_disorder": 0.0001397
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.088902,
+          "phi_disorder": 0.0001195
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0888656,
+          "phi_disorder": 0.0001304
+        }
+      ]
+    },
+    {
+      "t": 23500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0868035,
+          "phi_disorder": 0.0003793
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0875651,
+          "phi_disorder": 0.0002823
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0882775,
+          "phi_disorder": 0.0001934
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0887704,
+          "phi_disorder": 0.0001344
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0889624,
+          "phi_disorder": 0.0001151
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0889272,
+          "phi_disorder": 0.0001255
+        }
+      ]
+    },
+    {
+      "t": 24000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.086961,
+          "phi_disorder": 0.0003628
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0876875,
+          "phi_disorder": 0.0002703
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0883673,
+          "phi_disorder": 0.0001855
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0888375,
+          "phi_disorder": 0.0001292
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0890204,
+          "phi_disorder": 0.0001108
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0889865,
+          "phi_disorder": 0.0001207
+        }
+      ]
+    },
+    {
+      "t": 24500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0871114,
+          "phi_disorder": 0.0003471
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0878046,
+          "phi_disorder": 0.0002588
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0884533,
+          "phi_disorder": 0.0001779
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0889019,
+          "phi_disorder": 0.0001242
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0890763,
+          "phi_disorder": 0.0001067
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0890434,
+          "phi_disorder": 0.0001162
+        }
+      ]
+    },
+    {
+      "t": 25000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0872552,
+          "phi_disorder": 0.0003321
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0879167,
+          "phi_disorder": 0.0002479
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0885357,
+          "phi_disorder": 0.0001707
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0889638,
+          "phi_disorder": 0.0001194
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0891299,
+          "phi_disorder": 0.0001027
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0890981,
+          "phi_disorder": 0.0001118
+        }
+      ]
+    },
+    {
+      "t": 25500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0873927,
+          "phi_disorder": 0.0003177
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0880239,
+          "phi_disorder": 0.0002374
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0886147,
+          "phi_disorder": 0.0001637
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0890232,
+          "phi_disorder": 0.0001148
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0891816,
+          "phi_disorder": 9.89e-05
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0891507,
+          "phi_disorder": 0.0001076
+        }
+      ]
+    },
+    {
+      "t": 26000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.087524,
+          "phi_disorder": 0.000304
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0881265,
+          "phi_disorder": 0.0002274
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0886905,
+          "phi_disorder": 0.0001571
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0890803,
+          "phi_disorder": 0.0001104
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0892312,
+          "phi_disorder": 9.52e-05
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0892012,
+          "phi_disorder": 0.0001035
+        }
+      ]
+    },
+    {
+      "t": 26500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0876496,
+          "phi_disorder": 0.000291
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0882247,
+          "phi_disorder": 0.0002179
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0887631,
+          "phi_disorder": 0.0001507
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0891352,
+          "phi_disorder": 0.0001062
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0892789,
+          "phi_disorder": 9.17e-05
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0892498,
+          "phi_disorder": 9.97e-05
+        }
+      ]
+    },
+    {
+      "t": 27000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0877696,
+          "phi_disorder": 0.0002785
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0883187,
+          "phi_disorder": 0.0002087
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0888327,
+          "phi_disorder": 0.0001446
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0891878,
+          "phi_disorder": 0.0001021
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0893249,
+          "phi_disorder": 8.83e-05
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0892965,
+          "phi_disorder": 9.59e-05
+        }
+      ]
+    },
+    {
+      "t": 27500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0878844,
+          "phi_disorder": 0.0002666
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0884086,
+          "phi_disorder": 0.0002
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0888994,
+          "phi_disorder": 0.0001388
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0892384,
+          "phi_disorder": 9.82e-05
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.089369,
+          "phi_disorder": 8.5e-05
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0893415,
+          "phi_disorder": 9.23e-05
+        }
+      ]
+    },
+    {
+      "t": 28000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0879941,
+          "phi_disorder": 0.0002552
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0884947,
+          "phi_disorder": 0.0001916
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0889634,
+          "phi_disorder": 0.0001332
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.089287,
+          "phi_disorder": 9.44e-05
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0894115,
+          "phi_disorder": 8.19e-05
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0893847,
+          "phi_disorder": 8.89e-05
+        }
+      ]
+    },
+    {
+      "t": 28500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0880991,
+          "phi_disorder": 0.0002443
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0885771,
+          "phi_disorder": 0.0001836
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0890247,
+          "phi_disorder": 0.0001278
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0893337,
+          "phi_disorder": 9.08e-05
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0894523,
+          "phi_disorder": 7.88e-05
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0894262,
+          "phi_disorder": 8.56e-05
+        }
+      ]
+    },
+    {
+      "t": 29000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0881995,
+          "phi_disorder": 0.0002339
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.088656,
+          "phi_disorder": 0.0001759
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0890835,
+          "phi_disorder": 0.0001227
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0893786,
+          "phi_disorder": 8.73e-05
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0894916,
+          "phi_disorder": 7.59e-05
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0894662,
+          "phi_disorder": 8.24e-05
+        }
+      ]
+    },
+    {
+      "t": 29500,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0882955,
+          "phi_disorder": 0.000224
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0887316,
+          "phi_disorder": 0.0001686
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0891399,
+          "phi_disorder": 0.0001177
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0894216,
+          "phi_disorder": 8.4e-05
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0895294,
+          "phi_disorder": 7.31e-05
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0895046,
+          "phi_disorder": 7.93e-05
+        }
+      ]
+    },
+    {
+      "t": 30000,
+      "M_ring": 0.0,
+      "dM_per_step": 0.0,
+      "peak_shell": "r0-8",
+      "peak_r": 4.0,
+      "shells": [
+        {
+          "label": "r0-8",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0883873,
+          "phi_disorder": 0.0002145
+        },
+        {
+          "label": "r8-12",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0888039,
+          "phi_disorder": 0.0001616
+        },
+        {
+          "label": "r12-16",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0891939,
+          "phi_disorder": 0.000113
+        },
+        {
+          "label": "r16-20",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.089463,
+          "phi_disorder": 8.07e-05
+        },
+        {
+          "label": "r20-24",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0895657,
+          "phi_disorder": 7.04e-05
+        },
+        {
+          "label": "r24-28",
+          "delta_sg": 0.0452489,
+          "delta_sm": -0.0895416,
+          "phi_disorder": 7.63e-05
+        }
+      ]
+    }
+  ]
+}
