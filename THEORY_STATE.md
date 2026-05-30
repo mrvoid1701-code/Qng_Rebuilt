@@ -701,6 +701,46 @@ qualitative prediction beyond gauge bosons.
 **Next test queued**: CPU-147 (Hopfion Q ≥ 4 ladder) and CPU-148
 (figure-8 + 5-crossing knot universality).
 
+### 5.8.16 REAL PROBLEM identified: no well-defined equilibrium mass (DER-QNG-096, CPU-170/171, 2026-05-30)
+
+`04_qng_pure/qng-real-problem-equilibrium-v1.md` (DER-QNG-096) +
+`07_validation/prereg/QNG-CPU-170-171.md`.
+
+CPU-170 (ultra-long dissipative Phase 3 = 30000 lu) and CPU-171
+(conservative Phase 3) jointly diagnose the real obstacle:
+
+**QNG has no well-defined equilibrium mass under current dynamics**.
+
+- Dissipative dynamics: even at 30000 lu, W-W- still growing
+  monotonically (379→454), Hopfion Q1 has 34% drift
+- Conservative dynamics: M_ring EXACTLY conserved at whatever Phase 2
+  ended at (arbitrary 1500 lu choice)
+- Neither gives intrinsic equilibrium definition
+
+The 1-2% precision identifications from this session were:
+- Synchronized oscillation phase artefact at the specific Phase 3
+  = 3000 lu choice
+- Not representing true asymptotic mass
+
+**Resolution paths**:
+1. HIGH priority: port v12 EM to v8 symplectic for energy-conserving
+   dynamics with eigenvalue equilibrium
+2. Analytical linearization for soliton eigenvalues
+3. Long-time averaging (~100000 lu)
+4. Accept protocol-dependent identifications
+
+**Final identification status this session**:
+- ROBUST by symmetry: 2 (proton, anti-proton)
+- TENTATIVE protocol-dependent: 6 (Δ family + neutron + a0)
+- TOTAL CANDIDATES: 8
+
+Framework is consistent, but precise numerical identifications need
+a method that doesn't yet exist in the codebase. v8 symplectic
+extension is the recommended next major work.
+
+Audits: `07_validation/audits/qng-equilibrium-hunt-v1/`,
+`07_validation/audits/qng-conservative-equilibrium-v1/`.
+
 ### 5.8.15 STRESS TEST verdict: identifications mostly TENTATIVE (DER-QNG-095, CPU-169, 2026-05-30)
 
 `04_qng_pure/qng-baryon-identification-stress-verdict-v1.md` (DER-QNG-095) +
