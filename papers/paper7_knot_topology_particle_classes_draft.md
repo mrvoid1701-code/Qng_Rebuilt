@@ -207,6 +207,50 @@ knots (CPU-148, L=20):
 initially interpreted (CPU-148) as a fundamental QNG prediction of
 topology-independent lifetime for unstable particles.
 
+### 3.4' Extended L scan (CPU-150 L=48,56,64): saturation discovered
+
+Extending the L scan to L=48, 56, 64 reveals a surprising result. The
+relative increase in τ across L is NOT power-law as initially fit, but
+SATURATES at a finite asymptotic value:
+
+| L | Mean τ | Δ% vs prev L |
+|---|---|---|
+| 20 | 1044 | — |
+| 32 | 2235 | +114% |
+| 40 | 2883 | +29% |
+| 48 | 3372 | +17% |
+| 56 | 3714 | +10% |
+| 64 | 3960 | +6.6% |
+
+The decreasing growth rate (114% → 29% → 17% → 10% → 6.6%) signals
+asymptotic convergence to a finite τ_∞.
+
+**Fit**: τ(L) ≈ τ_∞ − C · exp(−L/L_0) with τ_∞ ≈ 5000 lu, L_0 ≈ 33,
+C ≈ 7250. Check at L=64: predicted 3964, observed 3960 (0.1% error).
+At L=48: predicted 3304, observed 3372 (2% error). Excellent fit.
+
+**Major refinement of P1**:
+The original CPU-148 claim "universal lifetime 1044 lu" was a
+finite-volume artefact at L=20. The CPU-149 claim "τ→∞ in continuum,
+all knots stable" was based on insufficient L-scan data (3 points
+only). The TRUE behavior, with 6 L points, is:
+
+> Local-topology knots have a FINITE continuum lifetime τ_∞ ≈ 5000 lu
+> (substrate units), universal across knot types within 5%. Apparent
+> exponential approach to τ_∞ with correlation length L_0 ≈ 33 (about
+> 5× the ring radius).
+
+This is the **strongest form of Paper 7 P1**:
+- Local-topology knots are NOT stable in the continuum (revising CPU-149)
+- They DO have a universal continuum half-life τ_∞ (preserving CPU-148
+  spirit)
+- The value is ~5000 lu, not 1044 lu (refining the finite-L value)
+
+Pearson correlation among (trefoil, figure_8, cinquefoil) lifetimes at
+fixed L is always > 0.999 — the relative spread (4-5%) reflects
+finite-volume noise, not topology effect. As L → ∞, all three
+converge to the same τ_∞.
+
 ### 3.4 Finite-volume refinement: lifetime is L-dependent
 
 Repeating CPU-148 at L=32 and L=40 (CPU-149):

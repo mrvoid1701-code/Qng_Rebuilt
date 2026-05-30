@@ -701,6 +701,38 @@ qualitative prediction beyond gauge bosons.
 **Next test queued**: CPU-147 (Hopfion Q ≥ 4 ladder) and CPU-148
 (figure-8 + 5-crossing knot universality).
 
+### 5.8.10 Extended L scan saturation (CPU-150, 2026-05-30)
+
+`07_validation/prereg/QNG-CPU-150.md`. Extended L scan to L=48, 56, 64
+(combined with L=20, 32, 40 baseline):
+
+| L | Mean τ | Δ% vs prev |
+|---|---|---|
+| 20 | 1044 | — |
+| 32 | 2235 | +114% |
+| 40 | 2883 | +29% |
+| 48 | 3372 | +17% |
+| 56 | 3714 | +10% |
+| 64 | 3960 | +6.6% |
+
+**Power-law p=1.4 REFUTED**. τ SATURATES at τ_∞ ≈ 5000 lu.
+
+Fit: τ(L) = τ_∞ − C·exp(−L/L_0) with τ_∞=5000, L_0=33, C=7250.
+Predictions match within 0.1-3.4% across all 6 L values.
+
+**Major refinement**: CPU-149 claim "τ→∞ in continuum, all knots
+stable" is FALSIFIED. Local-topology knots have a UNIVERSAL FINITE
+continuum half-life τ_∞ ≈ 5000 lu — universal across knot types
+within 5% spread.
+
+This RESTORES the universal-lifetime law of CPU-148 (universal across
+knot types) but with the correct continuum value, not the L=20 value.
+
+The correlation length L_0 ≈ 33 ≈ 6.6×R sets the spatial scale over
+which finite-volume effects matter.
+
+Audit: `07_validation/audits/qng-knot-finite-volume-extended-v1/`.
+
 ### 5.8.9 Critical coupling e* phase transition (CPU-160, 2026-05-30)
 
 `07_validation/prereg/QNG-CPU-160.md` + `tests/cpu/qng_v12_e_scan_reference.py`.

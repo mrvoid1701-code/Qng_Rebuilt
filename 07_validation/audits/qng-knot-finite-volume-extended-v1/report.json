@@ -1,0 +1,111 @@
+{
+  "test_id": "QNG-CPU-149",
+  "decision": "fail",
+  "params": {
+    "L_values": [
+      48,
+      56,
+      64
+    ],
+    "PHASE1": 300,
+    "PHASE2": 1500,
+    "PHASE3": 3000,
+    "BETA_PHI": 0.02,
+    "GAMMA_PHI": 0.1,
+    "KNOT_SCALE": 1.8
+  },
+  "results": [
+    {
+      "label": "trefoil",
+      "L": 48,
+      "M_P1_end": 0.0,
+      "M_P2_end": 2520.393646761219,
+      "M_P3_end": 1292.445365105664,
+      "mean_decay_ratio": 0.9571958186829856,
+      "half_life_lu": 3168.869024632908
+    },
+    {
+      "label": "figure_8",
+      "L": 48,
+      "M_P1_end": 0.0,
+      "M_P2_end": 1792.539067503304,
+      "M_P3_end": 956.5391067169676,
+      "mean_decay_ratio": 0.9602507128865672,
+      "half_life_lu": 3417.812248625425
+    },
+    {
+      "label": "cinquefoil",
+      "L": 48,
+      "M_P1_end": 0.0,
+      "M_P2_end": 2029.1339589339323,
+      "M_P3_end": 1104.234402029919,
+      "mean_decay_ratio": 0.9614832059193265,
+      "half_life_lu": 3529.426104353249
+    },
+    {
+      "label": "trefoil",
+      "L": 56,
+      "M_P1_end": 0.0,
+      "M_P2_end": 3251.399269809286,
+      "M_P3_end": 1774.9134411780446,
+      "mean_decay_ratio": 0.9612986092526763,
+      "half_life_lu": 3512.2565621823187
+    },
+    {
+      "label": "figure_8",
+      "L": 56,
+      "M_P1_end": 0.0,
+      "M_P2_end": 2368.936054500331,
+      "M_P3_end": 1335.8558603962222,
+      "mean_decay_ratio": 0.9638230301584455,
+      "half_life_lu": 3762.2399217431102
+    },
+    {
+      "label": "cinquefoil",
+      "L": 56,
+      "M_P1_end": 0.0,
+      "M_P2_end": 2682.8785206532184,
+      "M_P3_end": 1536.6322959658025,
+      "mean_decay_ratio": 0.964792772162952,
+      "half_life_lu": 3867.7989643133565
+    },
+    {
+      "label": "trefoil",
+      "L": 64,
+      "M_P1_end": 0.0,
+      "M_P2_end": 4080.8574628712713,
+      "M_P3_end": 2314.59462840985,
+      "mean_decay_ratio": 0.9637901430695768,
+      "half_life_lu": 3758.7591858215687
+    },
+    {
+      "label": "figure_8",
+      "L": 64,
+      "M_P1_end": 0.0,
+      "M_P2_end": 3014.7195615076166,
+      "M_P3_end": 1756.9758127140453,
+      "mean_decay_ratio": 0.9659584887556648,
+      "half_life_lu": 4002.649506906208
+    },
+    {
+      "label": "cinquefoil",
+      "L": 64,
+      "M_P1_end": 0.0,
+      "M_P2_end": 3402.336125810629,
+      "M_P3_end": 2014.463636902604,
+      "mean_decay_ratio": 0.9668986843212066,
+      "half_life_lu": 4118.330433933201
+    }
+  ],
+  "L_means": {
+    "48": 3372.0357925371936,
+    "56": 3714.0984827462617,
+    "64": 3959.9130422203257
+  },
+  "cpu148_L20_baseline": 1044.0,
+  "verdicts": {
+    "baseline_match_30pct": false,
+    "L_robust_20pct": true,
+    "universality_genuine": false
+  }
+}
