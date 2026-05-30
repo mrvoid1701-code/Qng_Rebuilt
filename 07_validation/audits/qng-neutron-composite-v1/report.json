@@ -1,0 +1,59 @@
+{
+  "test_id": "QNG-CPU-164",
+  "params": {
+    "L": 20,
+    "separation": 6,
+    "E_CHARGE": 3.0
+  },
+  "results": [
+    {
+      "label": "ring_W+_single",
+      "M_P1_end": 0.0,
+      "M_P2_end": 260.0539112643051,
+      "M_P3_end": 2167.9935204909207,
+      "E_gauge_P1_end": 0.12064854494937317,
+      "E_gauge_P2_end": 0.024958659381571983,
+      "E_gauge_P3_end": 1.9156648608125315,
+      "mean_decay_ratio": 1.1459419006168048,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "W+W-_composite",
+      "M_P1_end": 0.0,
+      "M_P2_end": 226.10524972440328,
+      "M_P3_end": 1806.9788079415234,
+      "E_gauge_P1_end": 0.10891092528306964,
+      "E_gauge_P2_end": 0.017571969821983772,
+      "E_gauge_P3_end": 1.582691637634939,
+      "mean_decay_ratio": 1.125602352147599,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "W+W+_control",
+      "M_P1_end": 0.0,
+      "M_P2_end": 735.8768901990977,
+      "M_P3_end": 2515.273472772432,
+      "E_gauge_P1_end": 0.13637435764303832,
+      "E_gauge_P2_end": 0.3123239637833912,
+      "E_gauge_P3_end": 2.1401260086591556,
+      "mean_decay_ratio": 1.0837736341405046,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "trefoil_proton",
+      "M_P1_end": 0.0,
+      "M_P2_end": 447.6502800040261,
+      "M_P3_end": 1902.164763334872,
+      "E_gauge_P1_end": 0.07986073935411916,
+      "E_gauge_P2_end": 0.022038080543040038,
+      "E_gauge_P3_end": 1.6057410651958888,
+      "mean_decay_ratio": 1.0832716725075089,
+      "half_life_lu": Infinity
+    }
+  ],
+  "composite_neutron_analysis": {
+    "qng_ratio_composite_over_trefoil": 0.9499591427471988,
+    "predicted_neutron_mass_MeV": 891.3181648654142,
+    "actual_neutron_mass_MeV": 939.57
+  }
+}

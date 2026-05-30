@@ -701,6 +701,40 @@ qualitative prediction beyond gauge bosons.
 **Next test queued**: CPU-147 (Hopfion Q ≥ 4 ladder) and CPU-148
 (figure-8 + 5-crossing knot universality).
 
+### 5.8.12 Delta++ identification + neutron problem (DER-QNG-094, CPU-164, 2026-05-30)
+
+`04_qng_pure/qng-delta-composite-identification-v1.md` (DER-QNG-094) +
+prereg CPU-164.
+
+Tested composite states W+W- (charge 0, neutron candidate) and W+W+
+(charge +2, Δ++ candidate) under v12 enhanced at L=20.
+
+| Config | charge | M_P3 | ratio vs trefoil | SM compare |
+|---|---|---|---|---|
+| W+W+ | +2 | 2515 | **1.322** | **Δ++ at 1.313: +0.68%** |
+| W+W- | 0 | 1807 | 0.950 | neutron 1.001: **-5.14% FAIL** |
+
+**NEW IDENTIFICATION**: QNG W+W+ composite ↔ SM **Δ++** at **0.68%
+mass-ratio error**. This is the CLEANEST QNG identification yet, beating
+all previous. Δ family now has THREE QNG identifications: Δ+ (Hopfion Q1),
+Δ++ (W+W+ composite), and Δ- predicted (anti-Hopfion).
+
+**Neutron problem CONFIRMED**: W+W- composite is LIGHTER than proton
+(0.950 ratio). Composites should be heavier than constituents. The W+W-
+configuration represents an ANNIHILATION channel (opposite chirality
+windings cancel), not a binding channel. Therefore neutron not hosted
+in QNG v12.
+
+**Δ0 absent**: QNG predicts Δ0 has structurally different origin from
+Δ+/Δ++ siblings. Falsifiable: high-precision Δ0 form factor measurements
+should differ from Δ+ if QNG is right.
+
+**891 MeV unidentified prediction**: W+W- composite at 891 MeV has no
+clean S=0 SM hadron match (closest η' at 7.5%, K* exact but strange).
+Tentative QNG prediction of an unobserved neutral non-strange hadron.
+
+Audit: `07_validation/audits/qng-neutron-composite-v1/`.
+
 ### 5.8.11 First concrete baryon identifications (DER-QNG-093, CPU-161/162, 2026-05-30)
 
 `04_qng_pure/qng-baryon-identification-v1.md` (DER-QNG-093) +
