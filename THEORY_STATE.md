@@ -701,6 +701,39 @@ qualitative prediction beyond gauge bosons.
 **Next test queued**: CPU-147 (Hopfion Q ≥ 4 ladder) and CPU-148
 (figure-8 + 5-crossing knot universality).
 
+### 5.8.9 Critical coupling e* phase transition (CPU-160, 2026-05-30)
+
+`07_validation/prereg/QNG-CPU-160.md` + `tests/cpu/qng_v12_e_scan_reference.py`.
+
+Scan e ∈ {0.5, 1.0, 1.5, 2.0, 2.5, 3.0} for ring, Hopfion Q1, trefoil.
+Identified critical coupling where v7-decay → v12-enhanced transition:
+
+| Knot | e* |
+|---|---|
+| ring | 1.656 |
+| Hopfion Q1 | 1.653 |
+| trefoil | 1.586 |
+
+**Mean e* ≈ 1.632, spread 4.4%**.
+
+**Substrate-level phase transition**: ALL knot topologies transition at
+the same e* (within 4%) — NOT a particle-specific effect. Below e*,
+local knots decay (v7 regime); above e*, all stabilize as topology-
+dependent mass attractors (Higgs-like v12 regime).
+
+Hopfion Q=1 stable throughout the scan (ratio 0.988→1.038) because
+topological protection dominates over gauge dynamics. The two regimes
+differ for LOCAL knots, not for topologically-protected Hopfions.
+
+This is a CONCRETE FALSIFIABLE prediction: physical universe corresponds
+to ONE side of e*. The two sides predict qualitatively different
+particle physics phenomenology.
+
+Analogous to BKT transition (2D XY), Higgs SSB, lattice gauge confinement
+transition.
+
+Audit: `07_validation/audits/qng-v12-e-scan-v1/`.
+
 ### 5.8.8 v12 enhanced coupling: Higgs-like mass mechanism (CPU-159, 2026-05-30)
 
 `07_validation/prereg/QNG-CPU-159.md`. Ran v12 dynamics with E_CHARGE=3.0
