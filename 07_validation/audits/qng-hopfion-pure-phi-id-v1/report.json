@@ -1,0 +1,123 @@
+{
+  "test_id": "QNG-CPU-173_hopfion_pure_phi_id",
+  "reference": "proton",
+  "reference_mass_MeV": 938.27,
+  "hopfion_ladder_data": {
+    "1": 9.756,
+    "2": 12.113,
+    "3": 15.612,
+    "4": 17.321,
+    "5": 20.054
+  },
+  "identifications": [
+    {
+      "Q": 1,
+      "predicted_mass": 938.27,
+      "sm_name": "p",
+      "sm_mass": 938.27,
+      "sm_charge": 1,
+      "sm_JP": "1/2+",
+      "sm_S": 0,
+      "error_pct": 0.0
+    },
+    {
+      "Q": 2,
+      "predicted_mass": 1164.9512617876178,
+      "sm_name": "Delta+",
+      "sm_mass": 1232.0,
+      "sm_charge": 1,
+      "sm_JP": "3/2+",
+      "sm_S": 0,
+      "error_pct": -5.44226771204401,
+      "top3": [
+        [
+          "Delta+",
+          -5.44226771204401
+        ],
+        [
+          "Delta++",
+          -5.44226771204401
+        ],
+        [
+          "Sigma+",
+          -2.0530817333867595
+        ]
+      ]
+    },
+    {
+      "Q": 3,
+      "predicted_mass": 1501.4628167281671,
+      "sm_name": "N(1520)",
+      "sm_mass": 1515.0,
+      "sm_charge": 1,
+      "sm_JP": "3/2-",
+      "sm_S": 0,
+      "error_pct": -0.8935434502859982,
+      "top3": [
+        [
+          "N(1520)",
+          -0.8935434502859982
+        ],
+        [
+          "N(1535)",
+          -2.1848327864386237
+        ],
+        [
+          "N(1440)",
+          4.997399771200498
+        ]
+      ]
+    },
+    {
+      "Q": 4,
+      "predicted_mass": 1665.8235619106192,
+      "sm_name": "N(1675)",
+      "sm_mass": 1675.0,
+      "sm_charge": 1,
+      "sm_JP": "5/2-",
+      "sm_S": 0,
+      "error_pct": -0.5478470501122854,
+      "top3": [
+        [
+          "N(1675)",
+          -0.5478470501122854
+        ],
+        [
+          "N(1680)",
+          -0.8438356005583798
+        ],
+        [
+          "N(1650)",
+          0.9590037521587406
+        ]
+      ]
+    },
+    {
+      "Q": 5,
+      "predicted_mass": 1928.666111111111,
+      "sm_name": "Delta(1930)",
+      "sm_mass": 1930.0,
+      "sm_charge": 1,
+      "sm_JP": "5/2-",
+      "sm_S": 0,
+      "error_pct": -0.06911341393207657,
+      "top3": [
+        [
+          "Delta(1930)",
+          -0.06911341393207657
+        ],
+        [
+          "Delta(1920)",
+          0.45135995370369386
+        ],
+        [
+          "Delta(1910)",
+          0.9772833042466452
+        ]
+      ]
+    }
+  ],
+  "n_very_clean": 4,
+  "n_clean": 4,
+  "note": "Hopfion Q-ladder energies from CPU-145 pure phi sector are STATIC, protocol-independent (no equilibrium issue). Identifications here therefore avoid the equilibrium problem diagnosed in DER-QNG-096."
+}

@@ -1,0 +1,59 @@
+{
+  "test_id": "QNG-CPU-174_proton_diagnostic",
+  "params": {
+    "L": 24,
+    "relax_steps": 10000,
+    "beta_phi": 0.06
+  },
+  "candidates": [
+    {
+      "label": "Ring_R4_DER038",
+      "E_init": -402.19720371752703,
+      "E_final": -414.38168374659625,
+      "dE_final": 0.3383162534037183,
+      "disorder_total_init": 404.13532213183896,
+      "disorder_total_final": 11.205903336586381,
+      "localization_init": 0.000636640691802995,
+      "localization_final": 0.0001241090978751647,
+      "W_xy_init": 0.0,
+      "W_xy_final": 0.0
+    },
+    {
+      "label": "Ring_R5_baseline",
+      "E_init": -401.0621678579472,
+      "E_final": -414.0668526144942,
+      "dE_final": 0.653147385505747,
+      "disorder_total_init": 443.40695918898166,
+      "disorder_total_final": 21.601349213934476,
+      "localization_init": 0.000613079198293335,
+      "localization_final": 0.00017514783732378744,
+      "W_xy_init": 0.0,
+      "W_xy_final": 0.0
+    },
+    {
+      "label": "Hopfion_Q1",
+      "E_init": -380.1831170034009,
+      "E_final": -404.2955345774919,
+      "dE_final": 10.424465422508092,
+      "disorder_total_init": 1113.4068912411844,
+      "disorder_total_final": 347.256969551427,
+      "localization_init": 0.0002606027359479182,
+      "localization_final": 0.0005508167401565883,
+      "W_xy_init": -6.283185307179587,
+      "W_xy_final": -6.283185307179586
+    },
+    {
+      "label": "Trefoil",
+      "E_init": -384.1146591698598,
+      "E_final": -411.18347626368177,
+      "dE_final": 3.536523736318202,
+      "disorder_total_init": 879.4936381170783,
+      "disorder_total_final": 116.39495055593204,
+      "localization_init": 0.0004105144522210919,
+      "localization_final": 0.0021533600775263616,
+      "W_xy_init": 0.0,
+      "W_xy_final": 0.0
+    }
+  ],
+  "interpretation": "Hopfion Q=1 is the most fundamental proton candidate as it is the ONLY topology that survives pure phi XY relaxation. Ring R=4 and trefoil need matter coupling or v12 enhanced gauge to be stable. The proton-trefoil identification in this session was therefore PROTOCOL-DEPENDENT, while the proton-Hopfion Q=1 identification is PURE-PHI ROBUST."
+}
