@@ -1,0 +1,190 @@
+{
+  "test_id": "QNG-CPU-161",
+  "qng_input_masses": {
+    "trefoil": 1902.16,
+    "cinquefoil": 1981.45,
+    "figure_8": 2132.69,
+    "ring_Q0": 2167.99,
+    "hopfion_Q2": 2445.25,
+    "hopfion_Q1": 2456.5
+  },
+  "proton_reference_MeV": 938.27,
+  "qng_reference_topology": "trefoil",
+  "identifications": [
+    {
+      "qng_topology": "trefoil",
+      "qng_mass_substrate": 1902.16,
+      "qng_ratio_to_trefoil": 1.0,
+      "predicted_mass_MeV": 938.27,
+      "best_SM_match": "proton (J=1/2+, S=0)",
+      "best_SM_name": "p",
+      "best_SM_mass_MeV": 938.27,
+      "best_SM_ratio": 1.0,
+      "ratio_error_abs": 0.0,
+      "ratio_error_pct": 0.0,
+      "mass_error_pct": 0.0,
+      "best_SM_J": 0.5,
+      "best_SM_P": 1,
+      "top3_candidates": [
+        [
+          "p",
+          0.0
+        ],
+        [
+          "Sigma+",
+          21.11201728646257
+        ],
+        [
+          "Sigma-",
+          21.644327529333168
+        ]
+      ]
+    },
+    {
+      "qng_topology": "cinquefoil",
+      "qng_mass_substrate": 1981.45,
+      "qng_ratio_to_trefoil": 1.0416841906043655,
+      "predicted_mass_MeV": 977.381025518358,
+      "best_SM_match": "proton (J=1/2+, S=0)",
+      "best_SM_name": "p",
+      "best_SM_mass_MeV": 938.27,
+      "best_SM_ratio": 1.0,
+      "ratio_error_abs": 0.041684190604365456,
+      "ratio_error_pct": 4.168419060436546,
+      "mass_error_pct": 4.16841906043655,
+      "best_SM_J": 0.5,
+      "best_SM_P": 1,
+      "top3_candidates": [
+        [
+          "p",
+          4.168419060436546
+        ],
+        [
+          "Sigma+",
+          17.82363557863759
+        ],
+        [
+          "Sigma-",
+          18.378134743132662
+        ]
+      ]
+    },
+    {
+      "qng_topology": "figure_8",
+      "qng_mass_substrate": 2132.69,
+      "qng_ratio_to_trefoil": 1.1211938007317996,
+      "predicted_mass_MeV": 1051.9825074126256,
+      "best_SM_match": "proton (J=1/2+, S=0)",
+      "best_SM_name": "p",
+      "best_SM_mass_MeV": 938.27,
+      "best_SM_ratio": 1.0,
+      "ratio_error_abs": 0.12119380073179964,
+      "ratio_error_pct": 12.119380073179965,
+      "mass_error_pct": 12.119380073179965,
+      "best_SM_J": 0.5,
+      "best_SM_P": 1,
+      "top3_candidates": [
+        [
+          "p",
+          12.119380073179965
+        ],
+        [
+          "Sigma+",
+          11.551282829344462
+        ],
+        [
+          "Sigma-",
+          12.148105773717015
+        ]
+      ]
+    },
+    {
+      "qng_topology": "ring_Q0",
+      "qng_mass_substrate": 2167.99,
+      "qng_ratio_to_trefoil": 1.139751650754931,
+      "predicted_mass_MeV": 1069.394781353829,
+      "best_SM_match": "Sigma+ (J=1/2+, S=-1)",
+      "best_SM_name": "Sigma+",
+      "best_SM_mass_MeV": 1189.37,
+      "best_SM_ratio": 1.2676201946134906,
+      "ratio_error_abs": 0.1278685438585596,
+      "ratio_error_pct": 10.087291477519253,
+      "mass_error_pct": -10.087291477519258,
+      "best_SM_J": 0.5,
+      "best_SM_P": 1,
+      "top3_candidates": [
+        [
+          "Sigma+",
+          10.087291477519253
+        ],
+        [
+          "Sigma-",
+          10.693992955544775
+        ],
+        [
+          "p",
+          13.975165075493102
+        ]
+      ]
+    },
+    {
+      "qng_topology": "hopfion_Q2",
+      "qng_mass_substrate": 2445.25,
+      "qng_ratio_to_trefoil": 1.285512259746814,
+      "predicted_mass_MeV": 1206.157587952643,
+      "best_SM_match": "Sigma- (J=1/2+, S=-1)",
+      "best_SM_name": "Sigma-",
+      "best_SM_mass_MeV": 1197.45,
+      "best_SM_ratio": 1.2762317882912169,
+      "ratio_error_abs": 0.009280471455597183,
+      "ratio_error_pct": 0.7271775817481455,
+      "mass_error_pct": 0.7271775817481358,
+      "best_SM_J": 0.5,
+      "best_SM_P": 1,
+      "top3_candidates": [
+        [
+          "Sigma-",
+          0.7271775817481455
+        ],
+        [
+          "Sigma+",
+          1.4114689249471037
+        ],
+        [
+          "Delta+",
+          2.097598380467268
+        ]
+      ]
+    },
+    {
+      "qng_topology": "hopfion_Q1",
+      "qng_mass_substrate": 2456.5,
+      "qng_ratio_to_trefoil": 1.2914265887201917,
+      "predicted_mass_MeV": 1211.7068253984942,
+      "best_SM_match": "Sigma- (J=1/2+, S=-1)",
+      "best_SM_name": "Sigma-",
+      "best_SM_mass_MeV": 1197.45,
+      "best_SM_ratio": 1.2762317882912169,
+      "ratio_error_abs": 0.015194800428974808,
+      "ratio_error_pct": 1.190598805669898,
+      "mass_error_pct": 1.1905988056698926,
+      "best_SM_J": 0.5,
+      "best_SM_P": 1,
+      "top3_candidates": [
+        [
+          "Sigma-",
+          1.190598805669898
+        ],
+        [
+          "Delta+",
+          1.6471732631092302
+        ],
+        [
+          "Delta-",
+          1.6471732631092302
+        ]
+      ]
+    }
+  ],
+  "method": "Use trefoil (lightest QNG topology with charge +e) as proton candidate. Compute mass ratios to proton in both QNG and SM. For each QNG topology, find baryon with minimum |ratio difference|. v12 charge constraint q=\u00b11 enforced (neutral baryons excluded)."
+}

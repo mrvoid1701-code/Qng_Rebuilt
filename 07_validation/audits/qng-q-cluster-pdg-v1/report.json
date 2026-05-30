@@ -1,0 +1,16 @@
+{
+  "test_id": "QNG-CPU-162",
+  "test_A_saturation": {
+    "qng_saturation_pct": 0.45796865458986363,
+    "sm_isospin_quartet_spread_pct": 0.0,
+    "sm_radial_excitation_spread_pct": 30.0,
+    "best_interpretation": "Q-saturation matches SM Delta isospin quartet, NOT radial excitations"
+  },
+  "test_B_cluster": {
+    "qng_cluster_B_spread_pct": 0.45973062522198727,
+    "sm_triple_1_spread_pct": 1.49,
+    "sm_triple_2_spread_pct": 1.42,
+    "match_status": "QNG tighter than observed; TENTATIVE"
+  },
+  "interpretation": "Two QNG predictions tested against PDG. Q-saturation (Q1<->Q2): matches SM Delta isospin quartet ONLY if QNG-Q interpreted as isospin label. NOT matching radial excitations. Cluster B {Q=6,7,8}: closest SM triples are N(1675/80/1700) and N(2090/2100/2120), spread 1.4-1.5%. QNG predicts 0.46% \u2014 3x tighter than observed. TENTATIVE match."
+}
