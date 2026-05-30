@@ -701,6 +701,51 @@ qualitative prediction beyond gauge bosons.
 **Next test queued**: CPU-147 (Hopfion Q ≥ 4 ladder) and CPU-148
 (figure-8 + 5-crossing knot universality).
 
+### 5.8.15 STRESS TEST verdict: identifications mostly TENTATIVE (DER-QNG-095, CPU-169, 2026-05-30)
+
+`04_qng_pure/qng-baryon-identification-stress-verdict-v1.md` (DER-QNG-095) +
+`07_validation/prereg/QNG-CPU-169.md`.
+
+CPU-169 extended Phase 3 to 6000 lu (2× original) for all 8 identified
+particles. **ALL 8 SHIFT SIGNIFICANTLY**:
+
+| Particle | Orig error | Stressed error | Status |
+|---|---|---|---|
+| proton | 0.00% | 0.00% | ROBUST (ref) |
+| anti-proton | 0.00% | 0.00% | ROBUST (chirality theorem) |
+| Δ+ | 1.65% | **-39%** | TENTATIVE |
+| Δ- | 1.65% | -39% | TENTATIVE |
+| Δ++ | 0.68% | -23% | TENTATIVE |
+| Δ-- | 0.30% | +11% | TENTATIVE |
+| neutron | 0.21% | **-78%** | UNSTABLE |
+| a0(980)+ | 0.24% | -13% | TENTATIVE |
+
+**Diagnosis**: QNG v12 enhanced dynamics has long-period oscillations.
+Phase 3 = 3000 lu was an arbitrary snapshot, not equilibrium. The
+1-2% mass-ratio errors were partly numerical coincidence from
+synchronized oscillation phase.
+
+**Robust identifications**: only 2 (proton, anti-proton) — protected
+by chirality theorem, independent of equilibration.
+
+**Tentative identifications**: 6 (Δ family + neutron + a0(980)) —
+require true equilibrium verification.
+
+**Critical methodological lesson**: future identification claims must
+verify equilibrium via:
+- ≥10000 lu Phase 3
+- OR conservative dynamics post-equilibration
+- OR multiple time-window averaging
+
+The earlier claims of "8 particles identified at ~1% precision" must
+be downgraded to "8 candidates, 2 robust + 6 tentative pending
+equilibrium confirmation".
+
+This is a HONEST refinement; the framework is not falsified, only the
+specific numerical claims need stronger evidence.
+
+Audit: `07_validation/audits/qng-particle-stress-test-v1/`.
+
 ### 5.8.14 Neutron PARTIAL RECOVERY (CPU-167 separation scan, 2026-05-30)
 
 CPU-167 scanned W+W- composite separation D ∈ {4,5,6,7,8,10}:

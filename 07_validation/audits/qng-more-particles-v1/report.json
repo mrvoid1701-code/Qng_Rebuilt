@@ -1,0 +1,77 @@
+{
+  "test_id": "QNG-CPU-168_more_particles",
+  "params": {
+    "L": 20,
+    "E_CHARGE": 3.0
+  },
+  "results": [
+    {
+      "label": "anti_trefoil",
+      "M_P1_end": 0.0,
+      "M_P2_end": 447.6502800040263,
+      "M_P3_end": 1902.1647633348716,
+      "E_gauge_P1_end": 0.07986073935411914,
+      "E_gauge_P2_end": 0.02203808054304004,
+      "E_gauge_P3_end": 1.6057410651958874,
+      "mean_decay_ratio": 1.0832716725075089,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "WpWpWm_q+1",
+      "M_P1_end": 0.0,
+      "M_P2_end": 457.61750550636015,
+      "M_P3_end": 2181.2170632167417,
+      "E_gauge_P1_end": 0.1978423348504438,
+      "E_gauge_P2_end": 0.1448636039012291,
+      "E_gauge_P3_end": 1.3341993017108107,
+      "mean_decay_ratio": 1.1242837336316924,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "WpWpWp_q+3",
+      "M_P1_end": 0.0,
+      "M_P2_end": 1012.0279666629164,
+      "M_P3_end": 1342.8854319916563,
+      "E_gauge_P1_end": 0.30999892056809253,
+      "E_gauge_P2_end": 0.5384388688841917,
+      "E_gauge_P3_end": 1.9243378424157496,
+      "mean_decay_ratio": 1.0136802347704814,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "WpWmWp_layered_q+1",
+      "M_P1_end": 0.0,
+      "M_P2_end": 411.1428495876549,
+      "M_P3_end": 1991.456034375925,
+      "E_gauge_P1_end": 0.04807610394133867,
+      "E_gauge_P2_end": 0.022755263669506413,
+      "E_gauge_P3_end": 1.7896217319889551,
+      "mean_decay_ratio": 1.0856295223842112,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "knot_5_2",
+      "M_P1_end": 0.0,
+      "M_P2_end": 469.79207892605064,
+      "M_P3_end": 2124.075924206541,
+      "E_gauge_P1_end": 0.030715801669737718,
+      "E_gauge_P2_end": 0.019235544096160857,
+      "E_gauge_P3_end": 1.3959158089491752,
+      "mean_decay_ratio": 1.0852958388131597,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "Hopfion_plus_ring_q+2",
+      "M_P1_end": 0.0,
+      "M_P2_end": 1606.899594464157,
+      "M_P3_end": 2834.314982083325,
+      "E_gauge_P1_end": 0.30126998325137855,
+      "E_gauge_P2_end": 0.5411508186324034,
+      "E_gauge_P3_end": 1.9283906399999342,
+      "mean_decay_ratio": 1.0355109031166498,
+      "half_life_lu": Infinity
+    }
+  ],
+  "proton_reference_QNG": 1902.16,
+  "proton_reference_MeV": 938.27
+}
