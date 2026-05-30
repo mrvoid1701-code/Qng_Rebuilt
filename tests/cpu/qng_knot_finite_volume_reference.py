@@ -246,7 +246,7 @@ def run_knot(label, curve_fn, L):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out-dir", default=str(DEFAULT_OUT_DIR))
-    ap.add_argument("--L-values", type=int, nargs='+', default=[32, 40])
+    ap.add_argument("--L-values", type=int, nargs='+', default=[48, 56, 64])
     ap.add_argument("--quick", action='store_true',
                     help="Trefoil only (skip figure-8 and cinquefoil)")
     args = ap.parse_args()

@@ -1,0 +1,250 @@
+{
+  "test_id": "QNG-CPU-153",
+  "decision": "pass",
+  "params": {
+    "L": 48,
+    "RING_R": 5.0,
+    "Q_max": 20
+  },
+  "results": [
+    {
+      "label": "hopfion_Q0",
+      "E_gauge_total": 3237.2302435573097,
+      "E_gauge_xy_plane": 394.78417604357435,
+      "E_gauge_yz_plane": 1421.2230337568676,
+      "E_gauge_xz_plane": 1421.2230337568676,
+      "n_flux_above_pi": 82,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.0015529188223039993,
+      "Q": 0
+    },
+    {
+      "label": "hopfion_Q1",
+      "E_gauge_total": 11606.654775681087,
+      "E_gauge_xy_plane": 8527.338202541207,
+      "E_gauge_yz_plane": 1500.1798689655825,
+      "E_gauge_xz_plane": 1579.1367041742974,
+      "n_flux_above_pi": 294,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.005567782118992361,
+      "Q": 1
+    },
+    {
+      "label": "hopfion_Q2",
+      "E_gauge_total": 11527.697940472368,
+      "E_gauge_xy_plane": 8527.338202541205,
+      "E_gauge_yz_plane": 1579.1367041742974,
+      "E_gauge_xz_plane": 1421.2230337568674,
+      "n_flux_above_pi": 292,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.005529906050155668,
+      "Q": 2
+    },
+    {
+      "label": "hopfion_Q3",
+      "E_gauge_total": 15396.5828656994,
+      "E_gauge_xy_plane": 12317.26629255952,
+      "E_gauge_yz_plane": 1500.1798689655825,
+      "E_gauge_xz_plane": 1579.1367041742974,
+      "n_flux_above_pi": 390,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.00738583342315311,
+      "Q": 3
+    },
+    {
+      "label": "hopfion_Q4",
+      "E_gauge_total": 19660.251966969994,
+      "E_gauge_xy_plane": 16186.151217786548,
+      "E_gauge_yz_plane": 1737.0503745917272,
+      "E_gauge_xz_plane": 1737.0503745917272,
+      "n_flux_above_pi": 498,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.009431141140333959,
+      "Q": 4
+    },
+    {
+      "label": "hopfion_Q5",
+      "E_gauge_total": 38136.151405809294,
+      "E_gauge_xy_plane": 35056.8348326694,
+      "E_gauge_yz_plane": 1500.1798689655825,
+      "E_gauge_xz_plane": 1579.1367041742974,
+      "n_flux_above_pi": 966,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.01829414124811765,
+      "Q": 5
+    },
+    {
+      "label": "hopfion_Q6",
+      "E_gauge_total": 34346.223315790965,
+      "E_gauge_xy_plane": 31266.90674265109,
+      "E_gauge_yz_plane": 1658.0935393830123,
+      "E_gauge_xz_plane": 1421.2230337568676,
+      "n_flux_above_pi": 870,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.01647608994395689,
+      "Q": 6
+    },
+    {
+      "label": "hopfion_Q7",
+      "E_gauge_total": 34346.223315790965,
+      "E_gauge_xy_plane": 31266.90674265109,
+      "E_gauge_yz_plane": 1500.1798689655825,
+      "E_gauge_xz_plane": 1579.1367041742974,
+      "n_flux_above_pi": 870,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.016476089943956888,
+      "Q": 7
+    },
+    {
+      "label": "hopfion_Q8",
+      "E_gauge_total": 34188.309645373534,
+      "E_gauge_xy_plane": 31266.90674265109,
+      "E_gauge_yz_plane": 1500.1798689655825,
+      "E_gauge_xz_plane": 1421.2230337568676,
+      "n_flux_above_pi": 866,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.016400337806283524,
+      "Q": 8
+    },
+    {
+      "label": "hopfion_Q9",
+      "E_gauge_total": 41926.079495827595,
+      "E_gauge_xy_plane": 38846.76292268772,
+      "E_gauge_yz_plane": 1500.1798689655825,
+      "E_gauge_xz_plane": 1579.1367041742974,
+      "n_flux_above_pi": 1062,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.020112192552278405,
+      "Q": 9
+    },
+    {
+      "label": "hopfion_Q10",
+      "E_gauge_total": 70666.36751179978,
+      "E_gauge_xy_plane": 66007.91423448562,
+      "E_gauge_yz_plane": 2447.6618914701608,
+      "E_gauge_xz_plane": 2210.791385844016,
+      "n_flux_above_pi": 1790,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.03389908160883084,
+      "Q": 10
+    },
+    {
+      "label": "hopfion_Q11",
+      "E_gauge_total": 76193.34597640984,
+      "E_gauge_xy_plane": 72956.11573285254,
+      "E_gauge_yz_plane": 1579.1367041742972,
+      "E_gauge_xz_plane": 1658.0935393830123,
+      "n_flux_above_pi": 1930,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.0365504064273986,
+      "Q": 11
+    },
+    {
+      "label": "hopfion_Q12",
+      "E_gauge_total": 65928.9573992769,
+      "E_gauge_xy_plane": 61586.33146279759,
+      "E_gauge_yz_plane": 2131.834550635301,
+      "E_gauge_xz_plane": 2210.791385844016,
+      "n_flux_above_pi": 1670,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.031626517478629886,
+      "Q": 12
+    },
+    {
+      "label": "hopfion_Q13",
+      "E_gauge_total": 69008.27397241679,
+      "E_gauge_xy_plane": 65060.43221198105,
+      "E_gauge_yz_plane": 1894.9640450091565,
+      "E_gauge_xz_plane": 2052.8777154265867,
+      "n_flux_above_pi": 1748,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.0331036841632605,
+      "Q": 13
+    },
+    {
+      "label": "hopfion_Q14",
+      "E_gauge_total": 64981.47537677233,
+      "E_gauge_xy_plane": 61270.50412196273,
+      "E_gauge_yz_plane": 1973.9208802178714,
+      "E_gauge_xz_plane": 1737.0503745917272,
+      "n_flux_above_pi": 1646,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.031172004652589697,
+      "Q": 14
+    },
+    {
+      "label": "hopfion_Q15",
+      "E_gauge_total": 68692.44663158194,
+      "E_gauge_xy_plane": 63165.4681669719,
+      "E_gauge_yz_plane": 2684.5323970963054,
+      "E_gauge_xz_plane": 2842.446067513735,
+      "n_flux_above_pi": 1740,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.03295217988791377,
+      "Q": 15
+    },
+    {
+      "label": "hopfion_Q16",
+      "E_gauge_total": 82036.15178185476,
+      "E_gauge_xy_plane": 76430.21648203599,
+      "E_gauge_yz_plane": 2763.489232305021,
+      "E_gauge_xz_plane": 2842.446067513735,
+      "n_flux_above_pi": 2078,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.039353235521313125,
+      "Q": 16
+    },
+    {
+      "label": "hopfion_Q17",
+      "E_gauge_total": 103433.45412341646,
+      "E_gauge_xy_plane": 98222.30299964128,
+      "E_gauge_yz_plane": 2526.6187266788756,
+      "E_gauge_xz_plane": 2684.5323970963054,
+      "n_flux_above_pi": 2620,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.04961765017605408,
+      "Q": 17
+    },
+    {
+      "label": "hopfion_Q18",
+      "E_gauge_total": 103196.58361779034,
+      "E_gauge_xy_plane": 98853.95768131102,
+      "E_gauge_yz_plane": 2289.748221052731,
+      "E_gauge_xz_plane": 2052.8777154265863,
+      "n_flux_above_pi": 2614,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.049504021969544024,
+      "Q": 18
+    },
+    {
+      "label": "hopfion_Q19",
+      "E_gauge_total": 107776.08005989579,
+      "E_gauge_xy_plane": 102643.88577132933,
+      "E_gauge_yz_plane": 2526.6187266788756,
+      "E_gauge_xz_plane": 2605.575561887591,
+      "n_flux_above_pi": 2730,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.05170083396207162,
+      "Q": 19
+    },
+    {
+      "label": "hopfion_Q20",
+      "E_gauge_total": 112829.31751325355,
+      "E_gauge_xy_plane": 107223.38221343479,
+      "E_gauge_yz_plane": 2763.48923230502,
+      "E_gauge_xz_plane": 2842.4460675137357,
+      "n_flux_above_pi": 2858,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.05412490236761928,
+      "Q": 20
+    }
+  ],
+  "analysis": {
+    "saturated_from_Q": 18,
+    "power_law_A": 7516.093360124794,
+    "power_law_p": 0.868217665607359,
+    "E_inf_estimate_avg_Qge2": 60751.0512587475,
+    "saturation_relative_dev_pct": 51.56715772840563
+  },
+  "interpretation": "If E_gauge saturates (relative deviation < 5% for Q >= some Q*), the v12 photon emission rate is Q-independent, a novel QNG prediction (P3 in Paper 7). Otherwise, saturation observed at Q=1,2 in CPU-151 was a finite-volume coincidence."
+}

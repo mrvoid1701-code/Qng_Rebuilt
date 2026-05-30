@@ -376,14 +376,35 @@ v12, certain pairs of Hopfion-Q states are forced to have the same
 total photon emission rate by lattice symmetry alone — independent of
 their precise topology.
 
-**Refined phenomenological consequence**:
-- The Q=1 vs Q=2 lowest two Hopfion states should have identical v12
-  photon emission rates (0.68% precision at L=48, robust)
-- Pairs (Q=6, Q=7) and possibly (Q=4n+2, Q=4n+3) for higher n may
-  similarly be symmetry-equipartitioned
+**Refined phenomenological consequence (after CPU-155 Q=0..20 scan)**:
 
-Experimentally falsifiable for the Q=1 vs Q=2 case, and qualitatively
-for any higher-Q pairing that QNG identifies.
+CPU-155 extended Q to 20 at both L=24 and L=48, identifying THREE
+equipartition clusters confirmed at both lattice resolutions:
+
+| Cluster | Members | L=24 max Δ | L=48 max Δ |
+|---|---|---|---|
+| A | {Q=1, Q=2} | 1.01% | 0.68% |
+| B | {Q=6, Q=7, Q=8} | 0.82% | 0.46% |
+| C | {Q=17, Q=18} | 0.15% | 0.23% |
+
+The conjectured (Q=4n+2, Q=4n+3) pattern is FALSIFIED (e.g., Q=10 vs
+Q=11 differ by 7.8% at L=48). The actual structure is a sequence of
+discrete equipartition clusters at specific Q values, with cluster
+centers at Q ≈ 1.5, 7, 17.5. Cluster B is a TRIPLET (not just a pair).
+
+The phenomenological claim, refined:
+- **Cluster A**: Q=1 ↔ Q=2 have identical v12 photon emission rate.
+- **Cluster B**: Q=6, Q=7, Q=8 have a common rate distinct from A.
+- **Cluster C**: Q=17 ↔ Q=18 have a common rate.
+
+A full analytical derivation of which Q values cluster, and why,
+remains open (CPU-157 proposed). Empirically the pattern is robust:
+identical clusters at L=24 and L=48 with 8× difference in lattice
+volume rule out finite-volume coincidence.
+
+This is the strongest predictive statement of the QNG-knot framework:
+**discrete clusters of Hopfion states forced into identical radiative
+rates by the cubic-lattice gauge symmetry**.
 
 ### 4.4 Open problems
 
