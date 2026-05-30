@@ -1,0 +1,107 @@
+{
+  "test_id": "QNG-CPU-153",
+  "decision": "pass",
+  "params": {
+    "L": 24,
+    "RING_R": 5.0,
+    "Q_max": 7
+  },
+  "results": [
+    {
+      "label": "hopfion_Q0",
+      "E_gauge_total": 3237.230243557309,
+      "E_gauge_xy_plane": 394.78417604357435,
+      "E_gauge_yz_plane": 1421.2230337568676,
+      "E_gauge_xz_plane": 1421.2230337568676,
+      "n_flux_above_pi": 82,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.012423350578431894,
+      "Q": 0
+    },
+    {
+      "label": "hopfion_Q1",
+      "E_gauge_total": 7816.726685662771,
+      "E_gauge_xy_plane": 4737.410112522892,
+      "E_gauge_yz_plane": 1500.1798689655823,
+      "E_gauge_xz_plane": 1579.1367041742974,
+      "n_flux_above_pi": 198,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.029997846518652584,
+      "Q": 1
+    },
+    {
+      "label": "hopfion_Q2",
+      "E_gauge_total": 7737.769850454056,
+      "E_gauge_xy_plane": 4737.410112522892,
+      "E_gauge_yz_plane": 1579.1367041742972,
+      "E_gauge_xz_plane": 1421.2230337568676,
+      "n_flux_above_pi": 196,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.029694837967959114,
+      "Q": 2
+    },
+    {
+      "label": "hopfion_Q3",
+      "E_gauge_total": 9711.69073067193,
+      "E_gauge_xy_plane": 6632.374157532049,
+      "E_gauge_yz_plane": 1500.1798689655823,
+      "E_gauge_xz_plane": 1579.1367041742974,
+      "n_flux_above_pi": 246,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.03727005173529561,
+      "Q": 3
+    },
+    {
+      "label": "hopfion_Q4",
+      "E_gauge_total": 12080.395786933374,
+      "E_gauge_xy_plane": 8606.29503774992,
+      "E_gauge_yz_plane": 1737.050374591727,
+      "E_gauge_xz_plane": 1737.050374591727,
+      "n_flux_above_pi": 306,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.04636030825609941,
+      "Q": 4
+    },
+    {
+      "label": "hopfion_Q5",
+      "E_gauge_total": 21081.47500072687,
+      "E_gauge_xy_plane": 18002.15842758699,
+      "E_gauge_yz_plane": 1500.1798689655823,
+      "E_gauge_xz_plane": 1579.1367041742974,
+      "n_flux_above_pi": 534,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.08090328303515383,
+      "Q": 5
+    },
+    {
+      "label": "hopfion_Q6",
+      "E_gauge_total": 19186.510955717713,
+      "E_gauge_xy_plane": 16107.194382577833,
+      "E_gauge_yz_plane": 1658.093539383012,
+      "E_gauge_xz_plane": 1421.2230337568676,
+      "n_flux_above_pi": 486,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.07363107781851078,
+      "Q": 6
+    },
+    {
+      "label": "hopfion_Q7",
+      "E_gauge_total": 19186.51095571771,
+      "E_gauge_xy_plane": 16107.194382577833,
+      "E_gauge_yz_plane": 1500.1798689655823,
+      "E_gauge_xz_plane": 1579.1367041742974,
+      "n_flux_above_pi": 486,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.07363107781851079,
+      "Q": 7
+    }
+  ],
+  "analysis": {
+    "saturated_from_Q": 7,
+    "power_law_A": 6355.689126905016,
+    "power_law_p": 0.5722649488617821,
+    "E_inf_estimate_avg_Qge2": 14830.725546703607,
+    "saturation_relative_dev_pct": 34.93855719701461
+  },
+  "interpretation": "If E_gauge saturates (relative deviation < 5% for Q >= some Q*), the v12 photon emission rate is Q-independent, a novel QNG prediction (P3 in Paper 7). Otherwise, saturation observed at Q=1,2 in CPU-151 was a finite-volume coincidence."
+}

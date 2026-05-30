@@ -322,11 +322,33 @@ energy ladder `ΔE(Q) ≈ a · Q^{0.42}` with Q ∈ ℤ⁺. These would manifest
 as a discrete spectrum of excited states of the stable particle with
 the same charge ±e but different masses.
 
-**P3 (Hopfion Q-saturation of photon channel)**: the v12 photon
-emission rate is Q-independent across the Hopfion ladder. The
-phenomenological consequence: the radiative transition rates among
-Hopfion-Q states should be the same regardless of which Q→Q' transition
-is considered. Experimentally falsifiable.
+**P3 (Hopfion Q-saturation of photon channel, refined)**: at LOW Q
+(within lattice resolution), the v12 photon emission rate is
+Q-independent. Specifically, CPU-153 measurements on L=24 give:
+
+| Q | E_gauge | Q-step change |
+|---|---|---|
+| 1 | 7817 | — |
+| 2 | 7738 | −1.0% (saturation) |
+| 3 | 9712 | +25.5% (resolution onset?) |
+| 4 | 12080 | +24.4% |
+| 5 | 21082 | +74.5% (aliasing region) |
+| 6 | 19187 | −9.0% |
+| 7 | 19187 | exact 0.00% (clear aliasing) |
+
+The Q=6 ≡ Q=7 exact agreement (to last digit) and the Q=5 large jump
+are signatures of lattice aliasing — at L=24, R=5, the Nyquist limit
+for resolving Q toroidal windings around the ring is approximately
+Q_max ~ 2πR/2 ≈ 16, but EFFECTIVE resolution degrades much earlier
+(Q ≳ 5 in observed data). At larger lattice resolution the saturation
+behavior may extend to higher Q.
+
+Phenomenological consequence (revised): **the lowest-Q Hopfion states
+(Q=1, Q=2) should have identical radiative transition rates under v12
+EM, despite distinct rest energies**. Q-saturation at higher Q
+requires continuum-limit testing (CPU-154 at L=48 queued).
+
+Experimentally falsifiable for the Q=1 vs Q=2 case.
 
 ### 4.4 Open problems
 

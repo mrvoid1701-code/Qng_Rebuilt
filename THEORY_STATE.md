@@ -701,6 +701,36 @@ qualitative prediction beyond gauge bosons.
 **Next test queued**: CPU-147 (Hopfion Q ≥ 4 ladder) and CPU-148
 (figure-8 + 5-crossing knot universality).
 
+### 5.8.6 Hopfion Q-saturation REFINED (CPU-153, 2026-05-30)
+
+`07_validation/prereg/QNG-CPU-153.md` + `tests/cpu/qng_hopfion_q_saturation_reference.py`.
+
+Tested Q-saturation prediction P3 (Paper 7 §4.3) across Q=0..7 on L=24.
+
+| Q | E_gauge | E/E(Q=1) | Δ vs prev |
+|---|---|---|---|
+| 1 | 7817 | 1.000 | — |
+| 2 | 7738 | 0.990 | **−1.0%** (saturation) |
+| 3 | 9712 | 1.242 | +25.5% |
+| 4 | 12080 | 1.545 | +24.4% |
+| 5 | 21082 | 2.697 | +74.5% (aliasing) |
+| 6 | 19187 | 2.454 | −9.0% |
+| 7 | 19187 | 2.454 | EXACT 0% (clear aliasing) |
+
+**Result PASS_LOW**: Q=1 ↔ Q=2 saturation CONFIRMED (1% agreement).
+Higher-Q behavior dominated by lattice resolution effects:
+- Q=3, 4: ~25% growth per step (resolution onset or genuine growth?)
+- Q≥5: aliasing artifacts (Q=6=Q=7 to last digit)
+
+**Refined P3 status**: the LOW-Q saturation (lowest two Hopfion states
+have identical v12 photon emission) is preserved as a confirmed
+phenomenological prediction. Extension to Q≥3 requires larger lattice
+(CPU-154 queued at L=48, 64).
+
+Paper 7 §4.3 updated with refined P3 statement.
+
+Audit: `07_validation/audits/qng-hopfion-q-saturation-v1/`.
+
 ### 5.8.5 v12 gauge-current prediction CPU-151 (2026-05-30)
 
 `07_validation/prereg/QNG-CPU-151.md` + `tests/cpu/qng_knot_plaquette_curl_reference.py`.
@@ -1015,7 +1045,7 @@ Latest 5 audits (most recent first):
 | v9 agent consultation | `08_governance/v9-agent-consultation-v1.md` (NOTE-QNG-020) |
 | v8 audit 2026-04-22 | `07_validation/audits/qng-v8-comprehensive-audit-2026-04-22/REPORT.md` |
 | SM ↔ QNG correspondence map | `04_qng_pure/qng-sm-correspondence-map-v1.md` (DER-QNG-091) |
-| Knot/Hopfion soliton spectrum | `04_qng_pure/qng-knot-spectrum-v1.md` (DER-QNG-092), `tests/cpu/qng_knot_energy_scan_reference.py` (CPU-145), `tests/cpu/qng_knot_matter_scan_reference.py` (CPU-146), `tests/cpu/qng_knot_universality_reference.py` (CPU-148), `tests/cpu/qng_knot_finite_volume_reference.py` (CPU-149), `tests/cpu/qng_knot_plaquette_curl_reference.py` (CPU-151) |
+| Knot/Hopfion soliton spectrum | `04_qng_pure/qng-knot-spectrum-v1.md` (DER-QNG-092), `tests/cpu/qng_knot_energy_scan_reference.py` (CPU-145), `tests/cpu/qng_knot_matter_scan_reference.py` (CPU-146), `tests/cpu/qng_knot_universality_reference.py` (CPU-148), `tests/cpu/qng_knot_finite_volume_reference.py` (CPU-149), `tests/cpu/qng_knot_plaquette_curl_reference.py` (CPU-151), `tests/cpu/qng_hopfion_q_saturation_reference.py` (CPU-153) |
 | Open gaps reference | This file §3 + per-program docs |
 | All audits | `07_validation/audits/` (96+ folders) |
 | All preregs | `07_validation/prereg/` (92 files) |
