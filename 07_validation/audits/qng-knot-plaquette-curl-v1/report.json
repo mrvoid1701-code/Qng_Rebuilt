@@ -1,0 +1,79 @@
+{
+  "test_id": "QNG-CPU-151",
+  "decision": "pass",
+  "params": {
+    "L": 24,
+    "RING_R": 5.0,
+    "KNOT_SCALE": 1.8
+  },
+  "results": [
+    {
+      "n_plaquettes_total": 41472,
+      "n_flux_above_pi": 82,
+      "n_vacuum_below_0.1": 41390,
+      "fraction_flux": 0.0019772376543209878,
+      "E_gauge": 3237.230243557309,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.012423350578431894,
+      "label": "ring_Q0",
+      "rope_length": 31.41592653589793
+    },
+    {
+      "n_plaquettes_total": 41472,
+      "n_flux_above_pi": 198,
+      "n_vacuum_below_0.1": 41274,
+      "fraction_flux": 0.004774305555555556,
+      "E_gauge": 7816.726685662771,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.029997846518652584,
+      "label": "hopfion_Q1",
+      "rope_length": 62.83185307179586
+    },
+    {
+      "n_plaquettes_total": 41472,
+      "n_flux_above_pi": 196,
+      "n_vacuum_below_0.1": 41276,
+      "fraction_flux": 0.00472608024691358,
+      "E_gauge": 7737.769850454056,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.029694837967959114,
+      "label": "hopfion_Q2",
+      "rope_length": 94.24777960769379
+    },
+    {
+      "n_plaquettes_total": 41472,
+      "n_flux_above_pi": 194,
+      "n_vacuum_below_0.1": 41278,
+      "fraction_flux": 0.004677854938271605,
+      "E_gauge": 7658.813015245341,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.02939182941726566,
+      "label": "trefoil",
+      "rope_length": 51.88731813607936
+    },
+    {
+      "n_plaquettes_total": 41472,
+      "n_flux_above_pi": 156,
+      "n_vacuum_below_0.1": 41316,
+      "fraction_flux": 0.003761574074074074,
+      "E_gauge": 6158.633146279759,
+      "max_abs_F": 6.283185307179587,
+      "mean_abs_F": 0.023634666954089906,
+      "label": "figure_8",
+      "rope_length": 54.137676511255066
+    },
+    {
+      "n_plaquettes_total": 41472,
+      "n_flux_above_pi": 204,
+      "n_vacuum_below_0.1": 41268,
+      "fraction_flux": 0.004918981481481482,
+      "E_gauge": 8053.597191288916,
+      "max_abs_F": 6.283185307179588,
+      "mean_abs_F": 0.03090687217073295,
+      "label": "cinquefoil",
+      "rope_length": 48.47355259849793
+    }
+  ],
+  "predicted_tau_spread_v12": 2.4878048780487805,
+  "interpretation": "Plaquette curl F_p = sum(wrap_pi(phi_diffs)) around each plaquette is the gauge-invariant flux that would source A_ij dynamics in v12. Total E_gauge = sum F_p^2 is proportional to (a) total vortex line length, (b) expected photon-emission rate when A_ij is made dynamical. Different knot topologies have different E_gauge, predicting a topology-dependent decay rate under v12 (breaking the v7 universality observed in CPU-148/149)."
+}
