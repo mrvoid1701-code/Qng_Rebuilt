@@ -1,0 +1,86 @@
+{
+  "test_id": "CPU-167_wpwm_separation_scan",
+  "separations": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+  ],
+  "results": [
+    {
+      "label": "WpWm_D4",
+      "M_P1_end": 0.0,
+      "M_P2_end": 185.23390092615736,
+      "M_P3_end": 1712.0193102155094,
+      "E_gauge_P1_end": 0.04740139426397416,
+      "E_gauge_P2_end": 0.01428633456550107,
+      "E_gauge_P3_end": 1.4072619748496322,
+      "mean_decay_ratio": 1.1398968405010843,
+      "half_life_lu": Infinity,
+      "D": 4
+    },
+    {
+      "label": "WpWm_D5",
+      "M_P1_end": 0.0,
+      "M_P2_end": 215.89203870714223,
+      "M_P3_end": 1741.2564594291453,
+      "E_gauge_P1_end": 0.07373589399438771,
+      "E_gauge_P2_end": 0.01669469686928636,
+      "E_gauge_P3_end": 1.5618836334079875,
+      "mean_decay_ratio": 1.1280306958698398,
+      "half_life_lu": Infinity,
+      "D": 5
+    },
+    {
+      "label": "WpWm_D6",
+      "M_P1_end": 0.0,
+      "M_P2_end": 226.10524972440328,
+      "M_P3_end": 1806.9788079415234,
+      "E_gauge_P1_end": 0.10891092528306964,
+      "E_gauge_P2_end": 0.017571969821983772,
+      "E_gauge_P3_end": 1.582691637634939,
+      "mean_decay_ratio": 1.125602352147599,
+      "half_life_lu": Infinity,
+      "D": 6
+    },
+    {
+      "label": "WpWm_D7",
+      "M_P1_end": 0.0,
+      "M_P2_end": 237.5584371808925,
+      "M_P3_end": 1843.6217366162848,
+      "E_gauge_P1_end": 0.12895607243200857,
+      "E_gauge_P2_end": 0.020350241515682092,
+      "E_gauge_P3_end": 1.5723315996099867,
+      "mean_decay_ratio": 1.1224697519203082,
+      "half_life_lu": Infinity,
+      "D": 7
+    },
+    {
+      "label": "WpWm_D8",
+      "M_P1_end": 0.0,
+      "M_P2_end": 244.5435834027865,
+      "M_P3_end": 1881.168377376681,
+      "E_gauge_P1_end": 0.1458296278009587,
+      "E_gauge_P2_end": 0.022565032345786218,
+      "E_gauge_P3_end": 1.6167703922988956,
+      "mean_decay_ratio": 1.1212362034048888,
+      "half_life_lu": Infinity,
+      "D": 8
+    },
+    {
+      "label": "WpWm_D10",
+      "M_P1_end": 0.0,
+      "M_P2_end": 258.26207886713576,
+      "M_P3_end": 1900.7327920967064,
+      "E_gauge_P1_end": 0.1533227177013583,
+      "E_gauge_P2_end": 0.026376883408747047,
+      "E_gauge_P3_end": 1.533699441228428,
+      "mean_decay_ratio": 1.1176609268595474,
+      "half_life_lu": Infinity,
+      "D": 10
+    }
+  ],
+  "trefoil_reference_mass": 1902.16
+}

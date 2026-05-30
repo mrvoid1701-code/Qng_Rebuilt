@@ -1,0 +1,42 @@
+{
+  "test_id": "CPU-166_hopfion_ladder_v12enhanced",
+  "params": {
+    "L": 20,
+    "e_CHARGE": 3.0
+  },
+  "results": [
+    {
+      "label": "hopfion_Q3",
+      "M_P1_end": 0.0,
+      "M_P2_end": 1682.9880717074159,
+      "M_P3_end": 2362.07477047284,
+      "E_gauge_P1_end": 0.6650175256012989,
+      "E_gauge_P2_end": 1.628832834196972,
+      "E_gauge_P3_end": 2.150901027486798,
+      "mean_decay_ratio": 1.020758492291412,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "hopfion_Q4",
+      "M_P1_end": 0.0,
+      "M_P2_end": 1994.3408806849036,
+      "M_P3_end": 2212.6114173633,
+      "E_gauge_P1_end": 0.870997001238476,
+      "E_gauge_P2_end": 2.0858905432099197,
+      "E_gauge_P3_end": 1.6754014139357405,
+      "mean_decay_ratio": 1.0052113247836651,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "hopfion_Q5",
+      "M_P1_end": 0.0,
+      "M_P2_end": 2109.8197363599807,
+      "M_P3_end": 2296.159137023473,
+      "E_gauge_P1_end": 1.116374899625453,
+      "E_gauge_P2_end": 2.571834901848524,
+      "E_gauge_P3_end": 1.6580918536084652,
+      "mean_decay_ratio": 1.0079125568077028,
+      "half_life_lu": Infinity
+    }
+  ]
+}
