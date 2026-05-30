@@ -232,13 +232,19 @@ channel exists.
 ### 3.7 v12 enhanced gauge coupling: Higgs-like mass mechanism (CPU-159)
 
 CPU-152 showed v12 canonical (e=0.3) preserves v7 universality. CPU-159
-tested v12 at enhanced coupling (e=3.0, ~10x QED) on three knots:
+tested v12 at enhanced coupling (e=3.0, ~10x QED) on all 6 knots:
 
-| Knot | M_P2_end | M_P3_end | Behavior |
+| Knot | M_P3_end | Relative to Hopfion | SM-class analog |
 |---|---|---|---|
-| ring_Q0 | 260 | **2168** | STABLE attractor |
-| hopfion_Q1 | 1360 | **2457** | STABLE attractor (highest M) |
-| trefoil | 448 | **1902** | STABLE attractor (lowest M) |
+| trefoil | **1902** | 0.774 | lightest stable resonance |
+| cinquefoil | **1981** | 0.806 | |
+| figure_8 | **2133** | 0.868 | |
+| ring | **2168** | 0.882 | |
+| hopfion_Q2 | **2445** | 0.995 | heavy class (Q-saturated) |
+| hopfion_Q1 | **2457** | 1.000 | heaviest |
+
+Mass spread: 2457 / 1902 = **factor 1.293**. Hopfion Q-saturation
+confirmed in enhanced regime (Q=1 vs Q=2: 0.5% difference).
 
 **Striking finding**: at enhanced coupling, ALL knot topologies become
 stable attractors with topology-dependent equilibrium masses. The
@@ -246,8 +252,16 @@ decaying behavior of v7 and v12-canonical is REPLACED by a Higgs-like
 stabilization mechanism where A_ij absorbs phi-gradient energy and
 provides back-pressure preventing matter dispersal.
 
-**Mass spread**: M_Hopfion / M_trefoil = 2457 / 1902 = factor 1.29.
-Topology determines the equilibrium mass of the stable attractor.
+**Mass ordering** (lightest to heaviest):
+trefoil < cinquefoil < figure_8 < ring < hopfion_Q2 ≈ hopfion_Q1
+
+Non-monotonic in crossing number (trefoil 3, figure_8 4, cinquefoil 5)
+— topological class matters more than crossing count.
+
+**Hopfion Q-saturation** preserved under enhanced v12: Q=1 and Q=2 differ
+by only 0.5% in equilibrium mass, despite the v7 phi-XY energies
+differing by 24% (Q=1 ΔE=9.76 vs Q=2 ΔE=12.11 in CPU-145). The gauge
+field equipartitions the Hopfion ladder into a single mass class.
 
 This is a NEW QNG prediction:
 - At moderate-strong gauge coupling, EVERY topological knot becomes
