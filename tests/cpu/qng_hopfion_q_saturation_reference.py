@@ -37,35 +37,33 @@ ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_OUT_DIR = ROOT / "07_validation" / "audits" / "qng-hopfion-q-saturation-v1"
 
 
-L = 24
-N = L * L * L
-RING_R = 5.0
-
-
-XC, YC, ZC = L/2.0, L/2.0, L/2.0
+L = 24                # default; override with --L
+RING_R = 5.0          # ring radius (kept fixed; in absolute lattice units)
 
 
 def wrap_pi(a):
     return (a + math.pi) % (2 * math.pi) - math.pi
 
 
-def mi_arr(d):
-    d = d.copy()
-    d[d >  L/2] -= L
-    d[d < -L/2] += L
-    return d
-
-
-def make_coords():
+def setup_lattice(L_param: int):
+    """(Re)initialize globals for given L."""
+    global L, N, XC, YC, ZC, XX, YY, ZZ, DX, DY, DZ
+    L = L_param
+    N = L * L * L
+    XC, YC, ZC = L/2.0, L/2.0, L/2.0
     ax = np.arange(L, dtype=np.float64)
     XX, YY, ZZ = np.meshgrid(ax, ax, ax, indexing='ij')
-    return XX, YY, ZZ
+    def mi(d):
+        d = d.copy()
+        d[d >  L/2] -= L
+        d[d < -L/2] += L
+        return d
+    DX = mi(XX - XC)
+    DY = mi(YY - YC)
+    DZ = mi(ZZ - ZC)
 
 
-XX, YY, ZZ = make_coords()
-DX = mi_arr(XX - XC)
-DY = mi_arr(YY - YC)
-DZ = mi_arr(ZZ - ZC)
+setup_lattice(L)
 
 
 def init_phi_hopfion(q_twist: int) -> np.ndarray:
@@ -116,7 +114,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out-dir", default=str(DEFAULT_OUT_DIR))
     ap.add_argument("--Q-max", type=int, default=7)
+    ap.add_argument("--L", type=int, default=L)
     args = ap.parse_args()
+
+    if args.L != L:
+        setup_lattice(args.L)
 
     out = Path(args.out_dir)
     out.mkdir(parents=True, exist_ok=True)
