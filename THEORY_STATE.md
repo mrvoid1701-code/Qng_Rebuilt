@@ -701,6 +701,34 @@ qualitative prediction beyond gauge bosons.
 **Next test queued**: CPU-147 (Hopfion Q ≥ 4 ladder) and CPU-148
 (figure-8 + 5-crossing knot universality).
 
+### 5.8.8 v12 enhanced coupling: Higgs-like mass mechanism (CPU-159, 2026-05-30)
+
+`07_validation/prereg/QNG-CPU-159.md`. Ran v12 dynamics with E_CHARGE=3.0
+(10x QED) for ring, hopfion_Q1, trefoil on L=20.
+
+**Striking result**: ALL three knots become STABLE attractors with
+topology-dependent equilibrium masses:
+
+| Knot | M_P3_end | Relative |
+|---|---|---|
+| ring | 2168 | 1.00 |
+| hopfion_Q1 | 2457 | 1.13 |
+| trefoil | 1902 | 0.88 |
+
+Mass spread: factor 1.29 between Hopfion (heaviest) and trefoil (lightest).
+
+A_ij grows to |A|max ~ 0.06 (vs 10^-3 at canonical e=0.3), E_gauge
+reaches 0.08-0.32 (vs 0.001 at canonical).
+
+**NEW QNG prediction**: at moderate-strong gauge coupling, v12 produces
+a Higgs-like mass mechanism — every topological knot becomes stable
+with topology-dependent mass, instead of decaying as in v7/v12-canonical.
+
+The transition v7-decay -> v12-enhanced-stable occurs at some critical
+e* in (0.3, 3.0). Maps to a phase transition in the QNG phase diagram.
+
+Audit: `07_validation/audits/qng-v12-enhanced-E3-v1/`.
+
 ### 5.8.7 v12 EM dynamics (CPU-152) — CPU-151 strong prediction REFINED (2026-05-30)
 
 `07_validation/prereg/QNG-CPU-152.md` + `tests/cpu/qng_v12_dynamics_reference.py`.

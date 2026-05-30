@@ -1,0 +1,48 @@
+{
+  "test_id": "QNG-CPU-152",
+  "params": {
+    "L": 20,
+    "E_CHARGE": 3.0,
+    "MU_A": 1.0,
+    "BETA_A": 0.05,
+    "PHASE1": 300,
+    "PHASE2": 1500,
+    "PHASE3": 3000
+  },
+  "results": [
+    {
+      "label": "ring_Q0",
+      "M_P1_end": 0.0,
+      "M_P2_end": 260.0539112643051,
+      "M_P3_end": 2167.9935204909207,
+      "E_gauge_P1_end": 0.12064854494937317,
+      "E_gauge_P2_end": 0.024958659381571983,
+      "E_gauge_P3_end": 1.9156648608125315,
+      "mean_decay_ratio": 1.1459419006168048,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "hopfion_Q1",
+      "M_P1_end": 0.0,
+      "M_P2_end": 1360.300515965756,
+      "M_P3_end": 2456.4952853242416,
+      "E_gauge_P1_end": 0.30135102204443875,
+      "E_gauge_P2_end": 0.32435980194553443,
+      "E_gauge_P3_end": 2.421493841282504,
+      "mean_decay_ratio": 1.0375014414083457,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "trefoil",
+      "M_P1_end": 0.0,
+      "M_P2_end": 447.6502800040261,
+      "M_P3_end": 1902.164763334872,
+      "E_gauge_P1_end": 0.07986073935411916,
+      "E_gauge_P2_end": 0.022038080543040038,
+      "E_gauge_P3_end": 1.6057410651958888,
+      "mean_decay_ratio": 1.0832716725075089,
+      "half_life_lu": Infinity
+    }
+  ],
+  "interpretation": "Full v12 EM dynamics with A_ij Maxwell term coupled to phi via gauge-invariant cosine. Tests CPU-151 static prediction of topology-dependent decay rate spread factor 2.5 under v12. If observed spread > v7 baseline (CPU-148 universality), v12 EM channel is the source of topology-dependent decay."
+}
