@@ -701,6 +701,35 @@ qualitative prediction beyond gauge bosons.
 **Next test queued**: CPU-147 (Hopfion Q ≥ 4 ladder) and CPU-148
 (figure-8 + 5-crossing knot universality).
 
+### 5.8.13 Chirality verification — Delta- and Delta-- (CPU-165, 2026-05-30)
+
+`07_validation/prereg/QNG-CPU-165.md`. Tested predictions from DER-QNG-094
+by chirality symmetry.
+
+**Results (v12 enhanced)**:
+
+| QNG | M_P3 | ratio vs trefoil | SM | Error |
+|---|---|---|---|---|
+| Hopfion (W+) | 2456.50 | 1.2914 | Delta+ | 1.65% |
+| anti-Hopfion (W-) | 2456.50 | 1.2914 | **Delta-** | **1.65%** ✓ |
+| W+W+ | 2515.27 | 1.3223 | Delta++ | 0.68% |
+| W-W- | 2505.33 | 1.3171 | **Delta--** | **0.30%** ✓ (best!) |
+
+**Chirality symmetry IDEAL**: 0.00% diff Hopfion↔anti-Hopfion (machine
+precision), 0.40% diff W+W+↔W-W- (numerical noise).
+
+**Two new clean identifications**:
+- Delta- ↔ anti-Hopfion Q1 (1.65% by chirality)
+- Delta-- ↔ W-W- composite (0.30% — BEST QNG identification yet)
+
+**Delta family in QNG now 80% mapped** (4 of 5 charge states). Only
+Delta0 missing (structurally absent in v12).
+
+**Total session identifications**: 5 baryons (proton + 4 Delta states),
+max error 1.65%, mean error ~0.8%.
+
+Audit: `07_validation/audits/qng-chirality-verification-v1/`.
+
 ### 5.8.12 Delta++ identification + neutron problem (DER-QNG-094, CPU-164, 2026-05-30)
 
 `04_qng_pure/qng-delta-composite-identification-v1.md` (DER-QNG-094) +

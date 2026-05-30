@@ -1,0 +1,79 @@
+{
+  "test_id": "QNG-CPU-165",
+  "params": {
+    "L": 20,
+    "E_CHARGE": 3.0
+  },
+  "results": [
+    {
+      "label": "Hopfion_Q1_W+",
+      "M_P1_end": 0.0,
+      "M_P2_end": 1360.300515965756,
+      "M_P3_end": 2456.4952853242416,
+      "E_gauge_P1_end": 0.30135102204443875,
+      "E_gauge_P2_end": 0.32435980194553443,
+      "E_gauge_P3_end": 2.421493841282504,
+      "mean_decay_ratio": 1.0375014414083457,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "antiHopfion_Q1_W-",
+      "M_P1_end": 0.0,
+      "M_P2_end": 1360.300515965756,
+      "M_P3_end": 2456.4952853242426,
+      "E_gauge_P1_end": 0.30135102204443875,
+      "E_gauge_P2_end": 0.32435980194553443,
+      "E_gauge_P3_end": 2.421493841282499,
+      "mean_decay_ratio": 1.0375014414083457,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "WpWp_Delta++",
+      "M_P1_end": 0.0,
+      "M_P2_end": 735.8768901990977,
+      "M_P3_end": 2515.273472772432,
+      "E_gauge_P1_end": 0.13637435764303832,
+      "E_gauge_P2_end": 0.3123239637833912,
+      "E_gauge_P3_end": 2.1401260086591556,
+      "mean_decay_ratio": 1.0837736341405046,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "WmWm_Delta--",
+      "M_P1_end": 0.0,
+      "M_P2_end": 734.0126635068021,
+      "M_P3_end": 2505.3272394378264,
+      "E_gauge_P1_end": 0.1364252543299948,
+      "E_gauge_P2_end": 0.3131780162987981,
+      "E_gauge_P3_end": 2.316911355631916,
+      "mean_decay_ratio": 1.0837628316217374,
+      "half_life_lu": Infinity
+    },
+    {
+      "label": "trefoil_proton",
+      "M_P1_end": 0.0,
+      "M_P2_end": 447.6502800040261,
+      "M_P3_end": 1902.164763334872,
+      "E_gauge_P1_end": 0.07986073935411916,
+      "E_gauge_P2_end": 0.022038080543040038,
+      "E_gauge_P3_end": 1.6057410651958888,
+      "mean_decay_ratio": 1.0832716725075089,
+      "half_life_lu": Infinity
+    }
+  ],
+  "chirality_symmetry": {
+    "hopfion_vs_anti_diff_pct": 3.7024076830372616e-14,
+    "wpwp_vs_wmwm_diff_pct": 0.39543347641011656,
+    "symmetry_holds": true
+  },
+  "delta_minus_identification": {
+    "anti_hopfion_ratio_to_proton": 1.2914208761903039,
+    "sm_delta_minus_ratio": 1.3131,
+    "error_pct": 1.6509880290683159
+  },
+  "delta_double_minus_identification": {
+    "wmwm_ratio_to_proton": 1.3170926555518203,
+    "sm_delta_double_minus_ratio": 1.3131,
+    "error_pct": 0.3040633273795125
+  }
+}
