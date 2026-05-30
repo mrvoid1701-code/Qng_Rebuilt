@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "label": "double_hopf_q1_q1",
+      "dE": 15.29298590420899
+    },
+    {
+      "label": "double_hopf_q2_q1",
+      "dE": 25.25578629004235
+    },
+    {
+      "label": "double_hopf_q1_q2",
+      "dE": 18.03533332178972
+    },
+    {
+      "label": "hopf_decorated_1ring",
+      "dE": 23.619761551815827
+    },
+    {
+      "label": "hopf_decorated_2rings",
+      "dE": 33.07887624083776
+    },
+    {
+      "label": "hopf_R_3_5",
+      "dE": 15.202459219741058
+    },
+    {
+      "label": "hopf_R_4_5",
+      "dE": 15.927858399311049
+    },
+    {
+      "label": "hopf_R_5_5",
+      "dE": 18.01776917173663
+    },
+    {
+      "label": "hopf_R_7",
+      "dE": 21.438128624164506
+    }
+  ]
+}
