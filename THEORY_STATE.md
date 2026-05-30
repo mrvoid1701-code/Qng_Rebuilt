@@ -701,6 +701,41 @@ qualitative prediction beyond gauge bosons.
 **Next test queued**: CPU-147 (Hopfion Q ≥ 4 ladder) and CPU-148
 (figure-8 + 5-crossing knot universality).
 
+### 5.8.7 v12 EM dynamics (CPU-152) — CPU-151 strong prediction REFINED (2026-05-30)
+
+`07_validation/prereg/QNG-CPU-152.md` + `tests/cpu/qng_v12_dynamics_reference.py`.
+
+Implemented full v12 EM dynamics: edge gauge field A_ij with Maxwell-
+like plaquette term + gauge-invariant phi coupling. Ran 6-knot scan at
+canonical parameters (e=0.3, mu_A=1.0, beta_A=0.05).
+
+| Knot | tau_v12 | tau_v7 | spread within unstable class |
+|---|---|---|---|
+| ring | 995 lu | 1000 lu | factor 1.058 (5.8%) |
+| trefoil | 986 | 1011 | (NOT factor 2.5 as predicted) |
+| figure_8 | 1023 | 1050 | |
+| cinquefoil | 1043 | 1070 | |
+| Hopfion_Q1 | 11476 | stable | slow decay observed |
+| Hopfion_Q2 | 12572 | (not measured) | |
+
+**Result PASS_NEG**: CPU-151 strong prediction (factor 2.5 spread)
+FALSIFIED at canonical parameters. v7 within-knot universality is
+PRESERVED under v12 (no spurious topology dependence introduced).
+
+**Diagnosis**: |A_ij| stays at ~10^-3 throughout simulation because
+BETA_A * e * BETA_PHI ~ 5×10^-5 per step — A would need ~10^5 steps to
+equilibrate, but knots decay in ~10^3 steps. CPU-151 assumed A reaches
+equilibrium; CPU-152 shows it doesn't at canonical params.
+
+**Refined P1 (Paper 7)**: v12 EM at canonical parameters is a weak
+perturbation, NOT a topology-dependent decay channel. For SM-like
+lifetime diversity, QNG needs either:
+- Stronger gauge coupling (e >> 0.3 — GUT-scale unified analog)
+- Symplectic v8 dynamics with A propagating freely
+- v13 SU(2)/SU(3) for fast weak/strong decay channels
+
+Audit: `07_validation/audits/qng-v12-dynamics-v1/`.
+
 ### 5.8.6 Hopfion Q-saturation REFINED (CPU-153, 2026-05-30)
 
 `07_validation/prereg/QNG-CPU-153.md` + `tests/cpu/qng_hopfion_q_saturation_reference.py`.
@@ -1045,7 +1080,7 @@ Latest 5 audits (most recent first):
 | v9 agent consultation | `08_governance/v9-agent-consultation-v1.md` (NOTE-QNG-020) |
 | v8 audit 2026-04-22 | `07_validation/audits/qng-v8-comprehensive-audit-2026-04-22/REPORT.md` |
 | SM ↔ QNG correspondence map | `04_qng_pure/qng-sm-correspondence-map-v1.md` (DER-QNG-091) |
-| Knot/Hopfion soliton spectrum | `04_qng_pure/qng-knot-spectrum-v1.md` (DER-QNG-092), `tests/cpu/qng_knot_energy_scan_reference.py` (CPU-145), `tests/cpu/qng_knot_matter_scan_reference.py` (CPU-146), `tests/cpu/qng_knot_universality_reference.py` (CPU-148), `tests/cpu/qng_knot_finite_volume_reference.py` (CPU-149), `tests/cpu/qng_knot_plaquette_curl_reference.py` (CPU-151), `tests/cpu/qng_hopfion_q_saturation_reference.py` (CPU-153) |
+| Knot/Hopfion soliton spectrum | `04_qng_pure/qng-knot-spectrum-v1.md` (DER-QNG-092), CPU-145, 146, 148, 149, 151, 152, 153, 155 scripts in `tests/cpu/` |
 | Open gaps reference | This file §3 + per-program docs |
 | All audits | `07_validation/audits/` (96+ folders) |
 | All preregs | `07_validation/prereg/` (92 files) |

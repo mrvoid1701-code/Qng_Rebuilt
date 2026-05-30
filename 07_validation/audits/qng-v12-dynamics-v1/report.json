@@ -1,0 +1,81 @@
+{
+  "test_id": "QNG-CPU-152",
+  "params": {
+    "L": 20,
+    "E_CHARGE": 0.3,
+    "MU_A": 1.0,
+    "BETA_A": 0.05,
+    "PHASE1": 300,
+    "PHASE2": 1500,
+    "PHASE3": 3000
+  },
+  "results": [
+    {
+      "label": "ring_Q0",
+      "M_P1_end": 0.0,
+      "M_P2_end": 801.296973455846,
+      "M_P3_end": 103.99638063240852,
+      "E_gauge_P1_end": 0.0010764277806473775,
+      "E_gauge_P2_end": 0.0005255454001211333,
+      "E_gauge_P3_end": 4.586332331074265e-10,
+      "mean_decay_ratio": 0.8699635951438001,
+      "half_life_lu": 995.1582353616102
+    },
+    {
+      "label": "hopfion_Q1",
+      "M_P1_end": 0.0,
+      "M_P2_end": 1641.7759379725994,
+      "M_P3_end": 1346.9144095961708,
+      "E_gauge_P1_end": 0.0027221268357826376,
+      "E_gauge_P2_end": 0.003445561469162903,
+      "E_gauge_P3_end": 0.0032827073247713306,
+      "mean_decay_ratio": 0.9879930820484274,
+      "half_life_lu": 11476.342637477359
+    },
+    {
+      "label": "hopfion_Q2",
+      "M_P1_end": 0.0,
+      "M_P2_end": 1749.9393855428202,
+      "M_P3_end": 1467.4296769115547,
+      "E_gauge_P1_end": 0.0043848387497653525,
+      "E_gauge_P2_end": 0.009945614810494453,
+      "E_gauge_P3_end": 0.007318289929452441,
+      "mean_decay_ratio": 0.9890336372681203,
+      "half_life_lu": 12571.890257499264
+    },
+    {
+      "label": "trefoil",
+      "M_P1_end": 0.0,
+      "M_P2_end": 549.223307644166,
+      "M_P3_end": 65.92342614663318,
+      "E_gauge_P1_end": 0.0007442965927114178,
+      "E_gauge_P2_end": 0.00016568064271661482,
+      "E_gauge_P3_end": 1.2294853320316003e-10,
+      "mean_decay_ratio": 0.8688368321843317,
+      "half_life_lu": 985.9850557488626
+    },
+    {
+      "label": "figure_8",
+      "M_P1_end": 0.0,
+      "M_P2_end": 292.3691658152924,
+      "M_P3_end": 38.153367126876574,
+      "E_gauge_P1_end": 0.00027856031167377947,
+      "E_gauge_P2_end": 1.5337683680979274e-07,
+      "E_gauge_P3_end": 1.1220981866796053e-11,
+      "mean_decay_ratio": 0.8733211695856696,
+      "half_life_lu": 1023.4587863975453
+    },
+    {
+      "label": "cinquefoil",
+      "M_P1_end": 0.0,
+      "M_P2_end": 342.1864365294839,
+      "M_P3_end": 46.53615636670665,
+      "E_gauge_P1_end": 0.00043095916597944364,
+      "E_gauge_P2_end": 2.5551593058469796e-07,
+      "E_gauge_P3_end": 1.7002781296005e-11,
+      "mean_decay_ratio": 0.8755483647127945,
+      "half_life_lu": 1043.0725301061118
+    }
+  ],
+  "interpretation": "Full v12 EM dynamics with A_ij Maxwell term coupled to phi via gauge-invariant cosine. Tests CPU-151 static prediction of topology-dependent decay rate spread factor 2.5 under v12. If observed spread > v7 baseline (CPU-148 universality), v12 EM channel is the source of topology-dependent decay."
+}

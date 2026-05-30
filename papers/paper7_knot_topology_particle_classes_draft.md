@@ -229,6 +229,50 @@ is consistent with the QFT principle that particles cannot decay
 without an accessible decay channel; in v7 (no gauge bosons), no decay
 channel exists.
 
+### 3.6 v12 dynamics REFINES the static prediction (CPU-152)
+
+CPU-152 implements the full v12 EM dynamics — edge gauge field A_ij
+with Maxwell-like plaquette term plus gauge-invariant phi coupling —
+and runs the 6-knot scan at canonical parameters (e=0.3, μ_A=1.0,
+β_A=0.05).
+
+| Knot | τ_v7 (CPU-146/148) | τ_v12 (CPU-152) | Ratio |
+|---|---|---|---|
+| ring_Q0 | 1000 lu | 995 lu | 0.995 |
+| trefoil | 1011 lu | 986 lu | 0.975 |
+| figure_8 | 1050 lu | 1023 lu | 0.974 |
+| cinquefoil | 1070 lu | 1043 lu | 0.975 |
+| hopfion_Q1 | stable attractor | 11476 lu (slow decay) | — |
+| hopfion_Q2 | (not measured) | 12572 lu | — |
+
+**Spread within unstable class under v12 canonical**: 995–1043 lu,
+factor 1.058 (5.8% spread). NOT the factor 2.5 predicted by CPU-151's
+static analysis.
+
+Diagnosis: at canonical parameters, the gauge field |A_ij| remains
+~10⁻³, far below the equilibrium value that CPU-151 implicitly
+assumed (where A absorbs the full phi-vortex curl). The reason is
+the v7-dissipative timescale mismatch:
+- Phi relaxes per step by ~BETA_PHI = 0.02
+- A relaxes per step by ~BETA_A * e * BETA_PHI / Z ≈ 5×10⁻⁵
+- Knots decay in ~10³ lu, but A would need ~10⁵ lu to equilibrate
+
+**Refined v12 prediction**: at canonical QNG parameters, v12 EM is a
+**weak perturbation** that DOES NOT produce the factor-2.5
+topology-dependent decay spread originally predicted by CPU-151's
+static analysis. v12 maintains the v7 within-knot universality.
+
+A stronger gauge coupling (e ≫ 0.3) or symplectic v8 dynamics with
+explicit A kinetic energy would be required to produce the 2.5x
+topology-dependent spread that CPU-151 conjectured.
+
+**Negative result with explanatory power**: CPU-152 refines CPU-151
+from "v12 produces 2.5x spread" to "v12 static analysis predicts what
+the equilibrium spread WOULD BE if A could equilibrate; under v7
+canonical dissipation, A doesn't equilibrate, so observed spread is
+~5%". This is a structural insight, not a falsification of the
+framework.
+
 ### 3.5 v12 gauge currents predict topology-dependent decay
 
 Computing the static plaquette curl `F_p = Σ wrap_π(Δφ)` around each
