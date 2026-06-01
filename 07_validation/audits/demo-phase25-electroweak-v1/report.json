@@ -1,0 +1,8 @@
+{
+  "M_W_pred": 79.95389920034388,
+  "M_W_pdg": 80.377,
+  "M_Z_pdg": 91.1876,
+  "rho": 1.010611622154884,
+  "custodial_ok": true,
+  "verdict": "ELECTROWEAK_RHO_1: the W-Z mass relation M_W = M_Z cos theta_W (the custodial rho parameter) holds: rho = 1.0106 (tree-level prediction = 1; the ~1% deviation is the known top/Higgs radiative correction). This is a STRUCTURAL prediction of the SU(2) DOUBLET Higgs (custodial SU(2)) -- exactly the v13 complex doublet (Phase 4b); a non-doublet Higgs would give rho != 1. So QNG-v13 predicts rho=1, verified to ~1%. HONEST SCOPE: the ABSOLUTE W/Z masses (80.4, 91.2 GeV) need the Higgs VEV v=246 GeV and the couplings g, g' -- inputs, as in the SM (QNG does not derive the electroweak scale v, same status as the lepton Yukawas / Drumul 3). What QNG adds: the rho=1 STRUCTURE comes for free from the v13 doublet, and the W/Z carriers are the edge SU(2) gauge fields (Phase 3). The electroweak scale v itself is a separate input scale (like Lambda_QCD was before Phase 11/12 -- a dimensional-transmutation or vacuum-stability target for future work)."
+}
