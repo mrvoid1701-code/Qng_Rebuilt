@@ -1,0 +1,10 @@
+{
+  "rho_max_planck": 53.713746965605054,
+  "T_max_planck": 1.1120767692722962,
+  "T_max_K": 1.5758127820588436e+32,
+  "g_star": 106.75,
+  "T_CMB_K": 2.725,
+  "redshift_factor_needed": 5.78279920021594e+31,
+  "finite": true,
+  "verdict": "BOUNDED_SUBSTRATE_GIVES_A_FINITE_MAXIMUM_TEMPERATURE. The user's idea works and yields a clean QNG result. Running time backward and compressing a region of nodes, you cannot pass the substrate's density FLOOR (Phase 37: rho_max = a_M/a_L^3 = 54 Planck densities, one node-mass per cell, sigma in [0,1] bounded). (T2) Adiabatic compression raises the temperature as T ~ rho^(1/4) (relativistic plasma), and the climb SATURATES at the floor -- you physically cannot compress further. (T3) The temperature there is the MAXIMUM TEMPERATURE T_max = (30 rho_max/(pi^2 g))^(1/4) = 1.11 Planck temperatures = 1.58e+32 K (for g_*=107) -- a FINITE hottest state, NOT an infinite-temperature Big Bang. This is the THERMAL analogue of the discreteness regulator that already removed the curvature singularity (Phase 37) and capped the graviton frequency (Phase 36): the same bounded, discrete substrate caps temperature too. So QNG's Big Bang begins at a finite ~Planck temperature (~10^32 K) and cools as it un-packs (Phase 49) -- there is no thermal infinity anywhere. HONEST SCOPE: the MAXIMUM temperature is derived from the substrate constants (rho_max, g_*) and is robustly ~O(1) Planck temperature regardless of the exact dof count; what is NOT derived is the CMB temperature TODAY (2.725 K), which is T_max redshifted by the total expansion factor ~6e+31 -- that factor is the full un-packing thermal history (entropy + e-folds), the same un-predicted expansion bookkeeping that the abundance (Phase 50) depends on. NET: 'heat from Planck' is real -- compress to the floor and the temperature is finite and computable (~10^32 K, the maximum temperature of the universe); the present-day CMB value awaits the total expansion factor. The user's compression intuition correctly isolates the hottest, densest moment and shows the substrate makes it FINITE."
+}
