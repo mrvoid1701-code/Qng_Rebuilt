@@ -100,6 +100,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **52** | which framework fixes the expansion knob? Newton NO, GR partial (flatness), QG/holography YES: S_H=π(R_H/l_P)²=2.2e122 = the CC scale (Phase 30). Expansion ↔ entropy ↔ horizon ↔ Λ = ONE number ~10¹²²; reduces but doesn't close | EXPANSION_KNOB_IS_THE_HOLOGRAPHIC_CC_NUMBER |
 | **53** | fixing 10⁻¹²²: Part I (overshoot) killed by Stability Principle (P30, Λ=0); Part II (residual) = holographic vacuum energy ρ_Λ~M_Pl²/R_H²=1.4e-122 vs obs 1.1e-123 (ratio 12, RIGHT ORDER). Remaining: O(1) coeff + why-now | HOLOGRAPHIC_DE_FIXES_10⁻¹²²_TO_RIGHT_ORDER |
 | **54** | the residual O(1): the factor-12 was a convention artifact (=(8π/3)/Ω_Λ); genuine coeff c²=Ω_Λ=0.69 is O(1) (natural, not tuned); traces to BH 1/4 — QNG gives area law structurally, exact 1/4 + why-now remain | RESIDUAL_IS_GENUINELY_O(1)_NO_FINE_TUNING |
+| **55** | the BH 1/4 is INHERITED, not free: l_P²=G so S=A/(4G); 1/4 = universal EH/Wald coeff; QNG has G (derived) + EH action (P16-18, ~15%) → 1/4 rides on the gravity sector. Residual collapses to 'why now' alone | BH_QUARTER_INHERITED_FROM_DERIVED_G |
 
 **Quantum-gravity block (Phases 36–40):** one ingredient — the **discrete,
 bounded, reversible Planck-scale lattice** — resolves four problems at once: the
