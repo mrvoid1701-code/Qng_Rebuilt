@@ -1,0 +1,7 @@
+{
+  "eta_pred": 566.6961090390511,
+  "Kstar_pred": 905.6683554149388,
+  "p1_ok": true,
+  "p2_ok": true,
+  "verdict": "MESON_SPECTRUM_REPRODUCED (chiral structure): the QNG chiral/Skyrme structure reproduces the meson spectrum. PSEUDOSCALARS are phi Goldstone bosons (the pion = phi-quantum, Phase 5) -> Gell-Mann-Okubo in mass-SQUARED: 4 m_K^2 = 3 m_eta^2 + m_pi^2 predicts m_eta = 567 MeV vs PDG 548 (3.4%). VECTORS: m_K* from rho,phi = 906 vs 892 (1.6%). KEY STRUCTURAL PREDICTION: pseudoscalars use mass^2 (Goldstone, m^2 ~ quark mass) while baryons (Phase 21) use mass-linear (solitons) -- QNG predicts BOTH from one substrate (phi Goldstone for mesons, phi-soliton for baryons), and the m^2-vs-m distinction is the signature of their Goldstone-vs-soliton nature. HONEST SCOPE: these are the chiral-Lagrangian / Eightfold-Way relations QNG inherits as a chiral theory; scale-free ratios. The pion mass scale itself comes from V_couple (g, Gap 9 input) and f_pi (~beta_phi); the SU(3) breaking (strange mass) sets the K-pi-eta splitting. Spectrum structure reproduced; the mass scales are inputs."
+}
