@@ -74,9 +74,11 @@ scale `ℏ²/2I`) AND Gap-13 (Planck→MeV unit bridge).
 - **v13** (complex node multiplet) is shown to be a *consistent* construction
   (Phase 4b: gauge-invariant, W rotates isospin) — but it is **genuinely new
   ontology** (no source in existing real scalars; Phase 4a `NO_CUSTODIAL_SU2`).
-- **v14** (lattice-chiral fermions) is the deepest wall (Phase 4c: 16 doublers,
-  Nielsen-Ninomiya; chirality needs Ginsparg-Wilson/overlap/domain-wall). Same
-  problem every lattice-QCD program solves — major but known technology.
+- **v14** (lattice-chiral fermions) — **SURMOUNTABLE (Phase 9)**: the domain-wall
+  mechanism gives one chiral mode per wall (chirality ±1.0, doublers gapped),
+  circumventing Nielsen-Ninomiya. Known lattice-chiral technology (domain-wall /
+  overlap / Ginsparg-Wilson); a real build, not a no-go. So elementary fermions
+  are reachable in principle; the only hard wall left is the absolute scale.
 
 ## 4. Higgs and the scalar sector
 

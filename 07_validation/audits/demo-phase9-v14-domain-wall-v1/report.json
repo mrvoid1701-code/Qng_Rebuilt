@@ -1,0 +1,26 @@
+{
+  "n_zero_no_wilson": 4,
+  "n_zero_wilson": 2,
+  "lowest_abs_eigs_wilson": [
+    0.0,
+    0.0,
+    0.32866,
+    0.32866,
+    0.32866
+  ],
+  "mode_peaks": [
+    90,
+    30
+  ],
+  "mode_chiralities": [
+    -0.9999999999999989,
+    0.9999999999999989
+  ],
+  "walls": [
+    30,
+    90
+  ],
+  "one_per_wall": true,
+  "opposite_chirality": true,
+  "verdict": "V14_CHIRAL_FERMION_OK: the domain-wall mechanism delivers chiral fermions on the QNG lattice. Without the Wilson term the wall modes are doubled (4 modes); WITH it the doublers are gapped and exactly ONE chiral mode binds to EACH wall (2 walls -> 2 modes), localized at sites ~30 and ~90 with OPPOSITE chirality (<sigma_y> = [-1.0, 1.0]) -- a left-handed fermion on the kink, a right-handed on the antikink. This is the Kaplan/Callan-Harvey domain-wall fermion: separate the walls (the extra-dimension construction) and a SINGLE chiral fermion survives at low energy. It SURMOUNTS the Nielsen-Ninomiya wall of Phase 4c. CONCLUSION: v14 (chiral fermions = quarks/leptons) is NOT blocked in principle -- it is solvable on the QNG substrate with known lattice-chiral technology (domain-wall / overlap / Ginsparg-Wilson). It is a real construction (needs an extra dimension or the overlap operator), but a SOLVED problem, not a mystery. The one genuinely hard remaining wall is the ABSOLUTE SCALE (hbar program + Gap 13), not chirality."
+}

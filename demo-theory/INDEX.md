@@ -54,6 +54,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **6** | Derrick: Skyrme term → stable finite-size baryon | V13_BARYON_STABLE |
 | **7** | Q=I₃+B/2 → p=+1, n=0, π=±1/0/−1 (v12⊗v13) | CHARGES_UNIFIED |
 | **8** | SU(3)-flavor → octet(8,½)+decuplet(10,3/2); GMO 0.6% | EIGHTFOLD_WAY_FROM_SKYRME |
+| **9** | domain-wall fermion: 1 chiral mode/wall, ±1 chirality, doublers gapped | V14_CHIRAL_FERMION_OK |
 
 Findings docs: `E5/E7/E4-RESULT*`, `PHASE3/4/5/6-*-findings`,
 `PARTICLE-INVENTORY-v1`, session summaries. Audits: `07_validation/audits/demo-*`.
@@ -91,12 +92,15 @@ Findings docs: `E5/E7/E4-RESULT*`, `PHASE3/4/5/6-*-findings`,
  v14  lattice-chiral fermions              → quarks, leptons (the deep wall)
 ```
 
-## The two walls everything hits
+## The walls — and which one actually remains
 
-1. **v14 chirality** — elementary fermions / parity violation. Known but major
-   (Ginsparg-Wilson/overlap/domain-wall).
-2. **Absolute scale** — ℏ_QNG (unresolved program) + Gap 13 (Planck→MeV). Every
-   mass result is structural, never absolute, because of this.
+1. **v14 chirality** — elementary fermions / parity violation. **SURMOUNTABLE
+   (Phase 9):** the domain-wall mechanism gives one chiral mode per wall (±1
+   chirality, doublers gapped) — known lattice-chiral technology
+   (domain-wall/overlap/Ginsparg-Wilson). A real build, not a no-go.
+2. **Absolute scale** — ℏ_QNG (unresolved program) + Gap 13 (Planck→MeV). **This
+   is now the single genuinely hard remaining obstruction.** Every mass result is
+   structural, never absolute, because of this.
 
 ## Honest meta-verdict
 
