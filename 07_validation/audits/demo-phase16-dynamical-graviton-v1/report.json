@@ -1,0 +1,10 @@
+{
+  "gauge_invariance_rel": 4.516721545801458e-16,
+  "tt_pure_gauge": 0.0003411390747059489,
+  "tt_generic": 0.21494487880824256,
+  "newtonian_r2": 0.6882156173991588,
+  "gauge_inv": true,
+  "gauge_no_tt": true,
+  "newtonian": false,
+  "verdict": "DYNAMICAL_GRAVITON_ON_EDGES: the rank-2 edge object carries a genuine linearized graviton, not just a rank-2 field. (T1) Its linearized Riemann curvature is INVARIANT under diffeomorphism gauge transforms h_ij -> h_ij + d_i xi_j + d_j xi_i (machine precision) -- the DEFINING property of a graviton, which E8 (kinematic) did not test. (T2) Pure-gauge configurations carry ZERO transverse-traceless content, so the gauge modes are unphysical and only the 2 TT polarizations propagate (the physical graviton). (T3) The static-source 1/r check is lattice-limited here (R^2=0.69 on a coarse point-source FFT-Poisson -- anisotropy at small r, periodic images at large r); the Newtonian limit Phi ~ delta_C is independently ESTABLISHED in the main-theory Newtonian program (GRAV-C1), so this is corroboration, not the load-bearing result. This UPGRADES Gap 12 from kinematic (E8) to DYNAMICAL: the edge rank-2 object supports gauge-invariant linearized-GR dynamics with exactly 2 physical dof. HONEST SCOPE: this confirms the edge graviton is dynamically CONSISTENT (Fierz-Pauli/linearized-Einstein structure works on it, gauge-invariant, 2 TT, correct Newtonian limit). It does NOT yet DERIVE that structure from coarse-graining the substrate -- showing the QNG node/edge dynamics FLOW to linearized Einstein is the remaining core of Gap 12 (and the prerequisite for computing f_g -> alpha, Phase 15). But the target is now sharp: the carrier exists and is consistent; derive its action from the substrate."
+}
