@@ -91,6 +91,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **43** | CORRECT model: conserved density + degeneracy pressure + self-gravity = Lane-Emden; n=3/2 → ξ₁=3.65 STABLE finite-radius dark star; R~M^(−1/3) | DARK_MATTER_IS_A_DEGENERATE_NEUTRAL_NODE_CORE |
 | **44** | quantitative scales: relic = 3.32 µg (0.152 m_Planck); perfectly cold (v/c~2e-14); abundance is an input | DM_IS_A_COLD_GAS_OF_PLANCK_RELICS |
 | **45** | vs REAL Planck TT data: peaks ℓ=220/516/817, strong CDM 3rd peak; relic passes ALL CMB requirements (cold/collisionless/neutral/stable); Ω_DM h²=0.12 = input | CONSISTENT_WITH_PLANCK_CMB |
+| **46** | abundance: Y_req=2.3e-28 computed; thermal EXCLUDED (overcloses 4e26); PBH-remnant achievable (M_i<2e8 g) but needs inflationary input | ABUNDANCE_IS_A_REQUIREMENT_NOT_A_PREDICTION |
 
 **Quantum-gravity block (Phases 36–40):** one ingredient — the **discrete,
 bounded, reversible Planck-scale lattice** — resolves four problems at once: the
