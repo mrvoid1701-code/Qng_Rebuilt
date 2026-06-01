@@ -114,6 +114,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **66** | **RESOLVED by data+consistency**: DM = χ fuzzy field (data 4.80<6.69, relics demoted); DE holographic = locked V_0 (0.690=0.686) → **closes T5**; entropy s_node 0.023(P54)=0.02(T3) → holography **closes T3**. ONE χ (VEV=DE, fluct=DM). Two locked gaps CLOSED | RECONCILED_TWO_GAPS_CLOSED |
 | **67** | DM-reconciliation impact: SURVIVES 7 (QG/CC/particles/DE), CHANGES ROLE 3 (P38 BH-physics, P48-49 seeds χ-DM), DEMOTED 4 (relic-DM). DM particle flips 3.3µg relic→1e-22 eV fuzzy boson (~49 orders); more testable. Headlines intact, consistency improved | DM_CHANGE_MAJOR_RESULTS_INTACT |
 | **68** | **derive holography from substrate (close T3)**: BH interior SATURATED → unique → ZERO entropy (frozen bulk); entropy only in boundary layer → **N_entropy~R^1.98 (AREA not volume)**. Area law DERIVED; ~100× over-count = counting frozen interior as free. Only O(1) coeff (1.67ℓ_P) remains | AREA_LAW_DERIVED_T3_CLOSED |
+| **69** | **close T4 (ℏ multi-sector)**: vacuum = ALL propagating sectors (σ_g,σ_m,φ = 3; χ constrained); completeness → multi-sector ℏ is correct (φ-only incomplete). LIV prediction SHARPENED to single **η_LV=0.0347** (CTA-testable). Day's tally: T2 advanced, T3/T4/T5 CLOSED (4/5 gaps) | T4_CLOSED_ETA_LV_SHARPENED |
 
 **Quantum-gravity block (Phases 36–40):** one ingredient — the **discrete,
 bounded, reversible Planck-scale lattice** — resolves four problems at once: the
