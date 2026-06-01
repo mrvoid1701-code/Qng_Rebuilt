@@ -46,6 +46,11 @@ This is what QNG **natively** makes, and it is a coherent effective hadron theor
 | **Δ(1232)** | PRESENT | SAME soliton, J=I=3/2 rotational excitation | **STRUCTURAL** (J(J+1) band fits to 2.4%, Phase 4d) |
 | **N\*(1680) 5/2⁺ etc.** | PRESENT | higher J in the rotational band | **CANDIDATE** (band prediction 1720 vs 1680) |
 
+**Charges UNIFIED (Phase 7, scale-free):** the v13 Skyrmion's `Q = I₃ + B/2`
+(Witten/Gell-Mann-Nishijima) gives **proton +1, neutron 0, pion triplet +1/0/−1
+exactly** — the v12 edge-U(1) photon and the v13 baryon `B` unified; nucleon
+charges follow from winding+isospin, no ℏ/Gap-13 blocker.
+
 **Key results (Phase 4d):**
 - baryon number = topological winding = `M_ring` (CPU-074) — **SOLID**;
 - mass = node volume charge (demo E4) — **SOLID** (scaling), scale ⛔;
