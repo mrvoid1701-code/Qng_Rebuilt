@@ -64,6 +64,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **16** | dynamical graviton: linearized Riemann diffeo-gauge-invariant (4.5e-16) + 2 physical dof | DYNAMICAL_GRAVITON_ON_EDGES |
 | **17** | graviton action coefficient substrate-derived (μ_h=5.00 vs GR 5.86, ~15%); target corrected edge-not-σ_g | GRAVITON_ACTION_SUBSTRATE_DERIVED_TO_17PCT |
 | **18** | Sakharov heat-kernel gives ~4% of G as FULL-nonlinear covariant EH; 96% tree-level nonlinear completion open | SAKHAROV_GIVES_FULL_NONLINEAR_EH_PARTIAL |
+| **19** | falsifiable LIV: lattice gives direction-dependent Δv/c~(1/18)(E/E_cut)² (n=2, cubic-anisotropy signature) | QNG_LIV_PREDICTION_n2 |
 
 **Master key (Gap 12 graviton-from-substrate) after 18 phases:** form ✓
 (Fierz-Pauli) + gauge-invariance ✓ (4.5e-16) + linearized coefficient ✓

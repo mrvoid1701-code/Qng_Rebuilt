@@ -1,0 +1,11 @@
+{
+  "anisotropy_vs_k": {
+    "0.1": -0.0005556172802357921,
+    "0.2": -0.0022232096406955702,
+    "0.4": -0.008904676129170274
+  },
+  "coefficient": 0.05555555555555555,
+  "E_cut_GeV": 4e+19,
+  "analytic_matches_numeric": true,
+  "verdict": "QNG_LIV_PREDICTION_n2: the QNG cubic lattice predicts a concrete, falsifiable Lorentz-violation signature. The phase dispersion gives a direction- and energy-dependent photon speed: Delta v/c ~ (1/18)(E/E_cut)^2 with E_cut = hbar c / a_L = 4.00e+19 GeV (= E_Planck/0.305, set by the DERIVED lattice spacing a_L=0.305 lP). This is an n=2 (quadratic) LIV with a QNG-SPECIFIC coefficient 1/18 (from the cubic-lattice sum_i k_i^4 anisotropy), verified analytically vs the numeric lattice dispersion. FALSIFIABLE: gamma-ray-burst / blazar arrival-time dispersion (CTA, Fermi-LAT) constrains exactly this n=2 term. NOTE: n=2 LIV is suppressed by (E/E_cut)^2 ~ (E/10^19 GeV)^2 -- tiny at TeV (Delta v/c ~ 10^-32), so this LATTICE-anisotropy LIV is far below current bounds (it is a consistency feature, not an imminent test). The theory's headline LIV (eta_LV=0.0116/0.0347, theory-v2 ch.31/32) is a DIFFERENT, n=1-type mechanism from the matter sector -- the more testable one. This phase adds the lattice-kinematic n=2 piece as a clean, QNG-derived, direction- AND-energy-dependent prediction (the anisotropy 1/18 is the distinctive, cubic-lattice-specific signature -- isotropic continuum theories predict zero direction-dependence)."
+}
