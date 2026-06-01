@@ -1,0 +1,47 @@
+{
+  "Lambda_pred": 1107.0666666666666,
+  "Omega_pred": 1684.1000000000001,
+  "octet_gmo_coef": [
+    1111.3833333333328,
+    -189.70000000000013,
+    40.18888888888898
+  ],
+  "decuplet_spacing": 146.83333333333334,
+  "spectrum": {
+    "N": {
+      "pred": 941.7777777777771,
+      "pdg": 938.9
+    },
+    "Lambda": {
+      "pred": 1111.3833333333328,
+      "pdg": 1115.7
+    },
+    "Sigma": {
+      "pred": 1191.7611111111107,
+      "pdg": 1193.2
+    },
+    "Xi": {
+      "pred": 1321.1777777777772,
+      "pdg": 1318.3
+    },
+    "Delta": {
+      "pred": 1232.0,
+      "pdg": 1232.0
+    },
+    "Sigma*": {
+      "pred": 1378.8333333333333,
+      "pdg": 1384.6
+    },
+    "Xi*": {
+      "pred": 1525.6666666666667,
+      "pdg": 1533.4
+    },
+    "Omega": {
+      "pred": 1672.5,
+      "pdg": 1672.5
+    }
+  },
+  "p1_ok": true,
+  "p2_ok": true,
+  "verdict": "BARYON_SPECTRUM_REPRODUCED (scale-free structure): the QNG-Skyrme octet+decuplet reproduces the light-baryon spectrum via Gell-Mann-Okubo (octet) and equal-spacing (decuplet). KEY PREDICTIONS: Lambda from GMO = 1107 MeV vs PDG 1116 (0.8%); Omega from decuplet equal-spacing = 1684 MeV vs PDG 1672 (0.7%) -- the famous Gell-Mann Omega- prediction, reproduced. The full 8+10 spectrum is fit by GMO (3 params) + equal-spacing (2 params) to ~1%. HONEST SCOPE: these are the SU(3)-flavor Skyrme / Eightfold-Way structural relations that QNG INHERITS by being a topological-soliton (Skyrme) theory of baryons (Phases 5-8) -- they are scale-free RATIOS/SPLITTINGS, genuine within the structure but the same ones the quark model gives. The OVERALL SCALE (nucleon mass ~ 940 MeV) is the one input set by alpha_s via dimensional transmutation (Phase 12); the SU(3) breaking (~strange mass, the decuplet spacing ~147 MeV) is a second input. So QNG identifies all 18 light baryons with masses to ~1% GIVEN 2 scale inputs -- the spectrum STRUCTURE is reproduced; the absolute scale + breaking are the inputs (alpha_s + strange mass)."
+}
