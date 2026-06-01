@@ -55,6 +55,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **7** | Q=I₃+B/2 → p=+1, n=0, π=±1/0/−1 (v12⊗v13) | CHARGES_UNIFIED |
 | **8** | SU(3)-flavor → octet(8,½)+decuplet(10,3/2); GMO 0.6% | EIGHTFOLD_WAY_FROM_SKYRME |
 | **9** | domain-wall fermion: 1 chiral mode/wall, ±1 chirality, doublers gapped | V14_CHIRAL_FERMION_OK |
+| **10** | vortex coarse-grains → node; winding RG-invariant; Gap-13 = RG distance | VORTEX_IS_A_COARSE_GRAINED_NODE |
 
 Findings docs: `E5/E7/E4-RESULT*`, `PHASE3/4/5/6-*-findings`,
 `PARTICLE-INVENTORY-v1`, session summaries. Audits: `07_validation/audits/demo-*`.
@@ -98,9 +99,12 @@ Findings docs: `E5/E7/E4-RESULT*`, `PHASE3/4/5/6-*-findings`,
    (Phase 9):** the domain-wall mechanism gives one chiral mode per wall (±1
    chirality, doublers gapped) — known lattice-chiral technology
    (domain-wall/overlap/Ginsparg-Wilson). A real build, not a no-go.
-2. **Absolute scale** — ℏ_QNG (unresolved program) + Gap 13 (Planck→MeV). **This
-   is now the single genuinely hard remaining obstruction.** Every mass result is
-   structural, never absolute, because of this.
+2. **Absolute scale** — ℏ_QNG (unresolved program) + Gap 13 (Planck→MeV). **The
+   single genuinely hard remaining obstruction.** Phase 10 reframes it: the
+   vortex↔node coarse-graining shows topology is RG-invariant (scale-free — why
+   charges/Eightfold-Way computed) while mass is RG-flowing (why it's blocked).
+   Gap 13 = an RG distance (~73 block steps); the attack is to measure the
+   dimensionful RG flow (dimensional transmutation). Still open, now located.
 
 ## Honest meta-verdict
 
