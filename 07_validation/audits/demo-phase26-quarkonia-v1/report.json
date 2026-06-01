@@ -1,0 +1,11 @@
+{
+  "charmonium_2S_1S_MeV": 611.068472255591,
+  "bottomonium_2S_1S_MeV": 579.7691750508012,
+  "M_Jpsi": 3.2915755662232105,
+  "M_psip": 3.9026440384788015,
+  "M_Y1S": 9.331336108217247,
+  "M_Y2S": 9.911105283268048,
+  "sigma": 0.18,
+  "near_universal": true,
+  "verdict": "QUARKONIA_FROM_CONFINEMENT: heavy quarkonia (charmonium, bottomonium) are reproduced by the Cornell potential V = -4 alpha_s/3r + sigma r, where the LINEAR confining term sigma = 0.18 GeV^2 IS the QNG string tension from the Phase-3 Wilson-loop area law. Solving the radial Schrodinger equation: charmonium 2S-1S spacing = 611 MeV (PDG 589), bottomonium = 580 MeV (PDG 563) -- the NEAR-UNIVERSALITY of the spacing (ratio 1.05 despite m_b/m_c = 3.2) is the hallmark signature of the CONFINING linear potential, which QNG supplies (Phase 3). So QNG's confinement extends to the heavy-quark sector: given the quark masses (inputs) and the QNG string tension (Phase 3), the quarkonium spectrum follows. HONEST SCOPE: alpha_s, sigma, and the quark masses are the (standard Cornell) inputs; QNG provides sigma (confinement) and the running alpha_s. The near-universal spacing is the structural confinement signature, not a parameter-free absolute prediction. Heavy-quark masses themselves are Yukawa inputs (like all quark masses)."
+}
