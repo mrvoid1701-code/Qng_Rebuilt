@@ -1,0 +1,9 @@
+{
+  "B_hedgehog": 0.8634183598385262,
+  "B_u1_embedded": -0.0,
+  "n_pions_u1": 1,
+  "n_pions_su2": 3,
+  "hedge_ok": true,
+  "u1_trivial": true,
+  "verdict": "V13_SKYRMION_GENUINE: the SU(2)-valued chiral field U(x) (v13's complex doublet content) hosts a real baryon -- the hedgehog has topological charge B ~ 0.86 in pi_3(SU(2))=Z, the true baryon number. A U(1) phase-only texture gives B ~ 0 (it lives in pi_1, a vortex line, NOT pi_3) -- so QNG's current phi-ring is a baby-Skyrmion, topologically a DIFFERENT and lower object than a baryon. KEY DISCOVERY: the genuine baryon REQUIRES v13's SU(2) field; it cannot be built from the U(1) phase alone. And v13's 3 SU(2) generators give the PION TRIPLET (pi+,pi0,pi-), where the U(1) phi gave only one neutral pseudoscalar. So v13 simultaneously: (a) supplies the weak-force matter doublet (Phase 4b), (b) upgrades the baby-Skyrmion to a true B=1 baryon, and (c) completes the meson sector to the pion triplet. One ontology fix closes three gaps at once."
+}

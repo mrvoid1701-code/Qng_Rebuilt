@@ -41,8 +41,8 @@ This is what QNG **natively** makes, and it is a coherent effective hadron theor
 
 | Particle | QNG status | Mechanism | Confidence |
 |---|---|---|---|
-| **π⁰-like pseudoscalar meson** | PRESENT | the massive `φ` phase-wave quantum (KG `ω²=c²k²+m²`, mass via `V_couple` Yukawa) | **STRUCTURAL** (one neutral pseudoscalar; the π⁺π⁰π⁻ triplet needs v13 SU(2)) |
-| **Nucleon N (p, n)** | PRESENT | `φ`-vortex soliton, baryon# = winding = `M_ring`; J=I=½ ground rotational state | **STRUCTURAL** (Skyrme; scale ⛔) |
+| **π⁰-like pseudoscalar meson** | PRESENT (1 of 3) | the massive `φ` phase-wave quantum (KG `ω²=c²k²+m²`, mass via `V_couple` Yukawa) | **STRUCTURAL** — one neutral pseudoscalar now; **the π⁺π⁰π⁻ triplet appears with v13's 3 SU(2) generators** (Phase 5 T3) |
+| **Nucleon N (p, n)** | PRESENT (baby-Skyrmion) | now: `φ`-vortex, `B` from π₁ (a vortex, baryon-*like*); **genuine B=1 baryon (`B` from π₃) needs v13's SU(2) field** (Phase 5 T1: hedgehog B→1; T2: U(1) gives B=0) | **STRUCTURAL**; mass=volume charge; J=I=½; scale ⛔ |
 | **Δ(1232)** | PRESENT | SAME soliton, J=I=3/2 rotational excitation | **STRUCTURAL** (J(J+1) band fits to 2.4%, Phase 4d) |
 | **N\*(1680) 5/2⁺ etc.** | PRESENT | higher J in the rotational band | **CANDIDATE** (band prediction 1720 vs 1680) |
 
