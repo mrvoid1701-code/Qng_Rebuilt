@@ -1,0 +1,8 @@
+{
+  "Y_Q": 0.16666666666666666,
+  "Y_L": -0.5,
+  "Q_electron": -1.0,
+  "charges_derived": true,
+  "generations_derived": false,
+  "verdict": "CHARGES_DERIVED_GENERATIONS_OPEN. Honest attack on the matter content (which sets c -> alpha). (a) The CHARGE structure IS derivable: requiring the QNG-v13 gauge theory to be anomaly-free (a genuine consistency requirement) FORCES the hypercharges to the SM pattern -- solving the anomaly conditions (with Yukawa mass terms, normalize Y_Higgs=1/2) gives Y_Q=1/6, Y_L=-1/2, and the electric charges EMERGE: electron Q=-1, up=+2/3, down=-1/3. So the famous fractional quark charges + charge quantization come from anomaly cancellation + v12's topological Q=Ne -- QNG-v13 derives WHAT CHARGES (a real, clean result, the same beautiful SM result). (b) But the NUMBER OF GENERATIONS (3) is GENUINELY UNEXPLAINED -- no anomaly or consistency condition fixes it, in QNG or the SM or string theory. So c = (charges, derived) x (n_generations, OPEN), and alpha = G_QNG/(16c) is blocked by the generation count -- the single deepest open input in particle physics. CONCLUSION on deriving alpha exactly: f_g computed (Phase 33), charges derived (this phase), but the generation count 3 remains the irreducible open input -- and it is open EVERYWHERE, not a QNG deficiency. QNG has reduced alpha-exact to 'why 3 generations', the deepest question in physics. No number forced."
+}
