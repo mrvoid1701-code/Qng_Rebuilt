@@ -66,6 +66,14 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **18** | Sakharov heat-kernel gives ~4% of G as FULL-nonlinear covariant EH; 96% tree-level nonlinear completion open | SAKHAROV_GIVES_FULL_NONLINEAR_EH_PARTIAL |
 | **19** | falsifiable LIV: lattice gives direction-dependent Δv/c~(1/18)(E/E_cut)² (n=2, cubic-anisotropy signature) | QNG_LIV_PREDICTION_n2 |
 | **20** | nonlinear completion = Regge calculus; deficit-angle=full nonlinear curvature (Σδ=4π to 1e-14); remaining gap bounded | NONLINEAR_COMPLETION_IS_REGGE |
+| **21** | baryon octet+decuplet masses to ~0.5-1% (GMO + equal spacing; Ω⁻ prediction) | BARYON_SPECTRUM_REPRODUCED |
+| **22** | meson nonets: pseudoscalar (m² GMO) + vector; π=φ-Goldstone; m²-vs-m signature | MESON_SPECTRUM_REPRODUCED |
+| **23** | master table: full light-hadron spectrum, absolute MeV, mean 0.5%/max 3.4% vs PDG | MASTER_MASS_TABLE |
+| **24** | lepton sector: Koide Q=2/3 (0.001%) is the target; leptons open (v13/v14 Yukawa) | LEPTON_SECTOR_OPEN_KOIDE_TARGET |
+
+**Particle masses (Phases 21–24):** light-hadron spectrum (≈14 baryons+mesons)
+**reproduced to ~1%** (GMO/chiral structure + α_s scale); leptons **open** (Yukawa
++ Koide target). Answer: `PARTICLE-MASS-TABLE.md`.
 
 **Master key (Gap 12) after 20 phases:** form + gauge-invariance + linearized
 coefficient(15%) + target(edge) + ~4% nonlinear(Sakharov) + **nonlinear structure

@@ -39,7 +39,8 @@ Source: Phases 12 (scale), 21 (baryons), 22 (mesons), 23 (master table)
 | **Photon** | 0 MeV — massless, edge U(1), **derived exactly** |
 | **Gluons / W / Z** | edges host (v13); gluons confine (Phase 3); W/Z need a Higgs VEV |
 | **Graviton** | massless, edge rank-2, dynamical+gauge-invariant (Phases 16–20) |
-| **Leptons (e, μ, τ, ν)** | **ABSENT** — need v13 complex doublet + v14 chirality |
+| **Leptons (e, μ, τ)** | **OPEN** — v13/v14 chiral fermions; masses = Yukawa (input); **Koide Q=2/3 holds to 0.001%** is the target structure QNG must explain (not derived) — Phase 24 |
+| **Neutrinos** | **OPEN** — v12 charge-topology forbids neutral elementary stable → need Majorana/seesaw |
 | **Quarks** | not explicit — QNG baryons are Skyrmions (solitons), quarks are the v13 constituents |
 
 ## The structure (why it works)
