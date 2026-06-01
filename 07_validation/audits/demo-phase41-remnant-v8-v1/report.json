@@ -1,0 +1,97 @@
+{
+  "scan": [
+    {
+      "K_GM": 0.06,
+      "C_M2": 0.05,
+      "state": "DISPERSE",
+      "final": [
+        1.931936119414779e-06,
+        16.786354211899997,
+        0.0021875328316206533
+      ],
+      "init": [
+        0.4,
+        5.196143392257007,
+        170.09572541836306
+      ]
+    },
+    {
+      "K_GM": 0.15,
+      "C_M2": 0.05,
+      "state": "GLOBAL-COLLAPSE",
+      "final": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ],
+      "init": [
+        0.4,
+        5.196143392257007,
+        170.09572541836306
+      ]
+    },
+    {
+      "K_GM": 0.3,
+      "C_M2": 0.05,
+      "state": "GLOBAL-COLLAPSE",
+      "final": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ],
+      "init": [
+        0.4,
+        5.196143392257007,
+        170.09572541836306
+      ]
+    },
+    {
+      "K_GM": 0.15,
+      "C_M2": 0.02,
+      "state": "GLOBAL-COLLAPSE",
+      "final": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ],
+      "init": [
+        0.4,
+        5.196143392257007,
+        170.09572541836306
+      ]
+    },
+    {
+      "K_GM": 0.3,
+      "C_M2": 0.02,
+      "state": "GLOBAL-COLLAPSE",
+      "final": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ],
+      "init": [
+        0.4,
+        5.196143392257007,
+        170.09572541836306
+      ]
+    },
+    {
+      "K_GM": 0.3,
+      "C_M2": 0.01,
+      "state": "GLOBAL-COLLAPSE",
+      "final": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ],
+      "init": [
+        0.4,
+        5.196143392257007,
+        170.09572541836306
+      ]
+    }
+  ],
+  "any_localized": false,
+  "any_collapse": true,
+  "verdict": "V8_KINETIC_REMNANT_STILL_COLLAPSES. Even with kinetic support, self-gravity overwhelms pressure and the core collapses globally -- remnant-DM stability not achieved at these parameters (parameter scan needed). HONEST SCOPE: v8-style symplectic phase-diagram scan on L=32 over 8000 steps each, sigma_g overdamped; not a Hubble time. A localized window (if any) would still need a GPU long-run to confirm cosmological lifetime; absence of a window across this scan is evidence (not proof) that the simple kinetic field model does not bind a neutral remnant at natural parameters."
+}

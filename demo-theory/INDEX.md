@@ -75,6 +75,30 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 **reproduced to ~1%** (GMO/chiral structure + α_s scale); leptons **open** (Yukawa
 + Koide target). Answer: `PARTICLE-MASS-TABLE.md`.
 
+## Quantum gravity & cosmology (Phases 30, 35–40)
+
+| Phase | Result | Verdict |
+|---|---|---|
+| **30** | ℏ AND Λ=0 from ONE Stability Principle (net vacuum E=0); dissolves the 122-order CC problem | ONE_PRINCIPLE_HBAR_AND_LAMBDA_ZERO |
+| **35** | Koide 3-phase intuition: EXACT for charged leptons (Q=2/3), fails for quarks (QCD/mixing obscure it) | KOIDE_LEPTON_ONLY |
+| **36** | gravity IS at the Planck scale (G, edge-graviton are substrate objects); ω caps at Planck freq; discrete not smooth | GRAVITY_AT_PLANCK_IS_DISCRETE_AND_FINITE |
+| **37** | BH singularity → finite node-core; lattice potential finite at center; ρ_max=54 Planck densities (σ∈[0,1]) | SINGULARITY_REPLACED_BY_FINITE_NODE_CORE |
+| **38** | Hawking endpoint = stable Planck remnant (M~0.15 m_Pl, no T→∞ burst); substrate reversible → info preserved (err 2e-14) | EVAPORATION_HALTS + INFORMATION_PRESERVED |
+| **39** | Planck remnant EVADES the DM no-go (neutral q=0, min-length-stabilized not winding); holds info → fits user's DM intuition | REMNANT_EVADES_NO_GO (abundance/stability open) |
+| **40** | dynamical stability of neutral core: overdamped model → disperses or global Jeans collapse; no localized remnant | NEUTRAL_CORE_NOT_STABILIZED (needs v8 kinetic) |
+
+**Quantum-gravity block (Phases 36–40):** one ingredient — the **discrete,
+bounded, reversible Planck-scale lattice** — resolves four problems at once: the
+CC fine-tuning (Λ=0, Phase 30), UV infinities (graviton freq capped, Phase 36),
+the BH singularity (finite node-core, Phase 37), and evaporation + information
+(Planck remnant + unitarity, Phase 38). The user's long-standing intuition
+(information returns to space; dark matter carries it) is **confirmed for part 1**
+(Phase 38) and opens a **genuine new DM direction** (Phase 39 — the remnant is the
+one DM object the no-go DER-QNG-082 never covered), but the **dynamical stability
+is still open** (Phase 40 negative in the overdamped model; decisive test needs
+the full v8 kinetic substrate). Honest scope throughout: T_H semiclassical,
+remnant abundance is an input, O(1) coarse-graining coefficients.
+
 **Master key (Gap 12) after 20 phases:** form + gauge-invariance + linearized
 coefficient(15%) + target(edge) + ~4% nonlinear(Sakharov) + **nonlinear structure
 = Regge (full R, rigorous, Phase 20)**. The ONE remaining piece is now BOUNDED:
