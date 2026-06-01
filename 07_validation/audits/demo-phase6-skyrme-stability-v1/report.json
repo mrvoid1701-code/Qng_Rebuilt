@@ -1,0 +1,11 @@
+{
+  "E2": 253.51603449456402,
+  "E4": 17.558558470217207,
+  "lambda_star": 0.26317323112499535,
+  "M_cl": 133.43726787986037,
+  "lam_min_sigma": 0.2,
+  "lam_min_full": 0.29743589743589743,
+  "sigma_collapses": true,
+  "full_stable": true,
+  "verdict": "V13_BARYON_STABLE: Derrick's theorem confirmed. The pure 2-derivative sigma-model Skyrmion COLLAPSES (E=lambda*E2 minimized at lambda->0, zero size), but adding the 4-derivative SKYRME term gives E=lambda*E2 + E4/lambda with a STABLE minimum at lambda* = sqrt(E4/E2) = 0.26 and classical mass M_cl = 2 sqrt(E2 E4) = 133.4 (natural units). So the v13 baryon is not just a topological label (Phase 5) -- it EXISTS as a stable, finite-size object once the Skyrme term is present. The Skyrme term is the natural 4-derivative piece of the chiral Lagrangian (it is also what QNG's edge gauge / higher-order couplings would generate). Absolute mass still needs the hbar/Gap-13 bridge, but the soliton's EXISTENCE and SIZE are now established."
+}
