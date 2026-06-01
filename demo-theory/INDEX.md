@@ -63,6 +63,14 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **15** | f_g (→α) requires the dynamical graviton = Gap 12; G_QNG plausible (k_loop=0.125, O(0.1)) | FG_NEEDS_GAP12 + PLAUSIBLE_WITH_DERIVED_G |
 | **16** | dynamical graviton: linearized Riemann diffeo-gauge-invariant (4.5e-16) + 2 physical dof | DYNAMICAL_GRAVITON_ON_EDGES |
 | **17** | graviton action coefficient substrate-derived (μ_h=5.00 vs GR 5.86, ~15%); target corrected edge-not-σ_g | GRAVITON_ACTION_SUBSTRATE_DERIVED_TO_17PCT |
+| **18** | Sakharov heat-kernel gives ~4% of G as FULL-nonlinear covariant EH; 96% tree-level nonlinear completion open | SAKHAROV_GIVES_FULL_NONLINEAR_EH_PARTIAL |
+
+**Master key (Gap 12 graviton-from-substrate) after 18 phases:** form ✓
+(Fierz-Pauli) + gauge-invariance ✓ (4.5e-16) + linearized coefficient ✓
+(substrate, 15%) + target ✓ (edge not σ_g) + ~4% nonlinear ✓ (Sakharov, full
+covariant R). **Open core:** the tree-level ~96% nonlinear completion (edge
+action → full R_μν) — the genuine multi-week EFT program. This is as far as the
+master key turns without that program.
 
 **The frontier (after 15 phases):** everything reduces to TWO LINKED open
 computations — **Gap 12 (dynamical graviton)** and **f_g (gravity's gauge-beta
