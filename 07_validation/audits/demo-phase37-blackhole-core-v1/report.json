@@ -1,0 +1,8 @@
+{
+  "phi_center_L32": 0.24298038248182677,
+  "finite_center": true,
+  "rho_max_Planck": 53.713746965605054,
+  "a_L_over_lP": 0.305,
+  "a_M_over_mP": 1.524,
+  "verdict": "SINGULARITY_REPLACED_BY_FINITE_NODE_CORE. In QNG the black-hole singularity does NOT form -- for two discrete reasons. (T1) Solving the QNG screened-Poisson equation for a concentrated mass on a 3D lattice gives a FINITE central potential Phi(0) = 0.243 (stable across L=16,24,32), whereas the continuum -1/r DIVERGES at r=0: the lattice spacing a_L regulates the UV, so there is no infinite potential. (T2) The substrate scalars are BOUNDED (sigma_g, sigma_m in [0,1]) and the cell is a_L, so at most one node-mass a_M sits per cell a_L^3 -> a MAXIMUM density rho_max = a_M/a_L^3 = 54 Planck densities. The GR singularity (rho, curvature -> infinity) is replaced by this finite ceiling. (T3) A black hole's center therefore becomes a maximally-packed NODE-CORE of finite radius r_core ~ (M/rho_max)^(1/3); inside it sigma_g is floored at 0 (maximum depletion), so curvature SATURATES rather than diverging -- a regular, non-singular black hole (a 'Planck star' / node-core). HONEST SCOPE: this is the static potential + bounded-density argument, not a full dynamical-collapse simulation; the O(1) coefficients in rho_max and r_core depend on the coarse-graining map. The ROBUST content: (i) the lattice potential is finite at the center (no 1/r blow-up), and (ii) bounded scalars + minimum cell impose a finite maximum density -- so the QNG black hole has a finite dense core, not a singularity. This is the same discreteness that capped the graviton frequency (Phase 36): the Planck-scale lattice is the natural regulator that tames gravity's infinities."
+}
