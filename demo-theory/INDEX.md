@@ -60,6 +60,13 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **12** | proton mass scale from ℏ/c/G(derived)→a_M→transmutation→Skyrme: 0.94 vs 0.938 GeV | PROTON_MASS_SCALE_FROM_FIRST_PRINCIPLES |
 | **13** | Stability Principle is PROVABLY BLIND to α_em (massless photon vacuum is e-independent) → α needs an RG-fixed-point principle | STABILITY_PRINCIPLE_BLIND_TO_ALPHA_EM |
 | **14** | gravity creates a UV fixed point α\*=f_g/c (QNG has G derived); α_em needs f_g/c=0.0073 | GRAVITY_INDUCED_FIXED_POINT_IS_THE_ALPHA_ROUTE |
+| **15** | f_g (→α) requires the dynamical graviton = Gap 12; G_QNG plausible (k_loop=0.125, O(0.1)) | FG_NEEDS_GAP12 + PLAUSIBLE_WITH_DERIVED_G |
+
+**The frontier (after 15 phases):** everything reduces to TWO LINKED open
+computations — **Gap 12 (dynamical graviton)** and **f_g (gravity's gauge-beta
+contribution)**. Solving Gap 12 → f_g → α (Drumul 3) → parameter-free proton
+mass (Phase 11/12). The derived G_QNG sits in the right ballpark (k_loop≈0.125).
+That single linked target is the decisive-distinction prize.
 
 **Three paths (`THREE-PATHS-status.md`):** Drumul 1 (absolute mass) **done at
 scale level** (Phase 12, proton 0.94 GeV); Drumul 2 (beyond-SM) **sharpened**

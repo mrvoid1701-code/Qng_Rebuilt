@@ -1,0 +1,8 @@
+{
+  "G_QNG": 0.0583,
+  "alpha_em": 0.0072973525205055605,
+  "f_g_needed": 0.0072973525205055605,
+  "k_loop_required": 0.12516899692119315,
+  "plausible_O(0.1-1)": true,
+  "verdict": "FG_NEEDS_GAP12 + PLAUSIBLE_WITH_DERIVED_G: the final step of Drumul 3 (compute f_g, hence alpha) REQUIRES the dynamical graviton, which is Gap 12 (open -- QNG has only the kinematic rank-2 edge graviton from E8, not its dynamics). So the two hardest open problems are LINKED: solving Gap 12 (dynamical graviton) ENABLES computing f_g(G_QNG), hence alpha (Drumul 3), hence -- via Phase 11/12 -- a parameter-free proton mass. PLAUSIBILITY (not a derivation): with G_QNG=0.0583 DERIVED and f_g ~ k_loop*G_QNG, reproducing alpha_em needs k_loop = 0.125 -- an O(0.1-1) one-loop coefficient (loop factors are ~1/(4-8 pi) ~ 0.04-0.08, and an O(1) numerator makes ~0.1 natural). So the required gravitational coefficient is in the NATURAL range -- the scenario is not fine-tuned. HONEST: this is an order-of-magnitude plausibility check, NOT a computation of f_g (which needs the Gap-12 graviton dynamics + a scheme choice). The value of alpha remains uncomputed. What is established: Drumul 3 reduces to Gap 12 + one scheme-dependent loop integral, and the derived G_QNG sits in the right ballpark to make it work with a natural loop coefficient."
+}
