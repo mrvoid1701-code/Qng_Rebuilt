@@ -1,0 +1,9 @@
+{
+  "a_L_over_lP": 0.305,
+  "omega_max_over_c_a": 2.0,
+  "R_max_per_lP2": 10.749798441279227,
+  "c_phi": 0.10802134712749702,
+  "caps": true,
+  "bounded": true,
+  "verdict": "GRAVITY_AT_PLANCK_IS_DISCRETE_AND_FINITE. In QNG, gravity IS present at the Planck scale -- it is built into the substrate (G_QNG = beta_g/z is a substrate parameter; the graviton is an edge rank-2 mode, Phase 16, living on Planck-scale edges, a_L=0.305 l_P). But it is DISCRETE gravity (the node/edge dynamics), NOT smooth curved spacetime. (T1) The graviton dispersion is omega=ck (smooth gravitational waves) only at large scale (k<<pi); near the Planck/BZ scale it deviates and CAPS at a maximum (Planck) frequency omega_max=2/a -- there are NO trans-Planckian gravitational waves; smooth GR ends at the lattice. (T2) The lattice spacing a_L is a MINIMUM length, so curvature is BOUNDED at R_max~1/a_L^2 = 11/l_P^2 -- NO infinite curvature, so black-hole and Big-Bang SINGULARITIES are RESOLVED by the discreteness. (T3) So: gravity exists at the Planck scale as the discrete edge-graviton substrate; smooth curved spacetime is EMERGENT above the lattice (coarse-graining); and the discreteness is the natural UV regulator -- gravity is FINITE at the Planck scale, with no divergences and no singularities. This is the core QG payoff of QNG being literally Quantum-Node-Gravity: the Planck-scale substrate is where gravity lives, and its discreteness tames the infinities that wreck continuum quantum gravity."
+}
