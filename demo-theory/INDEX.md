@@ -94,6 +94,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **46** | abundance: Y_req=2.3e-28 computed; thermal EXCLUDED (overcloses 4e26); PBH-remnant achievable (M_i<2e8 g) but needs inflationary input | ABUNDANCE_IS_A_REQUIREMENT_NOT_A_PREDICTION |
 | **47** | entering production: β~5e-3 needed → σ~0.14 (blue spectrum) at PBH scale; QNG shot noise ~5e-7 is 3e5× too small → needs inflation sector QNG lacks | QNG_LACKS_INFLATION_SECTOR_GAP_QUANTIFIED |
 | **48** | the sector is ALREADY there: QNG Big Bang = un-packing from Phase-37 max density; matter-like → δ~a growth; only ~13 e-folds closes the 3e5× gap (demo: self-grav ×57 vs diffusion ×0.12) | QNG_BIG_BANG_IS_THE_EARLY_UNIVERSE_SECTOR |
+| **49** | un-packing EOS w(f): 1/3 (relativistic) → 0 (matter) at f*=(m/m_Pl)³=3.5e-3; matter era ~37 e-folds (>>13); seed→σ_req at N~15. Risk flips to OVERproduction; abundance set by reheating timing | UN-PACKING_MATTER_ERA_SUPPLIES_GROWTH |
 
 **Quantum-gravity block (Phases 36–40):** one ingredient — the **discrete,
 bounded, reversible Planck-scale lattice** — resolves four problems at once: the
