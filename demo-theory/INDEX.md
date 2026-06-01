@@ -65,6 +65,16 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **17** | graviton action coefficient substrate-derived (μ_h=5.00 vs GR 5.86, ~15%); target corrected edge-not-σ_g | GRAVITON_ACTION_SUBSTRATE_DERIVED_TO_17PCT |
 | **18** | Sakharov heat-kernel gives ~4% of G as FULL-nonlinear covariant EH; 96% tree-level nonlinear completion open | SAKHAROV_GIVES_FULL_NONLINEAR_EH_PARTIAL |
 | **19** | falsifiable LIV: lattice gives direction-dependent Δv/c~(1/18)(E/E_cut)² (n=2, cubic-anisotropy signature) | QNG_LIV_PREDICTION_n2 |
+| **20** | nonlinear completion = Regge calculus; deficit-angle=full nonlinear curvature (Σδ=4π to 1e-14); remaining gap bounded | NONLINEAR_COMPLETION_IS_REGGE |
+
+**Master key (Gap 12) after 20 phases:** form + gauge-invariance + linearized
+coefficient(15%) + target(edge) + ~4% nonlinear(Sakharov) + **nonlinear structure
+= Regge (full R, rigorous, Phase 20)**. The ONE remaining piece is now BOUNDED:
+derive the Regge measure (hinge areas + 1/8πG coupling, already 15%-matched) from
+the substrate — "derive a specific lattice measure," not "find the nonlinear
+action." The decisive-distinction chain (→ f_g → α → parameter-free proton mass)
+has every link located; two bounded computations remain (the Regge measure + the
+f_g loop integral).
 
 **Master key (Gap 12 graviton-from-substrate) after 18 phases:** form ✓
 (Fierz-Pauli) + gauge-invariance ✓ (4.5e-16) + linearized coefficient ✓
