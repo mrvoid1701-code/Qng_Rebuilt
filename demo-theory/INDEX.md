@@ -106,6 +106,9 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **58** | event-horizon cutoff DERIVED from chi coherence (not ad hoc): chi=phase-coherence field, correlates only in causal contact → IR cutoff = event horizon R_h=1.15c/H₀ (finite; matter-only diverges). Resolves P57 caveat; only O(1) c from chi norm left | CHI_COHERENCE_IS_THE_CUTOFF |
 | **59** | α road shortened: gravity half f_g=G_QNG/16=0.00365 SOLID (G derived + EH P16-18 + S=A/4G P55); α*=f_g/c ballpark right (1/58..1/466 by content); exact 1/137 = charged content (Gap 13) + RG running, pure particle sector now | ALPHA_SHORTENED_TO_PARTICLE_SECTOR |
 | **60** | **why 3 generations**: chiral fermion = domain-wall zero mode (P9); z=6 cubic has 3 axis normals → **N_gen = d_space = 3** (matches LEP N_ν=2.984; 4th gen forbidden). 3 orientations ↔ 3 cube-roots on φ-circle ↔ Koide Q=2/3. Count structural; hierarchy (δ,M₀) open | THREE_GENERATIONS_FROM_3D_SPACE |
+| **61** | lepton masses: Q=2/3 (3-phase structure) **predicts m_τ=1776.97 from e,μ (0.006%)** — a real prediction. δ_fit=0.2223≈2/9 REFUSED as numerology (no geometric proof). Absolute masses need M₀,δ (2 inputs) | KOIDE_PREDICTS_TAU_DELTA_REFUSED |
+| **62** | leptonic scale: **M₀²=313.8 MeV = proton/3 (313) ~ Λ_QCD** → lepton scale = transmutation scale (Planck→hadronic ~20 orders, P12). Electron light by Koide **near-cancellation** (factor 0.040), not tiny Yukawa. M₀~QCD suggestive (leptons colorless); δ still open | LEPTON_SCALE_IS_TRANSMUTATION_SCALE |
+| **63** | α with 3 gen: both inputs assembled — f_g=0.00365 (gravity) + ΣQ²=8 (content, from 3 gen). Naive f_g/c=1/466 too crude (UV/IR direction wrong); remainder = standard asymptotic-safety RG (separated from QNG). No 1/137 forced | ALPHA_INPUTS_ASSEMBLED_REMAINDER_RG |
 
 **Quantum-gravity block (Phases 36–40):** one ingredient — the **discrete,
 bounded, reversible Planck-scale lattice** — resolves four problems at once: the

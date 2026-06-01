@@ -1,0 +1,14 @@
+{
+  "M0_sqrtMeV": 17.715562095633505,
+  "M0sq_MeV": 313.8411403642466,
+  "Lambda_QCD": 332.0,
+  "ratio_M0sq_QCD": 0.9453046396513451,
+  "hierarchy_orders": 19.589649957510318,
+  "koide_factors": [
+    0.040351069120303985,
+    0.5802258565568527,
+    2.3794230743228435
+  ],
+  "near_qcd": true,
+  "verdict": "THE_LEPTON_SCALE_IS_THE_TRANSMUTATION_SCALE_AND_THE_ELECTRON_IS_LIGHT_BY_CANCELLATION (suggestive, with honest caveats). Two findings on the leptonic scale M0. (T1) The Koide scale is M0 = mean(sqrt m_n) = 17.72 sqrt(MeV), so M0^2 = 314 MeV is the overall charged-lepton mass scale. (T2) This sits squarely at the QNG dimensional-transmutation / hadronic scale: M0^2 = 314 MeV versus Lambda_QCD ~ 332 MeV (ratio 0.95) and the constituent-quark / proton-third scale ~310 MeV. Since QNG already derives the hadronic scale from Planck by dimensional transmutation (Phase 12, proton 0.94 GeV), the SAME running plausibly sets the lepton scale -- explaining the BIG ~20-order hierarchy from the Planck mass down to M0. (T3) The electron's extreme lightness is then NOT a fine-tuned tiny Yukawa coupling: it is the Koide NEAR-CANCELLATION. The three Koide factors (1+sqrt2 cos theta_n) are 0.040, 0.580, 2.379 for e, mu, tau; the electron sits right at the near-zero of this factor, so m_e/M0^2 = 0.0016 is a structural cancellation while mu and tau are O(1). HONEST CAVEATS: (i) M0^2 ~ Lambda_QCD is SUGGESTIVE but leptons are colorless and do not feel QCD, so the coincidence of scales could be accidental rather than a shared transmutation -- flagged, not proven; (ii) the absolute masses still require the offset delta, which we REFUSED to derive (Phase 61, delta=2/9 numerology not claimed); so with M0 plausibly grounded and the electron's lightness structurally explained, the remaining genuinely-open input is delta. NET: the leptonic SCALE M0 gets a plausible QNG origin (the transmutation scale that also gives the proton), and the electron-mass hierarchy is recast from 'a mysterious 1e-6 Yukawa' to 'a Koide near-cancellation at the hadronic scale' -- a genuine reinterpretation -- but absolute lepton masses are not fully derived (delta open, M0~QCD unproven). No numerology claimed: the scale coincidence is flagged as suggestive, not asserted as derived."
+}

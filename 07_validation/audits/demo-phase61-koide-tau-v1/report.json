@@ -1,0 +1,11 @@
+{
+  "m_e": 0.5109989,
+  "m_mu": 105.6584,
+  "m_tau_predicted": 1776.9693878108096,
+  "m_tau_observed": 1776.86,
+  "tau_error_pct": 0.006156242518246879,
+  "delta_fit": 0.22227065405471358,
+  "two_ninths": 0.2222222222222222,
+  "predicts_tau": true,
+  "verdict": "QNG_PREDICTS_ONE_LEPTON_MASS_FROM_THE_OTHER_TWO; DELTA=2/9_REFUSED_AS_NUMEROLOGY. The honest content of the lepton sector. The Koide form sqrt(m_n) = M0[1 + sqrt2 cos(2pi n/3 + delta)] has TWO free parameters (M0, delta) for three masses, so it predicts exactly ONE relation -- the Koide value Q = 2/3 -- which QNG's three-domain-wall / three-phase structure (Phase 60) supplies. (T1) The real, parameter-free consequence: given m_e and m_mu, Q=2/3 PREDICTS m_tau = 1776.97 MeV, versus the measured 1776.86 MeV -- agreement to 0.006%. This is a genuine QNG prediction (one lepton mass from the other two, via the 3-phase structure), at the 0.01% level. (T2) The fitted Koide offset delta = 0.2223 rad lands strikingly close to 2/9 = 0.2222 rad -- a famous near-coincidence -- BUT delta is merely one of the two free parameters (it is whatever the masses make it once Q=2/3 holds), and we have NO geometric derivation of delta = 2/9 from the wall orientations. So we REFUSE to claim a derivation we do not possess, exactly as we rejected the seductive beta_g/48 = 1/137 in Phase 33. delta = 2/9 is flagged as a striking, UNEXPLAINED coincidence -- not a QNG result. (T3) HONEST ACCOUNTING: QNG predicts 1 of the 3 charged-lepton masses (the Koide relation, from the 3-phase structure of Phase 60); the remaining 2 -- the overall scale M0 (set by the electron-mass / Yukawa scale) and the offset delta -- are NOT derived. So the Koide RELATION is a QNG prediction, but the ABSOLUTE lepton masses are still open (two inputs remain). NET for Gap 13: the generation COUNT is given a falsifiable QNG origin (3 = 3D, Phase 60), and the mass RELATION among the three is predicted (Q=2/3 -> tau to 0.01%, this phase); what stays open is the absolute scale M0 and the offset delta (the Yukawa hierarchy) -- and the tantalizing delta=2/9 is honestly left as an unexplained coincidence rather than dressed up as a derivation. The no-numerology discipline holds: we claim the real prediction (tau) and refuse the tempting one (2/9)."
+}
