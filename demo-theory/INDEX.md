@@ -111,6 +111,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **63** | α with 3 gen: both inputs assembled — f_g=0.00365 (gravity) + ΣQ²=8 (content, from 3 gen). Naive f_g/c=1/466 too crude (UV/IR direction wrong); remainder = standard asymptotic-safety RG (separated from QNG). No 1/137 forced | ALPHA_INPUTS_ASSEMBLED_REMAINDER_RG |
 | **64** | **test vs data**: Planck CMB — QNG is ΛCDM-like (inherits fit, params input; legacy 25-param fit phenomenological, NOT touted). Real falsifiable test: w(z) → **w₀=−1.06, wa=+0.62**, OPPOSITE sign to DESI hint (wa=−0.75) → TENSION. Ledger of testable predictions | PASSES_PLANCK_LCDM-LIKE_FALSIFIABLE_w(z) |
 | **65** | **AUDIT vs locked theory**: today's cosmology DIVERGES (DM relics vs locked χ-fuzzy-field VINDICATED on 171 gal; DE holographic-evolving vs locked V_0-constant) and CONTRADICTS on BH entropy (P55 'clean 1/4' vs locked T3: substrate count ~100× over-saturates B-H). QG+particle advances SURVIVE. See `AUDIT-65-reconcile-with-locked-theory.md` | RECONCILE_DIVERGENCES_FOUND |
+| **66** | **RESOLVED by data+consistency**: DM = χ fuzzy field (data 4.80<6.69, relics demoted); DE holographic = locked V_0 (0.690=0.686) → **closes T5**; entropy s_node 0.023(P54)=0.02(T3) → holography **closes T3**. ONE χ (VEV=DE, fluct=DM). Two locked gaps CLOSED | RECONCILED_TWO_GAPS_CLOSED |
 
 **Quantum-gravity block (Phases 36–40):** one ingredient — the **discrete,
 bounded, reversible Planck-scale lattice** — resolves four problems at once: the

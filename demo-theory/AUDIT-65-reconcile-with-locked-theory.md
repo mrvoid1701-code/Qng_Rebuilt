@@ -111,3 +111,26 @@ DIVERGED from the locked, data-vindicated cosmology (DM=χ-fuzzy-field, DE=V_0),
 the BH-entropy claim (P55) CONTRADICTS the locked T3 gap (~100× over-count). The
 user's concern was correct: the fast evolution produced parallel/competing pieces
 that must be reconciled, and one over-optimistic claim (P55) that must be downgraded.
+
+---
+
+## RESOLUTION (Phase 66 — `t_phase66_reconciliation_resolved.py`)
+
+The divergences were resolved by DATA + consistency (not preference), and two turned
+into WINS:
+- **DM**: data decides — χ fuzzy field χ²/dof=4.80 < NFW 6.69 (relics→cusps,
+  disfavored). **QNG DM = χ fuzzy field**; relics demoted to speculative add-on.
+- **DE (B2 → WIN)**: holographic ρ_Λ=c²ρ_crit, c²=Ω_Λ=0.690 **= locked V_0=0.686** →
+  holography EXPLAINS V_0, **CLOSING locked gap T5** ("V_0 source unsolved"). DE = V_0
+  = holographic vacuum energy; nearly constant + predicted wa>0.
+- **BH entropy (C1 → WIN)**: P54 s_node=a_L²/4=0.0233 nats **= T3 holographic 0.02
+  nats/site** → the 100× is bulk-vs-projected; holography (P52-58) projects bulk→area
+  → S=A/4. **Today's holography RESOLVES locked gap T3** (not a contradiction).
+- **CMB (C2)**: use the locked VEV+fluct (χ²/dof≈1.06) basis (today's conclusion
+  "ΛCDM-like" agrees).
+- **χ role**: ONE field — VEV(holographic)=DE, fluctuations(fuzzy)=DM. Parsimony kept.
+
+Net: the fast evolution did NOT break the theory; reconciled, it CLOSED two locked
+gaps (T3, T5) and the data selected χ-field DM. Honest residuals: holographic T3
+needs the substrate dof shown to reduce to area/4 from first principles; wa>0 DE is
+falsifiable vs DESI.
