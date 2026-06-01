@@ -1,0 +1,9 @@
+{
+  "f_g": 0.003645833333333333,
+  "alpha_tempting_beta_g_48": 0.007291666666666666,
+  "c_needed": 0.4996104166666666,
+  "c_qed": 0.2122065907891938,
+  "alpha_physical_c": 0.017180584824319178,
+  "is_numerology": true,
+  "verdict": "FG_COMPUTED_CLEAN_BUT_1/137_IS_NUMEROLOGY. Genuine progress AND discipline. PROGRESS: f_g is now COMPUTED cleanly = G_QNG/16 = 0.00365, with NO free parameter and NO scheme ambiguity (the lattice cutoff k=pi makes the pi^2 cancel: f_g = g_grav*/(16pi^2) = G_QNG pi^2/(16 pi^2) = G_QNG/16). This is the QNG lattice advantage realized -- f_g is a definite number from the derived G. Then alpha* = f_g/c with c the U(1) charged-matter beta coefficient. WITH THE PHYSICAL QED VALUE c=2/(3pi)=0.21 (one Dirac fermion), QNG gives alpha* = 0.0172 = 1/58 -- the RIGHT ORDER, but NOT 1/137. DISCIPLINE: there IS a tempting coincidence alpha = beta_g/(8z) = 0.35/48 = 1/137.1, just 0.08% from observed -- BUT it requires c=1/2, which is 2.4x the physical QED coefficient and is NOT justified. So the beta_g/48=1/137 'hit' is c-TUNING -- numerology, NOT a derivation. HONEST RESULT: QNG cleanly computes f_g=G_QNG/16 (a real advance -- no scheme ambiguity), placing alpha in the right ballpark (~1/58 with physical c); the exact 1/137 needs the charged-matter content c pinned (and the full lattice loop coefficient), and the seductive beta_g/48 coincidence is rejected as unjustified tuning. We do NOT claim alpha derived -- we claim f_g computed and the numerology caught."
+}
