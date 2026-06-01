@@ -1,0 +1,8 @@
+{
+  "R1_e1_alpha": 0.07957747154594767,
+  "e_needed": 0.30282211985966434,
+  "alpha_em": 0.0072973525205055605,
+  "Lambda_UV": 10.300303782261617,
+  "ballpark": true,
+  "verdict": "ALPHA_RIGHT_BALLPARK_EXACT_IS_WELL_POSED_LATTICE_LOOP. Serious attack on deriving alpha, no forcing of 1/137. Two QNG routes: (R1) lattice gauge with natural e~1 gives alpha = e^2/4pi = 0.080 (1/12.6) -- right ORDER but ~11x the observed alpha_em (the needed e=0.30 is not pinned by QNG: what sets e=0.30 is undetermined). (R2) the gravity-induced UV fixed point alpha*=f_g/c with f_g~g_grav*/16pi^2 (g_grav*~O(1)) lands at alpha*~1/100-1/500 -- the RIGHT BALLPARK as the observed alpha (alpha_em=1/137, alpha_Y(Planck)~1/100), but the exact value depends on the gravitational fixed-point coupling g_grav* and the U(1) beta coefficient c (O(1) each). SO alpha is NOT derived exactly -- it lands in the right order/ballpark from QNG structure, but the precise 1/137 needs g_grav* and the gauge coupling e pinned, neither of which QNG currently determines to that precision (the same obstruction asymptotic safety faces). KEY QNG-SPECIFIC POINT (the constructive result): continuum FRG cannot pin alpha because f_g is SCHEME-DEPENDENT (the regulator is a choice). QNG has a PHYSICAL cutoff (the lattice, Lambda_UV=pi/a_L=10.3) -- the lattice IS the regulator, so f_g becomes a WELL-POSED, scheme-free lattice loop integral (the graviton-photon one-loop on the QNG lattice). Therefore alpha-exact is REDUCED, in QNG, to a definite (multi-week) lattice-QFT computation with NO scheme ambiguity -- a genuine, well-posed path to the parameter- free alpha, which the continuum approaches lack. The exact value awaits that computation; it is not faked here."
+}
