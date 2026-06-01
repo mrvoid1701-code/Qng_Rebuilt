@@ -62,6 +62,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **14** | gravity creates a UV fixed point α\*=f_g/c (QNG has G derived); α_em needs f_g/c=0.0073 | GRAVITY_INDUCED_FIXED_POINT_IS_THE_ALPHA_ROUTE |
 | **15** | f_g (→α) requires the dynamical graviton = Gap 12; G_QNG plausible (k_loop=0.125, O(0.1)) | FG_NEEDS_GAP12 + PLAUSIBLE_WITH_DERIVED_G |
 | **16** | dynamical graviton: linearized Riemann diffeo-gauge-invariant (4.5e-16) + 2 physical dof | DYNAMICAL_GRAVITON_ON_EDGES |
+| **17** | graviton action coefficient substrate-derived (μ_h=5.00 vs GR 5.86, ~15%); target corrected edge-not-σ_g | GRAVITON_ACTION_SUBSTRATE_DERIVED_TO_17PCT |
 
 **The frontier (after 15 phases):** everything reduces to TWO LINKED open
 computations — **Gap 12 (dynamical graviton)** and **f_g (gravity's gauge-beta
