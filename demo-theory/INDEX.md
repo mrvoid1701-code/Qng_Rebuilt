@@ -105,6 +105,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **57** | chi DE equation of state (Li event-horizon, c=0.8): **w₀=−1.026** = observed −1.03±0.03; accelerates (w<−1/3) AND tracks (Ω_Λ 0.08@z=3→0.69→1). CC program complete to order; only c~0.8 O(1) + cutoff-from-chi micro derivation left | CHI_DE_ACCELERATES_AND_TRACKS |
 | **58** | event-horizon cutoff DERIVED from chi coherence (not ad hoc): chi=phase-coherence field, correlates only in causal contact → IR cutoff = event horizon R_h=1.15c/H₀ (finite; matter-only diverges). Resolves P57 caveat; only O(1) c from chi norm left | CHI_COHERENCE_IS_THE_CUTOFF |
 | **59** | α road shortened: gravity half f_g=G_QNG/16=0.00365 SOLID (G derived + EH P16-18 + S=A/4G P55); α*=f_g/c ballpark right (1/58..1/466 by content); exact 1/137 = charged content (Gap 13) + RG running, pure particle sector now | ALPHA_SHORTENED_TO_PARTICLE_SECTOR |
+| **60** | **why 3 generations**: chiral fermion = domain-wall zero mode (P9); z=6 cubic has 3 axis normals → **N_gen = d_space = 3** (matches LEP N_ν=2.984; 4th gen forbidden). 3 orientations ↔ 3 cube-roots on φ-circle ↔ Koide Q=2/3. Count structural; hierarchy (δ,M₀) open | THREE_GENERATIONS_FROM_3D_SPACE |
 
 **Quantum-gravity block (Phases 36–40):** one ingredient — the **discrete,
 bounded, reversible Planck-scale lattice** — resolves four problems at once: the
