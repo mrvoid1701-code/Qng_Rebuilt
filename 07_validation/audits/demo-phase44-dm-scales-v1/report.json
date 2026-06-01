@@ -1,0 +1,12 @@
+{
+  "M_rem_mPl": 0.1525,
+  "m_rem_kg": 3.3184e-09,
+  "m_rem_ug": 3.3184,
+  "m_rem_GeV": 1.861132922041503e+18,
+  "M_chandra_kg": 9.356624563289439e-07,
+  "n_rem_per_m3": 6.659836065573771e-19,
+  "spacing_m": 1145105.464129433,
+  "v_over_c": 2.3175828049485266e-14,
+  "cold": true,
+  "verdict": "QNG_DARK_MATTER_IS_A_COLD_GAS_OF_PLANCK_MASS_RELICS. Quantitative scales from the constants: the neutral stable object QNG provides is the Planck-mass remnant (Phase 38), M_rem = 0.152 m_Planck = 3.32e-09 kg = 3.32 micrograms = 1.9e+18 GeV. (T2) Its degenerate self-gravitating clusters (Phase 43) have a Chandrasekhar-like maximum mass M_ch ~ M_Planck^3/m^2 = 9.4e-07 kg (~mg) -- MICRO, because the constituent is Planck-heavy. So QNG dark matter is effectively a COLD GAS of ~microgram Planck-mass relics (the dark star being their bound form), a clean cold-dark-matter candidate. (T3) To be Omega_DM the number density is n_rem = 6.7e-19/m^3 (mean spacing ~1145 km); their thermal velocity is utterly negligible (v/c ~ 2e-14), so they are PERFECTLY COLD and collisionless -- textbook CDM. HONEST: the masses and scales ARE derived from the substrate constants (a_L, M_rem, hbar/c/G), but the relic ABUNDANCE (how many formed) is set by primordial production and is an INPUT, not derived; the DM/baryon ratio 5.4 is likewise not predicted (two separate mechanisms). NET: QNG fixes WHAT dark matter is and its per-particle scale (a ~3 ug neutral cold relic), and leaves the total abundance to a production mechanism -- the same predictive status as every leading DM candidate (WIMP, axion, primordial BH). Next (Phase 45): test the COLD/collisionless/neutral profile against the real Planck CMB data."
+}

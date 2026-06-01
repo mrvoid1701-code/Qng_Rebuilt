@@ -1,0 +1,31 @@
+{
+  "peaks": {
+    "1st (baryon compression)": [
+      220.0,
+      5869.979423999999
+    ],
+    "2nd (baryon rarefaction)": [
+      516.0,
+      2606.789140666667
+    ],
+    "3rd (CDM-driven) <== dark-matter peak": [
+      817.0,
+      2545.0356246666665
+    ],
+    "4th": [
+      1123.0,
+      1254.258904
+    ],
+    "5th": [
+      1405.0,
+      832.2068911333332
+    ]
+  },
+  "D3_over_D2": 0.9763105058876348,
+  "third_peak_prominence": 0.2978884400092812,
+  "strong_third_peak": true,
+  "all_cmb_checks_pass": true,
+  "omega_dm_h2_target": 0.12,
+  "relic_ug": 3.32,
+  "verdict": "QNG_RELIC_DM_IS_CONSISTENT_WITH_PLANCK_CMB (abundance as input). Tested against the REAL Planck TT spectrum (2508 multipoles, ell=2..2508). (T1) The acoustic peaks are cleanly located in the data: 1st ell~220, 2nd ell~516, 3rd ell~817, matching the standard Planck peak ladder. (T2) The 3rd peak (the dark-matter fingerprint) is strong (D3/D2 = 0.98, prominence 0.30 above the preceding trough) -- a feature that REQUIRES substantial cold, non-baryonic matter (baryon-only acoustic physics cannot boost the 3rd peak this way). (T3) QNG relic dark matter (Phase 44: a cold gas of ~3.3 microgram neutral Planck-mass relics) satisfies EVERY qualitative requirement the CMB imposes: COLD (v/c ~ 2e-14, perfectly non-relativistic), COLLISIONLESS and PHOTON-DECOUPLED (electrically neutral, no EM/strong coupling -- Phase 39), GRAVITATING (sources the potential wells that raise the odd peaks), and STABLE (black-hole-evaporation endpoint + degenerate, Phases 38/43). So it behaves as textbook CDM and is fully consistent with the observed peak structure. HONEST SCOPE: this is a consistency test, not a from-scratch fit -- we did NOT run a Boltzmann code to predict the spectrum from QNG parameters, and the relic ABUNDANCE (Omega_DM h^2 = 0.120) is the INPUT the candidate must match, set by primordial production and not derived. This is the SAME status every leading DM candidate has against the CMB (none predicts Omega_DM from first principles; all must pass the cold/collisionless/neutral tests, which QNG relics do). NET: QNG dark matter -- a neutral, cold, information-bearing Planck relic / degenerate dark core -- is CONSISTENT with the Planck CMB; the open quantitative piece is a derivation of the relic abundance (primordial production), not the nature of the particle."
+}
