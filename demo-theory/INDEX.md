@@ -117,6 +117,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **69** | **close T4 (ℏ multi-sector)**: vacuum = ALL propagating sectors (σ_g,σ_m,φ = 3; χ constrained); completeness → multi-sector ℏ is correct (φ-only incomplete). LIV prediction SHARPENED to single **η_LV=0.0347** (CTA-testable). Day's tally: T2 advanced, T3/T4/T5 CLOSED (4/5 gaps) | T4_CLOSED_ETA_LV_SHARPENED |
 | **70** | **close T6 (CHI_DECAY naming)** → AUDIT COMPLETE: γ_χ^UV (lattice damping 0.020, ~Planck) vs m_χ^IR (fuzzy-DM mass 1e-22 eV) are ~50 orders apart, different role+scale → distinct, renamed. **2026-04 audit: T3/T4/T5/T6 CLOSED, T2 advanced (4/5 closed)** | T6_CLOSED_AUDIT_COMPLETE |
 | **71** | δ (Koide offset) from wall geometry: δ=0.2223 rad. NO genuine geometric angle (π-based/arccos) matches <1% (π/14 at 1.0%); only 2/9 matches (0.02%) but it's a RATIONAL RADIAN (numerology tell) → **REFUSED**. 2π/3 spacing derived; δ NOT derived (free phase). Open: wall zero-mode phase-locking dynamics | DELTA_NOT_GEOMETRIC_2_9_REFUSED |
+| **72** | δ via phase-locking dynamics: 3 Z₃-coupled oscillators → 2π/3 splay STABLE (Jacobian evals [−0.5,−0.5,**0**]); the **0** = δ is a **GOLDSTONE zero mode** (free, no restoring force). EXPLAINS P71: δ can't be geometric because it's a protected flat direction. δ fixed only by explicit U(1) breaking (open). 2/9 still refused | DELTA_IS_A_GOLDSTONE_MODE |
 
 **Quantum-gravity block (Phases 36–40):** one ingredient — the **discrete,
 bounded, reversible Planck-scale lattice** — resolves four problems at once: the

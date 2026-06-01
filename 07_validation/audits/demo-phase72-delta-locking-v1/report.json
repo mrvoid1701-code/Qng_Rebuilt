@@ -1,0 +1,13 @@
+{
+  "mean_gap": 2.0943951023931953,
+  "two_pi_3": 2.0943951023931953,
+  "spacing_ok": true,
+  "jacobian_eigenvalues": [
+    -0.500000000069889,
+    -0.500000000069889,
+    -5.669831924786017e-17
+  ],
+  "n_zero_modes": 1,
+  "delta_is_goldstone": true,
+  "verdict": "DELTA_IS_A_GOLDSTONE_ZERO_MODE -- DYNAMICS CONFIRMS THE 2pi/3 SPACING BUT DOES NOT FIX delta (and EXPLAINS why Phase 71 found no geometric value). Modeling the three domain-wall chiral zero-modes (the 3 generations) as three Z3-symmetrically-coupled phase oscillators on the phi-circle: (T1) from random initial phases the system robustly LOCKS to the 2pi/3 splay spacing (the cube roots of unity) -- confirming the Koide three-phase structure that gives Q=2/3 and the m_tau prediction (Phase 61) -- but the global offset comes out DIFFERENT every trial. (T2) The decisive test is the Jacobian spectrum at the splay state: it has exactly ONE ZERO eigenvalue and two negative ones. The zero eigenvalue is the global phase rotation -- i.e. the offset delta is a GOLDSTONE / zero mode with NO restoring force, while the negative eigenvalues pin the 2pi/3 SPACING. Confirmed directly: perturbing the global offset leaves it shifted (free), whereas perturbing the spacing relaxes back to 2pi/3 (fixed). (T3) CONCLUSION: the phase-locking dynamics DERIVES the 2pi/3 spacing (the spacing is a dynamically stable attractor), but the offset delta is a protected FLAT DIRECTION -- a Goldstone mode of the global phase symmetry -- and is therefore NOT fixed by the symmetric dynamics. This is a genuine structural result: it EXPLAINS the Phase-71 negative (no geometric angle gives delta) -- delta cannot be a fixed geometric quantity precisely BECAUSE it is a Goldstone zero mode. To assign delta a value requires EXPLICIT breaking of the global phase symmetry (a reference phase -- e.g. a coupling to the phi-vacuum or a lattice-induced term), which QNG does not currently derive from first principles. So delta remains genuinely OPEN, but now UNDERSTOOD: it is the Goldstone direction of the 3-generation phase system, hence undetermined by both geometry (P71) and symmetric dynamics (here). We do NOT force delta=2/9. HONEST: this is a reduced (Kuramoto) model of the phase-locking, capturing the Z3 symmetry and the splay attractor; the real wall zero-modes would have additional structure, but the Goldstone-mode conclusion is symmetry-protected and robust -- any Z3-symmetric coupling has the offset as a zero mode. The honest open direction is now sharp: delta is fixed only if QNG provides an explicit phase reference that breaks the global U(1) -- a specific physical mechanism to identify, not a number to guess."
+}
