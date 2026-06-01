@@ -1,0 +1,17 @@
+{
+  "E8a_counting": {
+    "mean_tt_dof": 2.0,
+    "std_tt_dof": 4.151105924741198e-16,
+    "min": 1.9999999999999987,
+    "max": 2.0000000000000004
+  },
+  "E8b_propagation": {
+    "c_phi": 0.264597181790425,
+    "k": 0.5235987755982988,
+    "omega_plus": 0.15707963267948966,
+    "omega_cross": 0.15707963267948966,
+    "c_meas_plus": 0.30000000000000004,
+    "two_tt_match": true
+  },
+  "verdict": "SPIN2_EDGE_OK (kinematic): a symmetric rank-2 edge object carries exactly 2 transverse-traceless polarizations that propagate degenerately at c_phi -- the graviton's (h+, hx). Confirms the 07-edges-carry-the-forces prediction: as the edge VECTOR is the spin-1 photon (E7b), the edge RANK-2 object is the spin-2 graviton. This is the structural cure for Gap 12 (node scalar sigma_g gives only spin-0). NOTE: kinematic only -- does not derive graviton dynamics from the substrate; Gap 12 dynamics remain open."
+}

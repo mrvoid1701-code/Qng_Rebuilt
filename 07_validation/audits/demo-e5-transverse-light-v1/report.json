@@ -1,0 +1,58 @@
+{
+  "part_A_reference": {
+    "omega_meas": 0.15707963267948966,
+    "k": 0.5235987755982988,
+    "c_phi_meas": 0.30345454797823884,
+    "c_phi_theory_smallk": 0.264597181790425
+  },
+  "part_B_E5a_smooth": {
+    "frac_long": 1.0,
+    "frac_trans": 9.438918567340925e-32,
+    "frac_trans_wrapped_nowrapneeded": 4.837614437634186e-31
+  },
+  "part_C_E5b_vortex": {
+    "frac_trans_wrapped": 0.25559723152154745,
+    "frac_trans_unwrapped": 5.294967348041857e-32,
+    "transverse_core_fraction_r<=4": 0.19553284493013573
+  },
+  "part_D_E5c_propagation": {
+    "c_phi": 0.264597181790425,
+    "rms_radius_growth_rate": -0.07956510868433136,
+    "radius_series": [
+      12.730417869584711,
+      2.9905559352318973e-07,
+      3.391753800823444e-07,
+      4.6006951346401666e-07,
+      3.733568475741993e-07,
+      3.222381007787786e-07,
+      4.2835401859074636e-07,
+      3.8219968800047164e-07,
+      4.5032296888187416e-07,
+      4.661509974264875e-07,
+      4.0419421968462055e-07,
+      3.486575101706236e-07,
+      3.9363682803156347e-07,
+      3.73022274350992e-07,
+      3.839822382603886e-07
+    ],
+    "time_series": [
+      0.0,
+      4.0,
+      8.0,
+      12.0,
+      16.0,
+      20.0,
+      24.0,
+      28.0,
+      32.0,
+      36.0,
+      40.0,
+      44.0,
+      48.0,
+      52.0,
+      56.0
+    ],
+    "ratio_growth_to_c": -0.3007027820400262
+  },
+  "verdict": "ROUTE_A_INSUFFICIENT: a single scalar phi cannot host a propagating transverse photon. Transverse sector is identically zero for single-valued phi (structural no-go), and topological transverse content stays pinned to defects rather than radiating at c_phi. A genuine photon needs a SECOND dynamical edge d.o.f. -> Route B (phi-chi circulation) or Route C (axiomatic gauge field A_ij)."
+}

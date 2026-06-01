@@ -1,0 +1,32 @@
+{
+  "E7a_node_scalars": {
+    "max_curl_grad_phi": 2.220446049250313e-16,
+    "max_curl_grad_chi": 2.220446049250313e-16,
+    "sustained_transverse_fraction": 7.418503914084666e-32,
+    "transverse_series": [
+      9.546029263902496e-32,
+      7.593780097295282e-32,
+      7.874761907800822e-32,
+      5.710362399962176e-32,
+      9.142372724096674e-32,
+      5.692517357612754e-32,
+      6.428257349854208e-32,
+      7.025914939286554e-32,
+      6.834966467001038e-32,
+      8.336076634034661e-32
+    ]
+  },
+  "E7b_edge_vector": {
+    "c_phi": 0.264597181790425,
+    "omega_trans_pol1": 0.15707963267948966,
+    "omega_trans_pol2": 0.15707963267948966,
+    "omega_longitudinal": 0.0,
+    "c_meas_pol1": 0.30000000000000004,
+    "c_meas_pol2": 0.30000000000000004,
+    "k": 0.5235987755982988,
+    "k_eff_lattice": 0.5176380902050414,
+    "longitudinal_frozen": true,
+    "two_transverse_match": true
+  },
+  "verdict": "ROUTE_B_FAILS_NODE_SCALARS / EDGE_PHOTON_FORCED: chi is a node scalar, so curl(grad chi)=0 identically -- it cannot be the B-analog. No coupling of two node scalars sources a sustained transverse mode. BUT a FUNDAMENTAL edge vector field (gauge field on links, not the gradient of any node scalar) reproduces the photon exactly: 2 transverse polarizations propagate at c_phi, the longitudinal mode is frozen (Gauss constraint). CONCLUSION: the v12 edge gauge field A_ij is NOT an arbitrary bolt-on -- it is the MINIMAL and FORCED carrier of light in a node-scalar substrate. Light is necessarily a link degree of freedom."
+}

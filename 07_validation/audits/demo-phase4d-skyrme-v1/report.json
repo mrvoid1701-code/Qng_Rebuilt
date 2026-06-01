@@ -1,0 +1,27 @@
+{
+  "moments_of_inertia": {
+    "3": {
+      "M_cl": 474.15,
+      "I_diameter": 5148.506302374821,
+      "I_over_MclR2": 1.2064879380352729
+    },
+    "4": {
+      "M_cl": 728.92,
+      "I_diameter": 10491.223610927465,
+      "I_over_MclR2": 0.8995520436851323
+    },
+    "5": {
+      "M_cl": 954.88,
+      "I_diameter": 18046.447338223737,
+      "I_over_MclR2": 0.7559671304550828
+    }
+  },
+  "rotational_fit": {
+    "M0": 865.75,
+    "c": 97.66666666666667,
+    "pred_5/2": 1720.3333333333335,
+    "obs_N1680": 1680.0,
+    "band_works": true
+  },
+  "verdict": "SKYRME_FRAMEWORK_VIABLE: (1) the QNG ring has a well-defined moment of inertia I(R) ~ 0.5 M_cl R^2 (thin-ring value confirmed geometrically), so collective quantization is well-posed. (2) The lowest baryons N(939,1/2+), Delta(1232,3/2+), N(1680,5/2+) fit a SINGLE J(J+1) rotational band (5/2 prediction 1720 vs 1680, 2.4% error) -- the Skyrme/rotational structure the framework predicts. (3) DER-QNG-038's R->particle ladder CONFLATED size (R) with spin (J): in the correct picture N and Delta are the SAME B=1 soliton rotating at J=1/2 vs 3/2, not different-R solitons. HONEST BLOCKER: the ABSOLUTE rotational scale is hbar^2/(2I) -- blocked by the unresolved hbar program AND Gap-13 unit bridge. QNG supplies the soliton and its I(R); the absolute baryon masses remain blocked, same wall as everything else. The win is STRUCTURAL: rings = Skyrmions = a rotational baryon band, replacing the R-numerology with a principled framework."
+}

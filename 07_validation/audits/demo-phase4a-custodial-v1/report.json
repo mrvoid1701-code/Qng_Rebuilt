@@ -1,0 +1,11 @@
+{
+  "commutators_real": [
+    0.20854867182781786,
+    0.42722634941751614,
+    0.7608786330573336
+  ],
+  "control_gamma0": 1.348468764921206e-15,
+  "breaks": true,
+  "control_symmetric": true,
+  "verdict": "NO_CUSTODIAL_SU2: the physical channel asymmetry (Channel F acts on sigma_m but not sigma_g) BREAKS the (sigma_g, sigma_m) rotation -- it does not commute with the real dynamics. The control (gamma_f=0, perfectly matched) recovers the symmetry, proving the breaking is physical, not numerical. CRUCIALLY: even in the symmetric limit the symmetry is only SO(2)=U(1) (a rotation of two REAL fields), NEVER SU(2) (which acts on C^2). So tesla-mind's (sigma_g,sigma_m)=isospin-doublet conjecture fails at BOTH levels: (i) the channel structure breaks even the U(1), and (ii) real fields cannot carry SU(2) regardless. Confirms the professor. Non-abelian matter = new ontology v13."
+}

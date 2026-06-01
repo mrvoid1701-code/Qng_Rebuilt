@@ -1,0 +1,24 @@
+{
+  "G1_gauge_invariance_dP": 0.0,
+  "confinement": {
+    "1.0": {
+      "mean_plaquette": 0.2105302994673749,
+      "strong_coupling_pred_beta/4": 0.25,
+      "W_1x1": 0.20980963672378708,
+      "W_2x2": 0.001852651819443283,
+      "W_1x2": 0.04702246870472425,
+      "area_ratio_lnW22_over_lnW11": 4.028765336922206,
+      "string_tension_-lnW11": 1.5615546511683078
+    },
+    "2.6": {
+      "mean_plaquette": 0.6576819121287103,
+      "strong_coupling_pred_beta/4": 0.65,
+      "W_1x1": 0.6579464706106858,
+      "W_2x2": 0.281172745828071,
+      "W_1x2": 0.4695055507551567,
+      "area_ratio_lnW22_over_lnW11": 3.0307930258273155,
+      "string_tension_-lnW11": 0.418631702621538
+    }
+  },
+  "verdict": "SU2_EDGES_CONFINE: QNG edges host a genuine SU(2) gauge theory -- gauge-invariant to machine precision, and the Wilson-loop Creutz ratio shows a nonzero string tension (AREA law) at strong coupling that weakens toward weak coupling. This is the uniquely NON-ABELIAN signature: confinement (the strong-force phenomenology). The edge sector naturally extends from U(1) photon to SU(N) confining force. CAVEAT (DER-QNG-101 / professor verdict): this is the PURE-GAUGE sector only; the non-abelian MATTER multiplet is a hard group-theory obstruction -- 2 real node scalars (sigma_g, sigma_m) CANNOT form an SU(2) doublet (needs complex C^2). Full SM gauge needs new node ontology (v13)."
+}

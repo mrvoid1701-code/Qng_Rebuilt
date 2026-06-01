@@ -1,0 +1,11 @@
+{
+  "k": 0.5235987755982988,
+  "k_eff": 0.5176380902050414,
+  "omega_trans_z": 0.5497787143782138,
+  "omega_trans_y": 0.5497787143782138,
+  "omega_long_x": 0.0,
+  "c_meas": 1.062090917923836,
+  "two_transverse": true,
+  "longitudinal_frozen": true,
+  "verdict": "V12_PHOTON_CONFIRMED: the actual v12 lattice gauge structure (A_ij on edges, F_p on plaquettes, DER-QNG-076) carries 2 degenerate transverse polarizations and freezes the longitudinal mode (Gauss constraint) -- the photon. This validates demo-E7 in the original theory's real formulation, not just the idealized spectral curl-curl. Edge gauge field = light, confirmed dynamically on the lattice."
+}

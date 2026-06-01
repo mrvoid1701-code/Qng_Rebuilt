@@ -1,0 +1,12 @@
+{
+  "naive_zeros": [
+    -3.142,
+    0.0
+  ],
+  "doublers_3+1D": 16,
+  "wilson_massless": [
+    0.0
+  ],
+  "doubling_confirmed": true,
+  "verdict": "CHIRALITY_WALL_CONFIRMED: a naive lattice Dirac fermion has 2 massless species per dimension (zeros at k=0 AND k=pi) = 2^4 = 16 doublers in 3+1D (Nielsen-Ninomiya). The Wilson term decouples the doublers (mass ~1/a at the BZ corners) but EXPLICITLY breaks chiral symmetry. Therefore QNG hosting the CHIRAL weak sector (parity violation) cannot be done with v13's scalar doublet alone, and cannot be done naively with lattice fermions either -- it requires a lattice-chiral solution (Ginsparg-Wilson / overlap / domain-wall fermions). This is the genuine v14 wall, and it is the SAME problem every lattice QCD program faces -- well-understood, but a major construction, not a small extension. Honest depth of the matter obstruction: edges host forces (easy); chiral fermions are hard (but solved technology in lattice gauge theory)."
+}

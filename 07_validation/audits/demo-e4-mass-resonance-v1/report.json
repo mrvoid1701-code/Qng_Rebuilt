@@ -1,0 +1,27 @@
+{
+  "rows": [
+    {
+      "R": 3,
+      "deficit_sigma_m": 2324.1502999333607,
+      "omega_1": 0.13425609630725607
+    },
+    {
+      "R": 4,
+      "deficit_sigma_m": 2495.572806380271,
+      "omega_1": 0.13425609630725607
+    },
+    {
+      "R": 5,
+      "deficit_sigma_m": 2667.157186955468,
+      "omega_1": 0.13425609630725607
+    }
+  ],
+  "ratios_R5_R4": {
+    "H_volume": 1.309992866158152,
+    "H_freq": 0.8,
+    "H_product": 1.0479942929265216
+  },
+  "pdg_target": 1.3134328358208955,
+  "best": "H_volume",
+  "verdict": "MASS_IS_VOLUME_CHARGE: the baryon ladder (Delta/N=1.313) is reproduced by canonical Sigma sigma_m alone (H_volume=1.310, 0.2%% off), NOT by the product with a 1/R cavity frequency (H_product=1.048). The page-05 'mass = 1/R resonance' conjecture is DISFAVORED: multiplying by omega~1/R BREAKS the match. Mass tracks the conserved volume/topological charge (consistent with DER-QNG-038, modulo Gap 14 lattice dependence). DIVISION OF LABOR HOLDS: frequency/edges set LIGHT (E5/E7), node volume-charge sets MASS. NOTE: a faithful omega_1(R) still needs the real v8 ring infrastructure; if omega_1 were R-INDEPENDENT (not 1/R), product==volume and the match survives -- so 'resonance' is only excluded in its specific 1/R cavity form, not as a constant dressing."
+}

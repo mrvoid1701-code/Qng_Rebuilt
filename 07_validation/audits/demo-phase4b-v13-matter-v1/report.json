@@ -1,0 +1,37 @@
+{
+  "G1_dS": 0.0,
+  "S0": 12681.234006670404,
+  "pops_up": [
+    1.0,
+    0.9330127018922194,
+    0.7500000000000001,
+    0.5000000000000001,
+    0.2500000000000001,
+    0.06698729810778076,
+    4.930380657631324e-32,
+    0.06698729810778055,
+    0.24999999999999978,
+    0.4999999999999998,
+    0.7499999999999999,
+    0.9330127018922194,
+    1.0000000000000004
+  ],
+  "pops_dn": [
+    0.0,
+    0.06698729810778066,
+    0.24999999999999994,
+    0.4999999999999999,
+    0.7499999999999999,
+    0.9330127018922192,
+    1.0,
+    0.9330127018922196,
+    0.7500000000000004,
+    0.5000000000000006,
+    0.25000000000000044,
+    0.06698729810778092,
+    2.2263750157116446e-31
+  ],
+  "gauge_invariant": true,
+  "isospin_mixes": true,
+  "verdict": "V13_MATTER_CONSISTENT: a complex node doublet psi in C^2 coupled to the SU(2) edge links via the covariant hopping |psi_i - U_ij psi_j|^2 is gauge-invariant to machine precision (genuine gauged matter), and the SU(2) gauge background rotates the isospin doublet (up<->down) -- exactly the weak-current content (n<->p, the W boson converting isospin partners). The door works: IF QNG adds a complex node doublet (v13), the full non-abelian matter+gauge structure is consistent. HONEST SCOPE: the doublet is genuinely NEW ontology -- it has no natural source in the existing real scalars (sigma_g,sigma_m,chi,phi); Phase-4a confirmed no custodial (sigma_g,sigma_m) symmetry. And CHIRALITY (parity violation of the weak force) needs Dirac fermions, not this scalar doublet -- the deeper v14 wall."
+}
