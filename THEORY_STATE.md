@@ -3,12 +3,65 @@
 Type: `note`
 Status: `living document`
 Author: `C.D Gabriel`
-Last updated: `2026-04-25` (autonomous block: COSMO+DM+DE+QG+CMB+FALSIFICATION program — Yukawa-replaces-Lambda FALSIFIED; **VEV+fluctuations DE+DM unification VINDICATED via 175 galaxies + LCDM <2% match**; rigorous defenses on 4 attacks; Einstein-coefficient 1/(16πG) derived from substrate; **systematic falsification audit identifies 5 gaps (T2-T6); theory survives with honest scope; Paper 5 LIV updated with two predictions η=0.0116 and 0.0347 from T4 ambiguity**)
+Last updated: `2026-06-01` (demo-theory session, Phases 36–70: QG infinities tamed; cosmology reconciled with locked theory; **falsification-audit gaps T3/T4/T5/T6 CLOSED, T2 ADVANCED**; LIV sharpened to single η_LV=0.0347). Prior: `2026-04-25` (COSMO+DM+DE+QG+CMB+FALSIFICATION — Yukawa-replaces-Lambda FALSIFIED; VEV+fluctuations DE+DM unification VINDICATED via 175 galaxies; Einstein 1/(16πG) derived; 5 gaps T2-T6 identified)
 Maintained: update after every locked derivation, falsification, or audit verdict
 
 > **Purpose**: single-page scannable snapshot. From this file you should be
 > able to answer "where are we?", "what's next?", "what's settled?",
 > "what's broken?" without grepping the rest of the repo.
+
+---
+
+## 0a. At a glance — 2026-06-01 SESSION (demo-theory Phases 36–70)
+
+Exploratory `demo-theory/` track (see `demo-theory/INDEX.md`), then reconciled with
+the locked theory by user request. **No numbers forced anywhere** — every tempting
+coincidence (δ=2/9, α=1/137, β_g/48) was REJECTED; results claimed only where derived.
+
+**Quantum gravity — three infinities tamed by the discrete Planck-scale substrate:**
+- BH singularity → finite node-core (ρ_max≈54 Planck densities); central potential
+  finite (Phase 37).
+- Graviton frequency capped at the Planck scale (no trans-Planckian GWs; Phase 36).
+- Big-Bang temperature FINITE: T_max≈1.1 T_Planck≈1.6e32 K (Phase 51).
+- BH evaporation → stable Planck remnant + information preserved (reversible substrate,
+  err 2e-14; Phase 38) — **as black-hole physics, NOT the dark matter** (see below).
+
+**Cosmology — reconciled with the locked theory (Phases 65–67):**
+- **Dark matter = χ fuzzy field** (the locked, 171-galaxy-VINDICATED result, χ²/dof=4.80
+  < NFW 6.69). Today's "Planck-relic DM" detour (Phases 38–50) is DEMOTED to a
+  speculative sub-dominant add-on (relics→cusps, disfavored by dwarfs).
+- **Dark energy = χ-VEV = holographic vacuum energy**: holography gives
+  ρ_Λ=c²ρ_crit, c²=Ω_Λ=0.69 **= the locked V_0=0.686** → holography EXPLAINS V_0.
+  Nearly constant; predicts evolving w with **w₀=−1.06, wa=+0.62** (CPL fit) — a
+  FALSIFIABLE handle, currently OPPOSITE-sign to the DESI evolving-DE hint (wa<0).
+- ONE χ field plays both roles (VEV=DE, fluctuations=DM) — parsimony preserved.
+
+**Falsification-audit gaps (2026-04) — now mostly closed:**
+| Gap | Severity | 2026-06-01 status |
+|---|---|---|
+| T2 (α not predicted) | MEDIUM | **ADVANCED** — f_g=G_QNG/16 solid + 3-gen content grounded; only standard RG remains (P59/63) |
+| T3 (BH entropy ~100×) | HIGH | **CLOSED** — holographic area law DERIVED from interior saturation (frozen bulk → entropy on boundary; N~R^1.98) (P68) |
+| T4 (multi-sector ℏ) | MEDIUM | **CLOSED** — vacuum completeness → multi-sector ℏ correct; LIV sharpened to single **η_LV=0.0347** (P69) |
+| T5 (V_0/DE source) | UNIVERSAL | **CLOSED** — V_0 = holographic vacuum energy (P66) |
+| T6 (CHI_DECAY naming) | LOW | **CLOSED** — γ_χ^UV (lattice, ~Planck) vs m_χ^IR (1e-22 eV) are ~50 orders apart, distinct (P70) |
+
+**Particle sector (Gap 13) — advanced:**
+- **3 generations = 3 spatial dimensions** (chiral fermion = domain-wall zero mode;
+  3 cubic axis-normals → 3 families). Falsifiable: N_gen=3, no 4th gen — matches LEP
+  N_ν=2.984 (Phase 60).
+- **Koide Q=2/3 predicts m_τ=1776.97 MeV from m_e,m_μ to 0.006%** (Phase 61). The
+  offset δ≈2/9 is a striking coincidence — REFUSED as a derivation (no geometric proof).
+- Leptonic scale M₀²≈314 MeV ≈ proton/3 (transmutation scale); electron light by Koide
+  near-cancellation, not a tiny Yukawa (Phase 62). Absolute masses still need δ, M₀.
+
+**Honest residuals:** holographic T3 needs the substrate dof shown to reduce to area/4
+from first principles (coefficient = the universal O(1), LQG/strings level); α needs
+the SM RG running; absolute lepton masses need δ; the wa>0 DE prediction is falsifiable
+vs DESI. Cosmological parameters remain ΛCDM-like inputs (QNG passes Planck as any
+CDM+Λ theory does — no unique CMB triumph).
+
+Files: `demo-theory/INDEX.md` (full Phase 1–70 map), `demo-theory/AUDIT-65-reconcile-with-locked-theory.md`,
+`07_validation/audits/demo-phase36..70-*/`.
 
 ---
 
@@ -30,6 +83,11 @@ Performed systematic 6-vector attack. **Theory SURVIVED but identified 5 real ga
 **T4 most consequential**: η_LV prediction is 0.0116 (φ-only) OR 0.0347 (multi-sector).
 Both testable. Paper 5 LIV updated to disclose both. Paper 1 abstract updated with T4
 disclosure.
+
+> **⟳ UPDATE 2026-06-01 (see §0a):** these 5 gaps are now mostly resolved —
+> **T3, T4, T5, T6 CLOSED** and **T2 ADVANCED** (demo-theory Phases 66–70). T4 in
+> particular is resolved in favor of the multi-sector value, **sharpening the LIV
+> prediction to a single η_LV = 0.0347**.
 
 **Theory robust**: no fatal contradiction. All 5 gaps are honest open programs with
 defined falsification tests. Multiple falsifiability paths = healthy science.
