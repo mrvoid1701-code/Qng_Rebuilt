@@ -46,9 +46,15 @@ ratios/relations), and these match observation. It does **NOT** yet predict the
 
 - **c, G**: claimed derived from substrate parameters (`c²=β_φ/(zμ_φ)`, `G=β_g/z`).
   Stronger results.
-- **ℏ**: **contested** — `NOTE-QNG-024` withdrew the "⟨L⟩ is ℏ" claim; ℏ_lattice
-  reverts to a free parameter. The ℏ-emergence program had 16+ failures. So ℏ is
-  effectively **axiomatic**, not derived. (Be honest about this.)
+- **ℏ**: **DERIVED** (theory-v2 ch.05, Stability Principle) — `ℏ_QNG =
+  √(β_φ μ_φ z)/C_cubic = 0.2326` from `E_vacuum = 0` (classical ground energy
+  cancels quantum zero-point), → `ℏ_SI = 1.055×10⁻³⁴ J·s` to machine precision
+  via the unit bridge. **Correction (2026-06-01):** an earlier note here called
+  ℏ "axiomatic" — that conflated TWO different things. The *ℏ-from-dynamics*
+  program (FDT/noise) failed 16+ times; and `NOTE-QNG-024` withdrew a *different*
+  claim (⟨L⟩=660 ≟ ℏ). But the *Stability-Principle derivation* (DER-QNG-066/067)
+  is a genuine derivation, GIVEN the Stability Principle + substrate parameters.
+  This is what closes the unit bridge and enables the proton-mass scale (Phase 12).
 
 ### D. Beyond-SM predictions (genuinely falsifiable, NOT yet tested)
 

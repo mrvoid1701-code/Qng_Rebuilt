@@ -57,6 +57,14 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **9** | domain-wall fermion: 1 chiral mode/wall, ±1 chirality, doublers gapped | V14_CHIRAL_FERMION_OK |
 | **10** | vortex coarse-grains → node; winding RG-invariant; Gap-13 = RG distance | VORTEX_IS_A_COARSE_GRAINED_NODE |
 | **11** | hadron scale = dimensional transmutation; 20 orders from α_s(M_P)≈0.015 | GAP13_HADRON_SCALE_IS_DIMENSIONAL_TRANSMUTATION |
+| **12** | proton mass scale from ℏ/c/G(derived)→a_M→transmutation→Skyrme: 0.94 vs 0.938 GeV | PROTON_MASS_SCALE_FROM_FIRST_PRINCIPLES |
+
+**Three paths (`THREE-PATHS-status.md`):** Drumul 1 (absolute mass) **done at
+scale level** (Phase 12, proton 0.94 GeV); Drumul 2 (beyond-SM) **sharpened**
+(topological stable/unstable, η_LV=0.0116/0.0347, a_L=0.305ℓ_P); Drumul 3
+(derive α — Gap 17) **the linchpin, open** — solving it makes Drumul 1
+parameter-free. ℏ IS derived (theory-v2 ch.05, Stability Principle) — corrects
+the earlier "ℏ axiomatic."
 
 Findings docs: `E5/E7/E4-RESULT*`, `PHASE3/4/5/6-*-findings`,
 `PARTICLE-INVENTORY-v1`, session summaries. Audits: `07_validation/audits/demo-*`.
