@@ -76,7 +76,20 @@ explore:
 
 **Honest:** none of these is solved. Drumul 3 is genuinely hard (it is the α
 problem). But the Stability-Principle *template* — which worked for ℏ — is the
-natural attack, and it is QNG-specific.
+natural first thing to test.
+
+**UPDATE (Phase 13 — the template TESTED and RULED OUT for α_em):** the
+Stability Principle is **provably BLIND to α_em**. The photon is massless, so
+its zero-point energy is **independent of the coupling e** (verified across
+e=0.01…10 — the free vacuum energy is exactly constant); e enters only at O(e²)
+loop level, invisible to the free vacuum balance the principle uses. So the
+ℏ-template **cannot** derive α_em — proven, not assumed. **Redirection:** α_em
+needs an **RG-fixed-point / interacting-level** principle (consistent with
+Phase 11's running-coupling picture). **Asymmetry found:** for **massive** gauge
+bosons (W/Z, via m~e·v) the vacuum energy **does** depend on the coupling, so a
+vacuum-stability argument **does** have traction on the **weak** couplings (given
+the Higgs VEV) — a more tractable sub-target than α_em. See
+`PHASE13-alpha-stability-findings.md`.
 
 ## The convergence (the real picture)
 
