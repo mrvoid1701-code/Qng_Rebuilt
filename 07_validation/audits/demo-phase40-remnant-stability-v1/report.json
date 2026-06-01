@@ -1,0 +1,75 @@
+{
+  "0.0": {
+    "init": [
+      0.4,
+      5.196143392257007,
+      170.09572541836306
+    ],
+    "snaps": {
+      "1000": [
+        0.005767782091347762,
+        15.840311473665848,
+        170.0957254183622
+      ],
+      "3000": [
+        0.005191161648531617,
+        16.01553848368653,
+        170.09572541836133
+      ],
+      "6000": [
+        0.005190909591610615,
+        16.015617377287164,
+        170.09572541835587
+      ]
+    }
+  },
+  "0.06": {
+    "init": [
+      0.4,
+      5.196143392257007,
+      170.09572541836306
+    ],
+    "snaps": {
+      "1000": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ],
+      "3000": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ],
+      "6000": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ]
+    }
+  },
+  "0.15": {
+    "init": [
+      0.4,
+      5.196143392257007,
+      170.09572541836306
+    ],
+    "snaps": {
+      "1000": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ],
+      "3000": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ],
+      "6000": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ]
+    }
+  },
+  "verdict": "NEUTRAL_CORE_NOT_STABILIZED_SELF_GRAVITY_GOES_JEANS_UNSTABLE. Decisive dynamical test of the Phase-39 remnant-DM proposal: does a NEUTRAL (q=0, no phi-winding) node-core survive the substrate dynamics? We evolved a neutral sigma_m depletion core under v7-symmetric self-gravity (matter depletes sigma_g -> a screened well; the well deepens the depletion) plus diffusion, scalars clamped to [0,1] (bounded-scalar floor), with sigma_g screening GAMMA=0.04 (QNG gravity is screened-Poisson, range ~1.6 cells) to suppress the spurious global Jeans (k=0) runaway. RESULTS: CONTROL (k_gm=0, pure diffusion) -> DISPERSE (depth 0.400->0.005), the expected fate of an unprotected lump. self-gravity k_gm=0.06 -> GLOBAL-COLLAPSE (final depth 0.600, radius 31.25); strong k_gm=0.15 -> GLOBAL-COLLAPSE (depth 0.600, radius 31.25). INTERPRETATION: self-gravity does NOT yield a localized bound remnant in this bare model -- below threshold the core disperses, above threshold it goes globally unstable (collapse fills the box). A genuine localized remnant would need pressure/kinetic support (full v8 symplectic dynamics with pi_m, or an explicit minimum-length hard core) that this overdamped screened-diffusion model lacks. So remnant stability remains UNPROVEN -- and this test shows WHY it is hard: the same self-gravity that could bind the core drives instability without a support term. HONEST SCOPE: overdamped (gradient-flow) v7-symmetric dynamics on L=32 over 6000 steps, NOT full v8 symplectic evolution and NOT a Hubble time; outcome is parameter-dependent. NET: the dynamical test is NOT yet supportive (no localized remnant in this model) -- consistent with Phase-39's honest verdict that remnant-DM is a viable DIRECTION with stability still open; the decisive check needs the full v8 kinetic substrate."
+}
