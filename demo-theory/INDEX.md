@@ -102,6 +102,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **54** | the residual O(1): the factor-12 was a convention artifact (=(8π/3)/Ω_Λ); genuine coeff c²=Ω_Λ=0.69 is O(1) (natural, not tuned); traces to BH 1/4 — QNG gives area law structurally, exact 1/4 + why-now remain | RESIDUAL_IS_GENUINELY_O(1)_NO_FINE_TUNING |
 | **55** | the BH 1/4 is INHERITED, not free: l_P²=G so S=A/(4G); 1/4 = universal EH/Wald coeff; QNG has G (derived) + EH action (P16-18, ~15%) → 1/4 rides on the gravity sector. Residual collapses to 'why now' alone | BH_QUARTER_INHERITED_FROM_DERIVED_G |
 | **56** | 'why now' dissolved: ΛCDM ρ_Λ/ρ_m sweeps ~80 orders (O(1) only now); holographic DE → Ω_Λ=c²~0.69 at ALL epochs (ρ_Λ,ρ_crit both ~M_Pl²H²), coincidence STRUCTURAL. Remaining: equation of state (chi + event-horizon cutoff) | WHY_NOW_DISSOLVED_ONLY_EOS_REMAINS |
+| **57** | chi DE equation of state (Li event-horizon, c=0.8): **w₀=−1.026** = observed −1.03±0.03; accelerates (w<−1/3) AND tracks (Ω_Λ 0.08@z=3→0.69→1). CC program complete to order; only c~0.8 O(1) + cutoff-from-chi micro derivation left | CHI_DE_ACCELERATES_AND_TRACKS |
 
 **Quantum-gravity block (Phases 36–40):** one ingredient — the **discrete,
 bounded, reversible Planck-scale lattice** — resolves four problems at once: the
