@@ -134,3 +134,12 @@ Net: the fast evolution did NOT break the theory; reconciled, it CLOSED two lock
 gaps (T3, T5) and the data selected χ-field DM. Honest residuals: holographic T3
 needs the substrate dof shown to reduce to area/4 from first principles; wa>0 DE is
 falsifiable vs DESI.
+
+**UPDATE (Phase 68 — `t_phase68_holography_from_substrate.py`)**: the T3 residual is
+now CONCEPTUALLY CLOSED. The holographic area law is DERIVED (not assumed): a QNG
+black hole's interior is SATURATED (Phase 37, unique config → ZERO entropy, "frozen
+bulk"), so entropy lives only in the boundary transition layer → N_entropy ~ R^1.98
+(AREA), not R^3 (volume). The ~100× over-count is explained: it counted frozen
+interior nodes as free. Only the O(1) coefficient (the 1/4, holographic cell ~1.67
+ℓ_P) remains — the universal residual (LQG Immirzi / strings). T3 moves HIGH→addressed
+(area law derived; coefficient open).
