@@ -1,0 +1,45 @@
+================================================================================
+QNG-CPU-098: V9-A Berry-integral analysis
+================================================================================
+
+--- R = 3 ---
+  [R=3] found 28 cycles in reduced series
+  [R=3] loaded 500 snapshots, 8000 sites
+
+--- R = 4 ---
+  [R=4] found 27 cycles in reduced series
+  [R=4] loaded 500 snapshots, 8000 sites
+
+--- R = 5 ---
+  [R=5] found 26 cycles in reduced series
+  [R=5] loaded 500 snapshots, 8000 sites
+
+================================================================================
+PER-CANDIDATE VERDICTS
+================================================================================
+
+  S1 (P_M dM_ring):
+    status = V9A-FAIL
+    means: {3: 35.900484386039224, 4: 47.78358835969587, 5: 39.28989257828904}
+    cvs: {3: 0.6506234609202671, 4: 0.3722920564340094, 5: 0.3272405848156939}
+    reason = within-R CV > 20% at some R (no classical adiabatic invariant)
+
+  S2 (sum pi_m dsm):
+    status = V9A-MARGINAL
+    means: {3: 680.8922936575754, 4: 757.2681692617911, 5: 771.3324397160457}
+    cvs: {3: 0.17347458031753124, 4: 0.14247832841770783, 5: 0.1589586197527732}
+    reason = 10% < CV < 20% — within-R noise too high for clean verdict
+
+  S3 (sum pi_phi dphi):
+    status = V9A-FAIL
+    means: {3: 668.492451259068, 4: 657.4714717158565, 5: 650.1163212702825}
+    cvs: {3: 0.22066857330853307, 4: 0.12075718538807068, 5: 0.1394516642307157}
+    reason = within-R CV > 20% at some R (no classical adiabatic invariant)
+
+  S4 (COM xy area):
+    status = V9A-FAIL-INSUFFICIENT-DATA
+    means: {3: 6.156719479471258e-17, 4: 6.245004513516506e-17, 5: -4.483592984063132e-17}
+    cvs: {}
+
+  OVERALL V9-A VERDICT: V9A-MARGINAL
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v9a-berry-analysis-v1\report.json

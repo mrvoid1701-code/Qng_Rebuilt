@@ -1,0 +1,44 @@
+================================================================================
+QNG-GPU-036: Tesla 3D sine-Gordon breather test
+================================================================================
+  L=32, delta=0.2, theta=60.0 deg
+  m_eff  = 0.1013
+  omega  = 0.0507
+  eta    = 0.0877  (width=11.40 lu)
+  T_pred = 124.02 lu
+  T_run  = 600.0 lu  (24000 Yoshida4 steps)
+    t=   50.0  phi_c=-0.981  |phi|_max=3.136  H=-497.771  dH/H0=1.2e-11  ball=0.11
+    t=  100.0  phi_c=+0.189  |phi|_max=3.137  H=-516.005  dH/H0=3.7e-02  ball=0.00
+    t=  150.0  phi_c=-1.064  |phi|_max=3.128  H=-542.825  dH/H0=9.1e-02  ball=0.10
+    t=  200.0  phi_c=-2.220  |phi|_max=3.124  H=-568.278  dH/H0=1.4e-01  ball=0.05
+    t=  250.0  phi_c=+2.664  |phi|_max=3.126  H=-582.289  dH/H0=1.7e-01  ball=0.08
+    t=  300.0  phi_c=+2.503  |phi|_max=3.129  H=-590.689  dH/H0=1.9e-01  ball=0.08
+    t=  350.0  phi_c=+2.587  |phi|_max=3.128  H=-598.517  dH/H0=2.0e-01  ball=0.14
+    t=  400.0  phi_c=+0.945  |phi|_max=3.140  H=-604.541  dH/H0=2.1e-01  ball=0.12
+    t=  450.0  phi_c=-0.880  |phi|_max=3.115  H=-610.206  dH/H0=2.3e-01  ball=0.12
+    t=  500.0  phi_c=+1.650  |phi|_max=2.890  H=-615.304  dH/H0=2.4e-01  ball=0.15
+    t=  550.0  phi_c=+0.137  |phi|_max=3.138  H=-625.439  dH/H0=2.6e-01  ball=0.10
+    t=  600.0  phi_c=-1.246  |phi|_max=3.077  H=-634.647  dH/H0=2.7e-01  ball=0.11
+
+================================================================================
+TESLA BREATHER RESULTS
+================================================================================
+  amp in first period   = 3.105 rad
+  amp overall           = 3.141 rad
+  T_measured            = 24.417774312993622 lu (n=10)
+  T_predicted           = 124.02 lu
+  ratio T_meas/T_pred   = +0.197
+  H drift               = 2.75e-01
+  ball_frac  t=0        = 0.181
+  ball_frac  t=T        = 0.107
+  retention ratio       = 0.591
+
+  G1 (amp > 0.5 in 1st period): True
+  G2 (T within 25% of pred):    False
+  G3 (dH/H < 2%):                False
+  G4 (ball retention > 40%):    True
+
+  VERDICT: SG_BREATHER_INCONCLUSIVE
+  Wall: 886.7 s
+
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-sg-breather-v1\report.json

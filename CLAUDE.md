@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Relearning QNG** is a clean-room reconstruction of Quantum Node Gravity (QNG) theory by C.D Gabriel. The goal is to rebuild the theory with strict separation of concerns, full dependency tracing, and pre-registered validation — stricter than the legacy workspace. Legacy results may be consulted but their structure is not binding.
 
+> **Start here: `THEORY_STATE.md`** — single-page living snapshot of what's locked, what's open, gap status, Einstein-correspondence verdicts, next-test queue, and latest audits. Read this before touching any theory file.
+
 ## Running Tests and Audits
 
 No build system. All executables are Python scripts; no install step required.
@@ -51,8 +53,11 @@ Wave equation + v7 two-field substrate (QNG-CPU-052 to QNG-CPU-065):
 Hopfion lane (QNG-CPU-066 to QNG-CPU-072):
 `qng_hopfion_reference` (CPU-066), `qng_hopfion_long_reference` (CPU-067), `qng_hopfion_ultralong_reference` (CPU-068), `qng_hopfion_100k_reference` (CPU-069), `qng_hopfion_shape_reference` (CPU-070), `qng_hopfion_gravity_reference` (CPU-071), `qng_hopfion_kgm_scan_reference` (CPU-072)
 
-v7 back-reaction + mass identification (QNG-CPU-073 to QNG-CPU-075):
-`qng_back_reaction_reference` (CPU-073), `qng_conservative_mring_reference` (CPU-074), `qng_extended_mring_reference` (CPU-075)
+v7 back-reaction + mass identification (QNG-CPU-073 to QNG-CPU-076):
+`qng_back_reaction_reference` (CPU-073), `qng_conservative_mring_reference` (CPU-074), `qng_extended_mring_reference` (CPU-075), plus CPU-076 proton mass calibration scan.
+
+v8 canonical + Einstein correspondence (GPU lane, `tests/gpu/qng_v8_*`):
+`qng_v8_canonical_gpu` (shared integrator/module), `qng_v8_ring_cache` (cached ring formation), plus probe scripts — `qng_v8_kg_dispersion_probe`, `qng_v8_shapiro_probe`, `qng_v8_shapiro_far_field_probe`, `qng_v8_shapiro_R_scan_probe`, `qng_v8_bending_probe`, `qng_v8_anisotropy_probe`, `qng_v8_tesla_gauge_probe`, `qng_v8_redshift_probe`, `qng_v8_wep_probe`. CPU-side theory counterparts in `tests/cpu/qng_v8_shapiro_theory_prediction.py` and `qng_v8_anisotropy_theory_analysis.py`.
 
 Observational lane (QNG-OBS-001 through QNG-OBS-005):
 `qng_obs_rotation_reference` (OBS-001), `qng_obs_rotation_global_reference` (OBS-002), `qng_obs_mond_reference` (OBS-003), `qng_obs_yukawa_reference` (OBS-004), `qng_obs_ring_reference` (OBS-005) — data in `data/rotation/rotation_ds006_rotmod.csv`
@@ -107,7 +112,7 @@ Every test must declare: `test_id`, `category`, `hardware`, `inputs`, `outputs`,
 - **GPU lane** = scale and stress; must match CPU within declared tolerance
 - **CPU+GPU lane** = cross-hardware agreement tests
 
-Pre-registrations live in `07_validation/prereg/` (85 registered: GR-CPU-001, QM-CPU-001, QNG-CPU-001 through QNG-CPU-075, QNG-CPUGPU-001/002, QNG-GPU-001, QNG-OBS-001 through QNG-OBS-005).
+Pre-registrations live in `07_validation/prereg/` (91 registered: GR-CPU-001, QM-CPU-001, QNG-CPU-001 through QNG-CPU-076, QNG-CPUGPU-001/002, QNG-GPU-001/002/003/011/015/016/017/018/019/020, QNG-OBS-001 through QNG-OBS-005).
 
 ## Key Theory Objects (from `04_qng_pure/`)
 
@@ -130,6 +135,7 @@ Pre-registrations live in `07_validation/prereg/` (85 registered: GR-CPU-001, QM
 - **v6** (`DER-QNG-030`) — adds Channel G: sigma_i += k_back × chi_i (chi back-reaction on sigma). Required for Klein-Gordon wave equation: ∂²_t s = v²∇²s - m²s with v²=k_back×chi_rel/6, m²=k_back×delta. Confirmed by QNG-CPU-054 (PASS). **Critical**: Channel G incompatible with stable vortex rings in single-sigma substrate (Gap 7 — k_back stability threshold < 0.0015 vs k_back needed for waves ≥ 0.01). See `DER-QNG-028/030`.
 - **v7** (`DER-QNG-033`) — **two-field substrate** resolving Gap 7: `(sigma_g, sigma_m, chi, phi)` per node. sigma_g hosts Channel G (KG waves); sigma_m hosts Channel F (vortex rings), NO Channel G. Coupling: `sigma_g -= k_gm*(sigma_m_ref - sigma_m)` (MINUS sign — matter depletion sources attractive potential). chi couples to sigma_g only (or also sigma_m via DELTA_m, see CPU-065). **Stability constraint**: `K_BACK*DELTA < ALPHA + CHI_DECAY*(1-ALPHA)` (DER-QNG-034) — requires CHI_DECAY ≥ 0.020 at current parameters (was 0.005 — causes Jeans instability). See `qng-gap8-stability-analysis-v1.md`.
 - **v7-symmetric** — v7 plus back-reaction term: `sigma_m_i += k_gm*(sigma_g_i - sigma_g_ref)`. Required for rings to fall into gravitational wells (confirmed CPU-073 PASS). Not yet promoted to official DER-QNG-033 revision; currently only in `qng_back_reaction_reference.py`.
+- **v8** (`DER-QNG-042`) — **canonical extension** adding conjugate momenta: `(sigma_m, pi_m)` and `(phi, pi_phi)` get kinetic terms T_m + T_phi. Full Hamiltonian: `H_v8 = T_g + T_m + T_phi + E_v8`. Resolves `NOTE-QNG-013` (Lorentz), `NOTE-QNG-014` (action principle), and Gap 8 simultaneously. **Canonical V_couple**: `(g/2)·(SIGMA_M_REF - sigma_m)²·(1 - cos phi)` — Yukawa phi-mass via `DER-QNG-041` (g labeled Gap 9 EFT). **Effective inertias**: `mu_m=10.0`, `mu_phi=0.857` — derived from `c_g = c_m = c_phi` matching condition (`DER-QNG-042-prereqs §3.3`). **Consequence**: rings become dynamic patterns, not static solitons — the conserved `M_ring` from CPU-074 is a topological charge, not a rest mass. Einstein correspondence suite: `DER-QNG-044`.
 
 **Key conventions (established in Newtonian limit program):**
 - **GRAV-C1**: Newtonian potential Φ ∝ δ_C (deviation of C_eff from reference), NOT ∝ ∇²C_eff. Biharmonic identification is wrong. See `qng-geometry-estimator-v1.md` correction section.
@@ -174,6 +180,7 @@ Any file using unlabeled `chi` or `Sigma` must be flagged as containing unresolv
   - **Back-reaction confirmed** (CPU-073, PASS): v7-symmetric extra_drift = 1.01 lu; sigma_m is overdamped (terminal velocity, not free-fall)
   - **G formulas reconciled** (DER-QNG-037): CC condition k_gm = β_g × α_g; k_gm fine-tuning = Gap 5
   - **Hopfion program** (CPU-066..072): Hopfion Q=1 topology tested vs vortex ring Q=0 in v7 substrate; gravitational sigma_g profile measured; K_GM scan for gravitational signal strength
+  - **DER-QNG-044 Einstein correspondence** (2026-04-20): six probes consolidated against Einstein-era gravitational physics. Results: KG dispersion PASS (ω² = c_φ²k² + m² verified <2% across k∈{0,π/2}); Shapiro 1919-analog PASS (+26 lu delay through ring core, +39% vs vacuum); anisotropy 120% measured (scalar prediction 1.31 → 3.06× excess → genuine tensorial/kinetic-mode coupling); far-field 1/b falloff RULED OUT (ratio 0.96 vs 2.0); E=mc² FAIL (rings are dynamic patterns, not static solitons); WEP + Pound-Rebka INCONCLUSIVE. **Tesla U(1) gauge FALSIFIED**: v8 has only Z winding symmetry; V_couple is sine-Gordon (explicit U(1)→Z breaking); chi is NOT a gauge connection.
   - **Mass identification COMPLETE** (DER-QNG-038, CPU-074/075 PASS):
     - Canonical M_ring at T_P2=1000 (CPU-074): R=3:474.15, R=4:728.92, R=5:954.88
     - **M_ring is exactly conserved under Phase-3 diffusion** (ratio 1.000x — pure conservation law)
@@ -195,9 +202,15 @@ Any file using unlabeled `chi` or `Sigma` must be flagged as containing unresolv
 - **Gap 8 (chi global instability)**: **RESOLVED** (2026-04-08) via CHI_DECAY=0.020 (DER-QNG-034 Fix B). K_GM sign bug also fixed: must be `-=` not `+=`.
 
 **Structural gaps:**
-- **Lorentz covariance** (`NOTE-QNG-013`): synchronous update = preferred foliation; parabolic dynamics, not hyperbolic. Conservative limit H = T + E is the candidate. **Most important open structural gap.**
-- **Action principle** (`NOTE-QNG-014`): H_v7 = T_g + E_v7 constructed (DER-QNG-036); gradient flow of E_v7 gives all channels; but gradient flow is dissipative. Full action requires conservative limit with T_m[pi_m] (v8 program).
+- **Lorentz covariance** (`NOTE-QNG-013`): **substantially resolved** (2026-04-19) via `DER-QNG-043` + `QNG-GPU-012 v3`. v7+v8 makes all three sectors hyperbolic; μ_m=10.0, μ_phi=0.857 derived from c_g=c_m=c_phi (DER-QNG-042-prereqs §3.3); GPU-012 v3 symplectic run PASSED G1/G2/G3 on L=32³ (spread 0.41% σ_g/σ_m, 1.64% φ; cross-sector 0.82%; amplitude spread 0.00% across 25×). Items (ii) dispersion isotropy and (iii) non-linear corrections **numerically closed**. Only item (i) ring-interior c_φ (Unruh acoustic-metric analogue) remains — scope phenomenology (CPU-077), not theory-gap.
+- **Action principle** (`NOTE-QNG-014`): **resolved for v8** via `DER-QNG-042`: H_v8 = T_g + T_m + T_phi + E_v8 is fully conservative with three kinetic terms; gradient-flow dissipation replaced by symplectic evolution (Yoshida4). H_v7 = T_g + E_v7 (DER-QNG-036) remains the gradient-flow predecessor.
 - **Spin from ring radius**: the baryon resonance identification (DER-QNG-038) shows R encodes JP and I, but the QNG derivation of these quantum numbers from ring geometry is open.
+
+**Falsified / retracted candidates:**
+- **DER-QNG-040** V(sigma_m) as rest-mass source — **FALSIFIED** (GPU-018 FAIL_H3_STRUCTURAL): Goldstone theorem forbids a sigma_m-only cure; phi Goldstone mode remains massless regardless of V(sigma_m) shape.
+- **DER-QNG-041** Yukawa phi-mass via `sigma_g·(1-cos phi)` — **falsified as sole cure** (GPU-019 halted at g=0.08 with 3/5 FAIL); retained in v8 as part of V_couple via DER-QNG-042.
+- **Tesla U(1) gauge interpretation** — **FALSIFIED** (DER-QNG-044 Tesla probe): v8 has only Z winding symmetry; V_couple is sine-Gordon (explicit U(1)→Z breaking); chi is not a gauge connection.
+- **Einstein 1911 1/b Shapiro falloff** — **RULED OUT** (DER-QNG-044 far-field probe): ratio 0.96 vs predicted 2.0 for 1/b. Consistent with GR log(b) or saturation.
 
 ## Visualization Scripts (`scripts/`)
 
@@ -229,6 +242,9 @@ Generated assets already in `scripts/`: `ether_ring_preview.png`, `ether_two_rin
 - **Three-phase protocol** (CPU-073/074/075): Phase 1 (300 steps, no Channel F/G) → phi vortex forms. Phase 2 (1500 steps, Channel F active, CHI_DECAY=0.020) → ring forms. Phase 3 (optional 1000 conservative steps: no A, no F, no chi_decay) → mass measurement. **Canonical M_ring is the T_P2=1000 snapshot** (not Phase-3 end, which is identical due to exact conservation).
 - **M_ring conservation**: Under Phase-3 dynamics (pure diffusion, no Channel A or F), sum(sigma_m) is exactly conserved on the periodic lattice (Laplacian sums to zero). M_ring = N×sigma_m_ref - sum(sigma_m) is therefore constant. Phase-3 adds no new information beyond the T_P2 snapshot.
 - **sigma_m overdamped**: In v7, sigma_m has no kinetic term T_m — it is in gradient-flow (overdamped) regime. Ring drift in a gravitational well is TERMINAL VELOCITY (drift rate constant), not free-fall (accelerating). True F=ma requires v8 with conjugate momentum pi_m.
-- **Windows console encoding**: avoid Unicode symbols (Δ, ↔, ×) in print() statements — use ASCII equivalents (D, <->, x) to prevent cp1252 codec errors on Windows terminals.
+- **v8 symplectic integrator**: use `yoshida4_step` (4th-order symplectic) from `tests/gpu/qng_v8_canonical_gpu.py`. Unlike v7 gradient flow, v8 is time-reversal symmetric and conserves H_v8 to <10⁻³ over T=250 lu. Typical v8 parameters: `BETA_PHI=0.06`, `MU_PHI=0.857`, `G_V_COUPLE=0.22`, `CHI_DECAY_V7=0.020`, `K_BACK=0.10`.
+- **v8 vs v7 equilibria**: rings that were static under v7 gradient flow are dynamic oscillating patterns under v8 symplectic evolution. The topological charge `M_ring = N·sigma_m_ref - sum(sigma_m)` is still conserved, but it is NOT a rest mass (there is no `E = M_ring · c²` for these solitons).
+- **Ring cache**: `form_ring_cached(L, R, T_P1, T_P2)` in `tests/gpu/qng_v8_ring_cache.py` memoizes Phase 1+2 rings by parameter hash under `07_validation/audits/qng-v8-stability-probe-v1/ring_cache/`. Reuse across Shapiro / bending / anisotropy probes to save ~10 min per test.
+- **Windows console encoding**: avoid Unicode symbols (Δ, ↔, ×, σ, φ, α, ω, etc.) in print() statements — use ASCII equivalents (D, <->, x, sigma, phi, alpha, omega) to prevent cp1252 codec errors on Windows terminals.
 
 Avoid red flags documented in `04_qng_pure/qng-red-flags-v1.md` (legacy mistakes to not repeat).

@@ -1,0 +1,22 @@
+================================================================================
+GPU-034: L-scan probe  L=20, R=4
+================================================================================
+  T_P1=300.0, T_P2=1000.0, T_run=2000.0, DT=0.025
+  audit: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-L-scan-R4-L20-v1
+  [ring-cache HIT ] ring_L20_R4_P1_300_P2_1000_03a708beb22b.npz
+  Ring loaded from cache, M_ring=923.16
+  Ring formation: 0.2s
+  Initial M_ring = 923.16
+  Run: 967.5s (201 samples)
+
+  ===== Results L=20 R=4 =====
+  N_warm samples = 150
+  <H>      =       -64.21
+  <T_kin>  =       121.20
+  E_char   = 2<T> - <H>  =       306.60
+  <M_ring> =       698.29
+  E_char/N = 0.038325 (intensive per node)
+  E_char/L^3 = 0.038325
+  E_char/L^2 = 0.766509
+  E_char/L   = 15.330182
+  H/N      = -0.008027

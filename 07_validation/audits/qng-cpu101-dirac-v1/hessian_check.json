@@ -1,0 +1,67 @@
+{
+  "test_id": "QNG-CPU-101",
+  "verdict": "DIRAC-NO-CONSTRAINT",
+  "parameters": {
+    "K_BACK": 0.1,
+    "MU_M": 10.0,
+    "MU_PHI": 0.857
+  },
+  "site_hessian_eigvals": [
+    0.857,
+    10.0,
+    10.0
+  ],
+  "site_hessian_det": 85.7,
+  "site_hessian_condition": 0.0857,
+  "gate_threshold": 1e-10,
+  "lattice_N": 8000,
+  "full_Hessian_DoF": 24000,
+  "continuous_symmetries": {
+    "time_translation": true,
+    "spatial_translations_xyz": true,
+    "global_phi_U1": false,
+    "global_sigma_U1": false,
+    "count": 4
+  },
+  "primary_constraints": 0,
+  "secondary_constraints": 0,
+  "hbar_from_dirac": false,
+  "per_R_kinetic_wellness": {
+    "3": {
+      "T_m_mean": 2.7338210162934593,
+      "T_m_min": 1.3266361711034595,
+      "T_m_max": 3.660861014329595,
+      "T_phi_mean": 4.4005411400123124,
+      "T_phi_min": 3.589970646334622,
+      "T_phi_max": 7.287284830085591,
+      "T_m_always_nonneg": true,
+      "T_phi_always_nonneg": true,
+      "T_m_always_finite": true,
+      "T_phi_always_finite": true
+    },
+    "4": {
+      "T_m_mean": 3.0359944639788883,
+      "T_m_min": 1.5542721619806497,
+      "T_m_max": 3.982250314480577,
+      "T_phi_mean": 4.5809833543629574,
+      "T_phi_min": 3.6853104401216097,
+      "T_phi_max": 7.19339760546282,
+      "T_m_always_nonneg": true,
+      "T_phi_always_nonneg": true,
+      "T_m_always_finite": true,
+      "T_phi_always_finite": true
+    },
+    "5": {
+      "T_m_mean": 3.1942627544036366,
+      "T_m_min": 1.842410559175794,
+      "T_m_max": 4.082922594547083,
+      "T_phi_mean": 4.998524887308024,
+      "T_phi_min": 4.2323461606826385,
+      "T_phi_max": 7.178481505067078,
+      "T_m_always_nonneg": true,
+      "T_phi_always_nonneg": true,
+      "T_m_always_finite": true,
+      "T_phi_always_finite": true
+    }
+  }
+}

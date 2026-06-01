@@ -1,0 +1,47 @@
+================================================================================
+Einstein C1: cached ring R=4 phi spectrum peek
+================================================================================
+  L=28, R=4, P1=300.0, P2=1000.0
+  Perturb phi += 0.02*randn(N), freeze sigma_m
+  T_run=1000.0 lu, DT=0.025, sample every 1.0 lu
+  [ring-cache HIT ] ring_L28_R4_P1_300_P2_1000_9218625ef1cb.npz
+  Ring loaded from cache, M_ring=176.85
+  Ring loaded/formed in 0.2s
+  sigma_m cached: min=0.2290 (ring core), max=0.7661
+  m^2_core = 0.00942,  T_core predicted = 64.72 lu
+  Sample points: [(18, 14, 14), (14, 18, 14), (10, 14, 14), (14, 10, 14), (13, 13, 13)]
+    10% done  elapsed=102s  eta=914s
+    20% done  elapsed=202s  eta=810s
+    30% done  elapsed=303s  eta=708s
+    40% done  elapsed=404s  eta=606s
+    50% done  elapsed=505s  eta=505s
+    60% done  elapsed=606s  eta=404s
+    70% done  elapsed=707s  eta=303s
+    80% done  elapsed=808s  eta=202s
+    90% done  elapsed=909s  eta=101s
+    100% done  elapsed=1010s  eta=0s
+  Evolution: 1010.2s, H drift = 4.12e-09
+
+================================================================================
+SPECTRAL PEAKS (omega, T_lu, relative power)
+================================================================================
+  theta=0deg:
+    omega=0.03766  T=166.83 lu  power=0.420
+    omega=0.05022  T=125.12 lu  power=0.156
+    omega=0.06905  T=91.00 lu  power=0.128
+  theta=90deg:
+    omega=0.03766  T=166.83 lu  power=0.420
+    omega=0.05022  T=125.12 lu  power=0.156
+    omega=0.06905  T=91.00 lu  power=0.127
+  theta=180deg:
+    omega=0.03766  T=166.83 lu  power=0.421
+    omega=0.05022  T=125.12 lu  power=0.155
+    omega=0.06905  T=91.00 lu  power=0.128
+  theta=270deg:
+    omega=0.03766  T=166.83 lu  power=0.419
+    omega=0.05022  T=125.12 lu  power=0.155
+    omega=0.06905  T=91.00 lu  power=0.128
+  center:
+    omega=0.03766  T=166.83 lu  power=0.375
+    omega=0.05022  T=125.12 lu  power=0.129
+    omega=0.06905  T=91.00 lu  power=0.118

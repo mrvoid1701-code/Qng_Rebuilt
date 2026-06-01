@@ -1,0 +1,68 @@
+================================================================================
+Einstein test #3: BENDING ANGLE (1911 vs 1915)
+  THE decisive test per Einstein himself
+================================================================================
+  L=28  R=4  T_track=250.0 lu  DT=0.025
+  c_phi = 0.10801
+  Source x=4.0  Detect x=24.0  path=20.0
+  Pulse: sigma=2.0  k=0.785  A=0.05
+
+[0] Load cached ring L=28 R=4
+  [ring-cache HIT ] ring_L28_R4_P1_300_P2_1000_9218625ef1cb.npz
+  Ring loaded from cache, M_ring=176.85
+    ring loaded, M_ring = 176.85
+
+--- b = 3  (pulse y = 17.0) ---
+    evolved vac b=3: 10000 steps (387.7s)
+    vac   peak at t=70.00  amp=0.0350  y_centroid=17.0000
+    evolved ring_only b=3: 10000 steps (363.6s)
+    evolved ring+pulse b=3: 10000 steps (387.2s)
+    ring  peak at t=95.00  amp=0.0392  y_centroid=16.9327
+    -> Dy = -0.0673 nodes   alpha_meas = -3.3658e-03 rad
+
+--- b = 4  (pulse y = 18.0) ---
+    evolved vac b=4: 10000 steps (388.8s)
+    vac   peak at t=70.00  amp=0.0350  y_centroid=18.0000
+    evolved ring_only b=4: 10000 steps (389.1s)
+    evolved ring+pulse b=4: 10000 steps (393.8s)
+    ring  peak at t=95.00  amp=0.0395  y_centroid=17.7654
+    -> Dy = -0.2346 nodes   alpha_meas = -1.1728e-02 rad
+
+--- b = 6  (pulse y = 20.0) ---
+    evolved vac b=6: 10000 steps (392.4s)
+    vac   peak at t=70.00  amp=0.0349  y_centroid=19.9998
+    evolved ring_only b=6: 10000 steps (392.4s)
+    evolved ring+pulse b=6: 10000 steps (393.3s)
+    ring  peak at t=96.00  amp=0.0403  y_centroid=19.2596
+    -> Dy = -0.7402 nodes   alpha_meas = -3.7010e-02 rad
+
+--- b = 8  (pulse y = 22.0) ---
+    evolved vac b=8: 10000 steps (459.4s)
+    vac   peak at t=70.00  amp=0.0349  y_centroid=21.6546
+    evolved ring_only b=8: 10000 steps (578.8s)
+    evolved ring+pulse b=8: 10000 steps (578.8s)
+    ring  peak at t=97.00  amp=0.0406  y_centroid=20.8110
+    -> Dy = -0.8436 nodes   alpha_meas = -4.2179e-02 rad
+
+================================================================================
+BENDING RESULTS
+================================================================================
+   b     Dy (nodes)       alpha_meas       alpha_1911      ratio         verdict
+--------------------------------------------------------------------------------
+   3       -0.06732     -3.36577e-03     +7.63000e-01     -0.004            NULL
+   4       -0.23455     -1.17276e-02     -5.65000e-01     +0.021            NULL
+   6       -0.74021     -3.70104e-02     -2.86000e-01     +0.129         NEITHER
+   8       -0.84357     -4.21786e-02     -4.12000e+00     +0.010            NULL
+
+  Signals saved to C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-stability-probe-v1\bending_probe_signals.npz
+
+================================================================================
+OVERALL VERDICT
+================================================================================
+BENDING DETECTED: max |Dy| = 0.8436 nodes over 20-node path
+  -> alpha_max = 4.2179e-02 rad
+
+  Compare per-b ratio in table above:
+    ratio ~ 1.0  -> 1911 dead-end (scalar-c gravity)
+    ratio ~ 2.0  -> GR 1915 (metric curvature, Eddington)
+    ratio ~ other-> genuinely new physics

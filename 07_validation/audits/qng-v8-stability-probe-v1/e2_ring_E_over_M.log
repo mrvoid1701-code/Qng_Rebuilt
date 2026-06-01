@@ -1,0 +1,52 @@
+================================================================================
+Einstein test #2: E_ring / M_ring (DER-QNG-042 E^2)
+================================================================================
+  g=0.22  mu_phi=0.8571  BETA_PHI=0.06
+
+[Vacuum reference] L=24
+  H_vacuum = 0.000000e+00  (T_g=0.000e+00  V_cp=0.000e+00)
+
+[Ring formation] L=24, R=4, Phase1=300lu, Phase2=500lu
+  Phase 1 done (12000 steps, 158.5s)
+    P2 100/500  M=54.15  R=8.55
+    P2 200/500  M=287.91  R=9.34
+    P2 300/500  M=681.53  R=9.69
+    P2 400/500  M=356.08  R=10.86
+    P2 500/500  M=489.24  R=9.81
+  Phase 2 done (20000 steps, 303.3s)
+
+[Ring Hamiltonian breakdown]
+  T_g        =       0.0000   (chi kinetic)
+  T_m        =       3.2568   (pi_m kinetic)
+  T_phi      =      13.0952   (pi_phi kinetic)
+  E_A_g      =       0.0000   (sigma_g -> ref)
+  E_A_m      =       0.2523   (sigma_m -> ref)
+  E_B_g      =       0.0000   (sigma_g smoothness)
+  E_B_m      =       2.7311   (sigma_m smoothness)
+  V_cp       =       0.9853   (E^2 mass term)
+  H_total    =      20.3206
+
+  M_ring (CPU-074) = 489.2361
+  R_measured       = 9.8130
+
+================================================================================
+EINSTEIN E=mc^2 CHECK
+================================================================================
+  E_ring (above vacuum) = 20.3206
+  M_ring                = 489.2361
+  ratio E/M := c_eff^2  = 0.04154
+
+Reference 'speed-of-light squared' candidates in QNG units:
+  c_phi^2  = BETA_PHI / (6 mu_phi)   = 0.01167
+  c_m^2    = BETA_M / (6 mu_m)       = 0.00583
+  c_g^2    = K_BACK * BETA_G / 6     = 0.00583
+
+Component shares (fraction of H above vacuum):
+     T_g:       0.0000   (  0.00%)
+     T_m:       3.2568   ( 16.03%)
+   T_phi:      13.0952   ( 64.44%)
+   E_A_g:       0.0000   (  0.00%)
+   E_A_m:       0.2523   (  1.24%)
+   E_B_g:       0.0000   (  0.00%)
+   E_B_m:       2.7311   ( 13.44%)
+    V_cp:       0.9853   (  4.85%)

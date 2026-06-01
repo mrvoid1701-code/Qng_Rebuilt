@@ -1,0 +1,41 @@
+================================================================================
+QNG-GPU-031e: ring formation under DER-QNG-051 Option R1 (pure XY)
+================================================================================
+
+  L=20, R=4, T_P1=300.0, T_P2=1000.0, DT=0.025
+  n1=12000, n2=40000, total 52000 Yoshida4 steps
+  exact_a='r1' (pure XY, no sigma_m weights in E_phi)
+  CPU-074 R=4 canonical (approx) M_ring = 728.92
+
+  [Phase 1] v_couple_on=False, exact_a='r1'
+    init:  M_ring=+0.000  H=-226.411
+    t= 100.0  M= +411.859  H=   -226.58  sm=[0.342,0.653]  T_m=   0.872 T_phi=   2.742
+    t= 200.0  M= +449.344  H=   -225.80  sm=[0.008,0.925]  T_m=   1.519 T_phi=   3.931
+    t= 300.0  M=  +36.014  H=   -224.83  sm=[0.295,0.713]  T_m=   1.755 T_phi=   4.021
+    end P1: M_ring=+36.014  wall=108.6s
+
+  [Phase 2] v_couple_on=True, exact_a='r1'
+    t= 100.0  M=  -97.732  H=   -224.83  sm=[0.252,0.851]  T_m=   1.649 T_phi=   6.706
+    t= 200.0  M= +686.376  H=   -224.83  sm=[0.094,0.722]  T_m=   2.069 T_phi=   5.211
+    t= 300.0  M=  -84.094  H=   -224.83  sm=[0.162,0.796]  T_m=   2.051 T_phi=   5.084
+    t= 400.0  M= +423.573  H=   -224.83  sm=[0.098,0.774]  T_m=   2.506 T_phi=   4.639
+    t= 500.0  M= +497.712  H=   -224.83  sm=[0.115,0.712]  T_m=   2.670 T_phi=   4.428
+    t= 600.0  M=  -21.792  H=   -224.83  sm=[0.206,0.793]  T_m=   3.148 T_phi=   5.079
+    t= 700.0  M= +569.456  H=   -224.83  sm=[0.102,0.707]  T_m=   2.869 T_phi=   5.114
+    t= 800.0  M= +391.206  H=   -224.83  sm=[0.136,0.749]  T_m=   3.152 T_phi=   4.822
+    t= 900.0  M=  +82.741  H=   -224.85  sm=[0.162,0.772]  T_m=   2.969 T_phi=   5.232
+    t=1000.0  M= +656.644  H=   -224.85  sm=[0.159,0.804]  T_m=   3.200 T_phi=   4.909
+
+================================================================================
+RESULT
+================================================================================
+  End-of-run M_ring       = +656.644
+  End-of-run H            = -224.851
+  CPU-074 approx baseline = 728.920
+  Relative diff vs CPU-074: -9.92%
+
+  Verdict: H_R1_RING_UNSTABLE
+  Diagnosis: Ring forms but M_ring drifts 202.1% over last 500 lu; no stable equilibrium under R1.
+
+  Report:      C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-r1-ring-formation-v1\report.json
+  Final state: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-r1-ring-formation-v1\final_state.npz

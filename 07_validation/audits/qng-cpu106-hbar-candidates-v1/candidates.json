@@ -1,0 +1,17 @@
+{
+  "beta_phi": 0.06,
+  "mu_phi": 0.857,
+  "beta_g": 0.35,
+  "z": 6,
+  "c_phi_squared": 0.011668611435239208,
+  "c_phi": 0.10802134712749702,
+  "G_QNG": 0.05833333333333333,
+  "omega_XY_single_site": 0.264597181790425,
+  "omega_orb": 0.0346,
+  "omega_mean_BZ": 0.6317534520178569,
+  "omega_rms_BZ": 0.6481284068292665,
+  "hbar_cand_zero_point_balance": 0.09497375884272027,
+  "hbar_cand_virial": 0.10890813798682149,
+  "hbar_cand_Planck_ansatz": 0.021607870737288957,
+  "hbar_upper_bound": 0.09497375884272027
+}

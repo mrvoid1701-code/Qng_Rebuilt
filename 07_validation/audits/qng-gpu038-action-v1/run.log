@@ -1,0 +1,46 @@
+================================================================================
+QNG-CPU-082-beta: action analysis on GPU-038 orbital traces
+================================================================================
+  Loaded traces.npz
+  Available keys: ['times', 'M_ring', 'H', 'T_g', 'T_m', 'T_phi', 'V_couple', 'com_x', 'com_y', 'com_z', 'r_eff', 'Lz_phi', 'phi_winding']
+  N samples = 201,  t_range = [0.0, 2000.0] lu
+  H mean = -617.921,  std = 0.145
+  M_ring mean = 761.69,  std = 545.13
+
+  Kinetic/Potential split (post-burn):
+    <T_kin> = 20.676
+    <V_pot> = -638.647
+    <L=T-V> = 659.322
+
+  M_ring oscillation:
+    Primary period = 187.50 lu  (omega = 0.0335)
+    Peak 1: f=0.00533  T=187.50 lu  power=1.06e+09
+    Peak 2: f=0.00867  T=115.38 lu  power=5.06e+07
+    Peak 3: f=0.00267  T=375.00 lu  power=4.28e+07
+
+  Cycles available (T=187.5 lu): 7
+  cycle 1: t in [510.0, 697.5]  S = 118731.863
+  cycle 2: t in [697.5, 885.0]  S = 118709.768
+  cycle 3: t in [885.0, 1072.5]  S = 118696.436
+  cycle 4: t in [1072.5, 1260.0]  S = 118687.775
+  cycle 5: t in [1260.0, 1447.5]  S = 118680.857
+  cycle 6: t in [1447.5, 1635.0]  S = 118652.923
+  cycle 7: t in [1635.0, 1822.5]  S = 118670.613
+
+================================================================================
+ACTION STATISTICS
+================================================================================
+  <S>    = 118690.034  (lattice units, lu)
+  std(S) = 23.976
+  |std/mean| = 0.000
+
+  Bohr-Sommerfeld candidate h-scales:
+    n=0:  h_candidate = S/(2*pi*0.5) = 37780.211
+    n=1:  h_candidate = S/(2*pi*1.5) = 12593.404
+    n=2:  h_candidate = S/(2*pi*2.5) = 7556.042
+    n=3:  h_candidate = S/(2*pi*3.5) = 5397.173
+
+  VERDICT: CLASSICAL_ACTION_INVARIANT
+  Action invariant to <5% across cycles — Bohr-Sommerfeld quantization viable
+
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-gpu038-action-v1\report.json

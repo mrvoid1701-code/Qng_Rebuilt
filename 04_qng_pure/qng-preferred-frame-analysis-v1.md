@@ -2,9 +2,30 @@
 
 Type: `note`
 ID: `NOTE-QNG-013`
-Status: `draft`
+Status: `partially resolved` (2026-04-19 — see DER-QNG-043)
 Author: `C.D Gabriel`
-Date: `2026-04-06`
+Date: `2026-04-06` (original), `2026-04-19` (status update)
+
+**2026-04-19 UPDATE (v2)**: Emergent Lorentz covariance at linear
+order is now NUMERICALLY CONFIRMED on z=6 cubic lattice L=32³.
+
+- Hyperbolic-equation gap (Steps 2, 5): closed by v7 (DER-QNG-036,
+  CPU-054 for σ_g) + v8 canonical extension (DER-QNG-042 for σ_m, φ).
+- Wave-speed equality `c_g = c_m = c_phi`: established in
+  DER-QNG-042-prereqs §3.3 by derivation of μ_m = 10.0, μ_phi = 0.857.
+- **QNG-GPU-012 v3 (symplectic leapfrog)**: all three gates PASS.
+  G1 dispersion R² ≥ 0.9995 on 27 points. G2 direction isotropy
+  spread 0.41 % (σ_g, σ_m), 1.64 % (φ). G3 cross-sector cone
+  spread 0.82 %. Amplitude scan 0.00 % spread across 25× dynamic
+  range in all three sectors.
+
+Result: items (ii) dispersion isotropy and (iii) non-linear
+corrections are DISCHARGED at the linear-perturbation level.
+Only item (i) `c_φ` ring-interior inhomogeneity remains open as a
+structural feature (Unruh analogue — emergent acoustic metric for φ).
+See `qng-lorentz-emergent-v1.md` (DER-QNG-043) §3b for numerical
+detail and Result table for the updated status of every claim in
+this note.
 
 ## Objective
 

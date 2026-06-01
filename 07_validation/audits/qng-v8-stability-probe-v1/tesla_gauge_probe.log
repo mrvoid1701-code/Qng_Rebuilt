@@ -1,0 +1,37 @@
+================================================================================
+Tesla gauge-invariance probe (U(1) symmetry test)
+================================================================================
+  K_BACK=0.1  CHI_DECAY=0.02
+  Hypothesis: psi_m = sm*exp(i*phi); phi -> phi + alpha(x,t),
+              chi -> chi - d_t alpha / K_BACK.
+
+[1] Forming ring L=20, R=4 (P1=300, P2=500 lu) ...
+  Ring formation done (32000 steps, 375.7s)
+  Post-P2 state: M_ring=356.5096  H=12.6581
+
+[2] Baseline evolution (+200 lu, no gauge) ...
+    wall=100.0s
+    baseline_evolved: M=398.6124  H=16.5192
+
+[3] Gauge cases (4 runs, +200 lu each)
+case                                                 dM/M         dH/H    dsm_rms  verdict
+------------------------------------------------------------------------------------------
+B: alpha = 2*pi (trivial)                         0.0000%      0.0000%   4.11e-15  INVARIANT  (97.5s)
+C: alpha = 0.5 (rigid global)                   -14.2072%     17.4289%   1.16e-01  BROKEN     (139.8s)
+D: alpha = 0.5*cos(2pi x/L) (local spatial)      29.7237%      6.0037%   6.28e-02  BROKEN     (167.0s)
+E: alpha(t) = 0.5*sin(0.1 t), d_t alpha(0)=0.05      0.0000%      4.0521%   0.00e+00  BROKEN     (166.9s)
+
+================================================================================
+VERDICT
+================================================================================
+V_COUPLE EXPLICITLY BREAKS U(1). Tesla hypothesis FALSIFIED for v8.
+  -> V_couple = (g/2)*deficit^2*(1-cos phi) is not gauge covariant.
+  -> Only trivial winding alpha=2*pi*n preserves the action.
+  -> Fix would require replacing V_couple with |psi|^2-only potentials
+     plus cavity quantization for mass generation.
+
+Observables (reference):
+  H_ref (pre-gauge)           = 12.6581
+  M_ref (pre-gauge)           = 356.5096
+  H_baseline (+200 lu)          = 16.5192
+  M_baseline (+200 lu)          = 398.6124

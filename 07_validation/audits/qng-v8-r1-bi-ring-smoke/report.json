@@ -1,0 +1,45 @@
+{
+  "L": 24,
+  "R": 4,
+  "d": 6,
+  "same_chirality": false,
+  "chirality_tag": "W+W-",
+  "T_P1": 300.0,
+  "T_P2": 100.0,
+  "DT": 0.025,
+  "exact_a_mode": "r1",
+  "gpu_031f_r4_mean_single": 309.45,
+  "unbound_prediction": 618.9,
+  "mean_total_all": 497.3671193066227,
+  "mean_total_second_half": 698.04670397526,
+  "delta_all": -121.53288069337725,
+  "delta_second_half": 79.14670397526004,
+  "frac_total": -0.19636917223037204,
+  "frac_second_half": 0.12788286310431418,
+  "verdict": "INCONCLUSIVE_NOT_CONVERGED",
+  "stats": {
+    "n_samples": 100,
+    "dt_sample": 1.0,
+    "mean_all": 497.3671193066227,
+    "std_all": 257.19223245008715,
+    "mean_first_half": 296.6875346379854,
+    "mean_second_half": 698.04670397526,
+    "convergence_rel": 0.8069676377015185,
+    "duty_cycle_ring": 0.47,
+    "ring_thresh": 500.0,
+    "dominant_freq": 0.01,
+    "dominant_period_lu": 100.0,
+    "dominant_power_frac": 0.9177018231379357
+  },
+  "p2_h_samples_end": [
+    {
+      "t": 100.0,
+      "H": -370.0667714702266,
+      "sm_min": 0.06589495377977539,
+      "sm_max": 0.740459733220063,
+      "M": 923.1104823960477
+    }
+  ],
+  "wall_p1_s": 134.24457240104675,
+  "wall_p2_s": 67.64941668510437
+}

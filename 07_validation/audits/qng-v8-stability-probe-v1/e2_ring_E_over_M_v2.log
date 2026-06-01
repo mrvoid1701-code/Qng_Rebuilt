@@ -1,0 +1,56 @@
+================================================================================
+Einstein test #2: E_ring / M_ring (DER-QNG-042 E^2)
+================================================================================
+  g=0.22  mu_phi=0.8571  BETA_PHI=0.06
+
+[Vacuum reference] L=24
+  H_vacuum = 0.000000e+00  (T_g=0.000e+00  V_cp=0.000e+00)
+
+[Ring formation] L=24, R=4, P1=300lu, P2=1000lu, P3=300lu(damp)
+  Phase 1 done (12000 steps, 157.1s)
+    P2 200/1000  M=287.91  R=9.34
+    P2 400/1000  M=356.08  R=10.86
+    P2 600/1000  M=95.50  R=11.61
+    P2 800/1000  M=118.02  R=6.95
+    P2 1000/1000  M=207.07  R=10.30
+  Phase 2 done (40000 steps, 533.3s)
+    P3 100/300  gamma=0.1  M=0.50  R=10.19  T_phi=0.027
+    P3 200/300  gamma=0.1  M=0.13  R=8.65  T_phi=0.002
+    P3 300/300  gamma=0.1  M=0.02  R=8.84  T_phi=0.000
+  Phase 3 done (12000 steps, 162.8s)  [rest-frame approach]
+
+[Ring Hamiltonian breakdown]
+  T_g        =       0.0000   (chi kinetic)
+  T_m        =       0.0000   (pi_m kinetic)
+  T_phi      =       0.0004   (pi_phi kinetic)
+  E_A_g      =       0.0000   (sigma_g -> ref)
+  E_A_m      =       0.0000   (sigma_m -> ref)
+  E_B_g      =       0.0000   (sigma_g smoothness)
+  E_B_m      =       0.0000   (sigma_m smoothness)
+  V_cp       =       0.0000   (E^2 mass term)
+  H_total    =       0.0004
+
+  M_ring (CPU-074) = 0.0223
+  R_measured       = 8.8385
+
+================================================================================
+EINSTEIN E=mc^2 CHECK
+================================================================================
+  E_ring (above vacuum) = 0.0004
+  M_ring                = 0.0223
+  ratio E/M := c_eff^2  = 0.01665
+
+Reference 'speed-of-light squared' candidates in QNG units:
+  c_phi^2  = BETA_PHI / (6 mu_phi)   = 0.01167
+  c_m^2    = BETA_M / (6 mu_m)       = 0.00583
+  c_g^2    = K_BACK * BETA_G / 6     = 0.00583
+
+Component shares (fraction of H above vacuum):
+     T_g:       0.0000   (  0.00%)
+     T_m:       0.0000   (  0.00%)
+   T_phi:       0.0004   (100.00%)
+   E_A_g:       0.0000   (  0.00%)
+   E_A_m:       0.0000   (  0.00%)
+   E_B_g:       0.0000   (  0.00%)
+   E_B_m:       0.0000   (  0.00%)
+    V_cp:       0.0000   (  0.00%)

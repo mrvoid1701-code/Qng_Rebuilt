@@ -1,0 +1,47 @@
+================================================================================
+Einstein test #3c: Gravitational redshift (Pound-Rebka 1960 analog)
+================================================================================
+  c_phi   = 0.10801   (phi wave speed in vacuum)
+  c_phi^2 = 0.01167
+  g       = 0.22   mu_phi = 0.8571
+
+[1] Form R=4 ring at L=20 (P1=300, P2=500)
+  Ring formation done (32000 steps, 400.4s) M_ring=356.51
+
+[2] Probe nodes:
+    core:   idx=2609  pos=(9, 10, 6)  deficit=+0.4202
+    vacuum: idx=421  pos=(1, 1, 1)  deficit=+0.0792
+
+    omega_core theory = sqrt((g/2)*def^2/mu) = 0.15053
+    omega_vac  theory                         = 0.02836
+
+[3] Baseline evolution (no kick, T=200.0 lu)
+    evolved baseline: 8000 steps done (103.2s)
+
+[4] Perturbed evolution (pi_phi kick A=1.0 at both nodes, T=200.0)
+    evolved perturbed: 8000 steps done (103.3s)
+
+================================================================================
+RESULTS
+================================================================================
+  Probe signal s(t) = phi_perturbed - phi_baseline
+  Length = 401 samples over 200.0 lu (dt_sample=0.5)
+
+                               core         vacuum
+                 RMS        1.92417        2.08186
+        peak-to-peak        7.20536        8.49743
+      zero crossings             65             64
+     omega(FFT peak)        1.00750        1.00284
+           omega(ZC)        1.02102        1.00531
+        omega theory        0.15053        0.02836
+
+  Ratio omega_core/omega_vac (FFT) = 1.005
+  omega_core error vs theory       = +569.31%
+
+  Signals saved to C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-stability-probe-v1\redshift_probe_signals.npz
+
+================================================================================
+VERDICT
+================================================================================
+WEAK SIGNAL: omega_core = 1.0075, only 1.0x vacuum.
+  -> Effect present but marginal. Run longer T_probe or larger A_kick.

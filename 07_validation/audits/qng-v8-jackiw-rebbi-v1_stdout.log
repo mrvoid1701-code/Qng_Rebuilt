@@ -1,0 +1,33 @@
+================================================================================
+QNG-GPU-035: Einstein Jackiw-Rebbi dispersion test
+================================================================================
+  L=24, phi_amp=0.05, T_run=300.0
+  g=0.22, mu_phi=0.8571
+  Prediction: T(delta) = 2pi/sqrt((g/mu_phi)*delta^2)
+
+  --- deficit=+0.000 (sigma_m=0.500) ---
+    T_pred = inf lu
+    T_meas = no osc detected lu  (n_periods=0)  ratio=+nan
+    H drift frac = 0.00e+00  wall = 201.6s
+
+  --- deficit=+0.100 (sigma_m=0.400) ---
+    T_pred = 124.02 lu
+    T_meas = no osc detected lu  (n_periods=0)  ratio=+nan
+    H drift frac = 1.37e-16  wall = 199.5s
+
+  --- deficit=+0.200 (sigma_m=0.300) ---
+    T_pred = 62.01 lu
+    T_meas = 145.96 lu  (n_periods=1)  ratio=+2.354
+    H drift frac = 1.38e-16  wall = 199.5s
+
+================================================================================
+GATES
+================================================================================
+  G1 (deficit=0, no oscillation): True
+  G2 (deficit=0.1, T within 15% of 124.0 lu): False
+  G3 (deficit=0.2, T within 15% of 62.0 lu): False
+  G4 (T(0.1)/T(0.2) ~ 2): False  (ratio=None)
+
+  VERDICT: JACKIW_REBBI_FAIL
+
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-jackiw-rebbi-v1\report.json

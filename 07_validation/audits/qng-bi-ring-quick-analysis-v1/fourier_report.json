@@ -1,0 +1,30 @@
+{
+  "single_R4": {
+    "dominant_freq": 0.0054,
+    "dominant_period_lu": 185.18518518518516,
+    "dominant_power_frac": 0.409305314567161,
+    "mean_M": 309.4505478411301,
+    "std_M": 423.2540578957835
+  },
+  "bi_d3": {
+    "dominant_freq": 0.006,
+    "dominant_period_lu": 166.66666666666666,
+    "dominant_power_frac": 0.279362367411368,
+    "mean_M": 568.7125294792569,
+    "std_M": 476.44503634354885
+  },
+  "bi_d4": {
+    "dominant_freq": 0.006200000000000001,
+    "dominant_period_lu": 161.29032258064515,
+    "dominant_power_frac": 0.41892282009414095,
+    "mean_M": 523.6159229568273,
+    "std_M": 361.9977158300718
+  },
+  "bi_d6": {
+    "dominant_freq": 0.006200000000000001,
+    "dominant_period_lu": 161.29032258064515,
+    "dominant_power_frac": 0.1881459536729451,
+    "mean_M": 600.629840291448,
+    "std_M": 488.00244345534963
+  }
+}

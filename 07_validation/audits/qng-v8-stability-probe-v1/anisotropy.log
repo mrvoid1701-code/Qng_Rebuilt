@@ -1,0 +1,49 @@
+================================================================================
+Shapiro anisotropy probe — Einstein's tensorial-signature test
+  (parallel vs transverse to ring axis)
+================================================================================
+  L=28  R=4  T_track=250.0 lu
+  c_phi=0.10801
+
+[0] Load cached ring
+  [ring-cache HIT ] ring_L28_R4_P1_300_P2_1000_9218625ef1cb.npz
+  Ring loaded from cache, M_ring=176.85
+    ring loaded, M_ring=176.85
+
+------------------------------------------------------------
+(T) Transverse geometry  [pulse +x, y=L/2+R, z=L/2]
+------------------------------------------------------------
+    evolved T vacuum: 10000 steps (389.1s)
+    vac  peak t=67.00  amp=0.01295
+    evolved T ring_only: 10000 steps (388.5s)
+    evolved T ring+pulse: 10000 steps (389.5s)
+    ring peak t=93.00  amp=0.01456
+    -> dt = +26.000 lu   (+38.81%)
+
+------------------------------------------------------------
+(P) Parallel geometry    [pulse +z, x=L/2, y=L/2]  (through axis)
+------------------------------------------------------------
+    evolved P vacuum: 10000 steps (390.0s)
+    vac  peak t=67.00  amp=0.01295
+    evolved P ring_only: 10000 steps (347.6s)
+    evolved P ring+pulse: 10000 steps (196.0s)
+    ring peak t=171.00  amp=0.02832
+    -> dt = +104.000 lu   (+155.22%)
+
+================================================================================
+ANISOTROPY RESULTS
+================================================================================
+  dt_Transverse (through rim, +x)        = +26.000 lu
+  dt_Parallel   (through axis, +z)       = +104.000 lu
+  mean |dt|                              = 65.000 lu
+  anisotropy = |dt_T - dt_P| / mean      = 120.00%
+
+================================================================================
+VERDICT
+================================================================================
+TENSORIAL: anisotropy 120.00% >= 20%.
+  -> Ring direction couples to pulse — QUADRUPOLAR signature.
+  -> Consistent with spin-2-like mediator, not pure scalar.
+  -> STRONG evidence AGAINST 1911 dead-end interpretation.
+
+  Signals saved to C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-stability-probe-v1\anisotropy_probe_signals.npz

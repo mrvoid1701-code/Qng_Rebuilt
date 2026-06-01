@@ -1,0 +1,39 @@
+==============================================================================
+ANISOTROPY THEORY ANALYSIS  --  why is parallel 4x transverse?
+==============================================================================
+  c_phi = 0.10802
+  k_pkt = 0.78540
+
+Quantity                                   T (rim, +x)       P (axis, +z)       P/T
+-------------------------------------------------------------------------------------
+  integ deficit (nodes)                        10.1886            11.6650    +1.145
+  integ m^2(x) (lu^-2)                          0.6461             0.8455    +1.309
+  dt_scalar_pred (lu)                           4.8482             6.3448    +1.309
+  integ (d_par phi_bg)^2                        1.1287             0.7812    +0.692
+  integ (d_perp phi_bg)^2                       0.3516             0.9403    +2.675
+
+==============================================================================
+MEASURED vs PREDICTED
+==============================================================================
+  dt_measured  T (transverse) = +26.00 lu
+  dt_measured  P (parallel)   = +104.00 lu
+  dt_measured  P/T ratio       = 4.00
+
+  dt_scalar-theory P/T ratio   = 1.309
+
+  -> Scalar theory does NOT explain the anisotropy.
+     (measured ratio 4.0 vs scalar-theory 1.31,
+      excess factor 3.06x beyond scalar).
+  -> The measured anisotropy requires a direction-dependent
+     coupling -- genuine TENSORIAL (or kinetic-mode-coupling)
+     structure in the pulse-ring interaction.
+
+KINETIC-MODE coupling signatures:
+  |d_along_pulse phi_bg|^2  parallel path = 0.7812
+  |d_along_pulse phi_bg|^2  transverse    = 1.1287
+  ratio 0.69
+
+  Pulse couples to background phi gradient ALONG its direction
+  of propagation (2 nabla(phi_bg) . nabla(phi_p) term).
+  Large kinetic_ratio -> mode conversion / scattering / amplification
+  on axis.  This is a non-scalar, direction-dependent effect.

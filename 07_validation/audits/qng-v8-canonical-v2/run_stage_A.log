@@ -1,0 +1,14 @@
+==============================================================================
+QNG-GPU-020: v8 canonical extension (DER-QNG-042)
+==============================================================================
+Physics parameters (pre-registered):
+  MU_M   = 10.0000
+  MU_PHI = 0.8571
+  M_PHI  = 0.3582    (gate [0.323, 0.395])
+  C_G    = 0.0764
+  g (V_couple) = 0.22
+Integrator: Yoshida 4 at dt=0.025
+Abort thresholds: sigma_g_min=0.025, |dH|/H <= 0.01 per 1000 steps
+Stages: ['A']
+
+--- Stage A (phi_dispersion) ---

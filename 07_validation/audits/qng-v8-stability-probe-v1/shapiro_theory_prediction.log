@@ -1,0 +1,77 @@
+==============================================================================
+QNG v8 CPU prediction -- Shapiro dtt(b) and bending alpha(b)
+  (uses cached L=28 R=4 ring; no GPU needed)
+==============================================================================
+  c_phi  = 0.10802
+  k_pkt  = 0.78540
+  g/2/mu_phi = 0.12835
+
+==============================================================================
+[A] On-rim Shapiro prediction (y = L/2 + R)
+==============================================================================
+  pulse at y=18.0, z=14.0, x in [4,24]
+  integdeficit ds  = 10.189
+  dtt_pred      = 4.848 lu
+  Measured (Test 3b GPU): +26.00 lu
+  Ratio (measured/predicted): 5.36
+  Peak m^2(x):  0.04640
+
+==============================================================================
+[B] Far-field Shapiro prediction (impact parameter scan)
+==============================================================================
+  b        dtt_pred      integdeficit      max m^2(x)
+  b= 4 :       4.848      10.189    4.63985e-02
+  b= 8 :       5.192      10.562    4.68825e-02
+  b=12 :       6.767      12.071    5.90502e-02
+
+  Measured so far: b=4 -> +26.00 lu, b=8 -> +27.00 lu
+  (b=12 still running on GPU)
+
+  Falloff fits (RSS, lower = better):
+    const    RSS = 2.0945
+    log(b)   RSS = 0.4902  coef = [2.40464596 1.61214651]
+    1/b      RSS = 0.7389  coef = [ 7.05256179 -9.49186876]
+    lin(b)   RSS = 0.2530  coef = [3.68327179 0.23989292]
+  Best: lin(b)
+
+  Einstein 1911 prediction: 1/b falloff (sharp cutoff)
+  GR 1915 prediction:       log(b) falloff (slow)
+  If our theory says CONST -> coupling is saturated inside grid
+
+==============================================================================
+[C] On-axis (through ring center) -- pulse crosses full ring diameter
+==============================================================================
+  pulse at y=14.0, z=14.0, x in [4,24]
+  integdeficit ds  = 11.098
+  dtt_pred      = 5.760 lu
+  Peak m^2(x):  0.06318
+
+==============================================================================
+[D] Einstein bending prediction alpha(b)
+==============================================================================
+  H_1911:   alpha  (scalar-c theory)
+  H_GR:     alpha x 2  (metric, Eddington 1919)
+
+     b alpha_1911 (rad)   alpha_GR (rad)    dty at x=20 (nodes)
+  ----------------------------------------------------------------------
+     3     +7.63486e-01     +1.52697e+00            +1.52697e+01
+     4     -5.64788e-01     -1.12958e+00            -1.12958e+01
+     5     +2.03365e-01     +4.06731e-01            +4.06731e+00
+     6     -2.85601e-01     -5.71203e-01            -5.71203e+00
+     8     -4.12065e+00     -8.24130e+00            -8.24130e+01
+    10     -4.74655e+00     -9.49311e+00            -9.49311e+01
+
+  Max predicted |dty| (1911) over 20 nodes: 9.493e+01 nodes
+  -> Detectable. L=28 probe should resolve dty ~ 94.93 nodes.
+
+==============================================================================
+SUMMARY -- what these predictions tell us
+==============================================================================
+  1. Shapiro on-rim prediction vs measurement:
+     pred 4.8 lu  vs  measured 26.0 lu  -> ratio 5.36
+
+  2. Far-field asymptotic:
+     theory predicts 'lin(b)' as best falloff law
+
+  3. Bending feasibility:
+     need path >= 10 nodes to get dty > 0.1

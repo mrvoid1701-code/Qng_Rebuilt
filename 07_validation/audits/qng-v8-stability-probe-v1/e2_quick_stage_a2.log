@@ -1,0 +1,20 @@
+============================================================================
+Quick Stage A2 probe under Option E^2 (DER-QNG-042-A2)
+============================================================================
+  g=0.22  mu_phi=0.8571  SIGMA_M_REF=0.5
+  Theory: omega_core(deficit) = sqrt((g/2) * deficit^2 / mu_phi)
+
+ deficit   sm_val   omega_th   omega_meas    rel_err  zero_cr   wall
+----------------------------------------------------------------------------
+   0.100    0.400     0.0358       0.0365      1.99%       27  23.3s
+   0.200    0.300     0.0716       0.0731      1.99%       27  11.8s
+   0.250    0.250     0.0896       0.0890     -0.61%       34  11.7s
+
+============================================================================
+VERDICT
+============================================================================
+STAGE A2 PASS: omega(deficit) tracks sqrt(g*deficit^2/mu_phi) within 5%.
+  -> E^2 mass-generation confirmed in ring-core-like regions.
+  -> Combined with A1 (vacuum massless): position-dependent mass
+     m_phi^2(x) = g*deficit(x)^2/mu_phi demonstrated.
+  -> Goldstone -> gapped transition realized by deficit field.

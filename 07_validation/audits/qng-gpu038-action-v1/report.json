@@ -1,0 +1,53 @@
+{
+  "traces_source": "C:\\Users\\tigan\\Desktop\\QNG-Theory Release-01\\07_validation\\audits\\qng-v8-particle-probe-v1\\traces.npz",
+  "n_samples": 201,
+  "n_warm": 150,
+  "t_burn_lu": 500.0,
+  "H_mean": -617.9206418783688,
+  "H_std": 0.1449360926964284,
+  "M_ring_mean": 761.692142085937,
+  "M_ring_std": 545.1270122823476,
+  "T_kin_mean": 20.675587491654813,
+  "V_pot_mean": -638.6467352494584,
+  "L_mean": 659.3223227411133,
+  "period_lu": 187.5,
+  "omega": 0.033510321638291124,
+  "top_peaks": [
+    {
+      "freq": 0.005333333333333333,
+      "T_lu": 187.5,
+      "power": 1059141782.0910825
+    },
+    {
+      "freq": 0.008666666666666666,
+      "T_lu": 115.38461538461539,
+      "power": 50587298.26568614
+    },
+    {
+      "freq": 0.0026666666666666666,
+      "T_lu": 375.0,
+      "power": 42756671.79457751
+    }
+  ],
+  "n_cycles_analyzed": 7,
+  "actions_per_cycle": [
+    118731.86320616938,
+    118709.76803600778,
+    118696.43625093401,
+    118687.77459569371,
+    118680.85725967487,
+    118652.92335973088,
+    118670.61260252802
+  ],
+  "S_mean": 118690.0336158198,
+  "S_std": 23.975616344433966,
+  "S_relative": 0.0002020019340633023,
+  "h_candidates": {
+    "0": 37780.21109140189,
+    "1": 12593.403697133965,
+    "2": 7556.042218280379,
+    "3": 5397.173013057413
+  },
+  "verdict": "CLASSICAL_ACTION_INVARIANT",
+  "comment": "Action invariant to <5% across cycles \u2014 Bohr-Sommerfeld quantization viable"
+}

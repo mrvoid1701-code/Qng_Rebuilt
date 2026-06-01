@@ -1,0 +1,63 @@
+================================================================================
+QNG-GPU-021: A-SCAN at fixed (k=3pi/4, b=6)
+  Discriminate O(A^2) back-reaction vs linear amplitude/kinetic
+================================================================================
+  L=28  R=4  T_track=250.0 lu  DT=0.025
+  c_phi = 0.10801   (c_phi^2 = BETA_PHI/(6 mu_phi))
+  Source x=4.0  Detect x=24.0  path=20.0
+  Pulse: sigma=2.0  k=2.3562  lambda=2.67  omega=0.2545
+  b = 6  (FIXED, out-of-core)
+  A_list = [0.025, 0.05, 0.1]
+
+[0] Load cached ring L=28 R=4
+  [ring-cache HIT ] ring_L28_R4_P1_300_P2_1000_9218625ef1cb.npz
+  Ring loaded from cache, M_ring=176.85
+    ring loaded, M_ring = 176.85
+
+[scalar] alpha_scalar_th = -1.4437e-02  (A-independent)
+
+[bg] Ring-only background evolution (A-independent, single run)
+    evolved bg b=6: 10000 steps (196.8s)
+
+=== A = 0.0250 ===
+    evolved vac A=0.025: 10000 steps (196.4s)
+      vac  peak t=155.00  amp=0.0194  y_c=19.9999
+    evolved r+p A=0.025: 10000 steps (195.8s)
+      ring peak t=139.00  amp=0.0295  y_c=20.3608
+      Dy=+0.3609  alpha_meas=+1.8043e-02  alpha_resid=+3.2480e-02
+
+=== A = 0.0500 ===
+    evolved vac A=0.050: 10000 steps (195.9s)
+      vac  peak t=155.00  amp=0.0388  y_c=19.9999
+    evolved r+p A=0.050: 10000 steps (195.8s)
+      ring peak t=139.00  amp=0.0579  y_c=20.3649
+      Dy=+0.3650  alpha_meas=+1.8250e-02  alpha_resid=+3.2687e-02
+
+=== A = 0.1000 ===
+    evolved vac A=0.100: 10000 steps (196.8s)
+      vac  peak t=155.00  amp=0.0776  y_c=19.9999
+    evolved r+p A=0.100: 10000 steps (196.4s)
+      ring peak t=139.00  amp=0.1118  y_c=20.3842
+      Dy=+0.3843  alpha_meas=+1.9214e-02  alpha_resid=+3.3650e-02
+
+==========================================================================================
+A-SCAN BENDING RESULTS
+==========================================================================================
+       A      alpha_meas     alpha_resid   sign
+------------------------------------------------------------------------------------------
+  0.0250     +1.8043e-02     +3.2480e-02      +
+  0.0500     +1.8250e-02     +3.2687e-02      +
+  0.1000     +1.9214e-02     +3.3650e-02      +
+
+  Log-log fit: slope = +0.026   R^2 = 0.8796
+VERDICT: H3_MIXED_LOW_R2
+
+==========================================================================================
+HYPOTHESIS EVALUATION
+==========================================================================================
+  H1 (back-reaction O(A^2)): slope in [1.7, 2.3], R^2 > 0.95
+  H2 (linear/kinetic mode):  slope in [0.7, 1.3], R^2 > 0.95
+  H3 (mixed/saturated):      slope in [1.3, 1.7] or R^2 < 0.95
+  H4 (VOID):                 sign(alpha_meas) flips
+
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-bending-a-scan-v1/report.json

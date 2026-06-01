@@ -1,0 +1,39 @@
+================================================================================
+GPU-039: R-universality probe  R=5
+================================================================================
+  L=28, R=5, P1=300.0, P2=1000.0
+  T_run=2000.0 lu, DT=0.025, sample every 10.0 lu
+  audit: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-particle-probe-R5-v1
+  [ring-cache MISS] forming -> ring_L28_R5_P1_300_P2_1000_64deb3848821.npz
+  Ring formation done (52000 steps, 1349.3s) M_ring=133.74
+  Ring cached to ring_L28_R5_P1_300_P2_1000_64deb3848821.npz (1.0 MB)
+  Initial M_ring = 133.74
+  Initial COM = (13.26, 13.26, 14.37), W_def_initial = 795.88
+    10% done  elapsed=202s  eta=1817s  M_ring=1507.71  H=-587.868
+    20% done  elapsed=404s  eta=1614s  M_ring=142.13  H=-588.065
+    30% done  elapsed=605s  eta=1412s  M_ring=1293.92  H=-588.345
+    40% done  elapsed=807s  eta=1211s  M_ring=942.08  H=-588.934
+    50% done  elapsed=1009s  eta=1009s  M_ring=-210.20  H=-589.514
+    60% done  elapsed=1210s  eta=807s  M_ring=1058.04  H=-590.568
+    70% done  elapsed=1412s  eta=605s  M_ring=990.31  H=-590.842
+    80% done  elapsed=1614s  eta=403s  M_ring=48.84  H=-591.065
+    90% done  elapsed=1815s  eta=202s  M_ring=498.22  H=-591.382
+    100% done  elapsed=2017s  eta=0s  M_ring=1220.41  H=-591.646
+
+================================================================================
+PARTICLE PROPERTIES R=5  (t > 500 lu, wall=2017s)
+================================================================================
+  M_ring        mean=+9.2065e+02  std=5.235e+02  range=[-2.1020e+02,1.9554e+03]
+  H             mean=-5.9022e+02  std=1.102e+00  range=[-5.9165e+02,-5.8819e+02]
+  T_g           mean=+0.0000e+00  std=0.000e+00  range=[0.0000e+00,0.0000e+00]
+  T_m           mean=+1.4035e+01  std=8.081e-01  range=[1.2445e+01,1.6943e+01]
+  T_phi         mean=+2.1049e+01  std=1.019e+00  range=[1.8917e+01,2.4146e+01]
+  V_couple      mean=+2.0184e+00  std=5.284e-01  range=[1.0613e+00,3.5138e+00]
+  r_eff         mean=+1.3784e+01  std=1.057e+00  range=[1.1670e+01,1.5910e+01]
+  Lz_phi        mean=-1.4803e-17  std=2.157e-15  range=[-5.3291e-15,4.6629e-15]
+  phi_winding   mean=+0.0000e+00  std=0.000e+00  range=[0.0000e+00,0.0000e+00]
+  com_x         mean=+1.3438e+01  std=1.222e-01  range=[1.3150e+01,1.3714e+01]
+  com_y         mean=+1.3438e+01  std=1.222e-01  range=[1.3150e+01,1.3714e+01]
+  com_z         mean=+1.3458e+01  std=2.194e+00  range=[7.9782e+00,1.8611e+01]
+
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-particle-probe-R5-v1\report.json

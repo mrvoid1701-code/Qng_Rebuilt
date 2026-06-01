@@ -1,0 +1,27 @@
+SKIP: shapiro_probe_signals.npz not found
+
+================================================================================
+REDSHIFT PROBE SIGNAL ANALYSIS
+================================================================================
+  deficit (core) = 0.4202   (vacuum) = 0.0792
+  omega measured: core=1.00750  vac=1.00284
+  omega theory (core k=0) = sqrt((g/2)def^2/mu) = 0.15053
+  N samples = 401
+
+  Ring signal range: core=[-3.546, 3.660]  vacuum=[-4.264, 4.234]
+  Saturation check: |s_core|_max/2pi = 0.58
+  (values >> 1 means phi wrapped many times — strongly nonlinear)
+
+  After low-pass smoothing (window=10):
+    core RMS = 0.5448
+    vac  RMS = 0.9991
+    core zero-crossings=54  omega_zc=0.8482
+    vac  zero-crossings=31  omega_zc=0.4869
+  core: omega_centroid=1.6964  low_band_frac=3.8%
+  vac: omega_centroid=1.4751  low_band_frac=16.7%
+
+INTERPRETATION:
+  A_kick=1.0 drove phi into strongly nonlinear regime (|phi| > 2pi).
+  Both signals dominated by global collective mode at omega~1.0.
+  Local mass-gap signal buried under global response.
+  Need linear-regime probe: A_kick <= 0.05, or plane-wave probe.

@@ -1,0 +1,64 @@
+{
+  "test_id": "QNG-CPU-098",
+  "date": "2026-04-22",
+  "data_source": "C:\\Users\\tigan\\Desktop\\QNG-Theory Release-01\\07_validation\\audits\\qng-v9a-phase-space-v1",
+  "per_R_n_cycles": {
+    "3": 28,
+    "4": 27,
+    "5": 26
+  },
+  "verdicts": {
+    "S1_P_M_dM_ring": {
+      "status": "V9A-FAIL",
+      "means": {
+        "3": 35.900484386039224,
+        "4": 47.78358835969587,
+        "5": 39.28989257828904
+      },
+      "cvs": {
+        "3": 0.6506234609202671,
+        "4": 0.3722920564340094,
+        "5": 0.3272405848156939
+      },
+      "reason": "within-R CV > 20% at some R (no classical adiabatic invariant)"
+    },
+    "S2_sum_pi_m_dsm": {
+      "status": "V9A-MARGINAL",
+      "means": {
+        "3": 680.8922936575754,
+        "4": 757.2681692617911,
+        "5": 771.3324397160457
+      },
+      "cvs": {
+        "3": 0.17347458031753124,
+        "4": 0.14247832841770783,
+        "5": 0.1589586197527732
+      },
+      "reason": "10% < CV < 20% \u2014 within-R noise too high for clean verdict"
+    },
+    "S3_sum_pi_phi_dphi": {
+      "status": "V9A-FAIL",
+      "means": {
+        "3": 668.492451259068,
+        "4": 657.4714717158565,
+        "5": 650.1163212702825
+      },
+      "cvs": {
+        "3": 0.22066857330853307,
+        "4": 0.12075718538807068,
+        "5": 0.1394516642307157
+      },
+      "reason": "within-R CV > 20% at some R (no classical adiabatic invariant)"
+    },
+    "S4_COM_xy_area": {
+      "status": "V9A-FAIL-INSUFFICIENT-DATA",
+      "means": {
+        "3": 6.156719479471258e-17,
+        "4": 6.245004513516506e-17,
+        "5": -4.483592984063132e-17
+      },
+      "cvs": {}
+    }
+  },
+  "overall_verdict": "V9A-MARGINAL"
+}

@@ -1,0 +1,60 @@
+================================================================================
+QNG-GPU-024b: RING STABILITY DIAGNOSTIC
+  Localize the chaos driver: V_couple, chi_decay, or Channel F
+================================================================================
+  L=28  R=4  T_track=250.0 lu  DT=0.025
+  sample every 10.0 lu (400 steps)
+
+[0] Load cached ring L=28 R=4
+  [ring-cache HIT ] ring_L28_R4_P1_300_P2_1000_9218625ef1cb.npz
+  Ring loaded from cache, M_ring=176.85
+    base cached M_ring = 176.85
+
+=== Config A_control: v_couple_on=True  chi_decay=0.02 ===
+      t=0:  M_ring=176.8505  rms_drift=0.0000e+00
+      t=  50.0: M=1418.9532  rms=2.7741e-01
+      t= 100.0: M=559.8288  rms=2.1978e-01
+      t= 150.0: M=627.2946  rms=2.8036e-01
+      t= 200.0: M=1133.8989  rms=2.5191e-01
+      t= 250.0: M=666.8675  rms=2.5065e-01
+    evolved A_control: 10000 steps (196.2s)
+      summary A_control:
+         M_ring range: [176.8505, 1418.9532]  rel drift 702.346%
+         max RMS drift = 28.529% of SIGMA_M_REF
+
+=== Config B_chi_off: v_couple_on=True  chi_decay=0.0 ===
+      t=0:  M_ring=176.8505  rms_drift=0.0000e+00
+      t=  50.0: M=1418.9532  rms=2.7741e-01
+      t= 100.0: M=559.8288  rms=2.1978e-01
+      t= 150.0: M=627.2946  rms=2.8036e-01
+      t= 200.0: M=1133.8989  rms=2.5191e-01
+      t= 250.0: M=666.8675  rms=2.5065e-01
+    evolved B_chi_off: 10000 steps (196.3s)
+      summary B_chi_off:
+         M_ring range: [176.8505, 1418.9532]  rel drift 702.346%
+         max RMS drift = 28.529% of SIGMA_M_REF
+
+=== Config C_coupling_off: v_couple_on=False  chi_decay=0.0 ===
+      t=0:  M_ring=176.8505  rms_drift=0.0000e+00
+      t=  50.0: M=1251.4106  rms=2.7729e-01
+      t= 100.0: M=715.6455  rms=2.1643e-01
+      t= 150.0: M=531.2757  rms=2.1464e-01
+      t= 200.0: M=148.3686  rms=1.9736e-01
+      t= 250.0: M=332.3443  rms=2.0292e-01
+    evolved C_coupling_off: 10000 steps (193.5s)
+      summary C_coupling_off:
+         M_ring range: [24.9965, 1285.3371]  rel drift 712.659%
+         max RMS drift = 27.972% of SIGMA_M_REF
+
+==========================================================================================
+RING STABILITY DIAGNOSTIC SUMMARY
+==========================================================================================
+          config   v_couple    chi_decay      drift %    max RMS %
+----------------------------------------------------------------------
+       A_control       True       0.0200      702.346       28.529
+       B_chi_off       True       0.0000      702.346       28.529
+  C_coupling_off      False       0.0000      712.659       27.972
+
+VERDICT: H_INTRINSIC
+
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-ring-stability-diag-v1/report.json

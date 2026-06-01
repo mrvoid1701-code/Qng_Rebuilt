@@ -1,0 +1,35 @@
+================================================================================
+QNG-CPU-082: eta fluctuation invariant (program alpha probe)
+================================================================================
+  L=100 (1D periodic), DT=0.025, T_RUN=200.0 lu
+  mu_m=10.0, beta_m=0.4, k_eff=0.04, sigma_ref=0.5
+  eps=0.005 seed=7  <Var(sm)>=1.2748e-05  <Var(pi)>=8.8042e-05  product=1.1223e-09  H_drift=1.98e-10
+  eps=0.005 seed=13  <Var(sm)>=1.8765e-05  <Var(pi)>=1.2389e-04  product=2.3249e-09  H_drift=1.78e-10
+  eps=0.005 seed=31  <Var(sm)>=1.4765e-05  <Var(pi)>=8.1119e-05  product=1.1977e-09  H_drift=1.24e-10
+  eps=0.010 seed=7  <Var(sm)>=5.0991e-05  <Var(pi)>=3.5217e-04  product=1.7957e-08  H_drift=1.98e-10
+  eps=0.010 seed=13  <Var(sm)>=7.5060e-05  <Var(pi)>=4.9558e-04  product=3.7198e-08  H_drift=1.78e-10
+  eps=0.010 seed=31  <Var(sm)>=5.9059e-05  <Var(pi)>=3.2448e-04  product=1.9163e-08  H_drift=1.24e-10
+  eps=0.020 seed=7  <Var(sm)>=2.0396e-04  <Var(pi)>=1.4087e-03  product=2.8732e-07  H_drift=1.98e-10
+  eps=0.020 seed=13  <Var(sm)>=3.0024e-04  <Var(pi)>=1.9823e-03  product=5.9517e-07  H_drift=1.78e-10
+  eps=0.020 seed=31  <Var(sm)>=2.3623e-04  <Var(pi)>=1.2979e-03  product=3.0661e-07  H_drift=1.24e-10
+
+  Total wall: 7.4s
+
+================================================================================
+SUMMARY per eps (average over 3 seeds)
+================================================================================
+  eps=0.005:  <product>=1.5483e-09  (std=5.4998e-10)
+  eps=0.010:  <product>=2.4773e-08  (std=8.7997e-09)
+  eps=0.020:  <product>=3.9637e-07  (std=1.4079e-07)
+
+================================================================================
+SCALING ANALYSIS
+================================================================================
+  P(eps=0.010) / P(eps=0.005) = 16.000 (eps^2 predicts 4.0, eps^4 predicts 16.0, eps^0 predicts ~1)
+  P(eps=0.020) / P(eps=0.005) = 256.000 (eps^2 predicts 16.0, eps^4 predicts 256.0, eps^0 predicts ~1)
+  Empirical scaling exponent: P ~ eps^4.000
+
+  VERDICT: ETA_TRIVIAL
+  Product scales as eps^4 — trivial product of two linear responses. Program alpha DEAD in this reduction.
+
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-eta-fluctuation-v1\report.json

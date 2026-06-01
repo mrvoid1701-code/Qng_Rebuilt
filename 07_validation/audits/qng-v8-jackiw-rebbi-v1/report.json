@@ -1,0 +1,67 @@
+{
+  "L": 24,
+  "phi_amp": 0.05,
+  "T_run": 300.0,
+  "g": 0.22,
+  "mu_phi": 0.8571428571428572,
+  "beta_phi": 0.06,
+  "sigma_m_ref": 0.5,
+  "results": [
+    {
+      "L": 24,
+      "sigma_m_uniform": 0.5,
+      "deficit": 0.0,
+      "phi_amp": 0.05,
+      "k_mode": 0,
+      "T_run": 300.0,
+      "T_measured_lu": null,
+      "n_periods": 0,
+      "H0": -414.72,
+      "H1": -414.72,
+      "H_drift_frac": 0.0,
+      "wall_s": 201.62634229660034,
+      "T_pred_lu": null,
+      "ratio_meas_pred": null
+    },
+    {
+      "L": 24,
+      "sigma_m_uniform": 0.4,
+      "deficit": 0.09999999999999998,
+      "phi_amp": 0.05,
+      "k_mode": 0,
+      "T_run": 300.0,
+      "T_measured_lu": null,
+      "n_periods": 0,
+      "H0": -414.35539595967003,
+      "H1": -414.3553959596701,
+      "H_drift_frac": 1.3718517826745206e-16,
+      "wall_s": 199.47311067581177,
+      "T_pred_lu": 124.02097267815377,
+      "ratio_meas_pred": null
+    },
+    {
+      "L": 24,
+      "sigma_m_uniform": 0.3,
+      "deficit": 0.2,
+      "phi_amp": 0.05,
+      "k_mode": 0,
+      "T_run": 300.0,
+      "T_measured_lu": 145.9569158113514,
+      "n_periods": 1,
+      "H0": -413.26158383868005,
+      "H1": -413.26158383868,
+      "H_drift_frac": 1.3754827712947376e-16,
+      "wall_s": 199.45584797859192,
+      "T_pred_lu": 62.010486339076884,
+      "ratio_meas_pred": 2.353745703803235
+    }
+  ],
+  "gates": {
+    "G1": true,
+    "G2": false,
+    "G3": false,
+    "G4": false
+  },
+  "ratio_period_0p1_over_0p2": null,
+  "verdict": "JACKIW_REBBI_FAIL"
+}

@@ -1,0 +1,67 @@
+================================================================================
+SHAPIRO PROBE SIGNAL ANALYSIS
+================================================================================
+  detector node = (24, 18, 14)
+  c_phi (saved) = 0.10801  (theory: 0.10802)
+  M_ring0       = 176.85
+  N samples     = 251
+  T_track       = 250.0 lu, dt_sample = 1.000 lu
+
+  RMS:     vac=0.00465  rp(pulse-in-ring)=0.00478  bg(ring)=0.54954
+  max|.|:  vac=0.01299  rp=0.01461  bg=1.07214
+
+Peak envelope times (various window sizes):
+  window= 3:  t_vac= 67.00  t_ring= 93.00  dt=+26.00
+  window= 5:  t_vac= 67.00  t_ring= 93.00  dt=+26.00
+  window= 7:  t_vac= 67.00  t_ring= 93.00  dt=+26.00
+  window=11:  t_vac= 67.00  t_ring= 93.00  dt=+26.00
+
+First-crossing times (first |phi| > threshold):
+  thresh= 10% of own max:  t_vac= 49.00  t_ring= 50.00  dt= +1.00
+  thresh= 20% of own max:  t_vac= 51.00  t_ring= 53.00  dt= +2.00
+  thresh= 30% of own max:  t_vac= 53.00  t_ring= 55.00  dt= +2.00
+  thresh= 50% of own max:  t_vac= 56.00  t_ring= 59.00  dt= +3.00
+
+Absolute-threshold first-crossing (common threshold):
+  thresh=0.00325:  t_vac= 52.00  t_ring= 53.00  dt= +1.00
+
+================================================================================
+THEORY COMPARISON
+================================================================================
+  deficit=0.10:  m^2=0.00128  v_g=0.09951  t_ring_theory=193.1  dt_theory=+7.92
+  deficit=0.20:  m^2=0.00513  v_g=0.08252  t_ring_theory=213.8  dt_theory=+28.60
+  deficit=0.30:  m^2=0.01155  v_g=0.06692  t_ring_theory=242.0  dt_theory=+56.84
+  deficit=0.42:  m^2=0.02264  v_g=0.05305  t_ring_theory=281.1  dt_theory=+95.92
+  t_vac_theory = 185.2 lu
+
+OBSERVATION: measured t_peak ~ 67/93 lu << theoretical ToF (185 lu).
+Likely cause: dispersive spread of Gaussian pulse.  The 'peak' at
+detector is not the packet center but the first significant
+amplitude — a leading-edge artifact of wavepacket in short L box.
+The SIGN of dt is still meaningful: ring region does delay signal.
+
+================================================================================
+REDSHIFT PROBE SIGNAL ANALYSIS
+================================================================================
+  deficit (core) = 0.4202   (vacuum) = 0.0792
+  omega measured: core=1.00750  vac=1.00284
+  omega theory (core k=0) = sqrt((g/2)def^2/mu) = 0.15053
+  N samples = 401
+
+  Ring signal range: core=[-3.546, 3.660]  vacuum=[-4.264, 4.234]
+  Saturation check: |s_core|_max/2pi = 0.58
+  (values >> 1 means phi wrapped many times — strongly nonlinear)
+
+  After low-pass smoothing (window=10):
+    core RMS = 0.5448
+    vac  RMS = 0.9991
+    core zero-crossings=54  omega_zc=0.8482
+    vac  zero-crossings=31  omega_zc=0.4869
+  core: omega_centroid=1.6964  low_band_frac=3.8%
+  vac: omega_centroid=1.4751  low_band_frac=16.7%
+
+INTERPRETATION:
+  A_kick=1.0 drove phi into strongly nonlinear regime (|phi| > 2pi).
+  Both signals dominated by global collective mode at omega~1.0.
+  Local mass-gap signal buried under global response.
+  Need linear-regime probe: A_kick <= 0.05, or plane-wave probe.

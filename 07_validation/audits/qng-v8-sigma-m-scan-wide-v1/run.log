@@ -1,0 +1,80 @@
+================================================================================
+QNG-GPU-023: WIDENED-DETECTOR sigma_m-SCAN at (k=3pi/4, b=6, A=0.05)
+  Test candidate #1 (detector window clipping) for GPU-022 saturation
+================================================================================
+  L=28  R=4  T_track=250.0 lu  DT=0.025
+  c_phi = 0.10801   (c_phi^2 = BETA_PHI/(6 mu_phi))
+  Source x=4.0  Detect x=24.0  path=20.0
+  Pulse: sigma=2.0  k=2.3562  lambda=2.67  omega=0.2545  A=0.05
+  b = 6  (FIXED, out-of-core)
+  s_list = [0.7, 1.0, 1.4]
+  detector halfwidth = 12  (25 total bins)  [GPU-022 was 7]
+
+[0] Load cached ring L=28 R=4
+  [ring-cache HIT ] ring_L28_R4_P1_300_P2_1000_9218625ef1cb.npz
+  Ring loaded from cache, M_ring=176.85
+    ring loaded, M_ring_base = 176.85
+
+    detector y-bins (mod L): [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 0, 1, 2, 3, 4]
+    detector y-unwrapped:    [8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0]
+
+[vac] Vacuum-only run (s-independent, single run)
+    evolved vac: 10000 steps (196.1s)
+      vac  peak t=155.00  amp=0.0392  y_c=20.0000
+
+[scalar ref] alpha_scalar_th(s=1) = -1.4437e-02
+
+=== s = 0.70 ===
+      M_ring(s=0.7) = 123.80  (ratio 0.700)
+      alpha_scalar_th(s) = -7.0740e-03  (ratio vs s=1: 0.4900  expected 0.4900  dev 0.00%)
+    evolved bg s=0.70: 10000 steps (195.9s)
+    evolved r+p s=0.70: 10000 steps (195.9s)
+      ring peak t=140.00  amp=0.0564  y_c=20.1206
+      Dy=+0.1206  alpha_meas_wide=+6.0319e-03  alpha_resid=+1.3106e-02
+      GPU-022 narrow alpha_meas=+8.4200e-03  Delta=-2.3881e-03  rel=-28.36%
+
+=== s = 1.00 ===
+      M_ring(s=1.0) = 176.85  (ratio 1.000)
+      alpha_scalar_th(s) = -1.4437e-02  (ratio vs s=1: 1.0000  expected 1.0000  dev 0.00%)
+    evolved bg s=1.00: 10000 steps (195.9s)
+    evolved r+p s=1.00: 10000 steps (195.9s)
+      ring peak t=139.00  amp=0.0583  y_c=20.2979
+      Dy=+0.2979  alpha_meas_wide=+1.4897e-02  alpha_resid=+2.9333e-02
+      GPU-022 narrow alpha_meas=+1.8300e-02  Delta=-3.4034e-03  rel=-18.60%
+
+=== s = 1.40 ===
+      M_ring(s=1.4) = 247.59  (ratio 1.400)
+      alpha_scalar_th(s) = -2.8296e-02  (ratio vs s=1: 1.9600  expected 1.9600  dev 0.00%)
+    evolved bg s=1.40: 10000 steps (195.9s)
+    evolved r+p s=1.40: 10000 steps (195.9s)
+      ring peak t=139.00  amp=0.0597  y_c=20.2599
+      Dy=+0.2599  alpha_meas_wide=+1.2994e-02  alpha_resid=+4.1290e-02
+      GPU-022 narrow alpha_meas=+1.6500e-02  Delta=-3.5059e-03  rel=-21.25%
+
+==========================================================================================
+WIDENED sigma_m-SCAN BENDING RESULTS
+==========================================================================================
+     s     M_ring         scalar     alpha_wide   alpha_narrow        Delta     rel%
+------------------------------------------------------------------------------------------
+  0.70     123.80    -7.0740e-03    +6.0319e-03    +8.4200e-03  -2.3881e-03   -28.36
+  1.00     176.85    -1.4437e-02    +1.4897e-02    +1.8300e-02  -3.4034e-03   -18.60
+  1.40     247.59    -2.8296e-02    +1.2994e-02    +1.6500e-02  -3.5059e-03   -21.25
+
+  scalar s^2 sanity: max deviation = 0.00%  (spec: <1%)
+  Widened log-log fit (alpha_meas): slope = +1.121   R^2 = 0.6362
+VERDICT: H_UNUSUAL_ALPHA14_WIDE_+1.299e-02
+  alpha_meas(s=1.4, wide)   = +1.2994e-02
+  alpha_meas(s=1.4, narrow) = +1.6500e-02
+  relative change           = -21.25%
+  H_window_clip threshold   >= +2.30e-02
+  H_clip_rejected bound     within 10% of narrow (1.65e-02)
+
+==========================================================================================
+HYPOTHESIS EVALUATION
+==========================================================================================
+  H_window_clip:      alpha_wide(s=1.4) >= +2.30e-02 AND slope in [1.7, 2.3]
+  H_clip_rejected:    |alpha_wide(s=1.4) - narrow| < 10% * narrow
+  H_partial_clip:     alpha_wide(s=1.4) in [+1.85e-02, +2.30e-02)
+  H_VOID:             sign flip or scalar sanity fail
+
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-sigma-m-scan-wide-v1/report.json

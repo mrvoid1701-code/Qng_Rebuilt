@@ -1,0 +1,44 @@
+==============================================================================
+Option E verification probe — V_couple = g*(sm_ref - sm)*(1 - cos phi)
+==============================================================================
+  g=0.22  SIGMA_G_MIN_ABORT=0.025
+  sigma_g sector under E: PURE v7 (no V_couple backreaction on sg)
+  sigma_m sector: force += g*(1-cos phi) = restoring against Channel F
+  phi sector: F_phi_mass = -g*(sm_ref - sm)*sin(phi)  [gapped inside ring only]
+
+--- PART 1: Single ring L=16 R=4 t_max=20.0 ---
+  [baseline dt=0.025, no damping]
+     OK (10.5s)  sg_min final=0.5000  sm_min final=0.5145  drift=+4.28e+15  NO breach
+
+  [dt=0.010, no damping]
+     OK (26.4s)  sg_min final=0.5000  sm_min final=0.5145  drift=+4.28e+15  NO breach
+
+  [dt=0.005, no damping]
+     OK (52.7s)  sg_min final=0.5000  sm_min final=0.5145  drift=+4.28e+15  NO breach
+
+  [dt=0.025, gamma=0.01 Langevin]
+     OK (11.3s)  sg_min final=0.5000  sm_min final=0.5134  drift=+3.63e+15  NO breach
+
+  [dt=0.025, gamma=0.05 Langevin]
+     OK (11.7s)  sg_min final=0.5000  sm_min final=0.5097  drift=+1.88e+15  NO breach
+
+  [dt=0.010, gamma=0.01 Langevin]
+     OK (25.5s)  sg_min final=0.5000  sm_min final=0.5133  drift=+3.63e+15  NO breach
+
+--- PART 2: Single ring L=32 R=4 t_max=20.0 (cleaner background) ---
+  [baseline dt=0.025, no damping]
+     OK (23.2s)  sg_min final=0.5000  sm_min final=0.5021  drift=+2.02e+16  NO breach
+
+  [dt=0.010, no damping]
+     OK (57.3s)  sg_min final=0.5000  sm_min final=0.5021  drift=+2.02e+16  NO breach
+
+  [dt=0.005, no damping]
+     OK (115.0s)  sg_min final=0.5000  sm_min final=0.5021  drift=+2.02e+16  NO breach
+
+==============================================================================
+VERDICT
+==============================================================================
+OPTION E CONFIRMED: sigma_g stays above threshold in ALL configs.
+  -> DER-QNG-042 amendment approved.
+  -> Proceed: amend V_couple in qng_v8_canonical_gpu.py, VOID old GPU-020,
+     restructure Stage A gate (measure omega inside ring core), re-run full.

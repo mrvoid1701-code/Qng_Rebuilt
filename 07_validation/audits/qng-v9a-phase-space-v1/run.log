@@ -1,0 +1,44 @@
+================================================================================
+QNG-GPU-100: V9-A phase-space probe  (R in {3,4,5}, T_P2=5000 lu)
+================================================================================
+
+  L=20, DT=0.025, T_P1=300.0, T_P2=5000.0
+  reduced every 40 steps (= 1.0 lu)
+  snapshot every 400 steps (= 10.0 lu)
+  exact_a='r1'
+
+  [R=3] Phase 1: n1=12000 steps (T_P1=300.0 lu)
+  [R=3] end P1: M_ring=+245.652
+  [R=3] Phase 2: n2=200000 steps (T_P2=5000.0 lu)
+  [R=3] snap 100/500  t=1000.0 lu  M=+919.90  H=-225.64  dwall=483.8s
+  [R=3] snap 200/500  t=2000.0 lu  M=+288.82  H=-226.01  dwall=485.0s
+  [R=3] snap 300/500  t=3000.0 lu  M=-77.89  H=-226.35  dwall=485.2s
+  [R=3] snap 400/500  t=4000.0 lu  M=+594.84  H=-226.50  dwall=484.7s
+  [R=3] snap 500/500  t=5000.0 lu  M=+963.43  H=-226.55  dwall=484.1s
+  [R=3] DONE  wall=42.1 min  <M>=+263.66  duty=27.0%  H_drift=0.62%
+
+  [R=4] Phase 1: n1=12000 steps (T_P1=300.0 lu)
+  [R=4] end P1: M_ring=+36.014
+  [R=4] Phase 2: n2=200000 steps (T_P2=5000.0 lu)
+  [R=4] snap 100/500  t=1000.0 lu  M=+656.64  H=-224.85  dwall=485.0s
+  [R=4] snap 200/500  t=2000.0 lu  M=-50.61  H=-224.99  dwall=485.3s
+  [R=4] snap 300/500  t=3000.0 lu  M=+1069.36  H=-225.03  dwall=485.3s
+  [R=4] snap 400/500  t=4000.0 lu  M=+29.01  H=-225.10  dwall=484.9s
+  [R=4] snap 500/500  t=5000.0 lu  M=-168.24  H=-225.27  dwall=486.0s
+  [R=4] DONE  wall=42.2 min  <M>=+309.45  duty=38.5%  H_drift=0.20%
+
+  [R=5] Phase 1: n1=12000 steps (T_P1=300.0 lu)
+  [R=5] end P1: M_ring=+100.213
+  [R=5] Phase 2: n2=200000 steps (T_P2=5000.0 lu)
+  [R=5] snap 100/500  t=1000.0 lu  M=+40.69  H=-223.51  dwall=487.4s
+  [R=5] snap 200/500  t=2000.0 lu  M=+759.43  H=-223.61  dwall=487.0s
+  [R=5] snap 300/500  t=3000.0 lu  M=+51.05  H=-223.95  dwall=488.6s
+  [R=5] snap 400/500  t=4000.0 lu  M=-70.95  H=-224.15  dwall=488.3s
+  [R=5] snap 500/500  t=5000.0 lu  M=+170.42  H=-224.29  dwall=488.0s
+  [R=5] DONE  wall=42.4 min  <M>=+336.66  duty=39.3%  H_drift=0.36%
+
+================================================================================
+  GATES: {'G1_all_runs_complete_H_under_10pct': True, 'G2_orbital_attractor_all_R': False, 'G3_snapshots_written': True}
+  VERDICT: PARTIAL_OR_FAIL
+  Summary: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v9a-phase-space-v1\summary.json
+================================================================================

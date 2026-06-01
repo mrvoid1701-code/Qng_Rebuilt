@@ -1,0 +1,48 @@
+================================================================================
+QNG-GPU-024c: RING STABILITY - CHANNEL F HYPOTHESIS TEST
+  D: full v8 minus Channel F       (physical measurement-mode candidate)
+  E: everything nonlinear off       (null test)
+================================================================================
+  L=28  R=4  T_track=250.0 lu  DT=0.025
+  sample every 10.0 lu (400 steps)
+
+[0] Load cached ring L=28 R=4
+  [ring-cache HIT ] ring_L28_R4_P1_300_P2_1000_9218625ef1cb.npz
+  Ring loaded from cache, M_ring=176.85
+    base cached M_ring = 176.85
+
+=== Config D_ChF_off: v_couple_on=True  chi_decay=0.02  channel_f=False ===
+      t=0:  M_ring=176.8505  rms_drift=0.0000e+00
+      t=  50.0: M=260.8297  rms=2.5083e-01
+      t= 100.0: M=-353.0742  rms=2.3586e-01
+      t= 150.0: M=198.5016  rms=2.4751e-01
+      t= 200.0: M=-65.3745  rms=2.3078e-01
+      t= 250.0: M=-203.3600  rms=2.3534e-01
+    evolved D_ChF_off: 10000 steps (141.9s)
+      summary D_ChF_off:
+         M_ring range: [-402.2710, 427.7175]  rel drift 469.317%
+         max RMS drift = 26.512% of SIGMA_M_REF
+
+=== Config E_all_off: v_couple_on=False  chi_decay=0.0  channel_f=False ===
+      t=0:  M_ring=176.8505  rms_drift=0.0000e+00
+      t=  50.0: M=161.0039  rms=2.5345e-01
+      t= 100.0: M=95.0359  rms=2.1754e-01
+      t= 150.0: M=-15.5866  rms=2.3118e-01
+      t= 200.0: M=3.6832  rms=2.3486e-01
+      t= 250.0: M=67.5096  rms=2.1923e-01
+    evolved E_all_off: 10000 steps (139.0s)
+      summary E_all_off:
+         M_ring range: [-389.3762, 409.1485]  rel drift 451.525%
+         max RMS drift = 26.275% of SIGMA_M_REF
+
+==========================================================================================
+CHANNEL F HYPOTHESIS SUMMARY
+==========================================================================================
+        config   v_couple  chi_decay   ch_f      drift %    max RMS %
+--------------------------------------------------------------------------
+     D_ChF_off       True     0.0200  False      469.317       26.512
+     E_all_off      False     0.0000  False      451.525       26.275
+
+VERDICT: H_NO_EQUILIBRIUM
+
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-ring-stability-channelf-v1/report.json

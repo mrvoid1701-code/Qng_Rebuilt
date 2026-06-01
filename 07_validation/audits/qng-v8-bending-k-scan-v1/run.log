@@ -1,0 +1,90 @@
+================================================================================
+Einstein test #3 (k-scan): BENDING vs EIKONAL REGIME
+  Tests whether 100x alpha gap (Test 3f) is diffraction
+================================================================================
+  L=28  R=4  T_track=250.0 lu  DT=0.025
+  c_phi = 0.10801   (c_phi^2 = BETA_PHI/(6 mu_phi))
+  Source x=4.0  Detect x=24.0  path=20.0
+  Pulse: sigma=2.0  A=0.05
+  k_list  = ['0.785', '1.571', '2.356']  (lambda = ['8.00', '4.00', '2.67'])
+  b_list  = [4, 6]
+
+[0] Load cached ring L=28 R=4
+  [ring-cache HIT ] ring_L28_R4_P1_300_P2_1000_9218625ef1cb.npz
+  Ring loaded from cache, M_ring=176.85
+    ring loaded, M_ring = 176.85
+
+=== k = 0.7854  (lambda = 8.00, omega = 0.0848) ===
+  --- b = 4  (pulse y = 18.0) ---
+    evolved vac k=0.79 b=4: 10000 steps (195.9s)
+      vac  peak t=70.00  amp=0.0350  y_c=18.0000
+    evolved bg k=0.79 b=4: 10000 steps (195.4s)
+    evolved r+p k=0.79 b=4: 10000 steps (195.5s)
+      ring peak t=95.00  amp=0.0395  y_c=17.7654
+      Dy=-0.2346  alpha_meas=-1.1728e-02  alpha_scalar_th=+3.1082e-01  ratio=-0.0377
+
+  --- b = 6  (pulse y = 20.0) ---
+    evolved vac k=0.79 b=6: 10000 steps (195.4s)
+      vac  peak t=70.00  amp=0.0349  y_c=19.9998
+    evolved bg k=0.79 b=6: 10000 steps (195.6s)
+    evolved r+p k=0.79 b=6: 10000 steps (195.3s)
+      ring peak t=96.00  amp=0.0403  y_c=19.2596
+      Dy=-0.7402  alpha_meas=-3.7010e-02  alpha_scalar_th=-1.2993e-01  ratio=+0.2848
+
+=== k = 1.5708  (lambda = 4.00, omega = 0.1697) ===
+  --- b = 4  (pulse y = 18.0) ---
+    evolved vac k=1.57 b=4: 10000 steps (195.4s)
+      vac  peak t=100.00  amp=0.0531  y_c=18.0000
+    evolved bg k=1.57 b=4: 10000 steps (195.5s)
+    evolved r+p k=1.57 b=4: 10000 steps (195.3s)
+      ring peak t=167.00  amp=2.1180  y_c=18.2233
+      Dy=+0.2233  alpha_meas=+1.1165e-02  alpha_scalar_th=+7.7705e-02  ratio=+0.1437
+
+  --- b = 6  (pulse y = 20.0) ---
+    evolved vac k=1.57 b=6: 10000 steps (195.4s)
+      vac  peak t=100.00  amp=0.0531  y_c=19.9999
+    evolved bg k=1.57 b=6: 10000 steps (195.3s)
+    evolved r+p k=1.57 b=6: 10000 steps (195.3s)
+      ring peak t=139.00  amp=0.0562  y_c=20.1060
+      Dy=+0.1060  alpha_meas=+5.3011e-03  alpha_scalar_th=-3.2483e-02  ratio=-0.1632
+
+=== k = 2.3562  (lambda = 2.67, omega = 0.2545) ===
+  --- b = 4  (pulse y = 18.0) ---
+    evolved vac k=2.36 b=4: 10000 steps (195.4s)
+      vac  peak t=155.00  amp=0.0388  y_c=18.0000
+    evolved bg k=2.36 b=4: 10000 steps (195.3s)
+    evolved r+p k=2.36 b=4: 10000 steps (195.3s)
+      ring peak t=141.00  amp=0.0628  y_c=18.7973
+      Dy=+0.7973  alpha_meas=+3.9865e-02  alpha_scalar_th=+3.4535e-02  ratio=+1.1543
+
+  --- b = 6  (pulse y = 20.0) ---
+    evolved vac k=2.36 b=6: 10000 steps (195.5s)
+      vac  peak t=155.00  amp=0.0388  y_c=19.9999
+    evolved bg k=2.36 b=6: 10000 steps (196.4s)
+    evolved r+p k=2.36 b=6: 10000 steps (195.4s)
+      ring peak t=139.00  amp=0.0579  y_c=20.3649
+      Dy=+0.3650  alpha_meas=+1.8250e-02  alpha_scalar_th=-1.4437e-02  ratio=-1.2642
+
+==========================================================================================
+K-SCAN BENDING RESULTS
+==========================================================================================
+       k   lambda    b      alpha_meas    alpha_scalar_th      ratio         verdict
+------------------------------------------------------------------------------------------
+  0.7854     8.00    4     -1.1728e-02        +3.1082e-01    -0.0377     DIFFRACTION
+  0.7854     8.00    6     -3.7010e-02        -1.2993e-01    +0.2848        MISMATCH
+  1.5708     4.00    4     +1.1165e-02        +7.7705e-02    +0.1437        MISMATCH
+  1.5708     4.00    6     +5.3011e-03        -3.2483e-02    -0.1632        MISMATCH
+  2.3562     2.67    4     +3.9865e-02        +3.4535e-02    +1.1543      EIKONAL_OK
+  2.3562     2.67    6     +1.8250e-02        -1.4437e-02    -1.2642      EIKONAL_OK
+
+==========================================================================================
+HYPOTHESIS EVALUATION
+==========================================================================================
+  k=0.785: lambda=8.00  alpha_meas=-1.173e-02  alpha_scalar_th=+3.108e-01  ratio=-0.038
+  k=1.571: lambda=4.00  alpha_meas=+1.116e-02  alpha_scalar_th=+7.770e-02  ratio=+0.144
+  k=2.356: lambda=2.67  alpha_meas=+3.986e-02  alpha_scalar_th=+3.454e-02  ratio=+1.154
+
+If ratio(k) -> 1 as k grows: eikonal hypothesis confirmed (100x gap = diffraction).
+If ratio(k) stays far from 1: gap is real physics (amplitude mod. or back-react).
+
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-bending-k-scan-v1/report.json

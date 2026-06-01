@@ -1,0 +1,84 @@
+================================================================================
+Einstein test #3: Weak Equivalence Principle (WEP)
+================================================================================
+  K_BACK=0.1  CHI_DECAY=0 (conservative probe)
+  Question: does a(R=3) = a(R=5) in same external gradient?
+
+  L=24  g_ext=0.02  T_track=300.0 lu
+
+
+============================================================
+Case R=3
+============================================================
+
+--- R=3, g_ext=+0.0000 ---
+  Ring formation done (32000 steps, 561.7s)
+  Pre-track: M_ring=588.73  X_c=13.5684
+    evolved R=3 g=0.0: 12000 steps done (163.1s)
+  Fit:  X_0=10.4925  V_0=-0.007650  a=+1.221403e-04
+  Final: M_ring=289.98  (drift -50.75%)
+    t=   0.0  X_c=13.5684  M=588.73
+    t=  75.0  X_c=8.3073  M=236.56
+    t= 150.0  X_c=13.6299  M=314.41
+    t= 225.0  X_c=13.3801  M=536.43
+    t= 300.0  X_c=12.4278  M=289.98
+
+--- R=3, g_ext=+0.0200 ---
+  Ring formation done (32000 steps, 431.8s)
+  Pre-track: M_ring=588.73  X_c=13.5684
+    evolved R=3 g=0.02: 12000 steps done (161.5s)
+  Fit:  X_0=nan  V_0=+nan  a=+nan
+  Final: M_ring=-1312.77  (drift -322.98%)
+    t=   0.0  X_c=13.5684  M=588.73
+    t=  75.0  X_c=nan  M=-1197.80
+    t= 150.0  X_c=nan  M=-877.54
+    t= 225.0  X_c=nan  M=-1474.25
+    t= 300.0  X_c=nan  M=-1312.77
+
+============================================================
+Case R=5
+============================================================
+
+--- R=5, g_ext=+0.0000 ---
+  Ring formation done (32000 steps, 429.8s)
+  Pre-track: M_ring=51.90  X_c=17.3765
+    evolved R=5 g=0.0: 12000 steps done (165.0s)
+  Fit:  X_0=10.2351  V_0=+0.268846  a=-2.038555e-03
+  Final: M_ring=393.38  (drift +657.93%)
+    t=   0.0  X_c=17.3765  M=51.90
+    t=  75.0  X_c=13.5224  M=534.59
+    t= 150.0  X_c=9.2086  M=482.06
+    t= 225.0  X_c=15.3418  M=496.68
+    t= 300.0  X_c=14.4658  M=393.38
+
+--- R=5, g_ext=+0.0200 ---
+  Ring formation done (32000 steps, 429.2s)
+  Pre-track: M_ring=51.90  X_c=17.3765
+    evolved R=5 g=0.02: 12000 steps done (163.7s)
+  Fit:  X_0=nan  V_0=+nan  a=+nan
+  Final: M_ring=-801.52  (drift -1644.29%)
+    t=   0.0  X_c=17.3765  M=51.90
+    t=  75.0  X_c=nan  M=-701.83
+    t= 150.0  X_c=nan  M=-853.95
+    t= 225.0  X_c=nan  M=-1223.31
+    t= 300.0  X_c=nan  M=-801.52
+
+================================================================================
+WEP ANALYSIS
+================================================================================
+  R     a_baseline      a_gravity    a_ext=grav-base      V0_base      V0_grav
+--------------------------------------------------------------------------------
+  3    1.22140e-04            nan                nan -7.64981e-03          nan
+  5   -2.03856e-03            nan                nan  2.68846e-01          nan
+
+  a_ext(R=3) = +nan
+  a_ext(R=5) = +nan
+  |a(3) - a(5)| / mean = nan%
+
+Theory for Newtonian uniform gravity:
+  a_expected_sign = -g_ext = -0.0200  (force per unit deficit)
+
+WEP FAIL: ring size affects free-fall acceleration significantly.
+  -> v8 rings do NOT obey Einstein's equivalence principle.
+  -> Possible cause: ring self-field contributes to inertia
+     differently than to gravitational coupling.

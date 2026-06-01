@@ -1,0 +1,32 @@
+==============================================================================
+QNG-GPU-020: v8 canonical extension (DER-QNG-042)
+==============================================================================
+Physics parameters (pre-registered):
+  MU_M   = 10.0000
+  MU_PHI = 0.8571
+  M_PHI  = 0.3582    (gate [0.323, 0.395])
+  C_G    = 0.0764
+  g (V_couple) = 0.22
+Integrator: Yoshida 4 at dt=0.025
+Abort thresholds: sigma_g_min=0.025, |dH|/H <= 0.01 per 1000 steps
+Stages: ['A', 'B', 'C', 'D', 'E', 'F']
+
+--- Stage A (phi_dispersion) ---
+  k=0 (k_phys=0.0000): omega_meas=0.3581, omega_pred=0.3582, drift<6.636%
+  k=1 (k_phys=0.1571): omega_meas=0.3581, omega_pred=0.3584, drift<5.073%
+  k=2 (k_phys=0.3142): omega_meas=0.3581, omega_pred=0.3590, drift<4.615%
+  k=4 (k_phys=0.6283): omega_meas=0.3644, omega_pred=0.3614, drift<4.860%
+Stage A verdict: PASS  (wall 8619.1s)
+
+--- Stage B (inter_ring_force) ---
+  sep d=6: v7 ...
+  sep d=6: v8 ...
+    F_v7=-430.4581  F_v8=nan  excess=nan
+  sep d=8: v7 ...
+  sep d=8: v8 ...
+    F_v7=-356.4906  F_v8=nan  excess=nan
+  sep d=10: v7 ...
+  sep d=10: v8 ...
+    F_v7=-282.1914  F_v8=nan  excess=nan
+  sep d=12: v7 ...
+  sep d=12: v8 ...

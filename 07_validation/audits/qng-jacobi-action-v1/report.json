@@ -1,0 +1,51 @@
+{
+  "results_per_R": {
+    "3": {
+      "period_lu": 166.66666666666666,
+      "n_cycles": 8,
+      "J_canonical_mean": 8860.074619966199,
+      "J_canonical_std": 200.20893122965703,
+      "J_canonical_rel": 0.022596754521512236,
+      "J_full_mean": 8860.074619966199,
+      "J_full_std": 200.20893122965703,
+      "S_ham_mean": 104928.20556764063,
+      "E_cycle_mean": -605.1515911217355,
+      "T_kin_can_mean": 27.868604971090864,
+      "T_g_mean": 0.0,
+      "E_over_omega": -16052.144507824953
+    },
+    "4": {
+      "period_lu": 187.5,
+      "n_cycles": 7,
+      "J_canonical_mean": 7460.252169046708,
+      "J_canonical_std": 43.38954938116616,
+      "J_canonical_rel": 0.005816096882246623,
+      "J_full_mean": 7460.252169046708,
+      "J_full_std": 43.38954938116616,
+      "S_ham_mean": 118690.0336158198,
+      "E_cycle_mean": -617.9427061745763,
+      "T_kin_can_mean": 20.675587491654813,
+      "T_g_mean": 0.0,
+      "E_over_omega": -18440.36929411247
+    },
+    "5": {
+      "period_lu": 150.0,
+      "n_cycles": 9,
+      "J_canonical_mean": 10552.397898751415,
+      "J_canonical_std": 219.08544543961753,
+      "J_canonical_rel": 0.0207616740329267,
+      "J_full_mean": 10552.397898751415,
+      "J_full_std": 219.08544543961753,
+      "S_ham_mean": 99063.92379636895,
+      "E_cycle_mean": -590.0779803404251,
+      "T_kin_can_mean": 35.084091993973296,
+      "T_g_mean": 0.0,
+      "E_over_omega": -14087.074107129136
+    }
+  },
+  "J_canonical_mean_across_R": 8957.57489592144,
+  "J_canonical_std_across_R": 1264.2444466403042,
+  "J_canonical_rel_spread": 0.14113691052875701,
+  "verdict": "R_DEPENDENT",
+  "comment": "J_canonical varies >10% with R -> not universal even in canonical form."
+}

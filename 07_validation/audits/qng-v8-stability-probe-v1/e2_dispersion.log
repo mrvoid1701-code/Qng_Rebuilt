@@ -1,0 +1,33 @@
+================================================================================
+Klein-Gordon dispersion probe — Einstein test #1 (DER-QNG-042 E^2)
+================================================================================
+  g=0.22  mu_phi=0.8571  BETA_PHI=0.06
+  deficit=0.2  m_rest^2 = (g/2)*deficit^2/mu_phi = 0.00513
+  c_phi^2 (small-k)      = BETA_PHI/(6*mu_phi)       = 0.01167
+  lattice slope exact    = BETA_PHI/(3*mu_phi)       = 0.02333
+
+ n       k      T   omega_meas   omega_th    rel_err  zero_cr
+--------------------------------------------------------------------------------
+ 0  0.0000   1200      0.07307    0.07165      1.99%       27
+ 1  0.3927   1200      0.08376    0.08312      0.77%       32
+ 2  0.7854   1200      0.10994    0.10940      0.50%       42
+ 3  1.1781   1200      0.14117    0.13978      0.99%       53
+ 4  1.5708   1200      0.16761    0.16872     -0.66%       64
+
+[Small-k linear fit over n in {0,1,2}]
+  slope (c_phi^2)     = 0.01094   (theory: 0.01167, err -6.19%)
+  intercept (m_rest^2)= 0.00533   (theory: 0.00513, err +3.92%)
+[Lattice-exact linear fit over all k]
+  slope              = 0.02294   (theory: 0.02333, err -1.68%)
+  intercept          = 0.00538   (theory: 0.00513, err +4.78%)
+
+================================================================================
+VERDICT
+================================================================================
+E^2 DISPERSION CONFIRMED: omega(k) tracks Klein-Gordon lattice form
+  within 5% across k=0..pi/2. Einstein relation E^2 = p^2 c^2 + m^2 c^4
+  is numerically realized in the QNG phi sector.
+  -> Rest mass:  m_rest^2 = (g/2)*deficit^2/mu_phi = 0.00513
+  -> Wave speed: c_phi^2  = BETA_PHI/(6*mu_phi)    = 0.01167
+  -> E = mc^2 at p=0 verified (A1+A2 covered the p=0 limit).
+  -> Finite-k term kicks in exactly as Klein-Gordon predicts.

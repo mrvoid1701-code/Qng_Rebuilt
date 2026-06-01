@@ -1,0 +1,44 @@
+==============================================================================
+Option E^2 verification probe - V_couple = (g/2)*(sm_ref-sm)^2*(1-cos phi)
+==============================================================================
+  g=0.22  SIGMA_G_MIN_ABORT=0.025
+  sigma_g sector under E^2: PURE v7 (no V_couple backreaction on sg)
+  sigma_m sector: force += g*(sm_ref-sm)*(1-cos phi) (deficit-modulated restoring)
+  phi sector: F_phi_mass = -(g/2)*(sm_ref-sm)^2 * sin(phi) (mass^2 >= 0 ALWAYS)
+  phi is MASSLESS in vacuum (Goldstone preserved) and massive near rings.
+
+--- PART 1: Single ring L=16 R=4 t_max=20.0 ---
+  [baseline dt=0.025, no damping]
+     OK (10.6s)  sg_min=0.5000  sm=[0.228,0.499]  drift=+2.18e+12  NO breach
+
+  [dt=0.010, no damping]
+     OK (25.5s)  sg_min=0.5000  sm=[0.228,0.499]  drift=+2.18e+12  NO breach
+
+  [dt=0.005, no damping]
+     OK (52.2s)  sg_min=0.5000  sm=[0.228,0.499]  drift=+2.18e+12  NO breach
+
+  [dt=0.025, gamma=0.01 Langevin]
+     OK (12.6s)  sg_min=0.5000  sm=[0.239,0.499]  drift=+1.89e+12  NO breach
+
+  [dt=0.025, gamma=0.05 Langevin]
+     OK (10.4s)  sg_min=0.5000  sm=[0.274,0.499]  drift=+1.17e+12  NO breach
+
+  [dt=0.010, gamma=0.01 Langevin]
+     OK (26.2s)  sg_min=0.5000  sm=[0.239,0.499]  drift=+1.89e+12  NO breach
+
+--- PART 2: Single ring L=32 R=4 t_max=20.0 (cleaner background) ---
+  [baseline dt=0.025, no damping]
+     OK (23.4s)  sg_min=0.5000  sm=[0.228,0.500]  drift=+7.18e+12  NO breach
+
+  [dt=0.010, no damping]
+     OK (58.2s)  sg_min=0.5000  sm=[0.228,0.500]  drift=+7.18e+12  NO breach
+
+  [dt=0.005, no damping]
+     OK (117.0s)  sg_min=0.5000  sm=[0.228,0.500]  drift=+7.18e+12  NO breach
+
+==============================================================================
+VERDICT
+==============================================================================
+OPTION E^2 PARTIAL: sigma_g stable but H drift large.
+  max |drift| = 7.18e+12
+  -> Diagnose drift source (integrator order? dt too coarse?)

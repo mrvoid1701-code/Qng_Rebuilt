@@ -1,0 +1,71 @@
+================================================================================
+Einstein test #2: Far-field Shapiro (impact-parameter scan)
+  Distinguishes GR log(b) from 1911 linear/1-over-b
+================================================================================
+  c_phi = 0.10801   c_phi^2 = 0.01167
+
+  L=28, R=4, y_center=14.0
+  Impact params (b from ring axis): [4, 8, 12]
+  Source x=4.0, detector x=24.0, distance=20.0
+  T_track = 250.0 lu, sample every 1.0 lu
+  Vac ToF theory = d/c_phi = 185.2 lu
+
+[0] Load cached ring (L=28, R=4, P1=300, P2=1000)
+  [ring-cache HIT ] ring_L28_R4_P1_300_P2_1000_9218625ef1cb.npz
+  Ring loaded from cache, M_ring=176.85
+    M_ring0 = 176.85
+
+[1] Vacuum + pulse (b-independent reference)
+    evolved vacuum: 10000 steps done (401.7s)
+    t_peak_vac = 67.00 lu   amp = 0.01286
+
+[2] Impact parameter b = 4 (y_line = 18.0)
+    evolved ring_only b=4: 10000 steps done (206.0s)
+    evolved ring+pulse b=4: 10000 steps done (196.1s)
+    t_peak_ring = 93.00 lu   amp = 0.01445
+    Shapiro dt = +26.00 lu   (+38.8%)
+
+[3] Impact parameter b = 8 (y_line = 22.0)
+    evolved ring_only b=8: 10000 steps done (196.3s)
+    evolved ring+pulse b=8: 10000 steps done (198.3s)
+    t_peak_ring = 94.00 lu   amp = 0.01296
+    Shapiro dt = +27.00 lu   (+40.3%)
+
+[4] Impact parameter b = 12 (y_line = 26.0)
+    evolved ring_only b=12: 10000 steps done (298.5s)
+    evolved ring+pulse b=12: 10000 steps done (434.4s)
+    t_peak_ring = 92.00 lu   amp = 0.00839
+    Shapiro dt = +25.00 lu   (+37.3%)
+
+================================================================================
+RESULTS SUMMARY
+================================================================================
+       b     dt [lu]    frac %
+     4.0      +26.00     +38.8
+     8.0      +27.00     +40.3
+    12.0      +25.00     +37.3
+
+Fit comparison (lower RSS = better):
+  H_GR  (dt vs -log(b))
+    slope = +0.657   intercept = +27.303   RSS = 1.734
+    predicted dt: [26.392317963940293, 25.937010046903765, 25.670671989155938]
+  H_1911 (dt vs 1/b)
+    slope = +2.769   intercept = +25.577   RSS = 1.885
+    predicted dt: [26.26923076923078, 25.923076923076927, 25.80769230769231]
+  H_lin (dt vs b)
+    slope = -0.125   intercept = +27.000   RSS = 1.500
+    predicted dt: [26.500000000000007, 25.999999999999996, 25.499999999999986]
+
+  Signals saved -> C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-stability-probe-v1\shapiro_far_field_signals.npz
+
+================================================================================
+VERDICT
+================================================================================
+  dt(b=R)/dt(b=2R) = 0.96
+  dt(b=2R)/dt(b=3R) = 1.08
+
+  GR log(b) prediction: ratio ~ log(2R/b)/log(3R/b) (slow decay)
+  1911 1/b prediction : ratio = 2.0 (double per halving)
+  Sharp cutoff        : ratio >> 5 (no far-field effect)
+
+  SLOW FALLOFF: consistent with GR-type log(b) dependence.

@@ -1,0 +1,45 @@
+================================================================================
+QNG-CPU-081: m_eff^2(x) PROFILE ANALYSIS
+  Test evanescent tunneling candidate for GPU-022 high-s saturation
+================================================================================
+  g = 0.22, mu_phi = 0.857
+  c_phi^2 = 0.01167, k = 3pi/4 = 2.3562
+  omega^2 = 6.4780e-02  (evanescent threshold)
+  Cached ring: ring_L28_R4_P1_300_P2_1000_9218625ef1cb.npz
+
+  ring loaded, L=28, sm shape=(28, 28, 28)
+  sm range: [0.2290, 0.7661]
+  phi range: [-2.3120, 2.1585]
+  M_ring(s=1) = 176.85  (expected ~176.85)
+
+================================================================================
+m_eff^2 PROFILE RESULTS
+================================================================================
+  b     s    max m_eff^2    min m_eff^2  ratio/omega^2  frac_evan    WKB R  x_max sign_flips
+--------------------------------------------------------------------------------------------
+  4  0.70    +2.1097e-03    +1.5351e-06         0.0326      0.000   0.0000      4          0
+  4  1.00    +4.3056e-03    +3.1328e-06         0.0665      0.000   0.0000      4          0
+  4  1.40    +8.4389e-03    +6.1403e-06         0.1303      0.000   0.0000      4          0
+  6  0.70    +5.1386e-04    +8.5001e-07         0.0079      0.000   0.0000      6          0
+  6  1.00    +1.0487e-03    +1.7347e-06         0.0162      0.000   0.0000      6          0
+  6  1.40    +2.0555e-03    +3.4000e-06         0.0317      0.000   0.0000      6          0
+
+================================================================================
+PRIMARY VERDICT (b=6, s=1.4):
+  max m_eff^2 = +2.0555e-03
+  omega^2     = +6.4780e-02
+  ratio       = 0.0317
+  H_transparent
+================================================================================
+
+S^2 SCALING CHECK (max m_eff^2 vs s):
+  b=4, s=0.7: observed ratio 0.4900, expected 0.4900, dev 0.00%
+  b=4, s=1.4: observed ratio 1.9600, expected 1.9600, dev 0.00%
+  b=6, s=0.7: observed ratio 0.4900, expected 0.4900, dev 0.00%
+  b=6, s=1.4: observed ratio 1.9600, expected 1.9600, dev 0.00%
+
+cos(phi_bg) SIGN STRUCTURE ALONG PATH:
+  b=4: cos_phi_frac_pos=1.000, frac_neg=0.000, sign_flips=0
+  b=6: cos_phi_frac_pos=1.000, frac_neg=0.000, sign_flips=0
+
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-m-eff-profile-v1/report.json

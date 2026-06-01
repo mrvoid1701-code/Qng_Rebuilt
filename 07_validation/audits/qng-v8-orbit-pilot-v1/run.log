@@ -1,0 +1,34 @@
+================================================================================
+QNG-GPU-029 pilot: bounded-orbit check on cached L=28 R=4 ring
+================================================================================
+  [ring-cache HIT ] ring_L28_R4_P1_300_P2_1000_9218625ef1cb.npz
+  Ring loaded from cache, M_ring=176.85
+  cached M_ring = 176.8505
+  config: v8 Yoshida4, DT=0.025, T=500.0 lu (20000 substeps)
+  V_couple=True, Channel F=False, k_gm=0.0, chi_decay=0.0
+  H_0 = 5.6165
+  sample stride = every 5.0 lu (200 substeps)
+
+  t=  50.0  M= 227.185  H=  11.863  dH/H=+1.11e+00  R=8.64  sm_min=0.311  phi_std=0.296
+  t= 100.0  M=-108.157  H=  11.480  dH/H=+1.04e+00  R=12.79  sm_min=0.212  phi_std=0.377
+  t= 150.0  M= -75.320  H=  14.199  dH/H=+1.53e+00  R=10.06  sm_min=0.291  phi_std=0.306
+  t= 200.0  M= 179.070  H=  13.873  dH/H=+1.47e+00  R=11.39  sm_min=0.266  phi_std=0.290
+  t= 250.0  M= -29.800  H=  14.511  dH/H=+1.58e+00  R=9.34  sm_min=0.283  phi_std=0.367
+  t= 300.0  M= -46.302  H=  16.058  dH/H=+1.86e+00  R=11.56  sm_min=0.261  phi_std=0.365
+  t= 350.0  M= 339.954  H=  17.394  dH/H=+2.10e+00  R=9.72  sm_min=0.166  phi_std=0.447
+  t= 400.0  M=-357.648  H=  18.360  dH/H=+2.27e+00  R=12.60  sm_min=0.332  phi_std=0.387
+  t= 450.0  M= 204.516  H=  22.266  dH/H=+2.96e+00  R=8.42  sm_min=0.256  phi_std=0.544
+  t= 500.0  M= 128.307  H=  22.089  dH/H=+2.93e+00  R=12.81  sm_min=0.272  phi_std=0.572
+
+  wall = 283.7s
+
+================================================================================
+GATES
+================================================================================
+  G1 boundedness:        M in [-357.648, 499.915] (need [>10.0, <1000.0])  -> FAIL
+  G2 H conservation:     max |dH/H| = 3.208e+00 (need <0.01)            -> FAIL
+  G3 ACF decay:          lag to |ACF|<0.3 = 6 samples (need finite)          -> PASS
+
+  VERDICT: ABORT_AND_REVIEW
+================================================================================
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-orbit-pilot-v1/report.json

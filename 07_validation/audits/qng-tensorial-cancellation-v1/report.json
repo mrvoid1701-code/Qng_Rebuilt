@@ -1,0 +1,78 @@
+{
+  "test_id": "QNG-CPU-079",
+  "derivation": "DER-QNG-046",
+  "params": {
+    "g": 0.22,
+    "mu_phi": 0.857,
+    "c_phi2": 0.01167,
+    "k_pkt": 0.7854,
+    "omega2": 0.007198676377199999,
+    "sigma_m_ref": 1.0
+  },
+  "per_b": [
+    {
+      "b": 3.0,
+      "integ_scalar_naive_no_cos": 0.08988826757141462,
+      "integ_scalar_with_cos": 0.08883478051566884,
+      "integ_winding": -0.14816235003728992,
+      "cancellation_factor": 1.0118589481465534,
+      "alpha_scalar_naive": -1.6027368548191099,
+      "alpha_scalar": -1.5839528402203507,
+      "alpha_winding": -1.3208912871343983,
+      "alpha_tensorial_total": -2.9048441273547487,
+      "alpha_measured": -0.0033658
+    },
+    {
+      "b": 4.0,
+      "integ_scalar_naive_no_cos": -0.13951163180184858,
+      "integ_scalar_with_cos": -0.13757670595942795,
+      "integ_winding": 0.12829532573213673,
+      "cancellation_factor": 1.0140643419896334,
+      "alpha_scalar_naive": 2.487537472975881,
+      "alpha_scalar": 2.453037120006839,
+      "alpha_winding": 1.1437735558122406,
+      "alpha_tensorial_total": 3.5968106758190794,
+      "alpha_measured": -0.011728
+    },
+    {
+      "b": 6.0,
+      "integ_scalar_naive_no_cos": -0.3317840623867234,
+      "integ_scalar_with_cos": -0.31058297412261365,
+      "integ_winding": 0.058618068842202706,
+      "cancellation_factor": 1.0682622359580467,
+      "alpha_scalar_naive": 5.915817035925502,
+      "alpha_scalar": 5.537794781840281,
+      "alpha_winding": 0.5225895538429471,
+      "alpha_tensorial_total": 6.060384335683229,
+      "alpha_measured": -0.03701
+    },
+    {
+      "b": 8.0,
+      "integ_scalar_naive_no_cos": 0.2961980766131553,
+      "integ_scalar_with_cos": 0.2757168049649837,
+      "integ_winding": -0.0803761556780406,
+      "cancellation_factor": 1.0742837261978744,
+      "alpha_scalar_naive": -5.281307411306773,
+      "alpha_scalar": -4.916119720065459,
+      "alpha_winding": -0.716566413139108,
+      "alpha_tensorial_total": -5.632686133204567,
+      "alpha_measured": -0.042179
+    }
+  ],
+  "anisotropy": {
+    "trans_D2_integ": 6.156085764065178,
+    "trans_D2_cos_integ": 5.385956598872945,
+    "trans_cancellation": 1.1429883718991327,
+    "axis_D2_integ": 5.694830680842538,
+    "axis_D2_cos_integ": 3.8814712486677196,
+    "axis_cancellation": 1.4671835281009071,
+    "anisotropy_ratio_abs": 0.9250733175429237,
+    "anisotropy_ratio_with_cos": 0.7206651552817839
+  },
+  "gates": {
+    "G1_cancellation": false,
+    "G2_tensorial_small": false,
+    "G3_anisotropy": false
+  },
+  "verdict": "FAIL"
+}

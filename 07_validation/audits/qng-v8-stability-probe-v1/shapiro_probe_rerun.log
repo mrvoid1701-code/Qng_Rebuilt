@@ -1,0 +1,82 @@
+================================================================================
+Einstein test #3b: Shapiro delay (1919 light-bending analog)
+================================================================================
+  c_phi   = 0.10801   (phi wave speed in vacuum)
+  c_phi^2 = 0.01167  = BETA_PHI/(6 mu_phi)
+
+  L=28, R=4
+  Pulse: source=(4.0, 18.0, 14.0)
+         sigma=2.0, k=0.785, A=0.05
+  Detect: (24.0, 18.0, 14.0)  [idx=11504]
+  Distance = 20.0 nodes
+  Vac ToF theory = d/c_phi = 185.2 lu
+  T_track = 250.0 lu  (sample every 1.0 lu)
+
+[1] Vacuum + pulse
+    injected pulse (phi max=0.0500)
+    evolved vacuum: 10000 steps done (498.1s)
+
+[2] Ring formation (P1=300, P2=1000 lu) [cache-backed]
+  [ring-cache MISS] forming -> ring_L28_R4_P1_300_P2_1000_9218625ef1cb.npz
+  Ring formation done (52000 steps, 2319.0s) M_ring=176.85
+  Ring cached to ring_L28_R4_P1_300_P2_1000_9218625ef1cb.npz (1.0 MB)
+    ring ready, M_ring=176.85
+
+[3] Ring-only baseline evolution (no pulse)
+    evolved ring_only: 10000 steps done (453.6s)
+
+[4] Ring + pulse evolution
+    evolved ring+pulse: 10000 steps done (454.3s)
+
+================================================================================
+RESULTS
+================================================================================
+  Vacuum pulse:  t_peak = 67.00 lu   amp = 0.01295
+  Ring  pulse:   t_peak = 93.00 lu   amp = 0.01456
+  Theory ToF:    t_vac_theory = 185.16 lu (massless)
+
+  Shapiro delay:  dt = t_ring - t_vac = +26.000 lu
+                    ratio = +38.81%
+
+  Signal samples (t, phi_vac, phi_pulse_in_ring):
+    t=   0.0   phi_vac=-0.00000   phi_ring=+0.00000   phi_bg=+0.97656
+    t=   8.0   phi_vac=-0.00000   phi_ring=-0.00000   phi_bg=+0.63151
+    t=  16.0   phi_vac=-0.00001   phi_ring=-0.00001   phi_bg=+0.41168
+    t=  24.0   phi_vac=-0.00014   phi_ring=-0.00015   phi_bg=+0.54580
+    t=  32.0   phi_vac=-0.00066   phi_ring=-0.00064   phi_bg=+0.47645
+    t=  40.0   phi_vac=-0.00101   phi_ring=-0.00091   phi_bg=+0.17628
+    t=  48.0   phi_vac=+0.00101   phi_ring=+0.00066   phi_bg=-0.18135
+    t=  56.0   phi_vac=+0.00666   phi_ring=+0.00542   phi_bg=-0.39644
+    t=  64.0   phi_vac=+0.01230   phi_ring=+0.01043   phi_bg=-0.08967
+    t=  72.0   phi_vac=+0.01138   phi_ring=+0.00858   phi_bg=+0.05448
+    t=  80.0   phi_vac=+0.00228   phi_ring=-0.00187   phi_bg=+0.14682
+    t=  88.0   phi_vac=-0.00857   phi_ring=-0.01233   phi_bg=+0.20314
+    t=  96.0   phi_vac=-0.01285   phi_ring=-0.01402   phi_bg=-0.28483
+    t= 104.0   phi_vac=-0.00836   phi_ring=-0.00638   phi_bg=-0.32572
+    t= 112.0   phi_vac=-0.00042   phi_ring=+0.00325   phi_bg=+0.01088
+    t= 120.0   phi_vac=+0.00391   phi_ring=+0.00509   phi_bg=+0.13009
+    t= 128.0   phi_vac=+0.00259   phi_ring=+0.00092   phi_bg=+0.08797
+    t= 136.0   phi_vac=-0.00058   phi_ring=-0.00267   phi_bg=-0.33921
+    t= 144.0   phi_vac=-0.00156   phi_ring=-0.00366   phi_bg=-0.57385
+    t= 152.0   phi_vac=-0.00057   phi_ring=-0.00338   phi_bg=-0.44872
+    t= 160.0   phi_vac=-0.00004   phi_ring=-0.00310   phi_bg=-0.81366
+    t= 168.0   phi_vac=-0.00046   phi_ring=-0.00082   phi_bg=-0.98147
+    t= 176.0   phi_vac=-0.00052   phi_ring=+0.00251   phi_bg=-0.96881
+    t= 184.0   phi_vac=+0.00007   phi_ring=+0.00344   phi_bg=-0.47342
+    t= 192.0   phi_vac=+0.00039   phi_ring=+0.00144   phi_bg=+0.15730
+    t= 200.0   phi_vac=+0.00013   phi_ring=+0.00028   phi_bg=+0.24321
+    t= 208.0   phi_vac=-0.00011   phi_ring=+0.00236   phi_bg=+0.84997
+    t= 216.0   phi_vac=+0.00012   phi_ring=+0.00115   phi_bg=+1.04027
+    t= 224.0   phi_vac=+0.00075   phi_ring=-0.00116   phi_bg=+0.79851
+    t= 232.0   phi_vac=+0.00156   phi_ring=-0.00063   phi_bg=+0.67362
+    t= 240.0   phi_vac=+0.00212   phi_ring=+0.00090   phi_bg=+0.62155
+    t= 248.0   phi_vac=+0.00201   phi_ring=-0.00062   phi_bg=+0.83866
+
+================================================================================
+VERDICT
+================================================================================
+SHAPIRO POSITIVE: ring delays phi wave by 26.00 lu.
+  -> v8 ring acts as GR mass source for phi (light) propagation.
+  -> Einstein 1919 light-bending analog PASS.
+
+  Signals saved to C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-stability-probe-v1\shapiro_probe_signals.npz

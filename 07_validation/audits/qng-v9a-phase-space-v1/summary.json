@@ -1,0 +1,73 @@
+{
+  "test_id": "QNG-GPU-100",
+  "date": "2026-04-22",
+  "prereg": "07_validation/prereg/QNG-GPU-100.md",
+  "reports_per_R": {
+    "3": {
+      "R": 3,
+      "L": 20,
+      "DT": 0.025,
+      "T_P1": 300.0,
+      "T_P2": 5000.0,
+      "exact_a_mode": "r1",
+      "n_snapshots": 500,
+      "n_reduced_samples": 5000,
+      "final_M_ring": 963.4328344916294,
+      "mean_M_first_half": 218.42827036136288,
+      "mean_M_second_half": 308.88419183915676,
+      "mean_M_all": 263.6562311002598,
+      "std_M_all": 361.7129948409147,
+      "convergence_rel": 0.3430828131780298,
+      "duty_cycle_ring": 0.2698,
+      "H_mean": -226.0530593799889,
+      "H_drift_peak_to_peak": 0.006150875321733828,
+      "wall_s": 2528.5166833400726
+    },
+    "4": {
+      "R": 4,
+      "L": 20,
+      "DT": 0.025,
+      "T_P1": 300.0,
+      "T_P2": 5000.0,
+      "exact_a_mode": "r1",
+      "n_snapshots": 500,
+      "n_reduced_samples": 5000,
+      "final_M_ring": -168.23536850588152,
+      "mean_M_first_half": 312.78406668510394,
+      "mean_M_second_half": 306.1170289971563,
+      "mean_M_all": 309.4505478411301,
+      "std_M_all": 423.2540578957835,
+      "convergence_rel": 0.021544759686030524,
+      "duty_cycle_ring": 0.3854,
+      "H_mean": -225.0094602989507,
+      "H_drift_peak_to_peak": 0.0019516721263134395,
+      "wall_s": 2532.761028766632
+    },
+    "5": {
+      "R": 5,
+      "L": 20,
+      "DT": 0.025,
+      "T_P1": 300.0,
+      "T_P2": 5000.0,
+      "exact_a_mode": "r1",
+      "n_snapshots": 500,
+      "n_reduced_samples": 5000,
+      "final_M_ring": 170.42144183407163,
+      "mean_M_first_half": 322.32334011842164,
+      "mean_M_second_half": 350.9884228485337,
+      "mean_M_all": 336.65588148347763,
+      "std_M_all": 377.5053338507777,
+      "convergence_rel": 0.08514653777560353,
+      "duty_cycle_ring": 0.393,
+      "H_mean": -223.80969914383365,
+      "H_drift_peak_to_peak": 0.003597836152846328,
+      "wall_s": 2546.329392671585
+    }
+  },
+  "gates": {
+    "G1_all_runs_complete_H_under_10pct": true,
+    "G2_orbital_attractor_all_R": false,
+    "G3_snapshots_written": true
+  },
+  "verdict": "PARTIAL_OR_FAIL"
+}

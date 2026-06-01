@@ -1,0 +1,31 @@
+============================================================================
+QNG-GPU-020 g-scan probe (single ring, L=32, R=4, dt=0.025, T=100)
+============================================================================
+  Stage A gate: m_phi in [0.323, 0.395]
+  -> g window: [0.190, 0.276]
+  SIGMA_G_MIN_ABORT = 0.025
+
+--- g=0.190  (m_phi=0.333) ---
+  sg_min breach at step 80 (t=2.00)
+  sg_min final = 0.0001
+  sg_min overall = 0.0000
+  wall: 114.3s
+
+--- g=0.220  (m_phi=0.358) ---
+  sg_min breach at step 80 (t=2.00)
+  sg_min final = 0.0001
+  sg_min overall = 0.0000
+  wall: 113.9s
+
+--- g=0.276  (m_phi=0.401) ---
+  sg_min breach at step 40 (t=1.00)
+  sg_min final = 0.0001
+  sg_min overall = 0.0000
+  wall: 114.1s
+
+============================================================================
+VERDICT
+============================================================================
+ALL breached sigma_g_min. Best delay: g=0.19 at t=2.00
+-> DER-QNG-042 V_couple form is structurally incompatible with rings.
+-> Requires re-derivation: alternative V_couple form OR lift Stage A gate.

@@ -1,0 +1,23 @@
+============================================================================
+Quick Stage A probe under Option E^2 (DER-QNG-042-A1)
+============================================================================
+  g=0.22  mu_phi=0.8571428571428572
+  Original V_couple prediction: omega(k=0) = sqrt(g*sg_ref/mu_phi) = 0.3582
+  E^2 prediction:               omega(k=0) = 0 (vacuum deficit = 0)
+  Gate (old, pre-amend):        omega(k=0) in [0.323, 0.395]
+
+--- Test 1: flat vacuum (sm = sm_ref), uniform phi = 0.05 ---
+  wall=196.9s  n_zero_crossings=0
+  phi range: [0.0500, 0.0500]
+  phi initial -> final: 0.0500 -> 0.0500
+  omega_fft_peak = 0.0157
+  amp_peak/amp_dc ratio = 4.7309e-22
+
+============================================================================
+VERDICT
+============================================================================
+E^2 CONFIRMED: omega(k=0) ~= 0 in vacuum (massless as predicted).
+  -> Goldstone theorem restored in vacuum under Option E^2.
+  -> Original Stage A gate [0.323, 0.395] is INAPPROPRIATE for E^2
+     (it was designed for the obsolete V_couple = g*sg*(1-cos phi)).
+  -> Stage A must be restructured to A1 (vacuum massless) + A2 (ring-core mass).

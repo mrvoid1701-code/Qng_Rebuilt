@@ -1,0 +1,128 @@
+==============================================================================
+QNG-GPU-012 v2: Emergent Lorentz dispersion on NVIDIA GeForce RTX 3060
+==============================================================================
+Lattice L=32^3=32768 | T=3000 steps | amplitude=0.005
+Output directory: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-lorentz-isotropy-v1
+
+==============================================================================
+STAGE 1 -- analytical predictions
+==============================================================================
+  c_pred      = 0.07638 lu/step
+  c^2_pred    = 5.83333e-03
+  m_g^2_pred  = 0.00000e+00  (ALPHA_G=0 in this test)
+  m_m^2_pred  = 0.00000e+00  (ALPHA_M=0 in this test)
+  m_phi^2_pred= 1.14352e-02  (G_TEST=0.01)
+
+  Integer n triples per direction:
+    axis      : base direction (1, 0, 0); k_vec = (2pi/L)*(1, 0, 0)*n  for n in [1, 2, 3]
+    face_diag : base direction (1, 1, 0); k_vec = (2pi/L)*(1, 1, 0)*n  for n in [1, 2, 3]
+    body_diag : base direction (1, 1, 1); k_vec = (2pi/L)*(1, 1, 1)*n  for n in [1, 2, 3]
+
+==============================================================================
+STAGE 2 -- plane-wave evolution & omega extraction
+==============================================================================
+[A] sigma_g (v7 symplectic)
+    dir=axis       n=1  |k|=0.1963  eig_lap=-0.0384  w=0.01482  w2=2.1971e-04  pred_disc=2.2417e-04  err= 1.99%  (3.7s)
+    dir=axis       n=2  |k|=0.3927  eig_lap=-0.1522  w=0.02959  w2=8.7558e-04  pred_disc=8.8807e-04  err= 1.41%  (3.5s)
+    dir=axis       n=3  |k|=0.5890  eig_lap=-0.3371  w=0.04417  w2=1.9511e-03  pred_disc=1.9662e-03  err= 0.77%  (3.5s)
+    dir=face_diag  n=1  |k|=0.2777  eig_lap=-0.0769  w=0.02106  w2=4.4350e-04  pred_disc=4.4834e-04  err= 1.08%  (3.5s)
+    dir=face_diag  n=2  |k|=0.5554  eig_lap=-0.3045  w=0.04202  w2=1.7654e-03  pred_disc=1.7761e-03  err= 0.61%  (3.5s)
+    dir=face_diag  n=3  |k|=0.8330  eig_lap=-0.6741  w=0.06276  w2=3.9394e-03  pred_disc=3.9324e-03  err= 0.18%  (3.5s)
+    dir=body_diag  n=1  |k|=0.3401  eig_lap=-0.1153  w=0.02571  w2=6.6117e-04  pred_disc=6.7252e-04  err= 1.69%  (3.5s)
+    dir=body_diag  n=2  |k|=0.6802  eig_lap=-0.4567  w=0.05186  w2=2.6895e-03  pred_disc=2.6642e-03  err= 0.95%  (3.5s)
+    dir=body_diag  n=3  |k|=1.0203  eig_lap=-1.0112  w=0.07706  w2=5.9384e-03  pred_disc=5.8986e-03  err= 0.67%  (3.5s)
+
+[B] sigma_m (v8 massless)
+    dir=axis       n=1  |k|=0.1963  eig_lap=-0.0384  w=0.01482  w2=2.1971e-04  pred_disc=2.2417e-04  err= 1.99%  (4.1s)
+    dir=axis       n=2  |k|=0.3927  eig_lap=-0.1522  w=0.02959  w2=8.7558e-04  pred_disc=8.8807e-04  err= 1.41%  (4.2s)
+    dir=axis       n=3  |k|=0.5890  eig_lap=-0.3371  w=0.04417  w2=1.9511e-03  pred_disc=1.9662e-03  err= 0.77%  (4.2s)
+    dir=face_diag  n=1  |k|=0.2777  eig_lap=-0.0769  w=0.02106  w2=4.4350e-04  pred_disc=4.4834e-04  err= 1.08%  (4.1s)
+    dir=face_diag  n=2  |k|=0.5554  eig_lap=-0.3045  w=0.04202  w2=1.7654e-03  pred_disc=1.7761e-03  err= 0.61%  (4.1s)
+    dir=face_diag  n=3  |k|=0.8330  eig_lap=-0.6741  w=0.06276  w2=3.9394e-03  pred_disc=3.9324e-03  err= 0.18%  (4.1s)
+    dir=body_diag  n=1  |k|=0.3401  eig_lap=-0.1153  w=0.02571  w2=6.6117e-04  pred_disc=6.7252e-04  err= 1.69%  (4.1s)
+    dir=body_diag  n=2  |k|=0.6802  eig_lap=-0.4567  w=0.05186  w2=2.6895e-03  pred_disc=2.6642e-03  err= 0.95%  (4.1s)
+    dir=body_diag  n=3  |k|=1.0203  eig_lap=-1.0112  w=0.07706  w2=5.9384e-03  pred_disc=5.8986e-03  err= 0.67%  (4.1s)
+
+[C] phi    (v8 g=0.01)
+    dir=axis       n=1  |k|=0.1963  eig_lap=-0.0384  w=0.10824  w2=1.1716e-02  pred_disc=1.1659e-02  err= 0.48%  (3.6s)
+    dir=axis       n=2  |k|=0.3927  eig_lap=-0.1522  w=0.11102  w2=1.2325e-02  pred_disc=1.2323e-02  err= 0.01%  (3.6s)
+    dir=axis       n=3  |k|=0.5890  eig_lap=-0.3371  w=0.11559  w2=1.3361e-02  pred_disc=1.3401e-02  err= 0.30%  (3.6s)
+    dir=face_diag  n=1  |k|=0.2777  eig_lap=-0.0769  w=0.10897  w2=1.1875e-02  pred_disc=1.1884e-02  err= 0.07%  (3.6s)
+    dir=face_diag  n=2  |k|=0.5554  eig_lap=-0.3045  w=0.11508  w2=1.3243e-02  pred_disc=1.3211e-02  err= 0.24%  (3.6s)
+    dir=face_diag  n=3  |k|=0.8330  eig_lap=-0.6741  w=0.12383  w2=1.5334e-02  pred_disc=1.5368e-02  err= 0.22%  (3.7s)
+    dir=body_diag  n=1  |k|=0.3401  eig_lap=-0.1153  w=0.11028  w2=1.2162e-02  pred_disc=1.2108e-02  err= 0.45%  (3.6s)
+    dir=body_diag  n=2  |k|=0.6802  eig_lap=-0.4567  w=0.11903  w2=1.4169e-02  pred_disc=1.4099e-02  err= 0.49%  (3.6s)
+    dir=body_diag  n=3  |k|=1.0203  eig_lap=-1.0112  w=0.13183  w2=1.7379e-02  pred_disc=1.7334e-02  err= 0.26%  (3.6s)
+
+Total evolution wall time: 101.7s
+
+==============================================================================
+STAGE 2b -- amplitude scan (DER-QNG-043 item iii)
+==============================================================================
+[A] sigma_g (v7 symplectic)  (axis n=1, k=0.1963)
+    amp=0.0010  w=0.01482  w2=2.1971e-04  pred=2.2417e-04  err= 1.99%  (3.5s)
+    amp=0.0050  w=0.01482  w2=2.1971e-04  pred=2.2417e-04  err= 1.99%  (3.4s)
+    amp=0.0250  w=0.01482  w2=2.1971e-04  pred=2.2417e-04  err= 1.99%  (3.4s)
+    -> omega spread across 25x amp range: 0.00%  (amplitude-independent = linear)
+[B] sigma_m (v8 massless)  (axis n=1, k=0.1963)
+    amp=0.0010  w=0.01482  w2=2.1971e-04  pred=2.2417e-04  err= 1.99%  (4.1s)
+    amp=0.0050  w=0.01482  w2=2.1971e-04  pred=2.2417e-04  err= 1.99%  (4.1s)
+    amp=0.0250  w=0.01482  w2=2.1971e-04  pred=2.2417e-04  err= 1.99%  (4.1s)
+    -> omega spread across 25x amp range: 0.00%  (amplitude-independent = linear)
+[C] phi    (v8 g=0.01)  (axis n=1, k=0.1963)
+    amp=0.0010  w=0.10824  w2=1.1716e-02  pred=1.1659e-02  err= 0.48%  (3.7s)
+    amp=0.0050  w=0.10824  w2=1.1716e-02  pred=1.1659e-02  err= 0.48%  (3.6s)
+    amp=0.0250  w=0.10823  w2=1.1715e-02  pred=1.1659e-02  err= 0.47%  (3.7s)
+    -> omega spread across 25x amp range: 0.00%  (amplitude-independent = linear)
+
+==============================================================================
+STAGE 3 -- linear fit w^2 vs |k|^2 per (sector, direction)
+==============================================================================
+  [A] axis       c^2_fit=5.6101e-03  m^2_fit=+6.1183e-06  c_fit=0.07490  R^2=1.0000
+  [A] face_diag  c^2_fit=5.6645e-03  m^2_fit=+1.1177e-05  c_fit=0.07526  R^2=1.0000
+  [A] body_diag  c^2_fit=5.6947e-03  m^2_fit=+2.2701e-05  c_fit=0.07546  R^2=0.9999
+  [B] axis       c^2_fit=5.6101e-03  m^2_fit=+6.1183e-06  c_fit=0.07490  R^2=1.0000
+  [B] face_diag  c^2_fit=5.6645e-03  m^2_fit=+1.1177e-05  c_fit=0.07526  R^2=1.0000
+  [B] body_diag  c^2_fit=5.6947e-03  m^2_fit=+2.2701e-05  c_fit=0.07546  R^2=0.9999
+  [C] axis       c^2_fit=5.3387e-03  m^2_fit=+1.1507e-02  c_fit=0.07307  R^2=1.0000
+  [C] face_diag  c^2_fit=5.5884e-03  m^2_fit=+1.1473e-02  c_fit=0.07476  R^2=0.9995
+  [C] body_diag  c^2_fit=5.6293e-03  m^2_fit=+1.1532e-02  c_fit=0.07503  R^2=0.9999
+
+==============================================================================
+STAGE 4 -- gate evaluation
+==============================================================================
+G1 -- dispersion linear fit, per sector per direction:
+      PASS: R^2 > 0.98 AND |c^2_fit - c^2_pred|/c^2_pred < 15%
+  [A] axis        R^2=1.0000 (OK)  c^2_err= 3.83% (OK)  => PASS
+  [A] face_diag   R^2=1.0000 (OK)  c^2_err= 2.89% (OK)  => PASS
+  [A] body_diag   R^2=0.9999 (OK)  c^2_err= 2.38% (OK)  => PASS
+  [B] axis        R^2=1.0000 (OK)  c^2_err= 3.83% (OK)  => PASS
+  [B] face_diag   R^2=1.0000 (OK)  c^2_err= 2.89% (OK)  => PASS
+  [B] body_diag   R^2=0.9999 (OK)  c^2_err= 2.38% (OK)  => PASS
+  [C] axis        R^2=1.0000 (OK)  c^2_err= 8.48% (OK)  => PASS
+  [C] face_diag   R^2=0.9995 (OK)  c^2_err= 4.20% (OK)  => PASS
+  [C] body_diag   R^2=0.9999 (OK)  c^2_err= 3.50% (OK)  => PASS
+
+G2 -- direction isotropy: spread of c_fit across directions < 5%
+  [A] sigma_g (v7 symplectic)      c_axis=0.07490  c_face=0.07526  c_body=0.07546  spread= 0.41%  PASS
+  [B] sigma_m (v8 massless)        c_axis=0.07490  c_face=0.07526  c_body=0.07546  spread= 0.41%  PASS
+  [C] phi    (v8 g=0.01)           c_axis=0.07307  c_face=0.07476  c_body=0.07503  spread= 1.64%  PASS
+
+G3 -- cross-sector cone equality: spread of mean(c) across sectors < 2%
+  [A] c_mean=0.07521  diff_from_overall= 0.41%
+  [B] c_mean=0.07521  diff_from_overall= 0.41%
+  [C] c_mean=0.07428  diff_from_overall= 0.82%
+  c_overall_mean=0.07490  c_pred=0.07638  spread=0.82%  PASS
+
+==============================================================================
+STAGE 5 -- VERDICT
+==============================================================================
+  G1 (dispersion fit):        PASS   per-sector: {'A': True, 'B': True, 'C': True}
+  G2 (direction isotropy):    PASS   per-sector: {'A': True, 'B': True, 'C': True}
+  G3 (cross-sector cone):     PASS
+
+  >>> EMERGENT LORENTZ (linear order) -- CONFIRMED.
+      3 sectors share cone c = 0.07490 lu/step (pred 0.07638).
+      NOTE-QNG-013 L1 discharged numerically on z=6 cubic lattice.
+
+Artifact: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-lorentz-isotropy-v1\qng-lorentz-isotropy-v1.json

@@ -1,0 +1,67 @@
+==========================================================================
+QNG-GPU-020 v8 stability probe (single ring, L=16, R=4)
+==========================================================================
+  MU_M=10.0000  MU_PHI=0.8571  M_PHI=0.3582  g=0.22
+  SIGMA_G_MIN_ABORT=0.025
+
+--- baseline: prereg dt, no damping ---
+  dt=0.025  gamma=0.0  nsteps=800
+  SURVIVED all 800 steps
+  H0=2.705e+02  H_final=2.295e+02  drift=-1.515e-01
+  sg_min initial=0.5000  final=0.0000
+  sigma_g positivity breach at step 60
+  wall: 14.9s
+
+--- dt/2.5 (0.010), no damping ---
+  dt=0.01  gamma=0.0  nsteps=2000
+  SURVIVED all 2000 steps
+  H0=2.705e+02  H_final=2.269e+02  drift=-1.612e-01
+  sg_min initial=0.5000  final=0.0000
+  sigma_g positivity breach at step 150
+  wall: 23.5s
+
+--- dt/5   (0.005), no damping ---
+  dt=0.005  gamma=0.0  nsteps=4000
+  SURVIVED all 4000 steps
+  H0=2.705e+02  H_final=2.261e+02  drift=-1.642e-01
+  sg_min initial=0.5000  final=0.0000
+  sigma_g positivity breach at step 300
+  wall: 46.4s
+
+--- prereg dt + gamma=0.01 light Langevin ---
+  dt=0.025  gamma=0.01  nsteps=800
+  SURVIVED all 800 steps
+  H0=2.705e+02  H_final=2.085e+02  drift=-2.290e-01
+  sg_min initial=0.5000  final=0.0000
+  sigma_g positivity breach at step 60
+  wall: 9.8s
+
+--- prereg dt + gamma=0.05 mod Langevin ---
+  dt=0.025  gamma=0.05  nsteps=800
+  SURVIVED all 800 steps
+  H0=2.705e+02  H_final=1.318e+02  drift=-5.129e-01
+  sg_min initial=0.5000  final=0.0001
+  sigma_g positivity breach at step 60
+  wall: 9.8s
+
+--- dt=0.010 + gamma=0.01 ---
+  dt=0.01  gamma=0.01  nsteps=2000
+  SURVIVED all 2000 steps
+  H0=2.705e+02  H_final=2.061e+02  drift=-2.379e-01
+  sg_min initial=0.5000  final=0.0000
+  sigma_g positivity breach at step 150
+  wall: 24.4s
+
+==========================================================================
+SUMMARY
+==========================================================================
+tag                                                dt     gamma  NaN@       drift       
+baseline: prereg dt, no damping                    0.025  0      OK         -1.51e-01
+dt/2.5 (0.010), no damping                         0.01   0      OK         -1.61e-01
+dt/5   (0.005), no damping                         0.005  0      OK         -1.64e-01
+prereg dt + gamma=0.01 light Langevin              0.025  0.01   OK         -2.29e-01
+prereg dt + gamma=0.05 mod Langevin                0.025  0.05   OK         -5.13e-01
+dt=0.010 + gamma=0.01                              0.01   0.01   OK         -2.38e-01
+
+Best stable config: baseline: prereg dt, no damping
+  dt=0.025 gamma=0.0  |drift|=1.51e-01

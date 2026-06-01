@@ -1,0 +1,64 @@
+{
+  "L": 28,
+  "R": 4,
+  "T_P1": 300.0,
+  "T_P2": 1000.0,
+  "T_run": 1000.0,
+  "eps_perturb": 0.02,
+  "g": 0.22,
+  "mu_phi": 0.8571428571428572,
+  "beta_phi": 0.06,
+  "sigma_m_ref": 0.5,
+  "sm_min": 0.2290,
+  "sm_max": 0.7661,
+  "deficit_max_from_ref": 0.271,
+  "m2_core_pred": 0.00942,
+  "T_core_pred_lu": 64.72,
+  "sample_points": [
+    [18, 14, 14],
+    [14, 18, 14],
+    [10, 14, 14],
+    [14, 10, 14],
+    [13, 13, 13]
+  ],
+  "sample_labels": ["theta=0deg", "theta=90deg", "theta=180deg", "theta=270deg", "center"],
+  "peaks": {
+    "theta=0deg": [
+      {"omega": 0.03766, "T_lu": 166.83, "power_norm": 0.420},
+      {"omega": 0.05022, "T_lu": 125.12, "power_norm": 0.156},
+      {"omega": 0.06905, "T_lu": 91.00,  "power_norm": 0.128}
+    ],
+    "theta=90deg": [
+      {"omega": 0.03766, "T_lu": 166.83, "power_norm": 0.420},
+      {"omega": 0.05022, "T_lu": 125.12, "power_norm": 0.156},
+      {"omega": 0.06905, "T_lu": 91.00,  "power_norm": 0.127}
+    ],
+    "theta=180deg": [
+      {"omega": 0.03766, "T_lu": 166.83, "power_norm": 0.421},
+      {"omega": 0.05022, "T_lu": 125.12, "power_norm": 0.155},
+      {"omega": 0.06905, "T_lu": 91.00,  "power_norm": 0.128}
+    ],
+    "theta=270deg": [
+      {"omega": 0.03766, "T_lu": 166.83, "power_norm": 0.419},
+      {"omega": 0.05022, "T_lu": 125.12, "power_norm": 0.155},
+      {"omega": 0.06905, "T_lu": 91.00,  "power_norm": 0.128}
+    ],
+    "center": [
+      {"omega": 0.03766, "T_lu": 166.83, "power_norm": 0.375},
+      {"omega": 0.05022, "T_lu": 125.12, "power_norm": 0.129},
+      {"omega": 0.06905, "T_lu": 91.00,  "power_norm": 0.118}
+    ]
+  },
+  "ring_median_top_omega": 0.03766,
+  "H_drift_frac": 4.12e-09,
+  "wall_s": 1010.2,
+  "verdict": "C1_GLOBAL_MODES_NOT_CORE_LOCALIZED",
+  "notes": [
+    "Script hit print-format bug after FFT; values salvaged from log.",
+    "All 5 spatial sample points show IDENTICAL 3-peak spectrum.",
+    "Top peak ratio omega_meas/sqrt(m^2_core) = 0.0377/0.0971 = 0.388 (far from 1.0)",
+    "This means the peaks are NOT core-localized bound modes of m^2_core.",
+    "Identical spectra at ring-core vs ring-center points = these are GLOBAL field modes.",
+    "Consistent with B1 EXPELLED: phi is not localized at the ring; it fills the box as extended modes dressed by the sigma_m landscape."
+  ]
+}

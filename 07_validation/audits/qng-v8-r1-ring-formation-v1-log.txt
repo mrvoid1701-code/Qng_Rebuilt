@@ -1,0 +1,13 @@
+================================================================================
+QNG-GPU-031e: ring formation under DER-QNG-051 Option R1 (pure XY)
+================================================================================
+
+  L=20, R=4, T_P1=300.0, T_P2=1000.0, DT=0.025
+  n1=12000, n2=40000, total 52000 Yoshida4 steps
+  exact_a='r1' (pure XY, no sigma_m weights in E_phi)
+  CPU-074 R=4 canonical (approx) M_ring = 728.92
+
+  [Phase 1] v_couple_on=False, exact_a='r1'
+    init:  M_ring=+0.000  H=-226.411
+    t= 100.0  M= +411.859  H=   -226.58  sm=[0.342,0.653]  T_m=   0.872 T_phi=   2.742
+    t= 200.0  M= +449.344  H=   -225.80  sm=[0.008,0.925]  T_m=   1.519 T_phi=   3.931

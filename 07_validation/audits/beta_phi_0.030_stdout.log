@@ -1,0 +1,11 @@
+================================================================================
+GPU-042: beta_phi-scan  beta_phi=0.03, L=28, R=4
+================================================================================
+  c_phi_derived = 0.10801
+  audit: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-beta-phi-scan-0.030-v1
+Traceback (most recent call last):
+  File "C:\Users\tigan\Desktop\QNG-Theory Release-01\tests\gpu\qng_v8_beta_phi_scan.py", line 170, in <module>
+    main()
+  File "C:\Users\tigan\Desktop\QNG-Theory Release-01\tests\gpu\qng_v8_beta_phi_scan.py", line 103, in main
+    state, nb_idx = form_ring_cached(L=L, R=R, T_P1=T_P1, T_P2=T_P2, DT=DT,
+TypeError: form_ring_cached() got an unexpected keyword argument 'tag'

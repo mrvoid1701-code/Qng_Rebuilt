@@ -1,0 +1,20 @@
+{
+  "L": 20,
+  "R": 4,
+  "T_P1": 300.0,
+  "T_P2": 1000.0,
+  "T_SPINUP": 200.0,
+  "T_LYAPUNOV": 2000.0,
+  "DT": 0.025,
+  "T_RENORM_LU": 10.0,
+  "EPS": 1e-08,
+  "K_GM": 0.01,
+  "CHI_DECAY": 0.02,
+  "EXACT_A_MODE": "r1",
+  "lambda_max_all": 0.0014405355850100785,
+  "lambda_late": 0.0014988613113694304,
+  "n_renorms": 200,
+  "wall_sec": 1982.8275799751282,
+  "verdict": "H_CHAOTIC",
+  "diagnosis": "lambda_max = +0.00150 > 1e-3 -> R1 attractor is CHAOTIC. Intrinsic stochasticity via Ruelle-Bowen is possible. Path forward for hbar-emergent exists: pursue ergodic diffusion + FDT closure at higher L."
+}

@@ -1,0 +1,23 @@
+================================================================================
+QNG-GPU-026: 4D KG DISPERSION — dimension robustness of v8 substrate
+================================================================================
+  L = 12 (4D, N=20736 nodes)
+  BETA_PHI=0.06, MU_PHI=0.857143
+  Predicted c_phi^2 (4D, z=8): 0.008750
+  Predicted c_phi^2 (3D, z=6): 0.011667
+  4D/3D ratio: 0.7500  (expected 6/8 = 0.75)
+  T_PHYS=500.0 lu  DT=0.025  N_STEPS=20000
+
+  k=1: k_phys=0.5236  omega_meas=0.05027  pred_4d=0.04842  pred_3d=0.05591  (ratio_4d=1.038)  (54.7s)
+  k=2: k_phys=1.0472  omega_meas=0.08796  pred_4d=0.09354  pred_3d=0.10801  (ratio_4d=0.940)  (54.5s)
+  k=3: k_phys=1.5708  omega_meas=0.13823  pred_4d=0.13229  pred_3d=0.15275  (ratio_4d=1.045)  (54.4s)
+  k=1: err_vs_4d=3.8%  err_vs_3d=10.1%  PASS
+  k=2: err_vs_4d=6.0%  err_vs_3d=18.6%  PASS
+  k=3: err_vs_4d=4.5%  err_vs_3d=9.5%  FAIL
+
+================================================================================
+VERDICT: H_DIM_ANOMALY
+================================================================================
+  Dimension anomaly detected. Unexpected — investigate.
+
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-gpu026-4d-kg-dispersion-v1/report.json

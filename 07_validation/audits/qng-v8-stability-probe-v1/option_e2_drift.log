@@ -1,0 +1,39 @@
+==============================================================================
+Option E^2 drift diagnostic (perturbed IC, seed=42)
+==============================================================================
+  Perturbation: N(0, 0.01) on sm, pi_m, pi_phi
+  Integrator:   Yoshida 4th-order symplectic
+  Expected:     |drift_rel| ~ O(dt^4), bounded oscillation, no secular growth
+
+  [L=16, dt=0.025]
+     wall=9.9s  H0=5.3592e-01  H_final=2.5747e+00
+     drift_abs=+2.039e+00  drift_rel=+3.804e+00  oscillation=+5.130e+00
+     sg_min0=0.5000  sg_min_final=0.5000
+
+  [L=16, dt=0.010]
+     wall=24.6s  H0=5.3592e-01  H_final=2.5747e+00
+     drift_abs=+2.039e+00  drift_rel=+3.804e+00  oscillation=+5.130e+00
+     sg_min0=0.5000  sg_min_final=0.5000
+
+  [L=16, dt=0.005]
+     wall=49.3s  H0=5.3592e-01  H_final=2.5747e+00
+     drift_abs=+2.039e+00  drift_rel=+3.804e+00  oscillation=+5.130e+00
+     sg_min0=0.5000  sg_min_final=0.5000
+
+  [L=32, dt=0.025]
+     wall=23.1s  H0=4.2111e+00  H_final=9.6967e+00
+     drift_abs=+5.486e+00  drift_rel=+1.303e+00  oscillation=+2.271e+00
+     sg_min0=0.5000  sg_min_final=0.5000
+
+==============================================================================
+VERDICT
+==============================================================================
+L=16 drift ratios (should scale ~dt^4 -> factor ~625 between dt=0.025 and dt=0.005):
+  |drift(dt=0.025)| / |drift(dt=0.005)| = 1.0
+  (perfect 4th-order would give 625; good symplectic: 100-1000)
+
+Max |drift_rel|      = 3.804e+00
+Max |oscillation_rel| = 5.130e+00
+
+OPTION E^2 DRIFT HIGH: 3.804e+00
+  -> Investigate integrator / dt before amendment.

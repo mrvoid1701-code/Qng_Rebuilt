@@ -1,0 +1,43 @@
+================================================================================
+Einstein test #3b: Shapiro delay (1919 light-bending analog)
+================================================================================
+  c_phi   = 0.10801   (phi wave speed in vacuum)
+  c_phi^2 = 0.01167  = BETA_PHI/(6 mu_phi)
+
+  L=28, R=4
+  Pulse: source=(4.0, 18.0, 14.0)
+         sigma=2.0, k=0.785, A=0.05
+  Detect: (24.0, 18.0, 14.0)  [idx=11504]
+  Distance = 20.0 nodes
+  Vac ToF theory = d/c_phi = 185.2 lu
+  T_track = 250.0 lu  (sample every 1.0 lu)
+
+[1] Vacuum + pulse
+    injected pulse (phi max=0.0500)
+    evolved vacuum: 10000 steps done (201.3s)
+
+[2] Ring formation (P1=300, P2=1000 lu)
+  Ring formation done (52000 steps, 1048.5s) M_ring=176.85
+    ring ready, M_ring=176.85
+
+[3] Ring-only baseline evolution (no pulse)
+    evolved ring_only: 10000 steps done (202.7s)
+
+[4] Ring + pulse evolution
+    evolved ring+pulse: 10000 steps done (222.5s)
+
+================================================================================
+RESULTS
+================================================================================
+  Vacuum pulse:  t_peak = 67.00 lu   amp = 0.01295
+  Ring  pulse:   t_peak = 93.00 lu   amp = 0.01456
+  Theory ToF:    t_vac_theory = 185.16 lu (massless)
+
+Traceback (most recent call last):
+  File "C:\Users\tigan\Desktop\QNG-Theory Release-01\tests\gpu\qng_v8_shapiro_probe.py", line 287, in <module>
+    main()
+  File "C:\Users\tigan\Desktop\QNG-Theory Release-01\tests\gpu\qng_v8_shapiro_probe.py", line 244, in main
+    print(f"  Shapiro delay:  \u0394t = t_ring - t_vac = {delta_t:+.3f} lu")
+  File "C:\Users\tigan\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u0394' in position 18: character maps to <undefined>

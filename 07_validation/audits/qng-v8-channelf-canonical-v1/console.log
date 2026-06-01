@@ -1,0 +1,29 @@
+================================================================================
+QNG-GPU-030: v8 + CANONICAL Channel F (DER-QNG-049) on cached ring
+================================================================================
+  [ring-cache HIT ] ring_L28_R4_P1_300_P2_1000_9218625ef1cb.npz
+  Ring loaded from cache, M_ring=176.85
+  cached M_ring = 176.8505  (target band [100, 250])
+  config: v8 Yoshida4, DT=0.01, T=100.0 lu (10000 substeps)
+  V_couple=True, Channel F=True (CANONICAL), k_gm=0.0, chi_decay=0.0, damping=0.0
+  H_0 = 9.3692
+
+  t=  20.0  M= 430.169  H=    16.444  dH/H=+7.55e-01  R=11.77  sm=[0.321,0.624]  phi_std=0.361
+  t=  40.0  M= 776.688  H=    15.421  dH/H=+6.46e-01  R=10.14  sm=[0.230,0.671]  phi_std=0.300
+  t=  60.0  M=1029.753  H=    16.432  dH/H=+7.54e-01  R= 8.38  sm=[0.228,0.657]  phi_std=0.286
+  t=  80.0  M=1034.609  H=    16.692  dH/H=+7.82e-01  R= 9.36  sm=[0.244,0.711]  phi_std=0.359
+  t= 100.0  M= 780.278  H=    16.971  dH/H=+8.11e-01  R=11.63  sm=[0.214,0.740]  phi_std=0.450
+
+  wall = 280.2s
+
+================================================================================
+GATES
+================================================================================
+  G1 H conservation:    max |dH/H| = 9.394e-01 (need <0.01)        -> FAIL
+  G2 bounded M_ring:    M in [176.850, 1066.473] (need in [100.0,250.0])  -> FAIL
+  G3 non-dissolve:      M_final/M_at_10 = 2.90 (need >0.5)             -> PASS
+
+  VERDICT: DER_QNG_049_SUSPECTED_BUG
+  Interpretation: H not conserved under channel_f=True in canonical mode. DER-QNG-049 derivation likely has a sign or index error. Debug F_phi_F_j against finite differences of E_F before any further interpretation.
+================================================================================
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-v8-channelf-canonical-v1/report.json

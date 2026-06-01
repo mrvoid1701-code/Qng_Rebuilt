@@ -1,0 +1,20 @@
+{
+  "R": 4,
+  "L": 20,
+  "DT": 0.025,
+  "T_P1": 300.0,
+  "T_P2": 5000.0,
+  "exact_a_mode": "r1",
+  "n_snapshots": 500,
+  "n_reduced_samples": 5000,
+  "final_M_ring": -168.23536850588152,
+  "mean_M_first_half": 312.78406668510394,
+  "mean_M_second_half": 306.1170289971563,
+  "mean_M_all": 309.4505478411301,
+  "std_M_all": 423.2540578957835,
+  "convergence_rel": 0.021544759686030524,
+  "duty_cycle_ring": 0.3854,
+  "H_mean": -225.0094602989507,
+  "H_drift_peak_to_peak": 0.0019516721263134395,
+  "wall_s": 2532.761028766632
+}

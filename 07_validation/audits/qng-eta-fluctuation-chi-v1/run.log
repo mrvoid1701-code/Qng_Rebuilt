@@ -1,0 +1,33 @@
+================================================================================
+QNG-CPU-082-v2: eta fluctuation with chi channel (program alpha refined)
+================================================================================
+  L=100, DT=0.025, T_RUN=400.0 lu
+  mu_m=10.0, beta_m=0.4, k_eff=0.04
+  K_BACK=0.1, ALPHA_BACK=0.005, CHI_DECAY=0.02
+  eps=0.005 seed=7  <Var(chi)>=3.982e-08  <Var(sm)>=1.972e-05  <Var(pi)>=9.342e-05  Q_chi_pi=3.720e-12  H_drift=7.82e-02
+  eps=0.005 seed=13  <Var(chi)>=4.091e-08  <Var(sm)>=2.069e-05  <Var(pi)>=1.302e-04  Q_chi_pi=5.325e-12  H_drift=5.17e-02
+  eps=0.005 seed=31  <Var(chi)>=2.922e-08  <Var(sm)>=1.649e-05  <Var(pi)>=8.524e-05  Q_chi_pi=2.491e-12  H_drift=4.49e-02
+  eps=0.010 seed=7  <Var(chi)>=1.593e-07  <Var(sm)>=7.888e-05  <Var(pi)>=3.737e-04  Q_chi_pi=5.951e-11  H_drift=7.82e-02
+  eps=0.010 seed=13  <Var(chi)>=1.637e-07  <Var(sm)>=8.275e-05  <Var(pi)>=5.206e-04  Q_chi_pi=8.520e-11  H_drift=5.17e-02
+  eps=0.010 seed=31  <Var(chi)>=1.169e-07  <Var(sm)>=6.598e-05  <Var(pi)>=3.409e-04  Q_chi_pi=3.985e-11  H_drift=4.49e-02
+  eps=0.020 seed=7  <Var(chi)>=6.371e-07  <Var(sm)>=3.155e-04  <Var(pi)>=1.495e-03  Q_chi_pi=9.522e-10  H_drift=7.82e-02
+  eps=0.020 seed=13  <Var(chi)>=6.546e-07  <Var(sm)>=3.310e-04  <Var(pi)>=2.082e-03  Q_chi_pi=1.363e-09  H_drift=5.17e-02
+  eps=0.020 seed=31  <Var(chi)>=4.676e-07  <Var(sm)>=2.639e-04  <Var(pi)>=1.364e-03  Q_chi_pi=6.376e-10  H_drift=4.49e-02
+
+  Total wall: 10.0s
+
+================================================================================
+SCALING ANALYSIS (3-seed means)
+================================================================================
+  var_sm_mean      ~ eps^2.000
+  var_pi_mean      ~ eps^2.000
+  var_chi_mean     ~ eps^2.000
+
+  product_sm_pi      ~ eps^4.000  (eps=0.005: 1.980e-09,  eps=0.020: 5.069e-07)
+  product_chi_pi     ~ eps^4.000  (eps=0.005: 3.845e-12,  eps=0.020: 9.844e-10)
+  product_chi_sm     ~ eps^4.000  (eps=0.005: 7.045e-13,  eps=0.020: 1.804e-10)
+
+  VERDICT for chi: CHI_LINEAR
+  chi variance scales as eps^2 -> pure linear response, no substrate scale in chi
+
+  Report: C:\Users\tigan\Desktop\QNG-Theory Release-01\07_validation\audits\qng-eta-fluctuation-chi-v1\report.json
