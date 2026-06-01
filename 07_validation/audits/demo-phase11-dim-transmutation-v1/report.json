@@ -1,0 +1,29 @@
+{
+  "b0": 9.0,
+  "observed_orders": 19.785329835010767,
+  "alpha_s_MP_fit": 0.015324219905683565,
+  "hierarchy_table": {
+    "0.01": {
+      "orders": 30.3,
+      "Lambda_GeV": 5.8463565882198945e-12
+    },
+    "0.0152": {
+      "orders": 19.9,
+      "Lambda_GeV": 0.1378278919286424
+    },
+    "0.02": {
+      "orders": 15.2,
+      "Lambda_GeV": 8445.445540424893
+    },
+    "0.03": {
+      "orders": 10.1,
+      "Lambda_GeV": 954703073.5718999
+    },
+    "0.05": {
+      "orders": 6.1,
+      "Lambda_GeV": 10530886322158.502
+    }
+  },
+  "natural": true,
+  "verdict": "GAP13_HADRON_SCALE_IS_DIMENSIONAL_TRANSMUTATION: the ~20-order Planck->hadron hierarchy is reproduced by the one-loop running of QNG's edge-SU(3) coupling (Phase 3) with a Planck-scale input alpha_s(M_P) = 0.0153 -- an O(0.01) number (the SM strong coupling extrapolated to M_P is ~0.02, the same ballpark). The 22 orders are NOT fine-tuning: they are the EXPONENTIAL of a moderate coupling, exactly the dimensional-transmutation / asymptotic-freedom mechanism that makes Lambda_QCD << M_Planck in the real world. Combined with Phase 10 (Gap 13 = RG distance) and Phase 3 (edges confine), this turns the HADRON-scale part of Gap 13 from a 10^-22 fine-tuning mystery into a natural O(0.01) Planck-scale coupling + standard running. HONEST SCOPE: (i) this explains the HADRON/confinement scale (Lambda_QCD ~ baryon masses), NOT lepton/quark masses (Yukawa x Higgs-VEV, separate); (ii) alpha_s(M_P) is an INPUT (tied to Gap 17, the gauge coupling) -- but trading a 10^-22 hierarchy for an O(0.01) input is a massive improvement; (iii) it assumes QNG's edge-SU(3) runs with standard asymptotic freedom (the lattice-gauge expectation, consistent with Phase 3 confinement)."
+}

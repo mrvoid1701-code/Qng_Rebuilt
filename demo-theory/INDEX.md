@@ -56,6 +56,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **8** | SU(3)-flavor → octet(8,½)+decuplet(10,3/2); GMO 0.6% | EIGHTFOLD_WAY_FROM_SKYRME |
 | **9** | domain-wall fermion: 1 chiral mode/wall, ±1 chirality, doublers gapped | V14_CHIRAL_FERMION_OK |
 | **10** | vortex coarse-grains → node; winding RG-invariant; Gap-13 = RG distance | VORTEX_IS_A_COARSE_GRAINED_NODE |
+| **11** | hadron scale = dimensional transmutation; 20 orders from α_s(M_P)≈0.015 | GAP13_HADRON_SCALE_IS_DIMENSIONAL_TRANSMUTATION |
 
 Findings docs: `E5/E7/E4-RESULT*`, `PHASE3/4/5/6-*-findings`,
 `PARTICLE-INVENTORY-v1`, session summaries. Audits: `07_validation/audits/demo-*`.
