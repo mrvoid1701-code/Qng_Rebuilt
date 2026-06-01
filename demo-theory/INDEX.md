@@ -59,6 +59,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **11** | hadron scale = dimensional transmutation; 20 orders from α_s(M_P)≈0.015 | GAP13_HADRON_SCALE_IS_DIMENSIONAL_TRANSMUTATION |
 | **12** | proton mass scale from ℏ/c/G(derived)→a_M→transmutation→Skyrme: 0.94 vs 0.938 GeV | PROTON_MASS_SCALE_FROM_FIRST_PRINCIPLES |
 | **13** | Stability Principle is PROVABLY BLIND to α_em (massless photon vacuum is e-independent) → α needs an RG-fixed-point principle | STABILITY_PRINCIPLE_BLIND_TO_ALPHA_EM |
+| **14** | gravity creates a UV fixed point α\*=f_g/c (QNG has G derived); α_em needs f_g/c=0.0073 | GRAVITY_INDUCED_FIXED_POINT_IS_THE_ALPHA_ROUTE |
 
 **Three paths (`THREE-PATHS-status.md`):** Drumul 1 (absolute mass) **done at
 scale level** (Phase 12, proton 0.94 GeV); Drumul 2 (beyond-SM) **sharpened**
