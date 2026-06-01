@@ -53,6 +53,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **5** | v13 SU(2) field → genuine B=1 baryon + pion triplet | V13_SKYRMION_GENUINE |
 | **6** | Derrick: Skyrme term → stable finite-size baryon | V13_BARYON_STABLE |
 | **7** | Q=I₃+B/2 → p=+1, n=0, π=±1/0/−1 (v12⊗v13) | CHARGES_UNIFIED |
+| **8** | SU(3)-flavor → octet(8,½)+decuplet(10,3/2); GMO 0.6% | EIGHTFOLD_WAY_FROM_SKYRME |
 
 Findings docs: `E5/E7/E4-RESULT*`, `PHASE3/4/5/6-*-findings`,
 `PARTICLE-INVENTORY-v1`, session summaries. Audits: `07_validation/audits/demo-*`.

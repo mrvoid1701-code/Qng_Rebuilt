@@ -1,0 +1,12 @@
+{
+  "Y_R": 1.0,
+  "octet_dim": 8,
+  "octet_states": 8,
+  "octet_J": 0.5,
+  "decuplet_dim": 10,
+  "decuplet_states": 10,
+  "decuplet_J": 1.5,
+  "octet_ok": true,
+  "decuplet_ok": true,
+  "verdict": "EIGHTFOLD_WAY_FROM_SKYRME: the SU(3)-flavor B=1 Skyrmion, with the Wess-Zumino constraint Y_R = N_c*B/3 = 1 (N_c=3 supplied by the edge-SU(3) color sector of Phase 3, B=1 by the Skyrmion of Phase 5), SELECTS exactly the two lowest baryon multiplets: the OCTET (dim 8, J=1/2: N, Lambda, Sigma, Xi) and the DECUPLET (dim 10, J=3/2: Delta, Sigma*, Xi*, Omega). The spin follows from the isospin of the Y=1 state (octet 1/2 -> J=1/2; decuplet 3/2 -> J=3/2). This is the observed Eightfold Way of light baryons, reproduced from QNG's edge-color + node-Skyrmion ingredients. SCALE-FREE (representation theory) -- NOT blocked by hbar/Gap-13, like the charges (Phase 7). What remains: the intra-multiplet mass SPLITTINGS (Gell-Mann-Okubo) need flavor-SU(3) breaking (strange-quark mass), and absolute masses still need hbar+Gap-13. But the MULTIPLET STRUCTURE -- which baryons exist and their spins -- is reproduced."
+}
