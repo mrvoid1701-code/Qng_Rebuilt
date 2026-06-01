@@ -1,0 +1,28 @@
+{
+  "separations": [
+    8.0,
+    12.0,
+    16.0,
+    24.0,
+    32.0,
+    48.0,
+    64.0,
+    88.0
+  ],
+  "energies": [
+    1.8737200731248567,
+    2.1966465825257693,
+    2.52854910178489,
+    3.3022726314351036,
+    4.26573625536813,
+    6.809527303352064,
+    10.154494699268488,
+    16.49726220910981
+  ],
+  "fit_A": 5.36226589907318,
+  "fit_B": -11.801035188881135,
+  "r2": 0.7782432362379005,
+  "pi_beta": 0.18849555921538758,
+  "log_law": true,
+  "verdict": "SOLITON_PAIR_IS_BOUND (force attractive): the inter-soliton force is probed via the static energy E(d) of a vortex-antivortex pair. The energy RISES MONOTONICALLY with separation (1.87 at d=8 -> 16.5 at d=88), so the force F = -dE/dd < 0 is ATTRACTIVE -- the +/- pair is BOUND (it costs energy to pull them apart), consistent with the Phase-27 annihilation (they fall together). HONEST: the precise functional form is NOT cleanly logarithmic here (log fit R^2 = 0.78; the energy grows faster, ~linear) because this uses the UNRELAXED algebraic ansatz psi=(z+d)conj(z-d), which is not the minimum-energy configuration at each d and overestimates the gradient energy. A clean log-Coulomb law (the expected 2D-vortex result, A=pi*beta) needs relaxing the field at each separation -- not done here. So the ROBUST result is QUALITATIVE: the soliton-soliton force is attractive and binding (energy rises with separation); the precise law needs relaxation. In 3D the ring/Skyrmion force is the CPU-049/050 chirality- dependent Lennard-Jones-like potential (repulsive core + attractive tail, equilibrium at d~3 lambda = the nuclear/molecular binding)."
+}
