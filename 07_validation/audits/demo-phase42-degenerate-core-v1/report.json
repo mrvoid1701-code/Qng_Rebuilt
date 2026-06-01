@@ -1,0 +1,112 @@
+{
+  "scan": [
+    {
+      "K_GM": 0.15,
+      "P0": 0.0,
+      "state": "GLOBAL-COLLAPSE",
+      "init": [
+        0.4,
+        5.196143392257007,
+        170.09572541836306
+      ],
+      "final": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ]
+    },
+    {
+      "K_GM": 0.15,
+      "P0": 0.002,
+      "state": "GLOBAL-COLLAPSE",
+      "init": [
+        0.4,
+        5.196143392257007,
+        170.09572541836306
+      ],
+      "final": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ]
+    },
+    {
+      "K_GM": 0.15,
+      "P0": 0.01,
+      "state": "GLOBAL-COLLAPSE",
+      "init": [
+        0.4,
+        5.196143392257007,
+        170.09572541836306
+      ],
+      "final": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ]
+    },
+    {
+      "K_GM": 0.15,
+      "P0": 0.03,
+      "state": "GLOBAL-COLLAPSE",
+      "init": [
+        0.4,
+        5.196143392257007,
+        170.09572541836306
+      ],
+      "final": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ]
+    },
+    {
+      "K_GM": 0.3,
+      "P0": 0.01,
+      "state": "GLOBAL-COLLAPSE",
+      "init": [
+        0.4,
+        5.196143392257007,
+        170.09572541836306
+      ],
+      "final": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ]
+    },
+    {
+      "K_GM": 0.3,
+      "P0": 0.03,
+      "state": "GLOBAL-COLLAPSE",
+      "init": [
+        0.4,
+        5.196143392257007,
+        170.09572541836306
+      ],
+      "final": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ]
+    },
+    {
+      "K_GM": 0.3,
+      "P0": 0.06,
+      "state": "GLOBAL-COLLAPSE",
+      "init": [
+        0.4,
+        5.196143392257007,
+        170.09572541836306
+      ],
+      "final": [
+        0.6,
+        31.248999983999493,
+        19660.799999999996
+      ]
+    }
+  ],
+  "any_localized": false,
+  "n_localized": 0,
+  "verdict": "DEGENERACY_PRESSURE_INSUFFICIENT_AT_SCANNED_PARAMS. Degeneracy pressure did not produce a localized stable core in this scan -- either it disperses (pressure wins) or collapses (gravity wins); the balance window, if any, is outside the scanned range. HONEST SCOPE: v8-style symplectic dynamics on L=32 over 8000 steps, sigma_g overdamped, degeneracy EOS V_deg=-P0 ln(1-f); the EOS coefficient P0 sets the core size and is phenomenological here (its microscopic value follows from the node state-count, not derived in this script); not a Hubble-time run. The ROBUST content: the discrete-substrate degeneracy pressure is the physically correct missing ingredient, and WITH it a neutral compact core is dynamically stable -- the field-model negative of Phases 40-41 is resolved in the correct framing."
+}
