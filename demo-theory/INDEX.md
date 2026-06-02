@@ -126,6 +126,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **78** | electricity: **charge quantization DERIVED** — charge = φ-winding (integer, demonstrated) → multiples of e (QED mystery solved, no Dirac monopole needed); Maxwell/Coulomb from edge U(1); charge conserved topologically; max E-field Schwinger 1.3e18 V/m < substrate ~1e61 V/m | CHARGE_QUANTIZATION_IS_TOPOLOGICAL |
 | **79** | magnetic monopoles: compact edge-U(1) → monopoles exist as lattice defects (flux=2πn, quantized); **Dirac quantization e·g=2πℏn AUTOMATIC** (both electric+magnetic from one compact structure — Dirac postulated a monopole, QNG derives both); monopole problem solved by un-packing dilution | MONOPOLES_EXIST_DIRAC_AUTOMATIC |
 | **80** | baryogenesis: all 3 Sakharov conditions PRESENT (B-viol via instanton/'t Hooft P73; CP via flavor δ P74 + chiral walls P60; out-of-eq via un-packing P48-49) → matter universe NATURAL; QNG seed = matter-like packed initial state (P37). η_B=6e-10 NOT predicted (CP magnitude+rates, SM-class gap) | SAKHAROV_SATISFIED_ETAB_OPEN |
+| **81** | neutrinos: neutral (zero-winding) domain-wall zero modes (3 flavors=3 walls); **PREDICTION: MAJORANA** (no winding → ν=ν̄) → **neutrinoless double-beta decay (0νββ)** falsifiable (KamLAND-Zen/LEGEND/nEXO); charged leptons Dirac. Light via seesaw (abs. scale open); mixing=PMNS | NEUTRINOS_MAJORANA_PREDICT_0NUBB |
 
 **Quantum-gravity block (Phases 36–40):** one ingredient — the **discrete,
 bounded, reversible Planck-scale lattice** — resolves four problems at once: the
