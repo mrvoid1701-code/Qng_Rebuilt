@@ -131,6 +131,8 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **83** | proton decay: B = topological winding → conserved perturbatively, only instanton-suppressed (e^−861 EM… ) → τ_p astronomically long. QNG has NO dim-6 GUT operator → predicts **NO GUT-rate proton decay** (distinguishing test vs GUTs) | PROTON_STABLE_INSTANTON_SUPPRESSED |
 | **84** | spectral index n_s: **HONEST TENSION** — QNG shot noise is steeply BLUE (n_s~4), observed is slightly RED (0.965); matter-dominated un-packing ≠ de Sitter → no scale-invariance. Open challenge, flagged not hidden | N_S_TENSION_NEEDS_DE_SITTER |
 | **85** | QNG inflation: max-packed state (P37, ρ_max~54) = transient Λ → de Sitter H_inf~4.2 → scale-invariant n_s~1 slightly red → **RESOLVES P84**; ends at un-packing/reheating (~15 t_P→63 e-folds). Max-packed state: QUADRUPLE duty (P37/51/82/85) | INFLATION_FROM_MAXPACKED_FIXES_NS |
+| **86** | quantum measurement: QM structure reproduced (superposition/2-slit E6, operators CPU-019..028); **decoherence NATURAL** (many-node substrate=environment; off-diag 1.0→0.02 as N grows); Born rule |·|² plausibly the Gaussian substrate measure (η/FDT) but NOT rigorously derived (measurement-problem hard core) | QM_STRUCTURE_DECOHERENCE_BORN_PLAUSIBLE |
+| **87** | Higgs/hierarchy: Higgs field ABSENT (needs v13 doublet; χ-VEV is a singlet=DE); gauge sector+ρ=1+charges present. **Hierarchy problem plausibly SOLVED by dimensional transmutation** (α~0.015→GeV, ~0.018→TeV; composite Higgs, naturally light like the proton). Direction, not built | HIGGS_ABSENT_HIERARCHY_VIA_TRANSMUTATION |
 
 **Quantum-gravity block (Phases 36–40):** one ingredient — the **discrete,
 bounded, reversible Planck-scale lattice** — resolves four problems at once: the
