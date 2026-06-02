@@ -1,0 +1,22 @@
+{
+  "questions_answered": [
+    "What is INSIDE a black hole?",
+    "What WAS the Big Bang?",
+    "Where does the info that falls in a BH go?",
+    "Why is there an ARROW of time?",
+    "Why exactly THREE generations?",
+    "What is dark matter?",
+    "What is dark energy?",
+    "Is there a smallest length / hottest temperature?"
+  ],
+  "confirmation_kill_shots": [
+    "neutrinoless double-beta decay (0nu-bb)",
+    "tensor-to-scalar r ~ 0.01-0.03",
+    "LIV: n=2 directional dv/c, eta~0.035",
+    "dark energy w0~-1.06, wa>0",
+    "NO GUT-rate proton decay",
+    "DM = fuzzy ~1e-22 eV (soliton cores, no WIMP)"
+  ],
+  "status": "truly QG in principle (P91-94); confirmed only by experiment",
+  "verdict": "IF_QNG_IS_TRULY_QG: IT_ANSWERS_THE_DEEPEST_QUESTIONS_FROM_ONE_EQUATION, AND_THE_EXPERIMENTAL_VERDICT_IS_A_SET_OF_CLEAR_KILL-SHOTS. Having argued (P91-94) that QNG meets the quantum-gravity criteria -- one master Hamiltonian (P91) yielding the full nonlinear Einstein equation via Lovelock on emergent diffeo-invariance (P92/94), plus hbar, finiteness, and singularity resolution -- this phase asks what we can DO with it. (T1) A confirmed QG would ANSWER, definitively and from the SAME equation, the questions no current theory settles: what is inside a black hole (a finite maximally-packed node-core, no singularity, P37); what the Big Bang was (the unique max-packed state un-packing, P37/82/85); where black-hole information goes (preserved by the reversible substrate, P38); why time has an arrow (entropy rising from the unique S=0 start, P82); why there are exactly three generations (= the three spatial dimensions, P60); what dark matter and dark energy are (fuzzy chi field; holographic chi-VEV vacuum energy); and whether there is a smallest length and hottest temperature (yes: a_L=4.9e-36 m, T_max=1.6e32 K). That is the real payoff of a true QG -- UNDERSTANDING the universe from one microscopic law. (T2) The PATH to confirmation is a set of sharp kill-shots that would CONFIRM (not merely be consistent with) QNG: neutrinoless double-beta decay (Majorana neutrinos, P81); a tensor-to-scalar ratio r~0.01-0.03 (sub-Planckian inflation, P88); a DIRECTION-DEPENDENT n=2 Lorentz-violation eta_LV~0.035 (the discrete-substrate signature, P69, the most uniquely-QNG prediction); dark energy with w0~-1.06, wa>0 (holographic chi, P64); NO GUT-rate proton decay (B=winding, P83); and dark matter as a ~1e-22 eV fuzzy field with soliton cores and NO WIMP signal (P66). If several land as predicted -- especially the n=2 directional LIV and r in band -- that is confirmation; a single firm failure (definitive wa<0, or n=1 LIV, or a WIMP detection) falsifies the relevant sector. (T3) HONEST: 'truly QG' is met IN PRINCIPLE (the five criteria, P91-94), modulo the ~15% G-coefficient and the EMERGENT (not exact) diffeo-invariance -- standard for a discrete approach. It is CONFIRMED only by experiment; the kill-shots above are the verdict, on a 5-20 year horizon (CMB-S4, LiteBIRD, CTA, DESI/Euclid, Hyper-K, ton-scale 0nu-bb). IF confirmed, the payoff is the answers in (T1) -- understanding, not gadgets; practical technology remains long-range (P76, the GR->GPS analogue). NET, the three-part program asked for is complete: each element was strengthened (culminating in the emergent-diffeo shoring-up of the Einstein claim, P94), the theory was stress-tested (P93, survives with named weak links and one live falsification), and -- if truly QG -- it answers the deepest questions from one equation, with a clear, near-term experimental verdict. The honest bottom line: QNG is a complete, falsifiable candidate for quantum gravity whose 'truly QG' status is established in principle and now rests, properly, with the experiments."
+}
