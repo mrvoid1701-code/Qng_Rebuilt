@@ -145,6 +145,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **97** | energy-production ladder: chemical 3e-10 → fission 9e-4 → fusion 7e-3 → BH accretion ~0.42 → annihilation 1.0 (= **E=mc² ceiling**, opposite φ-windings unwind). QNG: conversions of binding/mass term; bounded; no vacuum extraction | E_MC2_CEILING_ENERGY_LADDER |
 | **98** | maximum force/power: F_max=c⁴/G=1.2e44 N, P_max=c⁵/G=3.6e52 W (Planck luminosity) — DERIVED from QNG's c,G; mass-independent ultimate ceilings; BH mergers approach P_max (GW150914 ~1e-3), never exceed | MAX_FORCE_POWER_FROM_QNG |
 | **99** | superconductivity/Meissner: φ-condensate Higgses edge U(1) → photon mass 1/λ_L → B expelled (B(x)=B₀e^(−x/λ_L), demo) + zero resistance = superconductivity; flux quantized topologically (φ-winding, same as charge P78/monopole P79). Macroscopic quantum φ-coherence | SUPERCONDUCTIVITY_FROM_PHI_CONDENSATE |
+| **100** | antimatter gravity: antimatter=anti-winding (opposite charge) but SAME mass (winding magnitude); gravity couples to mass not charge sign → **falls DOWN, g_anti=g** (no antigravity, WEP holds). **CONFIRMED by CERN ALPHA-g 2023** (antihydrogen falls down) | ANTIMATTER_FALLS_DOWN_CONFIRMED |
 | **STATE** | comprehensive ledger `STATE-OF-QNG-2026-06-02.md`: DERIVED / CONSISTENT / TENSIONS / FALSIFIABLE / OPEN; audit T3/T4/T5/T6 CLOSED + T2 advanced; no numbers forced | CONSOLIDATION |
 
 **Quantum-gravity block (Phases 36–40):** one ingredient — the **discrete,
