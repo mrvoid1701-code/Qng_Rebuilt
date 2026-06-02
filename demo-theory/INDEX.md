@@ -133,6 +133,7 @@ masses are blocked by the unresolved **ℏ** and **Gap 13**.
 | **85** | QNG inflation: max-packed state (P37, ρ_max~54) = transient Λ → de Sitter H_inf~4.2 → scale-invariant n_s~1 slightly red → **RESOLVES P84**; ends at un-packing/reheating (~15 t_P→63 e-folds). Max-packed state: QUADRUPLE duty (P37/51/82/85) | INFLATION_FROM_MAXPACKED_FIXES_NS |
 | **86** | quantum measurement: QM structure reproduced (superposition/2-slit E6, operators CPU-019..028); **decoherence NATURAL** (many-node substrate=environment; off-diag 1.0→0.02 as N grows); Born rule |·|² plausibly the Gaussian substrate measure (η/FDT) but NOT rigorously derived (measurement-problem hard core) | QM_STRUCTURE_DECOHERENCE_BORN_PLAUSIBLE |
 | **87** | Higgs/hierarchy: Higgs field ABSENT (needs v13 doublet; χ-VEV is a singlet=DE); gauge sector+ρ=1+charges present. **Hierarchy problem plausibly SOLVED by dimensional transmutation** (α~0.015→GeV, ~0.018→TeV; composite Higgs, naturally light like the proton). Direction, not built | HIGGS_ABSENT_HIERARCHY_VIA_TRANSMUTATION |
+| **88** | tensor ratio r: P85 near-Planck inflation → r~18 >> bound 0.036 RULED OUT. r forces V^¼<1.6e16 GeV → QNG inflation SUB-Planckian (GUT scale, after un-packing); max-packed = pre-inflation IC. **Prediction: r near bound ~0.01-0.03** (CMB-S4/LiteBIRD). Refines P85 (honest tension) | R_FORCES_SUBPLANCKIAN_INFLATION |
 
 **Quantum-gravity block (Phases 36–40):** one ingredient — the **discrete,
 bounded, reversible Planck-scale lattice** — resolves four problems at once: the
