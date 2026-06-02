@@ -1,0 +1,13 @@
+{
+  "photon_mass": "1/lambda_L (London)",
+  "B_decay": {
+    "0": 1.0,
+    "1": 0.36787944117144233,
+    "2": 0.1353352832366127,
+    "3": 0.049787068367863944,
+    "5": 0.006737946999085467
+  },
+  "meissner_expelled": true,
+  "flux_quantization": "topological phi-winding (Phi_0=h/2e)",
+  "verdict": "SUPERCONDUCTIVITY_AND_THE_MEISSNER_EFFECT_EMERGE_FROM_THE_QNG_phi-CONDENSATE. (T1) When the phase field phi CONDENSES -- becomes coherent and ordered over a region -- it Higgses the edge U(1) gauge symmetry and gives the photon an effective MASS m_gamma = 1/lambda_L (the Anderson-Higgs / London mechanism), so the photon is no longer massless inside the condensate. (T2) A massive photon cannot propagate freely: the magnetic field decays EXPONENTIALLY into the material, B(x) = B0 exp(-x/lambda_L) (the London equation), so the field is EXPELLED from the bulk -- the MEISSNER effect (demonstrated: B drops below 5% a few penetration depths in). Together with the lossless current the condensate carries (zero resistance), this IS superconductivity. (T3) The trapped magnetic flux is QUANTIZED, and in QNG that quantization is TOPOLOGICAL -- it is the phi-WINDING number (the same winding that quantizes electric charge, P78, and gives magnetic monopoles their Dirac quantum, P79) -- so Phi = n Phi_0, with Phi_0 = h/2e in a real superconductor (the factor 2 from Cooper-pair charge). NET: superconductivity in QNG is MACROSCOPIC QUANTUM phi-COHERENCE -- the phase field ordering over macroscopic scales, Higgsing the photon (Meissner) and quantizing flux (topology). This unifies a room-scale quantum phenomenon with the same phase-field/winding structure that gives charge quantization (P78), monopole quantization (P79), and the lepton/generation structure (P60) -- all faces of the phi phase field. HONEST: this is the standard Anderson-Higgs / Ginzburg-Landau picture of superconductivity expressed in QNG's phi-condensate language (the main theory has qng-phi-meissner-v1.md); the Meissner exponential and flux quantization are reproduced structurally. QNG does NOT derive the microscopic pairing (why phi condenses -- the analog of the BCS phonon mechanism / Tc) -- that is material-specific many-body physics; the QNG-level content is that superconductivity = phi-coherence Higgsing the photon, with topological flux quantization. No hype: the mechanism is standard, the QNG framing (phi-condensate, winding flux) is the unification."
+}
