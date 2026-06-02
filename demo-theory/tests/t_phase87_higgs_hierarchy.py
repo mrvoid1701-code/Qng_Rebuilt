@@ -55,12 +55,14 @@ def main():
     print("     ~1 part in (M_Pl/v)^2 ~ 1e34. QNG's PROVEN route avoids this:")
     print("     dimensional transmutation (P11/12) generated the proton/QCD scale from")
     print("     M_Planck with NO fine-tuning, via a slowly-running coupling:")
-    # transmutation: scale = M_Pl * exp(-2pi/(b*alpha)) ; small alpha -> huge suppression
-    for alpha in [0.02, 0.015, 0.012]:
-        b = 1.0
+    # transmutation: scale = M_Pl * exp(-2pi/(b*alpha)); b = one-loop beta coeff (~9.6,
+    # QCD-like, as in P11/12 where alpha_s(M_P)~0.015 gives the ~GeV proton scale)
+    b = 9.6
+    for alpha in [0.015, 0.018, 0.020]:
         scale = M_PLANCK_GEV*np.exp(-2*np.pi/(b*alpha))
-        print("        alpha(M_Pl)=%.3f -> transmuted scale = %.1e GeV" % (alpha, scale))
-    print("     => a coupling ~0.012-0.02 transmutes M_Planck down to the GeV-TeV range")
+        print("        alpha(M_Pl)=%.3f (b=%.1f) -> transmuted scale = %.1e GeV" % (alpha, b, scale))
+    print("     => alpha~0.015 -> ~GeV (the proton/QCD scale, P12); alpha~0.018 -> ~TeV")
+    print("        (the electroweak range) -- M_Planck transmuted down NATURALLY,")
     print("        NATURALLY (exponential, no tuning). The EW scale plausibly arises the")
     print("        same way -> the Higgs is COMPOSITE/dynamical, not fundamental.")
 
