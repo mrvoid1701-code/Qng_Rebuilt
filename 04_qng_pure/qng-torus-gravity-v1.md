@@ -9,6 +9,15 @@ Upstream: `DER-QNG-033` (v7 two-field substrate), `DER-QNG-037` (G-formula recon
 
 ---
 
+## Inputs
+
+- [qng-two-field-substrate-v1.md](qng-two-field-substrate-v1.md) — DER-QNG-033 (v7 two-field substrate)
+- [qng-g-reconciliation-v7-v1.md](qng-g-reconciliation-v7-v1.md) — DER-QNG-037 (G-formula reconciliation)
+- [qng-v8-canonical-extension-v1.md](qng-v8-canonical-extension-v1.md) — DER-QNG-042 (v8 canonical)
+- [qng-einstein-correspondence-v1.md](qng-einstein-correspondence-v1.md) — DER-QNG-044 (bending measurement)
+
+---
+
 ## Purpose
 
 Derive the bending angle α(b) for a phi-wave pulse crossing a vortex-ring

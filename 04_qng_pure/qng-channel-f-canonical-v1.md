@@ -8,6 +8,14 @@ Date: `2026-04-21`
 
 ---
 
+## Inputs
+
+- [qng-v8-canonical-extension-v1.md](qng-v8-canonical-extension-v1.md) — DER-QNG-042 (v8 canonical Hamiltonian)
+- [qng-two-field-substrate-v1.md](qng-two-field-substrate-v1.md) — DER-QNG-033 (v7 two-field substrate)
+- [qng-native-update-law-v5.md](qng-native-update-law-v5.md) — DER-QNG-026 (Channel F origin)
+
+---
+
 ## Objective
 
 Resolve the Channel F coherence crisis exposed by GPU-029 pilot v1/v2:

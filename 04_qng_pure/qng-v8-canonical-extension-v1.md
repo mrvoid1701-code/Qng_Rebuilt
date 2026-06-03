@@ -8,6 +8,16 @@ Date: `2026-04-18`
 
 ---
 
+## Inputs
+
+- [qng-hamiltonian-v7-two-field-v1.md](qng-hamiltonian-v7-two-field-v1.md) — DER-QNG-036 (v7 Hamiltonian)
+- [qng-yukawa-phi-mass-v1.md](qng-yukawa-phi-mass-v1.md) — DER-QNG-041 (Yukawa phi-mass / V_couple)
+- [qng-lorentz-emergent-v1.md](qng-lorentz-emergent-v1.md) — DER-QNG-043 (Lorentz emergent)
+- [qng-preferred-frame-analysis-v1.md](qng-preferred-frame-analysis-v1.md) — NOTE-QNG-013 (Lorentz/frame)
+- [qng-action-principle-candidate-v1.md](qng-action-principle-candidate-v1.md) — NOTE-QNG-014 (action principle)
+
+---
+
 ## Objective
 
 QNG v7 is a gradient-flow substrate: every channel evolves first-order in

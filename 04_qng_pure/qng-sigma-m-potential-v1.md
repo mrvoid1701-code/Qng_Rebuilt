@@ -9,6 +9,15 @@ Falsified: `2026-04-18` (QNG-GPU-018 FAIL_H3_STRUCTURAL)
 
 ---
 
+## Inputs
+
+- [qng-gap8-stability-analysis-v1.md](qng-gap8-stability-analysis-v1.md) — DER-QNG-034 (Gap 8 stability)
+- [qng-g-reconciliation-v7-v1.md](qng-g-reconciliation-v7-v1.md) — DER-QNG-037 (G reconciliation)
+- [qng-emergent-noise-v1.md](qng-emergent-noise-v1.md) — DER-QNG-023 (emergent noise)
+- [qng-hamiltonian-v7-two-field-v1.md](qng-hamiltonian-v7-two-field-v1.md) — DER-QNG-036 (v7 Hamiltonian)
+
+---
+
 ## Objective
 
 Add a Ginzburg-Landau potential `V(sigma_m) = (lambda/4) * (sigma_m^2 - sigma_ref^2)^2`

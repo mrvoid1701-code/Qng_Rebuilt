@@ -8,6 +8,15 @@ Date: `2026-04-21`
 
 ---
 
+## Inputs
+
+- [qng-v8-canonical-extension-v1.md](qng-v8-canonical-extension-v1.md) — DER-QNG-042 (v8 canonical)
+- [qng-particle-mass-identification-v1.md](qng-particle-mass-identification-v1.md) — DER-QNG-038 (mass identification)
+- [qng-hamiltonian-v7-two-field-v1.md](qng-hamiltonian-v7-two-field-v1.md) — DER-QNG-036 (v7 Hamiltonian)
+- [qng-two-field-substrate-v1.md](qng-two-field-substrate-v1.md) — DER-QNG-033 (v7 two-field substrate)
+
+---
+
 ## Objective
 
 Document a structural finding that emerged from the GPU-024 cascade

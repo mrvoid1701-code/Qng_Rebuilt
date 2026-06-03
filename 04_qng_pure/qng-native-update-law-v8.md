@@ -6,6 +6,15 @@ Status: `confirmed`
 Author: `C.D Gabriel`
 Date: `2026-04-14`
 
+## Inputs
+
+- [qng-two-field-substrate-v1.md](qng-two-field-substrate-v1.md) — DER-QNG-033 (v7 two-field substrate)
+- [qng-hamiltonian-v7-two-field-v1.md](qng-hamiltonian-v7-two-field-v1.md) — DER-QNG-036 (v7 Hamiltonian)
+- [qng-particle-mass-identification-v1.md](qng-particle-mass-identification-v1.md) — DER-QNG-038 (mass identification)
+- [qng-native-update-law-v5.md](qng-native-update-law-v5.md) — DER-QNG-026 (v5 baseline)
+
+---
+
 ## Objective
 
 Resolve the ring stability problem: vortex rings in v7 substrate dissolve at a

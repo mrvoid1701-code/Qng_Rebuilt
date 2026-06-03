@@ -8,6 +8,13 @@ Date: `2026-04-21`
 
 ---
 
+## Inputs
+
+- [qng-v8-no-static-ring-v1.md](qng-v8-no-static-ring-v1.md) — DER-QNG-047 (no static ring)
+- [qng-v8-canonical-extension-v1.md](qng-v8-canonical-extension-v1.md) — DER-QNG-042 (v8 canonical)
+
+---
+
 ## Objective
 
 GPU-026 (2026-04-21) confirmed that v8 substrate wave physics is

@@ -9,6 +9,13 @@ Date: `2026-04-20`
 
 ---
 
+## Inputs
+
+- [qng-v8-canonical-extension-v1.md](qng-v8-canonical-extension-v1.md) — DER-QNG-042 (v8 canonical, amended)
+- [qng-yukawa-phi-mass-v1.md](qng-yukawa-phi-mass-v1.md) — DER-QNG-041 (Yukawa phi-mass)
+
+---
+
 ## Motivation
 
 The parent DER-QNG-042 used the V_couple form inherited from DER-QNG-041:

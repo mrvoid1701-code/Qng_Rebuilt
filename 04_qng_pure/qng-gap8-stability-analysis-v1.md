@@ -8,6 +8,13 @@ Date: `2026-04-08`
 
 ---
 
+## Inputs
+
+- [qng-two-field-substrate-v1.md](qng-two-field-substrate-v1.md) — DER-QNG-033 (v7 two-field substrate)
+- [qng-wave-equation-derivation-v1.md](qng-wave-equation-derivation-v1.md) — DER-QNG-028 (wave equation / linearization)
+
+---
+
 ## Problem Statement
 
 CPU-061 (v7 two-field, T=2000) found that chi grows exponentially after T~1000,

@@ -8,6 +8,13 @@ Date: `2026-04-08`
 
 ---
 
+## Inputs
+
+- [qng-two-field-substrate-v1.md](qng-two-field-substrate-v1.md) — DER-QNG-033 (v7 two-field substrate)
+- [qng-gap8-stability-analysis-v1.md](qng-gap8-stability-analysis-v1.md) — DER-QNG-034 (Gap 8 stability)
+
+---
+
 ## Motivation
 
 CPU-065 showed that the ring (vortex circle) cannot simultaneously satisfy:

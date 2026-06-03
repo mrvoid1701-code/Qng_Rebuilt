@@ -6,6 +6,14 @@ Status: `draft`
 Author: `C.D Gabriel`
 Date: `2026-04-06`
 
+## Inputs
+
+- [qng-native-update-law-v5.md](qng-native-update-law-v5.md) — DER-QNG-026 (v5 baseline)
+- [qng-wave-equation-derivation-v1.md](qng-wave-equation-derivation-v1.md) — DER-QNG-028 (wave-equation gap)
+- [qng-rho0-physical-scale-v1.md](qng-rho0-physical-scale-v1.md) — DER-QNG-029 (rho0 scale)
+
+---
+
 ## Objective
 
 Extend v5 with Channel G: chi back-reaction on sigma. DER-QNG-028 showed that

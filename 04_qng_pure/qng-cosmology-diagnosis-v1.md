@@ -9,6 +9,13 @@ Test: `tests/cpu/qng_cosmology_v2_diagnostic.py`
 
 ---
 
+## Inputs
+
+- [qng-poisson-assembly-v1.md](qng-poisson-assembly-v1.md) — DER-QNG-018 (screened Poisson)
+- [qng-alpha-cosmological-v1.md](qng-alpha-cosmological-v1.md) — DER-QNG-020 (alpha <-> Lambda)
+
+---
+
 ## Statement
 
 The QNG-Yukawa kernel (`DER-QNG-018`), rigorous for static sources, **does

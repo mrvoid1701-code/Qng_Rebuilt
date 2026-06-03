@@ -9,6 +9,15 @@ Upstream: `DER-QNG-042` (v8 canonical), `DER-QNG-042-A1` (Option E^2 amendment),
 
 ---
 
+## Inputs
+
+- [qng-v8-canonical-extension-v1.md](qng-v8-canonical-extension-v1.md) — DER-QNG-042 (v8 canonical)
+- [qng-v8-option-e2-amendment-v1.md](qng-v8-option-e2-amendment-v1.md) — DER-QNG-042-A1 (Option E^2 amendment)
+- [qng-lorentz-emergent-v1.md](qng-lorentz-emergent-v1.md) — DER-QNG-043 (Lorentz emergent)
+- [qng-particle-mass-identification-v1.md](qng-particle-mass-identification-v1.md) — DER-QNG-038 (mass identification)
+
+---
+
 ## Purpose
 
 Consolidate the empirical record of six Einstein-style correspondence

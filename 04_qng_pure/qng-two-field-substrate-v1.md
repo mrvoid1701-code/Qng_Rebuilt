@@ -6,6 +6,15 @@ Status: `candidate`
 Author: `C.D Gabriel`
 Date: `2026-04-07`
 
+## Inputs
+
+- [qng-native-update-law-v5.md](qng-native-update-law-v5.md) — DER-QNG-026 (v5 baseline)
+- [qng-wave-equation-derivation-v1.md](qng-wave-equation-derivation-v1.md) — DER-QNG-028 (wave equation)
+- [qng-hamiltonian-conservative-limit-v1.md](qng-hamiltonian-conservative-limit-v1.md) — DER-QNG-032 (conservative limit)
+- [qng-gap7-wave-matter-compatibility-v1.md](qng-gap7-wave-matter-compatibility-v1.md) — NOTE-QNG-017 (Gap 7 statement)
+
+---
+
 ## Motivation
 
 The single-sigma substrate cannot simultaneously satisfy:

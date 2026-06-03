@@ -9,6 +9,15 @@ Upstream: `DER-QNG-042` (v8 canonical), `DER-QNG-045` (torus scalar — downgrad
 
 ---
 
+## Inputs
+
+- [qng-v8-canonical-extension-v1.md](qng-v8-canonical-extension-v1.md) — DER-QNG-042 (v8 canonical)
+- [qng-torus-gravity-v1.md](qng-torus-gravity-v1.md) — DER-QNG-045 (torus scalar profile)
+- [qng-einstein-correspondence-v1.md](qng-einstein-correspondence-v1.md) — DER-QNG-044 (anisotropy/bending tests)
+- [qng-lorentz-emergent-v1.md](qng-lorentz-emergent-v1.md) — DER-QNG-043 (Lorentz emergent)
+
+---
+
 ## Purpose
 
 Derive the tensorial / kinetic-cross-term coupling between a phi-wave

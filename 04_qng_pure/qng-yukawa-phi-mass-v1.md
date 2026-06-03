@@ -8,6 +8,15 @@ Date: `2026-04-18`
 
 ---
 
+## Inputs
+
+- [qng-v8-canonical-extension-v1.md](qng-v8-canonical-extension-v1.md) — DER-QNG-042 (v8 canonical framework)
+- [qng-sigma-m-potential-v1.md](qng-sigma-m-potential-v1.md) — DER-QNG-040 (V(sigma_m) GL term)
+- [qng-hamiltonian-v7-two-field-v1.md](qng-hamiltonian-v7-two-field-v1.md) — DER-QNG-036 (v7 Hamiltonian)
+- [qng-gap8-stability-analysis-v1.md](qng-gap8-stability-analysis-v1.md) — DER-QNG-034 (Gap 8 stability)
+
+---
+
 ## Objective
 
 After the quintuple-FAIL chain (GPU-009..018) diagnosed the IR halo as a

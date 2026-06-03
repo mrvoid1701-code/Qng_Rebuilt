@@ -8,6 +8,15 @@ Date: `2026-04-08`
 
 ---
 
+## Inputs
+
+- [qng-ceff-field-equation-v1.md](qng-ceff-field-equation-v1.md) — DER-QNG-012 (C_eff field equation)
+- [qng-wave-equation-derivation-v1.md](qng-wave-equation-derivation-v1.md) — DER-QNG-028 (wave equation)
+- [qng-two-field-substrate-v1.md](qng-two-field-substrate-v1.md) — DER-QNG-033 (v7 two-field substrate)
+- [qng-gap8-stability-analysis-v1.md](qng-gap8-stability-analysis-v1.md) — DER-QNG-034 (Gap 8 stability)
+
+---
+
 ## Motivation
 
 In the single-sigma substrate (v5/v6), the gravitational potential Phi ∝ delta_sigma satisfies

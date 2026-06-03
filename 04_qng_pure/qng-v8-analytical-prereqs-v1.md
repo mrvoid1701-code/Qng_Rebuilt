@@ -9,6 +9,14 @@ Parent: `DER-QNG-042` (`qng-v8-canonical-extension-v1.md`)
 
 ---
 
+## Inputs
+
+- [qng-v8-canonical-extension-v1.md](qng-v8-canonical-extension-v1.md) — DER-QNG-042 (v8 canonical)
+- [qng-lorentz-emergent-v1.md](qng-lorentz-emergent-v1.md) — DER-QNG-043 (Lorentz emergent / c-matching)
+- [qng-hamiltonian-v7-two-field-v1.md](qng-hamiltonian-v7-two-field-v1.md) — DER-QNG-036 (v7 Hamiltonian)
+
+---
+
 ## Purpose
 
 DER-QNG-042 §3 lists five analytical tasks that MUST be completed before
