@@ -1,0 +1,27 @@
+{
+  "regression_check": [
+    {
+      "dep": "CPU-054 KG wave (qng_wave_kg_reference)",
+      "status": "PASS",
+      "note": "committed report decision=pass; P102 confirms KG dispersion directly",
+      "is_regression": false
+    },
+    {
+      "dep": "CPU-038 emergent noise (qng_emergent_noise_reference)",
+      "status": "PASS",
+      "note": "live run; eta_ring=0.0244, ratios 0.96/1.02",
+      "is_regression": false
+    },
+    {
+      "dep": "CPU-020/016 continuity (qng_qm_continuity_assembly_reference)",
+      "status": "FAIL",
+      "note": "LONG-STANDING (fail since first commit of report.json) -- NOT a regression",
+      "is_regression": false
+    }
+  ],
+  "n_regressions": 0,
+  "cpu020_meaning": "legacy native-law coarse continuity probe (improvement_ratio ~0.999), NOT Schrodinger unitarity",
+  "correction": "unitarity basis = P102 direct norm-conservation (3e-14) + P104 Madelung, NOT failing CPU-020",
+  "conclusions_unchanged": true,
+  "verdict": "REGRESSION_CHECK_CLEAN (NO_NEW_REGRESSIONS) + SECOND_CITATION_CORRECTED (CPU-020). Following the standing instruction to check that old tests still hold under current code, the QM arc's locked dependencies were run. (T1) Results: CPU-054 (KG wave) PASSES -- its committed report is decision=pass and P102 independently confirms the dispersion omega^2 = c_phi^2 k^2 + m^2; CPU-038 (emergent noise) PASSES on a live run (eta_ring=0.0244, variance ratios 0.96 and 1.02); and CPU-020/016 (continuity-assembly) FAILS -- BUT this is LONG-STANDING, not a regression: its report.json has had decision=fail since its very first commit, so today's work did not break it. There are ZERO genuine regressions from the QM arc. (T2) Understanding the CPU-020 fail: that test fits a continuity equation kappa*div(j) to the LEGACY native update's (v2/v3) coarse density on a random graph and finds improvement_ratio ~0.999 -- i.e. the simple continuity ansatz does not capture the native rho-dynamics. It is a structural probe of the OLD native law, and it is NOT the conserved-|psi|^2 unitarity of the emergent Schrodinger field. (T3) This exposes a SECOND imprecise citation (after P107 caught the CPU-045 one): P102/P104/P107 cited 'CPU-020 continuity' as the basis for unitarity / conserved |psi|^2. That is imprecise on two counts -- CPU-020 is a FAILING test, and it probes the legacy native law rather than the Schrodinger field. The CORRECTION: the real, load-bearing basis for unitarity is (a) the DIRECT norm-conservation demonstration in P102 (a split-step Schrodinger packet conserving its norm to a drift of 3e-14) and (b) the analytic Noether/Madelung argument in P104 (the phase-shift symmetry's conserved current). Both are entirely independent of CPU-020, so every QM-arc conclusion -- unitarity, v=grad S forced by continuity, the Born-rule attractor/fixed-point, matter=|psi|^2, the one-T_mu_nu unification -- is UNCHANGED; only the citation is corrected. NET: the QM arc has no regressions and now no imprecise dependency citations. Two overstated cross-references (CPU-045 in P107, CPU-020 here) have been caught and corrected by the audit discipline, and in BOTH cases the actual conclusion never depended on the overstated reference -- which is exactly why the honest-citation discipline matters: it keeps the record accurate without weakening the result. HONEST: this is a status/citation audit; the KG 'pass' is read from the committed report (consistent with P102's direct check), the noise 'pass' is a live run, and the continuity 'fail' is confirmed long-standing via git history of its report.json. Recommend the INDEX/STATE references to CPU-020 for unitarity be replaced by 'P102 direct norm conservation + P104 Madelung'."
+}
