@@ -1,0 +1,33 @@
+{
+  "N": 1500,
+  "rows": [
+    {
+      "d_in": 2,
+      "ordering_fraction": 0.5185199021569935,
+      "f_expected": 0.5,
+      "d_recovered": 1.9513746122098627,
+      "err": 0.04862538779013725
+    },
+    {
+      "d_in": 3,
+      "ordering_fraction": 0.22816188570157883,
+      "f_expected": 0.22857142857142862,
+      "d_recovered": 3.002216784265382,
+      "err": 0.002216784265382188
+    },
+    {
+      "d_in": 4,
+      "ordering_fraction": 0.09919946631087391,
+      "f_expected": 0.1,
+      "d_recovered": 4.009548191527028,
+      "err": 0.009548191527027683
+    }
+  ],
+  "max_err": 0.04862538779013725,
+  "dimension_emerges": true,
+  "contrasts_with_qng": [
+    "background-independent (no grid)",
+    "exactly Lorentz-invariant (Poisson sprinkling)"
+  ],
+  "verdict": "GEOMETRY_EMERGES_FROM_PURE_CAUSAL_ORDER: THE_SPACETIME_DIMENSION_IS_RECOVERED_BY_COUNTING_ALONE (rung 1 of the independent box passes). theory-test-1 starts from a primitive deliberately different from QNG -- a causal set: events plus a 'precedes' relation, with NO coordinates, NO grid, and NO fields. The first requirement on any QG container (C1/C6) is that it PRODUCE geometry rather than assume it. This rung demonstrates the most basic geometric fact -- the DIMENSION of spacetime -- is already encoded in the bare causal order and is recoverable by counting relations alone. Method: N=1500 events are Poisson-sprinkled into a d-dimensional Minkowski causal interval (the only place coordinates appear -- purely to GENERATE a causet; once the order x<y (|dt|>|dx|) is built, the coordinates are DISCARDED), the ordering fraction r = (related pairs)/(all pairs) is measured, and the Myrheim-Meyer relation f(d) = Gamma(d+1)Gamma(d/2)/(2 Gamma(3d/2)) is inverted to recover d from the order ALONE. RESULT: for input dimensions d=2,3,4 the recovered dimension matches to a maximum error of 0.049 -- the spacetime dimension genuinely EMERGES from the discrete causal order, with no geometry put in. This is the backbone of 'order + number = geometry' (Hawking-Malament-Sorkin): the order fixes the conformal structure and counting fixes the volume. IMPORTANT CONTRASTS WITH QNG (the point of the experiment): (1) background independence -- this box has NO grid, the dimension was DERIVED, whereas QNG puts 3+1 in by hand via a cubic lattice (C6, the constraint QNG compromises); (2) Lorentz invariance -- the Poisson sprinkling is EXACTLY Lorentz-invariant in the mean (no preferred frame, a theorem for Poisson processes in Minkowski), whereas QNG's cubic lattice breaks Lorentz and only recovers it emergently with a residual Planck-scale signature. So already at rung 1 the independent box DIVERGES from QNG on two structural axes -- it is genuinely a different container, not a relabelled QNG. NET: the 'is the box unique?' experiment has its first data point -- a background-independent, exactly-Lorentz, order-only primitive successfully produces emergent geometry (dimension). The next rungs (volume->metric, curvature->GR, Sorkin's Lambda~1/sqrt(V) for the constants, sum-over-causets for QM) will test whether it climbs to GR+QM and whether its constants resemble or differ from QNG's. HONEST: the Myrheim-Meyer estimator is the standard causal-set dimension tool; sprinkling into a Minkowski interval to generate the causet is standard methodology (the coordinates are scaffolding, discarded before the measurement, so the dimension really is read from the order). This rung shows the box PRODUCES geometry; it does not yet derive GR or QM -- those are the next rungs. No numbers forced; r is measured and d is inverted from the closed-form MM relation."
+}
