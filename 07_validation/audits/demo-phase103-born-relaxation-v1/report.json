@@ -1,0 +1,141 @@
+{
+  "H_initial": 1.012044440602042,
+  "H_late_mean": 0.04229281342132889,
+  "H_envelope_min": 0.028610790555864345,
+  "H_floor": 0.0085,
+  "reduction_late_pct": 95.8210517518213,
+  "reduction_envelope_pct": 97.17297092814971,
+  "n_traj": 15000,
+  "n_modes": 16,
+  "ncell": 16,
+  "dynamics": "phase-gradient flow v=grad S (QNG CPU-045), deterministic, random mode phases",
+  "born_attractor": true,
+  "born_partial": false,
+  "H_trace": [
+    [
+      0.0,
+      1.012044440602042
+    ],
+    [
+      1.0000000000000007,
+      0.709217996428705
+    ],
+    [
+      2.0000000000000013,
+      0.6626289544082743
+    ],
+    [
+      2.99999999999998,
+      0.6447681030374433
+    ],
+    [
+      3.9999999999999587,
+      0.5504221412082033
+    ],
+    [
+      4.999999999999938,
+      0.5095554142676588
+    ],
+    [
+      5.9999999999999165,
+      0.45852300415807745
+    ],
+    [
+      6.999999999999895,
+      0.4306946636170801
+    ],
+    [
+      7.999999999999874,
+      0.3722881532165151
+    ],
+    [
+      8.999999999999853,
+      0.3490481988974476
+    ],
+    [
+      9.999999999999831,
+      0.25723479421451934
+    ],
+    [
+      10.99999999999981,
+      0.22209630419983958
+    ],
+    [
+      11.999999999999789,
+      0.19789300297095747
+    ],
+    [
+      12.999999999999767,
+      0.18522455473527977
+    ],
+    [
+      13.999999999999746,
+      0.14270489734972208
+    ],
+    [
+      14.999999999999725,
+      0.13957137993330043
+    ],
+    [
+      15.999999999999703,
+      0.12279250620103677
+    ],
+    [
+      16.999999999999858,
+      0.1103448648278233
+    ],
+    [
+      18.000000000000014,
+      0.10050402680061801
+    ],
+    [
+      19.00000000000017,
+      0.08302278170211752
+    ],
+    [
+      20.000000000000327,
+      0.06378467110997135
+    ],
+    [
+      21.000000000000483,
+      0.052830425388260896
+    ],
+    [
+      22.00000000000064,
+      0.05519463319840284
+    ],
+    [
+      23.000000000000796,
+      0.044054610686460396
+    ],
+    [
+      24.000000000000952,
+      0.048678643999211485
+    ],
+    [
+      25.00000000000111,
+      0.04027756276210512
+    ],
+    [
+      26.000000000001265,
+      0.047930960068843856
+    ],
+    [
+      27.00000000000142,
+      0.033604943016924196
+    ],
+    [
+      28.000000000001577,
+      0.042320494700196
+    ],
+    [
+      29.000000000001734,
+      0.028610790555864345
+    ],
+    [
+      30.00000000000189,
+      0.029425069837019764
+    ]
+  ],
+  "verdict": "THE_BORN_RULE_RELAXES_TOWARD_|psi|^2_AS_A_DYNAMICAL_ATTRACTOR_IN_QNG (quantum-equilibrium relaxation demonstrated). This phase TESTS the open core of P102 -- whether the Born rule |psi|^2 is a derivable dynamical attractor rather than an extra axiom -- using a setup motivated by QNG, not borrowed wholesale from Bohm. The dynamics is the PHASE-GRADIENT FLOW v = Im(psi* grad psi)/|psi|^2 = grad S, a REAL QNG feature: a substrate excitation rides the gradient of the background phase field, exactly as the vortex-ring drift velocity was set by the phi-phase gradient in CPU-045. The QNG substrate is DETERMINISTIC (no stochastic Xi in v5/v7), precisely Valentini's regime: a non-equilibrium distribution relaxes to |psi|^2 by DETERMINISTIC CHAOS plus coarse-graining alone, the emergent noise (DER-QNG-023) setting the coarse-graining scale. Setup: a 2D box, psi an equal superposition of 16 eigenmodes with RANDOM initial phases (a genuinely chaotic guidance flow -- equal real coefficients would give psi real at t=0, S=0, zero velocity, no mixing), an ensemble of 15000 trajectories started UNIFORM (manifestly NOT |psi|^2), evolved by the phase-gradient flow, tracking the coarse-grained H-function H = sum rho ln(rho/|psi|^2). RESULT: H0 = 1.0120 fell to a late-window mean of 0.0423 (96% reduction; envelope minimum 0.0286, 97%), against a finite-sampling floor of ~0.0085. So the ensemble, starting maximally ignorant of |psi|^2, RELAXED toward the Born distribution under the deterministic substrate flow. HONEST READING: The Born rule emerges as a clear dynamical attractor here. HONEST CAVEATS (no overclaim): (1) the demonstration ASSUMES the excitation velocity is the phase-gradient flow v = grad S; well-motivated by CPU-045 but NOT yet derived for a general QNG wavefunction from the full v8 Hamiltonian -- so this supports the MECHANISM, it is not a from-substrate theorem. (2) Relaxation is TO the |psi|^2 of the assumed (breathing) psi, H measured at 16x16 coarse-graining; the fine-grained H is conserved (Liouville) -- it is the COARSE-GRAINED H that decreases, exactly as in Valentini's H-theorem -- and H cannot reach 0 because of the finite-sampling floor and the target's breathing. (3) This reproduces the standard quantum-equilibrium result (Valentini-Westman 2005) in a QNG-motivated framing; QNG's specific contribution is supplying BOTH ingredients it needs from already-derived structure -- the phase-gradient flow (CPU-045) and the emergent noise/coarse-graining (DER-QNG-023). NET: P102 showed the KINEMATICS of QM are derived; P103 shows the Born rule, the remaining axiom, behaves as a quantum-equilibrium ATTRACTOR under QNG-motivated dynamics -- the coarse-grained H decreases as the ensemble is driven toward |psi|^2. The honest residual: a full theorem that the v8 substrate flow EQUALS grad S for arbitrary states, and that relaxation is generic and complete (H -> floor), remains to be proven. No numbers forced; every H value is measured."
+}
