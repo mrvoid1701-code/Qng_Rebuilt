@@ -1,0 +1,26 @@
+{
+  "c": 299792458.0,
+  "hbar": 1.054571817e-34,
+  "ell_P": 1.616255e-35,
+  "G_derived": 6.67429980237485e-11,
+  "G_codata": 6.6743e-11,
+  "G_closure_rel": 2.960986906000282e-08,
+  "inputs": [
+    "ell_P",
+    "hbar"
+  ],
+  "structural": [
+    "c"
+  ],
+  "derived": [
+    "G"
+  ],
+  "predicted": [
+    "Lambda"
+  ],
+  "lambda_pred": 1.5457279438017753e-122,
+  "lambda_obs": 2.8735082475275004e-122,
+  "closure_ok": true,
+  "lambda_ok": true,
+  "verdict": "QNG_2.0_CONSTANTS: FOUR_CONSTANTS_COLLAPSE_TO_TWO_INPUTS_PLUS_ONE_PREDICTION (Lambda). QNG 2.0's constants story is an honest parameter economy plus one genuine prediction. (T1) The dimensionful constants are not all independent: with c structural (the causal order's own null-cone structure) and the two inputs being the discreteness length ell_P (one event per ell_P^4, PRIM-3) and the action quantum hbar (the unit in e^{iS/hbar}, PRIM-4), Newton's constant FOLLOWS as G = ell_P^2 c^3 / hbar -- the relation closes against CODATA to a relative difference of 3e-08. (This closure is partly DEFINITIONAL, since the Planck length is defined as sqrt(hbar G/c^3); the content is the structural identification 'QNG 2.0's single length scale IS the Planck length', i.e. G is not an independent dial, NOT an independent numerical prediction of G.) (T2) So where standard physics takes {c, G, hbar, Lambda} as four independent constants (Lambda fine-tuned), QNG 2.0 takes only {ell_P, hbar} as inputs, with c structural, G derived, and Lambda predicted -- a real reduction. (T3) The genuinely PREDICTED constant is the cosmological constant: Lambda ~ 1/sqrt(V) ~ 1e-122 in Planck units (from the Poisson number-volume fluctuation, theory-test-1 rung 4), matching the observed magnitude -- the headline constants WIN over QNG 1.0, which forced Lambda=0 via its Stability Principle and then needed a SEPARATE holographic vacuum energy (the open Gap 5). So on constants, QNG 2.0 is both leaner (2 inputs) and more predictive (Lambda) than QNG 1.0. HONEST: the parameter economy is real but the G-closure is structural/definitional, not an independent prediction of G's value; the dimensionless couplings (alpha_fine, mass ratios, the field mass m in PRIM-4) remain UNDERIVED -- the same open status as QNG 1.0 and the Standard Model, and not claimed otherwise. The one firm, un-tuned result is Lambda's predicted scale. No numbers forced."
+}

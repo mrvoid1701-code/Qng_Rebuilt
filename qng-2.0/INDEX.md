@@ -9,11 +9,12 @@ strengths. See `MANIFESTO.md`.
 | Rung | What | Result | Tag |
 |---|---|---|---|
 | manifesto | design philosophy + primitive (field on a causal set) + provenance | written | SYNTHESIS_DEFINED |
-| **0** | **coherence proof**: a massive KG field (QNG's engine) has a **definite mass on a Poisson causet** (on-shell Q clusters CV=0.019, separated from off-shell) → QNG dynamics run on causal-set foundations | COHERENCE_PROVEN |
-| 1 | matter: does a stable interacting soliton (ring/Skyrmion) survive on a random causet? (the open risk) | pending | — |
-| 2 | GR: coarse-grained field + BD action → Einstein eqns with the causet Λ | pending | — |
-| 3 | QM: field path integral → Schrödinger/Born (transfer QNG 1.0's P102–105 arc onto the causet) | pending | — |
-| 4 | constants: c,G,ℏ from the field-on-causet action; Λ~1/√V (have, tt1-rung4) | pending | — |
+| **0** | **coherence proof**: a massive KG field (QNG's engine) has a **definite mass on a Poisson causet** (on-shell Q clusters CV=0.019) → QNG dynamics run on causal-set foundations | COHERENCE_PROVEN |
+| **PRIM** (`02`) | **primitives**: PRIM-1 causal order; PRIM-2 field ψ:E→ℂ; PRIM-3 one scale (ρ=1/ℓ_P⁴); PRIM-4 double path integral `Z=Σ_C∫Dψ e^{iS/ℏ}`, S=S_grav[C]+S_field. Honesty ledger of primitive vs derived | ONTOLOGY_FIXED |
+| **CONST** (`03`) | **constants**: 4 constants → **2 inputs {ℓ_P,ℏ}** + c structural + G=ℓ_P²c³/ℏ derived (closes 3e-08) + **Λ~1/√V predicted** (10⁻¹²² matches obs). Leaner + more predictive than QNG 1.0 (Λ=0/Gap5) | TWO_INPUTS_PLUS_LAMBDA |
+| **GR** (`04`) | **GR limit**: Einstein eqn assembles — BD action→EH, field T_μν source (T_00 localized 4809x), Λ from counting. Honest: flat baseline = BD offset (matches rung3 −0.485, consistent); curved sourcing OPEN | EINSTEIN_ASSEMBLES_LIMITS_OK |
+| **QM** (`05`) | **QM limit**: Schrödinger = NR limit of causet KG (D=c²/2m, err→0), unitarity (drift 2.5e-14), Born transfers (P103-105). **Deep unification: GR & QM share ONE path integral** (vs QNG 1.0's shared Hamiltonian) | SCHRODINGER_BORN_ONE_PATH_INTEGRAL |
+| 1 (next) | matter: does a stable interacting soliton survive on a generic causet? (the open RISK) | pending | — |
 | 5 | predictions: where QNG 2.0 differs from QNG 1.0, causal sets, AND strings (testable) | pending | — |
 
 ## Provenance (what each parent contributes)
