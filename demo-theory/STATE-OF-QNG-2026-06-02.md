@@ -33,11 +33,27 @@ Discipline: **no numbers forced** — every tempting coincidence (δ=2/9, α=1/1
 - Strong-CP solved (φ = Peccei-Quinn axion, θ→0) — P74.
 - Charge/baryon number conserved topologically; proton stable (instanton-suppressed) — P83.
 
+**Quantum mechanics FROM the substrate (Native Phase E — was 'weak/hope', now derived: P102–106)**
+- KINEMATICS derived: complex amplitude Z=σe^{iφ}, superposition (linearized φ-wave),
+  **Schrödinger = NR limit of KG** (D=c_φ²/2m), unitarity (norm drift 3e-14), canonical
+  [φ,π]=iℏ_QNG — P102.
+- Born rule \|ψ\|² is a **dynamical fixed point + attractor**: relaxation from uniform
+  (H 1.012→0.042, 96%, P103) + equivariance (started AT \|ψ\|² stays, P104); guidance
+  v=∇S **forced by unitarity** (Madelung), not assumed — P104.
+- Definite outcomes from **substrate decoherence** (aether = bath); Born weights
+  preserved exactly — P105.
+- **matter density = \|ψ\|²** forced by single-field structure in v8 (same δσ_m gravitates
+  AND is the QM amplitude; v7 overdamped can't, v8 wave can) — P106.
+- Remaining QM residuals (named, universal): single-outcome interpretation (1-world vs
+  many-worlds, P105); full relativistic T_μν version of matter=\|ψ\|² (P106).
+
 **Cosmology / foundations**
 - Arrow of time DERIVED from the unique S=0 max-packed Big Bang (Past Hypothesis derived) — P82.
 - Dark matter = χ fuzzy field (171-galaxy vindicated, χ²/dof=4.80<NFW) — locked + P66.
 - Dark energy = χ-VEV = holographic vacuum energy = locked V_0 (closes T5) — P53–58/P66.
-- Decoherence natural (many-node environment) — P86.
+- Decoherence natural (many-node environment) — P86, sharpened P105.
+- **The aether: the substrate IS the revived ether** — real medium, emergent Lorentz
+  (no detectable wind, only Planck LIV η_LV), rest frame = CMB frame — P101.
 
 ## 2. CONSISTENT (passes, not unique)
 - Planck CMB acoustic peaks — QNG is ΛCDM-like (P45/P64); peaks ℓ=220/520/820.
@@ -76,6 +92,8 @@ Discipline: **no numbers forced** — every tempting coincidence (δ=2/9, α=1/1
   number ~10^122, P52); abundance is an input.
 - BH-entropy 1/4 coefficient (the O(1)): area law derived (P68), exact 1/4 = LQG/strings-class.
 - η_B (baryon asymmetry) quantitative value: Sakharov conditions met, value open (P80).
+- QM emergence: kinematics + Born rule now DERIVED (P102–106); only the universal
+  single-outcome interpretation and the relativistic T_μν form of matter=\|ψ\|² remain.
 
 ## 6. The recurring theme
 Conservation laws and discrete features are **topology/geometry** of the substrate:
