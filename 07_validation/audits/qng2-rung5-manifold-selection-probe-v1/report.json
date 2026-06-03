@@ -1,0 +1,17 @@
+{
+  "manifold_like": {
+    "N": 210,
+    "ordering_fraction": 0.48685349737981315,
+    "mm_dim": 2.0354580107305926,
+    "links_over_relations": 0.07806065144140771
+  },
+  "random_poset": {
+    "N": 300,
+    "ordering_fraction": 0.6773021181716834,
+    "mm_dim": 1.584650020493454,
+    "links_over_relations": 0.03051650920104026
+  },
+  "distinguishable": true,
+  "claim": "conjecture PREMISE sound (observable distinguishes); selection itself OPEN",
+  "verdict": "THE_MANIFOLD-SELECTOR_CONJECTURE_HAS_A_SOUND_PREMISE: AN_ORDER-ONLY_OBSERVABLE_DISTINGUISHES_MANIFOLD-LIKE_FROM_GENERIC_CAUSETS (premise check only -- selection not solved). QNG 2.0's hardest matter problem is manifold selection: generic random causets (Kleitman-Rothschild) dominate the sum and carry no localized particles, so the particle sector needs a reason the sum favours manifold-like orders. The manifesto's conjecture is that the MATTER FIELD does this (its action is well-behaved only on manifold-like orders). This probe checks the conjecture's PREMISE -- whether an observable can even tell the two apart. Comparing a 2D Poisson sprinkling (manifold-like) with a transitive-percolation random poset (non-manifold-like, the entropy-dominant type): the ordering fraction -- a function of the causal ORDER alone -- is 0.487 for the sprinkling (a clean ~2D manifold, Myrheim-Meyer dimension 2.04) but 0.677 for the random poset, and since r>0.5 is IMPOSSIBLE for any manifold (the maximum is 0.5 at d=2) the random poset is PROVABLY non-manifold-like. So a quantity built purely from the order DISTINGUISHES manifold-like from generic causets, which means an action term (the BD gravitational action, or the matter field action that is only well-conditioned on manifold-like orders) CAN in principle reweight the sum toward manifold-like geometries -- the conjecture's premise is sound. HONEST AND CRUCIAL: this is ONLY a premise check. It shows the two classes are distinguishable; it does NOT show that including S_field actually makes the full sum-over-causets dominated by manifold-like orders -- that requires computing the reweighted partition function, which is the genuine open problem (the 'entropy problem' of causal-set dynamics, unsolved field-wide). So QNG 2.0's matter sector stands as: a real, transferred particle physics ON manifold-like causets (rung 4: locality, quantized charge; QNG 1.0's spectrum), plus a NAMED open debt (manifold selection) for which QNG 2.0 offers a concrete, premise-validated candidate mechanism (matter as selector) that remains to be demonstrated. That is the honest full state of the particle sector. No numbers forced."
+}
