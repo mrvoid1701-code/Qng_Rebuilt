@@ -1,0 +1,118 @@
+{
+  "counts": {
+    "SOLID": 13,
+    "NATURAL": 5,
+    "INPUT": 3
+  },
+  "n_claims": 21,
+  "claims": [
+    {
+      "claim": "c from substrate (c_phi = lightcone slope)",
+      "class": "SOLID",
+      "rests_on": "c_phi = sqrt(beta_phi/(z mu_phi)) is the massless-branch slope; genuine."
+    },
+    {
+      "claim": "G_QNG = beta_g/z",
+      "class": "NATURAL",
+      "rests_on": "GRAV-C2: a*a_sigma=2pi is a convention, k cancels; beta/z is the 'most natural choice', not uniquely forced."
+    },
+    {
+      "claim": "hbar AND Lambda=0 from the Stability Principle (E_vac=0)",
+      "class": "SOLID",
+      "rests_on": "one principle (P30) yields both; genuine derivation, not a fit."
+    },
+    {
+      "claim": "BH singularity -> finite node-core (rho_max~54 Planck)",
+      "class": "SOLID",
+      "rests_on": "the substrate is bounded by construction; no singularity follows."
+    },
+    {
+      "claim": "graviton frequency capped at Planck scale",
+      "class": "SOLID",
+      "rests_on": "lattice cutoff; genuine."
+    },
+    {
+      "claim": "maximum temperature finite (~1.6e32 K)",
+      "class": "SOLID",
+      "rests_on": "bounded occupancy; genuine."
+    },
+    {
+      "claim": "BH evaporation -> Planck remnant + info preserved",
+      "class": "SOLID",
+      "rests_on": "substrate reversibility (err 2e-14); genuine."
+    },
+    {
+      "claim": "holographic area law N~R^1.98 (P68)",
+      "class": "SOLID",
+      "rests_on": "derived from interior saturation; exponent 1.98 (not exactly 2) reported honestly."
+    },
+    {
+      "claim": "photon=edge U(1); gluons/W/Z=edge SU(2)/SU(3); graviton=rank-2",
+      "class": "NATURAL",
+      "rests_on": "a structural assignment of force carriers to edge representations; well-motivated, not forced uniquely."
+    },
+    {
+      "claim": "light-hadron spectrum to ~0.5% (octet/decuplet/mesons)",
+      "class": "INPUT",
+      "rests_on": "uses the Skyrme model + Gell-Mann-Okubo with empirical anchors; real but input-dependent."
+    },
+    {
+      "claim": "charge quantization = phi-winding (integer)",
+      "class": "SOLID",
+      "rests_on": "topological; genuine."
+    },
+    {
+      "claim": "magnetic monopoles + Dirac quantization (compact U(1))",
+      "class": "SOLID",
+      "rests_on": "topological; genuine."
+    },
+    {
+      "claim": "3 generations = 3 spatial dimensions (P60)",
+      "class": "NATURAL",
+      "rests_on": "structural identification (domain-wall orientations); matches N_nu=3, but the mapping is an identification."
+    },
+    {
+      "claim": "Koide Q=2/3 -> m_tau to 0.006% (P61)",
+      "class": "INPUT",
+      "rests_on": "rests on the EMPIRICAL Koide relation Q=2/3 (not derived from substrate; P35 only motivates it qualitatively) + m_e,m_mu."
+    },
+    {
+      "claim": "strong-CP solved (phi = Peccei-Quinn axion, theta->0)",
+      "class": "NATURAL",
+      "rests_on": "structural identification of phi with the PQ field; mechanism plausible, not a full derivation."
+    },
+    {
+      "claim": "proton stable (topological + instanton-suppressed)",
+      "class": "SOLID",
+      "rests_on": "winding conservation; genuine (suppression standard)."
+    },
+    {
+      "claim": "arrow of time from the unique S=0 max-packed Big Bang",
+      "class": "SOLID",
+      "rests_on": "Past Hypothesis derived structurally from the bounded initial state."
+    },
+    {
+      "claim": "dark matter = chi fuzzy field (171 galaxies, chi2/dof=4.80)",
+      "class": "INPUT",
+      "rests_on": "a fit to rotation data (vindicated, beats NFW), but a data fit -- input-dependent."
+    },
+    {
+      "claim": "dark energy = chi-VEV = holographic = V_0",
+      "class": "NATURAL",
+      "rests_on": "an identification chain (closes T5); consistent, not a from-scratch derivation of the value."
+    },
+    {
+      "claim": "matter = |psi|^2 / one T_mu_nu unifies gravity+QM (P106/108)",
+      "class": "SOLID",
+      "rests_on": "forced by single-field structure (v8) + standard KG stress-energy; relativistic residual named."
+    },
+    {
+      "claim": "the substrate IS the ether, emergent Lorentz, CMB rest frame (P101)",
+      "class": "SOLID",
+      "rests_on": "Lorentz emergent (P02/P94); the CMB-frame identification is the standard cosmic-rest-frame statement."
+    }
+  ],
+  "recommendation": "label NATURAL/INPUT claims as identifications/fits, not bare derivations",
+  "numerology_forced": 0,
+  "verdict": "HEADLINE-CLAIMS_HONESTY_AUDIT: 13_SOLID, 5_NATURAL-IDENTIFICATIONS, 3_INPUT-DEPENDENT; NONE_NUMEROLOGY-FORCED; A_FEW_LABELS_TO_SHARPEN. This is the broad companion to P107 (which audited the QM arc). Every headline 'DERIVED' claim in the STATE ledger is classified by its true epistemic status. RESULT: of 21 claims, 13 are SOLID (genuinely from the bounded/discrete/reversible substrate with no empirical input or arbitrary choice -- e.g. c_phi as the lightcone slope, hbar and Lambda=0 from the Stability Principle, the finite BH core and capped graviton frequency, charge quantization and monopoles as topology, the arrow of time from the S=0 start, and the matter=|psi|^2 / one-T_mu_nu unification of P106/108); 5 are NATURAL IDENTIFICATIONS -- defensible and well-motivated but not UNIQUELY forced, and so should be LABELLED as identifications rather than bare derivations: G_QNG=beta_g/z (explicitly a convention, GRAV-C2, k cancels), the force-carrier-to-edge-representation assignment, the 3-generations=3-dimensions mapping, phi=Peccei-Quinn, and the dark-energy = chi-VEV = holographic = V_0 chain; and 3 are INPUT-DEPENDENT -- real results that rest on an empirical input or assumed empirical relation, which must be named: the light-hadron spectrum (Skyrme model + Gell-Mann-Okubo with empirical anchors), m_tau to 0.006% (rests on the EMPIRICAL Koide relation Q=2/3, which P35 only motivates qualitatively -- it is NOT derived from the substrate), and the chi-fuzzy-field dark matter (a rotation-curve fit, vindicated and beating NFW, but a fit). CRUCIAL HONEST POINT: NONE of the claims is numerology-forced -- every one either follows from substrate structure, is a natural identification, or is an openly-named empirical fit; the rejected coincidences (delta=2/9, alpha=1/137, beta_g/48) stayed rejected. The audit's recommendation is purely about WORDING: the ledger should mark the 5 NATURAL and 3 INPUT claims as identifications/fits rather than bare 'derivations', so a reader cannot mistake an identification (G=beta/z) or an empirical-relation-based prediction (m_tau via Koide) for a first-principles result. This does not weaken the theory -- it makes its claims precise, which is exactly the discipline that gives the SOLID claims their credibility. NET: the theory's headline claims are honest and mostly solid; the handful of identifications and fits are defensible but should be labelled as such, and this audit records the precise status of each. HONEST: this is a classification/wording audit, not a re-derivation; the categories are assigned conservatively (when in doubt, a claim is downgraded to NATURAL or INPUT, not up to SOLID)."
+}

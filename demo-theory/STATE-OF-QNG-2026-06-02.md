@@ -12,8 +12,13 @@ Discipline: **no numbers forced** — every tempting coincidence (δ=2/9, α=1/1
 
 ## 1. DERIVED / SOLID (from the substrate, no fitting)
 
+> **Label key (P109 audit):** [SOLID] = from substrate, no input; [ID] = natural
+> identification/convention (not uniquely forced); [FIT] = rests on an empirical input.
+> 13 SOLID / 5 ID / 3 FIT across the headline claims — **none numerology-forced**.
+
 **Foundations**
-- c, G, ℏ from the substrate (c_φ; G=β_g/z; ℏ via the Stability Principle).
+- c, ℏ from the substrate (c_φ = lightcone slope [SOLID]; ℏ via the Stability Principle [SOLID]);
+  **G_QNG = β_g/z [ID]** — a convention (GRAV-C2: k cancels; "most natural choice"), not uniquely forced.
 - ℏ AND Λ=0 from ONE principle (Stability Principle, P30); the 122-order CC overshoot killed.
 
 **Quantum gravity (the discrete Planck lattice tames every infinity)**
@@ -24,13 +29,13 @@ Discipline: **no numbers forced** — every tempting coincidence (δ=2/9, α=1/1
 - **Holographic area law DERIVED** (interior saturation → frozen bulk → entropy on the boundary, N~R^1.98) — P68 (closes locked gap T3).
 
 **Particles (conservation laws = topology)**
-- Photon = edge U(1); gluons/W/Z = edge SU(2)/SU(3) (confine); graviton = edge rank-2.
-- Light-hadron spectrum (octet+decuplet+mesons, ≈14 states) to 0.5% — Skyrmions+GMO.
+- Photon = edge U(1); gluons/W/Z = edge SU(2)/SU(3) (confine); graviton = edge rank-2 **[ID]** (assignment).
+- Light-hadron spectrum (octet+decuplet+mesons, ≈14 states) to 0.5% — Skyrmions+GMO **[FIT]** (Skyrme+GMO empirical anchors).
 - **Charge quantization** = φ-winding (integer) — P78; **magnetic monopoles** + Dirac
   quantization automatic (compact U(1)) — P79.
-- **3 generations = 3 spatial dimensions** (domain-wall orientations) — P60 (matches N_ν=3).
-- Koide Q=2/3 → **m_τ predicted to 0.006%** from m_e,m_μ — P61.
-- Strong-CP solved (φ = Peccei-Quinn axion, θ→0) — P74.
+- **3 generations = 3 spatial dimensions** (domain-wall orientations) — P60 (matches N_ν=3) **[ID]**.
+- Koide Q=2/3 → **m_τ predicted to 0.006%** from m_e,m_μ — P61 **[FIT]** (rests on the empirical Koide relation Q=2/3, not substrate-derived).
+- Strong-CP solved (φ = Peccei-Quinn axion, θ→0) — P74 **[ID]**.
 - Charge/baryon number conserved topologically; proton stable (instanton-suppressed) — P83.
 
 **Quantum mechanics FROM the substrate (Native Phase E — was 'weak/hope', now derived: P102–106)**
@@ -49,8 +54,8 @@ Discipline: **no numbers forced** — every tempting coincidence (δ=2/9, α=1/1
 
 **Cosmology / foundations**
 - Arrow of time DERIVED from the unique S=0 max-packed Big Bang (Past Hypothesis derived) — P82.
-- Dark matter = χ fuzzy field (171-galaxy vindicated, χ²/dof=4.80<NFW) — locked + P66.
-- Dark energy = χ-VEV = holographic vacuum energy = locked V_0 (closes T5) — P53–58/P66.
+- Dark matter = χ fuzzy field (171-galaxy vindicated, χ²/dof=4.80<NFW) — locked + P66 **[FIT]** (rotation-curve fit, beats NFW).
+- Dark energy = χ-VEV = holographic vacuum energy = locked V_0 (closes T5) — P53–58/P66 **[ID]** (identification chain).
 - Decoherence natural (many-node environment) — P86, sharpened P105.
 - **The aether: the substrate IS the revived ether** — real medium, emergent Lorentz
   (no detectable wind, only Planck LIV η_LV), rest frame = CMB frame — P101.
