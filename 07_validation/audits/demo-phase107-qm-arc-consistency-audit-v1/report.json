@@ -1,0 +1,44 @@
+{
+  "checks": [
+    {
+      "item": "dispersion omega^2 = c_phi^2 k^2 + m^2",
+      "ok": true
+    },
+    {
+      "item": "c_phi = 0.108 (= sqrt(beta_phi/(z mu_phi)))",
+      "ok": true
+    },
+    {
+      "item": "hbar_QNG = 0.2326 (Stability Principle)",
+      "ok": true
+    },
+    {
+      "item": "Schrodinger D = c_phi^2/2m (NR limit of KG)",
+      "ok": true
+    },
+    {
+      "item": "CPU-020 continuity (unitarity / conserved |psi|^2)",
+      "ok": true
+    },
+    {
+      "item": "DER-QNG-023 emergent noise (eta from ring FDT)",
+      "ok": true
+    },
+    {
+      "item": "DER-QNG-044 Shapiro / k_gm gravity coupling",
+      "ok": true
+    },
+    {
+      "item": "v7 sigma_m OVERDAMPED (gradient flow); v8 sigma_m DYNAMICAL (pi_m)",
+      "ok": true
+    },
+    {
+      "item": "P103/P104 CPU-045 motivation withdrawn (overstated)",
+      "ok": true
+    }
+  ],
+  "n_consistent": 9,
+  "n_total": 9,
+  "correction": "CPU-045 motivation for v=grad S withdrawn (overdamped v7, wrong regime); Madelung/unitarity (P104) is the correct basis",
+  "verdict": "QM-ARC_CONSISTENCY_AUDIT: ALL_CONSTANTS_AND_DEPENDENCIES_MATCH_THE_LOCKED_THEORY; ONE_OVERSTATED_CROSS-REFERENCE_CAUGHT_AND_CORRECTED. Per the standing instruction to verify new work against the locked theory, this audit checks every constant and dependency the QM-from-substrate arc (P102-106) rests on. (T1) CONSTANTS & FORMS all match: the dispersion omega^2 = c_phi^2 k^2 + m^2 is exactly the substrate lightcone relation (demo page 02); c_phi = 0.108 and hbar_QNG = 0.2326 are the established demo values, used identically across P102/P105; and the Schrodinger diffusion constant D = c_phi^2/(2m) is the correct non-relativistic expansion of the KG mode (P102's numerical KG-to-NR error vanishes as k->0). (T2) DEPENDENCIES are correctly cited: CPU-020 is indeed the continuity/unitarity reference (qng_qm_continuity_assembly); DER-QNG-023 is the derived emergent noise (confirmed CPU-038); DER-QNG-044 is the Shapiro-confirmed k_gm gravity coupling sigma_g -= k_gm*(sigma_m_ref - sigma_m); and the v7-overdamped / v8-dynamical distinction used in P106 matches CLAUDE.md exactly ('sigma_m overdamped... True F=ma requires v8 with pi_m'). (T3) ONE CORRECTION: P103 and P104 cited 'CPU-045 ring drift = phase gradient' as physical motivation for the guidance velocity v = grad S. The audit finds this OVERSTATED: CPU-045 actually FAILED -- the locked result is that the 1/R Biot-Savart self-velocity was NOT confirmed because phi-DIFFUSION drift dominates in the BETA_PHI=0.02 viscous regime. That drift is OVERDAMPED v7 motion, which is precisely the regime P106 demonstrates CANNOT carry a coherent QM amplitude -- so citing it as the motivation for the de Broglie guidance was not only overstated but mildly self-inconsistent with P106. The correction is clean and costs nothing: the SOLID basis for v = grad S is the MADELUNG / UNITARITY argument established in P104 -- v = j/rho = grad S/m is FORCED by the (independently derived) continuity equation, with no reliance on CPU-045. The CPU-045 analogy is therefore withdrawn as motivation (wrong dynamical regime), and P104's argument -- the actual load-bearing one -- stands entirely unaffected. NET: the QM-from-substrate arc is internally consistent and consistent with the locked theory on every constant, form, and dependency; the single overstatement (a motivational citation, not a load-bearing step) is caught and corrected here. This is exactly the kind of honest cross-check the no-overclaim discipline is for: the conclusion (v=grad S, Born rule attractor, matter=|psi|^2) is unchanged because it never actually depended on CPU-045 -- but the record is now accurate. Recommend updating the INDEX entries for P103/P104 to cite the Madelung/unitarity basis rather than CPU-045."
+}
