@@ -1,0 +1,43 @@
+{
+  "poisson_rows": [
+    {
+      "rate": 50,
+      "meanN": 49.916,
+      "stdN": 7.078272670645007,
+      "sqrtN": 7.065125618133056,
+      "ratio": 1.0018608377575353
+    },
+    {
+      "rate": 200,
+      "meanN": 200.106,
+      "stdN": 14.219450200341782,
+      "sqrtN": 14.145882793237048,
+      "ratio": 1.0052006232612012
+    },
+    {
+      "rate": 800,
+      "meanN": 800.5965,
+      "stdN": 28.226028550789785,
+      "sqrtN": 28.294814012465253,
+      "ratio": 0.9975689728285486
+    },
+    {
+      "rate": 3200,
+      "meanN": 3198.29475,
+      "stdN": 55.06046560316667,
+      "sqrtN": 56.55346806341765,
+      "ratio": 0.973600160849963
+    }
+  ],
+  "R_H_planck": 8.044554455445544e+60,
+  "N_universe": 4.188012637141985e+243,
+  "lambda_pred": 1.5452402366863905e-122,
+  "lambda_obs": 2.8726016e-122,
+  "exp_pred": -121.81100399173654,
+  "exp_obs": -121.54172460196465,
+  "qng_lambda": "0 exactly (Stability Principle) + separate holographic V_0",
+  "causet_lambda": "~+-1/sqrt(V) ~ 1e-122, nonzero & fluctuating",
+  "divergence_from_qng": true,
+  "passes": true,
+  "verdict": "A_CONSTANT_FROM_THE_BOX: Lambda ~ +-1/sqrt(V) ~ 10^-122_FROM_DISCRETENESS_(Sorkin), MATCHING_THE_OBSERVED_MAGNITUDE_AND_DIVERGING_SHARPLY_FROM_QNG. Rung 4 delivers the box's flagship 'derive a constant' result -- the cosmological constant. (T1) The statistical heart is confirmed numerically: a Poisson sprinkling has Delta N = sqrt(<N>) (measured std/sqrt(N) ratios ~1.00 across densities), so the number-volume relation N = rho V fluctuates by sqrt(V) in Planck units. (T2) Sorkin's argument: in unimodular gravity Lambda and the 4-volume V are CONJUGATE, so a fluctuation Delta V ~ sqrt(V) forces Delta Lambda ~ 1/sqrt(V); plugging in the cosmic 4-volume (Hubble radius ~ 8e60 Planck lengths, so N ~ R_H^4 ~ 1e244 Planck cells) gives Lambda ~ 1/sqrt(N) ~ 1e-122 in Planck units, versus the OBSERVED Lambda*l_P^2 ~ 3e-122 -- the exponents match (10^-122 both), an order-of-magnitude success. Crucially this was a genuine PREDICTION: Sorkin made it around 1990, BEFORE the 1998 supernova discovery of dark energy, and it got the scale right where QFT's vacuum energy is wrong by ~120 orders. (T3) The DIVERGENCE FROM QNG is the headline: QNG gives Lambda = 0 EXACTLY (its Stability Principle, vacuum energy E_vac = 0) and then attributes the observed dark energy to a SEPARATE holographic vacuum energy V_0 (with the alpha<->Lambda link left as the open Gap 5); the causal set instead gives Lambda ~ +-1/sqrt(V), NONzero and fluctuating, with the observed magnitude coming DIRECTLY from discreteness + counting and NO separate mechanism. So on the cosmological constant the two boxes genuinely DISAGREE -- not just in mechanism but in the answer (exactly zero vs tiny-and-fluctuating) and in predictivity (QNG needs a second ingredient for dark energy; the causal set predicts its scale from one counting argument). This is the clearest 'see the difference' result of the experiment: two discrete QG boxes, started from the same constraints, reach DIFFERENT verdicts on Lambda -- evidence that the box is NOT fully unique at the level of the constants, even if both produce GR + a Lorentzian geometry. HONEST: T1 (Poisson Delta N = sqrt N) is exact and verified; T2 is an order-of-magnitude/heuristic argument (the unimodular Lambda-V conjugacy and the dimensional 1/sqrt(V) scaling are standard, but the O(1) coefficient and the sign/temporal-fluctuation dynamics require the full 'everpresent Lambda' dynamical model, ongoing research) -- so this is a scale prediction, not a precise value, and it is reported as such. No numbers forced; the cosmic N and Lambda are computed from standard cosmological inputs."
+}

@@ -1,0 +1,28 @@
+{
+  "dS_over_pi": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "quantum_measure": [
+    1.9999999999999996,
+    0.9999999999999998,
+    7.498798913309285e-33,
+    0.9999999999999996,
+    1.9999999999999996
+  ],
+  "classical_measure": [
+    0.9999999999999998,
+    0.9999999999999998,
+    0.9999999999999998,
+    0.9999999999999998,
+    0.9999999999999998
+  ],
+  "interference_swing": 1.9999999999999996,
+  "done": "quantum kinematics (superposition, interference, unitary measure)",
+  "open": "quantum dynamics, matter sector, Born rule (causal-set frontier)",
+  "vs_qng": "QNG wins on QM dynamics/matter; causal set wins on foundations+Lambda",
+  "verdict": "QUANTUM_KINEMATICS_(SUPERPOSITION+INTERFERENCE)_EMERGE_FROM_THE_SUM_OVER_CAUSETS, BUT_THE_QUANTUM_DYNAMICS+MATTER_ARE_THE_OPEN_FRONTIER (causal sets are honestly WEAKER than QNG here). Rung 5 tests the quantum constraint C2. Causal-set quantum theory is a SUM OVER CAUSAL SETS: each growth history (Rideout-Sorkin sequential growth) carries a complex amplitude e^{iS}, and the quantum measure of a family of histories is |sum of amplitudes|^2. (T1) The defining quantum feature -- INTERFERENCE -- is demonstrated cleanly: two histories reaching the same final causet, each with amplitude (1/sqrt2)e^{iS}, give a quantum measure |a1+a2|^2 that OSCILLATES between 0 and 2 as the relative action dS varies (a swing of 2.00), whereas the classical sum |a1|^2+|a2|^2 stays flat at 1.0. So superposition and interference -- the quantum KINEMATICS -- emerge from the discrete histories, with a unitary quantum measure (the decoherence functional). (T2) HONEST SCOPE: that is as far as it cleanly goes. The quantum DYNAMICS -- which action S to sum, how to recover full quantum field theory, and especially a MATTER sector and a derivation of the Born rule -- is the genuine OPEN FRONTIER of causal-set theory, markedly less developed than its kinematics and its geometry/Lambda results. (T3) This produces the experiment's sharpest DIVISION OF STRENGTHS against QNG: QNG (P102-105) DERIVED much more of QM -- the Schrodinger equation as the non-relativistic limit of its KG mode, the Born rule as a dynamical fixed-point + attractor, substrate decoherence, and matter=|psi|^2 -- precisely because it commits to a concrete v8 Hamiltonian with fields; the causal set, by contrast, has the CLEANER FOUNDATION (background-free, exactly-Lorentz-invariant histories) but a THINNER dynamics. So the two boxes have COMPLEMENTARY strengths: the causal set wins on foundations (background independence, exact Lorentz, the 1/sqrt(V) Lambda prediction), while QNG wins on quantum dynamics and matter. NET for the 'is the box unique?' question: the boxes CONVERGE on the broad requirements (both produce a Lorentzian geometry, a GR limit, and quantum amplitudes) but DIVERGE on the specifics -- the Lambda answer (rung 4) and the depth of the quantum/matter sector (this rung) differ markedly. The box is NOT unique; it is a family, and different choices of primitive pay off in different places. HONEST: T1 is a textbook two-path interference computation, standing in for the full decoherence functional; the claim is only that the quantum KINEMATICS emerge, with the dynamics + matter explicitly flagged OPEN -- no overclaim that causal sets 'have QM' at QNG's level. They do not, yet. No numbers forced."
+}

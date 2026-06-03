@@ -1,0 +1,19 @@
+{
+  "Ns": [
+    2000.0,
+    4000.0,
+    8000.0,
+    16000.0
+  ],
+  "ell_max": [
+    77.0,
+    121.0,
+    168.0,
+    244.0
+  ],
+  "fitted_exponent": 0.546530657610812,
+  "expected_exponent": 0.5,
+  "ratio_cv": 0.04418066621227509,
+  "passes": true,
+  "verdict": "THE_METRIC_(PROPER_TIME)_EMERGES_FROM_ORDER+COUNTING: THE_LONGEST_CHAIN_IS_THE_DISCRETE_TIMELIKE_GEODESIC (rung 2 passes). Building on rung 1 (dimension from order), rung 2 recovers the LORENTZIAN DISTANCE -- the metric content beyond conformal structure. A chain is a totally-ordered subset of events; the longest chain between the bottom and top of a causal interval is the discrete timelike geodesic, and its length measures the proper time. The standard scaling is ell_max ~ m_d * rho^(1/d) * tau, so at FIXED geometry (a d=2 causal diamond of proper-time height tau=1) the longest chain must grow as ell_max ~ N^(1/d) = N^0.5. MEASURED: the fitted exponent is 0.547 (expected 0.500), and ell_max/sqrt(N) is constant to a coefficient of variation of 0.044 -- confirming the longest chain is a genuine Lorentz-invariant LENGTH read from the bare order plus counting, with no metric input. Combined with rung 1, this is the full 'order + number = geometry' content (Hawking-Malament-Sorkin): the causal order fixes the conformal (lightcone) structure and the element count fixes the volume/scale, and together they reconstruct the Lorentzian metric. CONTRAST WITH QNG: here proper time is the longest causal chain (a Lorentz-invariant graph quantity), whereas in QNG distances are lattice steps on a cubic grid (a frame-dependent notion, Lorentz-invariant only after coarse-graining). The box continues to build geometry background-independently. NEXT: rung 3 puts a scalar field on the causet and applies the Benincasa-Dowker discrete d'Alembertian to extract curvature -> the GR limit. HONEST: the longest-chain-as-proper-time result and the N^(1/d) scaling are standard causal-set theory; the numerics confirm them for d=2. This establishes the metric emerges; it does not yet give the field equations (rung 3). No numbers forced."
+}
