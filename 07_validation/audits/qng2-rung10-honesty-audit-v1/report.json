@@ -1,0 +1,96 @@
+{
+  "claims": [
+    {
+      "claim": "geometry from order (dimension, metric, d'Alembertian)",
+      "class": "SOLID",
+      "note": "tt1 R1-3: dim err<0.05, longest-chain metric, BD->box R2=0.94"
+    },
+    {
+      "claim": "field coherence (massive KG, definite mass on causet)",
+      "class": "SOLID",
+      "note": "rung 0: on-shell Q CV=0.019"
+    },
+    {
+      "claim": "Lambda ~ 1/sqrt(V) ~ 1e-122 predicted",
+      "class": "SOLID",
+      "note": "Sorkin counting; matches obs; pre-1998"
+    },
+    {
+      "claim": "constants economy: 4 -> 2 inputs {ell_P, hbar}",
+      "class": "SOLID/STRUCTURAL",
+      "note": "c structural; G=ell_P^2 c^3/hbar (definitional closure 3e-8)"
+    },
+    {
+      "claim": "Schrodinger = NR limit of causet KG; unitarity",
+      "class": "SOLID",
+      "note": "D=c^2/2m, err->0; norm drift 2.5e-14"
+    },
+    {
+      "claim": "charge = phi-winding, quantized; locality",
+      "class": "SOLID",
+      "note": "rung 4: winding err 0.000; links 1.1 ell (manifold-like)"
+    },
+    {
+      "claim": "GR & QM share one path integral",
+      "class": "STRUCTURAL",
+      "note": "Z=Sum_C int Dpsi -> both; the deep unification claim"
+    },
+    {
+      "claim": "Einstein eqn (GR limit)",
+      "class": "ASSEMBLED",
+      "note": "BD->EH + field T_mu_nu + Lambda; flat baseline ok, curved OPEN"
+    },
+    {
+      "claim": "Born rule (attractor + decoherence)",
+      "class": "TRANSFERRED",
+      "note": "from QNG 1.0 P103-105 (Madelung); native causet derivation OPEN"
+    },
+    {
+      "claim": "3 generations=3 dims; hadrons=Skyrmions; antimatter; monopoles",
+      "class": "TRANSFERRED",
+      "note": "from QNG 1.0, CONDITIONAL on manifold-like causet"
+    },
+    {
+      "claim": "gravity action suppresses non-manifold-like causets",
+      "class": "LITERATURE",
+      "note": "Loomis-Carlip 2018 (cited, not re-derived); partial manifold-selection"
+    },
+    {
+      "claim": "matter field as 2nd manifold-selector",
+      "class": "CONJECTURE-TESTED-NULL",
+      "note": "rung 8: spectral proxy shows NO suppression (0.93x) -> DOWNGRADED, not supported"
+    },
+    {
+      "claim": "field mass m, Yukawas, alpha_fine",
+      "class": "OPEN",
+      "note": "rung 9: bare=0 or Planck; observed need transmutation; UNDERIVED (= SM)"
+    },
+    {
+      "claim": "full manifold-selection (interacting path integral)",
+      "class": "OPEN",
+      "note": "the central frontier; gravity-action partial only; matter channel null (rung 8)"
+    },
+    {
+      "claim": "curved-space curvature from BD operator",
+      "class": "OPEN",
+      "note": "finite-eps offset; needs curved sprinklings"
+    }
+  ],
+  "tally": {
+    "SOLID": 5,
+    "SOLID/STRUCTURAL": 1,
+    "STRUCTURAL": 1,
+    "ASSEMBLED": 1,
+    "TRANSFERRED": 2,
+    "LITERATURE": 1,
+    "CONJECTURE-TESTED-NULL": 1,
+    "OPEN": 3
+  },
+  "n_claims": 15,
+  "numerology_forced": 0,
+  "downgrades": [
+    "matter-selector conjecture -> NULL (rung 8)",
+    "masses/couplings -> UNDERIVED (rung 9)"
+  ],
+  "verdict": "QNG_2.0_HONESTY_AUDIT: CLAIMS_MATCH_THEIR_TRUE_STATUS, NONE_NUMEROLOGY-FORCED, WITH_TWO_HONEST_DOWNGRADES_FOLDED_IN. The companion to QNG 1.0's P109 audit, classifying every QNG 2.0 claim. SOLID (derived/shown on the causet with numerics): geometry from order (dimension, metric, d'Alembertian), field coherence (massive KG with a definite mass), the predicted Lambda ~ 1/sqrt(V) ~ 1e-122, the constants economy (2 inputs), Schrodinger as the NR limit + unitarity, and charge=winding + locality (on manifold-like causets). STRUCTURAL: c (the order's null cone), G=ell_P^2 c^3/hbar (a definitional closure), and the deep 'GR & QM share one path integral' unification. ASSEMBLED: the Einstein equation (BD->EH + field source + Lambda; flat baseline consistent, curved sourcing open). TRANSFERRED from QNG 1.0 (conditional on a manifold-like causet): the Born rule, 3 generations=3 dimensions, hadron Skyrmions, antimatter, monopoles. LITERATURE: the gravity action's suppression of non-manifold-like causets (Loomis-Carlip 2018, cited). And the two crucial HONEST DOWNGRADES this audit folds in: (1) the 'matter field as a second manifold-selector' conjecture was TESTED directly in rung 8 and came out NULL (the field operator is not spectrally wilder on non-manifold-like causets), so it is downgraded from 'plausible suppressor' to 'not supported' -- manifold-selection rests on the gravity action alone; (2) the field mass, Yukawa couplings, and alpha_fine are UNDERIVED (rung 9: bare values are 0 or Planck, observed masses need transmutation -- the Standard Model's hierarchy problem), explicitly not claimed solved. OPEN frontiers: full manifold-selection in the interacting path integral, curved-space curvature extraction, and the dimensionless couplings. CRUCIAL: NONE of QNG 2.0's claims is numerology-forced -- every one is derived, structurally identified, transferred-with-caveat, cited, tested (including to a null), or openly flagged. The theory's stated status matches its real status. That QNG 2.0 includes TESTED-AND-DOWNGRADED claims (rung 8 null) is the strongest evidence the discipline held: a conjecture was followed to a test, the test failed, and it was recorded as a failure rather than buried. No numbers forced."
+}

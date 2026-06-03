@@ -1,0 +1,12 @@
+{
+  "natural_bare_masses": "0 (massless) or O(1/ell_P) (Planck)",
+  "observed_over_planck": {
+    "electron": 4.188524590163934e-23,
+    "proton": 7.688524590163934e-20,
+    "Higgs": 1.0245901639344263e-17,
+    "top": 1.418032786885246e-17
+  },
+  "mechanism_needed": "dimensional transmutation / symmetry breaking (hierarchy problem)",
+  "qng2_status": "inherits QNG 1.0 transmutation (hadron scale); m, Yukawas, alpha UNDERIVED",
+  "verdict": "MASSES_AND_DIMENSIONLESS_COUPLINGS_ARE_NOT_DERIVED_BY_QNG_2.0 (honest -- and here is exactly why). Point 2 asked whether QNG 2.0 can derive the field mass m or the dimensionless couplings. The honest answer is no, and the reason is structural. (T1) The causet has a SINGLE scale, the discreteness length ell_P; a bare field mass is m = c_m/ell_P with c_m dimensionless, so the only NATURAL bare values are c_m = 0 (a massless, symmetry-protected field like the photon) or c_m = O(1) (the Planck mass). (T2) But the observed particle masses are 1e-17 to 1e-22 of the Planck mass -- absurdly far from either natural value -- so they cannot be bare masses; they require a MECHANISM (dimensional transmutation or symmetry breaking), which is precisely the Standard Model's hierarchy problem. On the causet this shows up as: field modes range from an IR frequency ~1/L (L the system size) up to a UV ~1/ell_P, so a generic excitation sits near the Planck scale and the light masses are exponentially special. (T3) QNG 2.0 adds NO new handle here beyond QNG 1.0: it inherits QNG 1.0's dimensional-transmutation route (P87, Lambda = M_P exp(-2pi/(b0 alpha)), which gives the HADRON scale from a moderate coupling and so explains that particular hierarchy), but the lepton/quark Yukawa masses and the fine-structure constant alpha remain UNDERIVED -- identical to the Standard Model's open status. So this is a SHARED open debt, not a QNG-2.0-specific failure, and it is explicitly NOT claimed solved. The honest scientific position: QNG 2.0 derives the GRAVITATIONAL constants economy (c, G, Lambda; rung 'constants') and inherits the hadron-scale transmutation, but the matter sector's dimensionless parameters are inputs, as they are everywhere in physics. Pretending otherwise would be numerology -- which this program rejects. No numbers forced."
+}

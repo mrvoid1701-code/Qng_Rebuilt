@@ -19,6 +19,10 @@ strengths. See `MANIFESTO.md`.
 | **SEL2** (`rung6`) | manifold-selection **debt paid down**: interval abundances differ qualitatively (link ratio 2.7×; manifold decays, random peaks); **BD gravity action SUPPRESSES non-manifold-like causets** (Loomis-Carlip 2018) → partially resolved before matter; QNG 2.0 matter = 2nd suppressor | SELECTION_PARTIALLY_RESOLVED |
 | **PRED** (`rung7`) | **predictions** (falsifiable + distinct): **(1) NO directional LIV** (Lorentz exact → splits from QNG 1.0's η_LV; CTA test); **(2) fluctuating w(z)** (everpresent Λ → vs ΛCDM & QNG 1.0; DESI test); + isotropic swerves, no SUSY, Λ~10⁻¹²² | FALSIFIABLE_AND_DISTINCT |
 
+| **SUP** (`rung8`) | matter-as-selector conjecture **TESTED → NULL** (field operator not wilder on non-manifold causets, 0.93×) → downgraded; selection rests on gravity action alone (honest correction) | MATTER_SELECTOR_NULL |
+| **MASS** (`rung9`) | field mass m, Yukawas, α: **UNDERIVED** (bare=0 or Planck; observed need transmutation = SM hierarchy). QNG 2.0 adds no new handle; not claimed | MASSES_UNDERIVED_SHARED_DEBT |
+| **AUDIT** (`rung10`) | honesty audit: 15 claims (5 SOLID, 2 transferred, 1 assembled, 1 literature, 1 conjecture-tested-NULL, 3 open, 2 structural); **0 numerology-forced**; 2 honest downgrades folded in | CLAIMS_MATCH_REALITY_NONE_FORCED |
+
 ## QNG 2.0 — full skeleton COMPLETE
 
 Primitives → constants (2 inputs + Λ predicted) → GR → QM (one path integral) → particle

@@ -49,6 +49,12 @@ non-manifold-like causets — turning the entropy problem's "bug" into a matter-
 selection. This is a research direction, NOT a result; it must be tested (does adding
 S_field measurably reweight the sum toward manifold-like orders?). Flagged CONJECTURE.
 
+> **UPDATE (rung 8, tested → NULL):** the conjecture was tested directly — the BD field
+> operator's spectral spread is NOT larger on non-manifold-like causets (0.93× radius,
+> 0.88× spread), so the matter action does NOT measurably suppress them via this proxy.
+> The conjecture is **DOWNGRADED: not supported**. Manifold-selection rests on the
+> **gravity action alone** (Loomis–Carlip 2018, rung 6), not on matter. Honest correction.
+
 ## Honest status
 - DERIVED/SHOWN (manifold-like causets): locality, charge quantization (rung 4).
 - TRANSFERRED (conditional on manifold-like + 3D): generations, hadrons, antimatter, monopoles.

@@ -58,9 +58,11 @@ QNG 1.0's — now on better foundations.
 
 - **Manifold-selection (THE central frontier):** generic random causets dominate the
   uniform sum (Kleitman–Rothschild). PARTIALLY resolved — the BD gravity action suppresses
-  them (Loomis–Carlip 2018) — and QNG 2.0 adds a matter-field suppressor (premise sound,
-  rung 5–6), but a full proof in the interacting path integral is open. The whole matter
-  sector is conditional on this.
+  them (Loomis–Carlip 2018, rung 6). **NOTE (rung 8 correction):** QNG 2.0's conjectured
+  matter-field suppressor was TESTED and came out NULL (the field operator is not
+  spectrally wilder on non-manifold-like causets) — so manifold-selection rests on the
+  GRAVITY action alone, not matter. A full proof in the interacting path integral is open.
+  The whole matter sector is conditional on this.
 - **Curved-space curvature extraction** from the BD operator (finite-ε offset; needs
   curved sprinklings) — the gravity-side limit beyond flat.
 - **Dimensionless couplings** (α_fine, mass ratios, the field mass m) — underived, as in
