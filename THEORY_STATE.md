@@ -3,7 +3,7 @@
 Type: `note`
 Status: `living document`
 Author: `C.D Gabriel`
-Last updated: `2026-06-01` (demo-theory session, Phases 36–70: QG infinities tamed; cosmology reconciled with locked theory; **falsification-audit gaps T3/T4/T5/T6 CLOSED, T2 ADVANCED**; LIV sharpened to single η_LV=0.0347). Prior: `2026-04-25` (COSMO+DM+DE+QG+CMB+FALSIFICATION — Yukawa-replaces-Lambda FALSIFIED; VEV+fluctuations DE+DM unification VINDICATED via 175 galaxies; Einstein 1/(16πG) derived; 5 gaps T2-T6 identified)
+Last updated: `2026-06-03` (demo-theory Phases 101–109: **QM-from-substrate arc** — kinematics derived, Born rule a dynamical fixed-point+attractor, matter=|ψ|² and the gravity source unified in one T_μν; aether reframed with emergent Lorentz; **honesty audits P107/P109** — 13 SOLID/5 ID/3 FIT, none numerology-forced; see §0a-bis). Prior: `2026-06-01` (demo-theory Phases 36–70: QG infinities tamed; cosmology reconciled; **falsification-audit gaps T3/T4/T5/T6 CLOSED, T2 ADVANCED**; LIV sharpened to single η_LV=0.0347). Prior: `2026-04-25` (COSMO+DM+DE+QG+CMB+FALSIFICATION — Yukawa-replaces-Lambda FALSIFIED; VEV+fluctuations DE+DM unification VINDICATED via 175 galaxies; Einstein 1/(16πG) derived; 5 gaps T2-T6 identified)
 Maintained: update after every locked derivation, falsification, or audit verdict
 
 > **Purpose**: single-page scannable snapshot. From this file you should be
@@ -62,6 +62,39 @@ CDM+Λ theory does — no unique CMB triumph).
 
 Files: `demo-theory/INDEX.md` (full Phase 1–70 map), `demo-theory/AUDIT-65-reconcile-with-locked-theory.md`,
 `07_validation/audits/demo-phase36..70-*/`.
+
+---
+
+## 0a-bis. At a glance — 2026-06-02/03 SESSION (demo-theory Phases 101–109): QM-from-substrate + honesty audits
+
+The QM side of the unification — previously flagged **"weak/hope"** — was derived down to
+two named, universal residuals, and the demo claims were audited for honest wording.
+
+- **P101 the aether:** the substrate IS the revived ether — a real medium, but with
+  **emergent Lorentz invariance** (no detectable Michelson-Morley wind; only the Planck-scale
+  LIV η_LV), rest frame = the **CMB frame**. Unifies Tesla (real medium) + Einstein (frame-independent laws).
+- **P102–106 QM emerges:** kinematics DERIVED (complex amplitude Z=σe^{iφ}, superposition,
+  **Schrödinger = NR limit of KG**, unitarity norm-drift 3e-14, canonical [φ,π]=iℏ_QNG); the
+  **Born rule |ψ|² is a dynamical fixed-point + attractor** (relaxation 1.012→0.042 96%, P103;
+  equivariance P104; guidance **v=∇S forced by unitarity/Madelung**, not assumed); **definite
+  outcomes from substrate decoherence** (P105); **matter density = |ψ|²** forced by single-field
+  structure in v8 (v7 overdamped can't, v8 wave can; P106).
+- **P108 one stress-energy T_μν unifies gravity + QM:** T_00 ∝ |ψ|² = the gravity source;
+  **T_0x/T_00 = p/E = v/c²** → v=c²(T_0x/T_00) = the QM guidance velocity (0.00% match). One
+  tensor → curvature (P92) AND quantum current. **This is the direct answer to "did I just put
+  GR and QM in a box?": one field, one T_μν, both roles.**
+- **Residuals (named, universal):** single-outcome interpretation (1-world vs many-worlds, P105);
+  full covariant T_μν→G_μν lattice derivation (P108).
+- **P107 QM-arc audit:** 9/9 consistent with locked theory after **1 correction** — the
+  CPU-045 "ring drift" motivation for v=∇S was overstated (overdamped v7, wrong regime,
+  self-inconsistent with P106); real basis is Madelung/unitarity (P104), unaffected.
+- **P109 headline-claims audit:** every "DERIVED" claim classified — **13 SOLID / 5 natural-
+  identification / 3 input-dependent, NONE numerology-forced**; STATE ledger relabeled so
+  identifications (G=β/z, carrier assignments, 3gen=3dim, φ=PQ, DE chain) and empirical fits
+  (hadron spectrum/Skyrme, m_τ via Koide Q=2/3, χ-DM) are marked [ID]/[FIT], not bare derivations.
+
+Files: `demo-theory/INDEX.md` (P101–109), `demo-theory/STATE-OF-QNG-2026-06-02.md`,
+`07_validation/audits/demo-phase101..109-*/`.
 
 ---
 
