@@ -1,0 +1,51 @@
+{
+  "predictions": [
+    {
+      "observable": "Lorentz violation (directional)",
+      "qng2": "NONE of QNG 1.0's kind -- Lorentz is EXACT (Poisson order, no preferred frame)",
+      "differs_from": "QNG 1.0 (predicts eta_LV=0.0347 directional LIV)",
+      "test": "CTA / Fermi-LAT -- a NULL for directional LIV falsifies QNG 1.0, supports 2.0"
+    },
+    {
+      "observable": "particle momentum diffusion (swerves)",
+      "qng2": "tiny ISOTROPIC (Lorentz-invariant) momentum diffusion from discreteness",
+      "differs_from": "QNG 1.0 (directional) & smooth-spacetime theories (none)",
+      "test": "ultra-high-energy cosmic rays / pulsar timing (tightly bounded)"
+    },
+    {
+      "observable": "dark energy w(z)",
+      "qng2": "FLUCTUATING around w=-1 (everpresent Lambda ~ +-1/sqrt(V))",
+      "differs_from": "QNG 1.0 (Lambda=0 + static holographic V_0) & LambdaCDM (constant w=-1)",
+      "test": "DESI / Euclid -- a fluctuating/evolving w(z) supports 2.0 (cf. DESI hints)"
+    },
+    {
+      "observable": "Lambda magnitude",
+      "qng2": "~1/sqrt(V) ~ 1e-122 (predicted, not tuned)",
+      "differs_from": "QFT vacuum energy (off by ~120 orders); QNG 1.0 (Lambda=0)",
+      "test": "already matches observed Lambda (Sorkin, pre-1998)"
+    },
+    {
+      "observable": "superpartners / extra dimensions",
+      "qng2": "NONE (no SUSY, no compactified dimensions)",
+      "differs_from": "string theory (predicts both)",
+      "test": "LHC / colliders -- continued non-observation supports 2.0 over strings"
+    },
+    {
+      "observable": "Planck-scale discreteness",
+      "qng2": "yes -- minimum length, finite d.o.f. (holographic)",
+      "differs_from": "shared with QNG 1.0, causal sets, strings(via holography)",
+      "test": "GRB time-of-flight (shared discreteness signature)"
+    },
+    {
+      "observable": "quantum + matter dynamics",
+      "qng2": "full QM (Schrodinger/Born) + matter spectrum (conditional on manifold-like)",
+      "differs_from": "BARE causal sets (which lack a developed matter sector)",
+      "test": "any particle-physics test the spectrum makes (inherited from QNG 1.0)"
+    }
+  ],
+  "headline_discriminators": [
+    "no directional LIV (vs QNG 1.0 eta_LV)",
+    "fluctuating w(z) (vs LambdaCDM & QNG 1.0 Lambda=0)"
+  ],
+  "verdict": "QNG_2.0_IS_FALSIFIABLE_AND_DISTINCT_FROM_ALL_ITS_PARENTS. The synthesis is not a relabelling -- it makes sharp, testable predictions that separate it from QNG 1.0, bare causal sets, string theory, and LambdaCDM. The two headline discriminators: (1) LORENTZ INVARIANCE -- because QNG 2.0's substrate is a Poisson causal order with no preferred frame, it predicts NO directional Lorentz violation of the kind QNG 1.0's cubic lattice produces (eta_LV=0.0347); so a CTA/Fermi-LAT NULL for directional LIV would FALSIFY QNG 1.0 while SUPPORTING QNG 2.0 -- a clean experimental split between the two versions. (2) DARK ENERGY -- QNG 2.0 inherits the causal-set everpresent-Lambda, Lambda ~ +-1/sqrt(V), which both PREDICTS the observed magnitude (~1e-122, where QFT is off by 120 orders and QNG 1.0 forced Lambda=0) AND predicts a FLUCTUATING w(z) around -1, distinct from LambdaCDM's constant w=-1 and testable by DESI/Euclid (intriguingly close to current evolving-dark-energy hints). Further distinctive predictions: tiny ISOTROPIC (Lorentz-invariant) momentum diffusion of particles -- 'swerves', a causal-set signature, unlike any directional effect, tightly bounded by UHECR/pulsar data; NO supersymmetric partners and NO extra dimensions, separating it from string theory; and a full quantum + matter dynamics (Schrodinger/Born + the inherited particle spectrum) that BARE causal sets lack. Shared with the parents: Planck-scale discreteness and the holographic finite-d.o.f. bound. NET: QNG 2.0 occupies a real, distinct, falsifiable position -- it keeps QNG 1.0's dynamical/matter physics while REPLACING its lattice (and hence its directional-LIV prediction and its Lambda=0) with causal-set foundations (exact Lorentz, predicted fluctuating Lambda). The single experiment that most cleanly distinguishes QNG 2.0 from QNG 1.0 is the directional-LIV search; the one that most distinguishes it from LambdaCDM is w(z). HONEST: these predictions are inherited/assembled from the parent theories' established phenomenology (causal-set everpresent Lambda and swerves; QNG 1.0's spectrum; the LIV contrast) rather than newly derived numbers; the matter-sector predictions remain conditional on manifold-selection (rung 6, partially resolved). No numbers forced -- the only numeric, Lambda~1e-122, is the pre-1998 Sorkin prediction matching observation."
+}

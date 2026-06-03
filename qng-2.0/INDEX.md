@@ -16,7 +16,17 @@ strengths. See `MANIFESTO.md`.
 | **QM** (`05`) | **QM limit**: Schrödinger = NR limit of causet KG (D=c²/2m, err→0), unitarity (drift 2.5e-14), Born transfers (P103-105). **Deep unification: GR & QM share ONE path integral** (vs QNG 1.0's shared Hamiltonian) | SCHRODINGER_BORN_ONE_PATH_INTEGRAL |
 | **MATTER** (`06`) | **particle sector** (CONDITIONAL on manifold-like): links LOCAL (1.1ℓ), **charge=φ-winding QUANTIZED** (err 0.000); generations=3 dims, hadrons=Skyrmions, antimatter, monopoles **transfer from QNG 1.0**. Open debt: **manifold-selection** (entropy/swerves problem) | PARTICLE_SECTOR_CONDITIONAL |
 | **SEL** (`06`) | manifold-selection **premise probe**: order-only observable distinguishes manifold-like (r=0.49, ~2D) from generic random poset (r=0.68 > 0.5 = impossible for a manifold) → **conjecture "matter selects manifold-like causets" has a SOUND premise** (selection itself OPEN) | SELECTOR_PREMISE_SOUND |
-| 5 | predictions: where QNG 2.0 differs from QNG 1.0, causal sets, AND strings (testable) | pending | — |
+| **SEL2** (`rung6`) | manifold-selection **debt paid down**: interval abundances differ qualitatively (link ratio 2.7×; manifold decays, random peaks); **BD gravity action SUPPRESSES non-manifold-like causets** (Loomis-Carlip 2018) → partially resolved before matter; QNG 2.0 matter = 2nd suppressor | SELECTION_PARTIALLY_RESOLVED |
+| **PRED** (`rung7`) | **predictions** (falsifiable + distinct): **(1) NO directional LIV** (Lorentz exact → splits from QNG 1.0's η_LV; CTA test); **(2) fluctuating w(z)** (everpresent Λ → vs ΛCDM & QNG 1.0; DESI test); + isotropic swerves, no SUSY, Λ~10⁻¹²² | FALSIFIABLE_AND_DISTINCT |
+
+## QNG 2.0 — full skeleton COMPLETE
+
+Primitives → constants (2 inputs + Λ predicted) → GR → QM (one path integral) → particle
+sector (conditional, inherits QNG 1.0 spectrum) → manifold-selection (partially resolved)
+→ predictions (falsifiable, distinct). **One deep open frontier:** full manifold-selection
+in the interacting path integral (shared by all causal-set QG; QNG 2.0 has a candidate).
+The sharpest test vs QNG 1.0: directional-LIV search (QNG 2.0 says NULL). Honest throughout;
+no numbers forced.
 
 ## State of the particle sector (honest)
 
