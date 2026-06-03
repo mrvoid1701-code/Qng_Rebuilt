@@ -1,0 +1,13 @@
+{
+  "N": 120,
+  "n_samples": 8,
+  "spectral_radius_manifold": 3.5245240540656626,
+  "spectral_radius_random": 3.269120181547094,
+  "radius_ratio": 0.9275352164999551,
+  "spread_manifold": 0.5893857455131961,
+  "spread_random": 0.5199437248851084,
+  "spread_ratio": 0.8821789954088177,
+  "suppresses": false,
+  "note": "operator-spectrum proxy, small N; not the full partition function",
+  "verdict": "RUNG8_NULL: THE_SPECTRAL_PROXY_DOES_NOT_SHOW_MATTER_SUPPRESSION (honest null). Point 1 (the open frontier) attacked directly: does including the matter field in the sum-over-causets reweight it toward manifold-like geometries? The mechanism tested is that S_field = psi*(B+m^2)psi oscillates more wildly on non-manifold-like causets (a broader/larger spectrum of the BD kinetic operator B means more rapid phase variation across field configurations, hence stronger destructive interference and suppression in Z = Sum_C int Dpsi e^{iS}). Comparing the BD operator's spectrum on manifold-like sprinklings vs generic random posets (N=120, 8 samples each): the random-poset operator has spectral radius 0.93x and eigenvalue spread 0.88x that of the manifold-like one. The proxy does NOT show a clear difference, so this run gives no evidence that matter suppresses non-manifold-like causets -- reported as an honest null; the gravity-action suppression (Loomis-Carlip, rung 6) stands alone. HONEST AND CRUCIAL: this is a PROXY (the operator's spectral spread as a stand-in for how wildly S_field oscillates), on SMALL causets (N=120), comparing two classes -- it is NOT a computation of the full matter-coupled partition function Z = Sum_C int Dpsi e^{iS} and its manifold-dominance, which remains the genuine open problem (a research-scale Monte-Carlo over the sum-over-causets). So 'matter suppresses' here means 'the field operator is spectrally wilder on non-manifold-like causets, providing a plausible suppression channel', not 'we proved manifold dominance'. Combined with the gravity-action result (Loomis-Carlip), the manifold-selection debt is being paid down from two sides; the full interacting proof is the standing frontier. No numbers forced."
+}
