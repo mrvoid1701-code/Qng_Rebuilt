@@ -1,0 +1,54 @@
+{
+  "scope": "compressed likelihood, representative public data, not official DESI MCMC",
+  "n_BAO": 12,
+  "n_SNe": 7,
+  "LCDM": {
+    "chi2": 21.328756125116495,
+    "Om": 0.295,
+    "h": 0.695
+  },
+  "CPL": {
+    "chi2": 16.366984999276887,
+    "Om": 0.33999999999999997,
+    "h": 0.65,
+    "w0": -0.7,
+    "wa": -0.5999999999999999,
+    "delta_chi2_vs_LCDM": 4.961771125839608
+  },
+  "everpresent_amplitude_scan": [
+    {
+      "s_v": 0.05,
+      "best_chi2": 20.760535210960015,
+      "median_chi2": 29.011933349151157,
+      "frac_beating_LCDM": 0.096
+    },
+    {
+      "s_v": 0.1,
+      "best_chi2": 20.696818479875432,
+      "median_chi2": 48.53250615406763,
+      "frac_beating_LCDM": 0.068
+    },
+    {
+      "s_v": 0.2,
+      "best_chi2": 20.348553628704998,
+      "median_chi2": 113.78249159884862,
+      "frac_beating_LCDM": 0.016
+    },
+    {
+      "s_v": 0.35,
+      "best_chi2": 20.540712970786807,
+      "median_chi2": 398.77962889123836,
+      "frac_beating_LCDM": 0.004
+    },
+    {
+      "s_v": 0.55,
+      "best_chi2": 20.05059466944593,
+      "median_chi2": 971.8007861281402,
+      "frac_beating_LCDM": 0.008
+    }
+  ],
+  "everpresent_best_frac_beating_LCDM": 0.096,
+  "finding": "data prefer SMOOTH evolving DE (CPL); everpresent random-wiggling w NOT favored -- corrects rung 12",
+  "consistent": false,
+  "verdict": "THE_COMPRESSED_DESI+CMB+SNe_FIT_CORRECTS_RUNG_12: THE_DATA_PREFER_SMOOTH_EVOLVING_DE, AND_THE_EVERPRESENT-LAMBDA's_RANDOM_WIGGLING_w_IS_NOT_FAVORED (an honest, more-negative result than the w0-wa comparison suggested). A compressed-likelihood comparison of LambdaCDM, w0waCDM (CPL), and the everpresent-Lambda ensemble against representative DESI DR1 BAO (12 points), the Planck compressed CMB distance prior (R, l_A), and a simplified binned SNe term. RESULTS: LambdaCDM best chi^2 = 21.3 (Om=0.295, h=0.695); w0waCDM (CPL) best chi^2 = 16.4 (w0=-0.70, wa=-0.60), an improvement of Delta chi^2 = 5.0 (~2 sigma) -- the data MILDLY prefer evolving dark energy, with a best-fit that crosses w=-1 (w0 > -1 today, w0+wa < -1 in the past), correctly reproducing the qualitative DESI 2024 result. THE KEY, HONEST FINDING about QNG 2.0's everpresent Lambda: scanning its fluctuation amplitude, the RANDOM, WIGGLING w(z) it produces does NOT reproduce the data's preference -- at small amplitude it reduces to LambdaCDM (no improvement), and at the amplitude that gives DESI-scale w-fluctuations (rung 12's s_v~0.55) the precise BAO+SNe distances are WRECKED (median chi^2 in the hundreds-to-thousands), so essentially NO realization beats LambdaCDM. The reason is physical and important: the data prefer a SMOOTH, monotonic-ish evolving w (which CPL provides), whereas the everpresent Lambda gives a RANDOM-WALK w that wiggles -- and the percent-level precision of the BAO distances penalizes those wiggles severely. So the full likelihood is MUCH more constraining than the (w0, wa) cloud comparison of rung 12, which only checked whether the DESI point lay within the ensemble's effective-parameter spread. THIS CORRECTS RUNG 12: the honest conclusion is NOT 'everpresent Lambda is consistent with / reaches the DESI preference', but rather 'the everpresent Lambda's wiggling w is DISFAVORED by the precise distance data -- it can only match LambdaCDM (small amplitude) or fit worse (large amplitude), and it does NOT capture the smooth evolving-DE trend the data mildly prefer'. The distinctive QNG-2.0 cosmological signature (fluctuating, -1-crossing w) is therefore CONSTRAINED to small amplitude by current data, OR is in mild tension if pushed to DESI-scale fluctuations. HONEST CAVEATS: (1) compressed likelihood, representative public data, NOT the official DESI MCMC -- absolute chi^2 approximate, SNe term simplified (true significance is SNe-sample-dependent); (2) the everpresent-Lambda phenomenology here is a specific OU realization of Sorkin's model -- a more sophisticated implementation (correlated over longer epochs, or with the genuine 1/sqrt(V) volume weighting) could fit better and should be tried before any final verdict; (3) proper Bayesian evidence (which would penalize CPL's and the stochastic model's extra freedom) is not computed. NET: the rigorous fit shows the data prefer SMOOTH evolving DE (the DESI hint), and QNG 2.0's RANDOM-WALK everpresent Lambda does not naturally produce that -- a genuine, honest, partly-negative result that tightens (and corrects) the over-optimistic rung-12 reading. The right next step is a better everpresent-Lambda implementation and the full DESI DR2 + fixed-SNe likelihood. No numbers forced."
+}
