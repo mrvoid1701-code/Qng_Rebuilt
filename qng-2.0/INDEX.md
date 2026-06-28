@@ -39,6 +39,8 @@ strengths. See `MANIFESTO.md`.
 
 | **SEL3** (`rung20`) | **attack manifold-selection** (the entropy problem) quantitatively: KR entropy ~N², so the action penalty must grow ~N² to win. MEASURED: action gap S_KR−S_man ~ **N^1.75 (SLOWER than N²) and only ~1% of the entropy** → the **naive energetic route FALLS SHORT, entropy wins**. Does NOT contradict Loomis-Carlip (their suppression is via the OSCILLATORY e^{iS} interference, not a mean-curvature gap) → rules out the easy route, the hard oscillatory mechanism stays OPEN. Honest partly-negative | NAIVE_ENERGETIC_ROUTE_FAILS_OSCILLATORY_OPEN |
 
+| **SEL4** (`rung21`) | **attack the OSCILLATORY route** (rung 20's pointer): destructive interference suppresses KR iff the action **VARIANCE** σ²_KR grows ≥N² (the right quantity, vs rung 20's mean). MEASURED: σ²_KR ~ **N^1.81 (SLOWER than N²), suppression ~1% of entropy** → **even the oscillatory proxy FALLS SHORT**. NET (r20+r21): both simple proxies fail by ~2 orders → manifold-selection genuinely needs the FULL rigorous calculation (doesn't refute Loomis-Carlip; shows the proxy can't capture it). "Bounded what does NOT work, honestly" — stays OPEN | BOTH_SIMPLE_PROXIES_FAIL_NEEDS_FULL_CALC |
+
 ## QNG 2.0 — full skeleton COMPLETE
 
 Primitives → constants (2 inputs + Λ predicted) → GR → QM (one path integral) → particle

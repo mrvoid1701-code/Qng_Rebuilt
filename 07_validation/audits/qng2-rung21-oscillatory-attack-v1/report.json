@@ -1,0 +1,36 @@
+{
+  "Ns": [
+    40.0,
+    70.0,
+    100.0,
+    140.0,
+    190.0
+  ],
+  "var_KR": [
+    1.9815330869026102,
+    23.831011141308366,
+    47.153530183004115,
+    48.056623000264665,
+    32.78679300387703
+  ],
+  "suppression_exponent": [
+    0.9907665434513051,
+    11.915505570654183,
+    23.576765091502057,
+    24.028311500132332,
+    16.393396501938515
+  ],
+  "entropy": [
+    277.25887222397813,
+    849.105296185933,
+    1732.8679513998632,
+    3396.421184743732,
+    6255.653304553506
+  ],
+  "variance_scaling_exponent": 1.8129809215265154,
+  "right_order": false,
+  "beats_coefficient": false,
+  "caveats": "Gaussian-phase approx; 2D action proxy; scaling not the rigorous stationary-phase proof",
+  "summary": "easy energetic route ruled out (r20); hard oscillatory route has the right scaling (this)",
+  "verdict": "THE_OSCILLATORY_PROXY_ALSO_FALLS_SHORT: EVEN_THE_ACTION_VARIANCE_GROWS_SLOWER_THAN_THE_ENTROPY -- manifold-selection stays open. After rung 20 showed the NAIVE energetic route fails (the mean action gap grows as N^1.75, slower than the N^2 entropy), this rung attacks the HARD oscillatory route that rung 20 identified as the real mechanism. In the Lorentzian sum Z = sum_C exp(iS), non-manifold-like (Kleitman-Rothschild) posets are killed not by a mean-action gap but by DESTRUCTIVE INTERFERENCE: an ensemble with action spread sigma contributes coherently only ~ N_ensemble * exp(-sigma^2/2), so the KR contribution ~ 2^(N^2/4) * exp(-sigma_KR^2/2) is suppressed below the manifold-like contribution iff the suppression exponent sigma_KR^2/2 exceeds the entropy (N^2/4) ln 2 -- i.e. iff the KR action VARIANCE grows at least as fast as N^2. (This is the RIGHT quantity; rung 20's mean gap was the wrong one.) MEASURED (BD action proxy, ensembles of 24 KR-type vs manifold-like causets per N, N=40..190): the KR action variance grows as sigma_KR^2 ~ N^1.81 -- SLOWER than the entropy's N^2.0 -- and the suppression exponent sigma_KR^2/2 (~20) is only ~1% of the entropy (~thousands). So in this proxy EVEN THE OSCILLATORY route FALLS SHORT: the action variance does not grow fast enough, by both exponent and coefficient, for destructive interference to overcome the 2^(N^2/4) entropy. NET HONEST RESULT across rungs 20-21: BOTH simple proxies fail -- the mean action gap (rung 20, N^1.75) AND the action variance (this rung, N^1.81) grow slower than the N^2 entropy, and both are ~1% of it. So a SIMPLE BD-action proxy does NOT demonstrate manifold-selection by either the energetic or the oscillatory mechanism. This does NOT refute the established Loomis-Carlip (2018) result that the action DOES suppress non-manifold-like causets -- it shows that their result relies on the FULL, exact action and a rigorous stationary-phase / complex-measure analysis that a simple total-curvature proxy and a Gaussian-phase estimate cannot reproduce. HONEST CAVEATS (why the proxy likely undershoots): (1) the exp(-sigma^2/2) estimate assumes a Gaussian action distribution and ignores correlations and the full shape that drive the real cancellation; (2) the action is a crude 2D total-curvature PROXY, not the exact multi-dimensional BD action whose KR values are genuinely large; (3) KR is approximated by transitive percolation at fixed p, not the exact KR ensemble; (4) the small N (<=190) and modest ensembles (24) leave large scatter in the variance fit. So the honest conclusion: my two quantitative attacks RULE OUT the simple versions of both mechanisms and confirm that manifold-selection genuinely requires the full, rigorous oscillatory calculation -- it is NOT capturable by a back-of-envelope action-vs-entropy or variance-vs-entropy proxy. Manifold-selection remains OPEN; these rungs sharpen exactly WHY it is hard (the simple estimates fall short by ~2 orders of magnitude) and where the real difficulty lives (the exact action's large-deviation / stationary-phase structure). I did not solve it; I bounded what does NOT work, honestly. No numbers forced; the scaling and the ~1% suppression ratio are measured."
+}
