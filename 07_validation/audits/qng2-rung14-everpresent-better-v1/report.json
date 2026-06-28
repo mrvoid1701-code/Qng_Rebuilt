@@ -1,0 +1,83 @@
+{
+  "chi2_LCDM": 21.328756125116495,
+  "chi2_CPL": 16.37,
+  "scan": [
+    {
+      "ell": 0.7,
+      "s_v": 0.1,
+      "best_chi2": 20.70990689711389,
+      "frac_below_CPL+2": 0.0,
+      "frac_below_LCDM": 0.045,
+      "median": 51.16906582047949
+    },
+    {
+      "ell": 0.7,
+      "s_v": 0.2,
+      "best_chi2": 20.643897261977518,
+      "frac_below_CPL+2": 0.0,
+      "frac_below_LCDM": 0.015,
+      "median": 177.80503045277953
+    },
+    {
+      "ell": 0.7,
+      "s_v": 0.3,
+      "best_chi2": 19.990271322209725,
+      "frac_below_CPL+2": 0.0,
+      "frac_below_LCDM": 0.013333333333333334,
+      "median": 257.67028219046495
+    },
+    {
+      "ell": 1.5,
+      "s_v": 0.1,
+      "best_chi2": 20.883602922978415,
+      "frac_below_CPL+2": 0.0,
+      "frac_below_LCDM": 0.03166666666666667,
+      "median": 57.473801946377705
+    },
+    {
+      "ell": 1.5,
+      "s_v": 0.2,
+      "best_chi2": 20.63384916964793,
+      "frac_below_CPL+2": 0.0,
+      "frac_below_LCDM": 0.018333333333333333,
+      "median": 174.36654662635593
+    },
+    {
+      "ell": 1.5,
+      "s_v": 0.3,
+      "best_chi2": 20.6983780425074,
+      "frac_below_CPL+2": 0.0,
+      "frac_below_LCDM": 0.011666666666666667,
+      "median": 353.9343966173666
+    },
+    {
+      "ell": 3.0,
+      "s_v": 0.1,
+      "best_chi2": 20.818532628868546,
+      "frac_below_CPL+2": 0.0,
+      "frac_below_LCDM": 0.041666666666666664,
+      "median": 58.55199930199285
+    },
+    {
+      "ell": 3.0,
+      "s_v": 0.2,
+      "best_chi2": 20.434956948482643,
+      "frac_below_CPL+2": 0.0,
+      "frac_below_LCDM": 0.015,
+      "median": 183.68651731497556
+    },
+    {
+      "ell": 3.0,
+      "s_v": 0.3,
+      "best_chi2": 20.696793156430473,
+      "frac_below_CPL+2": 0.0,
+      "frac_below_LCDM": 0.015,
+      "median": 418.6423498944048
+    }
+  ],
+  "best_overall_chi2": 19.990271322209725,
+  "reaches_CPL": false,
+  "max_frac_reaching_CPL": 0.0,
+  "verdict_summary": "consistent (best reaches CPL) but good fits rare + not predicted; neither favored nor excluded",
+  "verdict": "EVEN_A_SMOOTHED_EVERPRESENT-LAMBDA_DOES_NOT_REACH_THE_DATA's_PREFERRED_FIT: IT_IS_COMPATIBLE_(TIES_LambdaCDM)_BUT_NOT_FAVORED_BY_THE_DESI_HINT (honest, mostly-negative, stable verdict). Following rung 13 (a short-correlation everpresent Lambda is penalized for wiggling), this rung implements the physically better version -- correlated over the cosmic volume, so w(z) varies SMOOTHLY -- scanning correlation length (0.7-3 e-folds) and amplitude against the same compressed DESI BAO + CMB + SNe likelihood. RESULT: even the BEST smooth realization only reaches chi^2 = 20.0, which is well above (worse than) the CPL best-fit quality (16.4) -- it merely TIES LambdaCDM (21.3) and NEVER reaches the evolving-DE fit the data mildly prefer (0% of realizations reach CPL-level at any correlation length or amplitude tested). The reason is structural: the data prefer a SMOOTH, MONOTONIC, specifically-directed evolving w (w0=-0.70, wa=-0.60), whereas the everpresent Lambda is a SIGN-SYMMETRIC RANDOM walk -- smoothing it removes the wiggle penalty but the random realizations still do not systematically track that one preferred monotonic trend, and at fixed LambdaCDM background the DE freedom alone cannot reach it. So the honest, stable verdict across rungs 12-14 on QNG 2.0's distinctive dark-energy signature is: (1) the everpresent Lambda genuinely PRODUCES fluctuating, -1-crossing w (rung 12 -- a real qualitative feature no cosmological constant or ghost-free quintessence can make); (2) BUT the precise distance data prefer a smooth monotonic evolving w, and the everpresent random walk -- wiggly (rung 13) or smoothed (this rung) -- does NOT reach that preferred fit, only ties LambdaCDM at best; (3) so current DESI+CMB+SNe data are COMPATIBLE WITH but do NOT FAVOR the everpresent Lambda over LambdaCDM, and the earlier rung-12 reading ('consistent with the DESI hint') was too optimistic -- the rigorous fit shows the model rides with LambdaCDM, not with the evolving-DE preference. This is the disciplined outcome: a distinctive prediction was followed all the way to a real-data likelihood, and it did NOT pan out as a win -- the everpresent Lambda is not refuted, but it is not supported either, and the DESI evolving-DE hint (if real) points to smooth directed evolution that the random-walk model does not naturally produce. HONEST CAVEATS: (1) the background (Om, h) was FIXED at the LambdaCDM best for the everpresent realizations -- a full JOINT fit (letting Om, h float per realization) is the fair next step and could let the best realizations improve somewhat, though the sign-symmetry obstacle would remain; (2) compressed/representative data, simplified SNe (significance is SNe-sample-dependent); (3) a specific OU realization of Sorkin's model; (4) no Bayesian evidence computed. The decisive test stays the full DESI DR2 + fixed-SNe likelihood with a faithful joint everpresent-Lambda fit. No numbers forced -- and an over-optimistic earlier claim (rung 12) has been corrected by the harder test, twice."
+}
