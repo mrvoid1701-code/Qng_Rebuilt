@@ -29,6 +29,8 @@ strengths. See `MANIFESTO.md`.
 | **FIT2** (`rung14`) | **better (smooth) everpresent-Λ**, background FIXED: best χ²~20.0, only ties ΛCDM, 0% reach CPL → caveat = fixed background. Superseded by rung 15's fair joint fit | EVERPRESENT_FIXED_BG_TIES_LCDM |
 | **FIT3** (`rung15`) | **FAIR joint fit** (Ωm,h FREE per realization, same fine grid for all — caught & fixed 2 grid bugs first): ΛCDM χ²=19.6, CPL χ²=15.1 (Δ=4.5 ~2σ). **Best everpresent χ²=15.7 → REACHES CPL!** Fixed-background handicap DID matter. **But good fits RARE (~7% reach CPL-level), median ~ΛCDM.** Final stable verdict: everpresent-Λ **CONSISTENT** (best realizations reach the DESI-preferred fit) **but doesn't PREDICT it** (rare, sign-symmetric) → compatible, not marginally favored. rung 12 corrected 3× | EVERPRESENT_CAN_REACH_CPL_BUT_RARE_FAIR_JOINT_FIT |
 
+| **FORCE** (`rung16`) | **the gauge/force sector on the causet** (NEW physics — QNG 2.0 had only a scalar): gauge fields U_ij on causet links, plaquettes = causal diamonds. **Gauge invariance EXACT** (U(1) & SU(2), ~1e-16); **U(1)=Maxwell photon** (pure-gauge F=0); **SU(2) confinement tendency** (⟨plaq⟩ 0.18→0.65, β 0.5→4). QNG 1.0 force sector transfers, now background-free+Lorentz-exact. **Honest: causet gauge theory underdeveloped; plaquette non-canonical; continuum Yang-Mills limit OPEN. Proof of concept** | FORCE_SECTOR_ON_CAUSET_PROOF_OF_CONCEPT |
+
 ## QNG 2.0 — full skeleton COMPLETE
 
 Primitives → constants (2 inputs + Λ predicted) → GR → QM (one path integral) → particle
