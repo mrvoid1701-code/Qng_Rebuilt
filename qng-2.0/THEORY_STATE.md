@@ -70,6 +70,22 @@ QNG 1.0's — now on better foundations.
 - **Native Born derivation** on the causet path integral (currently transferred from 1.0);
   single-outcome interpretation (universal).
 
+## 5a. Black-hole thermodynamics (added, rungs 17–18)
+- **Entropy = AREA** from counting horizon molecules (causal links straddling the horizon):
+  count ~ R^2.18 (area) vs interior ~ R^2.74 (volume) → Bekenstein-Hawking S∝A (Dou-Sorkin).
+- **Hawking/Unruh temperature**: horizon correlator satisfies the KMS thermal condition
+  (periodic s→s−i·2π/a, ~1e-16); detector detailed balance recovers T=a/2π (1% err);
+  discreteness = the physical UV regulator. Both pillars (S and T) now on the causet.
+
+## 5b. Force sector (added, rung 16)
+- Gauge fields on causet links: **gauge invariance EXACT** (U(1) & SU(2)); U(1)=Maxwell photon;
+  SU(2) confinement tendency. **Proof of concept** — continuum Yang-Mills limit + the group OPEN.
+
+## 5c. Final audit (rung 19)
+- 25 results classified: **9 SOLID / 3 structural / 2 transferred / 1 assembled / 1 literature /
+  1 proof-of-concept / 3 tested-negative / 5 open; ZERO numerology-forced.** Honest negatives
+  recorded (matter-selector NULL, shield no-relief, DESI compatible-not-favored corrected 3×).
+
 ## 6. HONEST self-assessment
 
 QNG 2.0 has a complete, coherent SKELETON with every rung numerically checked and honestly

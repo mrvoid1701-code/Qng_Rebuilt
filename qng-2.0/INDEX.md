@@ -35,6 +35,8 @@ strengths. See `MANIFESTO.md`.
 
 | **HAWK** (`rung18`) | **Hawking/Unruh temperature on the causet** (the radiation, after rung 17's entropy): horizon correlator W(s)~1/sinh²(as/2) satisfies the **KMS thermal condition** (periodic s→s−i·2π/a, verified ~1e-16) → thermal at **T=a/2π**; detector **detailed balance** R(−E)/R(+E)=e^{E/T} recovers **T=0.160 (err 1%)**, more exact as discreteness ℓ→0 (ℓ = the physical UV regulator). T_H(1 M☉)=6.2e-8 K. With rung 17 → both pillars (S & T) of BH thermo. Honest: T=a/2π exact continuum; full causet SJ Unruh = frontier | HAWKING_TEMPERATURE_KMS_DETAILED_BALANCE |
 
+| **AUDIT** (`rung19`) | **FINAL consolidation audit** (whole theory, 25 results): **9 SOLID, 3 structural, 2 transferred, 1 assembled, 1 literature, 1 proof-of-concept, 3 tested-negative, 5 open; ZERO numerology-forced**. Records the honest corrections (matter-selector NULL, shield no-relief, DESI corrected 3×) + bugs caught before presenting. Net: coherent honest synthesis | FINAL_AUDIT_25_ITEMS_0_FORCED |
+
 ## QNG 2.0 — full skeleton COMPLETE
 
 Primitives → constants (2 inputs + Λ predicted) → GR → QM (one path integral) → particle
