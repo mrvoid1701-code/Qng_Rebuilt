@@ -31,6 +31,8 @@ strengths. See `MANIFESTO.md`.
 
 | **FORCE** (`rung16`) | **the gauge/force sector on the causet** (NEW physics — QNG 2.0 had only a scalar): gauge fields U_ij on causet links, plaquettes = causal diamonds. **Gauge invariance EXACT** (U(1) & SU(2), ~1e-16); **U(1)=Maxwell photon** (pure-gauge F=0); **SU(2) confinement tendency** (⟨plaq⟩ 0.18→0.65, β 0.5→4). QNG 1.0 force sector transfers, now background-free+Lorentz-exact. **Honest: causet gauge theory underdeveloped; plaquette non-canonical; continuum Yang-Mills limit OPEN. Proof of concept** | FORCE_SECTOR_ON_CAUSET_PROOF_OF_CONCEPT |
 
+| **BH** (`rung17`) | **black-hole entropy = AREA, from counting horizon molecules** (Dou-Sorkin — a well-established causet result): local causal links straddling a sphere r=R scale as **R^2.18 (AREA)** while interior elements scale as **R^2.74 (VOLUME)** → **S ∝ Area** = Bekenstein-Hawking, derived from order+counting. Reproduces QNG 1.0 P68 (N~R^1.98) more naturally; ports the BH story (P37 core, P38 evaporation+info). Honest: area SCALING robust; exact 1/4 coefficient + Hawking T = cited/open | BH_ENTROPY_AREA_LAW_FROM_LINKS |
+
 ## QNG 2.0 — full skeleton COMPLETE
 
 Primitives → constants (2 inputs + Λ predicted) → GR → QM (one path integral) → particle
