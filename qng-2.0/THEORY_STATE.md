@@ -49,7 +49,7 @@ QNG 1.0's — now on better foundations.
 | Prediction | vs | Test |
 |---|---|---|
 | **NO directional LIV** (Lorentz exact) | QNG 1.0 (η_LV=0.0347) | CTA/Fermi — a NULL splits 2.0 from 1.0 |
-| **fluctuating w(z)** (everpresent Λ) — but **CONSTRAINED**: the compressed DESI+CMB+SNe fit (rung 13) shows the data prefer SMOOTH evolving w; the random-wiggling everpresent Λ is disfavored at DESI-scale amplitude (must stay small ≈ ΛCDM) | ΛCDM (const) & QNG 1.0 (Λ=0) | DESI/Euclid (rung 13 done; full DR2 fit next) |
+| **fluctuating w(z)** (everpresent Λ) — status after the **fair joint fit** (rungs 12–15): everpresent Λ produces fluctuating, −1-crossing w (a real feature ΛCDM/ghost-free quintessence can't); with Ωm,h free its **best realizations REACH the DESI-preferred CPL fit** (χ²≈15.7 vs CPL 15.1, ΛCDM 19.6) → **CONSISTENT**, but good fits are **RARE (~7%)** and it does **not PREDICT** the trend (sign-symmetric) → **compatible, not (marginally) favored** | ΛCDM (const) & QNG 1.0 (Λ=0) | DESI/Euclid (compressed fit done; full DR2 next) |
 | Λ ~ 1/√V ~ 10⁻¹²² | QFT (off 120 orders), QNG 1.0 (Λ=0) | matches obs (Sorkin) |
 | isotropic **swerves** (Lorentz-inv. momentum diffusion) | smooth-spacetime (none) | UHECR / pulsar timing |
 | no SUSY, no extra dimensions | string theory | colliders |
