@@ -37,6 +37,8 @@ strengths. See `MANIFESTO.md`.
 
 | **AUDIT** (`rung19`) | **FINAL consolidation audit** (whole theory, 25 results): **9 SOLID, 3 structural, 2 transferred, 1 assembled, 1 literature, 1 proof-of-concept, 3 tested-negative, 5 open; ZERO numerology-forced**. Records the honest corrections (matter-selector NULL, shield no-relief, DESI corrected 3×) + bugs caught before presenting. Net: coherent honest synthesis | FINAL_AUDIT_25_ITEMS_0_FORCED |
 
+| **SEL3** (`rung20`) | **attack manifold-selection** (the entropy problem) quantitatively: KR entropy ~N², so the action penalty must grow ~N² to win. MEASURED: action gap S_KR−S_man ~ **N^1.75 (SLOWER than N²) and only ~1% of the entropy** → the **naive energetic route FALLS SHORT, entropy wins**. Does NOT contradict Loomis-Carlip (their suppression is via the OSCILLATORY e^{iS} interference, not a mean-curvature gap) → rules out the easy route, the hard oscillatory mechanism stays OPEN. Honest partly-negative | NAIVE_ENERGETIC_ROUTE_FAILS_OSCILLATORY_OPEN |
+
 ## QNG 2.0 — full skeleton COMPLETE
 
 Primitives → constants (2 inputs + Λ predicted) → GR → QM (one path integral) → particle

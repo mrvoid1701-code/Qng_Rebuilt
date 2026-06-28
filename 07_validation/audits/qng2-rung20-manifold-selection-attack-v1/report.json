@@ -1,0 +1,42 @@
+{
+  "Ns": [
+    40.0,
+    70.0,
+    100.0,
+    140.0,
+    190.0
+  ],
+  "S_manifold": [
+    23.241287052548145,
+    36.14514453694379,
+    51.11218861104986,
+    67.11485008374424,
+    97.06649108115423
+  ],
+  "S_KR": [
+    27.112362042237585,
+    43.42718139662432,
+    66.71860719923518,
+    104.37264609415591,
+    146.57360062690003
+  ],
+  "action_gap": [
+    3.87107498968944,
+    7.282036859680531,
+    15.60641858818532,
+    37.25779601041167,
+    49.507109545745806
+  ],
+  "entropy": [
+    277.25887222397813,
+    849.105296185933,
+    1732.8679513998632,
+    3396.421184743732,
+    6255.653304553506
+  ],
+  "gap_scaling_exponent": 1.746421918816052,
+  "entropy_exponent": 2.0,
+  "action_keeps_up_with_entropy": false,
+  "caveats": "2D BD-action proxy; scaling not coefficient; Lorentzian oscillatory sum is the real open problem",
+  "verdict": "MANIFOLD-SELECTION_ATTACK: THE_NAIVE_ENERGETIC_ROUTE_FALLS_SHORT -- THE_ENTROPY_WINS_IN_THIS_PROXY; THE_REAL_(OSCILLATORY)_MECHANISM_REMAINS_THE_OPEN_FRONTIER (an honest, clarifying, partly-negative result). This rung attacks QNG 2.0's (and all of causal set theory's) central open problem -- the entropy problem of manifold selection -- quantitatively rather than by conjecture. The uniform measure on causal sets is dominated by Kleitman-Rothschild (KR) random posets, ~2^(N^2/4) of them, which are NOT manifold-like; manifold-like spacetime emerges only if the action-weighted sum-over-causets SUPPRESSES the KR posets enough to overcome their entropy. The decisive scaling test: the KR entropy bonus grows as (N^2/4) ln 2 ~ N^2, so the action penalty S_KR - S_manifold must grow at least as ~N^2 -- and be comparable in size -- to compete. MEASURED (BD action proxy S = sum_x B[1](x), the discrete total curvature, manifold-like 2D sprinklings vs KR-type transitive-percolation posets, N=40..190): the action gap grows as N^1.75 -- SLOWER than the entropy's N^2.0 -- AND it is only ~1.0% of the entropy, with the ratio not increasing. So in this naive ENERGETIC proxy the ENTROPY WINS: a simple 'action penalty beats entropy bonus' argument FALLS SHORT, by both exponent and coefficient. THE HONEST, IMPORTANT POINT: this does NOT contradict the established Loomis-Carlip (2018) result that the BD action suppresses non-manifold-like causets -- because their suppression operates in the FULL LORENTZIAN, OSCILLATORY sum (weight e^{iS}), where KR posets are killed by DESTRUCTIVE INTERFERENCE from the action's large fluctuating phase, NOT by a mean-curvature energy gap of the kind this Euclidean-style proxy measures. So the result CLARIFIES the problem: the intuitive 'the action energetically outweighs the entropy' route is ruled out (the mean action gap is far too small), and the real selection mechanism MUST be the subtle oscillatory/interference one -- which this proxy cannot capture and which remains genuinely OPEN (Loomis-Carlip made real progress but the problem is NOT fully solved in the field). NET: attacking manifold-selection quantitatively yields an honest, clarifying, partly-negative result -- the naive energetic argument fails, so QNG 2.0's central matter debt is NOT closed here; it is sharpened, with the hard oscillatory-measure calculation identified as the only remaining route. HONEST CAVEATS: (1) 2D BD-action PROXY (total curvature), not the exact multi-dim action; (2) KR approximated by transitive percolation; (3) the Euclidean-style energy-vs-entropy framing is itself the wrong picture for the Lorentzian sum -- which is exactly the lesson. So this rung does not solve manifold-selection (no one has); it rules out the easy route and points at the hard one. No numbers forced; the scaling exponent and ratio are measured."
+}
