@@ -1,0 +1,19 @@
+{
+  "ell_efolds": 0.5,
+  "amplitude_s_v": 0.55,
+  "n_real": 400,
+  "fraction_crossing_-1": 0.8,
+  "rms_w_plus_1": 0.18572609599852627,
+  "w0_mean": -1.0034516979028063,
+  "w0_std": 0.23992753514537793,
+  "wa_mean": 0.004424504186542378,
+  "wa_std": 0.4029029455853433,
+  "desi_w0": -0.83,
+  "desi_wa": -0.75,
+  "desi_w0_sigma": 0.7229336882809543,
+  "desi_wa_sigma": -1.8724720492934184,
+  "desi_consistent": true,
+  "desi_phantom_crossing": true,
+  "key": "fluctuating w crossing -1 -- LambdaCDM & quintessence cannot; DESI hints it",
+  "verdict": "QNG_2.0_PRODUCES_A_FLUCTUATING_w(z)_THAT_CROSSES_-1, NATURALLY_MATCHING_DESI's_PHANTOM-CROSSING_HINT (a feature LambdaCDM and quintessence cannot produce). This develops QNG 2.0's distinctive cosmological prediction quantitatively. QNG 2.0 inherits the causal-set everpresent Lambda (Lambda ~ +-1/sqrt(V), fluctuating, rung 4), so the dark-energy density is NOT constant -- it does a slow random walk. Modelling the log-derivative v = d ln rho_DE/dN as a correlated (Ornstein-Uhlenbeck) process and using the continuity equation w = -1 - v/3, with the fluctuation amplitude as the model's single normalization (set to a DESI-scale ~0.15), 400 realizations give a w(z) that: (1) fluctuates around -1 with rms |w+1| ~ 0.19; (2) CROSSES w=-1 in 80% of realizations within 0<z<2 -- a phantom crossing; and (3) has an effective (w0, wa) cloud (w0 mean -1.00 std 0.24, wa mean 0.00 std 0.40) that CONTAINS the DESI 2024 hint (w0=-0.83, wa=-0.75) at 0.7 / -1.9 sigma. The crucial point: the DESI hint itself crosses -1 (w0 > -1 today, w0+wa < -1 in the past), and this PHANTOM CROSSING is something a cosmological constant (w=-1 exactly) and ordinary quintessence (w >= -1, cannot cross without ghosts) CANNOT produce -- whereas QNG 2.0's fluctuating everpresent Lambda produces it NATURALLY, because a randomly-walking rho_DE has w wiggling above and below -1 generically. So QNG 2.0 occupies exactly the part of dark-energy model space that DESI is pointing toward, and it does so for a structural reason (discreteness + the unimodular Lambda-V conjugacy), not by adding a tuned field. THIS IS A REAL, CURRENT, FALSIFIABLE TEST: DESI is taking data now; if the evolving-DE / phantom-crossing signal strengthens, it supports QNG 2.0 (and the everpresent-Lambda class) over LambdaCDM; if it vanishes back to w=-1, QNG 2.0's fluctuating DE is constrained to small amplitude. HONEST CAVEATS: (1) the everpresent-Lambda prediction is STOCHASTIC -- a BAND of w(z) curves, not a single deterministic curve, so QNG 2.0 predicts 'fluctuating w that crosses -1', not a precise w(z); (2) the amplitude is the model's one free normalization (here tuned to DESI scale -- the robust, un-tuned prediction is the CROSSING and the fluctuation, not the amplitude); (3) the model is Sorkin et al.'s everpresent Lambda, which QNG 2.0 inherits via its causal-set foundation, not a QNG-2.0-only invention; (4) the DESI signal is currently ~2-4 sigma and SNe-sample-dependent, NOT decisive; a full likelihood fit to DESI+CMB+SNe is the proper next step. (5) IMPORTANT honest limitation: the everpresent-Lambda random walk is SIGN-SYMMETRIC, so the model predicts wa ~ 0 +- 0.4 (no preferred sign) and merely ACCOMMODATES DESI's specific negative wa at the ~2 sigma edge -- it does NOT predict the sign of the evolution; the robust, sign-independent prediction is the fluctuation-and-crossing, not the direction. NET: QNG 2.0 makes a concrete, currently-testable cosmological prediction -- a fluctuating, -1-crossing w(z) -- that is qualitatively the DESI hint and that its main rivals structurally cannot make. No numbers forced beyond the single amplitude normalization, which is explicitly flagged."
+}

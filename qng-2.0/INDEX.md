@@ -23,6 +23,9 @@ strengths. See `MANIFESTO.md`.
 | **MASS** (`rung9`) | field mass m, Yukawas, α: **UNDERIVED** (bare=0 or Planck; observed need transmutation = SM hierarchy). QNG 2.0 adds no new handle; not claimed | MASSES_UNDERIVED_SHARED_DEBT |
 | **AUDIT** (`rung10`) | honesty audit: 15 claims (5 SOLID, 2 transferred, 1 assembled, 1 literature, 1 conjecture-tested-NULL, 3 open, 2 structural); **0 numerology-forced**; 2 honest downgrades folded in | CLAIMS_MATCH_REALITY_NONE_FORCED |
 
+| **SHIELD** (`rung11`) | does causet discreteness relax the negative-energy bound (Ford-Roman) → a gravity shield? **NO** at macroscopic scales: ratio R(τ)→1 by ~10 t_P; at τ~seconds R=1.000000; sustained shield needs τ→∞ neg-energy → 0 for both. Modified only at τ~t_P (full causet QI open, irrelevant to shields). Honest null | NO_SHIELD_DISCRETENESS_NO_RELIEF |
+| **DESI** (`rung12`) | **quantitative w(z)** from everpresent-Λ: fluctuating DE, **w crosses −1 in 80% of realizations** (rms\|w+1\|~0.19) — phantom crossing **ΛCDM & quintessence CANNOT do**. DESI 2024 hint (w0=−0.83,wa=−0.75) **CONSISTENT** (within ensemble). Caveat: stochastic band, sign-symmetric (doesn't predict wa sign), amplitude = 1 knob | FLUCTUATING_W_CROSSES_-1_DESI_CONSISTENT |
+
 ## QNG 2.0 — full skeleton COMPLETE
 
 Primitives → constants (2 inputs + Λ predicted) → GR → QM (one path integral) → particle
