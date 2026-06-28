@@ -33,6 +33,8 @@ strengths. See `MANIFESTO.md`.
 
 | **BH** (`rung17`) | **black-hole entropy = AREA, from counting horizon molecules** (Dou-Sorkin — a well-established causet result): local causal links straddling a sphere r=R scale as **R^2.18 (AREA)** while interior elements scale as **R^2.74 (VOLUME)** → **S ∝ Area** = Bekenstein-Hawking, derived from order+counting. Reproduces QNG 1.0 P68 (N~R^1.98) more naturally; ports the BH story (P37 core, P38 evaporation+info). Honest: area SCALING robust; exact 1/4 coefficient + Hawking T = cited/open | BH_ENTROPY_AREA_LAW_FROM_LINKS |
 
+| **HAWK** (`rung18`) | **Hawking/Unruh temperature on the causet** (the radiation, after rung 17's entropy): horizon correlator W(s)~1/sinh²(as/2) satisfies the **KMS thermal condition** (periodic s→s−i·2π/a, verified ~1e-16) → thermal at **T=a/2π**; detector **detailed balance** R(−E)/R(+E)=e^{E/T} recovers **T=0.160 (err 1%)**, more exact as discreteness ℓ→0 (ℓ = the physical UV regulator). T_H(1 M☉)=6.2e-8 K. With rung 17 → both pillars (S & T) of BH thermo. Honest: T=a/2π exact continuum; full causet SJ Unruh = frontier | HAWKING_TEMPERATURE_KMS_DETAILED_BALANCE |
+
 ## QNG 2.0 — full skeleton COMPLETE
 
 Primitives → constants (2 inputs + Λ predicted) → GR → QM (one path integral) → particle

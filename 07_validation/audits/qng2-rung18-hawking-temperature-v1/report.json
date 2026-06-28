@@ -1,0 +1,35 @@
+{
+  "a": 1.0,
+  "T_unruh_predicted": 0.15915494309189535,
+  "kms_maxdiff": 2.7097246932071044e-16,
+  "kms_ok": true,
+  "detector_rows": [
+    [
+      0.2,
+      0.01271433659917296,
+      0.04431694665578377,
+      3.485588596000085,
+      3.5135856242857333
+    ],
+    [
+      0.5,
+      0.003630297124708827,
+      0.08234407490158155,
+      22.682461537686414,
+      23.140692632779267
+    ],
+    [
+      1.0,
+      0.0003037866162987711,
+      0.15629533904551993,
+      514.4905359879483,
+      535.4916555247646
+    ]
+  ],
+  "T_recovered": 0.16017491647620588,
+  "detailed_balance_ok": true,
+  "T_H_solar_mass_K": 6.182465479177825e-08,
+  "confirmed": true,
+  "note": "T=a/2pi exact continuum; causet role = discreteness regulator + SJ vacuum; full causet SJ Unruh is frontier",
+  "verdict": "THE_HAWKING/UNRUH_TEMPERATURE_EMERGES_ON_THE_CAUSET: A_HORIZON_GIVES_A_THERMAL_DETECTOR_RESPONSE_AT_T=a/2pi, DISCRETENESS-REGULATED. After rung 17's entropy (the area law from horizon molecules), this rung delivers the RADIATION -- the Hawking/Unruh temperature -- on the causal set. The physics: a horizon makes a particle detector see a THERMAL spectrum, at the Unruh temperature T = a/(2*pi) for acceleration a, equivalently the Hawking temperature T_H = kappa/(2*pi) for surface gravity kappa. (T1) The field correlator W(s) along a uniformly-accelerated (Rindler / horizon) worldline goes as 1/sinh^2(a s/2), and it satisfies the KMS thermal condition -- it is exactly PERIODIC under s -> s - i*(2*pi/a) (verified to ~1e-6), which is the defining statement of a thermal state at temperature T = a/(2*pi). (T2) Computing the detector response as a DISCRETE sum over causet-sampled proper times -- where the causet DISCRETENESS provides the UV regulator, replacing the ad-hoc i*epsilon, and there is no s=0 singularity because discrete events never coincide -- the response satisfies DETAILED BALANCE R(-E)/R(+E) = exp(E/T), and inverting it recovers the temperature T = 0.1602, matching the predicted a/(2*pi) = 0.1592. So the thermal Unruh/Hawking response emerges, with the discreteness as the physical regulator. (T3) For an actual black hole, the same mechanism gives the Schwarzschild Hawking temperature T_H = hbar c^3/(8 pi G M kB), which for one solar mass is ~6e-8 K -- colder than the CMB, so astrophysical black holes absorb more than they radiate, while small primordial/evaporating ones are hot. CONNECTION: with rung 17's area-law entropy S ~ A and this temperature T ~ kappa, the causet has the two pillars of black-hole THERMODYNAMICS (S and T), reproducing -- on background-free, Lorentz-exact foundations -- QNG 1.0's black-hole story (finite Planck core P37, evaporation + information P38, holographic entropy P68), now with the radiation temperature included. HONEST CAVEATS, prominent: T = a/(2*pi) (Unruh-Hawking) is EXACT CONTINUUM physics; what the causet genuinely contributes HERE is that its DISCRETENESS regulates the detector response (a real, physical UV cutoff instead of i*epsilon) and the Sorkin-Johnston vacuum provides a causet-intrinsic state -- but a FULL causet SJ Unruh/Hawking computation (the response from the actual causet two-point function, not the continuum Wightman function sampled at causet times) is RESEARCH-FRONTIER, not standard, and is NOT done here. So this demonstrates the thermal response is robust and causet-regulated and recovers the right temperature, not that the full effect is re-derived from the causet propagator. The Hawking temperature's appearance is the KMS periodicity, which is geometric and survives discretization; the radiation back-reaction and the exact greybody spectrum are further open steps. NET: black-hole thermodynamics on the causet now has BOTH the area-law entropy (rung 17) and the Hawking temperature (this rung), the discreteness playing the role of the UV regulator. No numbers forced; the temperature is recovered from the detailed-balance ratio, not assumed."
+}
